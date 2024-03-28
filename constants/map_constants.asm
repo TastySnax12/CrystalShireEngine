@@ -37,7 +37,7 @@ ENDM
 
 
 	newgroup NEW_BARK                                             ; 24
-	map_const NEW_BARK_TOWN,                               10,  9 ;  4
+	map_const NEW_BARK_TOWN,                               10, 10 ;  4
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  6
 	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  7
 	endgroup
