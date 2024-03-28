@@ -1,39 +1,33 @@
-# CrystalShireEngine (CSE)
+# Pokemon Platinum Generation 2
 
-CrystalShireEngine (CSE) is an enhanced engine for Pokemon Crystal romhacking.
+Pokemon Platinum Generation 2 (referred to as "PPG2") is a project uses a modified version of pokecrystal16 
+(specificallypokecrystal16-493-plus) as a base to recreate Pokemon Platinum for the Nintendo DS on exclusively Game Boy Color 
+hardware in the style of Gold, Silver, and Crystal versions. Since the difference between the hardware is so massive, there 
+are considerations and changes to graphical, map, music, and gameplay design. 
 
-## Features
+## FAQs
 
-- **Extended 16-bit Indexes:** Pokemon & Moves. Detailed info & usage can be found at the [pokecrystal16 wiki](https://github.com/vulcandth/pokecrystal16/wiki). Credits: [aaaaaa123456789](https://github.com/aaaaaa123456789), [vulcandth](https://github.com/vulcandth), [Rangi42](https://github.com/Rangi42).
-- **Newbox:** Complete overhaul of Bill's PC. Credits: [Rangi42](https://github.com/Rangi42), [FredrIQ](https://github.com/FredrIQ), [vulcandth](https://github.com/vulcandth).
-- **Assembly Optimizations:** Provides minor improvements in CPU cycles and memory usage.
-- **Improved Farcall:** From PolishedCrystal, preserves all registers. Credits: [Rangi42](https://github.com/Rangi42), [FredrIQ](https://github.com/FredrIQ), Pokemon Polished Crystal.
-- **60fps Overworld & CGB Doublespeed Mode:** Experience smoother gameplay with a 60fps overworld and enhanced performance on Color Game Boy. Credits: [vulcandth](https://github.com/vulcandth), [FredrIQ](https://github.com/FredrIQ), [luckytyphlosion](https://github.com/luckytyphlosion).
-- **Running Shoes:** Press the B button to use running shoes, making navigation faster. Credits: [vulcandth](https://github.com/vulcandth), [FredrIQ](https://github.com/FredrIQ), [luckytyphlosion](https://github.com/luckytyphlosion).
-- **Gender-Accurate Link Battle/Trade Rooms:** Resolved the issue where playing as a girl (Kris) would result in the sprite changing to a boy (Chris) in Link Battle or Link Trade rooms. Gender information is now preserved during link communications, allowing for accurate representation of both players. Credits: [vulcandth](https://github.com/vulcandth).
-- **Enhance Tileset Functionality:** Expanded tilesets from 192 to 255 tiles and allowed tiles to have different attributes in various blocks. Credits: [Rangi42](https://github.com/Rangi42), Pokemon Polished Crystal.
-- **Enhance Trainer Card Features:** Added a third page for Kanto badges, introduced colors to badges, and fixed missing tops of Gym Leaders' heads on the trainer card.
-- **Unique Colors for Poké Balls:** Added unique colors for each type of Poké Ball. Credits: [SoupPotato](https://github.com/SoupPotato), [Rangi42](https://github.com/Rangi42).
-- **Short Low HP Beep:** Replaced continuous low hp beeping with a shorter sound.
-- **Show Weather Icon:** Added an icon to show the current weather during battles.
-- **Optimize Various Routines and Functions:** Optimized several functions including EnterMapConnection, GetSquareRoot, VBlank routines, LZ decompression, UpdateBGMap, and Multiply and Divide. Credits: [Rangi42](https://github.com/Rangi42), Pokemon Polished Crystal, Pokemon Prism.
-- **Split Maps Section:** Split the 'Maps' section into 'Map Headers' and 'Map Attributes'.
-- **Copy BillsPC_LCDCode to WRAM0:** Copied BillsPC_LCDCode to WRAM0. Credits: [FredrIQ](https://github.com/FredrIQ), Pokemon Polished Crystal.
-- **Optimize and Define LZ Compression:** Improved LZ compression through adding defines, implementing Meithecatte's optimization in ax6's lzcomp, and optimizing lz counts to use 9 bits. Credits: [ariscop](https://github.com/ariscop), Pokemon Polished Crystal.
-- **Port Utils/Farcheck.py:** Ported farcheck.py from Polished Crystal. Credits: [Rangi42](https://github.com/Rangi42), Pokemon Polished Crystal.
-- **Port Prism's LoadMapPart:** Ported LoadMapPart function from Prism. Credits: Pokemon Prism.
-- **Port Battle Pal Changing:** Ported battle pal changing feature from Polished Crystal. Credits: [FredrIQ](https://github.com/FredrIQ), Pokemon Polished Crystal.
-- **Replace Stat Experience with EVs:** Implemented EV system, replacing stat experience.
-- **Dynamic OW OBJ Pal System:** Overworld Objects now load their palette dynamically. Credits: [vulcandth](https://github.com/vulcandth), [Rangi42](https://github.com/Rangi42), Pokemon Polished Crystal, Pokmeon Mystic Crystal.
-- **Dynamic Sprite Reload:** Reloaded dynamic sprites. Credits: [FredrIQ](https://github.com/FredrIQ), Pokemon Polished Crystal.
-- **Smooth Fading Routines** Port smooth fading routines from Polished Crystal/Prism. Credits: [Rangi42](https://github.com/Rangi42), [FredrIQ](https://github.com/FredrIQ), Pokemon Polished Crystal, Pokemon Prism.
-- **newbag:** A refactor of the backpack, which includes the ability to expand pockets in the bag. Credits: [Monstarules](https://github.com/Monstarules)
+**Q1:** This game won't compile/run!  
+**A1:** PPG2 requires RGBDS version 0.7.0 to be compiled. Due to the expansion of the ROM/RAM sizes, we switched from the MBC3 mapper
+to the MBC30 mapper. Most Game Boy emulators don't support this, because only Japanese Crystal ever used it, and it never addressed 
+more than 2MB of ROM. We recommend the emulators BGB, SameBoy, and mGBA to play this on.
 
-## Contributions
+**Q2:** Why isn't [X] feature from the DS game here?  
+**A2:** Some features are cut or changed, either due to not being in line with the design of Generation 2, or because
+the features are not possible to implement. Running wasn't a feature of Generation 2, and the maps were made smaller to
+compensate for it. Contests, while possible, would take a massive amount of development time, and therefore, were replaced by
+the Radio Tower to be more in line with Generation 2. This also provides a workaround for the lack of a dual-slot feature.
 
-We warmly welcome contributions to the CrystalShireEngine project. If you're interested in contributing, please contact [vulcandth](https://github.com/vulcandth) on Discord to discuss how you can help!
+**Q3:** Why isn't [X] Pokemon in the game?  
+**A3:** PPG2 only contains Pokemon from Generations 1-4, with all forms present. The same applies to moves, as all moves from Generations 1-4 are present and functional (with the exception of 
+double-battle only moves, which are either removed or changed in functionality).
 
-## Branch Structure
+**Q4:** I like what you're doing! Can I help?  
+**A4:** It would be appreciated! We're looking for people who can work on new cries, move animations, music, and scripters. Because 
+of cartridge space limitations, the sampled cry, or "DED" system from Pokemon Prism won't be feasible, so homemade cries within the 
+original engine's limitations will have to be made. All music is made within the style of Generation 2, so things like volume
+envelopes and wavetable choices are considered. If you're looking to help, direct message TastySnax12 or Atma. 
 
-- **core:** The default branch, aimed at integrating optimizations, bug & design flaw fixes, and various other engine improvements to support rom hacking.
-- **gen3, gen4, ...:** Upcoming branches set to incorporate a plethora of features (pokemon, moves, mechanics, etc.) from respective generations into the Crystal engine.
+**Q5:** Can I use this engine for my own hack?  
+**A5:** Yes! It's very encouraged. We recommend waiting until all engine features are here and functional to prevent any issues of
+backporting features however. 
