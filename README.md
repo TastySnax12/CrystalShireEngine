@@ -19,9 +19,7 @@ compensate for it. Contests, while possible, would take a massive amount of deve
 the Radio Tower to be more in line with Generation 2. This also provides a workaround for the lack of a dual-slot feature.
 
 **Q3:** Why isn't [X] Pokemon in the game?  
-**A3:** PPG2 only contains Pokemon from Generations 1-4, with all forms present. There are also some unused beta Pokemon in 
-the code for trade compatability, but are inaccessible in-game without debug features or trading. These are subject to 
-removal. The same applies to moves, as all moves from Generations 1-4 are present and functional (with the exception of 
+**A3:** PPG2 only contains Pokemon from Generations 1-4, with all forms present. The same applies to moves, as all moves from Generations 1-4 are present and functional (with the exception of 
 double-battle only moves, which are either removed or changed in functionality).
 
 **Q4:** I like what you're doing! Can I help?  
