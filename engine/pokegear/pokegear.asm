@@ -2179,22 +2179,22 @@ FlyMap:
 ; To prevent both of these things from happening when the player
 ; enters Kanto, fly access is restricted until Indigo Plateau is
 ; visited and its flypoint enabled.
-	push af
-	ld c, SPAWN_INDIGO
-	call HasVisitedSpawn
-	and a
-	jr z, .NoKanto
+	;push af
+	;ld c, SPAWN_INDIGO
+	;call HasVisitedSpawn
+	;and a
+	;jr z, .NoKanto
 ; Kanto's map is only loaded if we've visited Indigo Plateau
-	ld a, KANTO_FLYPOINT ; first Kanto flypoint
-	ld [wStartFlypoint], a
-	ld a, NUM_FLYPOINTS - 1 ; last Kanto flypoint
-	ld [wEndFlypoint], a
-	ld [wTownMapPlayerIconLandmark], a ; last one is default (Indigo Plateau)
+	;ld a, KANTO_FLYPOINT ; first Kanto flypoint
+	;ld [wStartFlypoint], a
+	;ld a, NUM_FLYPOINTS - 1 ; last Kanto flypoint
+	;ld [wEndFlypoint], a
+	;ld [wTownMapPlayerIconLandmark], a ; last one is default (Indigo Plateau)
 ; Fill out the map
-	call FillKantoMap
-	call .MapHud
-	pop af
-	jmp TownMapPlayerIcon
+	;call FillKantoMap
+	;call .MapHud
+	;pop af
+	;jmp TownMapPlayerIcon
 
 .NoKanto:
 ; If Indigo Plateau hasn't been visited, we use Johto's map instead

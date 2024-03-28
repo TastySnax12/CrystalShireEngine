@@ -47,8 +47,8 @@ GinaPhoneCallerScript:
 .GaveLeafStone:
 	farscall PhoneScript_Random11
 	ifequal 0, GinaHasLeafStone
-	checkflag ENGINE_FLYPOINT_GOLDENROD
-	iffalse .Generic
+; 	checkflag ENGINE_FLYPOINT_GOLDENROD
+; 	iffalse .Generic
 	farscall PhoneScript_Random3
 	ifequal 0, GinaWantsBattle
 

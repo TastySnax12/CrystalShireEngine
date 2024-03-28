@@ -26,8 +26,8 @@ AnthonyPhoneCalleeScript:
 AnthonyPhoneCallerScript:
 	gettrainername STRING_BUFFER_3, HIKER, ANTHONY2
 	farscall PhoneScript_GreetPhone_Male
-	checkflag ENGINE_FLYPOINT_GOLDENROD
-	iffalse .TriesSwarm
+; 	checkflag ENGINE_FLYPOINT_GOLDENROD
+; 	iffalse .TriesSwarm
 	checkflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	iftrue .TriesSwarm
 	checkflag ENGINE_ANTHONY_FRIDAY_NIGHT

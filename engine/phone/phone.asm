@@ -406,12 +406,13 @@ Script_ReceivePhoneCall:
 	end
 
 Script_SpecialBillCall::
-	callasm .LoadBillScript
-	sjump Script_ReceivePhoneCall
-
-.LoadBillScript:
-	ld e, PHONE_BILL
-	jr LoadCallerScript
+	end
+; 	callasm .LoadBillScript
+; 	sjump Script_ReceivePhoneCall
+;
+; .LoadBillScript:
+; 	ld e, PHONE_BILL
+; 	jr LoadCallerScript
 
 RingTwice_StartCall:
 	call .Ring
