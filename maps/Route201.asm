@@ -1,16 +1,15 @@
 	object_const_def
 
-NewBarkTown_MapScripts:
+Route201_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-NewBarkTown_MapEvents:
+Route201_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 15, 13, PLAYERS_HOUSE_1F, 1
 
 	def_coord_events
 

@@ -18,7 +18,6 @@ INCLUDE "audio/music/darkcave.asm"
 INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattle.asm"
 INCLUDE "audio/music/ssaqua.asm"
-INCLUDE "audio/music/newbarktown.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
 INCLUDE "audio/music/vermilioncity.asm"
 INCLUDE "audio/music/titlescreen.asm"
@@ -83,7 +82,6 @@ INCLUDE "audio/music/successfulcapture.asm"
 assert BANK(Music_WildPokemonVictory) == BANK(Music_SuccessfulCapture)
 
 INCLUDE "audio/music/gymleadervictory.asm"
-INCLUDE "audio/music/mtmoonsquare.asm"
 INCLUDE "audio/music/gym.asm"
 INCLUDE "audio/music/pallettown.asm"
 INCLUDE "audio/music/profoakspokemontalk.asm"
@@ -99,21 +97,16 @@ INCLUDE "audio/music/azaleatown.asm"
 INCLUDE "audio/music/cherrygrovecity.asm"
 INCLUDE "audio/music/unioncave.asm"
 
-INCLUDE "audio/music/johtowildbattle.asm"
-INCLUDE "audio/music/johtowildbattlenight.asm"
-assert BANK(Music_JohtoWildBattle) == BANK(Music_JohtoWildBattleNight)
+INCLUDE "audio/music/sinnohwildbattle.asm"
+INCLUDE "audio/music/sinnohwildbattlenight.asm"
+assert BANK(Music_SinnohWildBattle) == BANK(Music_SinnohWildBattleNight)
 
 INCLUDE "audio/music/johtotrainerbattle.asm"
 INCLUDE "audio/music/lookyoungster.asm"
-INCLUDE "audio/music/tintower.asm"
-INCLUDE "audio/music/sprouttower.asm"
-INCLUDE "audio/music/burnedtower.asm"
 INCLUDE "audio/music/mom.asm"
 INCLUDE "audio/music/victoryroad.asm"
 INCLUDE "audio/music/pokemonlullaby.asm"
 INCLUDE "audio/music/pokemonmarch.asm"
-INCLUDE "audio/music/goldsilveropening.asm"
-INCLUDE "audio/music/goldsilveropening2.asm"
 INCLUDE "audio/music/lookhiker.asm"
 
 INCLUDE "audio/music/lookrocket.asm"
@@ -136,12 +129,13 @@ INCLUDE "audio/music/battletowertheme.asm"
 INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
+INCLUDE "audio/music/twinleaftown.asm"
+INCLUDE "audio/music/route201.asm"
 
 
 SECTION "Extra Songs 1", ROMX
 
 INCLUDE "audio/music/credits.asm"
-INCLUDE "audio/music/clair.asm"
 INCLUDE "audio/music/mobileadapter.asm"
 
 

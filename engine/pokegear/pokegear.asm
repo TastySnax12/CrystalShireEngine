@@ -221,7 +221,7 @@ TownMap_InitCursorAndPlayerIconPositions:
 
 .FastShip:
 	ld [wPokegearMapPlayerIconLandmark], a
-	ld a, LANDMARK_NEW_BARK_TOWN
+	ld a, LANDMARK_TWINLEAF_TOWN
 	ld [wPokegearMapCursorLandmark], a
 	ret
 
@@ -543,7 +543,7 @@ PokegearMap_KantoMap:
 	jr PokegearMap_ContinueMap
 
 PokegearMap_JohtoMap:
-	lb de, LANDMARK_SILVER_CAVE, LANDMARK_NEW_BARK_TOWN
+	lb de, LANDMARK_SILVER_CAVE, LANDMARK_TWINLEAF_TOWN
 PokegearMap_ContinueMap:
 	ld hl, hJoyLast
 	ld a, [hl]

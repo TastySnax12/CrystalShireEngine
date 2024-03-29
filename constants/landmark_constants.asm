@@ -2,8 +2,8 @@
 	const_def
 	const LANDMARK_SPECIAL           ; 00
 ; Johto landmarks
-	const LANDMARK_NEW_BARK_TOWN     ; 01
-	const LANDMARK_ROUTE_29          ; 02
+	const LANDMARK_TWINLEAF_TOWN     ; 01
+	const LANDMARK_ROUTE_201         ; 02
 	const LANDMARK_CHERRYGROVE_CITY  ; 03
 	const LANDMARK_ROUTE_30          ; 04
 	const LANDMARK_ROUTE_31          ; 05

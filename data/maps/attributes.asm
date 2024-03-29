@@ -97,10 +97,11 @@ MACRO connection
 ENDM
 
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $05, 0 ;WEST | EAST ; was 0
+	map_attributes TwinleafTown, TWINLEAF_TOWN, $01, NORTH
+	connection north, Route201, ROUTE_201, -4
 
-	;connection west, Route29, ROUTE_29, 0
-	;connection east, Route27, ROUTE_27, 0
+	map_attributes Route201, ROUTE_201, $01, SOUTH 
+	connection south, TwinleafTown, TWINLEAF_TOWN, 4
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0

@@ -7,9 +7,11 @@ PlayersHouse1F_Blocks:
 SECTION "Map Blocks 2", ROMX
 
 
-NewBarkTown_Blocks:
-	INCBIN "maps/NewBarkTown.ablk"
+TwinleafTown_Blocks:
+	INCBIN "maps/TwinleafTown.ablk"
 
+Route201_Blocks:
+	INCBIN "maps/Route201.ablk"
 
 SECTION "Map Blocks 3", ROMX
 

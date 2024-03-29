@@ -90,7 +90,8 @@ SECTION "Map Scripts 22", ROMX
 
 SECTION "Map Scripts 23", ROMX
 
-INCLUDE "maps/NewBarkTown.asm"
+INCLUDE "maps/TwinleafTown.asm"
+INCLUDE "maps/Route201.asm"
 
 
 SECTION "Map Scripts 24", ROMX

@@ -15,7 +15,7 @@ ENDM
 RoamMaps:
 	list_start RoamMaps
 	; start map, ...other maps
-	roam_map NEW_BARK_TOWN
+	roam_map TWINLEAF_TOWN
 
 	assert_list_length NUM_ROAMMON_MAPS
 	db -1 ; end

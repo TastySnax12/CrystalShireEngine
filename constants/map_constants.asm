@@ -36,10 +36,11 @@ ENDM
 	const_def
 
 
-	newgroup NEW_BARK                                             ; 24
-	map_const NEW_BARK_TOWN,                               10, 10 ;  4
-	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  6
-	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  7
+	newgroup TWINLEAF                                              ; 1
+	map_const TWINLEAF_TOWN,                               10, 10 ;  1
+	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  2
+	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  3
+	map_const ROUTE_201,                                   30,  9 ;  4
 	endgroup
 
 

@@ -29,7 +29,6 @@ Music:
 	dba Music_TrainerVictory
 	dba Music_WildPokemonVictory
 	dba Music_GymLeaderVictory
-	dba Music_MtMoonSquare
 	dba Music_Gym
 	dba Music_PalletTown
 	dba Music_ProfOaksPokemonTalk
@@ -44,7 +43,7 @@ Music:
 	dba Music_CherrygroveCity
 	dba Music_LookKimonoGirl
 	dba Music_UnionCave
-	dba Music_JohtoWildBattle
+	dba Music_SinnohWildBattle
 	dba Music_JohtoTrainerBattle
 	dba Music_Route30
 	dba Music_EcruteakCity
@@ -63,21 +62,17 @@ Music:
 	dba Music_LookRocket
 	dba Music_LookPokemaniac
 	dba Music_LookSage
-	dba Music_NewBarkTown
 	dba Music_GoldenrodCity
 	dba Music_VermilionCity
 	dba Music_PokemonChannel
 	dba Music_PokeFluteChannel
-	dba Music_TinTower
-	dba Music_SproutTower
-	dba Music_BurnedTower
 	dba Music_Lighthouse
 	dba Music_LakeOfRage
 	dba Music_IndigoPlateau
 	dba Music_Route37
 	dba Music_RocketHideout
 	dba Music_DragonsDen
-	dba Music_JohtoWildBattleNight
+	dba Music_SinnohWildBattleNight
 	dba Music_RuinsOfAlphRadio
 	dba Music_SuccessfulCapture
 	dba Music_Route26
@@ -85,8 +80,6 @@ Music:
 	dba Music_VictoryRoad
 	dba Music_PokemonLullaby
 	dba Music_PokemonMarch
-	dba Music_GoldSilverOpening
-	dba Music_GoldSilverOpening2
 	dba Music_MainMenu
 	dba Music_RuinsOfAlphInterior
 	dba Music_RocketTheme
@@ -97,7 +90,6 @@ Music:
 	dba Music_Printer
 	dba Music_PostCredits
 ; new to Crystal
-	dba Music_Clair
 	dba Music_MobileAdapterMenu
 	dba Music_MobileAdapter
 	dba Music_BuenasPassword
@@ -107,4 +99,7 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
+; new to PPG2
+	dba Music_TwinleafTown
+	dba Music_Route201
 	assert_table_length NUM_MUSIC_SONGS

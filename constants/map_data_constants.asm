@@ -76,7 +76,7 @@ DEF NUM_FISHGROUPS EQU const_value - 1
 ; SpawnPoints indexes (see data/maps/spawn_points.asm)
 	const_def
 	const SPAWN_HOME
-	const SPAWN_NEW_BARK
+	const SPAWN_TWINLEAF
 DEF NUM_SPAWNS EQU const_value
 
 DEF SPAWN_N_A EQU -1

@@ -2,7 +2,7 @@ Flypoints:
 ; entries correspond to FLY_* constants
 ; Johto
 	; landmark, spawn point
-	db LANDMARK_NEW_BARK_TOWN,    SPAWN_NEW_BARK
+	db LANDMARK_TWINLEAF_TOWN,    SPAWN_TWINLEAF
 ; 	db LANDMARK_CHERRYGROVE_CITY, SPAWN_CHERRYGROVE
 ; 	db LANDMARK_VIOLET_CITY,      SPAWN_VIOLET
 ; 	db LANDMARK_AZALEA_TOWN,      SPAWN_AZALEA
