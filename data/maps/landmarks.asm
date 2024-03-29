@@ -9,21 +9,23 @@ Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, TwinleafTownName
-	landmark 128, 100, Route29Name
-	landmark 100, 100, CherrygroveCityName
-	landmark 100,  80, Route30Name
-	landmark  96,  60, Route31Name
-	landmark  84,  60, VioletCityName
+	landmark 100, 100, VerityLakefrontName
+	landmark 100, 100, LakeVerityName
+	landmark 128, 100, Route201Name
+	landmark 128, 100, SandgemTownName
+
+
+	landmark  84,  60, TwinleafTownName ; dummy temp
 	landmark  85,  58, SproutTowerName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84, 124, UnionCaveName
 	landmark  82, 124, Route33Name
-	landmark  68, 124, AzaleaTownName
+	landmark  68, 124, TwinleafTownName ; dummy temp
 	landmark  70, 122, SlowpokeWellName
 	landmark  52, 120, IlexForestName
 	landmark  52, 112, Route34Name
-	landmark  52,  92, GoldenrodCityName
+	landmark  52,  92, TwinleafTownName ; dummy temp
 	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
 	landmark  52,  60, NationalParkName
@@ -107,10 +109,12 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 TwinleafTownName:    db "TWINLEAF TOWN@"
-CherrygroveCityName: db "CHERRYGROVE<BSP>CITY@"
-VioletCityName:      db "VIOLET CITY@"
-AzaleaTownName:      db "AZALEA TOWN@"
-GoldenrodCityName:   db "GOLDENROD<BSP>CITY@"
+SandgemTownName:     db "SANDGEM<BSP>TOWN@"
+VerityLakefrontName: db "VERITY<BSP>LAKEFRONT@"
+LakeVerityName:      db "LAKE VERITY@"
+Route201Name:        db "ROUTE 201@"
+
+
 EcruteakCityName:    db "ECRUTEAK<BSP>CITY@"
 OlivineCityName:     db "OLIVINE<BSP>CITY@"
 CianwoodCityName:    db "CIANWOOD<BSP>CITY@"

@@ -28,7 +28,7 @@ MomPhoneLandmark:
 MomPhoneInTown:
 	;readvar VAR_MAPGROUP
 	;ifequal GROUP_TWINLEAF_TOWN, .newbark
-	;ifequal GROUP_CHERRYGROVE_CITY, .cherrygrove
+	;ifequal GROUP_SANDGEM_TOWN, .sandgem
 	;ifequal GROUP_VIOLET_CITY, .violet
 	;ifequal GROUP_AZALEA_TOWN, .azalea
 	;ifequal GROUP_GOLDENROD_CITY, .goldenrod
@@ -41,7 +41,7 @@ MomPhoneInTown:
 	promptbutton
 	sjump MomSavingMoney
 
-.cherrygrove
+.sandgem
 	farwritetext MomPhoneCherrygroveText
 	promptbutton
 	sjump MomSavingMoney

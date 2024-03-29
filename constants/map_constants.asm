@@ -40,8 +40,19 @@ ENDM
 	map_const TWINLEAF_TOWN,                               10, 10 ;  1
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  2
 	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  3
-	map_const ROUTE_201,                                   30,  9 ;  4
+	map_const VERITY_LAKEFRONT,                             7,  9 ;  4
+	map_const LAKE_VERITY,                                 17, 12 ;  5
+	map_const ROUTE_201,                                   23,  9 ;  6
 	endgroup
 
+
+	newgroup SANDGEM                                               ; 2
+	map_const SANDGEM_TOWN,                                13, 10 ;  1
+	map_const SANDGEM_POKECENTER_1F,                        5,  4 ;  2
+	endgroup
+
+	newgroup CABLE_CLUB                                           ;  3
+	map_const POKECENTER_2F,                                8,  4 ;  1
+	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

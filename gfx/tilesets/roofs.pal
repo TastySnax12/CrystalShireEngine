@@ -1,10 +1,20 @@
-; group 24 (New Bark)
+; group 0 (unused)
+	RGB 21,21,21, 11,11,11 ; morn/day
+	RGB 21,21,21, 11,11,11 ; nite
+	RGB 21,21,21, 11,11,11 ; eve
+
+; group 1 (Twinleaf)
 	RGB 20,31,14, 11,23,05 ; morn/day
 	RGB 09,13,08, 06,09,04 ; nite
 	RGB 17,24,10, 09,18,03 ; eve
 
-; group 24 (New Bark)
-	RGB 20,31,14, 11,23,05 ; morn/day
-	RGB 09,13,08, 06,09,04 ; nite
-	RGB 17,24,10, 09,18,03 ; eve
+; group 2 (Sandgem)
+	RGB 15,10,31, 07,05,15 ; morn/day
+	RGB 06,05,17, 02,02,08 ; nite
+	RGB 17,24,10, 09,18,03 ; eve ; todo
+
+; group 3 (Cable Club)
+	RGB 21,21,21, 11,11,11 ; morn/day
+	RGB 21,21,21, 11,11,11 ; nite
+	RGB 20,19,19, 10,09,09 ; eve
 

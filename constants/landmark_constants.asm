@@ -4,9 +4,9 @@
 ; Johto landmarks
 	const LANDMARK_TWINLEAF_TOWN     ; 01
 	const LANDMARK_ROUTE_201         ; 02
-	const LANDMARK_CHERRYGROVE_CITY  ; 03
-	const LANDMARK_ROUTE_30          ; 04
-	const LANDMARK_ROUTE_31          ; 05
+	const LANDMARK_VERITY_LAKEFRONT  ; 03
+	const LANDMARK_LAKE_VERITY       ; 04
+	const LANDMARK_SANDGEM_TOWN      ; 05
 	const LANDMARK_VIOLET_CITY       ; 06
 	const LANDMARK_SPROUT_TOWER      ; 07
 	const LANDMARK_ROUTE_32          ; 08

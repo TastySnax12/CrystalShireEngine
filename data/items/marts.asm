@@ -1,8 +1,8 @@
 Marts:
 ; entries correspond to MART_* constants (see constants/mart_constants.asm)
 	table_width 2, Marts
-	dw MartCherrygrove
-	dw MartCherrygroveDex
+	dw MartSandgem
+	dw MartSandgemDex
 	dw MartViolet
 	dw MartAzalea
 	dw MartCianwood
@@ -37,14 +37,14 @@ Marts:
 	dw MartUnderground
 	assert_table_length NUM_MARTS
 
-MartCherrygrove:
+MartSandgem:
 	db 4 ; # items
 	dw POTION
 	dw ANTIDOTE
 	dw PARLYZ_HEAL
 	dw AWAKENING
 
-MartCherrygroveDex:
+MartSandgemDex:
 	db 5 ; # items
 	dw POKE_BALL
 	dw POTION

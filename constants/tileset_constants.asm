@@ -24,7 +24,7 @@
 	const TILESET_BATTLE_TOWER_INSIDE  ; 16
 	const TILESET_TOWER                ; 17
 	const TILESET_CAVE                 ; 18
-	const TILESET_PARK                 ; 19
+	const TILESET_LAKE                 ; 19
 	const TILESET_RUINS_OF_ALPH        ; 1a
 	const TILESET_RADIO_TOWER          ; 1b
 	const TILESET_UNDERGROUND          ; 1c

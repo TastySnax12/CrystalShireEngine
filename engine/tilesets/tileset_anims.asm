@@ -50,7 +50,7 @@ TilesetKantoAnim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-TilesetParkAnim:
+TilesetLakeAnim:
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw vTiles2 tile $5f, AnimateFountainTile

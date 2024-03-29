@@ -10,7 +10,9 @@ SpawnPoints:
 
 	spawn PLAYERS_HOUSE_2F,            3,  3
 
-	spawn TWINLEAF_TOWN,              13,  6
+	spawn TWINLEAF_TOWN,              15, 14
+
+	spawn SANDGEM_TOWN,               13,  6
 
 	spawn N_A,                        -1, -1
 

@@ -158,14 +158,14 @@ INCBIN "data/tilesets/elite_four_room_metatiles.bin.lz"
 TilesetEliteFourRoomColl::
 INCLUDE "data/tilesets/elite_four_room_collision.asm"
 
-TilesetParkGFX::
-INCBIN "gfx/tilesets/park.2bpp.lz"
+TilesetLakeGFX::
+INCBIN "gfx/tilesets/lake.2bpp.lz"
 
-TilesetParkMeta::
-INCBIN "data/tilesets/park_metatiles.bin.lz"
+TilesetLakeMeta::
+INCBIN "data/tilesets/lake_metatiles.bin.lz"
 
-TilesetParkColl::
-INCLUDE "data/tilesets/park_collision.asm"
+TilesetLakeColl::
+INCLUDE "data/tilesets/lake_collision.asm"
 
 TilesetRadioTowerGFX::
 INCBIN "gfx/tilesets/radio_tower.2bpp.lz"
@@ -412,8 +412,8 @@ TilesetCaveAttr::
 TilesetDarkCaveAttr::
 INCBIN "data/tilesets/cave_attributes.bin.lz"
 
-TilesetParkAttr::
-INCBIN "data/tilesets/park_attributes.bin.lz"
+TilesetLakeAttr::
+INCBIN "data/tilesets/lake_attributes.bin.lz"
 
 TilesetRuinsOfAlphAttr::
 INCBIN "data/tilesets/ruins_of_alph_attributes.bin.lz"

@@ -92,6 +92,11 @@ SECTION "Map Scripts 23", ROMX
 
 INCLUDE "maps/TwinleafTown.asm"
 INCLUDE "maps/Route201.asm"
+INCLUDE "maps/SandgemTown.asm"
+INCLUDE "maps/VerityLakefront.asm"
+INCLUDE "maps/LakeVerity.asm"
+INCLUDE "maps/SandgemPokecenter1F.asm"
+INCLUDE "maps/Pokecenter2F.asm"
 
 
 SECTION "Map Scripts 24", ROMX

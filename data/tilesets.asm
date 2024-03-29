@@ -36,7 +36,7 @@ Tilesets::
 	tileset TilesetBattleTowerInside
 	tileset TilesetTower
 	tileset TilesetCave
-	tileset TilesetPark
+	tileset TilesetLake
 	tileset TilesetRuinsOfAlph
 	tileset TilesetRadioTower
 	tileset TilesetUnderground

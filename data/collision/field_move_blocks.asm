@@ -4,7 +4,7 @@ CutTreeBlockPointers:
 	dbw TILESET_JOHTO,        .johto
 	dbw TILESET_JOHTO_MODERN, .johto_modern
 	dbw TILESET_KANTO,        .kanto
-	dbw TILESET_PARK,         .park
+	dbw TILESET_LAKE,         .lake
 	dbw TILESET_FOREST,       .forest
 	db -1 ; end
 
@@ -32,7 +32,7 @@ CutTreeBlockPointers:
 	db $60, $6e, 0 ; tree
 	db -1 ; end
 
-.park:
+.lake:
 ; facing block, replacement block, animation
 	db $13, $03, 1 ; grass
 	db $03, $04, 1 ; grass

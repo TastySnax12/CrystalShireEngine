@@ -98,11 +98,22 @@ ENDM
 
 
 	map_attributes TwinleafTown, TWINLEAF_TOWN, $01, NORTH
-	connection north, Route201, ROUTE_201, -4
+	connection north, Route201, ROUTE_201, 3
 
-	map_attributes Route201, ROUTE_201, $01, SOUTH 
-	connection south, TwinleafTown, TWINLEAF_TOWN, 4
+	map_attributes Route201, ROUTE_201, $01, SOUTH | WEST | EAST
+	connection south, TwinleafTown, TWINLEAF_TOWN, -3
+	connection west, VerityLakefront, VERITY_LAKEFRONT, 0
+	connection east, SandgemTown, SANDGEM_TOWN, -1
+
+	map_attributes VerityLakefront, VERITY_LAKEFRONT, $01, EAST
+	connection east, Route201, ROUTE_201, 0
+
+	map_attributes SandgemTown, SANDGEM_TOWN, $01, WEST
+	connection west, Route201, ROUTE_201, 1
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $00, 0
+	map_attributes LakeVerity, LAKE_VERITY, $01, 0
+	map_attributes SandgemPokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
+	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
