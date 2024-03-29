@@ -41,7 +41,7 @@ ENDM
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  2
 	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  3
 	map_const VERITY_LAKEFRONT,                             7,  9 ;  4
-	map_const LAKE_VERITY,                                 17, 12 ;  5
+	map_const LAKE_VERITY,                                 17, 14 ;  5
 	map_const ROUTE_201,                                   23,  9 ;  6
 	endgroup
 
