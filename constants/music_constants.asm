@@ -7,15 +7,11 @@
 	const MUSIC_ROUTE_3                      ; 03
 	const MUSIC_ROUTE_12                     ; 04
 	const MUSIC_MAGNET_TRAIN                 ; 05
-	const MUSIC_KANTO_GYM_LEADER_BATTLE      ; 06
-	const MUSIC_KANTO_TRAINER_BATTLE         ; 07
-	const MUSIC_KANTO_WILD_BATTLE            ; 08
 	const MUSIC_POKEMON_CENTER               ; 09
 	const MUSIC_HIKER_ENCOUNTER              ; 0a
 	const MUSIC_LASS_ENCOUNTER               ; 0b
 	const MUSIC_OFFICER_ENCOUNTER            ; 0c
 	const MUSIC_HEAL                         ; 0d
-	const MUSIC_LAVENDER_TOWN                ; 0e
 	const MUSIC_ROUTE_2                      ; 0f
 	const MUSIC_MT_MOON                      ; 10
 	const MUSIC_SHOW_ME_AROUND               ; 11
@@ -37,13 +33,13 @@
 	const MUSIC_EVOLUTION                    ; 22
 	const MUSIC_NATIONAL_PARK                ; 23
 	const MUSIC_CREDITS                      ; 24
-	const MUSIC_AZALEA_TOWN                  ; 25
+	const MUSIC_OREBURGH_CITY                ; 25
 	const MUSIC_SANDGEM_TOWN                 ; 26
 	const MUSIC_KIMONO_ENCOUNTER             ; 27
 	const MUSIC_UNION_CAVE                   ; 28
 	const MUSIC_SINNOH_WILD_BATTLE           ; 29
 	const MUSIC_JOHTO_TRAINER_BATTLE         ; 2a
-	const MUSIC_ROUTE_30                     ; 2b
+	const MUSIC_ROUTE_203                    ; 2b
 	const MUSIC_ECRUTEAK_CITY                ; 2c
 	const MUSIC_VIOLET_CITY                  ; 2d
 	const MUSIC_JOHTO_GYM_LEADER_BATTLE      ; 2e
@@ -54,7 +50,6 @@
 	const MUSIC_DARK_CAVE                    ; 33
 	const MUSIC_ROUTE_29                     ; 34
 	const MUSIC_ROUTE_36                     ; 35
-	const MUSIC_SS_AQUA                      ; 36
 	const MUSIC_YOUNGSTER_ENCOUNTER          ; 37
 	const MUSIC_BEAUTY_ENCOUNTER             ; 38
 	const MUSIC_ROCKET_ENCOUNTER             ; 39
@@ -79,9 +74,8 @@
 	const MUSIC_POKEMON_LULLABY              ; 50
 	const MUSIC_POKEMON_MARCH                ; 51
 	const MUSIC_MAIN_MENU                    ; 54
-	const MUSIC_RUINS_OF_ALPH_INTERIOR       ; 55
+	const MUSIC_OREBURGH_GATE                ; 55
 	const MUSIC_ROCKET_OVERTURE              ; 56
-	const MUSIC_DANCING_HALL                 ; 57
 	const MUSIC_BUG_CATCHING_CONTEST_RANKING ; 58
 	const MUSIC_BUG_CATCHING_CONTEST         ; 59
 	const MUSIC_LAKE_OF_RAGE_ROCKET_RADIO    ; 5a

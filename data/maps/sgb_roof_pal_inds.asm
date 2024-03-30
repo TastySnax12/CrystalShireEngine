@@ -8,4 +8,5 @@ MapGroupRoofSGBPalInds:
 	db PREDEFPAL_NEW_BARK  ;(Sandgem)
 	db PREDEFPAL_NEW_BARK  ;(Jubilife)
 	db PREDEFPAL_NEW_BARK  ;(CableClub)
+	db PREDEFPAL_NEW_BARK  ;(Dungeons)
 	assert_table_length NUM_MAP_GROUPS + 1

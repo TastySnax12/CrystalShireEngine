@@ -120,8 +120,12 @@ ENDM
 	map_attributes Route219, ROUTE_219, $41, NORTH
 	connection north, SandgemTown, SANDGEM_TOWN, -2
 
-	map_attributes JubilifeCity, JUBILIFE_CITY, $01, SOUTH
+	map_attributes JubilifeCity, JUBILIFE_CITY, $01, SOUTH | EAST
 	connection south, Route202, ROUTE_202, 9
+	connection east, Route203, ROUTE_203, 0
+
+	map_attributes Route203, ROUTE_203, $01, WEST
+	connection west, JubilifeCity, JUBILIFE_CITY, 0
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -130,3 +134,4 @@ ENDM
 	map_attributes SandgemPokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
 	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
 	map_attributes JubilifePokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
+	map_attributes OreburghGate1F, OREBURGH_GATE_1F, $09, 0

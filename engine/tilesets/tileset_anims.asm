@@ -84,10 +84,6 @@ TilesetJohtoAnim:
 	dw NULL,  AnimateWaterPalette
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  AnimateFlowerTile
-	dw WhirlpoolFrames1, AnimateWhirlpoolTile
-	dw WhirlpoolFrames2, AnimateWhirlpoolTile
-	dw WhirlpoolFrames3, AnimateWhirlpoolTile
-	dw WhirlpoolFrames4, AnimateWhirlpoolTile
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
@@ -716,43 +712,6 @@ StandingTileFrame:
 	inc [hl]
 	ret
 
-AnimateWhirlpoolTile:
-; Input de points to the destination in VRAM, then the source tile frames
-
-; Save the stack pointer in bc for WriteTile to restore
-	ld hl, sp+0
-	ld b, h
-	ld c, l
-
-; de = the destination in VRAM
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-; A cycle of 4 frames, updating every tick
-	ld a, [wTileAnimationTimer]
-	srl a ; account for 60fps
-	and %11
-
-; hl = the source tile frames + a * 16
-	swap a
-	add [hl]
-	inc hl
-	ld h, [hl]
-	ld l, a
-	adc h
-	sub l
-	ld h, a
-
-; Write the tile graphic from hl (now sp) to de (now hl)
-	ld sp, hl
-	ld l, e
-	ld h, d
-	jr WriteTile
-
 WriteTileFromAnimBuffer:
 ; Save the stack pointer in bc for WriteTile to restore
 	ld hl, sp+0
@@ -941,13 +900,3 @@ TowerPillarTile7:  INCBIN "gfx/tilesets/tower-pillar/7.2bpp"
 TowerPillarTile8:  INCBIN "gfx/tilesets/tower-pillar/8.2bpp"
 TowerPillarTile9:  INCBIN "gfx/tilesets/tower-pillar/9.2bpp"
 TowerPillarTile10: INCBIN "gfx/tilesets/tower-pillar/10.2bpp"
-
-WhirlpoolFrames1: dw vTiles2 tile $32, WhirlpoolTiles1
-WhirlpoolFrames2: dw vTiles2 tile $33, WhirlpoolTiles2
-WhirlpoolFrames3: dw vTiles2 tile $42, WhirlpoolTiles3
-WhirlpoolFrames4: dw vTiles2 tile $43, WhirlpoolTiles4
-
-WhirlpoolTiles1: INCBIN "gfx/tilesets/whirlpool/1.2bpp"
-WhirlpoolTiles2: INCBIN "gfx/tilesets/whirlpool/2.2bpp"
-WhirlpoolTiles3: INCBIN "gfx/tilesets/whirlpool/3.2bpp"
-WhirlpoolTiles4: INCBIN "gfx/tilesets/whirlpool/4.2bpp"

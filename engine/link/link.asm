@@ -198,7 +198,7 @@ endc
 	cp USING_INTERNAL_CLOCK
 	ld c, 66
 	call z, DelayFrames
-	ld de, MUSIC_ROUTE_30
+	ld de, MUSIC_ROUTE_201
 	call PlayMusic
 	jmp InitTradeMenuDisplay
 
@@ -530,7 +530,7 @@ endc
 	jmp ExitLinkCommunications
 
 .ready_to_trade
-	ld de, MUSIC_ROUTE_30
+	ld de, MUSIC_ROUTE_201
 	call PlayMusic
 	jmp InitTradeMenuDisplay
 

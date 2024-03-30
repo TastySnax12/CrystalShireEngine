@@ -9,15 +9,11 @@ Music:
 	dba Music_Route3
 	dba Music_Route12
 	dba Music_MagnetTrain
-	dba Music_KantoGymBattle
-	dba Music_KantoTrainerBattle
-	dba Music_KantoWildBattle
 	dba Music_PokemonCenter
 	dba Music_LookHiker
 	dba Music_LookLass
 	dba Music_LookOfficer
 	dba Music_HealPokemon
-	dba Music_LavenderTown
 	dba Music_Route2
 	dba Music_MtMoon
 	dba Music_ShowMeAround
@@ -39,13 +35,13 @@ Music:
 	dba Music_Evolution
 	dba Music_NationalPark
 	dba Music_Credits
-	dba Music_AzaleaTown
+	dba Music_OreburghCity
 	dba Music_SandgemTown
 	dba Music_LookKimonoGirl
 	dba Music_UnionCave
 	dba Music_SinnohWildBattle
 	dba Music_JohtoTrainerBattle
-	dba Music_Route30
+	dba Music_Route203
 	dba Music_EcruteakCity
 	dba Music_VioletCity
 	dba Music_JohtoGymBattle
@@ -56,7 +52,6 @@ Music:
 	dba Music_DarkCave
 	dba Music_Route29
 	dba Music_Route36
-	dba Music_SSAqua
 	dba Music_LookYoungster
 	dba Music_LookBeauty
 	dba Music_LookRocket
@@ -81,9 +76,8 @@ Music:
 	dba Music_PokemonLullaby
 	dba Music_PokemonMarch
 	dba Music_MainMenu
-	dba Music_RuinsOfAlphInterior
+	dba Music_OreburghGate
 	dba Music_RocketTheme
-	dba Music_DancingHall
 	dba Music_ContestResults
 	dba Music_BugCatchingContest
 	dba Music_LakeOfRageRocketRadio

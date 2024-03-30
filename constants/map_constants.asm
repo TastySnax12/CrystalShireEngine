@@ -57,10 +57,15 @@ ENDM
 	newgroup JUBILIFE                                              ; 3
 	map_const JUBILIFE_CITY,                               20, 20 ;  1
 	map_const JUBILIFE_POKECENTER_1F,                       5,  4 ;  2
+	map_const ROUTE_203,                                   29, 10 ;  3
 	endgroup
 
 	newgroup CABLE_CLUB                                           ;  3
 	map_const POKECENTER_2F,                                8,  4 ;  1
+	endgroup
+
+	newgroup DUNGEONS                                             ;  4
+	map_const OREBURGH_GATE_1F,                            15, 10 ;  1
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

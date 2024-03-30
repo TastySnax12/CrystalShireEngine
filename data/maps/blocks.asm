@@ -37,6 +37,12 @@ SandgemTown_Blocks:
 JubilifeCity_Blocks:
 	INCBIN "maps/JubilifeCity.ablk"
 
+Route203_Blocks:
+	INCBIN "maps/Route203.ablk"
+
+OreburghGate1F_Blocks:
+	INCBIN "maps/OreburghGate1F.ablk"
+
 SECTION "Map Blocks 3", ROMX
 
 

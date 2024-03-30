@@ -541,7 +541,7 @@ OakSpeech:
 	call FadeToBlack
 	call ClearTilemap
 
-	ld de, MUSIC_ROUTE_30
+	ld de, MUSIC_ROUTE_201
 	call PlayMusic
 
 	ld c, 31

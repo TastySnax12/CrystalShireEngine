@@ -7,13 +7,12 @@
 	const LANDMARK_VERITY_LAKEFRONT  ; 03
 	const LANDMARK_LAKE_VERITY       ; 04
 	const LANDMARK_SANDGEM_TOWN      ; 05
-	const LANDMARK_ROUTE_202         ; 06         ROUTE_202
+	const LANDMARK_ROUTE_202         ; 06
 	const LANDMARK_JUBILIFE_CITY     ; 07
-	
-	
-	const LANDMARK_ROUTE_32          ; 08         ROUTE_203
+	const LANDMARK_ROUTE_203         ; 08
+	const LANDMARK_OREBURGH_GATE     ; 0a
+
 	const LANDMARK_RUINS_OF_ALPH     ; 09         OREBURGH_CITY
-	const LANDMARK_UNION_CAVE        ; 0a         ROUTE_204
 	const LANDMARK_ROUTE_33          ; 0b         FLOAROMA_TOWN
 	const LANDMARK_AZALEA_TOWN       ; 0c         ROUTE_205_SOUTH
 	const LANDMARK_SLOWPOKE_WELL     ; 0d         VALLEY_WINDWORKS

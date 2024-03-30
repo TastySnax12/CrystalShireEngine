@@ -15,11 +15,10 @@ Landmarks:
 	landmark 128, 100, SandgemTownName
 	landmark  68,  44, Route202Name
 	landmark  84,  60, JubilifeCityName
+	landmark  85,  58, Route203Name
+	landmark  84,  92, OreburghGateName
 
-
-	landmark  85,  58, SproutTowerName
-	landmark  84,  92, Route32Name
-	landmark  76,  76, RuinsOfAlphName
+	landmark  76,  76, TwinleafTownName ; dummy temp
 	landmark  84, 124, UnionCaveName
 	landmark  82, 124, Route33Name
 	landmark  68, 124, TwinleafTownName ; dummy temp
@@ -42,7 +41,7 @@ Landmarks:
 	landmark  28,  64, Route40Name
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
-	landmark  20, 100, CianwoodCityName
+	landmark  20, 100, TwinleafTownName ; dummy temp
 	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
 	landmark 108,  44, MahoganyTownName
@@ -115,15 +114,14 @@ LakeVerityName:      db "LAKE VERITY@"
 Route201Name:        db "ROUTE 201@"
 Route202Name:        db "ROUTE 202@"
 JubilifeCityName:    db "JUBILIFE<BSP>CITY@"
+Route203Name:        db "ROUTE 203@"
+OreburghGateName:    db "OREBURGH GATE@"
 
 
-
-CianwoodCityName:    db "CIANWOOD<BSP>CITY@"
 MahoganyTownName:    db "MAHOGANY<BSP>TOWN@"
 BlackthornCityName:  db "BLACKTHORN<BSP>CITY@"
 LakeOfRageName:      db "LAKE OF<BSP>RAGE@"
 SilverCaveName:      db "SILVER CAVE@"
-SproutTowerName:     db "SPROUT<BSP>TOWER@"
 RuinsOfAlphName:     db "RUINS<BSP>OF ALPH@"
 UnionCaveName:       db "UNION CAVE@"
 SlowpokeWellName:    db "SLOWPOKE<BSP>WELL@"

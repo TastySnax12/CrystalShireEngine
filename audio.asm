@@ -17,11 +17,10 @@ INCLUDE "audio/music/elmslab.asm"
 INCLUDE "audio/music/darkcave.asm"
 INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattle.asm"
-INCLUDE "audio/music/ssaqua.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
 INCLUDE "audio/music/vermilioncity.asm"
 INCLUDE "audio/music/titlescreen.asm"
-INCLUDE "audio/music/ruinsofalphinterior.asm"
+INCLUDE "audio/music/oreburghgate.asm"
 INCLUDE "audio/music/lookpokemaniac.asm"
 INCLUDE "audio/music/trainervictory.asm"
 
@@ -31,9 +30,6 @@ SECTION "Songs 2", ROMX
 INCLUDE "audio/music/route1.asm"
 INCLUDE "audio/music/route3.asm"
 INCLUDE "audio/music/route12.asm"
-INCLUDE "audio/music/kantogymbattle.asm"
-INCLUDE "audio/music/kantotrainerbattle.asm"
-INCLUDE "audio/music/kantowildbattle.asm"
 INCLUDE "audio/music/pokemoncenter.asm"
 INCLUDE "audio/music/looklass.asm"
 INCLUDE "audio/music/lookofficer.asm"
@@ -56,10 +52,8 @@ INCLUDE "audio/music/route26.asm"
 INCLUDE "audio/music/ecruteakcity.asm"
 INCLUDE "audio/music/lakeofragerocketradio.asm"
 INCLUDE "audio/music/magnettrain.asm"
-INCLUDE "audio/music/lavendertown.asm"
-INCLUDE "audio/music/dancinghall.asm"
 INCLUDE "audio/music/contestresults.asm"
-INCLUDE "audio/music/route30.asm"
+INCLUDE "audio/music/route203.asm"
 
 
 SECTION "Songs 3", ROMX
@@ -93,7 +87,7 @@ assert BANK(Music_LookRival) == BANK(Music_AfterTheRivalFight)
 
 INCLUDE "audio/music/surf.asm"
 INCLUDE "audio/music/nationalpark.asm"
-INCLUDE "audio/music/azaleatown.asm"
+INCLUDE "audio/music/oreburghcity.asm"
 INCLUDE "audio/music/sandgemtown.asm"
 INCLUDE "audio/music/unioncave.asm"
 

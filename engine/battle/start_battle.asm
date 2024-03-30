@@ -65,7 +65,7 @@ PlayBattleMusic:
 	jr .done
 
 .kantowild
-	ld de, MUSIC_KANTO_WILD_BATTLE
+	ld de, MUSIC_SINNOH_WILD_BATTLE
 	jr .done
 
 .trainermusic
@@ -87,7 +87,7 @@ PlayBattleMusic:
 	cp SCIENTIST
 	jr z, .done
 
-	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE
+	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
 	farcall IsKantoGymLeader
 	jr c, .done
 
@@ -125,7 +125,7 @@ PlayBattleMusic:
 	jr .done
 
 .kantotrainer
-	ld de, MUSIC_KANTO_TRAINER_BATTLE
+	ld de, MUSIC_JOHTO_TRAINER_BATTLE
 
 .done
 	call PlayMusic

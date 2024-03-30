@@ -19,8 +19,9 @@ MapGroupPointers::
 	table_width 2, MapGroupPointers
 	dw MapGroup_Twinleaf     ; 1
 	dw MapGroup_Sandgem      ; 2
-	dw MapGroup_Jubilife      ; 3
+	dw MapGroup_Jubilife     ; 3
 	dw MapGroup_CableClub    ; 4
+	dw MapGroup_Dungeons     ; 5
 	assert_table_length NUM_MAP_GROUPS
 
 
@@ -46,10 +47,16 @@ MapGroup_Jubilife:
 	table_width MAP_LENGTH, MapGroup_Jubilife
 	map JubilifeCity, TILESET_JOHTO, TOWN, LANDMARK_JUBILIFE_CITY, MUSIC_VIOLET_CITY, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
 	map JubilifePokecenter1F, TILESET_POKECENTER, INDOOR, LANDMARK_JUBILIFE_CITY, MUSIC_POKEMON_CENTER, FALSE, PALETTE_DAY, FISHGROUP_SHORE
+	map Route203, TILESET_JOHTO, ROUTE, LANDMARK_ROUTE_203, MUSIC_ROUTE_203, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
 	assert_table_length NUM_JUBILIFE_MAPS
 
 MapGroup_CableClub:
 	table_width MAP_LENGTH, MapGroup_CableClub
 	map Pokecenter2F, TILESET_POKECENTER, INDOOR, LANDMARK_SPECIAL, MUSIC_POKEMON_CENTER, TRUE, PALETTE_DAY, FISHGROUP_SHORE
 	assert_table_length NUM_CABLE_CLUB_MAPS
+
+MapGroup_Dungeons:
+	table_width MAP_LENGTH, MapGroup_Dungeons
+	map OreburghGate1F, TILESET_CAVE, CAVE, LANDMARK_OREBURGH_GATE, MUSIC_OREBURGH_GATE, TRUE, PALETTE_NITE, FISHGROUP_SHORE
+	assert_table_length NUM_DUNGEONS_MAPS
 

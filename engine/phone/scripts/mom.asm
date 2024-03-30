@@ -36,25 +36,25 @@ MomPhoneInTown:
 	promptbutton
 	sjump MomSavingMoney
 
-.newbark
-	farwritetext MomPhoneNewBarkText
-	promptbutton
-	sjump MomSavingMoney
+;.newbark
+;	farwritetext MomPhoneNewBarkText
+;	promptbutton
+;	sjump MomSavingMoney
 
-.sandgem
-	farwritetext MomPhoneCherrygroveText
-	promptbutton
-	sjump MomSavingMoney
+;.sandgem
+;	farwritetext MomPhoneCherrygroveText
+;	promptbutton
+;	sjump MomSavingMoney
 
-.jubilife
-	getlandmarkname STRING_BUFFER_4, LANDMARK_JUBILIFE_CITY
-	sjump MomPhoneLandmark
-.azalea
-	getlandmarkname STRING_BUFFER_4, LANDMARK_SLOWPOKE_WELL
-	sjump MomPhoneLandmark
-.goldenrod
-	getlandmarkname STRING_BUFFER_4, LANDMARK_RADIO_TOWER
-	sjump MomPhoneLandmark
+;.jubilife
+;	getlandmarkname STRING_BUFFER_4, LANDMARK_JUBILIFE_CITY
+;	sjump MomPhoneLandmark
+;.azalea
+;	getlandmarkname STRING_BUFFER_4, LANDMARK_SLOWPOKE_WELL
+;	sjump MomPhoneLandmark
+;.goldenrod
+;	getlandmarkname STRING_BUFFER_4, LANDMARK_RADIO_TOWER
+;	sjump MomPhoneLandmark
 
 MomPhoneOnRoute:
 	farwritetext MomOtherAreaText
