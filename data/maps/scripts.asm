@@ -97,7 +97,10 @@ INCLUDE "maps/VerityLakefront.asm"
 INCLUDE "maps/LakeVerity.asm"
 INCLUDE "maps/SandgemPokecenter1F.asm"
 INCLUDE "maps/Pokecenter2F.asm"
-
+INCLUDE "maps/Route202.asm"
+INCLUDE "maps/Route219.asm"
+INCLUDE "maps/JubilifeCity.asm"
+INCLUDE "maps/JubilifePokecenter1F.asm"
 
 SECTION "Map Scripts 24", ROMX
 

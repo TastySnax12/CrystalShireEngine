@@ -38,7 +38,7 @@
 	const MUSIC_NATIONAL_PARK                ; 23
 	const MUSIC_CREDITS                      ; 24
 	const MUSIC_AZALEA_TOWN                  ; 25
-	const MUSIC_CHERRYGROVE_CITY             ; 26
+	const MUSIC_SANDGEM_TOWN                 ; 26
 	const MUSIC_KIMONO_ENCOUNTER             ; 27
 	const MUSIC_UNION_CAVE                   ; 28
 	const MUSIC_SINNOH_WILD_BATTLE           ; 29

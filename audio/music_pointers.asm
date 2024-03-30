@@ -40,7 +40,7 @@ Music:
 	dba Music_NationalPark
 	dba Music_Credits
 	dba Music_AzaleaTown
-	dba Music_CherrygroveCity
+	dba Music_SandgemTown
 	dba Music_LookKimonoGirl
 	dba Music_UnionCave
 	dba Music_SinnohWildBattle

@@ -7,70 +7,72 @@
 	const LANDMARK_VERITY_LAKEFRONT  ; 03
 	const LANDMARK_LAKE_VERITY       ; 04
 	const LANDMARK_SANDGEM_TOWN      ; 05
-	const LANDMARK_VIOLET_CITY       ; 06
-	const LANDMARK_SPROUT_TOWER      ; 07
-	const LANDMARK_ROUTE_32          ; 08
-	const LANDMARK_RUINS_OF_ALPH     ; 09
-	const LANDMARK_UNION_CAVE        ; 0a
-	const LANDMARK_ROUTE_33          ; 0b
-	const LANDMARK_AZALEA_TOWN       ; 0c
-	const LANDMARK_SLOWPOKE_WELL     ; 0d
-	const LANDMARK_ILEX_FOREST       ; 0e
-	const LANDMARK_ROUTE_34          ; 0f
-	const LANDMARK_GOLDENROD_CITY    ; 10
-	const LANDMARK_RADIO_TOWER       ; 11
-	const LANDMARK_ROUTE_35          ; 12
-	const LANDMARK_NATIONAL_PARK     ; 13
-	const LANDMARK_ROUTE_36          ; 14
-	const LANDMARK_ROUTE_37          ; 15
-	const LANDMARK_ECRUTEAK_CITY     ; 16
-	const LANDMARK_TIN_TOWER         ; 17
-	const LANDMARK_BURNED_TOWER      ; 18
-	const LANDMARK_ROUTE_38          ; 19
-	const LANDMARK_ROUTE_39          ; 1a
-	const LANDMARK_OLIVINE_CITY      ; 1b
-	const LANDMARK_LIGHTHOUSE        ; 1c
-	const LANDMARK_BATTLE_TOWER      ; 1d
-	const LANDMARK_ROUTE_40          ; 1e
-	const LANDMARK_WHIRL_ISLANDS     ; 1f
-	const LANDMARK_ROUTE_41          ; 20
-	const LANDMARK_CIANWOOD_CITY     ; 21
-	const LANDMARK_ROUTE_42          ; 22
-	const LANDMARK_MT_MORTAR         ; 23
-	const LANDMARK_MAHOGANY_TOWN     ; 24
-	const LANDMARK_ROUTE_43          ; 25
-	const LANDMARK_LAKE_OF_RAGE      ; 26
-	const LANDMARK_ROUTE_44          ; 27
-	const LANDMARK_ICE_PATH          ; 28
-	const LANDMARK_BLACKTHORN_CITY   ; 29
-	const LANDMARK_DRAGONS_DEN       ; 2a
-	const LANDMARK_ROUTE_45          ; 2b
-	const LANDMARK_DARK_CAVE         ; 2c
-	const LANDMARK_ROUTE_46          ; 2d
-	const LANDMARK_SILVER_CAVE       ; 2e
+	const LANDMARK_ROUTE_202         ; 06         ROUTE_202
+	const LANDMARK_JUBILIFE_CITY     ; 07
+	
+	
+	const LANDMARK_ROUTE_32          ; 08         ROUTE_203
+	const LANDMARK_RUINS_OF_ALPH     ; 09         OREBURGH_CITY
+	const LANDMARK_UNION_CAVE        ; 0a         ROUTE_204
+	const LANDMARK_ROUTE_33          ; 0b         FLOAROMA_TOWN
+	const LANDMARK_AZALEA_TOWN       ; 0c         ROUTE_205_SOUTH
+	const LANDMARK_SLOWPOKE_WELL     ; 0d         VALLEY_WINDWORKS
+	const LANDMARK_ILEX_FOREST       ; 0e         FUEGO_IRONWORKS
+	const LANDMARK_ROUTE_34          ; 0f         ETERNA_FOREST
+	const LANDMARK_GOLDENROD_CITY    ; 10         OLD_CHATEU
+	const LANDMARK_RADIO_TOWER       ; 11         ROUTE_205_NORTH
+	const LANDMARK_ROUTE_35          ; 12         ETERNA_CITY
+	const LANDMARK_NATIONAL_PARK     ; 13         ROUTE_206
+	const LANDMARK_ROUTE_36          ; 14         WAYWARD_CAVE
+	const LANDMARK_ROUTE_37          ; 15         ROUTE_207
+	const LANDMARK_ECRUTEAK_CITY     ; 16         MT_CORONET
+	const LANDMARK_TIN_TOWER         ; 17         ROUTE_208
+	const LANDMARK_BURNED_TOWER      ; 18         HEARTHOME_CITY
+	const LANDMARK_ROUTE_38          ; 19         ROUTE_209
+	const LANDMARK_ROUTE_39          ; 1a         SOLACEON_TOWN
+	const LANDMARK_OLIVINE_CITY      ; 1b         SOLACEON_RUINS
+	const LANDMARK_LIGHTHOUSE        ; 1c         ROUTE_210
+	const LANDMARK_BATTLE_TOWER      ; 1d         ROUTE_211
+	const LANDMARK_ROUTE_40          ; 1e         ROUTE_212
+	const LANDMARK_WHIRL_ISLANDS     ; 1f         PASTORIA_CITY
+	const LANDMARK_ROUTE_41          ; 20         ROUTE_213
+	const LANDMARK_CIANWOOD_CITY     ; 21         VALOR_LAKEFRONT
+	const LANDMARK_ROUTE_42          ; 22         LAKE_VALOR
+	const LANDMARK_MT_MORTAR         ; 23         ROUTE_214
+	const LANDMARK_MAHOGANY_TOWN     ; 24         SPRING_PATH
+	const LANDMARK_ROUTE_43          ; 25         TURNBACK_CAVE
+	const LANDMARK_LAKE_OF_RAGE      ; 26         VEILSTONE_CITY
+	const LANDMARK_ROUTE_44          ; 27         ROUTE_215
+	const LANDMARK_ICE_PATH          ; 28         CELESTIC_TOWN
+	const LANDMARK_BLACKTHORN_CITY   ; 29         ROUTE_216
+	const LANDMARK_DRAGONS_DEN       ; 2a         ROUTE_217
+	const LANDMARK_ROUTE_45          ; 2b         ACUITY_LAKEFRONT
+	const LANDMARK_DARK_CAVE         ; 2c         LAKE_ACUITY
+	const LANDMARK_ROUTE_46          ; 2d         SNOWPOINT_CITY
+	const LANDMARK_SILVER_CAVE       ; 2e         SNOWPOINT_TEMPLE
 DEF KANTO_LANDMARK EQU const_value
-	const LANDMARK_PALLET_TOWN       ; 2f
-	const LANDMARK_ROUTE_1           ; 30
-	const LANDMARK_VIRIDIAN_CITY     ; 31
-	const LANDMARK_ROUTE_2           ; 32
-	const LANDMARK_PEWTER_CITY       ; 33
-	const LANDMARK_ROUTE_3           ; 34
-	const LANDMARK_MT_MOON           ; 35
-	const LANDMARK_ROUTE_4           ; 36
-	const LANDMARK_CERULEAN_CITY     ; 37
-	const LANDMARK_ROUTE_24          ; 38
-	const LANDMARK_ROUTE_25          ; 39
-	const LANDMARK_ROUTE_5           ; 3a
-	const LANDMARK_UNDERGROUND_PATH  ; 3b
-	const LANDMARK_ROUTE_6           ; 3c
-	const LANDMARK_VERMILION_CITY    ; 3d
-	const LANDMARK_DIGLETTS_CAVE     ; 3e
-	const LANDMARK_ROUTE_7           ; 3f
-	const LANDMARK_ROUTE_8           ; 40
-	const LANDMARK_ROUTE_9           ; 41
-	const LANDMARK_ROCK_TUNNEL       ; 42
-	const LANDMARK_ROUTE_10          ; 43
-	const LANDMARK_POWER_PLANT       ; 44
+	const LANDMARK_PALLET_TOWN       ; 2f         ROUTE_218
+	const LANDMARK_ROUTE_1           ; 30         CANALAVE_CITY
+	const LANDMARK_VIRIDIAN_CITY     ; 31         IRON_ISLAND
+	const LANDMARK_ROUTE_219         ; 32
+	const LANDMARK_PEWTER_CITY       ; 33         ROUTE_220
+	const LANDMARK_ROUTE_3           ; 34         ROUTE_221
+	const LANDMARK_MT_MOON           ; 35         ROUTE_222
+	const LANDMARK_ROUTE_4           ; 36         SUNNYSHORE_CITY
+	const LANDMARK_CERULEAN_CITY     ; 37         ROUTE_223
+	const LANDMARK_ROUTE_24          ; 38         VICTORY_ROAD
+	const LANDMARK_ROUTE_25          ; 39         POKEMON_LEAGUE
+	const LANDMARK_ROUTE_5           ; 3a         ROUTE_224
+	const LANDMARK_UNDERGROUND_PATH  ; 3b         FIGHT_AREA
+	const LANDMARK_ROUTE_6           ; 3c         BATTLE_FRONTIER
+	const LANDMARK_VERMILION_CITY    ; 3d         ROUTE_225
+	const LANDMARK_DIGLETTS_CAVE     ; 3e         SURVIVAL_AREA
+	const LANDMARK_ROUTE_7           ; 3f         ROUTE_226
+	const LANDMARK_ROUTE_8           ; 40         ROUTE_227
+	const LANDMARK_ROUTE_9           ; 41         STARK_MOUNTAIN
+	const LANDMARK_ROCK_TUNNEL       ; 42         ROUTE_228
+	const LANDMARK_ROUTE_10          ; 43         ROUTE_229
+	const LANDMARK_POWER_PLANT       ; 44         RESORT_AREA
 	const LANDMARK_LAVENDER_TOWN     ; 45
 	const LANDMARK_LAV_RADIO_TOWER   ; 46
 	const LANDMARK_CELADON_CITY      ; 47

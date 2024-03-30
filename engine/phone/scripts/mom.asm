@@ -29,7 +29,7 @@ MomPhoneInTown:
 	;readvar VAR_MAPGROUP
 	;ifequal GROUP_TWINLEAF_TOWN, .newbark
 	;ifequal GROUP_SANDGEM_TOWN, .sandgem
-	;ifequal GROUP_VIOLET_CITY, .violet
+	;ifequal GROUP_JUBILIFE_CITY, .jubilife
 	;ifequal GROUP_AZALEA_TOWN, .azalea
 	;ifequal GROUP_GOLDENROD_CITY, .goldenrod
 	farwritetext MomPhoneGenericAreaText
@@ -46,8 +46,8 @@ MomPhoneInTown:
 	promptbutton
 	sjump MomSavingMoney
 
-.violet
-	getlandmarkname STRING_BUFFER_4, LANDMARK_SPROUT_TOWER
+.jubilife
+	getlandmarkname STRING_BUFFER_4, LANDMARK_JUBILIFE_CITY
 	sjump MomPhoneLandmark
 .azalea
 	getlandmarkname STRING_BUFFER_4, LANDMARK_SLOWPOKE_WELL

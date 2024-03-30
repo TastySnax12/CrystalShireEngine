@@ -49,6 +49,14 @@ ENDM
 	newgroup SANDGEM                                               ; 2
 	map_const SANDGEM_TOWN,                                13, 10 ;  1
 	map_const SANDGEM_POKECENTER_1F,                        5,  4 ;  2
+	map_const ROUTE_202,                                   10, 10 ;  3
+	map_const ROUTE_219,                                   11, 11 ;  4
+	endgroup
+
+
+	newgroup JUBILIFE                                              ; 3
+	map_const JUBILIFE_CITY,                               20, 20 ;  1
+	map_const JUBILIFE_POKECENTER_1F,                       5,  4 ;  2
 	endgroup
 
 	newgroup CABLE_CLUB                                           ;  3

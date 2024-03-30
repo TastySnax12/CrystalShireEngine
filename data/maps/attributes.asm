@@ -108,8 +108,20 @@ ENDM
 	map_attributes VerityLakefront, VERITY_LAKEFRONT, $01, EAST
 	connection east, Route201, ROUTE_201, 0
 
-	map_attributes SandgemTown, SANDGEM_TOWN, $01, WEST
+	map_attributes SandgemTown, SANDGEM_TOWN, $01, NORTH | SOUTH | WEST
+	connection north, Route202, ROUTE_202, 1
+	connection south, Route219, ROUTE_219, 2
 	connection west, Route201, ROUTE_201, 1
+
+	map_attributes Route202, ROUTE_202, $01, NORTH | SOUTH
+	connection north, JubilifeCity, JUBILIFE_CITY, -9
+	connection south, SandgemTown, SANDGEM_TOWN, -1
+
+	map_attributes Route219, ROUTE_219, $41, NORTH
+	connection north, SandgemTown, SANDGEM_TOWN, -2
+
+	map_attributes JubilifeCity, JUBILIFE_CITY, $01, SOUTH
+	connection south, Route202, ROUTE_202, 9
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -117,3 +129,4 @@ ENDM
 	map_attributes LakeVerity, LAKE_VERITY, $01, 0
 	map_attributes SandgemPokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
 	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
+	map_attributes JubilifePokecenter1F, SANDGEM_POKECENTER_1F, $00, 0

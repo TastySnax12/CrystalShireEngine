@@ -4,6 +4,7 @@ PlayersHouse1F_Blocks:
 	INCBIN "maps/PlayersHouse1F.ablk"
 
 SandgemPokecenter1F_Blocks:
+JubilifePokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
 Pokecenter2F_Blocks:
@@ -18,6 +19,12 @@ TwinleafTown_Blocks:
 Route201_Blocks:
 	INCBIN "maps/Route201.ablk"
 
+Route202_Blocks:
+	INCBIN "maps/Route202.ablk"
+
+Route219_Blocks:
+	INCBIN "maps/Route219.ablk"
+
 VerityLakefront_Blocks:
 	INCBIN "maps/VerityLakefront.ablk"
 
@@ -27,7 +34,8 @@ LakeVerity_Blocks:
 SandgemTown_Blocks:
 	INCBIN "maps/SandgemTown.ablk"
 
-
+JubilifeCity_Blocks:
+	INCBIN "maps/JubilifeCity.ablk"
 
 SECTION "Map Blocks 3", ROMX
 

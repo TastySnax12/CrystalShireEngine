@@ -13,9 +13,10 @@ Landmarks:
 	landmark 100, 100, LakeVerityName
 	landmark 128, 100, Route201Name
 	landmark 128, 100, SandgemTownName
+	landmark  68,  44, Route202Name
+	landmark  84,  60, JubilifeCityName
 
 
-	landmark  84,  60, TwinleafTownName ; dummy temp
 	landmark  85,  58, SproutTowerName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
@@ -31,12 +32,11 @@ Landmarks:
 	landmark  52,  60, NationalParkName
 	landmark  64,  60, Route36Name
 	landmark  68,  52, Route37Name
-	landmark  68,  44, EcruteakCityName
 	landmark  70,  42, TinTowerName
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
-	landmark  36,  60, OlivineCityName
+	landmark  36,  60, TwinleafTownName ; dummy temp
 	landmark  38,  62, LighthouseName
 	landmark  28,  56, BattleTowerName
 	landmark  28,  64, Route40Name
@@ -60,7 +60,7 @@ Landmarks:
 	landmark  52, 108, PalletTownName
 	landmark  52,  92, Route1Name
 	landmark  52,  76, ViridianCityName
-	landmark  52,  64, Route2Name
+	landmark  52,  64, Route219Name
 	landmark  52,  52, PewterCityName
 	landmark  64,  52, Route3Name
 	landmark  76,  52, MtMoonName
@@ -113,10 +113,11 @@ SandgemTownName:     db "SANDGEM<BSP>TOWN@"
 VerityLakefrontName: db "VERITY<BSP>LAKEFRONT@"
 LakeVerityName:      db "LAKE VERITY@"
 Route201Name:        db "ROUTE 201@"
+Route202Name:        db "ROUTE 202@"
+JubilifeCityName:    db "JUBILIFE<BSP>CITY@"
 
 
-EcruteakCityName:    db "ECRUTEAK<BSP>CITY@"
-OlivineCityName:     db "OLIVINE<BSP>CITY@"
+
 CianwoodCityName:    db "CIANWOOD<BSP>CITY@"
 MahoganyTownName:    db "MAHOGANY<BSP>TOWN@"
 BlackthornCityName:  db "BLACKTHORN<BSP>CITY@"
@@ -152,7 +153,7 @@ RockTunnelName:      db "ROCK TUNNEL@"
 LavRadioTowerName:   db "LAV<BSP>RADIO TOWER@"
 SeafoamIslandsName:  db "SEAFOAM<BSP>ISLANDS@"
 Route1Name:          db "ROUTE 1@"
-Route2Name:          db "ROUTE 2@"
+Route219Name:        db "ROUTE 219@"
 Route3Name:          db "ROUTE 3@"
 Route4Name:          db "ROUTE 4@"
 Route5Name:          db "ROUTE 5@"
