@@ -2,7 +2,7 @@ SECTION "Evolutions and Attacks 3", ROMX
 
 EvosAttacksPointers3::
 	dw TreeckoEvosAttacks
-	; dw GrovyleEvosAttacks
+	dw GrovyleEvosAttacks
 	; dw SceptileEvosAttacks
 	; dw TorchicEvosAttacks
 	; dw CombuskenEvosAttacks
@@ -142,25 +142,10 @@ TreeckoEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; GrovyleEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 36, SCEPTILE
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, LEER
-	; dbw 1, ABSORB
-	; dbw 1, QUICK_ATTACK
-	; dbw 6, ABSORB
-	; dbw 11, QUICK_ATTACK
-	; dbw 16, FURY_CUTTER
-	; dbw 17, PURSUIT
-	; dbw 23, SCREECH
-	; dbw 29, LEAF_BLADE
-	; dbw 35, AGILITY
-	; dbw 41, SLAM
-	; dbw 47, DETECT
-	; dbw 53, FALSE_SWIPE
-	; dbw 59, LEAF_STORM
-	; db 0 ; no more level-up moves
+GrovyleEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; SceptileEvosAttacks:
 	; db 0 ; no more evolutions

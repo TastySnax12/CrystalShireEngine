@@ -2,6 +2,7 @@ SECTION "Egg Moves 3", ROMX
 
 EggMovePointers3::
 	dw TreeckoEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:

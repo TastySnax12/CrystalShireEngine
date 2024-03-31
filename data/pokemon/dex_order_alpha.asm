@@ -79,6 +79,7 @@ AlphabeticalPokedexOrder:
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
+	dw GROVYLE
 	dw GROWLITHE
 	dw GYARADOS
 	dw HAUNTER

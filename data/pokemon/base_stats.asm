@@ -291,4 +291,5 @@ INCLUDE "data/pokemon/base_stats/celebi.asm"
 
 BaseData2:
 INCLUDE "data/pokemon/base_stats/treecko.asm"
+INCLUDE "data/pokemon/base_stats/grovyle.asm"
 .IndirectEnd::

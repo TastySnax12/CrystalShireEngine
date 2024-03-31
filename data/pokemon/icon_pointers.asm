@@ -256,5 +256,6 @@ IconPointers:
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
-	dw BulbasaurIcon
+	dw BulbasaurIcon ; Treecko
+	dw BulbasaurIcon ; Grovyle
 	assert_table_length NUM_POKEMON + 1

@@ -273,6 +273,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const CELEBI     ; fb
 DEF HOENN_POKEMON EQU const_value
 	const TREECKO    ; 0fc
+	const GROVYLE    ; 0fd
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

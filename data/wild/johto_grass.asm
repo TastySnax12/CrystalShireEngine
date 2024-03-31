@@ -13,13 +13,13 @@ JohtoGrassWildMons:
 	dbw 5, TREECKO
 	dbw 5, TREECKO
 	; day
-	dbw 3, TREECKO
-	dbw 4, TREECKO
-	dbw 5, TREECKO
-	dbw 3, TREECKO
-	dbw 6, TREECKO
-	dbw 5, TREECKO
-	dbw 5, TREECKO
+	dbw 3, GROVYLE
+	dbw 4, GROVYLE
+	dbw 5, GROVYLE
+	dbw 3, GROVYLE
+	dbw 6, GROVYLE
+	dbw 5, GROVYLE
+	dbw 5, GROVYLE
 	; nite
 	dbw 3, GASTLY
 	dbw 4, GASTLY
