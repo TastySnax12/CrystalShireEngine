@@ -32,7 +32,7 @@ GetTimeOfDayNotEve:
 	ld a, [wTimeOfDay]
 	cp EVE_F
 	ret nz
-	ld a, NITE_F ; ld a, DAY_F to make evening use day encounters
+	ld a, DAY_F ; ld a, DAY_F to make evening use day encounters or NITE_F to make evening use nite encounters
 	ret
 
 FindNest:

@@ -699,7 +699,7 @@ TownMap_GetKantoLandmarkLimits:
 	ld a, [wStatusFlags]
 	bit STATUSFLAGS_HALL_OF_FAME_F, a
 	jr z, .not_hof
-	lb de, LANDMARK_ROUTE_28, LANDMARK_PALLET_TOWN
+	lb de, LANDMARK_ROUTE_28, LANDMARK_ROUTE_218
 	ret
 
 .not_hof

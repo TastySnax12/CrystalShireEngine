@@ -56,7 +56,7 @@ Landmarks:
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
 	assert_table_length KANTO_LANDMARK
-	landmark  52, 108, PalletTownName
+	landmark  52, 108, Route218Name
 	landmark  52,  92, Route1Name
 	landmark  52,  76, ViridianCityName
 	landmark  52,  64, Route219Name
@@ -134,7 +134,7 @@ WhirlIslandsName:    db "WHIRL<BSP>ISLANDS@"
 MtMortarName:        db "MT.MORTAR@"
 DragonsDenName:      db "DRAGON'S<BSP>DEN@"
 IcePathName:         db "ICE PATH@"
-PalletTownName:      db "PALLET TOWN@"
+Route218Name:        db "ROUTE 218@"
 ViridianCityName:    db "VIRIDIAN<BSP>CITY@"
 PewterCityName:      db "PEWTER CITY@"
 CeruleanCityName:    db "CERULEAN<BSP>CITY@"

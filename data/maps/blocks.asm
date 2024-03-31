@@ -43,6 +43,12 @@ Route203_Blocks:
 OreburghGate1F_Blocks:
 	INCBIN "maps/OreburghGate1F.ablk"
 
+Route218_Blocks:
+	INCBIN "maps/Route218.ablk"
+
+Route218JubilifeGate_Blocks:
+	INCBIN "maps/EastWestGate.blk"
+
 SECTION "Map Blocks 3", ROMX
 
 
