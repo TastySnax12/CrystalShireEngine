@@ -12,9 +12,9 @@ Tilesets::
 ; entries correspond to TILESET_* constants (see constants/tileset_constants.asm)
 	table_width TILESET_LENGTH, Tilesets
 	tileset Tileset0
-	tileset TilesetJohto
-	tileset TilesetJohtoModern
-	tileset TilesetKanto
+	tileset TilesetSinnoh1
+	tileset TilesetSinnoh2
+	tileset TilesetSinnoh3
 	tileset TilesetBattleTowerOutside
 	tileset TilesetHouse
 	tileset TilesetPlayersHouse

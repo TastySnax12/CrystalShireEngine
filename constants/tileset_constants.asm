@@ -1,8 +1,8 @@
 ; Tilesets indexes (see data/tilesets.asm)
 	const_def 1
-	const TILESET_JOHTO                ; 01
-	const TILESET_JOHTO_MODERN         ; 02
-	const TILESET_KANTO                ; 03
+	const TILESET_SINNOH_1             ; 01 WEST SINNOH 1 (TWINLEAF, SANDGEM, JUBILIFE)
+	const TILESET_SINNOH_2             ; 02 WEST SINNOH 2 (OREBURGH, CANALAVE)
+	const TILESET_SINNOH_3             ; 03 WEST SINNOH 3 (FLOAROMA, ETERNA)
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 	const TILESET_HOUSE                ; 05
 	const TILESET_PLAYERS_HOUSE        ; 06
