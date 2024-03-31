@@ -10,7 +10,9 @@ JubilifeCity_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 31, 25, JUBILIFE_POKECENTER_1F, 1
+	warp_event 31, 25,   JUBILIFE_POKECENTER_1F, 1
+	warp_event  2, 14,   ROUTE_218_JUBILIFE_GATE, 3
+	warp_event  2, 15,   ROUTE_218_JUBILIFE_GATE, 4
 
 	def_coord_events
 

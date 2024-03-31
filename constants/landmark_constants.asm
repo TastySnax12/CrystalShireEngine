@@ -50,7 +50,7 @@
 	const LANDMARK_ROUTE_46          ; 2d         SNOWPOINT_CITY
 	const LANDMARK_SILVER_CAVE       ; 2e         SNOWPOINT_TEMPLE
 DEF KANTO_LANDMARK EQU const_value
-	const LANDMARK_PALLET_TOWN       ; 2f         ROUTE_218
+	const LANDMARK_ROUTE_218         ; 2f
 	const LANDMARK_ROUTE_1           ; 30         CANALAVE_CITY
 	const LANDMARK_VIRIDIAN_CITY     ; 31         IRON_ISLAND
 	const LANDMARK_ROUTE_219         ; 32

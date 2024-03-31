@@ -58,6 +58,8 @@ ENDM
 	map_const JUBILIFE_CITY,                               20, 20 ;  1
 	map_const JUBILIFE_POKECENTER_1F,                       5,  4 ;  2
 	map_const ROUTE_203,                                   29, 10 ;  3
+	map_const ROUTE_218_JUBILIFE_GATE,                      5,  4 ;  4
+	map_const ROUTE_218,                                   22, 12 ;  5
 	endgroup
 
 	newgroup CABLE_CLUB                                           ;  3

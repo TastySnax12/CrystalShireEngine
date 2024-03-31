@@ -103,6 +103,8 @@ INCLUDE "maps/JubilifeCity.asm"
 INCLUDE "maps/JubilifePokecenter1F.asm"
 INCLUDE "maps/Route203.asm"
 INCLUDE "maps/OreburghGate1F.asm"
+INCLUDE "maps/Route218.asm"
+INCLUDE "maps/Route218JubilifeGate.asm"
 
 SECTION "Map Scripts 24", ROMX
 

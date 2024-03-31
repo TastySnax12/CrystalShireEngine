@@ -60,7 +60,7 @@ PlayBattleMusic:
 	ld de, MUSIC_SINNOH_WILD_BATTLE
 	ld a, [wTimeOfDay]
 	cp NITE_F
-	jr c, .done ; not NITE_F or EVE_F
+	jr nz, .done ; not NITE_F
 	ld de, MUSIC_SINNOH_WILD_BATTLE_NIGHT
 	jr .done
 
