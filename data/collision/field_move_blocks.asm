@@ -1,9 +1,9 @@
 ; these blocks all use COLL_CUT_TREE in one quadrant
 CutTreeBlockPointers:
 ; tileset, block list pointer
-	dbw TILESET_JOHTO,        .johto
-	dbw TILESET_JOHTO_MODERN, .johto_modern
-	dbw TILESET_KANTO,        .kanto
+	dbw TILESET_SINNOH_1,     .johto
+	dbw TILESET_SINNOH_2,     .johto_modern
+	dbw TILESET_SINNOH_3,     .kanto
 	dbw TILESET_LAKE,         .lake
 	dbw TILESET_FOREST,       .forest
 	db -1 ; end
@@ -46,7 +46,7 @@ CutTreeBlockPointers:
 
 ; these blocks all use COLL_WHIRLPOOL in one quadrant
 WhirlpoolBlockPointers:
-	dbw TILESET_JOHTO, .johto
+	dbw TILESET_SINNOH_1, .johto
 	db -1 ; end
 
 .johto:

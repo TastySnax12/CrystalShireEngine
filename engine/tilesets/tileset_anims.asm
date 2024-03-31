@@ -36,8 +36,8 @@ _AnimateTileset::
 	jp hl
 
 Tileset0Anim:
-TilesetJohtoModernAnim:
-TilesetKantoAnim:
+TilesetSinnoh2Anim:
+TilesetSinnoh3Anim:
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
@@ -77,7 +77,7 @@ TilesetForestAnim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-TilesetJohtoAnim:
+TilesetSinnoh1Anim:
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation

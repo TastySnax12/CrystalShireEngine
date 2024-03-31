@@ -6,26 +6,26 @@ ENDM
 
 SECTION "Tileset Data 1", ROMX
 
-TilesetKantoGFX::
-INCBIN "gfx/tilesets/kanto.2bpp.lz"
+TilesetSinnoh3GFX::
+INCBIN "gfx/tilesets/sinnoh_3.2bpp.lz"
 
-TilesetKantoMeta::
-INCBIN "data/tilesets/kanto_metatiles.bin.lz"
+TilesetSinnoh3Meta::
+INCBIN "data/tilesets/sinnoh_3_metatiles.bin.lz"
 
-TilesetKantoColl::
-INCLUDE "data/tilesets/kanto_collision.asm"
+TilesetSinnoh3Coll::
+INCLUDE "data/tilesets/sinnoh_3_collision.asm"
 
 Tileset0GFX::
-TilesetJohtoGFX::
-INCBIN "gfx/tilesets/johto.2bpp.lz"
+TilesetSinnoh1GFX::
+INCBIN "gfx/tilesets/sinnoh_1.2bpp.lz"
 
 Tileset0Meta::
-TilesetJohtoMeta::
-INCBIN "data/tilesets/johto_metatiles.bin.lz"
+TilesetSinnoh1Meta::
+INCBIN "data/tilesets/sinnoh_1_metatiles.bin.lz"
 
 Tileset0Coll::
-TilesetJohtoColl::
-INCLUDE "data/tilesets/johto_collision.asm"
+TilesetSinnoh1Coll::
+INCLUDE "data/tilesets/sinnoh_1_collision.asm"
 
 TilesetIcePathGFX::
 INCBIN "gfx/tilesets/ice_path.2bpp.lz"
@@ -218,15 +218,15 @@ INCBIN "data/tilesets/gate_metatiles.bin.lz"
 TilesetGateColl::
 INCLUDE "data/tilesets/gate_collision.asm"
 
-TilesetJohtoModernGFX::
+TilesetSinnoh2GFX::
 TilesetBattleTowerOutsideGFX::
-INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
+INCBIN "gfx/tilesets/sinnoh_2.2bpp.lz"
 
-TilesetJohtoModernMeta::
-INCBIN "data/tilesets/johto_modern_metatiles.bin.lz"
+TilesetSinnoh2Meta::
+INCBIN "data/tilesets/sinnoh_2_metatiles.bin.lz"
 
-TilesetJohtoModernColl::
-INCLUDE "data/tilesets/johto_modern_collision.asm"
+TilesetSinnoh2Coll::
+INCLUDE "data/tilesets/sinnoh_2_collision.asm"
 
 TilesetTraditionalHouseGFX::
 INCBIN "gfx/tilesets/traditional_house.2bpp.lz"
@@ -333,14 +333,14 @@ INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin.lz"
 SECTION "Tileset Data 9", ROMX
 
 Tileset0Attr::
-TilesetJohtoAttr::
-INCBIN "data/tilesets/johto_attributes.bin.lz"
+TilesetSinnoh1Attr::
+INCBIN "data/tilesets/sinnoh_1_attributes.bin.lz"
 
-TilesetJohtoModernAttr::
-INCBIN "data/tilesets/johto_modern_attributes.bin.lz"
+TilesetSinnoh2Attr::
+INCBIN "data/tilesets/sinnoh_2_attributes.bin.lz"
 
-TilesetKantoAttr::
-INCBIN "data/tilesets/kanto_attributes.bin.lz"
+TilesetSinnoh3Attr::
+INCBIN "data/tilesets/sinnoh_3_attributes.bin.lz"
 
 TilesetBattleTowerOutsideAttr::
 INCBIN "data/tilesets/battle_tower_outside_attributes.bin.lz"
