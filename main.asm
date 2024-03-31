@@ -237,7 +237,6 @@ INCLUDE "engine/pokemon/experience.asm"
 INCLUDE "engine/pokemon/switchpartymons.asm"
 INCLUDE "engine/gfx/load_pics.asm"
 INCLUDE "data/pokemon/base_stats.asm"
-INCLUDE "data/pokemon/names.asm"
 
 
 SECTION "Crystal Phone Text", ROMX
@@ -628,6 +627,10 @@ INCLUDE "engine/events/diploma.asm"
 INCLUDE "engine/pokedex/pokedex_3.asm"
 INCLUDE "engine/events/catch_tutorial_input.asm"
 INCLUDE "engine/pokegear/townmap_convertlinebreakcharacters.asm"
+
+SECTION "bank78", ROMX
+
+INCLUDE "data/pokemon/names.asm"
 
 
 SECTION "European Mail", ROMX

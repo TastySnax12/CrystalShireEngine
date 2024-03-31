@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 3, TREECKO
+	dbw 4, TREECKO
+	dbw 5, TREECKO
+	dbw 3, TREECKO
+	dbw 6, TREECKO
+	dbw 5, TREECKO
+	dbw 5, TREECKO
 	; day
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 3, TREECKO
+	dbw 4, TREECKO
+	dbw 5, TREECKO
+	dbw 3, TREECKO
+	dbw 6, TREECKO
+	dbw 5, TREECKO
+	dbw 5, TREECKO
 	; nite
 	dbw 3, GASTLY
 	dbw 4, GASTLY
 	dbw 5, GASTLY
-	dbw 3, RATTATA
+	dbw 3, TREECKO
 	dbw 6, GASTLY
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 5, TREECKO
+	dbw 5, TREECKO
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

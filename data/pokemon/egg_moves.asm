@@ -16,3 +16,4 @@ EggMovePointers::
 
 INCLUDE "data/pokemon/egg_moves_kanto.asm"
 INCLUDE "data/pokemon/egg_moves_johto.asm"
+INCLUDE "data/pokemon/egg_moves_hoenn.asm"

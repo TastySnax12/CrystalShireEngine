@@ -271,6 +271,8 @@ DEF JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+DEF HOENN_POKEMON EQU const_value
+	const TREECKO    ; 0fc
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3
@@ -318,4 +320,5 @@ endc
 	const UNOWN_X ; 24
 	const UNOWN_Y ; 25
 	const UNOWN_Z ; 26
-DEF NUM_UNOWN EQU const_value - 1 ; 26
+DEF NUM_UNOWN EQU const_value + -1 ; 26
+
