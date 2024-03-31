@@ -1,7 +1,7 @@
 # Pokemon Platinum Generation 2
 
 Pokemon Platinum Generation 2 (referred to as "PPG2") is a project uses a modified version of pokecrystal16 
-(specificallypokecrystal16-493-plus) as a base to recreate Pokemon Platinum for the Nintendo DS on exclusively Game Boy Color 
+as a base to recreate Pokemon Platinum for the Nintendo DS on exclusively Game Boy Color 
 hardware in the style of Gold, Silver, and Crystal versions. Since the difference between the hardware is so massive, there 
 are considerations and changes to graphical, map, music, and gameplay design. 
 
