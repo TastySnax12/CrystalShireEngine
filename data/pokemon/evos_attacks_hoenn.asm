@@ -136,10 +136,12 @@ EvosAttacksPointers3::
 	; dw RayquazaEvosAttacks
 	; dw JirachiEvosAttacks
 	; dw DeoxysEvosAttacks
+.IndirectEnd::
 
 TreeckoEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
+	dbw 1, LEER
 	db 0 ; no more level-up moves
 
 GrovyleEvosAttacks:
@@ -2533,3 +2535,5 @@ GrovyleEvosAttacks:
 	; dbw 89, PSYCHO_BOOST
 	; dbw 97, HYPER_BEAM
 	; db 0 ; no more level-up moves
+
+ENDSECTION
