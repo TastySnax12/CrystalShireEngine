@@ -5,6 +5,7 @@ PlayersHouse1F_Blocks:
 
 SandgemPokecenter1F_Blocks:
 JubilifePokecenter1F_Blocks:
+OreburghPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
 Pokecenter2F_Blocks:
@@ -48,6 +49,9 @@ Route218_Blocks:
 
 Route218JubilifeGate_Blocks:
 	INCBIN "maps/EastWestGate.blk"
+
+OreburghCity_Blocks:
+	INCBIN "maps/OreburghCity.ablk"
 
 SECTION "Map Blocks 3", ROMX
 

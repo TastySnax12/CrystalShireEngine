@@ -125,11 +125,15 @@ ENDM
 	connection west, Route218, ROUTE_218, 0
 	connection east, Route203, ROUTE_203, 0
 
-	map_attributes Route203, ROUTE_203, $01, WEST
+	map_attributes Route203, ROUTE_203, $01, WEST | EAST
 	connection west, JubilifeCity, JUBILIFE_CITY, 0
+	connection east, OreburghCity, OREBURGH_CITY, 0
 
 	map_attributes Route218, ROUTE_218, $01, EAST
 	connection east, JubilifeCity, JUBILIFE_CITY, 0
+
+	map_attributes JubilifeCity, JUBILIFE_CITY, $01, WEST
+	connection west, Route203, ROUTE_203, 0
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -137,6 +141,7 @@ ENDM
 	map_attributes LakeVerity, LAKE_VERITY, $01, 0
 	map_attributes SandgemPokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
 	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
-	map_attributes JubilifePokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
+	map_attributes JubilifePokecenter1F, JUBILIFE_POKECENTER_1F, $00, 0
 	map_attributes Route218JubilifeGate, ROUTE_218_JUBILIFE_GATE, $00, 0
 	map_attributes OreburghGate1F, OREBURGH_GATE_1F, $09, 0
+	map_attributes OreburghPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0

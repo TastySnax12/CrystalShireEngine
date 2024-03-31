@@ -22,6 +22,7 @@ MapGroupPointers::
 	dw MapGroup_Jubilife     ; 3
 	dw MapGroup_CableClub    ; 4
 	dw MapGroup_Dungeons     ; 5
+	dw MapGroup_Oreburgh     ; 6
 	assert_table_length NUM_MAP_GROUPS
 
 
@@ -61,4 +62,10 @@ MapGroup_Dungeons:
 	table_width MAP_LENGTH, MapGroup_Dungeons
 	map OreburghGate1F, TILESET_CAVE, CAVE, LANDMARK_OREBURGH_GATE, MUSIC_OREBURGH_GATE, TRUE, PALETTE_NITE, FISHGROUP_SHORE
 	assert_table_length NUM_DUNGEONS_MAPS
+
+MapGroup_Oreburgh:
+	table_width MAP_LENGTH, MapGroup_Oreburgh
+	map OreburghCity, TILESET_JOHTO, TOWN, LANDMARK_OREBURGH_CITY, MUSIC_OREBURGH_CITY, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
+	map OreburghPokecenter1F, TILESET_POKECENTER, INDOOR, LANDMARK_OREBURGH_CITY, MUSIC_POKEMON_CENTER, FALSE, PALETTE_DAY, FISHGROUP_SHORE
+	assert_table_length NUM_OREBURGH_MAPS
 

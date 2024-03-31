@@ -17,6 +17,7 @@ MapGroupRoofs:
 	db ROOF_NEW_BARK  ; 3 (Jubilife)
 	db ROOF_NEW_BARK  ; 4 (Cable Club)
 	db ROOF_NEW_BARK  ; 5 (Dungeons)
+	db ROOF_AZALEA    ; 5 (Oreburgh)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

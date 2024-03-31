@@ -1,17 +1,16 @@
 	object_const_def
 
-OreburghGate1F_MapScripts:
+OreburghCity_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-OreburghGate1F_MapEvents:
+OreburghCity_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  3, 15, ROUTE_203, 1
-	warp_event 23, 15, OREBURGH_CITY, 1
+	warp_event 1,  1, OREBURGH_GATE_1F, 2
 
 	def_coord_events
 

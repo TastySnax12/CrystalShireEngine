@@ -105,6 +105,8 @@ INCLUDE "maps/Route203.asm"
 INCLUDE "maps/OreburghGate1F.asm"
 INCLUDE "maps/Route218.asm"
 INCLUDE "maps/Route218JubilifeGate.asm"
+INCLUDE "maps/OreburghCity.asm"
+INCLUDE "maps/OreburghPokecenter1F.asm"
 
 SECTION "Map Scripts 24", ROMX
 

@@ -9,14 +9,14 @@
 	RGB 17,24,10, 09,18,03 ; eve
 
 ; group 2 (Sandgem)
-	RGB 15,10,31, 07,05,15 ; morn/day
-	RGB 06,05,17, 02,02,08 ; nite
-	RGB 17,24,10, 09,18,03 ; eve ; todo!!!!
+ 	RGB 15,10,31, 07,05,15 ; morn/day
+ 	RGB 06,05,17, 02,02,08 ; nite
+	RGB 13,08,23, 06,03,11 ; eve
 
 ; group 3 (Jubilife)
 	RGB 26,20,31, 15,10,31 ; morn/day
 	RGB 10,05,21, 04,02,10 ; nite
-	RGB 17,24,10, 09,18,03 ; eve ; todo!!!!
+	RGB 20,11,23, 13,03,23 ; eve
 
 ; group 4 (Cable Club)
 	RGB 21,21,21, 11,11,11 ; morn/day
@@ -28,3 +28,7 @@
 	RGB 21,21,21, 11,11,11 ; nite
 	RGB 20,19,19, 10,09,09 ; eve
 
+; group 6 (Oreburgh)
+ 	RGB 11,10,16, 05,06,07 ; morn/day
+ 	RGB 03,04,08, 00,00,00 ; nite
+	RGB 09,08,12, 04,04,05 ; eve

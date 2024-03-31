@@ -17,8 +17,9 @@ Landmarks:
 	landmark  84,  60, JubilifeCityName
 	landmark  85,  58, Route203Name
 	landmark  84,  92, OreburghGateName
+	landmark  76,  76, OreburghCityName ; dummy temp
 
-	landmark  76,  76, TwinleafTownName ; dummy temp
+
 	landmark  84, 124, UnionCaveName
 	landmark  82, 124, Route33Name
 	landmark  68, 124, TwinleafTownName ; dummy temp
@@ -44,7 +45,7 @@ Landmarks:
 	landmark  20, 100, TwinleafTownName ; dummy temp
 	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
-	landmark 108,  44, MahoganyTownName
+	landmark 108,  44, TwinleafTownName ; dummy temp
 	landmark 108,  36, Route43Name
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
@@ -116,9 +117,11 @@ Route202Name:        db "ROUTE 202@"
 JubilifeCityName:    db "JUBILIFE<BSP>CITY@"
 Route203Name:        db "ROUTE 203@"
 OreburghGateName:    db "OREBURGH GATE@"
+OreburghCityName:    db "OREBURGH CITY@"
 
 
-MahoganyTownName:    db "MAHOGANY<BSP>TOWN@"
+
+
 BlackthornCityName:  db "BLACKTHORN<BSP>CITY@"
 LakeOfRageName:      db "LAKE OF<BSP>RAGE@"
 SilverCaveName:      db "SILVER CAVE@"

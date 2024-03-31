@@ -70,4 +70,9 @@ ENDM
 	map_const OREBURGH_GATE_1F,                            15, 10 ;  1
 	endgroup
 
+	newgroup OREBURGH                                             ;  5
+	map_const OREBURGH_CITY,                               23,  9 ;  1
+	map_const OREBURGH_POKECENTER_1F,                       5,  4 ;  2
+	endgroup
+
 DEF NUM_MAP_GROUPS EQU const_value ; 26

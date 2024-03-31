@@ -11,8 +11,12 @@
 	const LANDMARK_JUBILIFE_CITY     ; 07
 	const LANDMARK_ROUTE_203         ; 08
 	const LANDMARK_OREBURGH_GATE     ; 0a
+	const LANDMARK_OREBURGH_CITY     ; 09
 
-	const LANDMARK_RUINS_OF_ALPH     ; 09         OREBURGH_CITY
+
+
+
+
 	const LANDMARK_ROUTE_33          ; 0b         FLOAROMA_TOWN
 	const LANDMARK_AZALEA_TOWN       ; 0c         ROUTE_205_SOUTH
 	const LANDMARK_SLOWPOKE_WELL     ; 0d         VALLEY_WINDWORKS
