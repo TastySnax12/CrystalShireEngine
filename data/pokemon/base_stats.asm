@@ -31,7 +31,8 @@ ENDM
 
 BaseData::
 	indirect_table BASE_DATA_SIZE, 1
-	indirect_entries NUM_POKEMON, BaseData1
+	indirect_entries CELEBI, BaseData1
+	indirect_entries NUM_POKEMON, BaseData2
 	indirect_table_end
 
 BaseData1:
@@ -286,5 +287,8 @@ INCLUDE "data/pokemon/base_stats/tyranitar.asm"
 INCLUDE "data/pokemon/base_stats/lugia.asm"
 INCLUDE "data/pokemon/base_stats/ho_oh.asm"
 INCLUDE "data/pokemon/base_stats/celebi.asm"
+.IndirectEnd::
+
+BaseData2:
 INCLUDE "data/pokemon/base_stats/treecko.asm"
 .IndirectEnd::

@@ -1,143 +1,10 @@
 SECTION "Egg Moves 3", ROMX
 
 EggMovePointers3::
-	dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw TorchicEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw MudkipEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw PoochyenaEggMoves
-	; dw NoEggMoves3
-	; dw ZigzagoonEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw LotadEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw SeedotEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw TaillowEggMoves
-	; dw NoEggMoves3
-	; dw WingullEggMoves
-	; dw NoEggMoves3
-	; dw RaltsEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw SurskitEggMoves
-	; dw NoEggMoves3
-	; dw ShroomishEggMoves
-	; dw NoEggMoves3
-	; dw SlakothEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NincadaEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw WhismurEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw MakuhitaEggMoves
-	; dw NoEggMoves3
-	; dw AzurillEggMoves
-	; dw NosepassEggMoves
-	; dw SkittyEggMoves
-	; dw NoEggMoves3
-	; dw SableyeEggMoves
-	; dw MawileEggMoves
-	; dw AronEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw MedititeEggMoves
-	; dw NoEggMoves3
-	; dw ElectrikeEggMoves
-	; dw NoEggMoves3
-	; dw PlusleEggMoves
-	; dw MinunEggMoves
-	; dw VolbeatEggMoves
-	; dw IllumiseEggMoves
-	; dw RoseliaEggMoves
-	; dw GulpinEggMoves
-	; dw NoEggMoves3
-	; dw CarvanhaEggMoves
-	; dw NoEggMoves3
-	; dw WailmerEggMoves
-	; dw NoEggMoves3
-	; dw NumelEggMoves
-	; dw NoEggMoves3
-	; dw TorkoalEggMoves
-	; dw SpoinkEggMoves
-	; dw NoEggMoves3
-	; dw SpindaEggMoves
-	; dw TrapinchEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw CacneaEggMoves
-	; dw NoEggMoves3
-	; dw SwabluEggMoves
-	; dw NoEggMoves3
-	; dw ZangooseEggMoves
-	; dw SeviperEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw BarboachEggMoves
-	; dw NoEggMoves3
-	; dw CorphishEggMoves
-	; dw NoEggMoves3
-	; dw BaltoyEggMoves
-	; dw NoEggMoves3
-	; dw LileepEggMoves
-	; dw NoEggMoves3
-	; dw AnorithEggMoves
-	; dw NoEggMoves3
-	; dw FeebasEggMoves
-	; dw NoEggMoves3
-	; dw CastformEggMoves
-	; dw KecleonEggMoves
-	; dw ShuppetEggMoves
-	; dw NoEggMoves3
-	; dw DuskullEggMoves
-	; dw NoEggMoves3
-	; dw TropiusEggMoves
-	; dw ChimechoEggMoves
-	; dw AbsolEggMoves
-	; dw NoEggMoves3
-	; dw SnoruntEggMoves
-	; dw NoEggMoves3
-	; dw SphealEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw ClamperlEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw RelicanthEggMoves
-	; dw LuvdiscEggMoves
-	; dw BagonEggMoves
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
-	; dw NoEggMoves3
+	dw TreeckoEggMoves
+.IndirectEnd::
 	
-; TreeckoEggMoves:
+TreeckoEggMoves:
 	; dw CRUNCH
 	; dw CRUSH_CLAW
 	; dw DOUBLE_KICK
@@ -150,7 +17,7 @@ EggMovePointers3::
 	; dw MUD_SPORT
 	; dw SYNTHESIS
 	; dw WORRY_SEED
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; TorchicEggMoves:
 	; dw AGILITY
