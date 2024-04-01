@@ -1,17 +1,16 @@
 	object_const_def
 
-OreburghCity_MapScripts:
+Route204South_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-OreburghCity_MapEvents:
+Route204South_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  6,  5, OREBURGH_GATE_1F, 2
-	warp_event 37, 11, OREBURGH_POKECENTER_1F, 1
+	warp_event  6, 23, RAVAGED_PATH, 1
 
 	def_coord_events
 

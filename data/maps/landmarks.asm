@@ -9,20 +9,18 @@ Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, TwinleafTownName
+	landmark 128, 100, Route201Name
 	landmark 100, 100, VerityLakefrontName
 	landmark 100, 100, LakeVerityName
-	landmark 128, 100, Route201Name
 	landmark 128, 100, SandgemTownName
 	landmark  68,  44, Route202Name
 	landmark  84,  60, JubilifeCityName
 	landmark  85,  58, Route203Name
 	landmark  84,  92, OreburghGateName
 	landmark  76,  76, OreburghCityName ; dummy temp
-
-
-	landmark  84, 124, UnionCaveName
-	landmark  82, 124, Route33Name
-	landmark  68, 124, TwinleafTownName ; dummy temp
+	landmark  84, 124, Route204Name
+	landmark  68, 124, RavagedPathName ; dummy temp
+	landmark  82, 124, FloaromaTownName
 	landmark  70, 122, SlowpokeWellName
 	landmark  52, 120, IlexForestName
 	landmark  52, 112, Route34Name
@@ -33,6 +31,7 @@ Landmarks:
 	landmark  64,  60, Route36Name
 	landmark  68,  52, Route37Name
 	landmark  70,  42, TinTowerName
+	landmark  52,  92, TwinleafTownName ; dummy temp
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
@@ -47,15 +46,15 @@ Landmarks:
 	landmark  84,  44, MtMortarName
 	landmark 108,  44, TwinleafTownName ; dummy temp
 	landmark 108,  36, Route43Name
-	landmark 108,  28, LakeOfRageName
+	landmark 108,  28, TwinleafTownName ; dummy temp
 	landmark 120,  44, Route44Name
 	landmark 130,  38, IcePathName
-	landmark 132,  44, BlackthornCityName
+	landmark 132,  44, TwinleafTownName ; dummy temp
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
 	landmark 112,  72, DarkCaveName
 	landmark 124,  88, Route46Name
-	landmark 148,  68, SilverCaveName
+	landmark 148,  68, TwinleafTownName ; dummy temp
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 108, Route218Name
 	landmark  52,  92, Route1Name
@@ -83,7 +82,6 @@ Landmarks:
 	landmark 140,  68, LavRadioTowerName
 	landmark  76,  68, CeladonCityName
 	landmark 100,  68, SaffronCityName
-	landmark 116,  84, Route11Name
 	landmark 132,  80, Route12Name
 	landmark 124, 100, Route13Name
 	landmark 116, 112, Route14Name
@@ -118,13 +116,14 @@ JubilifeCityName:    db "JUBILIFE<BSP>CITY@"
 Route203Name:        db "ROUTE 203@"
 OreburghGateName:    db "OREBURGH GATE@"
 OreburghCityName:    db "OREBURGH CITY@"
+Route204Name:        db "ROUTE 204@"
+FloaromaTownName:    db "FLOAROMA TOWN@"
+RavagedPathName:     db "RAVAGED PATH@"
 
 
 
 
-BlackthornCityName:  db "BLACKTHORN<BSP>CITY@"
-LakeOfRageName:      db "LAKE OF<BSP>RAGE@"
-SilverCaveName:      db "SILVER CAVE@"
+
 RuinsOfAlphName:     db "RUINS<BSP>OF ALPH@"
 UnionCaveName:       db "UNION CAVE@"
 SlowpokeWellName:    db "SLOWPOKE<BSP>WELL@"

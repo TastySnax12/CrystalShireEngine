@@ -12,13 +12,9 @@
 	const LANDMARK_ROUTE_203         ; 08
 	const LANDMARK_OREBURGH_GATE     ; 0a
 	const LANDMARK_OREBURGH_CITY     ; 09
-
-
-
-
-
-	const LANDMARK_ROUTE_33          ; 0b         FLOAROMA_TOWN
-	const LANDMARK_AZALEA_TOWN       ; 0c         ROUTE_205_SOUTH
+	const LANDMARK_ROUTE_204         ; 0a
+	const LANDMARK_RAVAGED_PATH      ; 0b
+	const LANDMARK_FLOAROMA_TOWN     ; 0c
 	const LANDMARK_SLOWPOKE_WELL     ; 0d         VALLEY_WINDWORKS
 	const LANDMARK_ILEX_FOREST       ; 0e         FUEGO_IRONWORKS
 	const LANDMARK_ROUTE_34          ; 0f         ETERNA_FOREST
@@ -80,7 +76,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_LAV_RADIO_TOWER   ; 46
 	const LANDMARK_CELADON_CITY      ; 47
 	const LANDMARK_SAFFRON_CITY      ; 48
-	const LANDMARK_ROUTE_11          ; 49
 	const LANDMARK_ROUTE_12          ; 4a
 	const LANDMARK_ROUTE_13          ; 4b
 	const LANDMARK_ROUTE_14          ; 4c

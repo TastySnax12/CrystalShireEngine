@@ -60,6 +60,7 @@ ENDM
 	map_const ROUTE_203,                                   29, 10 ;  3
 	map_const ROUTE_218_JUBILIFE_GATE,                      5,  4 ;  4
 	map_const ROUTE_218,                                   22, 12 ;  5
+	map_const ROUTE_204_SOUTH,                             12, 21 ;  6
 	endgroup
 
 	newgroup CABLE_CLUB                                           ;  3
@@ -68,11 +69,16 @@ ENDM
 
 	newgroup DUNGEONS                                             ;  4
 	map_const OREBURGH_GATE_1F,                            15, 10 ;  1
+	map_const RAVAGED_PATH,                                11, 16 ;  2
 	endgroup
 
 	newgroup OREBURGH                                             ;  5
-	map_const OREBURGH_CITY,                               23,  9 ;  1
+	map_const OREBURGH_CITY,                               25, 20 ;  1
 	map_const OREBURGH_POKECENTER_1F,                       5,  4 ;  2
+	endgroup
+
+	newgroup FLOAROMA                                             ;  6
+	map_const ROUTE_204_NORTH,                             12, 21 ;  1
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

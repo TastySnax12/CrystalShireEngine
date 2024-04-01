@@ -53,6 +53,15 @@ Route218JubilifeGate_Blocks:
 OreburghCity_Blocks:
 	INCBIN "maps/OreburghCity.ablk"
 
+Route204South_Blocks:
+	INCBIN "maps/Route204South.ablk"
+
+Route204North_Blocks:
+	INCBIN "maps/Route204North.ablk"
+
+RavagedPath_Blocks:
+	INCBIN "maps/RavagedPath.ablk"
+
 SECTION "Map Blocks 3", ROMX
 
 

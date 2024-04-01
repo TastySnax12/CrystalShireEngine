@@ -120,7 +120,8 @@ ENDM
 	map_attributes Route219, ROUTE_219, $41, NORTH
 	connection north, SandgemTown, SANDGEM_TOWN, -2
 
-	map_attributes JubilifeCity, JUBILIFE_CITY, $01, SOUTH | WEST | EAST
+	map_attributes JubilifeCity, JUBILIFE_CITY, $01, NORTH | SOUTH | WEST | EAST
+	connection north, Route204South, ROUTE_204_SOUTH, 9
 	connection south, Route202, ROUTE_202, 9
 	connection west, Route218, ROUTE_218, 0
 	connection east, Route203, ROUTE_203, 0
@@ -132,8 +133,15 @@ ENDM
 	map_attributes Route218, ROUTE_218, $01, EAST
 	connection east, JubilifeCity, JUBILIFE_CITY, 0
 
-	map_attributes JubilifeCity, JUBILIFE_CITY, $01, WEST
+	map_attributes OreburghCity, OREBURGH_CITY, $09, WEST
 	connection west, Route203, ROUTE_203, 0
+
+	map_attributes Route204South, ROUTE_204_SOUTH, $01, NORTH | SOUTH
+	connection north, Route204North, ROUTE_204_NORTH, 0
+	connection south, JubilifeCity, JUBILIFE_CITY, -9
+
+	map_attributes Route204North, ROUTE_204_NORTH, $01, SOUTH
+	connection south, Route204South, ROUTE_204_SOUTH, 0
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -145,3 +153,4 @@ ENDM
 	map_attributes Route218JubilifeGate, ROUTE_218_JUBILIFE_GATE, $00, 0
 	map_attributes OreburghGate1F, OREBURGH_GATE_1F, $09, 0
 	map_attributes OreburghPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0
+	map_attributes RavagedPath, RAVAGED_PATH, $09, 0
