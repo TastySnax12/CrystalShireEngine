@@ -82,6 +82,8 @@ ENDM
 	map_const FLOAROMA_TOWN,                               14, 14 ;  2
 	map_const FLOAROMA_POKECENTER_1F,                       5,  4 ;  3
 	map_const ROUTE_205_SOUTH,                             14, 25 ;  4
+	map_const VALLEY_WINDWORKS,                            13, 13 ;  5
+	map_const FUEGO_IRONWORKS,                             10, 10 ;  6
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

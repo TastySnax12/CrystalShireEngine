@@ -22,6 +22,8 @@ Landmarks:
 	landmark  68, 124, RavagedPathName
 	landmark  82, 124, FloaromaTownName
 	landmark  70, 122, Route205Name
+	landmark  52, 120, ValleyWindworksName
+	landmark  52, 112, FuegoIronworksName
 
 
 
@@ -34,8 +36,6 @@ Landmarks:
 
 
 
-	landmark  52, 120, IlexForestName
-	landmark  52, 112, Route34Name
 	landmark  52,  92, TwinleafTownName ; dummy temp
 	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
@@ -132,13 +132,13 @@ Route204Name:        db "ROUTE 204@"
 FloaromaTownName:    db "FLOAROMA TOWN@"
 RavagedPathName:     db "RAVAGED PATH@"
 Route205Name:        db "ROUTE 205@"
+ValleyWindworksName: db "VALLEY<BSP>WINDWORKS@"
+FuegoIronworksName:  db "FUEGO<BSP>IRONWORKS@"
 
 
 
 
 
-UnionCaveName:       db "UNION CAVE@"
-SlowpokeWellName:    db "SLOWPOKE<BSP>WELL@"
 RadioTowerName:      db "RADIO TOWER@"
 PowerPlantName:      db "POWER PLANT@"
 NationalParkName:    db "NATIONAL<BSP>PARK@"

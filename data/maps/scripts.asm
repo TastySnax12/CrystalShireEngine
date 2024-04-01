@@ -113,6 +113,8 @@ INCLUDE "maps/RavagedPath.asm"
 INCLUDE "maps/FloaromaTown.asm"
 INCLUDE "maps/FloaromaPokecenter1F.asm"
 INCLUDE "maps/Route205South.asm"
+INCLUDE "maps/ValleyWindworks.asm"
+INCLUDE "maps/FuegoIronworks.asm"
 
 SECTION "Map Scripts 24", ROMX
 

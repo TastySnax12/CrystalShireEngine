@@ -69,6 +69,12 @@ FloaromaTown_Blocks:
 Route205South_Blocks:
 	INCBIN "maps/Route205South.ablk"
 
+ValleyWindworks_Blocks:
+	INCBIN "maps/ValleyWindworks.ablk"
+
+FuegoIronworks_Blocks:
+	INCBIN "maps/FuegoIronworks.ablk"
+
 SECTION "Map Blocks 3", ROMX
 
 
