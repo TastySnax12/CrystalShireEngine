@@ -67,8 +67,8 @@ InitMapNameSign::
 	ret z
 	cp LANDMARK_SPECIAL ; redundant check
 	ret z
-	cp LANDMARK_RADIO_TOWER
-	ret z
+	;cp LANDMARK_RADIO_TOWER
+	;ret z
 	cp LANDMARK_LAV_RADIO_TOWER
 	ret z
 	cp LANDMARK_UNDERGROUND_PATH

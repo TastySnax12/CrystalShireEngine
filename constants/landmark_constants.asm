@@ -15,11 +15,16 @@
 	const LANDMARK_ROUTE_204         ; 0a
 	const LANDMARK_RAVAGED_PATH      ; 0b
 	const LANDMARK_FLOAROMA_TOWN     ; 0c
+	const LANDMARK_ROUTE_205_SOUTH   ; 0d
+
+
+
+
+
 	const LANDMARK_SLOWPOKE_WELL     ; 0d         VALLEY_WINDWORKS
 	const LANDMARK_ILEX_FOREST       ; 0e         FUEGO_IRONWORKS
 	const LANDMARK_ROUTE_34          ; 0f         ETERNA_FOREST
 	const LANDMARK_GOLDENROD_CITY    ; 10         OLD_CHATEU
-	const LANDMARK_RADIO_TOWER       ; 11         ROUTE_205_NORTH
 	const LANDMARK_ROUTE_35          ; 12         ETERNA_CITY
 	const LANDMARK_NATIONAL_PARK     ; 13         ROUTE_206
 	const LANDMARK_ROUTE_36          ; 14         WAYWARD_CAVE

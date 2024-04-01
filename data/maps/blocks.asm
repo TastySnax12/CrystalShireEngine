@@ -6,6 +6,7 @@ PlayersHouse1F_Blocks:
 SandgemPokecenter1F_Blocks:
 JubilifePokecenter1F_Blocks:
 OreburghPokecenter1F_Blocks:
+FloaromaPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
 Pokecenter2F_Blocks:
@@ -61,6 +62,12 @@ Route204North_Blocks:
 
 RavagedPath_Blocks:
 	INCBIN "maps/RavagedPath.ablk"
+
+FloaromaTown_Blocks:
+	INCBIN "maps/FloaromaTown.ablk"
+
+Route205South_Blocks:
+	INCBIN "maps/Route205South.ablk"
 
 SECTION "Map Blocks 3", ROMX
 

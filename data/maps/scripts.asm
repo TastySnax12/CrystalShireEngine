@@ -110,6 +110,9 @@ INCLUDE "maps/OreburghPokecenter1F.asm"
 INCLUDE "maps/Route204South.asm"
 INCLUDE "maps/Route204North.asm"
 INCLUDE "maps/RavagedPath.asm"
+INCLUDE "maps/FloaromaTown.asm"
+INCLUDE "maps/FloaromaPokecenter1F.asm"
+INCLUDE "maps/Route205South.asm"
 
 SECTION "Map Scripts 24", ROMX
 

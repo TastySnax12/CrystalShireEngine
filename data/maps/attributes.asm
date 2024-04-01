@@ -140,8 +140,16 @@ ENDM
 	connection north, Route204North, ROUTE_204_NORTH, 0
 	connection south, JubilifeCity, JUBILIFE_CITY, -9
 
-	map_attributes Route204North, ROUTE_204_NORTH, $01, SOUTH
+	map_attributes Route204North, ROUTE_204_NORTH, $01, NORTH | SOUTH
+	connection north, FloaromaTown, FLOAROMA_TOWN, 0
 	connection south, Route204South, ROUTE_204_SOUTH, 0
+	
+	map_attributes FloaromaTown, FLOAROMA_TOWN, $01, SOUTH | EAST
+	connection south, Route204North, ROUTE_204_NORTH, 0
+	connection east, Route205South, ROUTE_205_SOUTH, 0
+
+	map_attributes Route205South, ROUTE_205_SOUTH, $01, WEST
+	connection west, FloaromaTown, FLOAROMA_TOWN, 0
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -154,3 +162,4 @@ ENDM
 	map_attributes OreburghGate1F, OREBURGH_GATE_1F, $09, 0
 	map_attributes OreburghPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0
 	map_attributes RavagedPath, RAVAGED_PATH, $09, 0
+	map_attributes FloaromaPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0

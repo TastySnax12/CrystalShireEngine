@@ -57,7 +57,7 @@
 	tilecoll WALL, WALL, WALL, DOOR ; 38
 	tilecoll WALL, WALL, WALL, WALL ; 39
 	tilecoll WALL, WALL, WALL, WALL ; 3a
-	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 3b
+	tilecoll WARP_CARPET_UP, WARP_CARPET_UP, FLOOR, FLOOR ; 3b
 	tilecoll FLOOR, WALL, CUT_TREE, WALL ; 3c
 	tilecoll WALL, UP_WALL, WALL, FLOOR ; 3d
 	tilecoll UP_WALL, UP_WALL, FLOOR, FLOOR ; 3e
@@ -70,3 +70,133 @@
 	tilecoll WALL, FLOOR, WALL, WALL ; 45
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 46
 	tilecoll FLOOR, WALL, WALL, WALL ; 47
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 48
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 49
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 4a
+	tilecoll WALL, WALL, WALL, WALL ; 4b
+	tilecoll WATER, WATER, WATER, WATER ; 4c
+	tilecoll WALL, WALL, WALL, WALL ; 4d
+	tilecoll UP_WALL, UP_WALL, FLOOR, FLOOR ; 4e
+	tilecoll WALL, WALL, WALL, WALL ; 4f
+	tilecoll WATER, WATER, WATER, WATER ; 50
+	tilecoll WALL, WALL, WALL, WALL ; 51
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 52
+	tilecoll WALL, WALL, WALL, WALL ; 53
+	tilecoll WATER, WATER, WATER, WATER ; 54
+	tilecoll WALL, WALL, WALL, WALL ; 55
+	tilecoll WALL, WALL, WALL, WALL ; 56
+	tilecoll WALL, WALL, WALL, WALL ; 57
+	tilecoll WATER, WATER, WATER, WATER ; 58
+	tilecoll HOP_DOWN, HOP_DOWN, WALL, WALL ; 59
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 5a
+	tilecoll WATER, WATER, WATER, WATER ; 5b
+	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 5c
+	tilecoll WALL, WALL, WALL, WALL ; 5d
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 5e
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 5f
+	tilecoll , , ,  ; 60
+	tilecoll , , ,  ; 61
+	tilecoll , , ,  ; 62
+	tilecoll , , ,  ; 63
+	tilecoll , , ,  ; 64
+	tilecoll , , ,  ; 65
+	tilecoll , , ,  ; 66
+	tilecoll , , ,  ; 67
+	tilecoll , , ,  ; 68
+	tilecoll , , ,  ; 69
+	tilecoll , , ,  ; 6a
+	tilecoll , , ,  ; 6b
+	tilecoll , , ,  ; 6c
+	tilecoll , , ,  ; 6d
+	tilecoll , , ,  ; 6e
+	tilecoll , , ,  ; 6f
+	tilecoll , , ,  ; 70
+	tilecoll , , ,  ; 71
+	tilecoll , , ,  ; 72
+	tilecoll , , ,  ; 73
+	tilecoll , , ,  ; 74
+	tilecoll , , ,  ; 75
+	tilecoll , , ,  ; 76
+	tilecoll , , ,  ; 77
+	tilecoll , , ,  ; 78
+	tilecoll , , ,  ; 79
+	tilecoll , , ,  ; 7a
+	tilecoll , , ,  ; 7b
+	tilecoll , , ,  ; 7c
+	tilecoll , , ,  ; 7d
+	tilecoll , , ,  ; 7e
+	tilecoll , , ,  ; 7f
+	tilecoll , , ,  ; 80
+	tilecoll , , ,  ; 81
+	tilecoll , , ,  ; 82
+	tilecoll , , ,  ; 83
+	tilecoll , , ,  ; 84
+	tilecoll , , ,  ; 85
+	tilecoll , , ,  ; 86
+	tilecoll , , ,  ; 87
+	tilecoll , , ,  ; 88
+	tilecoll , , ,  ; 89
+	tilecoll , , ,  ; 8a
+	tilecoll , , ,  ; 8b
+	tilecoll , , ,  ; 8c
+	tilecoll , , ,  ; 8d
+	tilecoll , , ,  ; 8e
+	tilecoll , , ,  ; 8f
+	tilecoll , , ,  ; 90
+	tilecoll , , ,  ; 91
+	tilecoll , , ,  ; 92
+	tilecoll , , ,  ; 93
+	tilecoll , , ,  ; 94
+	tilecoll , , ,  ; 95
+	tilecoll , , ,  ; 96
+	tilecoll , , ,  ; 97
+	tilecoll , , ,  ; 98
+	tilecoll , , ,  ; 99
+	tilecoll , , ,  ; 9a
+	tilecoll , , ,  ; 9b
+	tilecoll , , ,  ; 9c
+	tilecoll , , ,  ; 9d
+	tilecoll , , ,  ; 9e
+	tilecoll , , ,  ; 9f
+	tilecoll , , ,  ; a0
+	tilecoll , , ,  ; a1
+	tilecoll , , ,  ; a2
+	tilecoll , , ,  ; a3
+	tilecoll , , ,  ; a4
+	tilecoll , , ,  ; a5
+	tilecoll , , ,  ; a6
+	tilecoll , , ,  ; a7
+	tilecoll , , ,  ; a8
+	tilecoll , , ,  ; a9
+	tilecoll , , ,  ; aa
+	tilecoll , , ,  ; ab
+	tilecoll , , ,  ; ac
+	tilecoll , , ,  ; ad
+	tilecoll , , ,  ; ae
+	tilecoll , , ,  ; af
+	tilecoll , , ,  ; b0
+	tilecoll , , ,  ; b1
+	tilecoll , , ,  ; b2
+	tilecoll , , ,  ; b3
+	tilecoll , , ,  ; b4
+	tilecoll , , ,  ; b5
+	tilecoll , , ,  ; b6
+	tilecoll , , ,  ; b7
+	tilecoll , , ,  ; b8
+	tilecoll , , ,  ; b9
+	tilecoll , , ,  ; ba
+	tilecoll , , ,  ; bb
+	tilecoll , , ,  ; bc
+	tilecoll , , ,  ; bd
+	tilecoll , , ,  ; be
+	tilecoll , , ,  ; bf
+	tilecoll , , ,  ; c0
+	tilecoll , , ,  ; c1
+	tilecoll , , ,  ; c2
+	tilecoll , , ,  ; c3
+	tilecoll , , ,  ; c4
+	tilecoll , , ,  ; c5
+	tilecoll , , ,  ; c6
+	tilecoll , , ,  ; c7
+	tilecoll , , ,  ; c8
+	tilecoll , , ,  ; c9

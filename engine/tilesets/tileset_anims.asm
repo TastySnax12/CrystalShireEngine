@@ -45,6 +45,7 @@ TilesetSinnoh3Anim:
 	dw NULL,  AnimateWaterPalette
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  AnimateFlowerTile
+	dw NULL,  AnimateBrightFlowerTile
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  StandingTileFrame8
@@ -590,6 +591,41 @@ AnimateFlowerTile:
 	INCBIN "gfx/tilesets/flower/cgb_1.2bpp"
 	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
 	INCBIN "gfx/tilesets/flower/cgb_2.2bpp"
+
+AnimateBrightFlowerTile:
+; Save the stack pointer in bc for WriteTile to restore
+	ld hl, sp+0
+	ld b, h
+	ld c, l
+
+; A cycle of 2 frames, updating every other tick
+	ld a, [wTileAnimationTimer]
+	srl a ; account for 60fps
+	and %10
+
+; CGB has different tile graphics for flowers
+	ld e, a
+	ldh a, [hCGB]
+	and 1
+	add e
+
+; hl = .FlowerTileFrames + a * 16
+	swap a
+	ld e, a
+	ld d, 0
+	ld hl, .FlowerTileFrames
+	add hl, de
+
+; Write the tile graphic from hl (now sp) to tile $03 (now hl)
+	ld sp, hl
+	ld hl, vTiles2 tile $26
+	jmp WriteTile
+
+.FlowerTileFrames:
+	INCBIN "gfx/tilesets/flower/dmg_1.2bpp"
+	INCBIN "gfx/tilesets/flower/dmg_1.2bpp"
+	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
+	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
 
 AnimateLavaBubbleTile1:
 ; Save the stack pointer in bc for WriteTile to restore

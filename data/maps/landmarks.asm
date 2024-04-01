@@ -17,11 +17,23 @@ Landmarks:
 	landmark  84,  60, JubilifeCityName
 	landmark  85,  58, Route203Name
 	landmark  84,  92, OreburghGateName
-	landmark  76,  76, OreburghCityName ; dummy temp
+	landmark  76,  76, OreburghCityName
 	landmark  84, 124, Route204Name
-	landmark  68, 124, RavagedPathName ; dummy temp
+	landmark  68, 124, RavagedPathName
 	landmark  82, 124, FloaromaTownName
-	landmark  70, 122, SlowpokeWellName
+	landmark  70, 122, Route205Name
+
+
+
+
+
+
+
+
+
+
+
+
 	landmark  52, 120, IlexForestName
 	landmark  52, 112, Route34Name
 	landmark  52,  92, TwinleafTownName ; dummy temp
@@ -119,12 +131,12 @@ OreburghCityName:    db "OREBURGH CITY@"
 Route204Name:        db "ROUTE 204@"
 FloaromaTownName:    db "FLOAROMA TOWN@"
 RavagedPathName:     db "RAVAGED PATH@"
+Route205Name:        db "ROUTE 205@"
 
 
 
 
 
-RuinsOfAlphName:     db "RUINS<BSP>OF ALPH@"
 UnionCaveName:       db "UNION CAVE@"
 SlowpokeWellName:    db "SLOWPOKE<BSP>WELL@"
 RadioTowerName:      db "RADIO TOWER@"

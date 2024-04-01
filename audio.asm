@@ -59,7 +59,6 @@ INCLUDE "audio/music/route203.asm"
 SECTION "Songs 3", ROMX
 
 INCLUDE "audio/music/violetcity.asm"
-INCLUDE "audio/music/route29.asm"
 INCLUDE "audio/music/halloffame.asm"
 INCLUDE "audio/music/healpokemon.asm"
 INCLUDE "audio/music/evolution.asm"
@@ -125,6 +124,7 @@ INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
 INCLUDE "audio/music/twinleaftown.asm"
 INCLUDE "audio/music/route201.asm"
+INCLUDE "audio/music/route205.asm"
 
 
 SECTION "Extra Songs 1", ROMX
