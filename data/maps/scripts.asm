@@ -115,6 +115,10 @@ INCLUDE "maps/FloaromaPokecenter1F.asm"
 INCLUDE "maps/Route205South.asm"
 INCLUDE "maps/ValleyWindworks.asm"
 INCLUDE "maps/FuegoIronworks.asm"
+INCLUDE "maps/EternaForestOutside.asm"
+INCLUDE "maps/EternaForestInside.asm"
+INCLUDE "maps/OldChateu.asm"
+INCLUDE "maps/Route205North.asm"
 
 SECTION "Map Scripts 24", ROMX
 

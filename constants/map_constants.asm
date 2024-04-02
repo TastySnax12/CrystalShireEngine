@@ -70,6 +70,8 @@ ENDM
 	newgroup DUNGEONS                                             ;  4
 	map_const OREBURGH_GATE_1F,                            15, 10 ;  1
 	map_const RAVAGED_PATH,                                11, 16 ;  2
+	map_const ETERNA_FOREST_INSIDE,                        30, 27 ;  3
+	map_const OLD_CHATEU,                                  23,  9 ;  4
 	endgroup
 
 	newgroup OREBURGH                                             ;  5
@@ -84,6 +86,8 @@ ENDM
 	map_const ROUTE_205_SOUTH,                             14, 25 ;  4
 	map_const VALLEY_WINDWORKS,                            13, 13 ;  5
 	map_const FUEGO_IRONWORKS,                             10, 10 ;  6
+	map_const ETERNA_FOREST_OUTSIDE,                       17, 17 ;  7
+	map_const ROUTE_205_NORTH,                             14, 12 ;  9
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

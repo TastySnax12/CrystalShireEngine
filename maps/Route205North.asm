@@ -1,17 +1,17 @@
 	object_const_def
 
-Route205South_MapScripts:
+Route205North_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-Route205South_MapEvents:
+Route205North_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 12,  2,   ETERNA_FOREST_INSIDE, 1
-	warp_event 13,  2,   ETERNA_FOREST_INSIDE, 2
+	warp_event  4, 10,   ETERNA_FOREST_INSIDE, 3
+	warp_event  4, 11,   ETERNA_FOREST_INSIDE, 4
 
 	def_coord_events
 

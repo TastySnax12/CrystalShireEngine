@@ -148,7 +148,8 @@ ENDM
 	connection south, Route204North, ROUTE_204_NORTH, 0
 	connection east, Route205South, ROUTE_205_SOUTH, -13
 
-	map_attributes Route205South, ROUTE_205_SOUTH, $01, WEST | EAST
+	map_attributes Route205South, ROUTE_205_SOUTH, $01, NORTH | WEST | EAST
+	connection north, EternaForestOutside, ETERNA_FOREST_OUTSIDE, 7
 	connection west, FloaromaTown, FLOAROMA_TOWN, 13
 	;connection west, FuegoIronworks, FUEGO_IRONWORKS, 2
 	connection east, ValleyWindworks, VALLEY_WINDWORKS, 12
@@ -159,6 +160,13 @@ ENDM
 	map_attributes FuegoIronworks, FUEGO_IRONWORKS, $01, SOUTH | EAST
 	connection south, FloaromaTown, FLOAROMA_TOWN, 0
 	connection east, Route205South, ROUTE_205_SOUTH, -2
+
+	map_attributes EternaForestOutside, ETERNA_FOREST_OUTSIDE, $52, SOUTH | EAST
+	connection south, Route205South, ROUTE_205_SOUTH, -7
+	connection east, Route205North, ROUTE_205_NORTH, -5
+
+	map_attributes Route205North, ROUTE_205_NORTH, $01, WEST
+	connection west, EternaForestOutside, ETERNA_FOREST_OUTSIDE, 5
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -172,3 +180,5 @@ ENDM
 	map_attributes OreburghPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0
 	map_attributes RavagedPath, RAVAGED_PATH, $09, 0
 	map_attributes FloaromaPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0
+	map_attributes EternaForestInside, ETERNA_FOREST_INSIDE, $06, 0
+	map_attributes OldChateu, OLD_CHATEU, $00, 0

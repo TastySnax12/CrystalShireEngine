@@ -75,6 +75,18 @@ ValleyWindworks_Blocks:
 FuegoIronworks_Blocks:
 	INCBIN "maps/FuegoIronworks.ablk"
 
+EternaForestOutside_Blocks:
+	INCBIN "maps/EternaForestOutside.ablk"
+
+EternaForestInside_Blocks:
+	INCBIN "maps/EternaForestInside.ablk"
+
+OldChateu_Blocks:
+	INCBIN "maps/OldChateu.ablk"
+
+Route205North_Blocks:
+	INCBIN "maps/Route205North.ablk"
+
 SECTION "Map Blocks 3", ROMX
 
 

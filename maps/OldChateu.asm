@@ -1,17 +1,15 @@
 	object_const_def
 
-Route205South_MapScripts:
+OldChateu_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-Route205South_MapEvents:
+OldChateu_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 12,  2,   ETERNA_FOREST_INSIDE, 1
-	warp_event 13,  2,   ETERNA_FOREST_INSIDE, 2
 
 	def_coord_events
 

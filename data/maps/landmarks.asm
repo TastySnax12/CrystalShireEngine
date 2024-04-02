@@ -21,9 +21,12 @@ Landmarks:
 	landmark  84, 124, Route204Name
 	landmark  68, 124, RavagedPathName
 	landmark  82, 124, FloaromaTownName
-	landmark  70, 122, Route205Name
+	landmark  70, 122, Route205Name ; north
 	landmark  52, 120, ValleyWindworksName
 	landmark  52, 112, FuegoIronworksName
+	landmark  52,  92, EternaForestName
+	landmark  50,  92, OldChateuName
+	landmark  70, 122, Route205Name ; south
 
 
 
@@ -36,9 +39,6 @@ Landmarks:
 
 
 
-	landmark  52,  92, TwinleafTownName ; dummy temp
-	landmark  50,  92, RadioTowerName
-	landmark  52,  76, Route35Name
 	landmark  52,  60, NationalParkName
 	landmark  64,  60, Route36Name
 	landmark  68,  52, Route37Name
@@ -89,7 +89,7 @@ Landmarks:
 	landmark 116,  52, Route9Name
 	landmark 132,  52, RockTunnelName
 	landmark 132,  56, Route10Name
-	landmark 132,  60, PowerPlantName
+	landmark 132,  60, TwinleafTownName ; dummy temp
 	landmark 132,  68, LavenderTownName
 	landmark 140,  68, LavRadioTowerName
 	landmark  76,  68, CeladonCityName
@@ -134,13 +134,13 @@ RavagedPathName:     db "RAVAGED PATH@"
 Route205Name:        db "ROUTE 205@"
 ValleyWindworksName: db "VALLEY<BSP>WINDWORKS@"
 FuegoIronworksName:  db "FUEGO<BSP>IRONWORKS@"
+EternaForestName:    db "ETERNA FOREST@"
+OldChateuName:       db "OLD CHATEU@"
 
 
 
 
 
-RadioTowerName:      db "RADIO TOWER@"
-PowerPlantName:      db "POWER PLANT@"
 NationalParkName:    db "NATIONAL<BSP>PARK@"
 TinTowerName:        db "TIN TOWER@"
 LighthouseName:      db "LIGHTHOUSE@"

@@ -18,15 +18,15 @@
 	const LANDMARK_ROUTE_205_SOUTH   ; 0d
 	const LANDMARK_VALLEY_WINDWORKS  ; 0e
 	const LANDMARK_FUEGO_IRONWORKS   ; 0f
+	const LANDMARK_ETERNA_FOREST     ; 10
+	const LANDMARK_OLD_CHATEU        ; 11
+	const LANDMARK_ROUTE_205_NORTH   ; 12
 
 
 
 
 
 
-	const LANDMARK_ROUTE_34          ; 0f         ETERNA_FOREST
-	const LANDMARK_GOLDENROD_CITY    ; 10         OLD_CHATEU
-	const LANDMARK_ROUTE_35          ; 12         ETERNA_CITY
 	const LANDMARK_NATIONAL_PARK     ; 13         ROUTE_206
 	const LANDMARK_ROUTE_36          ; 14         WAYWARD_CAVE
 	const LANDMARK_ROUTE_37          ; 15         ROUTE_207
