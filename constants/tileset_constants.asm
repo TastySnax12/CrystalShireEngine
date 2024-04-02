@@ -8,7 +8,7 @@
 	const TILESET_HOUSE                ; 06 INTERIOR
 	const TILESET_MODERN_INTERIOR      ; 07 CITY APARTMENTS
 	const TILESET_LAKE                 ; 08 LAKES & SENDOFF SPRING
-	const TILESET_LAB                  ; 09 ROWAN'S LAB
+	const TILESET_LAB                  ; 09 ROWAN'S LAB & TRAINERS SCHOOL
 	const TILESET_POKECENTER           ; 0a POKEMON CENTER
 	const TILESET_MART                 ; 0b MART & DEPARTMENT STORE
 	const TILESET_POKECOM_CENTER       ; 0c GLOBAL TRADE STATION
