@@ -22,6 +22,8 @@ LoadSpecialMapPalette:
 	jr z, .mansion_mobile
 	cp TILESET_MODERN_INTERIOR
 	jr z, .moderninterior
+	cp TILESET_GYM_1
+	jr z, .gym_1
 	jr .do_nothing
 
 .darkness
@@ -65,6 +67,11 @@ LoadSpecialMapPalette:
 	
 .moderninterior
 	call LoadModernInteriorPalette
+	scf
+	ret
+
+.gym_1
+	call LoadGym1Palette
 	scf
 	ret
 
@@ -169,3 +176,13 @@ LoadModernInteriorPalette:
 
 ModernInteriorPalette:
 INCLUDE "gfx/tilesets/modern_interior.pal"
+
+LoadGym1Palette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, Gym1Palette
+	ld bc, 8 palettes
+	jp FarCopyWRAM
+	
+Gym1Palette:
+INCLUDE "gfx/tilesets/gym_1.pal"

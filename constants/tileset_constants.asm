@@ -12,7 +12,7 @@
 	const TILESET_POKECENTER           ; 0a POKEMON CENTER
 	const TILESET_MART                 ; 0b MART & DEPARTMENT STORE
 	const TILESET_POKECOM_CENTER       ; 0c GLOBAL TRADE STATION
-	;const TILESET_GYM_1                ; 0d OREBURG GYM
+	const TILESET_GYM_1                ; 0d OREBURG GYM
 	;const TILESET_MUSEUM               ; 0e MINING MUSEUM
 	const TILESET_MANSION              ; 0f APARTMENT BUILDING
 	const TILESET_CAVE                 ; 10 ASSORTED CAVES

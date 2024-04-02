@@ -45,6 +45,19 @@ INCBIN "data/tilesets/players_room_metatiles.bin.lz"
 TilesetPlayersRoomColl::
 INCLUDE "data/tilesets/players_room_collision.asm"
 
+TilesetGym1GFX::
+INCBIN "gfx/tilesets/gym_1.2bpp.lz"
+
+TilesetGym1Meta::
+INCBIN "data/tilesets/gym_1_metatiles.bin"
+
+TilesetGym1Coll::
+INCLUDE "data/tilesets/gym_1_collision.asm"
+
+TilesetGym1Attr::
+INCBIN "data/tilesets/gym_1_attributes.bin.lz"
+
+
 
 SECTION "Tileset Data 2", ROMX
 
@@ -444,3 +457,5 @@ INCBIN "data/tilesets/omanyte_word_room_attributes.bin.lz"
 
 TilesetAerodactylWordRoomAttr::
 INCBIN "data/tilesets/aerodactyl_word_room_attributes.bin.lz"
+
+
