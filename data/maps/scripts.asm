@@ -119,6 +119,8 @@ INCLUDE "maps/EternaForestOutside.asm"
 INCLUDE "maps/EternaForestInside.asm"
 INCLUDE "maps/OldChateu.asm"
 INCLUDE "maps/Route205North.asm"
+INCLUDE "maps/EternaCity.asm"
+INCLUDE "maps/EternaPokecenter1F.asm"
 
 SECTION "Map Scripts 24", ROMX
 

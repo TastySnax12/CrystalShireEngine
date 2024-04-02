@@ -86,8 +86,13 @@ ENDM
 	map_const ROUTE_205_SOUTH,                             14, 25 ;  4
 	map_const VALLEY_WINDWORKS,                            13, 13 ;  5
 	map_const FUEGO_IRONWORKS,                             10, 10 ;  6
+	endgroup
+
+	newgroup ETERNA                                               ;  7
 	map_const ETERNA_FOREST_OUTSIDE,                       17, 17 ;  7
 	map_const ROUTE_205_NORTH,                             14, 12 ;  9
+	map_const ETERNA_CITY,                                 25, 22 ; 10
+	map_const ETERNA_POKECENTER_1F,                         5,  4 ; 11
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

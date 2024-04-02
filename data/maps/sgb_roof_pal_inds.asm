@@ -11,4 +11,5 @@ MapGroupRoofSGBPalInds:
 	db PREDEFPAL_NEW_BARK  ;(Dungeons)
 	db PREDEFPAL_NEW_BARK  ;(Oreburgh)
 	db PREDEFPAL_NEW_BARK  ;(Floaroma)
+	db PREDEFPAL_NEW_BARK  ;(Eterna)
 	assert_table_length NUM_MAP_GROUPS + 1

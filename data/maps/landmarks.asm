@@ -27,6 +27,7 @@ Landmarks:
 	landmark  52,  92, EternaForestName
 	landmark  50,  92, OldChateuName
 	landmark  70, 122, Route205Name ; south
+	landmark  52,  60, EternaCityName
 
 
 
@@ -39,7 +40,6 @@ Landmarks:
 
 
 
-	landmark  52,  60, NationalParkName
 	landmark  64,  60, Route36Name
 	landmark  68,  52, Route37Name
 	landmark  70,  42, TinTowerName
@@ -136,12 +136,12 @@ ValleyWindworksName: db "VALLEY<BSP>WINDWORKS@"
 FuegoIronworksName:  db "FUEGO<BSP>IRONWORKS@"
 EternaForestName:    db "ETERNA FOREST@"
 OldChateuName:       db "OLD CHATEU@"
+EternaCityName:      db "ETERNA CITY@"
 
 
 
 
 
-NationalParkName:    db "NATIONAL<BSP>PARK@"
 TinTowerName:        db "TIN TOWER@"
 LighthouseName:      db "LIGHTHOUSE@"
 WhirlIslandsName:    db "WHIRL<BSP>ISLANDS@"

@@ -165,8 +165,12 @@ ENDM
 	connection south, Route205South, ROUTE_205_SOUTH, -7
 	connection east, Route205North, ROUTE_205_NORTH, -5
 
-	map_attributes Route205North, ROUTE_205_NORTH, $01, WEST
+	map_attributes Route205North, ROUTE_205_NORTH, $52, WEST | EAST
 	connection west, EternaForestOutside, ETERNA_FOREST_OUTSIDE, 5
+	connection east, EternaCity, ETERNA_CITY, 0
+
+	map_attributes EternaCity, ETERNA_CITY, $52, WEST
+	connection west, Route205North, ROUTE_205_NORTH, 0
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -179,6 +183,7 @@ ENDM
 	map_attributes OreburghGate1F, OREBURGH_GATE_1F, $09, 0
 	map_attributes OreburghPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0
 	map_attributes RavagedPath, RAVAGED_PATH, $09, 0
-	map_attributes FloaromaPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0
+	map_attributes FloaromaPokecenter1F, FLOAROMA_POKECENTER_1F, $00, 0
 	map_attributes EternaForestInside, ETERNA_FOREST_INSIDE, $06, 0
 	map_attributes OldChateu, OLD_CHATEU, $00, 0
+	map_attributes EternaPokecenter1F, ETERNA_POKECENTER_1F, $00, 0

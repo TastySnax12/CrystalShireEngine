@@ -9,8 +9,8 @@
 	RGB 17,24,10, 09,18,03 ; eve
 
 ; group 2 (Sandgem)
- 	RGB 15,10,31, 07,05,15 ; morn/day
- 	RGB 06,05,17, 02,02,08 ; nite
+	RGB 15,10,31, 07,05,15 ; morn/day
+	RGB 06,05,17, 02,02,08 ; nite
 	RGB 13,08,23, 06,03,11 ; eve
 
 ; group 3 (Jubilife)
@@ -29,11 +29,16 @@
 	RGB 20,19,19, 10,09,09 ; eve
 
 ; group 6 (Oreburgh)
- 	RGB 11,10,16, 05,06,07 ; morn/day
- 	RGB 03,04,08, 00,00,00 ; nite
+	RGB 11,10,16, 05,06,07 ; morn/day
+	RGB 03,04,08, 00,00,00 ; nite
 	RGB 09,08,12, 04,04,05 ; eve
 
 ; group 7 (Floaroma)
  	RGB 17,27,31, 05,15,31 ; morn/day
  	RGB 07,08,22, 07,07,16 ; nite
 	RGB 14,21,23, 04,11,23 ; eve
+
+; group 8 (Eterna)
+ 	RGB 27,23,01, 23,11,00 ; morn/day
+ 	RGB 15,11,01, 11,10,01 ; nite
+	RGB 22,18,01, 20,08,00 ; eve

@@ -19,6 +19,7 @@ MapGroupRoofs:
 	db ROOF_NEW_BARK  ; 5 (Dungeons)
 	db ROOF_AZALEA    ; 5 (Oreburgh)
 	db ROOF_AZALEA    ; 6 (Floaroma)
+	db ROOF_AZALEA    ; 7 (Eterna)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

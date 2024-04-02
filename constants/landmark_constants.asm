@@ -21,13 +21,13 @@
 	const LANDMARK_ETERNA_FOREST     ; 10
 	const LANDMARK_OLD_CHATEU        ; 11
 	const LANDMARK_ROUTE_205_NORTH   ; 12
+	const LANDMARK_ETERNA_CITY       ; 13
 
 
 
 
 
 
-	const LANDMARK_NATIONAL_PARK     ; 13         ROUTE_206
 	const LANDMARK_ROUTE_36          ; 14         WAYWARD_CAVE
 	const LANDMARK_ROUTE_37          ; 15         ROUTE_207
 	const LANDMARK_ECRUTEAK_CITY     ; 16         MT_CORONET

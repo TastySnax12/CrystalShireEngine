@@ -7,6 +7,7 @@ SandgemPokecenter1F_Blocks:
 JubilifePokecenter1F_Blocks:
 OreburghPokecenter1F_Blocks:
 FloaromaPokecenter1F_Blocks:
+EternaPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
 Pokecenter2F_Blocks:
@@ -86,6 +87,9 @@ OldChateu_Blocks:
 
 Route205North_Blocks:
 	INCBIN "maps/Route205North.ablk"
+
+EternaCity_Blocks:
+	INCBIN "maps/EternaCity.ablk"
 
 SECTION "Map Blocks 3", ROMX
 
