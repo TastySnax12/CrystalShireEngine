@@ -28,6 +28,8 @@ Landmarks:
 	landmark  50,  92, OldChateuName
 	landmark  70, 122, Route205Name ; south
 	landmark  52,  60, EternaCityName
+	landmark  64,  60, Route206Name
+	landmark  68,  52, Route207Name
 
 
 
@@ -40,16 +42,14 @@ Landmarks:
 
 
 
-	landmark  64,  60, Route36Name
-	landmark  68,  52, Route37Name
-	landmark  70,  42, TinTowerName
+	landmark  70,  42, TwinleafTownName ; dummy temp
 	landmark  52,  92, TwinleafTownName ; dummy temp
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
 	landmark  36,  60, TwinleafTownName ; dummy temp
-	landmark  38,  62, LighthouseName
-	landmark  28,  56, BattleTowerName
+	landmark  38,  62, TwinleafTownName ; dummy temp
+	landmark  28,  56, Route211Name
 	landmark  28,  64, Route40Name
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
@@ -137,13 +137,13 @@ FuegoIronworksName:  db "FUEGO<BSP>IRONWORKS@"
 EternaForestName:    db "ETERNA FOREST@"
 OldChateuName:       db "OLD CHATEU@"
 EternaCityName:      db "ETERNA CITY@"
+Route206Name:        db "ROUTE 206@"
+Route207Name:        db "ROUTE 207@"
 
 
 
 
 
-TinTowerName:        db "TIN TOWER@"
-LighthouseName:      db "LIGHTHOUSE@"
 WhirlIslandsName:    db "WHIRL<BSP>ISLANDS@"
 MtMortarName:        db "MT.MORTAR@"
 DragonsDenName:      db "DRAGON'S<BSP>DEN@"
@@ -217,5 +217,5 @@ FastShipName:        db "FAST SHIP@"
 DiglettsCaveName:    db "DIGLETT'S<BSP>CAVE@"
 TohjoFallsName:      db "TOHJO FALLS@"
 UndergroundName:     db "UNDERGROUND@"
-BattleTowerName:     db "BATTLE<BSP>TOWER@"
+Route211Name:        db "ROUTE 211@"
 SpecialMapName:      db "SPECIAL@"

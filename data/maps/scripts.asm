@@ -121,6 +121,10 @@ INCLUDE "maps/OldChateu.asm"
 INCLUDE "maps/Route205North.asm"
 INCLUDE "maps/EternaCity.asm"
 INCLUDE "maps/EternaPokecenter1F.asm"
+INCLUDE "maps/Route206.asm"
+INCLUDE "maps/Route207.asm"
+INCLUDE "maps/Route211.asm"
+INCLUDE "maps/Route206EternaGate.asm"
 
 SECTION "Map Scripts 24", ROMX
 

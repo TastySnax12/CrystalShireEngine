@@ -31,7 +31,7 @@
 	const MUSIC_RIVAL_AFTER                  ; 20
 	const MUSIC_SURF                         ; 21
 	const MUSIC_EVOLUTION                    ; 22
-	const MUSIC_NATIONAL_PARK                ; 23
+	const MUSIC_ROUTE_206                    ; 23
 	const MUSIC_CREDITS                      ; 24
 	const MUSIC_OREBURGH_CITY                ; 25
 	const MUSIC_SANDGEM_TOWN                 ; 26

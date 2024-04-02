@@ -13,6 +13,12 @@ EternaPokecenter1F_Blocks:
 Pokecenter2F_Blocks:
 	INCBIN "maps/Pokecenter2F.blk"
 
+Route218JubilifeGate_Blocks:
+	INCBIN "maps/EastWestGate.blk"
+
+Route206EternaGate_Blocks:
+	INCBIN "maps/NorthSouthGate.blk"
+
 SECTION "Map Blocks 2", ROMX
 
 
@@ -48,9 +54,6 @@ OreburghGate1F_Blocks:
 
 Route218_Blocks:
 	INCBIN "maps/Route218.ablk"
-
-Route218JubilifeGate_Blocks:
-	INCBIN "maps/EastWestGate.blk"
 
 OreburghCity_Blocks:
 	INCBIN "maps/OreburghCity.ablk"
@@ -90,6 +93,15 @@ Route205North_Blocks:
 
 EternaCity_Blocks:
 	INCBIN "maps/EternaCity.ablk"
+
+Route206_Blocks:
+	INCBIN "maps/Route206.ablk"
+
+Route207_Blocks:
+	INCBIN "maps/Route207.ablk"
+
+Route211_Blocks:
+	INCBIN "maps/Route211.ablk"
 
 SECTION "Map Blocks 3", ROMX
 
