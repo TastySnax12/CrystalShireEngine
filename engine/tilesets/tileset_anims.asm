@@ -89,20 +89,6 @@ TilesetSinnoh1Anim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-TilesetPortAnim:
-	dw vTiles2 tile $14, AnimateWaterTile
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  AnimateWaterPalette
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  DoNothing ; WaitTileAnimation
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
 TilesetEliteFourRoomAnim:
 	dw NULL,  AnimateLavaBubbleTile2
 	dw NULL,  DoNothing ; WaitTileAnimation
@@ -199,6 +185,7 @@ TilesetHoOhWordRoomAnim:
 TilesetKabutoWordRoomAnim:
 TilesetOmanyteWordRoomAnim:
 TilesetAerodactylWordRoomAnim:
+TilesetModernInteriorAnim:
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation

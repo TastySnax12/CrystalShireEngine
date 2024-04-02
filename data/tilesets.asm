@@ -15,37 +15,46 @@ Tilesets::
 	tileset TilesetSinnoh1
 	tileset TilesetSinnoh2
 	tileset TilesetSinnoh3
-	tileset TilesetBattleTowerOutside
-	tileset TilesetHouse
+	tileset TilesetPlayersRoom
 	tileset TilesetPlayersHouse
-	tileset TilesetPokecenter
-	tileset TilesetGate
-	tileset TilesetPort
+	tileset TilesetHouse
+	tileset TilesetModernInterior
+	tileset TilesetLake
 	tileset TilesetLab
-	tileset TilesetFacility
+	tileset TilesetPokecenter
 	tileset TilesetMart
+	tileset TilesetPokeComCenter
+	;tileset TilesetGym1
+	;tileset TilesetMuseum
 	tileset TilesetMansion
-	tileset TilesetGameCorner
-	tileset TilesetEliteFourRoom
+	tileset TilesetCave
+	tileset TilesetGate
+	;tileset TilesetMeadow
+	tileset TilesetForest
+	tileset TilesetFacility
+	;tileset TilesetBikeShop
+	;tileset TilesetPark
+	tileset TilesetRadioTower
+	tileset TilesetRuinsOfAlph
 	tileset TilesetTraditionalHouse
+	tileset TilesetGameCorner
+	tileset TilesetIcePath
+	;tileset TilesetMtCoronet
+	;tileset TilesetOldChateau
+	;tileset TilesetCave2
+	;tileset TilesetGym2
+	tileset TilesetEliteFourRoom
 	tileset TilesetTrainStation
 	tileset TilesetChampionsRoom
 	tileset TilesetLighthouse
-	tileset TilesetPlayersRoom
-	tileset TilesetPokeComCenter
 	tileset TilesetBattleTowerInside
 	tileset TilesetTower
-	tileset TilesetCave
-	tileset TilesetLake
-	tileset TilesetRuinsOfAlph
-	tileset TilesetRadioTower
 	tileset TilesetUnderground
-	tileset TilesetIcePath
 	tileset TilesetDarkCave
-	tileset TilesetForest
 	tileset TilesetBetaWordRoom
 	tileset TilesetHoOhWordRoom
 	tileset TilesetKabutoWordRoom
 	tileset TilesetOmanyteWordRoom
 	tileset TilesetAerodactylWordRoom
+	tileset TilesetBattleTowerOutside
 	assert_table_length NUM_TILESETS + 1

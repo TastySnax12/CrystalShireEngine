@@ -57,14 +57,17 @@ INCBIN "data/tilesets/pokecenter_metatiles.bin.lz"
 TilesetPokecenterColl::
 INCLUDE "data/tilesets/pokecenter_collision.asm"
 
-TilesetPortGFX::
-INCBIN "gfx/tilesets/port.2bpp.lz"
+TilesetModernInteriorGFX::
+INCBIN "gfx/tilesets/modern_interior.2bpp.lz"
 
-TilesetPortMeta::
-INCBIN "data/tilesets/port_metatiles.bin.lz"
+TilesetModernInteriorMeta::
+INCBIN "data/tilesets/modern_interior_metatiles.bin.lz"
 
-TilesetPortColl::
-INCLUDE "data/tilesets/port_collision.asm"
+TilesetModernInteriorColl::
+INCLUDE "data/tilesets/modern_interior_collision.asm"
+
+TilesetModernInteriorAttr::
+INCBIN "data/tilesets/modern_interior_attributes.bin.lz"
 
 TilesetPlayersHouseGFX::
 INCBIN "gfx/tilesets/players_house.2bpp.lz"
@@ -356,9 +359,6 @@ INCBIN "data/tilesets/pokecenter_attributes.bin.lz"
 
 TilesetGateAttr::
 INCBIN "data/tilesets/gate_attributes.bin.lz"
-
-TilesetPortAttr::
-INCBIN "data/tilesets/port_attributes.bin.lz"
 
 TilesetLabAttr::
 INCBIN "data/tilesets/lab_attributes.bin.lz"
