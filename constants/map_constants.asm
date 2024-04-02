@@ -77,6 +77,8 @@ ENDM
 	newgroup OREBURGH                                             ;  5
 	map_const OREBURGH_CITY,                               25, 20 ;  1
 	map_const OREBURGH_POKECENTER_1F,                       5,  4 ;  2
+	map_const ROUTE_206,                                   14, 43 ;  3
+	map_const ROUTE_207,                                   27, 10 ;  4
 	endgroup
 
 	newgroup FLOAROMA                                             ;  6
@@ -93,6 +95,8 @@ ENDM
 	map_const ROUTE_205_NORTH,                             14, 12 ;  9
 	map_const ETERNA_CITY,                                 25, 22 ; 10
 	map_const ETERNA_POKECENTER_1F,                         5,  4 ; 11
+	map_const ROUTE_211,                                   30, 12 ; 12
+	map_const ROUTE_206_ETERNA_GATE,                        5,  4 ;  4
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

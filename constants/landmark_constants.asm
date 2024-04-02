@@ -22,14 +22,14 @@
 	const LANDMARK_OLD_CHATEU        ; 11
 	const LANDMARK_ROUTE_205_NORTH   ; 12
 	const LANDMARK_ETERNA_CITY       ; 13
+	const LANDMARK_ROUTE_206         ; 14
+	const LANDMARK_ROUTE_207         ; 15
 
 
 
 
 
 
-	const LANDMARK_ROUTE_36          ; 14         WAYWARD_CAVE
-	const LANDMARK_ROUTE_37          ; 15         ROUTE_207
 	const LANDMARK_ECRUTEAK_CITY     ; 16         MT_CORONET
 	const LANDMARK_TIN_TOWER         ; 17         ROUTE_208
 	const LANDMARK_BURNED_TOWER      ; 18         HEARTHOME_CITY
@@ -37,7 +37,7 @@
 	const LANDMARK_ROUTE_39          ; 1a         SOLACEON_TOWN
 	const LANDMARK_OLIVINE_CITY      ; 1b         SOLACEON_RUINS
 	const LANDMARK_LIGHTHOUSE        ; 1c         ROUTE_210
-	const LANDMARK_BATTLE_TOWER      ; 1d         ROUTE_211
+	const LANDMARK_ROUTE_211         ; 1d
 	const LANDMARK_ROUTE_40          ; 1e         ROUTE_212
 	const LANDMARK_WHIRL_ISLANDS     ; 1f         PASTORIA_CITY
 	const LANDMARK_ROUTE_41          ; 20         ROUTE_213

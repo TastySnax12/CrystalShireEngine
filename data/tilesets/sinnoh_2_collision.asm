@@ -84,7 +84,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 53
 	tilecoll WALL, UP_WALL, WALL, FLOOR ; 54
 	tilecoll UP_WALL, WALL, FLOOR, WALL ; 55
-	tilecoll WALL, FLOOR, WALL, FLOOR ; 56
+	tilecoll WALL, WALL, WALL, WALL ; 56
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 57
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 58
 	tilecoll WALL, WALL, WALL, WALL ; 59

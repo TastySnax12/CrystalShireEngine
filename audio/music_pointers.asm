@@ -33,7 +33,7 @@ Music:
 	dba Music_AfterTheRivalFight
 	dba Music_Surf
 	dba Music_Evolution
-	dba Music_NationalPark
+	dba Music_Route206
 	dba Music_Credits
 	dba Music_OreburghCity
 	dba Music_SandgemTown

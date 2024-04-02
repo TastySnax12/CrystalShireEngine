@@ -133,7 +133,8 @@ ENDM
 	map_attributes Route218, ROUTE_218, $01, EAST
 	connection east, JubilifeCity, JUBILIFE_CITY, 0
 
-	map_attributes OreburghCity, OREBURGH_CITY, $09, WEST
+	map_attributes OreburghCity, OREBURGH_CITY, $09, NORTH | WEST
+	connection north, Route207, ROUTE_207, 12
 	connection west, Route203, ROUTE_203, 0
 
 	map_attributes Route204South, ROUTE_204_SOUTH, $01, NORTH | SOUTH
@@ -169,8 +170,22 @@ ENDM
 	connection west, EternaForestOutside, ETERNA_FOREST_OUTSIDE, 5
 	connection east, EternaCity, ETERNA_CITY, 0
 
-	map_attributes EternaCity, ETERNA_CITY, $52, WEST
+	map_attributes EternaCity, ETERNA_CITY, $52, SOUTH | WEST | EAST
+	connection south, Route206, ROUTE_206, 0
 	connection west, Route205North, ROUTE_205_NORTH, 0
+	connection east, Route211, ROUTE_211, 1
+
+	map_attributes Route211, ROUTE_211, $52, WEST
+	connection west, EternaCity, ETERNA_CITY, -1
+
+	map_attributes Route206, ROUTE_206, $09, NORTH | SOUTH
+	connection north, EternaCity, ETERNA_CITY, 0
+	connection south, Route207, ROUTE_207, 0
+
+	map_attributes Route207, ROUTE_207, $09, NORTH | SOUTH
+	connection north, Route206, ROUTE_206, 0
+	connection south, OreburghCity, OREBURGH_CITY, -12
+
 
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
@@ -187,3 +202,4 @@ ENDM
 	map_attributes EternaForestInside, ETERNA_FOREST_INSIDE, $06, 0
 	map_attributes OldChateu, OLD_CHATEU, $00, 0
 	map_attributes EternaPokecenter1F, ETERNA_POKECENTER_1F, $00, 0
+	map_attributes Route206EternaGate, ROUTE_206_ETERNA_GATE, $00, 0

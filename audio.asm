@@ -85,7 +85,6 @@ INCLUDE "audio/music/aftertherivalfight.asm"
 assert BANK(Music_LookRival) == BANK(Music_AfterTheRivalFight)
 
 INCLUDE "audio/music/surf.asm"
-INCLUDE "audio/music/nationalpark.asm"
 INCLUDE "audio/music/oreburghcity.asm"
 INCLUDE "audio/music/sandgemtown.asm"
 INCLUDE "audio/music/unioncave.asm"
@@ -125,6 +124,7 @@ INCLUDE "audio/music/mobilecenter.asm"
 INCLUDE "audio/music/twinleaftown.asm"
 INCLUDE "audio/music/route201.asm"
 INCLUDE "audio/music/route205.asm"
+INCLUDE "audio/music/Route206.asm"
 
 
 SECTION "Extra Songs 1", ROMX
