@@ -3,6 +3,26 @@ SECTION "Map Blocks 1", ROMX
 PlayersHouse1F_Blocks:
 	INCBIN "maps/PlayersHouse1F.ablk"
 
+PlayersHouse2F_Blocks:
+	INCBIN "maps/PlayersHouse2F.ablk"
+
+RivalHouse1F_Blocks:
+	INCBIN "maps/RivalHouse1F.blk"
+	
+RivalHouse2F_Blocks:
+	INCBIN "maps/RivalHouse2F.blk"
+
+TwinleafHouse1_Blocks:
+TwinleafHouse2_Blocks:
+;SandgemHouse1_Blocks:
+;OreburghHouseW_Blocks:
+;OreburghHouseN_Blocks:
+;OreburghHouseE_Blocks:
+;FloaromaHouseW_Blocks:
+;FloaromaHouseE_Blocks:
+;FloaromaMeadowHouse_Blocks:
+	INCBIN "maps/HouseInterior1.blk"
+
 SandgemPokecenter1F_Blocks:
 JubilifePokecenter1F_Blocks:
 OreburghPokecenter1F_Blocks:
@@ -39,6 +59,9 @@ VerityLakefront_Blocks:
 
 LakeVerity_Blocks:
 	INCBIN "maps/LakeVerity.ablk"
+
+LakeVerityHighTide_Blocks:
+	INCBIN "maps/LakeVerityHighTide.ablk"
 
 SandgemTown_Blocks:
 	INCBIN "maps/SandgemTown.ablk"
@@ -105,9 +128,6 @@ Route211_Blocks:
 
 SECTION "Map Blocks 3", ROMX
 
-
-PlayersHouse2F_Blocks:
-	INCBIN "maps/PlayersHouse2F.ablk"
-
+;-------------------------------
 
 ENDSECTION

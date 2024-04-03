@@ -190,7 +190,12 @@ ENDM
 
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $00, 0
+	map_attributes RivalHouse1F, RIVAL_HOUSE_1F, $00, 0
+	map_attributes RivalHouse2F, RIVAL_HOUSE_2F, $00, 0
+	map_attributes TwinleafHouse1, TWINLEAF_HOUSE_1, $00, 0
+	map_attributes TwinleafHouse2, TWINLEAF_HOUSE_2, $00, 0
 	map_attributes LakeVerity, LAKE_VERITY, $01, 0
+	map_attributes LakeVerityHighTide, LAKE_VERITY_HIGH_TIDE, $01, 0
 	map_attributes SandgemPokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
 	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
 	map_attributes JubilifePokecenter1F, JUBILIFE_POKECENTER_1F, $00, 0

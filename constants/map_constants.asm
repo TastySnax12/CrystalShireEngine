@@ -40,9 +40,14 @@ ENDM
 	map_const TWINLEAF_TOWN,                               10, 10 ;  1
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  2
 	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  3
-	map_const VERITY_LAKEFRONT,                             7,  9 ;  4
-	map_const LAKE_VERITY,                                 17, 14 ;  5
-	map_const ROUTE_201,                                   23,  9 ;  6
+	map_const RIVAL_HOUSE_1F,                               5,  4 ;  4
+	map_const RIVAL_HOUSE_2F,                               4,  3 ;  5
+	map_const TWINLEAF_HOUSE_1,                             4,  4 ;  6
+	map_const TWINLEAF_HOUSE_2,                             4,  4 ;  7
+	map_const VERITY_LAKEFRONT,                             7,  9 ;  8
+	map_const LAKE_VERITY,                                 17, 14 ;  9
+	map_const LAKE_VERITY_HIGH_TIDE,                       17, 14 ; 10
+	map_const ROUTE_201,                                   23,  9 ; 11
 	endgroup
 
 

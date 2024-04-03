@@ -11,6 +11,8 @@ FloaromaTown_MapEvents:
 
 	def_warp_events
 	warp_event 13, 23,   FLOAROMA_POKECENTER_1F, 1
+	;warp_event 13, 23,   FLOAROMA_MEADOW, 1
+	;warp_event 13, 23,   FLOAROMA_MEADOW, 1
 
 	def_coord_events
 
