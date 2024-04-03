@@ -173,9 +173,9 @@ ENDM
 	map_attributes EternaCity, ETERNA_CITY, $52, SOUTH | WEST | EAST
 	connection south, Route206, ROUTE_206, 0
 	connection west, Route205North, ROUTE_205_NORTH, 0
-	connection east, Route211, ROUTE_211, 1
+	connection east, Route211West, ROUTE_211_WEST, 1
 
-	map_attributes Route211, ROUTE_211, $52, WEST
+	map_attributes Route211West, ROUTE_211_WEST, $52, WEST
 	connection west, EternaCity, ETERNA_CITY, -1
 
 	map_attributes Route206, ROUTE_206, $09, NORTH | SOUTH

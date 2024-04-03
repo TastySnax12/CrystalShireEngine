@@ -131,8 +131,8 @@ Route206_Blocks:
 Route207_Blocks:
 	INCBIN "maps/Route207.ablk"
 
-Route211_Blocks:
-	INCBIN "maps/Route211.ablk"
+Route211West_Blocks:
+	INCBIN "maps/Route211West.ablk"
 
 RowansLab_Blocks:
 	INCBIN "maps/RowansLab.blk"

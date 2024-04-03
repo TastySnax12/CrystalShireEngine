@@ -366,7 +366,7 @@ JohtoGrassWildMons:
 	dbw 5, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_211
+	def_grass_wildmons ROUTE_211_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 3, RATTATA

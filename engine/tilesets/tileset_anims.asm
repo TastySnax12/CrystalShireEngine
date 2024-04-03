@@ -36,7 +36,20 @@ _AnimateTileset::
 	jp hl
 
 Tileset0Anim:
+
 TilesetSinnoh2Anim:
+	dw vTiles2 tile $14, AnimateWaterTile
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw NULL,  AnimateWaterPalette
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw NULL,  AnimateFlowerTile
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw NULL,  StandingTileFrame8
+	dw NULL,  DoneTileAnimation
+
 TilesetSinnoh3Anim:
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  DoNothing ; WaitTileAnimation

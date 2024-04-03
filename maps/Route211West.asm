@@ -1,12 +1,12 @@
 	object_const_def
 
-Route211_MapScripts:
+Route211West_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-Route211_MapEvents:
+Route211West_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events

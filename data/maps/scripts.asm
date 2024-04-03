@@ -72,7 +72,7 @@ INCLUDE "maps/OldChateu.asm"
 INCLUDE "maps/Route205North.asm"
 INCLUDE "maps/EternaCity.asm"
 INCLUDE "maps/EternaPokecenter1F.asm"
-INCLUDE "maps/Route211.asm"
+INCLUDE "maps/Route211West.asm"
 
 SECTION "Map Scripts 8", ROMX
 SECTION "Map Scripts 9", ROMX

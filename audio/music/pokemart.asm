@@ -9,18 +9,18 @@ Music_PokeMart:
 	channel 4, Music_Pokemart_Ch4
 
 ; Drum constants, replace with the proper values
-DRUM_POKEMART_09	EQU	3 ; noise
-DRUM_POKEMART_0a	EQU	4 ;
-DRUM_POKEMART_0b	EQU	7 ;
-DRUM_POKEMART_0d	EQU	8 ; hat
-DRUM_POKEMART_0e	EQU	5 ; tri
-DRUM_POKEMART_0f	EQU	4 ; 
+DEF DRUM_POKEMART_09	EQU	3 ; noise
+DEF DRUM_POKEMART_0a	EQU	4 ;
+DEF DRUM_POKEMART_0b	EQU	7 ;
+DEF DRUM_POKEMART_0d	EQU	8 ; hat
+DEF DRUM_POKEMART_0e	EQU	5 ; tri
+DEF DRUM_POKEMART_0f	EQU	4 ; 
 
 ; Drumset to use, replace with the proper value
-DRUMSET_POKEMART	EQU	3
+DEF DRUMSET_POKEMART	EQU	3
 
 ; idk
-VOLGAIN_POKEMART EQU 3
+DEF VOLGAIN_POKEMART EQU 3
 
 Music_Pokemart_Ch1:
 	tempo 69

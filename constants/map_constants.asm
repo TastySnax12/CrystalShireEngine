@@ -105,7 +105,7 @@ ENDM
 	map_const ROUTE_205_NORTH,                             14, 12 ;  9
 	map_const ETERNA_CITY,                                 25, 22 ; 10
 	map_const ETERNA_POKECENTER_1F,                         5,  4 ; 11
-	map_const ROUTE_211,                                   30, 12 ; 12
+	map_const ROUTE_211_WEST,                              12, 12 ; 12
 	map_const ROUTE_206_ETERNA_GATE,                        5,  4 ;  4
 	endgroup
 
