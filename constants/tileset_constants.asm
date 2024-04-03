@@ -17,7 +17,7 @@
 	const TILESET_MANSION              ; 0f APARTMENT BUILDING
 	const TILESET_CAVE                 ; 10 ASSORTED CAVES
 	const TILESET_GATE                 ; 11 GATEHOUSES
-	;const TILESET_MEADOW               ; 12 FLOAROMA MEADOW
+	const TILESET_MEADOW               ; 12 FLOAROMA MEADOW
 	const TILESET_FOREST               ; 13 ETERNA FOREST
 	const TILESET_FACILITY             ; 14 GALACTIC HIDEOUT
 	;const TILESET_BIKE SHOP            ; 15 ETERNA BIKE SHOP

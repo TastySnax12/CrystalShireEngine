@@ -26,6 +26,8 @@ LoadSpecialMapPalette:
 	jr z, .gym_1
 	cp TILESET_MUSEUM
 	jr z, .museum
+	cp TILESET_MEADOW
+	jr z, .meadow
 	jr .do_nothing
 
 .darkness
@@ -79,6 +81,11 @@ LoadSpecialMapPalette:
 	
 .museum
 	call LoadMuseumPalette
+	scf
+	ret
+	
+.meadow
+	call LoadMeadowPalette
 	scf
 	ret
 
@@ -202,4 +209,14 @@ LoadMuseumPalette:
 	jp FarCopyWRAM
 	
 MuseumPalette:
+INCLUDE "gfx/tilesets/museum.pal"
+
+LoadMeadowPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, MeadowPalette
+	ld bc, 8 palettes
+	jp FarCopyWRAM
+	
+MeadowPalette:
 INCLUDE "gfx/tilesets/museum.pal"

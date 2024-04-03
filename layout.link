@@ -329,6 +329,8 @@ ROMX $7e
 ROMX $7f
 	org $7de0
 	"Stadium 2 Checksums"
+ROMX $80
+	"Tileset Data 12"
 WRAM0
 	"Stack"
 	"Audio RAM"

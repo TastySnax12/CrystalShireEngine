@@ -188,6 +188,7 @@ TilesetAerodactylWordRoomAnim:
 TilesetModernInteriorAnim:
 TilesetGym1Anim:
 TilesetMuseumAnim:
+TilesetMeadowAnim:
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
