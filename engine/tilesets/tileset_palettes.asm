@@ -24,6 +24,8 @@ LoadSpecialMapPalette:
 	jr z, .moderninterior
 	cp TILESET_GYM_1
 	jr z, .gym_1
+	cp TILESET_MUSEUM
+	jr z, .museum
 	jr .do_nothing
 
 .darkness
@@ -72,6 +74,11 @@ LoadSpecialMapPalette:
 
 .gym_1
 	call LoadGym1Palette
+	scf
+	ret
+	
+.museum
+	call LoadMuseumPalette
 	scf
 	ret
 
@@ -186,3 +193,13 @@ LoadGym1Palette:
 	
 Gym1Palette:
 INCLUDE "gfx/tilesets/gym_1.pal"
+
+LoadMuseumPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, MuseumPalette
+	ld bc, 8 palettes
+	jp FarCopyWRAM
+	
+MuseumPalette:
+INCLUDE "gfx/tilesets/museum.pal"

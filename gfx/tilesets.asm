@@ -57,6 +57,18 @@ INCLUDE "data/tilesets/gym_1_collision.asm"
 TilesetGym1Attr::
 INCBIN "data/tilesets/gym_1_attributes.bin.lz"
 
+TilesetMuseumGFX::
+INCBIN "gfx/tilesets/museum.2bpp.lz"
+
+TilesetMuseumMeta::
+INCBIN "data/tilesets/museum_metatiles.bin"
+
+TilesetMuseumColl::
+INCLUDE "data/tilesets/museum_collision.asm"
+
+TilesetMuseumAttr::
+INCBIN "data/tilesets/museum_attributes.bin.lz"
+
 
 
 SECTION "Tileset Data 2", ROMX
