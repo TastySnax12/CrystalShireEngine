@@ -197,6 +197,11 @@ ENDM
 	map_attributes LakeVerity, LAKE_VERITY, $01, 0
 	map_attributes LakeVerityHighTide, LAKE_VERITY_HIGH_TIDE, $01, 0
 	map_attributes SandgemPokecenter1F, SANDGEM_POKECENTER_1F, $00, 0
+	map_attributes SandgemPokeMart, SANDGEM_POKEMART, $00, 0
+	map_attributes RowansLab, ROWANS_LAB, $00, 0
+	map_attributes SandgemHouse1, SANDGEM_HOUSE_1, $00, 0
+	map_attributes AssistantHouse1F, ASSISTANT_HOUSE_1F, $00, 0
+	map_attributes AssistantHouse2F, ASSISTANT_HOUSE_2F, $00, 0
 	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
 	map_attributes JubilifePokecenter1F, JUBILIFE_POKECENTER_1F, $00, 0
 	map_attributes Route218JubilifeGate, ROUTE_218_JUBILIFE_GATE, $00, 0

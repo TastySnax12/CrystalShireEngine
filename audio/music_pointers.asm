@@ -48,7 +48,7 @@ Music:
 	dba Music_ChampionBattle
 	dba Music_RivalBattle
 	dba Music_RocketBattle
-	dba Music_ElmsLab
+	dba Music_RowansLab
 	dba Music_DarkCave
 	dba Music_Route205
 	dba Music_Route36
@@ -96,4 +96,5 @@ Music:
 ; new to PPG2
 	dba Music_TwinleafTown
 	dba Music_Route201
+	dba Music_PokeMart
 	assert_table_length NUM_MUSIC_SONGS

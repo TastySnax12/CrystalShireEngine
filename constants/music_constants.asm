@@ -46,7 +46,7 @@
 	const MUSIC_CHAMPION_BATTLE              ; 2f
 	const MUSIC_RIVAL_BATTLE                 ; 30
 	const MUSIC_ROCKET_BATTLE                ; 31
-	const MUSIC_PROF_ELM                     ; 32
+	const MUSIC_PROF_ROWAN                   ; 32
 	const MUSIC_DARK_CAVE                    ; 33
 	const MUSIC_ROUTE_205                    ; 34
 	const MUSIC_ROUTE_36                     ; 35
@@ -94,6 +94,7 @@
 ; new toPPG2
 	const MUSIC_TWINLEAF_TOWN                ; 67
 	const MUSIC_ROUTE_201                    ; 68
+	const MUSIC_POKE_MART                    ; 69
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see home/map.asm)

@@ -24,6 +24,11 @@ SECTION "Map Scripts 3", ROMX
 
 INCLUDE "maps/SandgemTown.asm"
 INCLUDE "maps/SandgemPokecenter1F.asm"
+INCLUDE "maps/SandgemPokeMart.asm"
+INCLUDE "maps/RowansLab.asm"
+INCLUDE "maps/SandgemHouse1.asm"
+INCLUDE "maps/AssistantHouse1F.asm"
+INCLUDE "maps/AssistantHouse2F.asm"
 INCLUDE "maps/Route202.asm"
 INCLUDE "maps/Route219.asm"
 

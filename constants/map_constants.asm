@@ -54,8 +54,13 @@ ENDM
 	newgroup SANDGEM                                               ; 2
 	map_const SANDGEM_TOWN,                                13, 10 ;  1
 	map_const SANDGEM_POKECENTER_1F,                        5,  4 ;  2
-	map_const ROUTE_202,                                   10, 10 ;  3
-	map_const ROUTE_219,                                   11, 11 ;  4
+	map_const SANDGEM_POKEMART,                             6,  4 ;  3
+	map_const ROWANS_LAB,                                   8,  6 ;  4
+	map_const SANDGEM_HOUSE_1,                              4,  4 ;  5
+	map_const ASSISTANT_HOUSE_1F,                           5,  4 ;  6
+	map_const ASSISTANT_HOUSE_2F,                           4,  3 ;  7
+	map_const ROUTE_202,                                   10, 10 ;  8
+	map_const ROUTE_219,                                   11, 11 ;  9
 	endgroup
 
 

@@ -14,7 +14,7 @@ RivalHouse2F_Blocks:
 
 TwinleafHouse1_Blocks:
 TwinleafHouse2_Blocks:
-;SandgemHouse1_Blocks:
+SandgemHouse1_Blocks:
 ;OreburghHouseW_Blocks:
 ;OreburghHouseN_Blocks:
 ;OreburghHouseE_Blocks:
@@ -32,6 +32,14 @@ EternaPokecenter1F_Blocks:
 
 Pokecenter2F_Blocks:
 	INCBIN "maps/Pokecenter2F.blk"
+
+SandgemPokeMart_Blocks:
+;JubilifePokeMart_Blocks:
+;OreburghPokeMart_Blocks:
+;FloaromaPokeMart_Blocks:
+;EternaPokeMart_Blocks:
+	INCBIN "maps/PokeMart.blk"
+
 
 Route218JubilifeGate_Blocks:
 	INCBIN "maps/EastWestGate.blk"
@@ -125,6 +133,15 @@ Route207_Blocks:
 
 Route211_Blocks:
 	INCBIN "maps/Route211.ablk"
+
+RowansLab_Blocks:
+	INCBIN "maps/RowansLab.blk"
+	
+AssistantHouse1F_Blocks:
+	INCBIN "maps/AssistantHouse1F.blk"
+
+AssistantHouse2F_Blocks:
+	INCBIN "maps/AssistantHouse2F.blk"
 
 SECTION "Map Blocks 3", ROMX
 

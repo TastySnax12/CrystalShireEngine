@@ -13,7 +13,7 @@ SECTION "Songs 1", ROMX
 INCLUDE "audio/music/route36.asm"
 INCLUDE "audio/music/rivalbattle.asm"
 INCLUDE "audio/music/rocketbattle.asm"
-INCLUDE "audio/music/elmslab.asm"
+INCLUDE "audio/music/rowanslab.asm"
 INCLUDE "audio/music/darkcave.asm"
 INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattle.asm"
@@ -125,7 +125,7 @@ INCLUDE "audio/music/twinleaftown.asm"
 INCLUDE "audio/music/route201.asm"
 INCLUDE "audio/music/route205.asm"
 INCLUDE "audio/music/Route206.asm"
-
+INCLUDE "audio/music/pokemart.asm"
 
 SECTION "Extra Songs 1", ROMX
 
