@@ -1,0 +1,21 @@
+	db 0 ; species ID placeholder
+
+	db  90,  92,  75,  60,  92,  85
+	evs  0,   1,   0,   0,   1,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db GRASS, ICE ; type
+	db 60 ; catch rate
+	db 173 ; base exp
+	dw NO_ITEM, NEVERMELTICE ; items
+	db GENDER_F50 ; gender ratio
+	db 20 ; step cycles to hatch
+	INCBIN "gfx/pokemon/abomasnow/front.dimensions"
+	dw NULL, NULL ; unused (beta front/back pics)
+	db GROWTH_SLOW ; growth rate
+	dn EGG_PLANT, EGG_MONSTER ; egg groups
+	;db 70 ; happiness
+
+	; tm/hm learnset
+	tmhm ;FOCUS_PUNCH, WATER_PULSE, TOXIC, HAIL, BULLET_SEED, HIDDEN_POWER, ICE_BEAM, BLIZZARD, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, GIGA_DRAIN, SAFEGUARD, FRUSTRATION, SOLARBEAM, IRON_TAIL, EARTHQUAKE, RETURN, SHADOW_BALL, BRICK_BREAK, DOUBLE_TEAM, ROCK_TOMB, FACADE, SECRET_POWER, REST, ATTRACT, FOCUS_BLAST, ENERGY_BALL, FLING, ENDURE, GIGA_IMPACT, FLASH, AVALANCHE, SWORDS_DANCE, CAPTIVATE, ROCK_SLIDE, SLEEP_TALK, NATURAL_GIFT, GRASS_KNOT, SWAGGER, SUBSTITUTE, STRENGTH, ROCK_SMASH, ROCK_CLIMB, ICE_PUNCH, ICY_WIND, MUD_SLAP, OUTRAGE, SEED_BOMB, SNORE, SYNTHESIS
+	; end

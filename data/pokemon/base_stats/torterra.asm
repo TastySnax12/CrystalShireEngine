@@ -1,0 +1,21 @@
+	db 0 ; species ID placeholder
+
+	db  95, 109, 105,  56,  75,  85
+	evs  0,   2,   1,   0,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db GRASS, GROUND ; type
+	db 45 ; catch rate
+	db 236 ; base exp
+	dw NO_ITEM, NO_ITEM ; items
+	db GENDER_F12_5 ; gender ratio
+	db 20 ; step cycles to hatch
+	INCBIN "gfx/pokemon/torterra/front.dimensions"
+	dw NULL, NULL ; unused (beta front/back pics)
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_PLANT, EGG_MONSTER ; egg groups
+	;db 70 ; happiness
+
+	; tm/hm learnset
+	tmhm ;ROAR, TOXIC, BULLET_SEED, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, LIGHT_SCREEN, PROTECT, GIGA_DRAIN, SAFEGUARD, FRUSTRATION, SOLARBEAM, IRON_TAIL, EARTHQUAKE, RETURN, DOUBLE_TEAM, REFLECT, SANDSTORM, ROCK_TOMB, FACADE, SECRET_POWER, REST, ATTRACT, ENERGY_BALL, ENDURE, GIGA_IMPACT, ROCK_POLISH, FLASH, STONE_EDGE, SWORDS_DANCE, STEALTH_ROCK, CAPTIVATE, ROCK_SLIDE, SLEEP_TALK, NATURAL_GIFT, GRASS_KNOT, SWAGGER, SUBSTITUTE, CUT, STRENGTH, ROCK_SMASH, ROCK_CLIMB, EARTH_POWER, FRENZY_PLANT, IRON_HEAD, MUD_SLAP, OUTRAGE, SEED_BOMB, SNORE, SUPERPOWER, SYNTHESIS 
+	; end

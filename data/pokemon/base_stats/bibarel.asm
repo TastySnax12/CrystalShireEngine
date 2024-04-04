@@ -1,0 +1,21 @@
+	db 0 ; species ID placeholder
+
+	db  79,  85,  60,  71,  55,  60
+	evs  0,   2,   0,   0,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db NORMAL, WATER ; type
+	db 127 ; catch rate
+	db 144 ; base exp
+	dw BERRY, GOLD_BERRY ; items
+	db GENDER_F50 ; gender ratio
+	db 15 ; step cycles to hatch
+	INCBIN "gfx/pokemon/bibarel/front.dimensions"
+	dw NULL, NULL ; unused (beta front/back pics)
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_GROUND, EGG_WATER_1 ; egg groups
+	;db 70 ; happiness
+	
+	; tm/hm learnset
+	tmhm ;FOCUS_PUNCH, WATER_PULSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, TAUNT, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, FRUSTRATION, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, SHOCK_WAVE, FACADE, SECRET_POWER, REST, ATTRACT, THIEF, FLING, CHARGE_BEAM, ENDURE, GIGA_IMPACT, THUNDER_WAVE, STEALTH_ROCK, CAPTIVATE, SLEEP_TALK, NATURAL_GIFT, GRASS_KNOT, SWAGGER, PLUCK, SUBSTITUTE, CUT, SURF, STRENGTH, ROCK_SMASH, WATERFALL, ROCK_CLIMB, AQUA_TAIL, DIVE, FURY_CUTTER, ICY_WIND, LAST_RESORT, MUD_SLAP, ROLLOUT, SNORE, SUPERPOWER, SWIFT 
+	; end
