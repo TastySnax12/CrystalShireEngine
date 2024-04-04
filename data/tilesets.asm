@@ -40,7 +40,7 @@ Tilesets::
 	tileset TilesetGameCorner
 	tileset TilesetIcePath
 	tileset TilesetMtCoronet
-	;tileset TilesetOldChateau
+	tileset TilesetOldChateau
 	;tileset TilesetCave2
 	;tileset TilesetGym2
 	tileset TilesetEliteFourRoom

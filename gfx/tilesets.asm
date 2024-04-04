@@ -523,3 +523,15 @@ INCLUDE "data/tilesets/mt_coronet_collision.asm"
 
 TilesetMtCoronetAttr::
 INCBIN "data/tilesets/mt_coronet_attributes.bin.lz"
+
+TilesetOldChateauGFX::
+INCBIN "gfx/tilesets/old_chateau.2bpp.lz"
+
+TilesetOldChateauMeta::
+INCBIN "data/tilesets/old_chateau_metatiles.bin.lz"
+
+TilesetOldChateauColl::
+INCLUDE "data/tilesets/old_chateau_collision.asm"
+
+TilesetOldChateauAttr::
+INCBIN "data/tilesets/old_chateau_attributes.bin.lz"
