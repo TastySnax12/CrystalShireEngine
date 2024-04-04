@@ -32,7 +32,7 @@ Tilesets::
 	tileset TilesetMeadow
 	tileset TilesetForest
 	tileset TilesetFacility
-	;tileset TilesetBikeShop
+	tileset TilesetBikeShop
 	;tileset TilesetPark
 	tileset TilesetRadioTower
 	tileset TilesetRuinsOfAlph

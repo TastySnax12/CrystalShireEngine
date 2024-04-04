@@ -487,3 +487,15 @@ INCBIN "data/tilesets/meadow_attributes.bin.lz"
 
 TilesetAerodactylWordRoomAttr::
 INCBIN "data/tilesets/aerodactyl_word_room_attributes.bin.lz"
+
+TilesetBikeShopGFX::
+INCBIN "gfx/tilesets/bike_shop.2bpp.lz"
+
+TilesetBikeShopMeta::
+INCBIN "data/tilesets/bike_shop_metatiles.bin.lz"
+
+TilesetBikeShopColl::
+INCLUDE "data/tilesets/bike_shop_collision.asm"
+
+TilesetBikeShopAttr::
+INCBIN "data/tilesets/bike_shop_attributes.bin.lz"

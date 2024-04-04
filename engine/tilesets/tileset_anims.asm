@@ -202,6 +202,7 @@ TilesetModernInteriorAnim:
 TilesetGym1Anim:
 TilesetMuseumAnim:
 TilesetMeadowAnim:
+TilesetBikeShopAnim:
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
