@@ -10,6 +10,10 @@ EggMovePointers3::
 	dw MudkipEggMoves
 	dw NoEggMoves3
 	dw NoEggMoves3
+	dw PoochyenaEggMoves
+	dw NoEggMoves3
+	dw ZigzagoonEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -57,7 +61,7 @@ MudkipEggMoves:
 	; dw WHIRLPOOL
 	dw -1 ; end
 	
-; PoochyenaEggMoves:
+PoochyenaEggMoves:
 	; dw ASTONISH
 	; dw COVET
 	; dw FIRE_FANG
@@ -68,9 +72,9 @@ MudkipEggMoves:
 	; dw SUCKER_PUNCH
 	; dw THUNDER_FANG
 	; dw YAWN
-	; dw -1 ; end
+dw -1 ; end
 	
-; ZigzagoonEggMoves:
+ZigzagoonEggMoves:
 	; dw CHARM
 	; dw HELPING_HAND
 	; dw MUD_SLAP
@@ -78,7 +82,7 @@ MudkipEggMoves:
 	; dw SUBSTITUTE
 	; dw TICKLE
 	; dw TRICK
-	; dw -1 ; end
+dw -1 ; end
 	
 ; LotadEggMoves:
 	; dw FLAIL

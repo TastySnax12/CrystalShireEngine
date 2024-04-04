@@ -261,4 +261,8 @@ PokedexDataPointerTable:
 	dba MudkipPokedexEntry
 	dba MarshtompPokedexEntry
 	dba SwampertPokedexEntry
+	dba PoochyenaPokedexEntry
+	dba MightyenaPokedexEntry
+	dba ZigzagoonPokedexEntry
+	dba LinoonePokedexEntry
 	assert_table_length NUM_POKEMON

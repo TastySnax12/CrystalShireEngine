@@ -281,6 +281,10 @@ DEF HOENN_POKEMON EQU const_value
 	const MUDKIP     ; 102
 	const MARSHTOMP  ; 103
 	const SWAMPERT   ; 104
+	const POOCHYENA  ; 105
+	const MIGHTYENA  ; 106
+	const ZIGZAGOON  ; 107
+	const LINOONE    ; 108
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

@@ -262,4 +262,8 @@ NewPokedexOrder:
 	dw MUDKIP
 	dw MARSHTOMP
 	dw SWAMPERT
+	dw POOCHYENA
+	dw MIGHTYENA
+	dw ZIGZAGOON
+	dw LINOONE
 	assert_table_length NUM_POKEMON

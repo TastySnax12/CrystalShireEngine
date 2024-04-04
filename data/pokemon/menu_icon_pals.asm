@@ -270,4 +270,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; MUDKIP
 	icon_pals BLUE,   PURPLE ; MARSHTOMP
 	icon_pals BLUE,   PURPLE ; SWAMPERT
+	icon_pals GRAY,   BROWN  ; POOCHYENA
+	icon_pals GRAY,   BROWN  ; MIGHTYENA
+	icon_pals BROWN,  RED    ; ZIGZAGOON
+	icon_pals BROWN,  RED    ; LINOONE
 	assert_table_length NUM_POKEMON

@@ -266,4 +266,8 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; MUDKIP
 	mon_cry CRY_RATTATA,       0,  0   ; MARSHTOMP
 	mon_cry CRY_RATTATA,       0,  0   ; SWAMPERT
+	mon_cry CRY_RATTATA,       0,  0   ; POOCHYENA
+	mon_cry CRY_RATTATA,       0,  0   ; MIGHTYENA
+	mon_cry CRY_RATTATA,       0,  0   ; ZIGZAGOON
+	mon_cry CRY_RATTATA,       0,  0   ; LINOONE
 	assert_table_length NUM_POKEMON

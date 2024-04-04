@@ -10,10 +10,10 @@ EvosAttacksPointers3::
 	dw MudkipEvosAttacks
 	dw MarshtompEvosAttacks
 	dw SwampertEvosAttacks
-	; dw PoochyenaEvosAttacks
-	; dw MightyenaEvosAttacks
-	; dw ZigzagoonEvosAttacks
-	; dw LinooneEvosAttacks
+	dw PoochyenaEvosAttacks
+	dw MightyenaEvosAttacks
+	dw ZigzagoonEvosAttacks
+	dw LinooneEvosAttacks
 	; dw WurmpleEvosAttacks
 	; dw SilcoonEvosAttacks
 	; dw BeautiflyEvosAttacks
@@ -184,83 +184,25 @@ SwampertEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; PoochyenaEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 18, MIGHTYENA
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 5, HOWL
-	; dbw 9, SAND_ATTACK
-	; dbw 13, BITE
-	; dbw 17, ODOR_SLEUTH
-	; dbw 21, ROAR
-	; dbw 25, SWAGGER
-	; dbw 29, ASSURANCE
-	; dbw 33, SCARY_FACE
-	; dbw 37, TAUNT
-	; dbw 41, EMBARGO
-	; dbw 45, TAKE_DOWN
-	; dbw 49, SUCKER_PUNCH
-	; dbw 53, CRUNCH
-	; db 0 ; no more level-up moves
+PoochyenaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MightyenaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, TACKLE
-	; dbw 1, BITE
-	; dbw 1, HOWL
-	; dbw 5, HOWL
-	; dbw 9, SAND_ATTACK
-	; dbw 13, BITE
-	; dbw 17, ODOR_SLEUTH
-	; dbw 22, ROAR
-	; dbw 27, SWAGGER
-	; dbw 32, ASSURANCE
-	; dbw 37, SCARY_FACE
-	; dbw 42, TAUNT
-	; dbw 47, EMBARGO
-	; dbw 52, TAKE_DOWN
-	; dbw 57, THIEF
-	; dbw 62, SUCKER_PUNCH
-	; db 0 ; no more level-up moves
+MightyenaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ZigzagoonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 20, LINOONE
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 5, TAIL_WHIP
-	; dbw 9, HEADBUTT
-	; dbw 13, SAND_ATTACK
-	; dbw 17, ODOR_SLEUTH
-	; dbw 21, MUD_SPORT
-	; dbw 25, PIN_MISSILE
-	; dbw 29, COVET
-	; dbw 33, FLAIL
-	; dbw 37, REST
-	; dbw 41, BELLY_DRUM
-	; dbw 45, FLING
-	; db 0 ; no more level-up moves
+ZigzagoonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LinooneEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, HEADBUTT
-	; dbw 1, TACKLE
-	; dbw 1, TAIL_WHIP
-	; dbw 1, GROWL
-	; dbw 1, SWITCHEROO
-	; dbw 5, TAIL_WHIP
-	; dbw 9, HEADBUTT
-	; dbw 13, SAND_ATTACK
-	; dbw 17, ODOR_SLEUTH
-	; dbw 23, MUD_SPORT
-	; dbw 29, FURY_SWIPES
-	; dbw 35, COVET
-	; dbw 41, SLASH
-	; dbw 47, REST
-	; dbw 53, BELLY_DRUM
-	; dbw 59, FLING
-	; db 0 ; no more level-up moves
+LinooneEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; WurmpleEvosAttacks:
 	; dbbw EVOLVE_LEVEL_RAND_HIGH, 7, SILCOON

@@ -256,13 +256,17 @@ IconPointers:
 	dba LugiaIcon
 	dba HoOhIcon
 	dba CelebiIcon
-	dba MagikarpIcon ; Treecko
-	dba MagikarpIcon ; Grovyle
-	dba MagikarpIcon ; Sceptile
-	dba MagikarpIcon ; Torchic
-	dba MagikarpIcon ; Combusken
-	dba MagikarpIcon ; Blaziken
-	dba MagikarpIcon ; Mudkip
-	dba MagikarpIcon ; Marshtomp
-	dba MagikarpIcon ; Swampert
+	dba MagikarpIcon ; TREECKO
+	dba MagikarpIcon ; GROVYLE
+	dba MagikarpIcon ; SCEPTILE
+	dba MagikarpIcon ; TORCHIC
+	dba MagikarpIcon ; COMBUSKEN
+	dba MagikarpIcon ; BLAZIKEN
+	dba MagikarpIcon ; MUDKIP
+	dba MagikarpIcon ; MARSHTOMP
+	dba MagikarpIcon ; SWAMPERT
+	dba MagikarpIcon ; POOCHYENA
+	dba MagikarpIcon ; MIGHTYENA
+	dba MagikarpIcon ; ZIGZAGOON
+	dba MagikarpIcon ; LINOONE
 	assert_table_length NUM_POKEMON + 1

@@ -117,6 +117,7 @@ AlphabeticalPokedexOrder:
 	dw LEDIAN
 	dw LEDYBA
 	dw LICKITUNG
+	dw LINOONE
 	dw LUGIA
 	dw MACHAMP
 	dw MACHOKE
@@ -138,6 +139,7 @@ AlphabeticalPokedexOrder:
 	dw METAPOD
 	dw MEW
 	dw MEWTWO
+	dw MIGHTYENA
 	dw MILTANK
 	dw MISDREAVUS
 	dw MOLTRES
@@ -176,6 +178,7 @@ AlphabeticalPokedexOrder:
 	dw POLIWHIRL
 	dw POLIWRATH
 	dw PONYTA
+	dw POOCHYENA
 	dw PORYGON
 	dw PORYGON2
 	dw PRIMEAPE
@@ -261,5 +264,6 @@ AlphabeticalPokedexOrder:
 	dw XATU
 	dw YANMA
 	dw ZAPDOS
+	dw ZIGZAGOON
 	dw ZUBAT
 	assert_table_length NUM_POKEMON
