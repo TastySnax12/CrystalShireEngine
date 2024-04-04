@@ -27,7 +27,7 @@
 	const TILESET_TRADITIONAL_HOUSE    ; 19 CELESIC HOUSE
 	const TILESET_GAME_CORNER          ; 1a VEILSTONE GAME CORNER
 	const TILESET_ICE_PATH             ; 1b SNOWPOINT TEMPLE
-	;const TILESET_MT_CORONET           ; 1c MT. CORONET
+	const TILESET_MT_CORONET           ; 1c MT. CORONET
 	;const TILESET_OLD CHATEAU          ; 1d OLD CHATEAU
 	;const TILESET_CAVE 2               ; 1e CAVES #2
 	;const TILESET_GYM 2                ; 1f ETERNA GYM

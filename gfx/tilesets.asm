@@ -511,3 +511,15 @@ INCLUDE "data/tilesets/park_collision.asm"
 
 TilesetParkAttr::
 INCBIN "data/tilesets/park_attributes.bin.lz"
+
+TilesetMtCoronetGFX::
+INCBIN "gfx/tilesets/mt_coronet.2bpp.lz"
+
+TilesetMtCoronetMeta::
+INCBIN "data/tilesets/mt_coronet_metatiles.bin.lz"
+
+TilesetMtCoronetColl::
+INCLUDE "data/tilesets/mt_coronet_collision.asm"
+
+TilesetMtCoronetAttr::
+INCBIN "data/tilesets/mt_coronet_attributes.bin.lz"

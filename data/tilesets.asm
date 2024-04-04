@@ -39,7 +39,7 @@ Tilesets::
 	tileset TilesetTraditionalHouse
 	tileset TilesetGameCorner
 	tileset TilesetIcePath
-	;tileset TilesetMtCoronet
+	tileset TilesetMtCoronet
 	;tileset TilesetOldChateau
 	;tileset TilesetCave2
 	;tileset TilesetGym2

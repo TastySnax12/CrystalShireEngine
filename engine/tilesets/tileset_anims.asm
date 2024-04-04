@@ -204,6 +204,7 @@ TilesetMuseumAnim:
 TilesetMeadowAnim:
 TilesetBikeShopAnim:
 TilesetParkAnim:
+TilesetMtCoronetAnim:
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
