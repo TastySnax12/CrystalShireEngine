@@ -1,16 +1,16 @@
 	object_const_def ; object_event constants
 
-ValleyWindworksInside_MapScripts:
+FloaromaHouseW_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-ValleyWindworksInside_MapEvents:
+FloaromaHouseW_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 8, 9, VALLEY_WINDWORKS, 1
-	warp_event 9, 9, VALLEY_WINDWORKS, 1
+	warp_event  2,  7, FLOAROMA_TOWN, 3
+	warp_event  3,  7, FLOAROMA_TOWN, 3
 
 	def_coord_events
 

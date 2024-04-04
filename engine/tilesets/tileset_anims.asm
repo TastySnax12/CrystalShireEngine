@@ -201,7 +201,6 @@ TilesetAerodactylWordRoomAnim:
 TilesetModernInteriorAnim:
 TilesetGym1Anim:
 TilesetMuseumAnim:
-TilesetMeadowAnim:
 TilesetBikeShopAnim:
 TilesetParkAnim:
 TilesetMtCoronetAnim:
@@ -210,6 +209,21 @@ TilesetOldChateauAnim:
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
 	dw NULL,  DoNothing ; WaitTileAnimation
+	dw NULL,  DoneTileAnimation
+
+TilesetMeadowAnim:
+	dw vTiles2 tile $03, AnimateMeadowFlower1
+	dw vTiles2 tile $11, AnimateEdgeMeadowFlower1
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw vTiles2 tile $04, AnimateMeadowFlower2
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw vTiles2 tile $05, AnimateMeadowFlower3
+	dw vTiles2 tile $12, AnimateEdgeMeadowFlower2
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw vTiles2 tile $10, AnimateMeadowFlower4
+	dw NULL,  DoNothing ; WaitTileAnimation
+	dw vTiles2 tile $10, AnimateMeadowFlower4
+	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 DoneTileAnimation:
@@ -633,6 +647,102 @@ AnimateBrightFlowerTile:
 	INCBIN "gfx/tilesets/flower/dmg_1.2bpp"
 	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
 	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
+
+AnimateMeadowFlower2:
+	ld a, 1
+	jr SetFlowerTile
+
+AnimateMeadowFlower3:
+	ld a, 2
+	jr SetFlowerTile
+
+AnimateMeadowFlower4:
+	ld a, 3
+	jr SetFlowerTile
+
+AnimateMeadowFlower1:
+	ld a, 0
+
+SetFlowerTile:
+	ld hl, wTileAnimationTimer
+	add [hl]
+	and %10
+
+; Save sp in bc (see WriteTile).
+	ld hl, sp+0
+	ld b, h
+	ld c, l
+
+; CGB has different color mappings for flowers.
+	push de
+	ld e, a
+	ldh a, [hCGB]
+	and 1
+	add e
+
+	swap a
+	ld e, a
+	ld d, 0
+	ld hl, .FlowerTileFrames
+	add hl, de
+	pop de
+	ld sp, hl
+
+	ld h, d
+	ld l, e
+;	ld hl, vTiles2 tile $03
+
+	jp WriteTile
+
+.FlowerTileFrames:
+	INCBIN "gfx/tilesets/flower/dmg_1.2bpp"
+	INCBIN "gfx/tilesets/flower/cgb_1.2bpp"
+	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
+	INCBIN "gfx/tilesets/flower/cgb_2.2bpp"
+
+AnimateEdgeMeadowFlower2:
+	ld a, 2
+	jr SetEdgeFlowerTile
+
+AnimateEdgeMeadowFlower1:
+	ld a, 1
+
+SetEdgeFlowerTile:
+	ld hl, wTileAnimationTimer
+	add [hl]
+	and %10
+
+; Save sp in bc (see WriteTile).
+	ld hl, sp+0
+	ld b, h
+	ld c, l
+
+; CGB has different color mappings for flowers.
+	push de
+	ld e, a
+	ldh a, [hCGB]
+	and 1
+	add e
+
+	swap a
+	ld e, a
+	ld d, 0
+	ld hl, EdgeFlowerTileFrames
+	add hl, de
+	pop de
+	ld sp, hl
+
+	ld h, d
+	ld l, e
+;	ld hl, vTiles2 tile $03
+
+	jp WriteTile
+
+EdgeFlowerTileFrames:
+	INCBIN "gfx/tilesets/flower/edge_1.2bpp"
+	INCBIN "gfx/tilesets/flower/edge_1.2bpp"
+	INCBIN "gfx/tilesets/flower/edge_2.2bpp"
+	INCBIN "gfx/tilesets/flower/edge_2.2bpp"
 
 AnimateLavaBubbleTile1:
 ; Save the stack pointer in bc for WriteTile to restore

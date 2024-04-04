@@ -92,11 +92,20 @@ SECTION "Map Scripts 6", ROMX
 
 INCLUDE "maps/FloaromaTown.asm"
 INCLUDE "maps/FloaromaPokecenter1F.asm"
+INCLUDE "maps/FloaromaPokeMart.asm"
+INCLUDE "maps/FloaromaHouseW.asm"
+INCLUDE "maps/FloaromaHouseE.asm"
+INCLUDE "maps/FloaromaFlowerShop.asm"
+INCLUDE "maps/FloaromaMeadow.asm"
+INCLUDE "maps/FloaromaMeadowHouse.asm"
 INCLUDE "maps/Route204North.asm"
 INCLUDE "maps/RavagedPath.asm"
 INCLUDE "maps/Route205South.asm"
+INCLUDE "maps/Route205House.asm"
 INCLUDE "maps/ValleyWindworks.asm"
+INCLUDE "maps/ValleyWindworksInside.asm"
 INCLUDE "maps/FuegoIronworks.asm"
+INCLUDE "maps/FuegoIronworksInside.asm"
 
 
 SECTION "Map Scripts 7", ROMX

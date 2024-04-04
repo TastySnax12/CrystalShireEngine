@@ -38,7 +38,12 @@
  	RGB 07,08,22, 07,07,16 ; nite
 	RGB 14,21,23, 04,11,23 ; eve
 
-; group 8 (Eterna)
+; group 8 (Floaroma Meadow)
+	RGB 23, 15, 31,  16, 05, 31 ; 
+	RGB 23, 15, 31,  16, 05, 31 ; Needs Nite
+	RGB 23, 15, 31,  16, 05, 31 ; Needs Eve
+
+; group 9 (Eterna)
  	RGB 27,23,01, 23,11,00 ; morn/day
  	RGB 15,11,01, 11,10,01 ; nite
 	RGB 22,18,01, 20,08,00 ; eve

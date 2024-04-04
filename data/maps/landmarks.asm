@@ -22,6 +22,7 @@ Landmarks:
 	landmark  84, 124, Route204Name
 	landmark  68, 124, RavagedPathName
 	landmark  82, 124, FloaromaTownName
+	landmark  52,  92, FloaromaMeadowName
 	landmark  70, 122, Route205Name ; north
 	landmark  52, 120, ValleyWindworksName
 	landmark  52, 112, FuegoIronworksName
@@ -43,29 +44,28 @@ Landmarks:
 
 
 
-	landmark  52,  92, TwinleafTownName ; dummy temp
-	landmark  66,  42, BurnedTowerName
-	landmark  52,  44, Route38Name
-	landmark  36,  48, Route39Name
+	landmark  66,  42, TwinleafTownName ; dummy temp
+	landmark  52,  44, TwinleafTownName ; dummy temp
+	landmark  36,  48, TwinleafTownName ; dummy temp
 	landmark  36,  60, TwinleafTownName ; dummy temp
 	landmark  38,  62, TwinleafTownName ; dummy temp
-	landmark  28,  56, Route211Name
-	landmark  28,  64, Route40Name
+	landmark  28,  56, TwinleafTownName ; dummy temp
+	landmark  28,  64, TwinleafTownName ; dummy temp
 	landmark  28,  92, TwinleafTownName ; dummy temp
-	landmark  28, 100, Route41Name
+	landmark  28, 100, TwinleafTownName ; dummy temp
 	landmark  20, 100, TwinleafTownName ; dummy temp
-	landmark  92,  44, Route42Name
-	landmark  84,  44, MtMortarName
+	landmark  92,  44, TwinleafTownName ; dummy temp
+	landmark  84,  44, TwinleafTownName ; dummy temp
 	landmark 108,  44, TwinleafTownName ; dummy temp
-	landmark 108,  36, Route43Name
+	landmark 108,  36, TwinleafTownName ; dummy temp
 	landmark 108,  28, TwinleafTownName ; dummy temp
-	landmark 120,  44, Route44Name
-	landmark 130,  38, IcePathName
+	landmark 120,  44, TwinleafTownName ; dummy temp
+	landmark 130,  38, TwinleafTownName ; dummy temp
 	landmark 132,  44, TwinleafTownName ; dummy temp
-	landmark 132,  36, DragonsDenName
-	landmark 132,  64, Route45Name
-	landmark 112,  72, DarkCaveName
-	landmark 124,  88, Route46Name
+	landmark 132,  36, TwinleafTownName ; dummy temp
+	landmark 132,  64, TwinleafTownName ; dummy temp
+	landmark 112,  72, TwinleafTownName ; dummy temp
+	landmark 124,  88, TwinleafTownName ; dummy temp
 	landmark 148,  68, TwinleafTownName ; dummy temp
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 108, Route218Name
@@ -131,6 +131,7 @@ OreburghCityName:    db "OREBURGH CITY@"
 OreburghMineName:    db "OREBURGH MINE@"
 Route204Name:        db "ROUTE 204@"
 FloaromaTownName:    db "FLOAROMA TOWN@"
+FloaromaMeadowName:  db "FLOAROMA<BSP>MEADOW@"
 RavagedPathName:     db "RAVAGED PATH@"
 Route205Name:        db "ROUTE 205@"
 ValleyWindworksName: db "VALLEY<BSP>WINDWORKS@"
@@ -146,7 +147,7 @@ Route207Name:        db "ROUTE 207@"
 
 
 
-MtMortarName:        db "MT.MORTAR@"
+
 DragonsDenName:      db "DRAGON'S<BSP>DEN@"
 IcePathName:         db "ICE PATH@"
 Route218Name:        db "ROUTE 218@"

@@ -16,6 +16,7 @@
 	const LANDMARK_ROUTE_204         ; 0b
 	const LANDMARK_RAVAGED_PATH      ; 0c
 	const LANDMARK_FLOAROMA_TOWN     ; 0d
+	const LANDMARK_FLOAROMA_MEADOW   ; 0d
 	const LANDMARK_ROUTE_205_SOUTH   ; 0e
 	const LANDMARK_VALLEY_WINDWORKS  ; 0f
 	const LANDMARK_FUEGO_IRONWORKS   ; 10
@@ -31,7 +32,6 @@
 
 
 
-	const LANDMARK_TIN_TOWER         ; 17         ROUTE_208
 	const LANDMARK_BURNED_TOWER      ; 18         HEARTHOME_CITY
 	const LANDMARK_ROUTE_38          ; 19         ROUTE_209
 	const LANDMARK_ROUTE_39          ; 1a         SOLACEON_TOWN

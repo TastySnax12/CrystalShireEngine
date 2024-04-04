@@ -244,6 +244,15 @@ ENDM
 	map_attributes OreburghMineB2F, OREBURGH_MINE_B2F, $09, 0
 	map_attributes RavagedPath, RAVAGED_PATH, $09, 0
 	map_attributes FloaromaPokecenter1F, FLOAROMA_POKECENTER_1F, $00, 0
+	map_attributes FloaromaPokeMart, FLOAROMA_POKEMART, $00, 0
+	map_attributes FloaromaHouseW, FLOAROMA_HOUSE_W, $00, 0
+	map_attributes FloaromaHouseE, FLOAROMA_HOUSE_E, $00, 0
+	map_attributes FloaromaFlowerShop, FLOAROMA_FLOWER_SHOP, $00, 0
+	map_attributes FloaromaMeadow, FLOAROMA_MEADOW, $02, 0
+	map_attributes FloaromaMeadowHouse, FLOAROMA_MEADOW_HOUSE, $00, 0
+	map_attributes ValleyWindworksInside, VALLEY_WINDWORKS_INSIDE, $00, 0
+	map_attributes Route205House, ROUTE_205_HOUSE, $00, 0
+	map_attributes FuegoIronworksInside, FUEGO_IRONWORKS_INSIDE, $00, 0
 	map_attributes EternaForestInside, ETERNA_FOREST_INSIDE, $06, 0
 	map_attributes OldChateu, OLD_CHATEU, $00, 0
 	map_attributes EternaPokecenter1F, ETERNA_POKECENTER_1F, $00, 0

@@ -18,9 +18,9 @@ SandgemHouse1_Blocks:
 OreburghHouseW_Blocks:
 OreburghHouseN_Blocks:
 OreburghHouseE_Blocks:
-;FloaromaHouseW_Blocks:
-;FloaromaHouseE_Blocks:
-;FloaromaMeadowHouse_Blocks:
+FloaromaHouseW_Blocks:
+FloaromaHouseE_Blocks:
+FloaromaMeadowHouse_Blocks:
 	INCBIN "maps/HouseInterior1.blk"
 
 SandgemPokecenter1F_Blocks:
@@ -36,7 +36,7 @@ Pokecenter2F_Blocks:
 SandgemPokeMart_Blocks:
 JubilifePokeMart_Blocks:
 OreburghPokeMart_Blocks:
-;FloaromaPokeMart_Blocks:
+FloaromaPokeMart_Blocks:
 ;EternaPokeMart_Blocks:
 	INCBIN "maps/PokeMart.blk"
 
@@ -108,6 +108,21 @@ TVStationElevator_Blocks:
 PokemonCommunicationCenter_Blocks:
 	INCBIN "maps/PokemonCommunicationCenter.blk"
 
+Route205House_Blocks:
+	INCBIN "maps/Route205House.blk"
+
+ValleyWindworksInside_Blocks:
+	INCBIN "maps/ValleyWindworksInside.blk"
+
+FloaromaTown_Blocks:
+	INCBIN "maps/FloaromaTown.ablk"
+	
+FloaromaFlowerShop_Blocks:
+	INCBIN "maps/FloaromaFlowerShop.blk"
+
+FuegoIronworksInside_Blocks:
+	INCBIN "maps/FuegoIronworksInside.blk"
+
 SECTION "Map Blocks 2", ROMX
 
 
@@ -174,9 +189,6 @@ Route204North_Blocks:
 RavagedPath_Blocks:
 	INCBIN "maps/RavagedPath.ablk"
 
-FloaromaTown_Blocks:
-	INCBIN "maps/FloaromaTown.ablk"
-
 Route205South_Blocks:
 	INCBIN "maps/Route205South.ablk"
 
@@ -218,6 +230,9 @@ AssistantHouse1F_Blocks:
 
 AssistantHouse2F_Blocks:
 	INCBIN "maps/AssistantHouse2F.blk"
+
+FloaromaMeadow_Blocks:
+	INCBIN "maps/FloaromaMeadow.blk"
 
 SECTION "Map Blocks 3", ROMX
 

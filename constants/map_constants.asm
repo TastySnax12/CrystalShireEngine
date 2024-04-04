@@ -93,9 +93,11 @@ ENDM
 	map_const ROUTE_204_SOUTH,                             12, 21 ; 26
 	endgroup
 
+
 	newgroup CABLE_CLUB                                           ;  3
 	map_const POKECENTER_2F,                                8,  4 ;  1
 	endgroup
+
 
 	newgroup DUNGEONS                                             ;  4
 	map_const OREBURGH_GATE_1F,                            15, 10 ;  1
@@ -103,9 +105,11 @@ ENDM
 	map_const OREBURGH_MINE_B1F,                            8, 12 ;  3
 	map_const OREBURGH_MINE_B2F,                           14, 13 ;  4
 	map_const RAVAGED_PATH,                                11, 16 ;  5
-	map_const ETERNA_FOREST_INSIDE,                        30, 27 ;  6
-	map_const OLD_CHATEU,                                  23,  9 ;  7
+	map_const FUEGO_IRONWORKS_INSIDE,                     25, 13 ;   6
+	map_const ETERNA_FOREST_INSIDE,                        30, 27 ;  7
+	map_const OLD_CHATEU,                                  23,  9 ;  8
 	endgroup
+
 
 	newgroup OREBURGH                                             ;  5
 	map_const OREBURGH_CITY,                               25, 20 ;  1
@@ -126,16 +130,29 @@ ENDM
 	map_const ROUTE_207,                                   27, 10 ; 17
 	endgroup
 
+
 	newgroup FLOAROMA                                             ;  6
 	map_const ROUTE_204_NORTH,                             12, 21 ;  1
 	map_const FLOAROMA_TOWN,                               14, 14 ;  2
 	map_const FLOAROMA_POKECENTER_1F,                       5,  4 ;  3
+	map_const FLOAROMA_POKEMART,                            6,  4 ;  4
+	map_const FLOAROMA_HOUSE_W,                             4,  4 ;  5
+	map_const FLOAROMA_HOUSE_E,                             4,  4 ;  6
+	map_const FLOAROMA_FLOWER_SHOP,                         5,  3 ;  7
 	map_const ROUTE_205_SOUTH,                             14, 25 ;  4
+	map_const ROUTE_205_HOUSE,                              4,  4 ;  9
 	map_const VALLEY_WINDWORKS,                            13, 13 ;  5
+	map_const VALLEY_WINDWORKS_INSIDE,                     13, 13 ;  5
 	map_const FUEGO_IRONWORKS,                             10, 10 ;  6
 	endgroup
 
-	newgroup ETERNA                                               ;  7
+
+	newgroup MEADOW                                                ; 7
+	map_const FLOAROMA_MEADOW,                             20, 20 ;  1
+	map_const FLOAROMA_MEADOW_HOUSE,                        4,  4 ;  2
+	endgroup
+
+	newgroup ETERNA                                               ;  8
 	map_const ETERNA_FOREST_OUTSIDE,                       17, 17 ;  7
 	map_const ROUTE_205_NORTH,                             14, 12 ;  9
 	map_const ETERNA_CITY,                                 25, 22 ; 10

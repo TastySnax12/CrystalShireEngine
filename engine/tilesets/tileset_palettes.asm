@@ -26,9 +26,7 @@ LoadSpecialMapPalette:
 	jr z, .gym_1
 	cp TILESET_MUSEUM
 	jr z, .museum
-	cp TILESET_MEADOW
-	jr z, .meadow
-	jr .do_nothing
+	jr .lookup_specifics
 
 .darkness
 	call LoadDarknessPalette
@@ -83,14 +81,63 @@ LoadSpecialMapPalette:
 	call LoadMuseumPalette
 	scf
 	ret
-	
-.meadow
-	call LoadMeadowPalette
-	scf
-	ret
 
 .do_nothing
 	and a
+	ret
+
+.lookup_specifics
+	ld hl, MapSpecificPalettes
+; fallthru
+SearchPaletteRoutine:
+.keep_looking
+	ld a, [hl]
+	cp -1
+	jr z, .do_nothing
+	ld b, a
+	ld a, [wMapGroup]
+	cp b
+	jr nz, .group_not_matching
+	inc hl
+	ld b, [hl]
+	ld a, [wMapNumber]
+	cp b
+	jr nz, .map_not_matching
+	inc hl
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
+.group_not_matching
+	inc hl
+.map_not_matching
+	inc hl
+	inc hl
+	inc hl
+	jr .keep_looking
+.do_nothing
+	and a
+	ret
+
+MACRO _use_palette_routine_for_map
+	db GROUP_\1, MAP_\1
+	dw \2
+ENDM
+
+MapSpecificPalettes:
+	_use_palette_routine_for_map FLOAROMA_MEADOW, .MeadowBGPalette
+	db -1 ; terminator
+
+.MeadowBGPalette:
+	ld hl, MeadowFlowers
+	ld a, [wTimeOfDayPal]
+	maskbits NUM_DAYTIMES
+	ld bc, 8 palettes
+	call AddNTimes
+	ld de, wBGPals1
+	ld a, BANK(wBGPals1)
+	call FarCopyWRAM
+	scf
 	ret
 
 LoadDarknessPalette:
@@ -211,12 +258,4 @@ LoadMuseumPalette:
 MuseumPalette:
 INCLUDE "gfx/tilesets/museum.pal"
 
-LoadMeadowPalette:
-	ld a, BANK(wBGPals1)
-	ld de, wBGPals1
-	ld hl, MeadowPalette
-	ld bc, 8 palettes
-	jp FarCopyWRAM
-	
-MeadowPalette:
-INCLUDE "gfx/tilesets/museum.pal"
+INCLUDE "gfx/tilesets/bg_tiles_special_pals.pal"

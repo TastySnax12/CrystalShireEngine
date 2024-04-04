@@ -10,10 +10,10 @@ FuegoIronworks_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-;	warp_event 12, 19, FLOAROMA_MEADOW, 3
-;	warp_event 13, 19, FLOAROMA_MEADOW, 4
-;	warp_event  5,  7, FUEGO_IRONWORKS_INSIDE, 1
-;	warp_event  6,  7, FUEGO_IRONWORKS_INSIDE, 2
+	warp_event 12, 19, FLOAROMA_MEADOW, 3
+	warp_event 13, 19, FLOAROMA_MEADOW, 4
+	warp_event  5,  7, FUEGO_IRONWORKS_INSIDE, 1
+	warp_event  6,  7, FUEGO_IRONWORKS_INSIDE, 2
 
 	def_coord_events
 
