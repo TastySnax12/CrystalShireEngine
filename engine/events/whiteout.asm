@@ -15,6 +15,7 @@ Script_Whiteout:
 	checkflag ENGINE_BUG_CONTEST_TIMER
 	iftrue .bug_contest
 	callasm HalveMoney
+	callasm ResetSpinningStatus
 	callasm GetWhiteoutSpawn
 	farscall Script_AbortBugContest
 	special WarpToSpawnPoint
@@ -57,6 +58,11 @@ HalveMoney:
 	ld a, [hl]
 	rra
 	ld [hl], a
+	ret
+
+ResetSpinningStatus:
+	xor a
+	ld [wSpinning], a
 	ret
 
 GetWhiteoutSpawn:

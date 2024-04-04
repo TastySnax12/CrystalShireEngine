@@ -439,6 +439,10 @@ OWPlayerInput:
 	farcall CheckStandingOnIce
 	jr c, .NoAction
 
+	ld a, [wSpinning]
+	and a
+	jr nz, .NoAction
+
 	call CheckAPressOW
 	jr c, .Action
 
