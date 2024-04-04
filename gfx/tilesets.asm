@@ -499,3 +499,15 @@ INCLUDE "data/tilesets/bike_shop_collision.asm"
 
 TilesetBikeShopAttr::
 INCBIN "data/tilesets/bike_shop_attributes.bin.lz"
+
+TilesetParkGFX::
+INCBIN "gfx/tilesets/park.2bpp.lz"
+
+TilesetParkMeta::
+INCBIN "data/tilesets/park_metatiles.bin.lz"
+
+TilesetParkColl::
+INCLUDE "data/tilesets/park_collision.asm"
+
+TilesetParkAttr::
+INCBIN "data/tilesets/park_attributes.bin.lz"
