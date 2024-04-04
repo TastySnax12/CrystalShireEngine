@@ -17,6 +17,7 @@ AlphabeticalPokedexOrder:
 	dw BELLOSSOM
 	dw BELLSPROUT
 	dw BLASTOISE
+	dw BLAZIKEN
 	dw BLISSEY
 	dw BULBASAUR
 	dw BUTTERFREE
@@ -32,6 +33,7 @@ AlphabeticalPokedexOrder:
 	dw CLEFAIRY
 	dw CLEFFA
 	dw CLOYSTER
+	dw COMBUSKEN
 	dw CORSOLA
 	dw CROBAT
 	dw CROCONAW
@@ -130,6 +132,7 @@ AlphabeticalPokedexOrder:
 	dw MAREEP
 	dw MARILL
 	dw MAROWAK
+	dw MARSHTOMP
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -139,6 +142,7 @@ AlphabeticalPokedexOrder:
 	dw MISDREAVUS
 	dw MOLTRES
 	dw MR__MIME
+	dw MUDKIP
 	dw MUK
 	dw MURKROW
 	dw NATU
@@ -190,6 +194,7 @@ AlphabeticalPokedexOrder:
 	dw RHYHORN
 	dw SANDSHREW
 	dw SANDSLASH
+	dw SCEPTILE
 	dw SCIZOR
 	dw SCYTHER
 	dw SEADRA
@@ -220,6 +225,7 @@ AlphabeticalPokedexOrder:
 	dw SUICUNE
 	dw SUNFLORA
 	dw SUNKERN
+	dw SWAMPERT
 	dw SWINUB
 	dw TANGELA
 	dw TAUROS
@@ -228,6 +234,7 @@ AlphabeticalPokedexOrder:
 	dw TENTACRUEL
 	dw TOGEPI
 	dw TOGETIC
+	dw TORCHIC
 	dw TOTODILE
 	dw TREECKO
 	dw TYPHLOSION

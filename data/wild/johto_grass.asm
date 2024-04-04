@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, TREECKO
-	dbw 4, TREECKO
-	dbw 5, TREECKO
-	dbw 3, TREECKO
-	dbw 6, TREECKO
-	dbw 5, TREECKO
-	dbw 5, TREECKO
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
 	; day
-	dbw 3, GROVYLE
-	dbw 4, GROVYLE
-	dbw 5, GROVYLE
-	dbw 3, GROVYLE
-	dbw 6, GROVYLE
-	dbw 5, GROVYLE
-	dbw 5, GROVYLE
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
 	; nite
-	dbw 3, GASTLY
-	dbw 4, GASTLY
-	dbw 5, GASTLY
-	dbw 3, TREECKO
-	dbw 6, GASTLY
-	dbw 5, TREECKO
-	dbw 5, TREECKO
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
+	dbw 5, SWAMPERT
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

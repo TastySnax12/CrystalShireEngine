@@ -292,4 +292,11 @@ INCLUDE "data/pokemon/base_stats/celebi.asm"
 BaseData2:
 INCLUDE "data/pokemon/base_stats/treecko.asm"
 INCLUDE "data/pokemon/base_stats/grovyle.asm"
+INCLUDE "data/pokemon/base_stats/sceptile.asm"
+INCLUDE "data/pokemon/base_stats/torchic.asm"
+INCLUDE "data/pokemon/base_stats/combusken.asm"
+INCLUDE "data/pokemon/base_stats/blaziken.asm"
+INCLUDE "data/pokemon/base_stats/mudkip.asm"
+INCLUDE "data/pokemon/base_stats/marshtomp.asm"
+INCLUDE "data/pokemon/base_stats/swampert.asm"
 .IndirectEnd::

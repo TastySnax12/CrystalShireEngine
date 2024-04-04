@@ -258,4 +258,11 @@ IconPointers:
 	dw CelebiIcon
 	dw MagikarpIcon ; Treecko
 	dw MagikarpIcon ; Grovyle
+	dw MagikarpIcon ; Sceptile
+	dw MagikarpIcon ; Torchic
+	dw MagikarpIcon ; Combusken
+	dw MagikarpIcon ; Blaziken
+	dw MagikarpIcon ; Mudkip
+	dw MagikarpIcon ; Marshtomp
+	dw MagikarpIcon ; Swampert
 	assert_table_length NUM_POKEMON + 1

@@ -259,4 +259,11 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
 	mon_cry CRY_RATTATA,       0,  0   ; TREECKO
 	mon_cry CRY_RATTATA,       0,  0   ; GROVYLE
+	mon_cry CRY_RATTATA,       0,  0   ; SCEPTILE
+	mon_cry CRY_RATTATA,       0,  0   ; TORCHIC
+	mon_cry CRY_RATTATA,       0,  0   ; COMBUSKEN
+	mon_cry CRY_RATTATA,       0,  0   ; BLAZIKEN
+	mon_cry CRY_RATTATA,       0,  0   ; MUDKIP
+	mon_cry CRY_RATTATA,       0,  0   ; MARSHTOMP
+	mon_cry CRY_RATTATA,       0,  0   ; SWAMPERT
 	assert_table_length NUM_POKEMON

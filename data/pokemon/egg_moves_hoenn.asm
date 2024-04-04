@@ -3,6 +3,13 @@ SECTION "Egg Moves 3", ROMX
 EggMovePointers3::
 	dw TreeckoEggMoves
 	dw NoEggMoves3
+	dw NoEggMoves3
+	dw TorchicEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw MudkipEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -20,7 +27,7 @@ TreeckoEggMoves:
 	; dw WORRY_SEED
 	dw -1 ; end
 	
-; TorchicEggMoves:
+TorchicEggMoves:
 	; dw AGILITY
 	; dw BATON_PASS
 	; dw COUNTER
@@ -33,9 +40,9 @@ TreeckoEggMoves:
 	; dw ROCK_SLIDE
 	; dw SMELLINGSALT
 	; dw SWAGGER
-	; dw -1 ; end
+	dw -1 ; end
 	
-; MudkipEggMoves:
+MudkipEggMoves:
 	; dw ANCIENTPOWER
 	; dw BITE
 	; dw COUNTER
@@ -48,7 +55,7 @@ TreeckoEggMoves:
 	; dw STOMP
 	; dw UPROAR
 	; dw WHIRLPOOL
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; PoochyenaEggMoves:
 	; dw ASTONISH

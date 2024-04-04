@@ -254,4 +254,11 @@ FirstEvoStages::
 	dw CELEBI
 	dw TREECKO
 	dw TREECKO
+	dw TREECKO
+	dw TORCHIC
+	dw TORCHIC
+	dw TORCHIC
+	dw MUDKIP
+	dw MUDKIP
+	dw MUDKIP
 	assert_table_length NUM_POKEMON

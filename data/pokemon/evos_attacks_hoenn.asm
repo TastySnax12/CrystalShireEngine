@@ -3,13 +3,13 @@ SECTION "Evolutions and Attacks 3", ROMX
 EvosAttacksPointers3::
 	dw TreeckoEvosAttacks
 	dw GrovyleEvosAttacks
-	; dw SceptileEvosAttacks
-	; dw TorchicEvosAttacks
-	; dw CombuskenEvosAttacks
-	; dw BlazikenEvosAttacks
-	; dw MudkipEvosAttacks
-	; dw MarshtompEvosAttacks
-	; dw SwampertEvosAttacks
+	dw SceptileEvosAttacks
+	dw TorchicEvosAttacks
+	dw CombuskenEvosAttacks
+	dw BlazikenEvosAttacks
+	dw MudkipEvosAttacks
+	dw MarshtompEvosAttacks
+	dw SwampertEvosAttacks
 	; dw PoochyenaEvosAttacks
 	; dw MightyenaEvosAttacks
 	; dw ZigzagoonEvosAttacks
@@ -149,139 +149,40 @@ GrovyleEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; SceptileEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, LEER
-	; dbw 1, ABSORB
-	; dbw 1, QUICK_ATTACK
-	; dbw 1, NIGHT_SLASH
-	; dbw 6, ABSORB
-	; dbw 11, QUICK_ATTACK
-	; dbw 16, X_SCISSOR
-	; dbw 17, PURSUIT
-	; dbw 23, SCREECH
-	; dbw 29, LEAF_BLADE
-	; dbw 35, AGILITY
-	; dbw 43, SLAM
-	; dbw 51, DETECT
-	; dbw 59, FALSE_SWIPE
-	; dbw 67, LEAF_STORM
-	; db 0 ; no more level-up moves
+SceptileEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; TorchicEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 16, COMBUSKEN
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, GROWL
-	; dbw 7, FOCUS_ENERGY
-	; dbw 10, EMBER
-	; dbw 16, PECK
-	; dbw 19, SAND_ATTACK
-	; dbw 25, FIRE_SPIN
-	; dbw 28, QUICK_ATTACK
-	; dbw 34, SLASH
-	; dbw 37, MIRROR_MOVE
-	; dbw 43, FLAMETHROWER
-	; db 0 ; no more level-up moves
+TorchicEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CombuskenEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 36, BLAZIKEN
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, GROWL
-	; dbw 1, EMBER
-	; dbw 1, FOCUS_ENERGY
-	; dbw 7, FOCUS_ENERGY
-	; dbw 13, EMBER
-	; dbw 16, DOUBLE_KICK
-	; dbw 17, PECK
-	; dbw 21, SAND_ATTACK
-	; dbw 28, BULK_UP
-	; dbw 32, QUICK_ATTACK
-	; dbw 39, SLASH
-	; dbw 43, MIRROR_MOVE
-	; dbw 50, SKY_UPPERCUT
-	; dbw 54, FLARE_BLITZ
-	; db 0 ; no more level-up moves
+CombuskenEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BlazikenEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, FIRE_PUNCH
-	; dbw 1, SCRATCH
-	; dbw 1, GROWL
-	; dbw 1, EMBER
-	; dbw 1, FOCUS_ENERGY
-	; dbw 7, FOCUS_ENERGY
-	; dbw 13, EMBER
-	; dbw 16, DOUBLE_KICK
-	; dbw 17, PECK
-	; dbw 21, SAND_ATTACK
-	; dbw 28, BULK_UP
-	; dbw 32, QUICK_ATTACK
-	; dbw 36, BLAZE_KICK
-	; dbw 42, SLASH
-	; dbw 49, BRAVE_BIRD
-	; dbw 59, SKY_UPPERCUT
-	; dbw 66, FLARE_BLITZ
-	; db 0 ; no more level-up moves
+BlazikenEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MudkipEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 16, MARSHTOMP
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 6, MUD_SLAP
-	; dbw 10, WATER_GUN
-	; dbw 15, BIDE
-	; dbw 19, FORESIGHT
-	; dbw 24, MUD_SPORT
-	; dbw 28, TAKE_DOWN
-	; dbw 33, WHIRLPOOL
-	; dbw 37, PROTECT
-	; dbw 42, HYDRO_PUMP
-	; dbw 46, ENDEAVOR
-	; db 0 ; no more level-up moves
+MudkipEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MarshtompEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 36, SWAMPERT
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 1, MUD_SLAP
-	; dbw 6, MUD_SLAP
-	; dbw 10, WATER_GUN
-	; dbw 15, BIDE
-	; dbw 16, MUD_SHOT
-	; dbw 20, FORESIGHT
-	; dbw 25, MUD_BOMB
-	; dbw 31, TAKE_DOWN
-	; dbw 37, MUDDY_WATER
-	; dbw 42, PROTECT
-	; dbw 46, EARTHQUAKE
-	; dbw 53, ENDEAVOR
-	; db 0 ; no more level-up moves
+MarshtompEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SwampertEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 1, MUD_SLAP
-	; dbw 6, MUD_SLAP
-	; dbw 10, WATER_GUN
-	; dbw 15, BIDE
-	; dbw 16, MUD_SHOT
-	; dbw 20, FORESIGHT
-	; dbw 25, MUD_BOMB
-	; dbw 31, TAKE_DOWN
-	; dbw 39, MUDDY_WATER
-	; dbw 46, PROTECT
-	; dbw 52, EARTHQUAKE
-	; dbw 61, ENDEAVOR
-	; dbw 69, HAMMER_ARM
-	; db 0 ; no more level-up moves
+SwampertEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; PoochyenaEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 18, MIGHTYENA

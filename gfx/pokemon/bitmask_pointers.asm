@@ -253,4 +253,11 @@ BitmasksPointers:
 	dw CelebiBitmasks
 	dw TreeckoBitmasks
 	dw GrovyleBitmasks
+	dw SceptileBitmasks
+	dw TorchicBitmasks
+	dw CombuskenBitmasks
+	dw BlazikenBitmasks
+	dw MudkipBitmasks
+	dw MarshtompBitmasks
+	dw SwampertBitmasks
 	assert_table_length NUM_POKEMON

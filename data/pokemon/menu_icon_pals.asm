@@ -261,6 +261,13 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; LUGIA
 	icon_pals RED,    BROWN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI
-	icon_pals GREEN,  RED    ; TREECKO
-	icon_pals GREEN,  RED    ; GROVYLE
+	icon_pals GREEN,  TEAL   ; TREECKO
+	icon_pals GREEN,  TEAL   ; GROVYLE
+	icon_pals GREEN,  TEAL   ; SCEPTILE
+	icon_pals RED,    BROWN  ; TORCHIC
+	icon_pals RED,    BROWN  ; COMBUSKEN
+	icon_pals RED,    BROWN  ; BLAZIKEN
+	icon_pals BLUE,   PURPLE ; MUDKIP
+	icon_pals BLUE,   PURPLE ; MARSHTOMP
+	icon_pals BLUE,   PURPLE ; SWAMPERT
 	assert_table_length NUM_POKEMON
