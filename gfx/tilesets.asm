@@ -470,9 +470,6 @@ INCBIN "data/tilesets/kabuto_word_room_attributes.bin.lz"
 TilesetOmanyteWordRoomAttr::
 INCBIN "data/tilesets/omanyte_word_room_attributes.bin.lz"
 
-TilesetAerodactylWordRoomAttr::
-INCBIN "data/tilesets/aerodactyl_word_room_attributes.bin.lz"
-
 
 SECTION "Tileset Data 12", ROMX
 
@@ -487,3 +484,6 @@ INCLUDE "data/tilesets/meadow_collision.asm"
 
 TilesetMeadowAttr::
 INCBIN "data/tilesets/meadow_attributes.bin.lz"
+
+TilesetAerodactylWordRoomAttr::
+INCBIN "data/tilesets/aerodactyl_word_room_attributes.bin.lz"

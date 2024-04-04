@@ -2152,6 +2152,8 @@ wPlayerStepVectorY:: db
 wPlayerStepFlags:: db
 wPlayerStepDirection:: db
 
+wSpinning:: db
+
 wBGMapAnchor:: dw
 
 UNION
