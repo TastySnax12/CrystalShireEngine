@@ -34,7 +34,7 @@ Pokecenter2F_Blocks:
 	INCBIN "maps/Pokecenter2F.blk"
 
 SandgemPokeMart_Blocks:
-;JubilifePokeMart_Blocks:
+JubilifePokeMart_Blocks:
 ;OreburghPokeMart_Blocks:
 ;FloaromaPokeMart_Blocks:
 ;EternaPokeMart_Blocks:
@@ -46,6 +46,67 @@ Route218JubilifeGate_Blocks:
 
 Route206EternaGate_Blocks:
 	INCBIN "maps/NorthSouthGate.blk"
+
+
+JubilifeApartmentSE1F_Blocks:
+JubilifeApartmentNE1F_Blocks:
+JubilifeApartmentSW1F_Blocks:
+;OreburghApartmentNW1F_Blocks:
+;OreburghApartmentN1F_Blocks:
+;OreburghApartmentE1F_Blocks:
+;EternaApartment1F_Blocks:
+	INCBIN "maps/Apartment1F.blk"
+	
+;EternaApartment2F_Blocks:
+;	INCBIN "maps/Apartment2F.blk"
+	
+JubilifeApartmentSE2F_Blocks:
+JubilifeApartmentNE2F_Blocks:
+JubilifeApartmentSW2F_Blocks:
+;OreburghApartmentNW2F_Blocks:
+;OreburghApartmentN2F_Blocks:
+;OreburghApartmentE2F_Blocks:
+;EternaApartment3F_Blocks:
+	INCBIN "maps/Apartment3F.blk"
+
+TrainersSchool_Blocks:
+	INCBIN "maps/TrainersSchool.blk"
+	
+PoketchCompany1F_Blocks:
+	INCBIN "maps/PoketchCompany1F.blk"
+	
+PoketchCompany2F_Blocks:
+	INCBIN "maps/PoketchCompany2F.blk"
+	
+PoketchCompany3F_Blocks:
+	INCBIN "maps/PoketchCompany3F.blk"
+	
+TVStation1F_Blocks:
+	INCBIN "maps/TVStation1F.blk"
+	
+TVStation2F_Blocks:
+	INCBIN "maps/TVStation2F.blk"
+	
+TVStation2F2_Blocks:
+	INCBIN "maps/TVStation2F2.blk"
+	
+TVStation3F_Blocks:
+	INCBIN "maps/TVStation3F.blk"
+	
+TVStation3F2_Blocks:
+	INCBIN "maps/TVStation3F2.blk"
+	
+TVStation3F3_Blocks:
+	INCBIN "maps/TVStation3F3.blk"
+	
+TVStation4F_Blocks:
+	INCBIN "maps/TVStation4F.blk"
+	
+TVStationElevator_Blocks:
+	INCBIN "maps/TVStationElevator.blk"
+	
+PokemonCommunicationCenter_Blocks:
+	INCBIN "maps/PokemonCommunicationCenter.blk"
 
 SECTION "Map Blocks 2", ROMX
 

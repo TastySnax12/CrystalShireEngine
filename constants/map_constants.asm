@@ -67,6 +67,29 @@ ENDM
 	newgroup JUBILIFE                                              ; 3
 	map_const JUBILIFE_CITY,                               20, 20 ;  1
 	map_const JUBILIFE_POKECENTER_1F,                       5,  4 ;  2
+	map_const JUBILIFE_POKEMART,                            6,  4 ;  3
+	map_const POKEMON_COMMUNICATION_CENTER,                16, 16 ;  4
+	map_const JUBILIFE_APARTMENT_SE_1F,                     6,  4 ;  5
+	map_const JUBILIFE_APARTMENT_SE_2F,                     6,  4 ;  6
+	map_const JUBILIFE_APARTMENT_NE_1F,                     6,  4 ;  7
+	map_const JUBILIFE_APARTMENT_NE_2F,                     6,  4 ;  8
+	map_const JUBILIFE_APARTMENT_SW_1F,                     6,  4 ;  9
+	map_const JUBILIFE_APARTMENT_SW_2F,                     6,  4 ; 10
+	map_const TRAINERS_SCHOOL,                              7,  4 ; 11
+	map_const POKETCH_COMPANY_1F,                           6,  4 ; 12
+	map_const POKETCH_COMPANY_2F,                           6,  4 ; 13
+	map_const POKETCH_COMPANY_3F,                           6,  4 ; 14
+	map_const TV_STATION_1F,                                8,  5 ; 15
+	map_const TV_STATION_2F,                                7,  5 ; 16
+	map_const TV_STATION_2F2,                               7,  5 ; 17
+	map_const TV_STATION_3F,                                7,  5 ; 18
+	map_const TV_STATION_3F2,                               5,  3 ; 19
+	map_const TV_STATION_3F3,                               5,  3 ; 20
+	map_const TV_STATION_4F,                                7,  5 ; 21
+	map_const TV_STATION_ELEVATOR,                          2,  2 ; 22
+
+
+
 	map_const ROUTE_203,                                   29, 10 ;  3
 	map_const ROUTE_218_JUBILIFE_GATE,                      5,  4 ;  4
 	map_const ROUTE_218,                                   22, 12 ;  5

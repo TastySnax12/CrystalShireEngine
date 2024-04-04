@@ -203,7 +203,27 @@ ENDM
 	map_attributes AssistantHouse1F, ASSISTANT_HOUSE_1F, $00, 0
 	map_attributes AssistantHouse2F, ASSISTANT_HOUSE_2F, $00, 0
 	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
+	map_attributes JubilifeApartmentSE1F, JUBILIFE_APARTMENT_SE_1F, $00, 0
+	map_attributes JubilifeApartmentSE2F, JUBILIFE_APARTMENT_SE_2F, $00, 0
+	map_attributes JubilifeApartmentNE1F, JUBILIFE_APARTMENT_NE_1F, $00, 0
+	map_attributes JubilifeApartmentNE2F, JUBILIFE_APARTMENT_NE_2F, $00, 0
+	map_attributes JubilifeApartmentSW1F, JUBILIFE_APARTMENT_SW_1F, $00, 0
+	map_attributes JubilifeApartmentSW2F, JUBILIFE_APARTMENT_SW_2F, $00, 0
+	map_attributes TrainersSchool, TRAINERS_SCHOOL, $00, 0
+	map_attributes PoketchCompany1F, POKETCH_COMPANY_1F, $00, 0
+	map_attributes PoketchCompany2F, POKETCH_COMPANY_2F, $00, 0
+	map_attributes PoketchCompany3F, POKETCH_COMPANY_3F, $00, 0
+	map_attributes TVStation1F, TV_STATION_1F, $00, 0
+	map_attributes TVStation2F, TV_STATION_2F, $00, 0
+	map_attributes TVStation2F2, TV_STATION_2F2, $00, 0
+	map_attributes TVStation3F, TV_STATION_3F, $00, 0
+	map_attributes TVStation3F2, TV_STATION_3F2, $00, 0
+	map_attributes TVStation3F3, TV_STATION_3F3, $00, 0
+	map_attributes TVStation4F, TV_STATION_4F, $00, 0
+	map_attributes TVStationElevator, TV_STATION_ELEVATOR, $00, 0
+	map_attributes PokemonCommunicationCenter, POKEMON_COMMUNICATION_CENTER, $00, 0
 	map_attributes JubilifePokecenter1F, JUBILIFE_POKECENTER_1F, $00, 0
+	map_attributes JubilifePokeMart, JUBILIFE_POKEMART, $00, 0
 	map_attributes Route218JubilifeGate, ROUTE_218_JUBILIFE_GATE, $00, 0
 	map_attributes OreburghGate1F, OREBURGH_GATE_1F, $09, 0
 	map_attributes OreburghPokecenter1F, OREBURGH_POKECENTER_1F, $00, 0
