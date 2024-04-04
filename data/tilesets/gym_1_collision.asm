@@ -18,7 +18,7 @@
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 11
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 12
 	tilecoll WALL, WALL, WALL, WALL ; 13
-	tilecoll WALL, WALL, WALL, WALL ; 14
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 14
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 15
 	tilecoll WALL, FLOOR, FLOOR, LEFT_WALL ; 16
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 17

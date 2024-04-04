@@ -12,6 +12,7 @@ OreburghGate1F_MapEvents:
 	def_warp_events
 	warp_event  3, 15, ROUTE_203, 1
 	warp_event 23, 15, OREBURGH_CITY, 1
+	warp_event 17,  3, OREBURGH_GATE_B1F, 1
 
 	def_coord_events
 

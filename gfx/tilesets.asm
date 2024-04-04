@@ -49,7 +49,7 @@ TilesetGym1GFX::
 INCBIN "gfx/tilesets/gym_1.2bpp.lz"
 
 TilesetGym1Meta::
-INCBIN "data/tilesets/gym_1_metatiles.bin"
+INCBIN "data/tilesets/gym_1_metatiles.bin.lz"
 
 TilesetGym1Coll::
 INCLUDE "data/tilesets/gym_1_collision.asm"
@@ -61,7 +61,7 @@ TilesetMuseumGFX::
 INCBIN "gfx/tilesets/museum.2bpp.lz"
 
 TilesetMuseumMeta::
-INCBIN "data/tilesets/museum_metatiles.bin"
+INCBIN "data/tilesets/museum_metatiles.bin.lz"
 
 TilesetMuseumColl::
 INCLUDE "data/tilesets/museum_collision.asm"
@@ -477,7 +477,7 @@ TilesetMeadowGFX::
 INCBIN "gfx/tilesets/meadow.2bpp.lz"
 
 TilesetMeadowMeta::
-INCBIN "data/tilesets/meadow_metatiles.bin"
+INCBIN "data/tilesets/meadow_metatiles.bin.lz"
 
 TilesetMeadowColl::
 INCLUDE "data/tilesets/meadow_collision.asm"

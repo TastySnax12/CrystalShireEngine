@@ -18,6 +18,7 @@ Landmarks:
 	landmark  85,  58, Route203Name
 	landmark  84,  92, OreburghGateName
 	landmark  76,  76, OreburghCityName
+	landmark  70,  42, OreburghMineName
 	landmark  84, 124, Route204Name
 	landmark  68, 124, RavagedPathName
 	landmark  82, 124, FloaromaTownName
@@ -42,7 +43,6 @@ Landmarks:
 
 
 
-	landmark  70,  42, TwinleafTownName ; dummy temp
 	landmark  52,  92, TwinleafTownName ; dummy temp
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
@@ -51,7 +51,7 @@ Landmarks:
 	landmark  38,  62, TwinleafTownName ; dummy temp
 	landmark  28,  56, Route211Name
 	landmark  28,  64, Route40Name
-	landmark  28,  92, WhirlIslandsName
+	landmark  28,  92, TwinleafTownName ; dummy temp
 	landmark  28, 100, Route41Name
 	landmark  20, 100, TwinleafTownName ; dummy temp
 	landmark  92,  44, Route42Name
@@ -128,6 +128,7 @@ JubilifeCityName:    db "JUBILIFE<BSP>CITY@"
 Route203Name:        db "ROUTE 203@"
 OreburghGateName:    db "OREBURGH GATE@"
 OreburghCityName:    db "OREBURGH CITY@"
+OreburghMineName:    db "OREBURGH MINE@"
 Route204Name:        db "ROUTE 204@"
 FloaromaTownName:    db "FLOAROMA TOWN@"
 RavagedPathName:     db "RAVAGED PATH@"
@@ -144,7 +145,7 @@ Route207Name:        db "ROUTE 207@"
 
 
 
-WhirlIslandsName:    db "WHIRL<BSP>ISLANDS@"
+
 MtMortarName:        db "MT.MORTAR@"
 DragonsDenName:      db "DRAGON'S<BSP>DEN@"
 IcePathName:         db "ICE PATH@"

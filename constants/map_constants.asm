@@ -87,13 +87,10 @@ ENDM
 	map_const TV_STATION_3F3,                               5,  3 ; 20
 	map_const TV_STATION_4F,                                7,  5 ; 21
 	map_const TV_STATION_ELEVATOR,                          2,  2 ; 22
-
-
-
-	map_const ROUTE_203,                                   29, 10 ;  3
-	map_const ROUTE_218_JUBILIFE_GATE,                      5,  4 ;  4
-	map_const ROUTE_218,                                   22, 12 ;  5
-	map_const ROUTE_204_SOUTH,                             12, 21 ;  6
+	map_const ROUTE_203,                                   29, 10 ; 23
+	map_const ROUTE_218_JUBILIFE_GATE,                      5,  4 ; 24
+	map_const ROUTE_218,                                   22, 12 ; 25
+	map_const ROUTE_204_SOUTH,                             12, 21 ; 26
 	endgroup
 
 	newgroup CABLE_CLUB                                           ;  3
@@ -102,16 +99,31 @@ ENDM
 
 	newgroup DUNGEONS                                             ;  4
 	map_const OREBURGH_GATE_1F,                            15, 10 ;  1
-	map_const RAVAGED_PATH,                                11, 16 ;  2
-	map_const ETERNA_FOREST_INSIDE,                        30, 27 ;  3
-	map_const OLD_CHATEU,                                  23,  9 ;  4
+	map_const OREBURGH_GATE_B1F,                           25,  9 ;  2
+	map_const OREBURGH_MINE_B1F,                            8, 12 ;  3
+	map_const OREBURGH_MINE_B2F,                           14, 13 ;  4
+	map_const RAVAGED_PATH,                                11, 16 ;  5
+	map_const ETERNA_FOREST_INSIDE,                        30, 27 ;  6
+	map_const OLD_CHATEU,                                  23,  9 ;  7
 	endgroup
 
 	newgroup OREBURGH                                             ;  5
 	map_const OREBURGH_CITY,                               25, 20 ;  1
 	map_const OREBURGH_POKECENTER_1F,                       5,  4 ;  2
-	map_const ROUTE_206,                                   14, 43 ;  3
-	map_const ROUTE_207,                                   27, 10 ;  4
+	map_const OREBURGH_POKEMART,                            6,  4 ;  4
+	map_const OREBURGH_GYM,                                 5, 10 ;  5
+	map_const OREBURGH_APARTMENT_NW_1F,                     6,  4 ;  6
+	map_const OREBURGH_APARTMENT_NW_2F,                     6,  4 ;  7
+	map_const OREBURGH_APARTMENT_N_1F,                      6,  4 ;  8
+	map_const OREBURGH_APARTMENT_N_2F,                      6,  4 ;  9
+	map_const OREBURGH_APARTMENT_E_1F,                      6,  4 ; 10
+	map_const OREBURGH_APARTMENT_E_2F,                      6,  4 ; 11
+	map_const OREBURGH_HOUSE_W,                             4,  4 ; 12
+	map_const OREBURGH_HOUSE_N,                             4,  4 ; 13
+	map_const OREBURGH_HOUSE_E,                             4,  4 ; 14
+	map_const OREBURGH_MUSEUM,                              8,  5 ; 15
+	map_const ROUTE_206,                                   14, 43 ; 16
+	map_const ROUTE_207,                                   27, 10 ; 17
 	endgroup
 
 	newgroup FLOAROMA                                             ;  6

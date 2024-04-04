@@ -15,9 +15,9 @@ RivalHouse2F_Blocks:
 TwinleafHouse1_Blocks:
 TwinleafHouse2_Blocks:
 SandgemHouse1_Blocks:
-;OreburghHouseW_Blocks:
-;OreburghHouseN_Blocks:
-;OreburghHouseE_Blocks:
+OreburghHouseW_Blocks:
+OreburghHouseN_Blocks:
+OreburghHouseE_Blocks:
 ;FloaromaHouseW_Blocks:
 ;FloaromaHouseE_Blocks:
 ;FloaromaMeadowHouse_Blocks:
@@ -35,7 +35,7 @@ Pokecenter2F_Blocks:
 
 SandgemPokeMart_Blocks:
 JubilifePokeMart_Blocks:
-;OreburghPokeMart_Blocks:
+OreburghPokeMart_Blocks:
 ;FloaromaPokeMart_Blocks:
 ;EternaPokeMart_Blocks:
 	INCBIN "maps/PokeMart.blk"
@@ -51,9 +51,9 @@ Route206EternaGate_Blocks:
 JubilifeApartmentSE1F_Blocks:
 JubilifeApartmentNE1F_Blocks:
 JubilifeApartmentSW1F_Blocks:
-;OreburghApartmentNW1F_Blocks:
-;OreburghApartmentN1F_Blocks:
-;OreburghApartmentE1F_Blocks:
+OreburghApartmentNW1F_Blocks:
+OreburghApartmentN1F_Blocks:
+OreburghApartmentE1F_Blocks:
 ;EternaApartment1F_Blocks:
 	INCBIN "maps/Apartment1F.blk"
 	
@@ -63,9 +63,9 @@ JubilifeApartmentSW1F_Blocks:
 JubilifeApartmentSE2F_Blocks:
 JubilifeApartmentNE2F_Blocks:
 JubilifeApartmentSW2F_Blocks:
-;OreburghApartmentNW2F_Blocks:
-;OreburghApartmentN2F_Blocks:
-;OreburghApartmentE2F_Blocks:
+OreburghApartmentNW2F_Blocks:
+OreburghApartmentN2F_Blocks:
+OreburghApartmentE2F_Blocks:
 ;EternaApartment3F_Blocks:
 	INCBIN "maps/Apartment3F.blk"
 
@@ -144,11 +144,26 @@ Route203_Blocks:
 OreburghGate1F_Blocks:
 	INCBIN "maps/OreburghGate1F.ablk"
 
-Route218_Blocks:
-	INCBIN "maps/Route218.ablk"
-
+OreburghGateB1F_Blocks:
+	INCBIN "maps/OreburghGateB1F.blk"
+	
 OreburghCity_Blocks:
 	INCBIN "maps/OreburghCity.ablk"
+	
+OreburghGym_Blocks:
+	INCBIN "maps/OreburghGym.ablk"
+	
+OreburghMuseum_Blocks:
+	INCBIN "maps/OreburghMuseum.blk"
+	
+OreburghMineB1F_Blocks:
+	INCBIN "maps/OreburghMineB1F.blk"
+	
+OreburghMineB2F_Blocks:
+	INCBIN "maps/OreburghMineB2F.blk"
+
+Route218_Blocks:
+	INCBIN "maps/Route218.ablk"
 
 Route204South_Blocks:
 	INCBIN "maps/Route204South.ablk"
