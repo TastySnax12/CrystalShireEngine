@@ -2414,11 +2414,11 @@ Pokedex_GetArea:
 	ld [hli], a ; tile id
 	inc de
 	push bc
-	ld c, PAL_OW_RED
+	ld c, PAL_OW_BLUE
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .male
-	inc c ; PAL_OW_BLUE
+	dec c ; PAL_OW_RED
 .male
 	ld a, c
 	ld [hli], a ; attributes
@@ -2621,7 +2621,7 @@ TownMapPlayerIcon:
 	ld e, l
 	ld hl, vTiles0 tile $14
 	ld c, 4 ; # tiles
-	ld a, BANK(ChrisSpriteGFX) ; does nothing
+	ld a, BANK(LucasSpriteGFX) ; does nothing
 	call Request2bpp
 ; Animation/palette
 	depixel 0, 0

@@ -1080,7 +1080,7 @@ SetPosterVisibility:
 	ld b, RESET_FLAG
 
 .ok
-	ld de, EVENT_PLAYERS_ROOM_POSTER
+	;ld de, EVENT_PLAYERS_ROOM_POSTER
 	jmp EventFlagAction
 
 SetDecorationTile:
@@ -1094,19 +1094,19 @@ SetDecorationTile:
 	ret
 
 ToggleDecorationsVisibility:
-	ld de, EVENT_PLAYERS_HOUSE_2F_CONSOLE
+	;ld de, EVENT_PLAYERS_HOUSE_2F_CONSOLE
 	ld hl, wVariableSprites + SPRITE_CONSOLE - SPRITE_VARS
 	ld a, [wDecoConsole]
 	call ToggleDecorationVisibility
-	ld de, EVENT_PLAYERS_HOUSE_2F_DOLL_1
+	;ld de, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	ld hl, wVariableSprites + SPRITE_DOLL_1 - SPRITE_VARS
 	ld a, [wDecoLeftOrnament]
 	call ToggleDecorationVisibility
-	ld de, EVENT_PLAYERS_HOUSE_2F_DOLL_2
+	;ld de, EVENT_PLAYERS_HOUSE_2F_DOLL_2
 	ld hl, wVariableSprites + SPRITE_DOLL_2 - SPRITE_VARS
 	ld a, [wDecoRightOrnament]
 	call ToggleDecorationVisibility
-	ld de, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
+	;ld de, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
 	ld hl, wVariableSprites + SPRITE_BIG_DOLL - SPRITE_VARS
 	ld a, [wDecoBigDoll]
 ; fallthrough

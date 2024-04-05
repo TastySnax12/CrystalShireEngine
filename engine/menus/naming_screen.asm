@@ -215,15 +215,15 @@ NamingScreen:
 	ld [hli], a
 	ld [hl], a
 	pop de
-	ld b, SPRITE_ANIM_OBJ_RED_WALK
-	ld a, d
-	cp HIGH(KrisSpriteGFX)
-	jr nz, .not_kris
-	ld a, e
-	cp LOW(KrisSpriteGFX)
-	jr nz, .not_kris
 	ld b, SPRITE_ANIM_OBJ_BLUE_WALK
-.not_kris
+	ld a, d
+	cp HIGH(DawnSpriteGFX)
+	jr nz, .not_dawn
+	ld a, e
+	cp LOW(DawnSpriteGFX)
+	jr nz, .not_dawn
+	ld b, SPRITE_ANIM_OBJ_RED_WALK
+.not_dawn
 	ld a, b
 	depixel 4, 4, 4, 0
 	jmp InitSpriteAnimStruct

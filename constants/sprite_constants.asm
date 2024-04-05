@@ -2,8 +2,8 @@
 ; OverworldSprites indexes (see data/sprites/sprites.asm)
 	const_def
 	const SPRITE_NONE ; 00
-	const SPRITE_CHRIS ; 01
-	const SPRITE_CHRIS_BIKE ; 02
+	const SPRITE_LUCAS ; 01
+	const SPRITE_LUCAS_BIKE ; 02
 	const SPRITE_GAMEBOY_KID ; 03
 	const SPRITE_RIVAL ; 04
 	const SPRITE_OAK ; 05
@@ -97,8 +97,8 @@
 	const SPRITE_FRUIT_TREE ; 5d
 	const SPRITE_GOLD_TROPHY ; 5e
 	const SPRITE_SILVER_TROPHY ; 5f
-	const SPRITE_KRIS ; 60
-	const SPRITE_KRIS_BIKE ; 61
+	const SPRITE_DAWN ; 60
+	const SPRITE_DAWN_BIKE ; 61
 	const SPRITE_KURT_OUTSIDE ; 62
 	const SPRITE_SUICUNE ; 63
 	const SPRITE_ENTEI ; 64
@@ -154,18 +154,11 @@ DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 ; wVariableSprites indexes (see wram.asm)
 	const_next $f0
 DEF SPRITE_VARS EQU const_value
-	const SPRITE_CONSOLE ; f0
-	const SPRITE_DOLL_1 ; f1
-	const SPRITE_DOLL_2 ; f2
-	const SPRITE_BIG_DOLL ; f3
-	const SPRITE_WEIRD_TREE ; f4
-	const SPRITE_OLIVINE_RIVAL ; f5
-	const SPRITE_AZALEA_ROCKET ; f6
-	const SPRITE_FUCHSIA_GYM_1 ; f7
-	const SPRITE_FUCHSIA_GYM_2 ; f8
-	const SPRITE_FUCHSIA_GYM_3 ; f9
-	const SPRITE_FUCHSIA_GYM_4 ; fa
-	const SPRITE_COPYCAT ; fb
-	const SPRITE_JANINE_IMPERSONATOR ; fc
-	const SPRITE_LINK_TRAINER ; fd
-	const SPRITE_BATTLE_TOWER_OPPONENT ; fe
+	const SPRITE_CONSOLE        ; f0
+	const SPRITE_DOLL_1         ; f1
+	const SPRITE_DOLL_2         ; f2
+	const SPRITE_BIG_DOLL       ; f3
+	const SPRITE_DAWN_LUCAS     ; f4
+	const SPRITE_DAWN_LUCAS2    ; f5
+	const SPRITE_CLOWN_GALACTIC ; f6
+	const SPRITE_CLOWN_ROWAN    ; f7

@@ -60,13 +60,13 @@ ShowPlayerNamingChoices:
 INCLUDE "data/player_names.asm"
 
 GetPlayerIcon:
-	ld de, ChrisSpriteGFX
-	ld b, BANK(ChrisSpriteGFX)
+	ld de, LucasSpriteGFX
+	ld b, BANK(LucasSpriteGFX)
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	ret z
-	ld de, KrisSpriteGFX
-	ld b, BANK(KrisSpriteGFX)
+	ld de, DawnSpriteGFX
+	ld b, BANK(DawnSpriteGFX)
 	ret
 
 GetCardPic:

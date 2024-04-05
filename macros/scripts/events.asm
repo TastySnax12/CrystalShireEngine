@@ -1098,4 +1098,17 @@ MACRO givepokemove
 	assert (\3 >= 0) && (\3 < 4), "givepokemove Move Number \3 is not 0-3!"
 ENDM
 
+	const settableindex_command ; $af
+MACRO settableindex
+	db settableindex_command
+	db \1 ; index value
+ENDM
+
+	const applymovementtable_command ; $b0
+MACRO applymovementtable
+	db applymovementtable_command
+	db \1 ; object id
+	dw \2 ; data
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value

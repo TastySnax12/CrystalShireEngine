@@ -18,14 +18,14 @@ HoOhChamber:
 	endc
 	ret nz
 	call GetMapAttributesPointer ; pointless?
-	ld de, EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
-	ld b, SET_FLAG
+;	ld de, EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
+;	ld b, SET_FLAG
 	jmp EventFlagAction
 
 OmanyteChamber:
 	call GetMapAttributesPointer ; pointless?
-	ld de, EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
-	ld b, CHECK_FLAG
+;	ld de, EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+;	ld b, CHECK_FLAG
 	call EventFlagAction
 	ld a, c
 	and a
@@ -60,8 +60,8 @@ OmanyteChamber:
 
 .open
 	call GetMapAttributesPointer ; pointless?
-	ld de, EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
-	ld b, SET_FLAG
+;	ld de, EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+;	ld b, SET_FLAG
 	jmp EventFlagAction
 
 SpecialAerodactylChamber:

@@ -235,6 +235,8 @@ ScriptCommandTable:
 	dw Script_loaditemindex              ; ac
 	dw Script_checkmaplockeditems        ; ad
 	dw Script_givepokemove               ; ae
+	dw Script_settableindex              ; af
+	dw Script_applymovementtable         ; b0
 	assert_table_length NUM_EVENT_COMMANDS
 
 StartScript:
@@ -2420,4 +2422,51 @@ Script_givepokemove:
 	; Set move
 	ld a, d
 	ld [hl], a
+	ret
+
+Script_settableindex:
+; script command 0xad
+; parameters: index
+	call GetScriptByte
+	ld [wScriptTableIndex], a
+	ret
+
+Script_applymovementtable:
+; script command 0xae
+; parameters: object_id, data
+	call GetScriptByte
+	call GetScriptObject
+	ld c, a
+
+	push bc
+	ld a, c
+	farcall FreezeAllOtherObjects
+	pop bc
+
+	push bc
+	call UnfreezeFollowerObject
+	pop bc
+
+	call GetScriptByte
+	ld l, a
+	call GetScriptByte
+	ld h, a
+
+	ld a, [wScriptTableIndex]
+	push bc
+	ld c, a
+	ld b, 0
+	add hl, bc
+	add hl, bc
+	pop bc
+	ld a, [wScriptBank]
+	ld b, a
+	call GetFarWord
+
+	call GetMovementData
+	ret c
+
+	ld a, SCRIPT_WAIT_MOVEMENT
+	ld [wScriptMode], a
+	call StopScript
 	ret

@@ -167,7 +167,7 @@ KenjiAnswerPhoneScript:
 	iftrue .Morning
 	checktime EVE | NITE
 	iftrue .Night
-	setevent EVENT_KENJI_ON_BREAK
+;	setevent EVENT_KENJI_ON_BREAK
 	farwritetext KenjiTakingABreakText
 	promptbutton
 	sjump PhoneScript_HangUpText_Male
