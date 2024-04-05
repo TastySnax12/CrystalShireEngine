@@ -95,3 +95,50 @@ LoadStatsScreenPageTilesGFX:
 	ld hl, vTiles2 tile $31
 	lb bc, BANK(StatsScreenPageTilesGFX), 17
 	jmp Get2bppViaHDMA
+
+_LoadBigFontCharacters::
+	ld hl, wStringBuffer5
+	ld de, vTiles1
+.loop_frm
+	di
+.wait_vblank
+	ldh a, [rLY]
+	cp $90
+	jr c, .wait_vblank
+	ld c, 6
+.loop_chr
+	ld a, [hli]
+	cp "@"
+	jr z, .done
+	push bc
+	push hl
+	call .LoadOneChar
+	pop hl
+	pop bc
+	dec c
+	jr nz, .loop_chr
+	ei
+	jr .loop_frm
+
+.done
+	reti
+
+.LoadOneChar:
+	sub $80
+	ld l, a
+	ld h, 0
+	add hl, hl
+	add hl, hl
+	add hl, hl
+	ld bc, Font
+	add hl, bc
+	ld c, 8
+.loop
+	ld a, [hli]
+REPT 6
+	ld [de], a
+	inc de
+ENDR
+	dec c
+	jr nz, .loop
+	ret

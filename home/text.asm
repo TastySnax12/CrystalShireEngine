@@ -700,6 +700,7 @@ TextCommands::
 	dw TextCommand_STRINGBUFFER  ; TX_STRINGBUFFER
 	dw TextCommand_DAY           ; TX_DAY
 	dw TextCommand_FAR           ; TX_FAR
+	dw TextCommand_BIG           ; TX_BIG
 	assert_table_length NUM_TEXT_CMDS
 
 TextCommand_START::
@@ -725,6 +726,37 @@ TextCommand_RAM::
 	ld l, c
 	rst PlaceString
 	pop hl
+	ret
+
+TextCommand_BIG::
+; text_big
+; write BIG text until "@"
+; [$17]["...@"]
+	push hl
+	push bc
+	ld d, h
+	ld e, l
+	ld hl, wOptions
+	ld a, [hl]
+	push af
+	set NO_TEXT_SCROLL, [hl]
+	ld hl, wStringBuffer5
+	call PlaceString
+	pop af
+	ld hl, wOptions
+	ld [hl], a
+	ld a, "@"
+	ld [bc], a
+	pop bc
+	pop de
+	push de
+	farcall PrintBigText
+	pop hl
+.skiploop
+	ld a, [hli]
+	cp "@"
+	jr nz, .skiploop
+	dec hl
 	ret
 
 TextCommand_FAR::

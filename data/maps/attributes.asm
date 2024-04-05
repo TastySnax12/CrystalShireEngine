@@ -187,7 +187,11 @@ ENDM
 	connection south, OreburghCity, OREBURGH_CITY, -12
 
 
-
+	map_attributes DebugRoom, DEBUG_ROOM, $13, 0
+	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
+	map_attributes TradeCenter, TRADE_CENTER, $00, 0
+	map_attributes Colosseum, COLOSSEUM, $00, 0
+	map_attributes TimeCapsule, TIME_CAPSULE, $00, 0
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $00, 0
 	map_attributes RivalHouse1F, RIVAL_HOUSE_1F, $00, 0
@@ -202,7 +206,6 @@ ENDM
 	map_attributes SandgemHouse1, SANDGEM_HOUSE_1, $00, 0
 	map_attributes AssistantHouse1F, ASSISTANT_HOUSE_1F, $00, 0
 	map_attributes AssistantHouse2F, ASSISTANT_HOUSE_2F, $00, 0
-	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0
 	map_attributes JubilifeApartmentSE1F, JUBILIFE_APARTMENT_SE_1F, $00, 0
 	map_attributes JubilifeApartmentSE2F, JUBILIFE_APARTMENT_SE_2F, $00, 0
 	map_attributes JubilifeApartmentNE1F, JUBILIFE_APARTMENT_NE_1F, $00, 0

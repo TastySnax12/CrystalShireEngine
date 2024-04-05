@@ -35,6 +35,14 @@ ENDM
 ; - scripts and events (see data/maps/scripts.asm)
 	const_def
 
+	newgroup CABLE_CLUB                                           ;  3
+	map_const POKECENTER_2F,                                8,  4 ;  1
+	map_const TRADE_CENTER,                                 5,  4 ;  2
+	map_const COLOSSEUM,                                    5,  4 ;  3
+	map_const TIME_CAPSULE,                                 5,  4 ;  4
+	map_const DEBUG_ROOM,                                  26, 13 ;  5
+	endgroup
+
 
 	newgroup TWINLEAF                                              ; 1
 	map_const TWINLEAF_TOWN,                               10, 10 ;  1
@@ -91,11 +99,6 @@ ENDM
 	map_const ROUTE_218_JUBILIFE_GATE,                      5,  4 ; 24
 	map_const ROUTE_218,                                   22, 12 ; 25
 	map_const ROUTE_204_SOUTH,                             12, 21 ; 26
-	endgroup
-
-
-	newgroup CABLE_CLUB                                           ;  3
-	map_const POKECENTER_2F,                                8,  4 ;  1
 	endgroup
 
 

@@ -168,6 +168,8 @@ ItemDescriptions1:
 	dw QuestionMarkDesc ; 009D
 	dw QuestionMarkDesc ; 009E
 	dw QuestionMarkDesc ; 009F
+
+	dw OddKeystoneDesc ; 00DA
 .IndirectEnd:
 
 ItemDescriptionsKeyItems:
@@ -870,3 +872,7 @@ MusicMailDesc:
 MirageMailDesc:
 	db   "MEW-print MAIL."
 	next "(HOLD)@"
+
+OddKeystoneDesc:
+	db   "Keeps a tower from"
+	next "from collapsing.@"

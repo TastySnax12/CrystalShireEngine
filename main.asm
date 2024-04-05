@@ -68,6 +68,7 @@ INCLUDE "engine/events/bug_contest/judging.asm"
 INCLUDE "engine/events/pokerus/apply_pokerus_tick.asm"
 INCLUDE "engine/events/bug_contest/contest_2.asm"
 INCLUDE "engine/math/get_square_root.asm"
+INCLUDE "engine/events/print_big_text.asm"
 
 
 SECTION "bank5", ROMX
@@ -519,7 +520,7 @@ SECTION "bank5B", ROMX
 INCLUDE "engine/link/link_trade.asm"
 INCLUDE "engine/link/link.asm"
 INCLUDE "engine/battle/link_result.asm"
-
+INCLUDE "engine/events/init_events.asm"
 
 SECTION "mobile5C", ROMX
 

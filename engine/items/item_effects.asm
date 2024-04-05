@@ -188,6 +188,8 @@ ItemEffects1:
 	dw NoEffect            ; ITEM_DC
 	dw NoEffect            ; ITEM_C3
 	dw NoEffect            ; ITEM_FA
+
+	dw NoEffect            ; ODD_KEYSTONE
 .IndirectEnd:
 
 ItemEffectsKeyItems:

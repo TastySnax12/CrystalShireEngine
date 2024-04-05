@@ -55,6 +55,7 @@ StdScripts::
 	add_stdscript PCScript
 	add_stdscript GameCornerCoinVendorScript
 	add_stdscript HappinessCheckScript
+	add_stdscript TableIndexFromFacingScript
 
 PokecenterNurseScript:
 ; EVENT_WELCOMED_TO_POKECOM_CENTER is never set
@@ -1784,3 +1785,24 @@ Movement_ContestResults_WalkAfterWarp:
 	step DOWN
 	turn_head UP
 	step_end
+
+TableIndexFromFacingScript:
+	readvar VAR_FACING
+	ifequal DOWN, .Down
+	ifequal UP, .Up
+	ifequal LEFT, .Left
+; Right
+	settableindex 3
+	end
+
+.Down:
+	settableindex 0
+	end
+
+.Up:
+	settableindex 1
+	end
+
+.Left:
+	settableindex 2
+	end

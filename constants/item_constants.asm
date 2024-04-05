@@ -25,7 +25,7 @@
 	const FIRE_STONE   ; 0011
 	const THUNDERSTONE ; 0012
 	const WATER_STONE  ; 0013
-	const ITEM_19      ; 0014
+	const JOURNAL      ; 0014
 	const HP_UP        ; 0015
 	const PROTEIN      ; 0016
 	const IRON         ; 0017
@@ -50,7 +50,7 @@
 	const SODA_POP     ; 002A
 	const LEMONADE     ; 002B
 	const X_ATTACK     ; 002C
-	const ITEM_32      ; 002D
+	const PARCEL       ; 002D
 	const X_DEFEND     ; 002E
 	const X_SPEED      ; 002F
 	const X_SPECIAL    ; 0030
@@ -165,6 +165,8 @@
 	const ITEM_DC      ; 009D
 	const ITEM_C3      ; 009E
 	const ITEM_FA      ; 009F
+
+	const ODD_KEYSTONE ; 00D6
 DEF NUM_ITEM_POCKET EQU const_value - 1
 
 	const_align 8 ; Key items assume the value of HIGH(FIRST_KEY_ITEM) when storing in bag.

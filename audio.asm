@@ -81,8 +81,6 @@ INCLUDE "audio/music/profoakspokemontalk.asm"
 INCLUDE "audio/music/profoak.asm"
 
 INCLUDE "audio/music/lookrival.asm"
-INCLUDE "audio/music/aftertherivalfight.asm"
-assert BANK(Music_LookRival) == BANK(Music_AfterTheRivalFight)
 
 INCLUDE "audio/music/surf.asm"
 INCLUDE "audio/music/oreburghcity.asm"

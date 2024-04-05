@@ -2764,7 +2764,27 @@ wUndergroundSwitchPositions:: db
 wFarfetchdPosition:: db
 
 ; map scene ids
-;wPokecenter2FSceneID::                            db
+wDebugRoomSceneID::
+wPokecenter2FSceneID::     db
+wTradeCenterSceneID::      db
+wColosseumSceneID::        db
+wTimeCapsuleSceneID::      db
+wPlayersHouse2FSceneID::   db
+wMobileTradeRoomSceneID::  db
+wMobileBattleRoomSceneID:: db
+wPlayersHouse1FSceneID::   db
+wTwinleafTownSceneID::     db
+wRivalHouse2FSceneID::     db
+wRoute201SceneID::         db
+wLakeVerityLowSceneID::    db
+wSandgemTownSceneID::      db
+wRowansLabSceneID::        db
+wRoute202SceneID::         db
+wJubilifeCitySceneID::     db
+wRoute203SceneID::         db
+wOreburghGate1FSceneID::   db
+wOreburghGymSceneID::      db
+wOreburghCitySceneID::     db
 
 
 ; fight counts
@@ -2800,6 +2820,8 @@ wCurBox:: db
 wCelebiEvent::
 ; bit 2: forest is restless
 	db
+
+wOverBridge:: db
 
 wBikeFlags::
 ; bit 0: using strength

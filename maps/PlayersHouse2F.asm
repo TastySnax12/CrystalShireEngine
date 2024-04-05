@@ -324,7 +324,7 @@ if DEF(_DEBUG)
 ;	setevent EVENT_BEAT_BLUE
 ;	setevent EVENT_BEAT_ELITE_FOUR
 	; fly anywhere
-	setflag ENGINE_FLYPOINT_NEW_BARK
+	setflag ENGINE_FLYPOINT_TWINLEAF
  	setflag ENGINE_FLYPOINT_SANDGEM
 ; 	setflag ENGINE_FLYPOINT_VIOLET
 ; 	setflag ENGINE_FLYPOINT_AZALEA
@@ -385,6 +385,9 @@ PlayersHouse2F_MapEvents:
 	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
 
 	def_coord_events
+	coord_event 5,  2, SCENE_PLAYERSHOUSE2F_RIVAL, PlayersRoomRivalScript1
+	coord_event 3,  2, SCENE_PLAYERSHOUSE2F_RIVAL, PlayersRoomRivalScript2
+	coord_event 4,  3, SCENE_PLAYERSHOUSE2F_RIVAL, PlayersRoomRivalScript3
 
 	def_bg_events
 	bg_event  2,  1, BGEVENT_UP, PlayersHousePCScript

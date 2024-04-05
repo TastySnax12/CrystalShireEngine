@@ -1389,13 +1389,13 @@ RadioChannels:
 	jr nc, .NoSignal
 	ld a, [wTimeOfDay]
 	and a
-	jmp z, LoadStation_PokedexShow
+	jr z, LoadStation_PokedexShow
 	jr LoadStation_OaksPokemonTalk
 
 .PokemonMusic:
 	call .InJohto
 	jr nc, .NoSignal
-	jmp LoadStation_PokemonMusic
+	jr LoadStation_PokemonMusic
 
 .LuckyChannel:
 	call .InJohto

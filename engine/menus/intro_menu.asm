@@ -260,7 +260,8 @@ InitializeNPCNames:
 InitializeWorld:
 	call ShrinkPlayer
 	farcall SpawnPlayer
-	farjp _InitializeStartDay
+	farcall _InitializeStartDay
+	farjp InitializeEvents
 
 LoadOrRegenerateLuckyIDNumber:
 	ld a, BANK(sLuckyIDNumber)

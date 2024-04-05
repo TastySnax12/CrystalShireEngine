@@ -159,6 +159,8 @@ ItemNames::
 	li "TERU-SAMA"    ; 009C
 	li "TERU-SAMA"    ; 009D
 	li "TERU-SAMA"    ; 009E
+
+	li "ODD KEYSTONE" ; 00D6
 	assert_list_length NUM_ITEM_POCKET
 
 KeyItemNames::

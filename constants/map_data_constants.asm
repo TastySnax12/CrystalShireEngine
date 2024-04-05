@@ -86,7 +86,7 @@ DEF SPAWN_N_A EQU -1
 	const_def
 ; johto
 DEF JOHTO_FLYPOINT EQU const_value
-	const FLY_NEW_BARK
+	const FLY_TWINLEAF
 	const FLY_SANDGEM
 	const FLY_VIOLET
 	const FLY_AZALEA

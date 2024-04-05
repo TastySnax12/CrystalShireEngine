@@ -1,5 +1,8 @@
 SECTION "Map Blocks 1", ROMX
 
+DebugRoom_Blocks:
+	INCBIN "maps/DebugRoom.blk"
+
 PlayersHouse1F_Blocks:
 	INCBIN "maps/PlayersHouse1F.ablk"
 
@@ -11,6 +14,13 @@ RivalHouse1F_Blocks:
 	
 RivalHouse2F_Blocks:
 	INCBIN "maps/RivalHouse2F.blk"
+
+TradeCenter_Blocks:
+TimeCapsule_Blocks:
+	INCBIN "maps/TradeCenter.blk"
+
+Colosseum_Blocks:
+	INCBIN "maps/Colosseum.blk"
 
 TwinleafHouse1_Blocks:
 TwinleafHouse2_Blocks:

@@ -17,10 +17,10 @@ ENDM
 MapGroupPointers::
 ; pointers to the first map of each map group
 	table_width 2, MapGroupPointers
-	dw MapGroup_Twinleaf     ; 1
-	dw MapGroup_Sandgem      ; 2
-	dw MapGroup_Jubilife     ; 3
-	dw MapGroup_CableClub    ; 4
+	dw MapGroup_CableClub    ; 1
+	dw MapGroup_Twinleaf     ; 2
+	dw MapGroup_Sandgem      ; 3
+	dw MapGroup_Jubilife     ; 4
 	dw MapGroup_Dungeons     ; 5
 	dw MapGroup_Oreburgh     ; 6
 	dw MapGroup_Floaroma     ; 7
@@ -28,6 +28,14 @@ MapGroupPointers::
 	dw MapGroup_Eterna       ; 9
 	assert_table_length NUM_MAP_GROUPS
 
+MapGroup_CableClub:
+	table_width MAP_LENGTH, MapGroup_CableClub
+	map Pokecenter2F, TILESET_POKECENTER, INDOOR, LANDMARK_SPECIAL, MUSIC_POKEMON_CENTER, TRUE, PALETTE_DAY, FISHGROUP_NONE
+	map TradeCenter, TILESET_GATE, INDOOR, LANDMARK_SPECIAL, MUSIC_SANDGEM_TOWN, TRUE, PALETTE_DAY, FISHGROUP_NONE
+	map Colosseum, TILESET_GATE, INDOOR, LANDMARK_SPECIAL, MUSIC_SANDGEM_TOWN, TRUE, PALETTE_DAY, FISHGROUP_NONE
+	map TimeCapsule, TILESET_GATE, INDOOR, LANDMARK_SPECIAL, MUSIC_SANDGEM_TOWN, TRUE, PALETTE_DAY, FISHGROUP_NONE
+	map DebugRoom, TILESET_FACILITY, CAVE, LANDMARK_TWINLEAF_TOWN, MUSIC_EVOLUTION, FALSE, PALETTE_AUTO, FISHGROUP_NONE
+	assert_table_length NUM_CABLE_CLUB_MAPS
 
 MapGroup_Twinleaf:
 	table_width MAP_LENGTH, MapGroup_Twinleaf
@@ -86,11 +94,6 @@ MapGroup_Jubilife:
 	map Route218, TILESET_SINNOH_1, ROUTE, LANDMARK_ROUTE_218, MUSIC_ROUTE_203, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
 	map Route204South, TILESET_SINNOH_1, ROUTE, LANDMARK_ROUTE_204, MUSIC_ROUTE_203, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
 	assert_table_length NUM_JUBILIFE_MAPS
-
-MapGroup_CableClub:
-	table_width MAP_LENGTH, MapGroup_CableClub
-	map Pokecenter2F, TILESET_POKECENTER, INDOOR, LANDMARK_SPECIAL, MUSIC_POKEMON_CENTER, TRUE, PALETTE_DAY, FISHGROUP_SHORE
-	assert_table_length NUM_CABLE_CLUB_MAPS
 
 MapGroup_Dungeons:
 	table_width MAP_LENGTH, MapGroup_Dungeons

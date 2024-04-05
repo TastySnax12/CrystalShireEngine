@@ -1320,6 +1320,11 @@ SaveScreen_LoadConnection::
 	jr nz, .row
 	ret
 
+GenericBridgeFinish::
+;	farcall ReanchorBGMap_NoOAMUpdate
+;	call BufferScreen
+	ld a, 1
+	ld [wOverworldDelay], a
 GetMovementPermissions::
 	xor a
 	ld [wTilePermissions], a

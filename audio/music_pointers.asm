@@ -30,7 +30,6 @@ Music:
 	dba Music_ProfOaksPokemonTalk
 	dba Music_ProfOak
 	dba Music_LookRival
-	dba Music_AfterTheRivalFight
 	dba Music_Surf
 	dba Music_Evolution
 	dba Music_Route206
