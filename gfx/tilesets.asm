@@ -174,8 +174,29 @@ INCLUDE "data/tilesets/train_station_collision.asm"
 TilesetForestMeta::
 INCBIN "data/tilesets/forest_metatiles.bin.lz"
 
+TilesetGym2GFX:
+INCBIN "gfx/tilesets/gym_2.2bpp.lz"
 
+TilesetGym2Coll:
+INCLUDE "data/tilesets/gym_2_collision.asm"
 
+TilesetGym2Meta:
+INCBIN "data/tilesets/gym_2_metatiles.bin.lz"
+
+TilesetGym2Attr::
+INCBIN "data/tilesets/gym_2_attributes.bin.lz"
+
+TilesetCave2GFX:
+INCBIN "gfx/tilesets/cave_2.2bpp.lz"
+
+TilesetCave2Coll:
+INCLUDE "data/tilesets/cave_2_collision.asm"
+
+TilesetCave2Meta:
+INCBIN "data/tilesets/cave_2_metatiles.bin.lz"
+
+TilesetCave2Attr::
+INCBIN "data/tilesets/cave_2_attributes.bin.lz"
 
 SECTION "Tileset Data 4", ROMX
 

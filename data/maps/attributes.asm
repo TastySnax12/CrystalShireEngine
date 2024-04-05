@@ -254,6 +254,26 @@ ENDM
 	map_attributes Route205House, ROUTE_205_HOUSE, $00, 0
 	map_attributes FuegoIronworksInside, FUEGO_IRONWORKS_INSIDE, $00, 0
 	map_attributes EternaForestInside, ETERNA_FOREST_INSIDE, $06, 0
-	map_attributes OldChateu, OLD_CHATEU, $00, 0
 	map_attributes EternaPokecenter1F, ETERNA_POKECENTER_1F, $00, 0
-	map_attributes Route206EternaGate, ROUTE_206_ETERNA_GATE, $00, 0
+	map_attributes EternaPokeMart, ETERNA_POKEMART, $00, 0
+	map_attributes EternaGym, ETERNA_GYM, $00, 0
+	map_attributes EternaBikeShop, ETERNA_BIKE_SHOP, $00, 0
+	map_attributes EternaHerbShop, ETERNA_HERB_SHOP, $00, 0
+	map_attributes EternaUndergroundHouse, ETERNA_UNDERGROUND_HOUSE, $00, 0
+	map_attributes EternaApartment1F, ETERNA_APARTMENT_1F, $00, 0
+	map_attributes EternaApartment2F, ETERNA_APARTMENT_2F, $00, 0
+	map_attributes EternaApartment3F, ETERNA_APARTMENT_3F, $00, 0
+	map_attributes EternaHouseW, ETERNA_HOUSE_W, $00, 0
+	map_attributes EternaHouseE, ETERNA_HOUSE_E, $00, 0
+	map_attributes EternaGalacticBuilding1F, ETERNA_GALACTIC_BUILDING_1F, $00, 0
+	map_attributes EternaGalacticBuilding2F, ETERNA_GALACTIC_BUILDING_2F, $00, 0
+	map_attributes EternaGalacticBuilding3F, ETERNA_GALACTIC_BUILDING_3F, $00, 0
+	map_attributes EternaGalacticBuilding4F, ETERNA_GALACTIC_BUILDING_4F, $00, 0
+	map_attributes OldChateau, OLD_CHATEAU, $00, 0
+	map_attributes OldChateauDining, OLD_CHATEAU_DINING, $00, 0
+	map_attributes OldChateauBedrooms, OLD_CHATEAU_BEDROOMS, $00, 0
+	map_attributes Route206EternaNorthGate, ROUTE_206_ETERNA_NORTH_GATE, $00, 0
+	map_attributes Route206EternaSouthGate, ROUTE_206_ETERNA_SOUTH_GATE, $00, 0
+	map_attributes WaywardCave1F, WAYWARD_CAVE_1F, $06, 0
+	map_attributes WaywardCave1F2, WAYWARD_CAVE_1F_2, $06, 0
+	map_attributes WaywardCaveB1F, WAYWARD_CAVE_B1F, $06, 0

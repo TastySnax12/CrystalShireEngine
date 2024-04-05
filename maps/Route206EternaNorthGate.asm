@@ -1,12 +1,12 @@
 	object_const_def
 
-Route206EternaGate_MapScripts:
+Route206EternaNorthGate_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-Route206EternaGate_MapEvents:
+Route206EternaNorthGate_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events

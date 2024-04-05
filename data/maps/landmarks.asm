@@ -27,10 +27,11 @@ Landmarks:
 	landmark  52, 120, ValleyWindworksName
 	landmark  52, 112, FuegoIronworksName
 	landmark  52,  92, EternaForestName
-	landmark  50,  92, OldChateuName
+	landmark  50,  92, OldChateauName
 	landmark  70, 122, Route205Name ; south
 	landmark  52,  60, EternaCityName
 	landmark  64,  60, Route206Name
+	landmark  66,  42, WaywardCaveName
 	landmark  68,  52, Route207Name
 
 
@@ -44,7 +45,6 @@ Landmarks:
 
 
 
-	landmark  66,  42, TwinleafTownName ; dummy temp
 	landmark  52,  44, TwinleafTownName ; dummy temp
 	landmark  36,  48, TwinleafTownName ; dummy temp
 	landmark  36,  60, TwinleafTownName ; dummy temp
@@ -137,9 +137,10 @@ Route205Name:        db "ROUTE 205@"
 ValleyWindworksName: db "VALLEY<BSP>WINDWORKS@"
 FuegoIronworksName:  db "FUEGO<BSP>IRONWORKS@"
 EternaForestName:    db "ETERNA FOREST@"
-OldChateuName:       db "OLD CHATEU@"
+OldChateauName:      db "OLD CHATEAU@"
 EternaCityName:      db "ETERNA CITY@"
 Route206Name:        db "ROUTE 206@"
+WaywardCaveName:     db "WAYWARD CAVE@"
 Route207Name:        db "ROUTE 207@"
 
 
@@ -148,7 +149,7 @@ Route207Name:        db "ROUTE 207@"
 
 
 
-DragonsDenName:      db "DRAGON'S<BSP>DEN@"
+
 IcePathName:         db "ICE PATH@"
 Route218Name:        db "ROUTE 218@"
 ViridianCityName:    db "VIRIDIAN<BSP>CITY@"

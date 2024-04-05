@@ -14,6 +14,8 @@ EternaForestInside_MapEvents:
 	warp_event 11, 49,   ROUTE_205_SOUTH, 2
 	warp_event 53, 18,   ROUTE_205_NORTH, 1
 	warp_event 53, 19,   ROUTE_205_NORTH, 2
+	warp_event 45,  9,   OLD_CHATEAU, 1
+	warp_event 46,  9,   OLD_CHATEAU, 2
 
 	def_coord_events
 

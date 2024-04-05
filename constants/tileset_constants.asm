@@ -29,8 +29,8 @@
 	const TILESET_ICE_PATH             ; 1b SNOWPOINT TEMPLE
 	const TILESET_MT_CORONET           ; 1c MT. CORONET
 	const TILESET_OLD_CHATEAU          ; 1d OLD CHATEAU
-	;const TILESET_CAVE 2               ; 1e CAVES #2
-	;const TILESET_GYM 2                ; 1f ETERNA GYM
+	const TILESET_CAVE_2               ; 1e CAVES #2
+    const TILESET_GYM_2                ; 1f ETERNA GYM
 	const TILESET_ELITE_FOUR_ROOM      ; 20
 	const TILESET_TRAIN_STATION        ; 21
 	const TILESET_CHAMPIONS_ROOM       ; 22

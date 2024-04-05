@@ -1,12 +1,12 @@
 	object_const_def
 
-OldChateu_MapScripts:
+OldChateau_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-OldChateu_MapEvents:
+OldChateau_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events

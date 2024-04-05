@@ -41,8 +41,8 @@ Tilesets::
 	tileset TilesetIcePath
 	tileset TilesetMtCoronet
 	tileset TilesetOldChateau
-	;tileset TilesetCave2
-	;tileset TilesetGym2
+	tileset TilesetCave2
+    tileset TilesetGym2
 	tileset TilesetEliteFourRoom
 	tileset TilesetTrainStation
 	tileset TilesetChampionsRoom

@@ -105,9 +105,18 @@ ENDM
 	map_const OREBURGH_MINE_B1F,                            8, 12 ;  3
 	map_const OREBURGH_MINE_B2F,                           14, 13 ;  4
 	map_const RAVAGED_PATH,                                11, 16 ;  5
-	map_const FUEGO_IRONWORKS_INSIDE,                     25, 13 ;   6
+	map_const FUEGO_IRONWORKS_INSIDE,                      25, 13 ;  6
 	map_const ETERNA_FOREST_INSIDE,                        30, 27 ;  7
-	map_const OLD_CHATEU,                                  23,  9 ;  8
+	map_const ETERNA_GALACTIC_BUILDING_1F,                  9,  6 ;  8
+	map_const ETERNA_GALACTIC_BUILDING_2F,                  8,  5 ;  9
+	map_const ETERNA_GALACTIC_BUILDING_3F,                  8,  5 ; 10
+	map_const ETERNA_GALACTIC_BUILDING_4F,                  8,  4 ; 11
+	map_const OLD_CHATEAU,                                 23,  9 ; 12
+	map_const OLD_CHATEAU_DINING,                          15,  5 ; 13
+	map_const OLD_CHATEAU_BEDROOMS,                        17,  8 ; 14
+	map_const WAYWARD_CAVE_1F,                             40, 18 ; 15
+	map_const WAYWARD_CAVE_1F_2,                           10,  3 ; 16
+	map_const WAYWARD_CAVE_B1F,                            20, 15 ; 17
 	endgroup
 
 
@@ -153,12 +162,23 @@ ENDM
 	endgroup
 
 	newgroup ETERNA                                               ;  8
-	map_const ETERNA_FOREST_OUTSIDE,                       17, 17 ;  7
-	map_const ROUTE_205_NORTH,                             14, 12 ;  9
-	map_const ETERNA_CITY,                                 25, 22 ; 10
-	map_const ETERNA_POKECENTER_1F,                         5,  4 ; 11
-	map_const ROUTE_211_WEST,                              12, 12 ; 12
-	map_const ROUTE_206_ETERNA_GATE,                        5,  4 ;  4
+	map_const ETERNA_FOREST_OUTSIDE,                       17, 17 ;  1
+	map_const ROUTE_205_NORTH,                             14, 12 ;  2
+	map_const ETERNA_CITY,                                 25, 22 ;  3
+	map_const ETERNA_POKECENTER_1F,                         5,  4 ;  4
+	map_const ETERNA_POKEMART,                              6,  4 ;  5
+	map_const ETERNA_GYM,                                   8, 10 ;  6
+	map_const ETERNA_BIKE_SHOP,                             5,  4 ;  7
+	map_const ETERNA_HERB_SHOP,                             4,  3 ;  8
+	map_const ETERNA_UNDERGROUND_HOUSE,                     4,  3 ;  9
+	map_const ETERNA_APARTMENT_1F,                          6,  4 ; 10
+	map_const ETERNA_APARTMENT_2F,                          6,  4 ; 11
+	map_const ETERNA_APARTMENT_3F,                          6,  4 ; 12
+	map_const ETERNA_HOUSE_W,                               4,  4 ; 13
+	map_const ETERNA_HOUSE_E,                               4,  4 ; 14
+	map_const ROUTE_211_WEST,                              12, 12 ; 15
+	map_const ROUTE_206_ETERNA_NORTH_GATE,                  5,  4 ; 16
+	map_const ROUTE_206_ETERNA_SOUTH_GATE,                  5,  4 ; 17
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

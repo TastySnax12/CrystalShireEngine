@@ -21,18 +21,18 @@
 	const LANDMARK_VALLEY_WINDWORKS  ; 0f
 	const LANDMARK_FUEGO_IRONWORKS   ; 10
 	const LANDMARK_ETERNA_FOREST     ; 11
-	const LANDMARK_OLD_CHATEU        ; 12
+	const LANDMARK_OLD_CHATEAU       ; 12
 	const LANDMARK_ROUTE_205_NORTH   ; 13
 	const LANDMARK_ETERNA_CITY       ; 14
 	const LANDMARK_ROUTE_206         ; 15
-	const LANDMARK_ROUTE_207         ; 16
+	const LANDMARK_WAYWARD_CAVE      ; 16
+	const LANDMARK_ROUTE_207         ; 17
 
 
 
 
 
 
-	const LANDMARK_BURNED_TOWER      ; 18         HEARTHOME_CITY
 	const LANDMARK_ROUTE_38          ; 19         ROUTE_209
 	const LANDMARK_ROUTE_39          ; 1a         SOLACEON_TOWN
 	const LANDMARK_OLIVINE_CITY      ; 1b         SOLACEON_RUINS

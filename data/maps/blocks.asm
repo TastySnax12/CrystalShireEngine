@@ -37,14 +37,15 @@ SandgemPokeMart_Blocks:
 JubilifePokeMart_Blocks:
 OreburghPokeMart_Blocks:
 FloaromaPokeMart_Blocks:
-;EternaPokeMart_Blocks:
+EternaPokeMart_Blocks:
 	INCBIN "maps/PokeMart.blk"
 
 
 Route218JubilifeGate_Blocks:
 	INCBIN "maps/EastWestGate.blk"
 
-Route206EternaGate_Blocks:
+Route206EternaNorthGate_Blocks:
+Route206EternaSouthGate_Blocks:
 	INCBIN "maps/NorthSouthGate.blk"
 
 
@@ -54,11 +55,11 @@ JubilifeApartmentSW1F_Blocks:
 OreburghApartmentNW1F_Blocks:
 OreburghApartmentN1F_Blocks:
 OreburghApartmentE1F_Blocks:
-;EternaApartment1F_Blocks:
+EternaApartment1F_Blocks:
 	INCBIN "maps/Apartment1F.blk"
 	
-;EternaApartment2F_Blocks:
-;	INCBIN "maps/Apartment2F.blk"
+EternaApartment2F_Blocks:
+	INCBIN "maps/Apartment2F.blk"
 	
 JubilifeApartmentSE2F_Blocks:
 JubilifeApartmentNE2F_Blocks:
@@ -66,7 +67,7 @@ JubilifeApartmentSW2F_Blocks:
 OreburghApartmentNW2F_Blocks:
 OreburghApartmentN2F_Blocks:
 OreburghApartmentE2F_Blocks:
-;EternaApartment3F_Blocks:
+EternaApartment3F_Blocks:
 	INCBIN "maps/Apartment3F.blk"
 
 TrainersSchool_Blocks:
@@ -204,8 +205,42 @@ EternaForestOutside_Blocks:
 EternaForestInside_Blocks:
 	INCBIN "maps/EternaForestInside.ablk"
 
-OldChateu_Blocks:
-	INCBIN "maps/OldChateu.ablk"
+EternaGym_Blocks:
+	INCBIN "maps/EternaGym.blk"
+	
+EternaHouseW_Blocks:
+EternaHouseE_Blocks:
+	INCBIN "maps/HouseInterior2.blk"
+	
+EternaBikeShop_Blocks:
+	INCBIN "maps/EternaBikeShop.blk"
+	
+EternaHerbShop_Blocks:
+	INCBIN "maps/EternaHerbShop.blk"
+	
+EternaUndergroundHouse_Blocks:
+	INCBIN "maps/EternaUndergroundHouse.blk"
+	
+EternaGalacticBuilding1F_Blocks:
+	INCBIN "maps/EternaGalacticBuilding1F.blk"
+	
+EternaGalacticBuilding2F_Blocks:
+	INCBIN "maps/EternaGalacticBuilding2F.blk"
+	
+EternaGalacticBuilding3F_Blocks:
+	INCBIN "maps/EternaGalacticBuilding3F.blk"
+	
+EternaGalacticBuilding4F_Blocks:
+	INCBIN "maps/EternaGalacticBuilding4F.blk"
+
+OldChateau_Blocks:
+	INCBIN "maps/OldChateau.ablk"
+
+OldChateauDining_Blocks:
+	INCBIN "maps/OldChateauDining.blk"
+
+OldChateauBedrooms_Blocks:
+	INCBIN "maps/OldChateauBedrooms.blk"
 
 Route205North_Blocks:
 	INCBIN "maps/Route205North.ablk"
@@ -233,6 +268,15 @@ AssistantHouse2F_Blocks:
 
 FloaromaMeadow_Blocks:
 	INCBIN "maps/FloaromaMeadow.blk"
+
+WaywardCave1F_Blocks:
+	INCBIN "maps/WaywardCave1F.blk"
+	
+WaywardCave1F2_Blocks:
+	INCBIN "maps/WaywardCave1F2.blk"
+	
+WaywardCaveB1F_Blocks:
+	INCBIN "maps/WaywardCaveB1F.blk"
 
 SECTION "Map Blocks 3", ROMX
 

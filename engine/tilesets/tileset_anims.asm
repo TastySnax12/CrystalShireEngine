@@ -113,6 +113,7 @@ TilesetEliteFourRoomAnim:
 	dw NULL,  DoneTileAnimation
 
 TilesetCaveAnim:
+TilesetCave2Anim:
 TilesetDarkCaveAnim:
 	dw vTiles2 tile $14, ReadTileToAnimBuffer
 	dw NULL,  FlickeringCaveEntrancePalette
@@ -200,6 +201,7 @@ TilesetOmanyteWordRoomAnim:
 TilesetAerodactylWordRoomAnim:
 TilesetModernInteriorAnim:
 TilesetGym1Anim:
+TilesetGym2Anim:
 TilesetMuseumAnim:
 TilesetBikeShopAnim:
 TilesetParkAnim:
