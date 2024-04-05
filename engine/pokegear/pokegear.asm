@@ -127,9 +127,9 @@ Pokegear_LoadGFX:
 	ld b, a
 	ld a, [wMapNumber]
 	ld c, a
-	call GetWorldMapLocation
-	cp LANDMARK_FAST_SHIP
-	jr z, .ssaqua
+	;call GetWorldMapLocation
+	;cp LANDMARK_FAST_SHIP
+	;jr z, .ssaqua
 	farcall GetPlayerIcon
 	push de
 	ld h, d
@@ -205,8 +205,8 @@ TownMap_InitCursorAndPlayerIconPositions:
 	ld a, [wMapNumber]
 	ld c, a
 	call GetWorldMapLocation
-	cp LANDMARK_FAST_SHIP
-	jr z, .FastShip
+	;cp LANDMARK_FAST_SHIP
+	;jr z, .FastShip
 	cp LANDMARK_SPECIAL
 	jr nz, .LoadLandmark
 	ld a, [wBackupMapGroup]
@@ -313,10 +313,10 @@ InitPokegearTilemap:
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
-	cp LANDMARK_FAST_SHIP
-	jr z, .johto
-	cp KANTO_LANDMARK
-	jr nc, .kanto
+	;cp LANDMARK_FAST_SHIP
+	;jr z, .johto
+	;cp KANTO_LANDMARK
+	;jr nc, .kanto
 .johto
 	ld e, 0
 	jr .ok
@@ -509,10 +509,10 @@ Pokegear_UpdateClock:
 
 PokegearMap_CheckRegion:
 	ld a, [wPokegearMapPlayerIconLandmark]
-	cp LANDMARK_FAST_SHIP
-	jr z, .johto
-	cp KANTO_LANDMARK
-	jr nc, .kanto
+	;cp LANDMARK_FAST_SHIP
+	;jr z, .johto
+	;cp KANTO_LANDMARK
+	;jr nc, .kanto
 .johto
 	ld a, POKEGEARSTATE_JOHTOMAPINIT
 	jr .done
@@ -543,7 +543,7 @@ PokegearMap_KantoMap:
 	jr PokegearMap_ContinueMap
 
 PokegearMap_JohtoMap:
-	lb de, LANDMARK_SILVER_CAVE, LANDMARK_TWINLEAF_TOWN
+	lb de, LANDMARK_FLOWER_PARADISE, LANDMARK_TWINLEAF_TOWN
 PokegearMap_ContinueMap:
 	ld hl, hJoyLast
 	ld a, [hl]
@@ -626,11 +626,11 @@ PokegearMap_ContinueMap:
 PokegearMap_InitPlayerIcon:
 	push af
 	depixel 0, 0
-	ld b, SPRITE_ANIM_OBJ_RED_WALK
+	ld b, SPRITE_ANIM_OBJ_BLUE_WALK
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .got_gender
-	ld b, SPRITE_ANIM_OBJ_BLUE_WALK
+	ld b, SPRITE_ANIM_OBJ_RED_WALK
 .got_gender
 	ld a, b
 	call InitSpriteAnimStruct
@@ -699,11 +699,11 @@ TownMap_GetKantoLandmarkLimits:
 	ld a, [wStatusFlags]
 	bit STATUSFLAGS_HALL_OF_FAME_F, a
 	jr z, .not_hof
-	lb de, LANDMARK_ROUTE_28, LANDMARK_ROUTE_218
+	;lb de, LANDMARK_ROUTE_28, LANDMARK_ROUTE_218
 	ret
 
 .not_hof
-	lb de, LANDMARK_ROUTE_28, LANDMARK_VICTORY_ROAD
+	;lb de, LANDMARK_ROUTE_28, LANDMARK_VICTORY_ROAD
 	ret
 
 PokegearRadio_Init:
@@ -1443,12 +1443,12 @@ RadioChannels:
 	bit STATUSFLAGS_ROCKET_SIGNAL_F, a
 	jr z, .NoSignal
 	ld a, [wPokegearMapPlayerIconLandmark]
-	cp LANDMARK_MAHOGANY_TOWN
-	jr z, .ok
-	cp LANDMARK_ROUTE_43
-	jr z, .ok
-	cp LANDMARK_LAKE_OF_RAGE
-	jr nz, .NoSignal
+	;cp LANDMARK_MAHOGANY_TOWN
+	;jr z, .ok
+	;cp LANDMARK_ROUTE_43
+	;jr z, .ok
+	;cp LANDMARK_LAKE_OF_RAGE
+	;jr nz, .NoSignal
 .ok
 	jmp LoadStation_EvolutionRadio
 
@@ -1459,10 +1459,10 @@ RadioChannels:
 ; if in Johto or on the S.S. Aqua, set carry
 ; otherwise clear carry
 	ld a, [wPokegearMapPlayerIconLandmark]
-	cp LANDMARK_FAST_SHIP
-	jr z, .johto
-	cp KANTO_LANDMARK
-	jr c, .johto
+	;cp LANDMARK_FAST_SHIP
+	;jr z, .johto
+	;cp KANTO_LANDMARK
+	;jr c, .johto
 ; kanto
 	and a
 	ret
@@ -1719,9 +1719,9 @@ _TownMap:
 
 .dmg
 	ld a, [wTownMapPlayerIconLandmark]
-	cp KANTO_LANDMARK
-	jr nc, .kanto
-	lb de, KANTO_LANDMARK - 1, 1
+	;cp KANTO_LANDMARK
+	;jr nc, .kanto
+	lb de, NUM_LANDMARKS - 1, 1
 	call .loop
 	jr .resume
 
@@ -1800,10 +1800,10 @@ _TownMap:
 
 .InitTilemap:
 	ld a, [wTownMapPlayerIconLandmark]
-	cp KANTO_LANDMARK
+	;cp KANTO_LANDMARK
 	ld e, JOHTO_REGION
 	jr c, .okay_tilemap
-	ld e, KANTO_REGION
+	;ld e, KANTO_REGION
 .okay_tilemap
 	call PokegearMap
 	ld a, $07
@@ -2154,8 +2154,8 @@ FlyMap:
 	call GetWorldMapLocation
 .CheckRegion:
 ; The first 46 locations are part of Johto. The rest are in Kanto.
-	cp KANTO_LANDMARK
-	jr nc, .KantoFlyMap
+	;cp KANTO_LANDMARK
+	;jr nc, .KantoFlyMap
 ; Johto fly map
 ; Note that .NoKanto should be modified in tandem with this branch
 	push af
@@ -2444,10 +2444,10 @@ Pokedex_GetArea:
 ; not in the same region as what's currently
 ; on the screen.
 	ld a, [wTownMapPlayerIconLandmark]
-	cp LANDMARK_FAST_SHIP
-	jr z, .johto
-	cp KANTO_LANDMARK
-	jr c, .johto
+	;cp LANDMARK_FAST_SHIP
+	;jr z, .johto
+	;cp KANTO_LANDMARK
+	;jr c, .johto
 ; kanto
 	ld a, [wTownMapCursorLandmark]
 	and a
@@ -2472,8 +2472,8 @@ Pokedex_GetArea:
 
 .GetPlayerOrFastShipIcon:
 	ld a, [wTownMapPlayerIconLandmark]
-	cp LANDMARK_FAST_SHIP
-	jr z, .FastShip
+	;cp LANDMARK_FAST_SHIP
+	;jr z, .FastShip
 	farjp GetPlayerIcon
 
 .FastShip:
@@ -2625,11 +2625,11 @@ TownMapPlayerIcon:
 	call Request2bpp
 ; Animation/palette
 	depixel 0, 0
-	ld b, SPRITE_ANIM_OBJ_RED_WALK ; Male
+	ld b, SPRITE_ANIM_OBJ_BLUE_WALK ; Male
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .got_gender
-	ld b, SPRITE_ANIM_OBJ_BLUE_WALK ; Female
+	ld b, SPRITE_ANIM_OBJ_RED_WALK ; Female
 .got_gender
 	ld a, b
 	call InitSpriteAnimStruct

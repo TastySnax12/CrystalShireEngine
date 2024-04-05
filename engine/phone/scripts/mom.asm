@@ -47,13 +47,13 @@ MomPhoneInTown:
 ;	sjump MomSavingMoney
 
 ;.jubilife
-;	getlandmarkname STRING_BUFFER_4, LANDMARK_JUBILIFE_CITY
+;;	getlandmarkname STRING_BUFFER_4, LANDMARK_JUBILIFE_CITY
 ;	sjump MomPhoneLandmark
 ;.azalea
-;	getlandmarkname STRING_BUFFER_4, LANDMARK_SLOWPOKE_WELL
+;;	getlandmarkname STRING_BUFFER_4, LANDMARK_SLOWPOKE_WELL
 ;	sjump MomPhoneLandmark
 ;.goldenrod
-;	getlandmarkname STRING_BUFFER_4, LANDMARK_RADIO_TOWER
+;;	getlandmarkname STRING_BUFFER_4, LANDMARK_RADIO_TOWER
 ;	sjump MomPhoneLandmark
 
 MomPhoneOnRoute:
