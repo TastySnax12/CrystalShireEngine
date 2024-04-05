@@ -269,4 +269,9 @@ IconPointers:
 	dba MagikarpIcon ; MIGHTYENA
 	dba MagikarpIcon ; ZIGZAGOON
 	dba MagikarpIcon ; LINOONE
+	dba MagikarpIcon ; WURMPLE
+	dba MagikarpIcon ; SILCOON
+	dba MagikarpIcon ; BEAUTIFLY
+	dba MagikarpIcon ; CASCOON
+	dba MagikarpIcon ; DUSTOX
 	assert_table_length NUM_POKEMON + 1

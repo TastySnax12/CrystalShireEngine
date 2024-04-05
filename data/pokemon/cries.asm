@@ -270,4 +270,9 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; MIGHTYENA
 	mon_cry CRY_RATTATA,       0,  0   ; ZIGZAGOON
 	mon_cry CRY_RATTATA,       0,  0   ; LINOONE
+	mon_cry CRY_RATTATA,       0,  0   ; WURMPLE
+	mon_cry CRY_RATTATA,       0,  0   ; SILCOON
+	mon_cry CRY_RATTATA,       0,  0   ; BEAUTIFLY
+	mon_cry CRY_RATTATA,       0,  0   ; CASCOON
+	mon_cry CRY_RATTATA,       0,  0   ; DUSTOX
 	assert_table_length NUM_POKEMON

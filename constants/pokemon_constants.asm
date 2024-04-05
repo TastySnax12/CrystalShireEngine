@@ -285,6 +285,11 @@ DEF HOENN_POKEMON EQU const_value
 	const MIGHTYENA  ; 106
 	const ZIGZAGOON  ; 107
 	const LINOONE    ; 108
+	const WURMPLE    ; 109
+	const SILCOON    ; 10a
+	const BEAUTIFLY  ; 10b
+	const CASCOON    ; 10c
+	const DUSTOX     ; 10d
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

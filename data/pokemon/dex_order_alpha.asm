@@ -13,6 +13,7 @@ AlphabeticalPokedexOrder:
 	dw ARTICUNO
 	dw AZUMARILL
 	dw BAYLEEF
+	dw BEAUTIFLY
 	dw BEEDRILL
 	dw BELLOSSOM
 	dw BELLSPROUT
@@ -21,6 +22,7 @@ AlphabeticalPokedexOrder:
 	dw BLISSEY
 	dw BULBASAUR
 	dw BUTTERFREE
+	dw CASCOON
 	dw CATERPIE
 	dw CELEBI
 	dw CHANSEY
@@ -52,6 +54,7 @@ AlphabeticalPokedexOrder:
 	dw DROWZEE
 	dw DUGTRIO
 	dw DUNSPARCE
+	dw DUSTOX
 	dw EEVEE
 	dw EKANS
 	dw ELECTABUZZ
@@ -206,6 +209,7 @@ AlphabeticalPokedexOrder:
 	dw SENTRET
 	dw SHELLDER
 	dw SHUCKLE
+	dw SILCOON
 	dw SKARMORY
 	dw SKIPLOOM
 	dw SLOWBRO
@@ -261,6 +265,7 @@ AlphabeticalPokedexOrder:
 	dw WIGGLYTUFF
 	dw WOBBUFFET
 	dw WOOPER
+	dw WURMPLE
 	dw XATU
 	dw YANMA
 	dw ZAPDOS

@@ -265,6 +265,11 @@ INCBIN "gfx/footprints/poochyena.1bpp"
 INCBIN "gfx/footprints/mightyena.1bpp"
 INCBIN "gfx/footprints/zigzagoon.1bpp"
 INCBIN "gfx/footprints/linoone.1bpp"
+INCBIN "gfx/footprints/wurmple.1bpp"
+INCBIN "gfx/footprints/silcoon.1bpp"
+INCBIN "gfx/footprints/beautifly.1bpp"
+INCBIN "gfx/footprints/cascoon.1bpp"
+INCBIN "gfx/footprints/dustox.1bpp"
 
 
 	assert_table_length NUM_POKEMON

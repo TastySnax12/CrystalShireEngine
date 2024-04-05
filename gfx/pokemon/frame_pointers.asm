@@ -264,4 +264,9 @@ FramesPointers:
 	dba MightyenaFrames
 	dba ZigzagoonFrames
 	dba LinooneFrames
+	dba WurmpleFrames
+	dba SilcoonFrames
+	dba BeautiflyFrames
+	dba CascoonFrames
+	dba DustoxFrames
 	assert_table_length NUM_POKEMON

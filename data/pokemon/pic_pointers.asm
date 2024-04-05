@@ -544,5 +544,15 @@ PokemonPicPointers::
 	dba ZigzagoonBackpic
 	dba LinooneFrontpic
 	dba LinooneBackpic
+	dba WurmpleFrontpic
+	dba WurmpleBackpic
+	dba SilcoonFrontpic
+	dba SilcoonBackpic
+	dba BeautiflyFrontpic
+	dba BeautiflyBackpic
+	dba CascoonFrontpic
+	dba CascoonBackpic
+	dba DustoxFrontpic
+	dba DustoxBackpic
 	
 	assert_table_length NUM_POKEMON + 1

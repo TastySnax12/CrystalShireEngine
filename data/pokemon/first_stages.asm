@@ -265,4 +265,9 @@ FirstEvoStages::
 	dw POOCHYENA
 	dw ZIGZAGOON
 	dw ZIGZAGOON
+	dw WURMPLE
+	dw WURMPLE
+	dw WURMPLE
+	dw WURMPLE
+	dw WURMPLE
 	assert_table_length NUM_POKEMON

@@ -14,11 +14,11 @@ EvosAttacksPointers3::
 	dw MightyenaEvosAttacks
 	dw ZigzagoonEvosAttacks
 	dw LinooneEvosAttacks
-	; dw WurmpleEvosAttacks
-	; dw SilcoonEvosAttacks
-	; dw BeautiflyEvosAttacks
-	; dw CascoonEvosAttacks
-	; dw DustoxEvosAttacks
+	dw WurmpleEvosAttacks
+	dw SilcoonEvosAttacks
+	dw BeautiflyEvosAttacks
+	dw CascoonEvosAttacks
+	dw DustoxEvosAttacks
 	; dw LotadEvosAttacks
 	; dw LombreEvosAttacks
 	; dw LudicoloEvosAttacks
@@ -204,59 +204,30 @@ LinooneEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; WurmpleEvosAttacks:
-	; dbbw EVOLVE_LEVEL_RAND_HIGH, 7, SILCOON
-	; dbbw EVOLVE_LEVEL_RAND_LOW, 7, CASCOON
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, STRING_SHOT
-	; dbw 5, POISON_STING
-	; dbw 15, BUG_BITE
-	; db 0 ; no more level-up moves
+WurmpleEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SilcoonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 10, BEAUTIFLY
-	; db 0 ; no more evolutions
-	; dbw 1, HARDEN
-	; dbw 7, HARDEN
-	; db 0 ; no more level-up moves
+SilcoonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BeautiflyEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, ABSORB
-	; dbw 10, ABSORB
-	; dbw 13, GUST
-	; dbw 17, STUN_SPORE
-	; dbw 20, MORNING_SUN
-	; dbw 24, MEGA_DRAIN
-	; dbw 27, WHIRLWIND
-	; dbw 31, ATTRACT
-	; dbw 34, SILVER_WIND
-	; dbw 38, GIGA_DRAIN
-	; dbw 41, BUG_BUZZ
-	; db 0 ; no more level-up moves
+BeautiflyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
+	
+CascoonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CascoonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 10, DUSTOX
-	; db 0 ; no more evolutions
-	; dbw 1, HARDEN
-	; dbw 7, HARDEN
-	; db 0 ; no more level-up moves
-
-; DustoxEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 10, CONFUSION
-	; dbw 13, GUST
-	; dbw 17, PROTECT
-	; dbw 20, MOONLIGHT
-	; dbw 24, PSYBEAM
-	; dbw 27, WHIRLWIND
-	; dbw 31, LIGHT_SCREEN
-	; dbw 34, SILVER_WIND
-	; dbw 38, TOXIC
-	; dbw 41, BUG_BUZZ
-	; db 0 ; no more level-up moves
+DustoxEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; LotadEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 14, LOMBRE

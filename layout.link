@@ -331,6 +331,8 @@ ROMX $7f
 	"Stadium 2 Checksums"
 ROMX $80
 	"Tileset Data 12"
+ROMX $81
+	"Pics 21"
 WRAM0
 	"Stack"
 	"Audio RAM"

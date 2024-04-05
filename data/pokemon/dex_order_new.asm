@@ -266,4 +266,9 @@ NewPokedexOrder:
 	dw MIGHTYENA
 	dw ZIGZAGOON
 	dw LINOONE
+	dw WURMPLE
+	dw SILCOON
+	dw BEAUTIFLY
+	dw CASCOON
+	dw DUSTOX
 	assert_table_length NUM_POKEMON

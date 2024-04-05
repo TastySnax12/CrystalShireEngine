@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
 	; day
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
 	; nite
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
-	dbw 5, LINOONE
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
+	dbw 5, DUSTOX
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

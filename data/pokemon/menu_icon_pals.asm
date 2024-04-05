@@ -274,4 +274,10 @@ MonMenuIconPals:
 	icon_pals GRAY,   BROWN  ; MIGHTYENA
 	icon_pals BROWN,  RED    ; ZIGZAGOON
 	icon_pals BROWN,  RED    ; LINOONE
+	icon_pals RED,    PURPLE ; WURMPLE
+	icon_pals GRAY,   RED    ; SILCOON
+	icon_pals PINK,   RED    ; BEAUTIFLY
+	icon_pals PINK,   GREEN  ; CASCOON
+	icon_pals PURPLE, RED    ; DUSTOX
+	
 	assert_table_length NUM_POKEMON

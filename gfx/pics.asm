@@ -54,6 +54,9 @@ CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
 QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
 
 
+
+
+
 SECTION "Pics 3", ROMX
 
 SteelixFrontpic:     INCBIN "gfx/pokemon/steelix/front.animated.2bpp.lz"
@@ -801,13 +804,18 @@ ZigzagoonBackpic:    INCBIN "gfx/pokemon/zigzagoon/back.2bpp.lz"
 SECTION "Pics 20", ROMX
 
 KrisTrainerPic: INCBIN "gfx/trainers/kris.2bpp.lz"
-
-
-
-
-
-
-
-
 LinooneFrontpic:     INCBIN "gfx/pokemon/linoone/front.animated.2bpp.lz"
 LinooneBackpic:      INCBIN "gfx/pokemon/linoone/back.2bpp.lz"
+
+SECTION "Pics 21", ROMX
+
+WurmpleFrontpic:     INCBIN "gfx/pokemon/wurmple/front.animated.2bpp.lz"
+WurmpleBackpic:      INCBIN "gfx/pokemon/wurmple/back.2bpp.lz"
+SilcoonFrontpic:     INCBIN "gfx/pokemon/silcoon/front.animated.2bpp.lz"
+SilcoonBackpic:      INCBIN "gfx/pokemon/silcoon/back.2bpp.lz"
+BeautiflyFrontpic:   INCBIN "gfx/pokemon/beautifly/front.animated.2bpp.lz"
+BeautiflyBackpic:    INCBIN "gfx/pokemon/beautifly/back.2bpp.lz"
+CascoonFrontpic:     INCBIN "gfx/pokemon/cascoon/front.animated.2bpp.lz"
+CascoonBackpic:      INCBIN "gfx/pokemon/cascoon/back.2bpp.lz"
+DustoxFrontpic:      INCBIN "gfx/pokemon/dustox/front.animated.2bpp.lz"
+DustoxBackpic:       INCBIN "gfx/pokemon/dustox/back.2bpp.lz"
