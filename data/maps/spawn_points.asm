@@ -8,7 +8,7 @@ SpawnPoints:
 ; entries correspond to SPAWN_* constants
 	table_width 4, SpawnPoints
 
-	spawn PLAYERS_HOUSE_2F,            3,  3
+	spawn PLAYERS_HOUSE_2F,            4,  2
 
 	spawn TWINLEAF_TOWN,              15, 14
 
