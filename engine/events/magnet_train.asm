@@ -161,7 +161,7 @@ MagnetTrain_LoadGFX_PlayMusic:
 	ld [hli], a ; wMagnetTrainPosition
 	ld [hli], a ; wMagnetTrainWaitCounter
 
-	ld de, MUSIC_MAGNET_TRAIN
+	ld de, MUSIC_SPECIAL_PROGRAM
 	jmp PlayMusic2
 
 DrawMagnetTrain:

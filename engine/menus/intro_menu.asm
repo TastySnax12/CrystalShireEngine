@@ -60,6 +60,7 @@ NewGame:
 	call PlayerProfileSetup
 	call OakSpeech
 	call InitializeWorld
+	call IntroSandgemScene
 
 	ld a, LANDMARK_TWINLEAF_TOWN
 	ld [wPrevLandmark], a
@@ -654,6 +655,10 @@ OakText7:
 	text_far _OakText7
 	text_end
 
+IntroSandgemText:
+	text_far _IntroSandgem
+	text_end
+
 NamePlayer:
 	farcall MovePlayerPicRight
 	farcall ShowPlayerNamingChoices
@@ -1187,3 +1192,83 @@ GameInit::
 	ldh [hWY], a
 	call WaitBGMap
 	jmp IntroSequence
+
+
+PUSHS
+SECTION "Intro Sandgem GFX", ROMX
+IntroSandgemGFX: INCBIN "gfx/intro/sandgem.2bpp"
+.end
+POPS
+IntroSandgemTilemap: INCBIN "gfx/intro/sandgem.tilemap"
+IntroSandgemAttrmap: INCBIN "gfx/intro/sandgem.attrmap"
+
+DEF INTRO_SANDGEM_TILE_CT EQU (IntroSandgemGFX.end - IntroSandgemGFX) / 16
+
+IntroSandgemScene:
+	call ClearBGPalettes
+	call ClearTilemap
+	call ClearSprites
+	call DisableLCD
+IF INTRO_SANDGEM_TILE_CT < $80
+	ld de, IntroSandgemGFX
+	ld b, BANK(IntroSandgemGFX)
+	ld hl, vTiles2
+	ld c, INTRO_SANDGEM_TILE_CT
+	call Get2bpp
+ELSE
+	ld de, IntroSandgemGFX
+	ld b, BANK(IntroSandgemGFX)
+	ld hl, vTiles2
+	ld c, $80
+	call Get2bpp
+IF INTRO_SANDGEM_TILE_CT < $100
+	ld de, IntroSandgemGFX + $80 tiles
+	ld b, BANK(IntroSandgemGFX)
+	ld hl, vTiles1
+	ld c, INTRO_SANDGEM_TILE_CT - $80
+	call Get2bpp
+ELSE
+	ld de, IntroSandgemGFX + $80 tiles
+	ld b, BANK(IntroSandgemGFX)
+	ld hl, vTiles1
+	ld c, $80
+	call Get2bpp
+
+	ld a, BANK(vTiles5)
+	ldh [rVBK], a
+	ld de, IntroSandgemGFX + $100 tiles
+	ld b, BANK(IntroSandgemGFX)
+	ld hl, vTiles5
+	ld c, INTRO_SANDGEM_TILE_CT - $100
+	call Get2bpp
+	xor a
+	ldh [rVBK], a
+ENDC
+ENDC
+
+	decoord 0, 0
+	ld bc, SCREEN_WIDTH * (SCREEN_HEIGHT - 6)
+	ld hl, IntroSandgemTilemap
+	call CopyBytes
+
+	decoord 0, 0, wAttrmap
+	ld bc, SCREEN_WIDTH * (SCREEN_HEIGHT - 6)
+	ld hl, IntroSandgemAttrmap
+	call CopyBytes
+
+	call EnableLCD
+	call WaitBGMap2
+	ld b, SCGB_INTRO_SANDGEM
+	call GetSGBLayout
+	call SetPalettes
+	call DelayFrame
+
+	ld de, MUSIC_SPECIAL_PROGRAM
+	call PlayMusic
+
+	ld hl, IntroSandgemText
+	call PrintText
+
+	farcall FadeOutPalettes
+	ret
+

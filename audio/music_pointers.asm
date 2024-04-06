@@ -8,7 +8,7 @@ Music:
 	dba Music_Route1
 	dba Music_Route3
 	dba Music_Route12
-	dba Music_MagnetTrain
+	dba Music_SpecialProgram
 	dba Music_PokemonCenter
 	dba Music_LookHiker
 	dba Music_LookLass
@@ -60,8 +60,8 @@ Music:
 	dba Music_VermilionCity
 	dba Music_PokemonChannel
 	dba Music_PokeFluteChannel
-	dba Music_Lighthouse
-	dba Music_LakeOfRage
+	dba Music_DawnsTheme
+	dba Music_LucassTheme
 	dba Music_IndigoPlateau
 	dba Music_Route37
 	dba Music_RocketHideout

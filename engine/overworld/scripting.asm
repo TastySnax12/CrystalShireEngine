@@ -237,6 +237,9 @@ ScriptCommandTable:
 	dw Script_givepokemove               ; ae
 	dw Script_settableindex              ; af
 	dw Script_applymovementtable         ; b0
+	dw Script_jumptextsign               ; b1
+	dw Script_loadtrainertable           ; b2
+	dw Script_writetextgender            ; b3
 	assert_table_length NUM_EVENT_COMMANDS
 
 StartScript:
@@ -2425,14 +2428,12 @@ Script_givepokemove:
 	ret
 
 Script_settableindex:
-; script command 0xad
 ; parameters: index
 	call GetScriptByte
 	ld [wScriptTableIndex], a
 	ret
 
 Script_applymovementtable:
-; script command 0xae
 ; parameters: object_id, data
 	call GetScriptByte
 	call GetScriptObject
@@ -2470,3 +2471,76 @@ Script_applymovementtable:
 	ld [wScriptMode], a
 	call StopScript
 	ret
+
+Script_jumptextsign:
+; parameters: text_pointer
+
+	ld a, [wScriptBank]
+	ld [wScriptTextBank], a
+	call GetScriptByte
+	ld [wScriptTextAddr], a
+	call GetScriptByte
+	ld [wScriptTextAddr + 1], a
+	ld hl, wOptions
+	set NO_TEXT_SCROLL, [hl]
+	ld b, BANK(JumpTextScript)
+	ld hl, JumpTextSignScript
+	jp ScriptJump
+
+JumpTextSignScript:
+	opentext
+	repeattext -1, -1
+	waitbutton
+	closetext
+	callasm .set_delay
+	end
+
+.set_delay
+	ld hl, wOptions
+	res NO_TEXT_SCROLL, [hl]
+	ret
+
+Script_loadtrainertable:
+; parameters: table of trainer data
+
+	call GetScriptByte
+	ld l, a
+	call GetScriptByte
+	ld h, a
+	ld a, [wScriptTableIndex]
+	add a
+	ld c, a
+	ld b, 0
+	add hl, bc
+	ld a, [wScriptBank]
+	ld b, a
+	call GetFarWord
+
+	ld a, (1 << 7) | 1
+	ld [wBattleScriptFlags], a
+	ld a, l
+	ld [wOtherTrainerClass], a
+	ld a, h
+	ld [wOtherTrainerID], a
+	ret
+
+Script_writetextgender:
+; parameters: text_pointer for male, text_pointer for female
+
+	call GetScriptByte
+	ld l, a
+	call GetScriptByte
+	ld h, a
+	call GetScriptByte
+	ld e, a
+	call GetScriptByte
+	ld d, a
+	ld a, [wPlayerGender]
+	bit PLAYERGENDER_FEMALE_F, a
+	jr z, .got_it
+	ld h, d
+	ld l, e
+.got_it
+	ld a, [wScriptBank]
+	ld b, a
+	jp MapTextbox

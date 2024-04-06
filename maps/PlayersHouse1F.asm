@@ -4,19 +4,19 @@
 
 PlayersHouse1F_MapScripts:
 	def_scene_scripts
-	scene_script Scene0, SCENE_PLAYERSHOUSE1F_INIT
+	scene_script PlayersHouse1FScene0, SCENE_PLAYERSHOUSE1F_INIT
 	scene_script PlayersHouse1FNoopScene, SCENE_PLAYERSHOUSE1F_TRY_EXIT_FIRST_TIME
 	scene_script PlayersHouse1FNoopScene, SCENE_PLAYERSHOUSE1F_NOTHING
-	scene_script Scene3, SCENE_PLAYERSHOUSE1F_AFTER_RIVAL1
+	scene_script PlayersHouse1FScene3, SCENE_PLAYERSHOUSE1F_AFTER_RIVAL1
 
 	def_callbacks
 
-Scene0:
+PlayersHouse1FScene0:
 	sdefer FirstTime
 PlayersHouse1FNoopScene:
 	end
 
-Scene3:
+PlayersHouse1FScene3:
 	sdefer AfterRival1
 	end
 

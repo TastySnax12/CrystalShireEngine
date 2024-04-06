@@ -13,6 +13,11 @@
 	charmap "<RED>",     $38 ; wRedsName
 	charmap "<GREEN>",   $39 ; wGreensName
 	charmap "<ENEMY>",   $3f
+	charmap "<SIGNR>",   $40
+	charmap "<SIGNL>",   $41
+	charmap "<SIGNU>",   $42
+	charmap "<SIGND>",   $43
+	charmap "<SIGN|>",   $44
 	charmap "<MOM>",     $49 ; wMomsName
 	charmap "<PKMN>",    $4a ; "<PK><MN>"
 	charmap "<_CONT>",   $4b ; implements "<CONT>"

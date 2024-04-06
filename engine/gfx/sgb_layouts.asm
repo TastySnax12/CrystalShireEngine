@@ -56,6 +56,9 @@ SGBLayoutJumptable:
 	dw .SGB_MysteryGift
 	dw .SGB_Unused1E
 	dw .SGB_Unused1E ; SCGB_PLAIN (not used)
+	dw .SGB_IntroSandgem
+	dw .SGB_ChooseStarter
+	dw .SGB_ChooseStarterPokePic
 	assert_table_length NUM_SCGB_LAYOUTS
 
 .SGB_BattleGrayscale:
@@ -294,6 +297,9 @@ SGBLayoutJumptable:
 
 .SGB_Diploma:
 .SGB_MysteryGift:
+.SGB_IntroSandgem:
+.SGB_ChooseStarter:
+.SGB_ChooseStarterPokePic
 	ld hl, PalPacket_Diploma
 	ld de, BlkPacket_AllPal0
 	ret

@@ -34,11 +34,9 @@ ROM0
 ROMX $01
 	"bank1"
 	"Tileset Data 10"
-	"Tileset Data 11"
 ROMX $02
 	"bank2"
 	"Tileset Data 9"
-	"Battle Weather Images"
 ROMX $03
 	"bank3"
 	"VWF"
@@ -63,12 +61,14 @@ ROMX $08
 	"Egg Moves 1"
 ROMX $09
 	"bank9"
+	"Battle Weather Images"
 ROMX $0a
 	"bankA"
 	"Trainer Backpics"
 	"Map Attributes"
 ROMX $0b
 	"bankB"
+	"Tileset Data 11"
 ROMX $0c
 	"Tileset Data 4"
 ROMX $0d

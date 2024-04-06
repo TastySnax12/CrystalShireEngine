@@ -6,7 +6,7 @@
 	const MUSIC_ROUTE_1                      ; 02
 	const MUSIC_ROUTE_3                      ; 03
 	const MUSIC_ROUTE_12                     ; 04
-	const MUSIC_MAGNET_TRAIN                 ; 05
+	const MUSIC_SPECIAL_PROGRAM              ; 05
 	const MUSIC_POKEMON_CENTER               ; 09
 	const MUSIC_HIKER_ENCOUNTER              ; 0a
 	const MUSIC_LASS_ENCOUNTER               ; 0b
@@ -58,8 +58,8 @@
 	const MUSIC_VERMILION_CITY               ; 3d
 	const MUSIC_POKEMON_CHANNEL              ; 3e
 	const MUSIC_POKE_FLUTE_CHANNEL           ; 3f
-	const MUSIC_LIGHTHOUSE                   ; 40
-	const MUSIC_LAKE_OF_RAGE                 ; 44
+	const MUSIC_DAWNS_THEME                  ; 40
+	const MUSIC_LUCASS_THEME                 ; 41
 	const MUSIC_INDIGO_PLATEAU               ; 45
 	const MUSIC_ROUTE_37                     ; 46
 	const MUSIC_ROCKET_HIDEOUT               ; 47

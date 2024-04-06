@@ -29,7 +29,7 @@ DecorationAttributes:
 	decoration DECO_POSTER,  5,               SET_UP_POSTER,     0,  $24
 	decoration DECO_POSTER,  6,               SET_UP_POSTER,     0,  $25
 	decoration DECO_PLANT,   PUT_IT_AWAY,     PUT_AWAY_CONSOLE,  0,  0
-	decoration DECO_PLANT,   FAMICOM,         SET_UP_CONSOLE,    0,  SPRITE_FAMICOM
+	decoration DECO_PLANT,   0,               0,                 0,  0
 	decoration DECO_PLANT,   SUPER_NES,       SET_UP_CONSOLE,    0,  SPRITE_SNES
 	decoration DECO_PLANT,   NINTENDO_64,     SET_UP_CONSOLE,    0,  SPRITE_N64
 	decoration DECO_PLANT,   VIRTUAL_BOY,     SET_UP_CONSOLE,    0,  SPRITE_VIRTUAL_BOY

@@ -148,8 +148,7 @@ SpecialsPointers::
 	add_special RefreshSprites
 	add_special AskRememberPassword
 	add_special LoadMapPalettes
-
 	add_special InitialSetDSTFlag
 	add_special InitialClearDSTFlag
-
 	add_special FadeInPalettes_EnableDynNoApply
+	add_special ChooseStarter

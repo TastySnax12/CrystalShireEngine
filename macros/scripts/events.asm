@@ -1111,4 +1111,23 @@ MACRO applymovementtable
 	dw \2 ; data
 ENDM
 
+	const jumptextsign_command ; $b1
+MACRO jumptextsign
+	db jumptextsign_command
+	dw \1 ; text_pointer
+ENDM
+
+	const loadtrainertable_command ; $b2
+MACRO loadtrainertable
+	db loadtrainertable_command
+	dw \1 ; trainer data pointer
+ENDM
+
+	const writetextgender_command ; $b3
+MACRO writetextgender
+	db writetextgender_command
+	dw \1 ; text_pointer (male)
+	dw \2 ; text_pointer (female)
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value

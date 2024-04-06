@@ -393,9 +393,6 @@ INCBIN "data/tilesets/sinnoh_2_attributes.bin.lz"
 TilesetSinnoh3Attr::
 INCBIN "data/tilesets/sinnoh_3_attributes.bin.lz"
 
-TilesetBattleTowerOutsideAttr::
-INCBIN "data/tilesets/battle_tower_outside_attributes.bin.lz"
-
 TilesetHouseAttr::
 INCBIN "data/tilesets/house_attributes.bin.lz"
 
@@ -556,3 +553,6 @@ INCLUDE "data/tilesets/old_chateau_collision.asm"
 
 TilesetOldChateauAttr::
 INCBIN "data/tilesets/old_chateau_attributes.bin.lz"
+
+TilesetBattleTowerOutsideAttr::
+INCBIN "data/tilesets/battle_tower_outside_attributes.bin.lz"

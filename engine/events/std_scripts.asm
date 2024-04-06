@@ -56,6 +56,8 @@ StdScripts::
 	add_stdscript GameCornerCoinVendorScript
 	add_stdscript HappinessCheckScript
 	add_stdscript TableIndexFromFacingScript
+	add_stdscript DawnLucasMusicScript
+	add_stdscript TableIndexFromStarterScript
 
 PokecenterNurseScript:
 ; EVENT_WELCOMED_TO_POKECOM_CENTER is never set
@@ -1805,4 +1807,30 @@ TableIndexFromFacingScript:
 
 .Left:
 	settableindex 2
+	end
+
+DawnLucasMusicScript:
+	checkflag ENGINE_PLAYER_IS_FEMALE
+	iftrue .Female
+	playmusic MUSIC_DAWNS_THEME
+	end
+
+.Female:
+	playmusic MUSIC_LUCASS_THEME
+	end
+
+TableIndexFromStarterScript:
+	checkevent EVENT_GOT_TURTWIG
+	iftrue .Turtwig
+	checkevent EVENT_GOT_CHIMCHAR
+	iftrue .Chimchar
+	settableindex 2 ; Piplup
+	end
+
+.Turtwig:
+	settableindex 0
+	end
+
+.Chimchar:
+	settableindex 1
 	end
