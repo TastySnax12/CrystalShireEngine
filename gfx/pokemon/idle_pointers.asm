@@ -269,4 +269,14 @@ AnimationIdlePointers:
 	dw BeautiflyAnimationIdle
 	dw CascoonAnimationIdle
 	dw DustoxAnimationIdle
+	dw LotadAnimationIdle
+	dw LombreAnimationIdle
+	dw LudicoloAnimationIdle
+	dw SeedotAnimationIdle
+	dw NuzleafAnimationIdle
+	dw ShiftryAnimationIdle
+	dw TaillowAnimationIdle
+	dw SwellowAnimationIdle
+	dw WingullAnimationIdle
+	dw PelipperAnimationIdle
 	assert_table_length NUM_POKEMON

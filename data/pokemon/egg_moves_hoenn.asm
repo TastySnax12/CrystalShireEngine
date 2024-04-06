@@ -19,6 +19,16 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw NoEggMoves3
 	dw NoEggMoves3
+	dw LotadEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw SeedotEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw TaillowEggMoves
+	dw NoEggMoves3
+	dw WingullEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -77,7 +87,7 @@ PoochyenaEggMoves:
 	; dw SUCKER_PUNCH
 	; dw THUNDER_FANG
 	; dw YAWN
-dw -1 ; end
+	dw -1 ; end
 	
 ZigzagoonEggMoves:
 	; dw CHARM
@@ -87,18 +97,18 @@ ZigzagoonEggMoves:
 	; dw SUBSTITUTE
 	; dw TICKLE
 	; dw TRICK
-dw -1 ; end
+	dw -1 ; end
 	
-; LotadEggMoves:
+LotadEggMoves:
 	; dw FLAIL
 	; dw LEECH_SEED
 	; dw RAZOR_LEAF
 	; dw SWEET_SCENT
 	; dw TICKLE
 	; dw WATER_GUN
-	; dw -1 ; end
+	dw -1 ; end
 	
-; SeedotEggMoves:
+SeedotEggMoves:
 	; dw AMNESIA
 	; dw FALSE_SWIPE
 	; dw LEECH_SEED
@@ -107,9 +117,9 @@ dw -1 ; end
 	; dw RAZOR_WIND
 	; dw TAKE_DOWN
 	; dw WORRY_SEED
-	; dw -1 ; end
+	dw -1 ; end
 	
-; TaillowEggMoves:
+TaillowEggMoves:
 	; dw BRAVE_BIRD
 	; dw MIRROR_MOVE
 	; dw PURSUIT
@@ -118,9 +128,9 @@ dw -1 ; end
 	; dw SKY_ATTACK
 	; dw SUPERSONIC
 	; dw WHIRLWIND
-	; dw -1 ; end
+	dw -1 ; end
 
-; WingullEggMoves:
+WingullEggMoves:
 	; dw AGILITY
 	; dw AQUA_RING
 	; dw GUST
@@ -128,7 +138,7 @@ dw -1 ; end
 	; dw MIST
 	; dw TWISTER
 	; dw WATER_SPORT
-	; dw -1 ; end
+	dw -1 ; end
 
 ; RaltsEggMoves:
 	; dw CONFUSE_RAY

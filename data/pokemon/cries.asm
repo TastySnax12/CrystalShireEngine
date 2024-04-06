@@ -275,4 +275,14 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; BEAUTIFLY
 	mon_cry CRY_RATTATA,       0,  0   ; CASCOON
 	mon_cry CRY_RATTATA,       0,  0   ; DUSTOX
+	mon_cry CRY_RATTATA,       0,  0   ; LOTAD
+	mon_cry CRY_RATTATA,       0,  0   ; LOMBRE
+	mon_cry CRY_RATTATA,       0,  0   ; LUDICOLO
+	mon_cry CRY_RATTATA,       0,  0   ; SEEDOT
+	mon_cry CRY_RATTATA,       0,  0   ; NUZLEAF
+	mon_cry CRY_RATTATA,       0,  0   ; SHIFTRY
+	mon_cry CRY_RATTATA,       0,  0   ; TAILLOW
+	mon_cry CRY_RATTATA,       0,  0   ; SWELLOW
+	mon_cry CRY_RATTATA,       0,  0   ; WINGULL
+	mon_cry CRY_RATTATA,       0,  0   ; PELIPPER
 	assert_table_length NUM_POKEMON

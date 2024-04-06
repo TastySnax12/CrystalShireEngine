@@ -271,4 +271,14 @@ NewPokedexOrder:
 	dw BEAUTIFLY
 	dw CASCOON
 	dw DUSTOX
+	dw LOTAD
+	dw LOMBRE
+	dw LUDICOLO
+	dw SEEDOT
+	dw NUZLEAF
+	dw SHIFTRY
+	dw TAILLOW
+	dw SWELLOW
+	dw WINGULL
+	dw PELIPPER
 	assert_table_length NUM_POKEMON

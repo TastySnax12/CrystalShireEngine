@@ -554,5 +554,24 @@ PokemonPicPointers::
 	dba CascoonBackpic
 	dba DustoxFrontpic
 	dba DustoxBackpic
-	
+	dba LotadFrontpic
+	dba LotadBackpic
+	dba LombreFrontpic
+	dba LombreBackpic
+	dba LudicoloFrontpic
+	dba LudicoloBackpic
+	dba SeedotFrontpic
+	dba SeedotBackpic
+	dba NuzleafFrontpic
+	dba NuzleafBackpic
+	dba ShiftryFrontpic
+	dba ShiftryBackpic
+	dba TaillowFrontpic
+	dba TaillowBackpic
+	dba SwellowFrontpic
+	dba SwellowBackpic
+	dba WingullFrontpic
+	dba WingullBackpic
+	dba PelipperFrontpic
+	dba PelipperBackpic
 	assert_table_length NUM_POKEMON + 1

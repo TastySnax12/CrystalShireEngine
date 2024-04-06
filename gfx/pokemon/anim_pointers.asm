@@ -269,4 +269,14 @@ AnimationPointers:
 	dw BeautiflyAnimation
 	dw CascoonAnimation
 	dw DustoxAnimation
+	dw LotadAnimation
+	dw LombreAnimation
+	dw LudicoloAnimation
+	dw SeedotAnimation
+	dw NuzleafAnimation
+	dw ShiftryAnimation
+	dw TaillowAnimation
+	dw SwellowAnimation
+	dw WingullAnimation
+	dw PelipperAnimation
 	assert_table_length NUM_POKEMON

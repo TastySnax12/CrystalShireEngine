@@ -269,4 +269,14 @@ FramesPointers:
 	dba BeautiflyFrames
 	dba CascoonFrames
 	dba DustoxFrames
+	dba LotadFrames
+	dba LombreFrames
+	dba LudicoloFrames
+	dba SeedotFrames
+	dba NuzleafFrames
+	dba ShiftryFrames
+	dba TaillowFrames
+	dba SwellowFrames
+	dba WingullFrames
+	dba PelipperFrames
 	assert_table_length NUM_POKEMON

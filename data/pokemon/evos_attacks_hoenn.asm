@@ -19,16 +19,16 @@ EvosAttacksPointers3::
 	dw BeautiflyEvosAttacks
 	dw CascoonEvosAttacks
 	dw DustoxEvosAttacks
-	; dw LotadEvosAttacks
-	; dw LombreEvosAttacks
-	; dw LudicoloEvosAttacks
-	; dw SeedotEvosAttacks
-	; dw NuzleafEvosAttacks
-	; dw ShiftryEvosAttacks
-	; dw TaillowEvosAttacks
-	; dw SwellowEvosAttacks
-	; dw WingullEvosAttacks
-	; dw PelipperEvosAttacks
+	dw LotadEvosAttacks
+	dw LombreEvosAttacks
+	dw LudicoloEvosAttacks
+	dw SeedotEvosAttacks
+	dw NuzleafEvosAttacks
+	dw ShiftryEvosAttacks
+	dw TaillowEvosAttacks
+	dw SwellowEvosAttacks
+	dw WingullEvosAttacks
+	dw PelipperEvosAttacks
 	; dw RaltsEvosAttacks
 	; dw KirliaEvosAttacks
 	; dw GardevoirEvosAttacks
@@ -229,152 +229,55 @@ DustoxEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; LotadEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 14, LOMBRE
-	; db 0 ; no more evolutions
-	; dbw 1, ASTONISH
-	; dbw 3, GROWL
-	; dbw 5, ABSORB
-	; dbw 7, NATURE_POWER
-	; dbw 11, MIST
-	; dbw 15, NATURAL_GIFT
-	; dbw 19, MEGA_DRAIN
-	; dbw 25, BUBBLEBEAM
-	; dbw 31, ZEN_HEADBUTT
-	; dbw 37, RAIN_DANCE
-	; dbw 45, ENERGY_BALL
-	; db 0 ; no more level-up moves
+LotadEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LombreEvosAttacks:
-	; dbbw EVOLVE_ITEM, WATER_STONE, LUDICOLO
-	; db 0 ; no more evolutions
-	; dbw 1, ASTONISH
-	; dbw 3, GROWL
-	; dbw 5, ABSORB
-	; dbw 7, NATURE_POWER
-	; dbw 11, FAKE_OUT
-	; dbw 15, FURY_SWIPES
-	; dbw 19, WATER_SPORT
-	; dbw 25, BUBBLEBEAM
-	; dbw 31, ZEN_HEADBUTT
-	; dbw 37, UPROAR
-	; dbw 45, HYDRO_PUMP
-	; db 0 ; no more level-up moves
+LombreEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LudicoloEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, MEGA_DRAIN
-	; dbw 1, NATURE_POWER
-	; dbw 1, ASTONISH
-	; db 0 ; no more level-up moves
+LudicoloEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SeedotEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 14, NUZLEAF
-	; db 0 ; no more evolutions
-	; dbw 1, BIDE
-	; dbw 3, HARDEN
-	; dbw 7, GROWTH
-	; dbw 13, NATURE_POWER
-	; dbw 21, SYNTHESIS
-	; dbw 31, SUNNY_DAY
-	; dbw 43, EXPLOSION
-	; db 0 ; no more level-up moves
+SeedotEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; NuzleafEvosAttacks:
-	; dbbw EVOLVE_ITEM, LEAF_STONE, SHIFTRY
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, RAZOR_LEAF
-	; dbw 3, HARDEN
-	; dbw 7, GROWTH
-	; dbw 13, NATURE_POWER
-	; dbw 19, FAKE_OUT
-	; dbw 25, TORMENT
-	; dbw 31, FAINT_ATTACK
-	; dbw 37, RAZOR_WIND
-	; dbw 43, SWAGGER
-	; dbw 49, EXTRASENSORY
-	; db 0 ; no more level-up moves
+NuzleafEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShiftryEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WHIRLWIND
-	; dbw 1, RAZOR_LEAF
-	; dbw 1, FAINT_ATTACK
-	; dbw 1, NASTY_PLOT
-	; dbw 49, LEAF_STORM
-	; db 0 ; no more level-up moves
+ShiftryEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; TaillowEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 22, SWELLOW
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, PECK
-	; dbw 4, FOCUS_ENERGY
-	; dbw 8, QUICK_ATTACK
-	; dbw 13, WING_ATTACK
-	; dbw 19, DOUBLE_TEAM
-	; dbw 26, ENDEAVOR
-	; dbw 34, AERIAL_ACE
-	; dbw 43, AGILITY
-	; dbw 53, AIR_SLASH
-	; db 0 ; no more level-up moves
+TaillowEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SwellowEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, PECK
-	; dbw 1, QUICK_ATTACK
-	; dbw 1, FOCUS_ENERGY
-	; dbw 1, PLUCK
-	; dbw 4, FOCUS_ENERGY
-	; dbw 8, QUICK_ATTACK
-	; dbw 13, WING_ATTACK
-	; dbw 19, DOUBLE_TEAM
-	; dbw 28, ENDEAVOR
-	; dbw 38, AERIAL_ACE
-	; dbw 49, AGILITY
-	; dbw 61, AIR_SLASH
-	; db 0 ; no more level-up moves
+SwellowEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; WingullEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 25, PELIPPER
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 6, SUPERSONIC
-	; dbw 11, WING_ATTACK
-	; dbw 16, MIST
-	; dbw 19, WATER_PULSE
-	; dbw 24, QUICK_ATTACK
-	; dbw 29, ROOST
-	; dbw 34, PURSUIT
-	; dbw 37, AGILITY
-	; dbw 42, AERIAL_ACE
-	; dbw 47, AIR_SLASH
-	; db 0 ; no more level-up moves
+WingullEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; PelipperEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WING_ATTACK
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 1, WATER_SPORT
-	; dbw 6, SUPERSONIC
-	; dbw 11, WING_ATTACK
-	; dbw 16, MIST
-	; dbw 19, WATER_PULSE
-	; dbw 24, PAYBACK
-	; dbw 25, PROTECT
-	; dbw 31, ROOST
-	; dbw 38, STOCKPILE
-	; dbw 38, SPIT_UP
-	; dbw 38, SWALLOW
-	; dbw 43, FLING
-	; dbw 50, TAILWIND
-	; dbw 57, HYDRO_PUMP
-	; db 0 ; no more level-up moves
+PelipperEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; RaltsEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 20, KIRLIA

@@ -290,6 +290,16 @@ DEF HOENN_POKEMON EQU const_value
 	const BEAUTIFLY  ; 10b
 	const CASCOON    ; 10c
 	const DUSTOX     ; 10d
+	const LOTAD      ; 10e
+	const LOMBRE     ; 10f
+	const LUDICOLO   ; 110
+	const SEEDOT     ; 111
+	const NUZLEAF    ; 112
+	const SHIFTRY    ; 113
+	const TAILLOW    ; 114
+	const SWELLOW    ; 115
+	const WINGULL    ; 116
+	const PELIPPER   ; 117
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

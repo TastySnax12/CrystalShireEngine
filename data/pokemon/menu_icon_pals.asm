@@ -279,5 +279,14 @@ MonMenuIconPals:
 	icon_pals PINK,   RED    ; BEAUTIFLY
 	icon_pals PINK,   GREEN  ; CASCOON
 	icon_pals PURPLE, RED    ; DUSTOX
-	
+	icon_pals GREEN,  TEAL   ; LOTAD
+	icon_pals GREEN,  TEAL   ; LOMBRE
+	icon_pals GREEN,  TEAL   ; LUDICOLO
+	icon_pals BROWN,  GRAY   ; SEEDOT
+	icon_pals BROWN,  RED    ; NUZLEAF
+	icon_pals GREEN,  GREEN  ; SHIFTRY
+	icon_pals BLUE,   GREEN  ; TAILLOW
+	icon_pals BLUE,   GREEN  ; SWELLOW
+	icon_pals BLUE,   GREEN  ; WINGULL
+	icon_pals BLUE,   GREEN  ; PELIPPER
 	assert_table_length NUM_POKEMON

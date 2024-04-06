@@ -269,4 +269,14 @@ BitmasksPointers:
 	dw BeautiflyBitmasks
 	dw CascoonBitmasks
 	dw DustoxBitmasks
+	dw LotadBitmasks
+	dw LombreBitmasks
+	dw LudicoloBitmasks
+	dw SeedotBitmasks
+	dw NuzleafBitmasks
+	dw ShiftryBitmasks
+	dw TaillowBitmasks
+	dw SwellowBitmasks
+	dw WingullBitmasks
+	dw PelipperBitmasks
 	assert_table_length NUM_POKEMON

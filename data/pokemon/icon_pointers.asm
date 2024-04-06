@@ -274,4 +274,14 @@ IconPointers:
 	dba MagikarpIcon ; BEAUTIFLY
 	dba MagikarpIcon ; CASCOON
 	dba MagikarpIcon ; DUSTOX
+	dba MagikarpIcon ; LOTAD
+	dba MagikarpIcon ; LOMBRE
+	dba MagikarpIcon ; LUDICOLO
+	dba MagikarpIcon ; SEEDOT
+	dba MagikarpIcon ; NUZLEAF
+	dba MagikarpIcon ; SHIFTRY
+	dba MagikarpIcon ; TAILLOW
+	dba MagikarpIcon ; SWELLOW
+	dba MagikarpIcon ; WINGULL
+	dba MagikarpIcon ; PELIPPER
 	assert_table_length NUM_POKEMON + 1

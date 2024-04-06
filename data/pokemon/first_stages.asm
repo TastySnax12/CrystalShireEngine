@@ -270,4 +270,14 @@ FirstEvoStages::
 	dw WURMPLE
 	dw WURMPLE
 	dw WURMPLE
+	dw LOTAD
+	dw LOTAD
+	dw LOTAD
+	dw SEEDOT
+	dw SEEDOT
+	dw SEEDOT
+	dw TAILLOW
+	dw TAILLOW
+	dw WINGULL
+	dw WINGULL
 	assert_table_length NUM_POKEMON

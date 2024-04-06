@@ -270,6 +270,14 @@ INCBIN "gfx/footprints/silcoon.1bpp"
 INCBIN "gfx/footprints/beautifly.1bpp"
 INCBIN "gfx/footprints/cascoon.1bpp"
 INCBIN "gfx/footprints/dustox.1bpp"
-
-
+INCBIN "gfx/footprints/lotad.1bpp"
+INCBIN "gfx/footprints/lombre.1bpp"
+INCBIN "gfx/footprints/ludicolo.1bpp"
+INCBIN "gfx/footprints/seedot.1bpp"
+INCBIN "gfx/footprints/nuzleaf.1bpp"
+INCBIN "gfx/footprints/shiftry.1bpp"
+INCBIN "gfx/footprints/taillow.1bpp"
+INCBIN "gfx/footprints/swellow.1bpp"
+INCBIN "gfx/footprints/wingull.1bpp"
+INCBIN "gfx/footprints/pelipper.1bpp"
 	assert_table_length NUM_POKEMON

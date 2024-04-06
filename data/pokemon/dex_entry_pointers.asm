@@ -270,4 +270,14 @@ PokedexDataPointerTable:
 	dba BeautiflyPokedexEntry
 	dba CascoonPokedexEntry
 	dba DustoxPokedexEntry
+	dba LotadPokedexEntry
+	dba LombrePokedexEntry
+	dba LudicoloPokedexEntry
+	dba SeedotPokedexEntry
+	dba NuzleafPokedexEntry
+	dba ShiftryPokedexEntry
+	dba TaillowPokedexEntry
+	dba SwellowPokedexEntry
+	dba WingullPokedexEntry
+	dba PelipperPokedexEntry
 	assert_table_length NUM_POKEMON

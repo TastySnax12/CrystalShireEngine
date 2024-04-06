@@ -121,6 +121,9 @@ AlphabeticalPokedexOrder:
 	dw LEDYBA
 	dw LICKITUNG
 	dw LINOONE
+	dw LOMBRE
+	dw LOTAD
+	dw LUDICOLO
 	dw LUGIA
 	dw MACHAMP
 	dw MACHOKE
@@ -159,6 +162,7 @@ AlphabeticalPokedexOrder:
 	dw NIDORINO
 	dw NINETALES
 	dw NOCTOWL
+	dw NUZLEAF
 	dw OCTILLERY
 	dw ODDISH
 	dw OMANYTE
@@ -166,6 +170,7 @@ AlphabeticalPokedexOrder:
 	dw ONIX
 	dw PARAS
 	dw PARASECT
+	dw PELIPPER
 	dw PERSIAN
 	dw PHANPY
 	dw PICHU
@@ -205,9 +210,11 @@ AlphabeticalPokedexOrder:
 	dw SCYTHER
 	dw SEADRA
 	dw SEAKING
+	dw SEEDOT
 	dw SEEL
 	dw SENTRET
 	dw SHELLDER
+	dw SHIFTRY
 	dw SHUCKLE
 	dw SILCOON
 	dw SKARMORY
@@ -233,7 +240,9 @@ AlphabeticalPokedexOrder:
 	dw SUNFLORA
 	dw SUNKERN
 	dw SWAMPERT
+	dw SWELLOW
 	dw SWINUB
+	dw TAILLOW
 	dw TANGELA
 	dw TAUROS
 	dw TEDDIURSA
@@ -263,6 +272,7 @@ AlphabeticalPokedexOrder:
 	dw WEEPINBELL
 	dw WEEZING
 	dw WIGGLYTUFF
+	dw WINGULL
 	dw WOBBUFFET
 	dw WOOPER
 	dw WURMPLE
