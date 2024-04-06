@@ -1263,6 +1263,9 @@ ENDC
 	call SetPalettes
 	call DelayFrame
 
+	ld de, MUSIC_NONE
+	call PlayMusic
+
 	ld de, MUSIC_SPECIAL_PROGRAM
 	call PlayMusic
 
