@@ -431,19 +431,21 @@ INCLUDE "gfx/pokemon/kanto_frames.asm"
 
 SECTION "Pic Animations 3", ROMX
 
+INCLUDE "engine/gfx/pic_animation.asm"
+INCLUDE "gfx/pokemon/anim_pointers.asm"
+INCLUDE "gfx/pokemon/anims.asm"
 INCLUDE "gfx/pokemon/idle_pointers.asm"
 INCLUDE "gfx/pokemon/idles.asm"
 INCLUDE "gfx/pokemon/johto_frames.asm"
-INCLUDE "gfx/pokemon/unown_frame_pointers.asm"
-INCLUDE "gfx/pokemon/unown_frames.asm"
-INCLUDE "gfx/pokemon/hoenn_frames.asm"
+
 
 
 SECTION "Pic Animations 4", ROMX
 
-INCLUDE "engine/gfx/pic_animation.asm"
-INCLUDE "gfx/pokemon/anim_pointers.asm"
-INCLUDE "gfx/pokemon/anims.asm"
+INCLUDE "gfx/pokemon/unown_frame_pointers.asm"
+INCLUDE "gfx/pokemon/unown_frames.asm"
+INCLUDE "gfx/pokemon/hoenn_frames.asm"
+
 
 
 
