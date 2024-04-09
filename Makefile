@@ -178,6 +178,9 @@ gfx/trade/game_boy_cable.2bpp: gfx/trade/game_boy.2bpp gfx/trade/link_cable.2bpp
 
 gfx/pc/obj.2bpp: gfx/pc/modes.2bpp gfx/pc/packs.2bpp ; cat $^ > $@
 
+gfx/underground/minigame_obj.2bpp: tools/gfx += --interleave --png=$<
+gfx/underground/items/%.2bpp: tools/gfx += --remove-whitespace
+
 gfx/slots/slots_1.2bpp: tools/gfx += --trim-whitespace
 gfx/slots/slots_2.2bpp: tools/gfx += --interleave --png=$<
 gfx/slots/slots_3.2bpp: tools/gfx += --interleave --png=$< --remove-duplicates --keep-whitespace --remove-xflip

@@ -56,6 +56,7 @@ SGBLayoutJumptable:
 	dw .SGB_MysteryGift
 	dw .SGB_Unused1E
 	dw .SGB_Unused1E ; SCGB_PLAIN (not used)
+	dw .SGB_MiningGame
 	dw .SGB_IntroSandgem
 	dw .SGB_ChooseStarter
 	dw .SGB_ChooseStarterPokePic
@@ -295,6 +296,7 @@ SGBLayoutJumptable:
 	ld de, BlkPacket_BetaTitleScreen
 	ret
 
+.SGB_MiningGame:
 .SGB_Diploma:
 .SGB_MysteryGift:
 .SGB_IntroSandgem:

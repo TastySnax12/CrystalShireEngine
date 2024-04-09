@@ -734,6 +734,25 @@ wNamingScreenLastCharacter:: db
 wNamingScreenStringEntryCoord:: dw
 
 NEXTU
+
+wMiningGame::
+
+wMiningBoardBase:: ds 130
+wMiningBoardDebris:: ds 130
+
+wMiningSpawnedObjects:: ds 4
+wMiningUncoveredObjects:: ds 4
+wMiningTool:: db
+wMiningHitsLeft:: db
+
+wMiningRockLayerBuffer:: ds 5
+wMiningGameAnimTimer:: db
+wMiningFoundNewObjectTile::
+wMiningGameFailsafeCounter:: db
+
+wMiningGameEnd::
+
+NEXTU
 ; slot machine
 wSlots::
 wReel1:: slot_reel wReel1

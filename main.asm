@@ -710,6 +710,7 @@ INCLUDE "engine/16/table_functions.asm"
 
 ; own section
 INCLUDE "data/trainers/parties.asm"
+INCLUDE "engine/games/mining.asm"
 
 SECTION "Debug Menu", ROMX
 IF DEF(_DEBUG)

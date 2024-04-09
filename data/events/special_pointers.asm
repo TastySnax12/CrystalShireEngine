@@ -152,3 +152,4 @@ SpecialsPointers::
 	add_special InitialClearDSTFlag
 	add_special FadeInPalettes_EnableDynNoApply
 	add_special ChooseStarter
+	add_special MiningGame

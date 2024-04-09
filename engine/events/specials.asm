@@ -180,6 +180,12 @@ CardFlip:
 	ld hl, _CardFlip
 	jr StartGameCornerGame
 
+MiningGame:
+	call FadeToMenu
+	farcall _MiningGame
+	call ExitAllMenus
+	ret
+
 UnusedMemoryGame:
 	call CheckCoinsAndCoinCase
 	ret c

@@ -299,7 +299,7 @@ Debug_SubgameMenu:
 .Jumptable:
 	dba SlotMachine
 	dba CardFlip
-;	dba MiningGame
+	dba MiningGame
 	dba UnownPuzzle
 
 .MenuHeader:
@@ -310,10 +310,10 @@ Debug_SubgameMenu:
 
 .MenuData:
 	db STATICMENU_CURSOR
-	db 3 ; # items
+	db 4 ; # items
 	db "Slots@"
 	db "Card@"
-;	db "Mining@"
+	db "Mining@"
 	db "Unown@"
 
 Debug_Warp:

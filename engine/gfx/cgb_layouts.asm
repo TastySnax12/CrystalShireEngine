@@ -59,7 +59,7 @@ CGBLayoutJumptable:
 	dw _CGB_MysteryGift
 	dw _CGB_Unused1E
 	dw _CGB_Plain
-;	dw _CGB_MiningGame
+	dw _CGB_MiningGame
 ;	dw _CGB_IntroBothPlayerPals
 	dw _CGB_IntroSandgem
 	dw _CGB_ChooseStarter
@@ -1265,3 +1265,19 @@ DebugMenuTrainerPicColors::
 	ldh [hCGBPalUpdate], a
 	ret
 ENDC
+
+_CGB_MiningGame:
+	ld hl, MiningGameBGPals
+	ld de, wBGPals1 palette 4
+	ld bc, 4 palettes
+	ld a, BANK(wBGPals1)
+	call FarCopyWRAM
+
+	ld hl, MiningGameOBPals
+	ld de, wOBPals1 palette 4
+	ld bc, 4 palettes
+	ld a, BANK(wOBPals1)
+	jp FarCopyWRAM
+
+MiningGameBGPals: INCLUDE "gfx/underground/minigame_bg.pal"
+MiningGameOBPals: INCLUDE "gfx/underground/minigame_ob.pal"
