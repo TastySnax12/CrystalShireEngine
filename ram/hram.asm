@@ -186,6 +186,12 @@ hFunctionTargetHi:: db
 
 hDelayFrameLY:: db
 
+IF DEF(_DEBUG)
+hDebugMenuCursorPos:: db
+hDebugMenuDataBuffer:: ds 8
+	ds 3
+ELSE
 	ds 12
+ENDC
 
 ENDSECTION
