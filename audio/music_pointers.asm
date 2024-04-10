@@ -96,4 +96,5 @@ Music:
 	dba Music_TwinleafTown
 	dba Music_Route201
 	dba Music_PokeMart
+	dba Music_Route209
 	assert_table_length NUM_MUSIC_SONGS

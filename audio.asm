@@ -123,6 +123,7 @@ INCLUDE "audio/music/twinleaftown.asm"
 INCLUDE "audio/music/route201.asm"
 INCLUDE "audio/music/route205.asm"
 INCLUDE "audio/music/route206.asm"
+INCLUDE "audio/music/route209.asm"
 INCLUDE "audio/music/pokemart.asm"
 
 SECTION "Extra Songs 1", ROMX
