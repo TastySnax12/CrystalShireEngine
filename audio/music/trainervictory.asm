@@ -1,233 +1,461 @@
 Music_TrainerVictory:
-	channel_count 3
-	channel 1, Music_TrainerVictory_Ch1
-	channel 2, Music_TrainerVictory_Ch2
-	channel 3, Music_TrainerVictory_Ch3
+	dbw $80, Music_TrainerVictory_Ch1
+	dbw $01, Music_TrainerVictory_Ch2
+	dbw $02, Music_TrainerVictory_Ch3
 
 Music_TrainerVictory_Ch1:
-	tempo 120
-	volume 7, 7
-	duty_cycle 2
-	pitch_offset 1
-	note_type 8, 11, 1
+	tempo 124
+	volume $77
+	notetype $C, $A2
+	dutycycle 2
+	octave 1
+	note __, 12
+	octave 5
+	note D#, 1
 	octave 4
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note F#, 2
-	note G_, 2
-	volume_envelope 11, 6
-	note A_, 12
-	stereo_panning FALSE, TRUE
-.mainloop:
-.loop1:
-	volume_envelope 7, 2
-	sound_call .sub1
-	volume_envelope 5, 1
-	note C#, 2
-	note E_, 2
-	note F#, 2
-	note A_, 2
-	note B_, 2
-	octave 4
-	note C#, 2
-	volume_envelope 7, 2
+	note D#, 1
 	octave 3
-	note A_, 2
-	rest 2
-	octave 4
-	note C#, 2
-	note E_, 6
-	sound_loop 2, .loop1
-	sound_call .sub1
-	note A_, 2
-	rest 2
-	note F_, 2
-	note A_, 6
-	note A#, 2
-	rest 2
-	note G_, 2
-	note A#, 6
-.loop2:
-	volume_envelope 7, 2
-	octave 4
-	note D_, 2
-	note C#, 2
+	note D#, 1
+	octave 2
+	note D#, 1
+Music_TrainerVictory_Ch1_loop:
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
 	octave 3
-	note A_, 2
-	sound_loop 3, .loop2
-	note F#, 2
-	note A_, 2
-	octave 4
-	note D_, 2
-.loop3:
-	octave 4
-	note C#, 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
 	octave 3
-	note B_, 2
-	note A_, 2
-	sound_loop 3, .loop3
-	note E_, 2
-	note F#, 2
-	note G_, 2
-	sound_loop 0, .mainloop
-
-.sub1:
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
 	octave 3
-	note F#, 2
-	rest 2
-	note D_, 2
-	note F#, 6
-	note G_, 2
-	rest 2
-	note E_, 2
-	note G_, 6
-	sound_ret
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 3
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 3
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 3
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	note D#, 1
+	octave 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 1
+	note D#, 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 4
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note D#, 1
+	octave 1
+	note D#, 1
+	loopchannel 0, Music_TrainerVictory_Ch1_loop
 
 Music_TrainerVictory_Ch2:
-	vibrato 18, 3, 4
-	duty_cycle 3
-	note_type 8, 13, 1
+	notetype $C, $B2
+	dutycycle 1
 	octave 4
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
+	note __, 8
 	octave 5
-	note C#, 2
-	volume_envelope 13, 6
-	note D_, 12
-	stereo_panning TRUE, FALSE
-.mainloop:
-.loop1:
-	note_type 8, 8, 2
-	sound_call .sub1
-	note F#, 2
-	rest 2
-	note G_, 2
-	note A_, 6
-	note E_, 2
-	rest 2
-	note F#, 2
-	note G_, 6
-	sound_loop 2, .loop1
-	sound_call .sub1
-	note F_, 2
-	rest 2
-	note C_, 2
-	note F_, 6
-	note G_, 2
-	rest 2
-	note D_, 2
-	note G_, 6
-	note_type 12, 8, 8
-	note F#, 16
-	note E_, 16
-	sound_loop 0, .mainloop
-
-.sub1:
-	octave 4
-	note D_, 2
-	rest 2
-	octave 3
-	note A_, 2
-	octave 4
-	note D_, 6
-	note E_, 2
-	rest 2
-	octave 3
-	note B_, 2
-	octave 4
-	note E_, 6
-	sound_ret
-
-Music_TrainerVictory_Ch3:
-	note_type 8, 2, 5
-	octave 3
-	note G_, 6
 	note G_, 1
-	rest 1
+	octave 4
+	note A#, 1
 	note G_, 1
-	rest 1
+	note D#, 1
 	note G_, 1
-	rest 1
-	note F#, 6
-	note D_, 2
-	note C#, 2
-	octave 2
-	note B_, 2
-.mainloop:
-.loop1:
-	sound_call .sub1
+	note D#, 1
 	octave 3
-	note C#, 2
-	rest 2
-	note C#, 2
-	note A_, 2
-	note F#, 2
-	note C#, 2
-	octave 2
-	note A_, 2
-	rest 2
+	note A#, 1
+	note G_, 1
+Music_TrainerVictory_Ch2_loop:
+	intensity $97
+	octave 3
+	note A#, 7
+	octave 4
+	note G_, 1
+	octave 3
+	note A_, 7
+	octave 4
+	note A_, 1
+	octave 3
+	note A#, 7
+	octave 4
+	note A#, 1
+	octave 3
+	note G#, 7
+	octave 4
+	note G#, 1
+	octave 3
+	note G_, 1
+	octave 4
+	note G_, 1
+	octave 3
+	note G_, 5
+	octave 4
+	note G_, 1
 	octave 3
 	note A_, 1
-	rest 1
-	note A_, 6
-	sound_loop 2, .loop1
-	sound_call .sub1
+	octave 4
+	note A_, 1
 	octave 3
+	note A_, 5
+	octave 4
+	note A_, 1
+	octave 3
+	note A#, 1
+	octave 4
+	note A#, 1
+	octave 3
+	note A#, 5
+	octave 4
+	note A#, 1
+	octave 3
+	note F#, 1
+	octave 4
+	note F#, 1
+	octave 3
+	note F#, 5
+	intensity $B1
+	octave 5
+	note F#, 1
+	note G_, 1
+	note G_, 1
+	octave 4
+	note A#, 1
+	note A#, 1
+	octave 5
+	note D#, 1
+	note D#, 1
+	octave 4
+	note A#, 1
+	note A#, 1
+	octave 5
+	note G#, 1
+	note G#, 1
+	note C_, 1
+	note C_, 1
+	note F_, 1
+	note F_, 1
+	note C_, 1
+	note C_, 1
+	note A#, 1
+	note A#, 1
+	note C#, 1
+	note C#, 1
+	note F#, 1
+	note F#, 1
+	note C#, 1
+	note C#, 1
+	octave 6
+	note C_, 1
+	note C_, 1
+	octave 5
+	note D#, 1
+	note D#, 1
+	note G#, 1
+	note G#, 1
+	note D#, 1
+	note D#, 1
+	note A#, 1
+	note A#, 1
+	octave 4
+	note A#, 1
+	note A#, 1
+	octave 5
+	note D#, 1
+	note D#, 1
+	octave 4
+	note D#, 1
+	note D#, 1
+	octave 5
+	note G_, 1
+	note G_, 1
+	octave 4
+	note A#, 1
+	note A#, 1
+	octave 5
+	note D#, 1
+	note D#, 1
+	octave 4
+	note D#, 1
+	note D#, 1
+	octave 5
+	note G#, 1
+	note G#, 1
+	note C_, 1
+	note C_, 1
+	note F_, 1
+	note F_, 1
+	octave 4
+	note G#, 1
+	note G#, 1
+	octave 5
+	note D_, 1
+	note D_, 1
+	octave 4
+	note D_, 1
+	note D_, 1
+	octave 5
+	note G#, 1
+	note G#, 1
+	octave 4
+	note G#, 1
+	note G#, 1
+	loopchannel 0, Music_TrainerVictory_Ch2_loop
+
+Music_TrainerVictory_Ch3:
+	notetype $C, $14
+	vibrato $0E, $25
+	octave 5
+	note A#, 1
+	notetype $4, $14
+	note __, 1
+	note A#, 3
+	note __, 1
+	note A#, 3
+	note __, 1
+	note A#, 3
+	note __, 1
+	octave 6
+	note C_, 4
+	note D_, 4
+	notetype $C, $14
+	note D#, 8
+Music_TrainerVictory_Ch3_loop:
+	octave 5
+	note D#, 4
+	octave 4
+	note A#, 2
+	octave 5
+	note D#, 2
+	note F_, 4
 	note C_, 2
-	rest 2
-	note C_, 2
-	note A_, 2
+	note F_, 2
+	note G_, 4
+	note G#, 2
+	note A#, 2
+	note F_, 4
+	note G_, 2
+	note G#, 2
+	note D#, 3
+	octave 4
+	note A#, 3
+	octave 5
+	note D#, 2
+	note F_, 3
+	note C_, 3
+	note F_, 2
+	note G_, 3
+	note G#, 3
+	note A#, 2
+	note F#, 3
+	note G#, 3
+	note A#, 2
+	note D#, 2
+	octave 4
+	note A#, 2
+	octave 5
+	note D#, 2
+	octave 4
+	note A#, 2
+	octave 5
 	note F_, 2
 	note C_, 2
-	note D_, 2
-	rest 2
-	note D_, 2
-	octave 4
-	note D_, 2
-	octave 3
-	note A#, 2
-	note G_, 2
-	note D_, 2
+	note F_, 2
+	note C_, 2
 	note F#, 2
-	note A_, 2
-	octave 4
-	note D_, 12
-	octave 3
-	note A_, 2
-	note F#, 2
-	note D_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note D_, 2
-	note E_, 2
-	note A_, 12
-	note G_, 2
-	note E_, 2
 	note C#, 2
-	sound_loop 0, .mainloop
-
-.sub1:
-	octave 2
-	note A_, 2
-	rest 2
-	note A_, 2
-	octave 3
 	note F#, 2
-	note D_, 2
-	octave 2
-	note A_, 2
-	note B_, 2
-	rest 2
-	note B_, 2
-	octave 3
-	note G_, 2
-	note E_, 2
-	octave 2
-	note B_, 2
-	sound_ret
+	note C#, 2
+	note G#, 2
+	note D#, 2
+	note G#, 2
+	note D#, 2
+	note G_, 16
+	note F_, 16
+	loopchannel 0, Music_TrainerVictory_Ch3_loop
