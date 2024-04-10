@@ -219,7 +219,7 @@ Debug_SoundTest:
 	ld hl, Debug_MusicNames
 	ld bc, 18
 	ldh a, [hDebugMenuDataBuffer + 1]
-	cp a, 62 ; formerly 103
+	cp a, NUM_MUSIC_SONGS
 	jp nc, .loop
 	call AddNTimes
 	ld d, h
