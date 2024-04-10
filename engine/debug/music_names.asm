@@ -91,3 +91,4 @@ Debug_MusicNames::
 	db "Route 201@@@@@@@@@"
 	db "PokeMart@@@@@@@@@@"
 	db "Route 209@@@@@@@@@"
+	db "Looker's Theme@@@@@"

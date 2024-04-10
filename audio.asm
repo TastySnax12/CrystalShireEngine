@@ -125,6 +125,7 @@ INCLUDE "audio/music/route205.asm"
 INCLUDE "audio/music/route206.asm"
 INCLUDE "audio/music/route209.asm"
 INCLUDE "audio/music/pokemart.asm"
+INCLUDE "audio/music/lookhandsome.asm"
 
 SECTION "Extra Songs 1", ROMX
 

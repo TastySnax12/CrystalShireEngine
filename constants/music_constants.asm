@@ -95,6 +95,7 @@
 	const MUSIC_ROUTE_201                    ; 66
 	const MUSIC_POKE_MART                    ; 67
 	const MUSIC_ROUTE_209                    ; 68
+	const MUSIC_LOOK_HANDSOME                ; 69
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see home/map.asm)

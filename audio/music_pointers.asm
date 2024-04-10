@@ -97,4 +97,5 @@ Music:
 	dba Music_Route201
 	dba Music_PokeMart
 	dba Music_Route209
+	dba Music_LookHandsome
 	assert_table_length NUM_MUSIC_SONGS
