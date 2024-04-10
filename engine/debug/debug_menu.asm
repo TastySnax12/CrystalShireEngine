@@ -343,8 +343,8 @@ Debug_Warp:
 .SpawnTable
 	db SPAWN_HOME
 ;	db SPAWN_DEBUG
-;	db SPAWN_TWINLEAF
-;	db SPAWN_SANDGEM
+	db SPAWN_TWINLEAF
+	db SPAWN_SANDGEM
 ;	db SPAWN_JUBILIFE
 ;	db SPAWN_OREBURGH
 ;	db SPAWN_FLOAROMA
@@ -363,7 +363,7 @@ Debug_Warp:
 ;	db SPAWN_SURVIVAL_AREA
 ;	db SPAWN_RESORT_AREA
 ;	db SPAWN_PAL_PARK
-DEF NUM_DEBUG_SPAWNS EQU 1
+DEF NUM_DEBUG_SPAWNS EQU 3
 
 .MenuHeader:
 	db MENU_BACKUP_TILES
@@ -403,27 +403,27 @@ endr
 
 .LocNames:
 	db "HOME@@@@@@@@@"
-	db "DEBUG@@@@@@@@"
+;	db "DEBUG@@@@@@@@"
 	db "TWINLEAF@@@@@"
 	db "SANDGEM@@@@@@"
-	db "JUBILIFE@@@@@"
-	db "OREBURGH@@@@@"
-	db "FLOAROMA@@@@@"
-	db "ETERNA@@@@@@@"
-	db "8@@@@@@@@@@@@"
-	db "9@@@@@@@@@@@@"
-	db "10@@@@@@@@@@@"
-	db "11@@@@@@@@@@@"
-	db "12@@@@@@@@@@@"
-	db "13@@@@@@@@@@@"
-	db "14@@@@@@@@@@@"
-	db "15@@@@@@@@@@@"
-	db "16@@@@@@@@@@@"
-	db "17@@@@@@@@@@@"
-	db "18@@@@@@@@@@@"
-	db "19@@@@@@@@@@@"
-	db "20@@@@@@@@@@@"
-	db "21@@@@@@@@@@@"
+;	db "JUBILIFE@@@@@"
+;	db "OREBURGH@@@@@"
+;	db "FLOAROMA@@@@@"
+;	db "ETERNA@@@@@@@"
+;	db "8@@@@@@@@@@@@"
+;	db "9@@@@@@@@@@@@"
+;	db "10@@@@@@@@@@@"
+;	db "11@@@@@@@@@@@"
+;	db "12@@@@@@@@@@@"
+;	db "13@@@@@@@@@@@"
+;	db "14@@@@@@@@@@@"
+;	db "15@@@@@@@@@@@"
+;	db "16@@@@@@@@@@@"
+;	db "17@@@@@@@@@@@"
+;	db "18@@@@@@@@@@@"
+;	db "19@@@@@@@@@@@"
+;	db "20@@@@@@@@@@@"
+;	db "21@@@@@@@@@@@"
 
 Debug_ColorPicker:
 	ldh a, [hMapAnims]
