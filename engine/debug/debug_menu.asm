@@ -82,7 +82,7 @@ DebugMenu::
 	db "Teach Move@"
 	db "Give #@"
 	db "Max ¥@"
-	db "XXX@";"Warp Any@"
+	db "Warp Any@"
 	db "PC@"
 	db "XXX@";"Fill Bag@"
 	db "Fill TM/HM@"
