@@ -913,7 +913,7 @@ Route201_RivalFollowScript:
 	writetext .NothingToFearText
 	waitbutton
 	closetext
-	follow PLAYER, ROUTE201_RIVAL
+	setfollowing
 	setscene SCENE_ROUTE201_RIVAL_FOLLOW
 	setevent EVENT_RIVAL_FOLLOWING_PLAYER
 	end

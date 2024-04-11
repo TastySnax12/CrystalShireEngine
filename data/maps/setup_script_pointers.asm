@@ -54,3 +54,5 @@ MapSetupCommands:
 	add_mapsetup DisableDynPalUpdates ; 2f
 	add_mapsetup EnableDynPalUpdates ; 30
 	add_mapsetup EnableDynPalUpdatesNoApply ; 31
+	add_mapsetup RefreshFollowerCoordsConnection ; 32
+	add_mapsetup RefreshFollowerObjectCoordsConnection ; 33

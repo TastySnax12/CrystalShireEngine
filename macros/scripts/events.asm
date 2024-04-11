@@ -1130,4 +1130,14 @@ MACRO writetextgender
 	dw \2 ; text_pointer (female)
 ENDM
 
+	const setfollowing_command ; $b4
+MACRO setfollowing
+	db setfollowing_command
+ENDM
+
+	const clearfollowing_command ; $b5
+MACRO clearfollowing
+	db clearfollowing_command
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value

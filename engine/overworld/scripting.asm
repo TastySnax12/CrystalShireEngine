@@ -240,6 +240,8 @@ ScriptCommandTable:
 	dw Script_jumptextsign               ; b1
 	dw Script_loadtrainertable           ; b2
 	dw Script_writetextgender            ; b3
+	dw Script_setfollowing               ; b4
+	dw Script_clearfollowing             ; b5
 	assert_table_length NUM_EVENT_COMMANDS
 
 StartScript:
@@ -2544,3 +2546,15 @@ Script_writetextgender:
 	ld a, [wScriptBank]
 	ld b, a
 	jp MapTextbox
+
+Script_setfollowing:
+	ld a, 1
+	ld [wFollowerStatus], a
+	ld b, PLAYER
+	ld c, 1
+	farjp StartFollow
+
+Script_clearfollowing:
+	xor a
+	ld [wFollowerStatus], a
+	farjp StopFollow

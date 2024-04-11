@@ -15,6 +15,7 @@ MapScenes::
 	scene_var TWINLEAF_TOWN,      wTwinleafTownSceneID
 	scene_var RIVAL_HOUSE_2F,     wRivalHouse2FSceneID
 	scene_var ROUTE_201,          wRoute201SceneID
+	scene_var VERITY_LAKEFRONT,   wVerityLakefrontSceneID
 	scene_var LAKE_VERITY,        wLakeVerityLowSceneID
 	scene_var SANDGEM_TOWN,       wSandgemTownSceneID
 	scene_var ROWANS_LAB,         wRowansLabSceneID

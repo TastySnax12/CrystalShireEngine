@@ -695,6 +695,18 @@ ENDM
 	ld bc, wObjectStructs ; redundant
 	farcall IsNPCAtCoord
 	jr nc, .no_npc
+	ld a, [wFollowerStatus]
+	and a
+	jr z, .no_follower
+	push de
+	ld d, a
+	ld hl, OBJECT_MAP_OBJECT_INDEX
+	add hl, bc
+	ld a, [hl]
+	cp d
+	pop de
+	jr z, .no_npc
+.no_follower
 	call .CheckStrengthBoulder
 	jr c, .no_bump
 

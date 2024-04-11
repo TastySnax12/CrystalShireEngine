@@ -2800,6 +2800,7 @@ wPlayersHouse1FSceneID::   db
 wTwinleafTownSceneID::     db
 wRivalHouse2FSceneID::     db
 wRoute201SceneID::         db
+wVerityLakefrontSceneID::  db
 wLakeVerityLowSceneID::    db
 wSandgemTownSceneID::      db
 wRowansLabSceneID::        db
@@ -2913,7 +2914,8 @@ wKenjiBreakTimer:: ds 2 ; Kenji
 wYanmaMapGroup:: db
 wYanmaMapNumber:: db
 wPlayerMonSelection:: ds 3
-	ds 2
+wFollowerStatus:: db
+	ds 1
 
 wStepCount:: db
 wPoisonStepCount:: db

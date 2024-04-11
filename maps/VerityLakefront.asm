@@ -1,9 +1,15 @@
 	object_const_def
+	const VERITYLAKEFRONT_RIVAL
 
 VerityLakefront_MapScripts:
 	def_scene_scripts
+	scene_script VerityLakefrontNoopScene, SCENE_VERITYLAKEFRONT_RIVAL_FOLLOW
+	scene_script VerityLakefrontNoopScene, SCENE_VERITYLAKEFRONT_NONE
 
 	def_callbacks
+
+VerityLakefrontNoopScene:
+	end
 
 VerityLakefrontSign_Script:
 	jumptext .Text
@@ -31,15 +37,15 @@ VerityLakefront_EnterLakeScriptL:
 VerityLakefront_EnterLakeScriptR:
 	settableindex 1
 VerityLakefront_EnterLakeScript:
-;	turnobject ROUTE201_RIVAL, UP ;- needs fixing
+	turnobject VERITYLAKEFRONT_RIVAL, UP
 	opentext
 	writetext .WereHereText
 	waitbutton
 	closetext
-	stopfollow
-;	applymovementtable ROUTE201_RIVAL, .RivalEnterLakeMovement ;- needs fixing
+	clearfollowing
+	applymovementtable VERITYLAKEFRONT_RIVAL, .RivalEnterLakeMovement
 	playsound SFX_ENTER_DOOR
-;	disappear ROUTE201_RIVAL ;- needs fixing
+	disappear VERITYLAKEFRONT_RIVAL
 	waitsfx
 	pause 15
 	applymovement PLAYER, .PlayerEnterLakeMovement
@@ -47,7 +53,8 @@ VerityLakefront_EnterLakeScript:
 	playsound SFX_ENTER_DOOR
 	waitsfx
 	clearevent EVENT_RIVAL_FOLLOWING_PLAYER
-	setscene SCENE_ROUTE201_NOTHING
+	setscene SCENE_VERITYLAKEFRONT_NONE
+	setmapscene ROUTE_201, SCENE_ROUTE201_NOTHING
 	warpfacing UP, LAKE_VERITY, 26, 25
 	end
 
@@ -91,10 +98,11 @@ VerityLakefront_MapEvents:
 	warp_event  5,  2, LAKE_VERITY, 2
 
 	def_coord_events
-	coord_event  4,  3, SCENE_ROUTE201_RIVAL_FOLLOW, VerityLakefront_EnterLakeScriptL
-	coord_event  5,  3, SCENE_ROUTE201_RIVAL_FOLLOW, VerityLakefront_EnterLakeScriptR
+	coord_event  4,  3, SCENE_VERITYLAKEFRONT_RIVAL_FOLLOW, VerityLakefront_EnterLakeScriptL
+	coord_event  5,  3, SCENE_VERITYLAKEFRONT_RIVAL_FOLLOW, VerityLakefront_EnterLakeScriptR
 
 	def_bg_events
 	bg_event  3,  5, BGEVENT_READ, VerityLakefrontSign_Script
 
 	def_object_events
+	object_event   0,  0, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route201_RivalScript, EVENT_ROUTE_201_RIVAL

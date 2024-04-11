@@ -86,11 +86,13 @@ MapSetupScript_Connection:
 	mapsetup LoadMapAttributes
 	mapsetup HandleNewMap
 	mapsetup RefreshPlayerCoords
+	mapsetup RefreshFollowerObjectCoordsConnection
 	mapsetup LoadBlockData
 	mapsetup LoadMapTileset
 	mapsetup SaveScreen
 	mapsetup DecompressMetatiles
 	mapsetup LoadMapObjects
+	mapsetup RefreshFollowerCoordsConnection
 	mapsetup FadeToMapMusic
 	mapsetup LoadMapPalettes
 	mapsetup EnableDynPalUpdates

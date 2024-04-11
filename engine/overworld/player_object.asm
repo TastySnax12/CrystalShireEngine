@@ -100,6 +100,131 @@ WriteObjectXY::
 	and a
 	ret
 
+RefreshFollowerObjectCoordsConnection:
+	; if no following is happening, abort
+	ld a, [wFollowerStatus]
+	and a
+	ret z
+	; get player coords
+	ld a, PLAYER
+	call GetMapObject
+	ld hl, MAPOBJECT_Y_COORD
+	add hl, bc
+	ld a, [hli]
+	ld e, a
+	ld d, [hl]
+	; offset based on player direction
+	ld a, [wPlayerStepDirection]
+	and a
+	jr z, .south
+	dec a
+	jr z, .north
+	dec a
+	jr z, .west
+	dec a
+	jr z, .east
+	jr .none ; just in case
+
+.south
+	dec e
+	jr .ok
+
+.north
+	inc e
+	jr .ok
+
+.west
+	inc d
+	jr .ok
+
+.east
+	dec d
+.ok
+.none
+	; put follower object at these coords
+	ld a, [wFollowerStatus]
+	call GetMapObject
+	ld hl, MAPOBJECT_Y_COORD
+	add hl, bc
+	ld [hl], e
+	inc hl
+	ld [hl], d
+	ret
+
+RefreshFollowerCoordsConnection:
+	; if no following is happening, abort
+	ld a, [wFollowerStatus]
+	and a
+	ret z
+	; get player coords
+	ld a, PLAYER
+	call GetObjectStruct
+	ld hl, OBJECT_MAP_X
+	add hl, bc
+	ld a, [hli]
+	ld b, a
+	ld c, [hl]
+	; offset based on player direction
+	ld a, [wPlayerStepDirection]
+	and a
+	jr z, .south
+	dec a
+	jr z, .north
+	dec a
+	jr z, .west
+	dec a
+	jr z, .east
+	jr .none ; just in case
+
+.south
+	dec c
+	jr .ok
+
+.north
+	inc c
+	jr .ok
+
+.west
+	inc b
+	jr .ok
+
+.east
+	dec b
+.ok
+	; move object1 to new coords
+	ld d, b
+	ld e, c
+	ld a, [wFollowerStatus]
+	call GetMapObject
+	ld a, [bc]
+	call GetObjectStruct
+	ld hl, OBJECT_MAP_X
+	add hl, bc
+	ld [hl], d
+	inc hl
+	ld [hl], e
+	; match direction
+	ld a, [wFollowerStatus]
+	call GetMapObject
+	ld a, [bc]
+	call GetObjectStruct
+	ld hl, OBJECT_DIRECTION
+	add hl, bc
+	push hl
+	ld a, PLAYER
+	call GetObjectStruct
+	ld hl, OBJECT_DIRECTION
+	add hl, bc
+	ld a, [hl]
+	pop hl
+	ld [hl], a
+.none
+	; clean up
+	ld a, [wFollowerStatus]
+	ld b, PLAYER
+	ld c, a
+	farjp StartFollow
+
 RefreshPlayerCoords:
 	ld a, [wXCoord]
 	add 4
