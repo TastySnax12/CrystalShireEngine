@@ -74,6 +74,7 @@ DebugMenu::
 
 ; options named "XXX" need to be fixed
 .Strings:
+	db "Party@"
 	db "Sound Test@"
 	db "Subgame@"
 	db "Warp@"
@@ -90,11 +91,12 @@ DebugMenu::
 	db "Trainer@"
 
 .MenuItems
-	db 14
-	db 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+	db 15
+	db 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
 	db -1
 
 .Jumptable
+	dw Debug_GiveParty
 	dw Debug_SoundTest
 	dw Debug_SubgameMenu
 	dw Debug_Warp
@@ -109,6 +111,78 @@ DebugMenu::
 	dw Debug_FillTMHM
 	dw Debug_PlayCry
 	dw Debug_Trainer
+
+Debug_GiveParty:
+; clear party
+	xor a
+	ld [wPartyCount], a
+	ld a, -1
+	ld [wPartySpecies], a
+	ld hl, .party_info
+.loop
+	ldi a, [hl]
+	and a
+	ret z
+	ld [wCurPartyLevel], a
+	xor a
+	ld [wCurItem], a
+	ld e, [hl]
+	inc hl
+	ld d, [hl]
+	inc hl
+	push hl
+	ld h, d
+	ld l, e
+	call GetPokemonIDFromIndex
+	ld [wCurPartySpecies], a
+	ld b, 0
+	farcall GivePoke
+	ld a, [wPartyCount]
+	dec a
+	ld hl, wPartyMon1Moves
+	ld bc, PARTYMON_STRUCT_LENGTH
+	rst AddNTimes
+	ld b, h
+	ld c, l
+	pop hl
+	call .set_move
+	call .set_move
+	call .set_move
+	call .set_move
+	jr .loop
+
+.set_move
+	ld e, [hl]
+	inc hl
+	ld d, [hl]
+	inc hl
+	push hl
+	push bc
+	ld a, d
+	or e
+	jr z, .skip_move
+	ld h, d
+	ld l, e
+	call GetMoveIDFromIndex
+.skip_move
+	pop bc
+	ld [bc], a
+	inc bc
+	pop hl
+	ret
+
+.party_info
+	db 90
+	dw EXEGGUTOR, FLY, CUT, SURF, STRENGTH
+	db 20
+	dw MEW, POUND, 0, 0, 0
+	db 56
+	dw JOLTEON, DOUBLE_KICK, AGILITY, PIN_MISSILE, THUNDERBOLT
+	db 56
+	dw DUGTRIO, DIG, SAND_ATTACK, SLASH, EARTHQUAKE
+	db 57
+	dw ARTICUNO, FLY, ICE_BEAM, BLIZZARD, AGILITY
+	db 0
 
 Debug_SoundTest:
 	ld de, MUSIC_NONE
