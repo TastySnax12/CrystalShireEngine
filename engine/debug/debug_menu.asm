@@ -75,6 +75,7 @@ DebugMenu::
 ; options named "XXX" need to be fixed
 .Strings:
 	db "Party@"
+	db "Set Flags@"
 	db "Sound Test@"
 	db "Subgame@"
 	db "Warp@"
@@ -91,12 +92,13 @@ DebugMenu::
 	db "Trainer@"
 
 .MenuItems
-	db 15
-	db 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+	db 16
+	db 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 	db -1
 
 .Jumptable
 	dw Debug_GiveParty
+	dw Debug_SetFlags
 	dw Debug_SoundTest
 	dw Debug_SubgameMenu
 	dw Debug_Warp
@@ -183,6 +185,72 @@ Debug_GiveParty:
 	db 57
 	dw ARTICUNO, FLY, ICE_BEAM, BLIZZARD, AGILITY
 	db 0
+
+Debug_SetFlags:
+	call .set_engine_flags
+	call .set_event_flags
+	ret
+
+.set_engine_flags
+	ld hl, .engine_flags
+.loop_engine
+	ld e, [hl]
+	inc hl
+	ld d, [hl]
+	inc hl
+	ld a, d
+	and e
+	inc a
+	ret z
+	ld b, SET_FLAG
+	push hl
+	farcall EngineFlagAction
+	pop hl
+	jr .loop_engine
+
+.set_event_flags
+	ld hl, .event_flags
+.loop_event
+	ld e, [hl]
+	inc hl
+	ld d, [hl]
+	inc hl
+	ld a, d
+	and e
+	inc a
+	ret z
+	ld b, SET_FLAG
+	push hl
+	farcall EventFlagAction
+	pop hl
+	jr .loop_event
+
+.engine_flags
+	; pokegear
+	dw ENGINE_POKEGEAR
+	dw ENGINE_PHONE_CARD
+	dw ENGINE_MAP_CARD
+	dw ENGINE_RADIO_CARD
+	dw ENGINE_EXPN_CARD
+	; dex
+	dw ENGINE_POKEDEX
+	; badges
+	dw ENGINE_ZEPHYRBADGE
+	dw ENGINE_HIVEBADGE
+	dw ENGINE_PLAINBADGE
+	dw ENGINE_FOGBADGE
+	dw ENGINE_STORMBADGE
+	dw ENGINE_MINERALBADGE
+	dw ENGINE_GLACIERBADGE
+	dw ENGINE_RISINGBADGE
+	; flypoints
+	dw ENGINE_FLYPOINT_TWINLEAF
+	dw ENGINE_FLYPOINT_SANDGEM
+	; end
+	dw -1
+
+.event_flags
+	dw -1
 
 Debug_SoundTest:
 	ld de, MUSIC_NONE
