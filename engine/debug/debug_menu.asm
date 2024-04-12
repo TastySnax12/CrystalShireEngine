@@ -589,10 +589,10 @@ Debug_FillDex:
 .loop
 	inc hl
 	ld a, h
-	cp HIGH(NUM_POKEMON)
+	cp HIGH(NUM_POKEMON + 1)
 	jr nz, .setflag
 	ld a, l
-	cp LOW(NUM_POKEMON)
+	cp LOW(NUM_POKEMON + 1)
 	ret z
 .setflag
 	push hl
