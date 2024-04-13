@@ -55,7 +55,7 @@ VerityLakefront_EnterLakeScript:
 	clearevent EVENT_RIVAL_FOLLOWING_PLAYER
 	setscene SCENE_VERITYLAKEFRONT_NONE
 	setmapscene ROUTE_201, SCENE_ROUTE201_NOTHING
-	warpfacing UP, LAKE_VERITY, 26, 25
+	warpfacing UP, LAKE_VERITY, 24, 25
 	end
 
 .WereHereText:

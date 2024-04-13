@@ -62,7 +62,7 @@
 	const SPRITE_FISHER ; 3a
 	const SPRITE_FISHING_GURU ; 3b
 	const SPRITE_SCIENTIST ; 3c
-	const SPRITE_KIMONO_GIRL ; 3d
+	const SPRITE_CYRUS ; 3d
 	const SPRITE_SAGE ; 3e
 	const SPRITE_UNUSED_GUY ; 3f
 	const SPRITE_GENTLEMAN ; 40

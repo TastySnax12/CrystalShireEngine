@@ -10,8 +10,8 @@ LakeVerityHighTide_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 26, 25, VERITY_LAKEFRONT, 1
-	warp_event 27, 25, VERITY_LAKEFRONT, 2
+	warp_event 24, 25, VERITY_LAKEFRONT, 1
+	warp_event 25, 25, VERITY_LAKEFRONT, 2
 
 	def_coord_events
 
