@@ -288,4 +288,10 @@ NewPokedexOrder:
 	dw MASQUERAIN
 	dw SHROOMISH
 	dw BRELOOM
+	dw SLAKOTH
+	dw VIGOROTH
+	dw SLAKING
+	dw NINCADA
+	dw NINJASK
+	dw SHEDINJA
 	assert_table_length NUM_POKEMON

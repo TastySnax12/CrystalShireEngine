@@ -844,11 +844,8 @@ RaltsBackpic:        INCBIN "gfx/pokemon/ralts/back.2bpp.lz"
 KirliaFrontpic:      INCBIN "gfx/pokemon/kirlia/front.animated.2bpp.lz"
 KirliaBackpic:       INCBIN "gfx/pokemon/kirlia/back.2bpp.lz"
 
-
-
-
-
 SECTION "Pics 22", ROMX
+
 GardevoirFrontpic:   INCBIN "gfx/pokemon/gardevoir/front.animated.2bpp.lz"
 GardevoirBackpic:    INCBIN "gfx/pokemon/gardevoir/back.2bpp.lz"
 SurskitFrontpic:     INCBIN "gfx/pokemon/surskit/front.animated.2bpp.lz"
@@ -859,3 +856,15 @@ ShroomishFrontpic:   INCBIN "gfx/pokemon/shroomish/front.animated.2bpp.lz"
 ShroomishBackpic:    INCBIN "gfx/pokemon/shroomish/back.2bpp.lz"
 BreloomFrontpic:     INCBIN "gfx/pokemon/breloom/front.animated.2bpp.lz"
 BreloomBackpic:      INCBIN "gfx/pokemon/breloom/back.2bpp.lz"
+SlakothFrontpic:     INCBIN "gfx/pokemon/slakoth/front.animated.2bpp.lz"
+SlakothBackpic:      INCBIN "gfx/pokemon/slakoth/back.2bpp.lz"
+VigorothFrontpic:    INCBIN "gfx/pokemon/vigoroth/front.animated.2bpp.lz"
+VigorothBackpic:     INCBIN "gfx/pokemon/vigoroth/back.2bpp.lz"
+SlakingFrontpic:     INCBIN "gfx/pokemon/slaking/front.animated.2bpp.lz"
+SlakingBackpic:      INCBIN "gfx/pokemon/slaking/back.2bpp.lz"
+NincadaFrontpic:     INCBIN "gfx/pokemon/nincada/front.animated.2bpp.lz"
+NincadaBackpic:      INCBIN "gfx/pokemon/nincada/back.2bpp.lz"
+NinjaskFrontpic:     INCBIN "gfx/pokemon/ninjask/front.animated.2bpp.lz"
+NinjaskBackpic:      INCBIN "gfx/pokemon/ninjask/back.2bpp.lz"
+ShedinjaFrontpic:    INCBIN "gfx/pokemon/shedinja/front.animated.2bpp.lz"
+ShedinjaBackpic:     INCBIN "gfx/pokemon/shedinja/back.2bpp.lz"

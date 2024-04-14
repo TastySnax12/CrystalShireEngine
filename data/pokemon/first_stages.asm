@@ -287,4 +287,10 @@ FirstEvoStages::
 	dw SURSKIT
 	dw SHROOMISH
 	dw SHROOMISH
+	dw SLAKOTH
+	dw SLAKOTH
+	dw SLAKOTH
+	dw NINCADA
+	dw NINCADA
+	dw NINCADA
 	assert_table_length NUM_POKEMON

@@ -290,4 +290,10 @@ PokemonNames::
 	db "MASQUERAIN"
 	db "SHROOMISH@"
 	db "BRELOOM@@@"
+	db "SLAKOTH@@@"
+	db "VIGOROTH@@"
+	db "SLAKING@@@"
+	db "NINCADA@@@"
+	db "NINJASK@@@"
+	db "SHEDINJA@@"
 	assert_table_length NUM_POKEMON

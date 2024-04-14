@@ -287,4 +287,10 @@ PokedexDataPointerTable:
 	dba MasquerainPokedexEntry
 	dba ShroomishPokedexEntry
 	dba BreloomPokedexEntry
+	dba SlakothPokedexEntry
+	dba VigorothPokedexEntry
+	dba SlakingPokedexEntry
+	dba NincadaPokedexEntry
+	dba NinjaskPokedexEntry
+	dba ShedinjaPokedexEntry
 	assert_table_length NUM_POKEMON

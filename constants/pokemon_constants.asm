@@ -307,6 +307,12 @@ DEF HOENN_POKEMON EQU const_value
 	const MASQUERAIN ; 11c
 	const SHROOMISH  ; 11d
 	const BRELOOM    ; 11e
+	const SLAKOTH    ; 11f
+	const VIGOROTH   ; 120
+	const SLAKING    ; 121
+	const NINCADA    ; 122
+	const NINJASK    ; 123
+	const SHEDINJA   ; 124
 	
 DEF NUM_POKEMON EQU const_value - 1
 

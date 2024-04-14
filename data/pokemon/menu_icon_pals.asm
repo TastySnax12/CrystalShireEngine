@@ -296,4 +296,10 @@ MonMenuIconPals:
 	icon_pals TEAL,   GREEN  ; MASQUERAIN
 	icon_pals GREEN,  RED    ; SHROOMISH
 	icon_pals GREEN,  RED    ; BRELOOM
+	icon_pals BROWN,  PURPLE ; SLAKOTH
+	icon_pals BROWN,  RED    ; VIGOROTH
+	icon_pals BROWN,  BROWN  ; SLAKING
+	icon_pals BROWN,  GRAY   ; NINCADA
+	icon_pals GRAY,   RED    ; NINJASK
+	icon_pals BROWN,  GRAY   ; SHEDINJA
 	assert_table_length NUM_POKEMON

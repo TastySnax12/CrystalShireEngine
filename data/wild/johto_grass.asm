@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
 	; day
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
 	; nite
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
-	dbw 5, BRELOOM
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
+	dbw 5, SHEDINJA
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

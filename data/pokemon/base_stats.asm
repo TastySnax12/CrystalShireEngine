@@ -325,4 +325,11 @@ INCLUDE "data/pokemon/base_stats/surskit.asm"
 INCLUDE "data/pokemon/base_stats/masquerain.asm"
 INCLUDE "data/pokemon/base_stats/shroomish.asm"
 INCLUDE "data/pokemon/base_stats/breloom.asm"
+INCLUDE "data/pokemon/base_stats/slakoth.asm"
+INCLUDE "data/pokemon/base_stats/vigoroth.asm"
+INCLUDE "data/pokemon/base_stats/slaking.asm"
+INCLUDE "data/pokemon/base_stats/nincada.asm"
+INCLUDE "data/pokemon/base_stats/ninjask.asm"
+INCLUDE "data/pokemon/base_stats/shedinja.asm"
+
 .IndirectEnd::

@@ -164,7 +164,9 @@ AlphabeticalPokedexOrder:
 	dw NIDORAN_M
 	dw NIDORINA
 	dw NIDORINO
+	dw NINCADA
 	dw NINETALES
+	dw NINJASK
 	dw NOCTOWL
 	dw NUZLEAF
 	dw OCTILLERY
@@ -218,6 +220,7 @@ AlphabeticalPokedexOrder:
 	dw SEEDOT
 	dw SEEL
 	dw SENTRET
+	dw SHEDINJA
 	dw SHELLDER
 	dw SHIFTRY
 	dw SHROOMISH
@@ -225,6 +228,8 @@ AlphabeticalPokedexOrder:
 	dw SILCOON
 	dw SKARMORY
 	dw SKIPLOOM
+	dw SLAKING
+	dw SLAKOTH
 	dw SLOWBRO
 	dw SLOWKING
 	dw SLOWPOKE
@@ -271,6 +276,7 @@ AlphabeticalPokedexOrder:
 	dw VENONAT
 	dw VENUSAUR
 	dw VICTREEBEL
+	dw VIGOROTH
 	dw VILEPLUME
 	dw VOLTORB
 	dw VULPIX

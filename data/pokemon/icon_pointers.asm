@@ -291,4 +291,10 @@ IconPointers:
 	dba MagikarpIcon ; MASQUERAIN
 	dba MagikarpIcon ; SHROOMISH
 	dba MagikarpIcon ; BRELOOM
+	dba MagikarpIcon ; SLAKOTH
+	dba MagikarpIcon ; VIGOROTH
+	dba MagikarpIcon ; SLAKING
+	dba MagikarpIcon ; NINCADA
+	dba MagikarpIcon ; NINJASK
+	dba MagikarpIcon ; SHEDINJA
 	assert_table_length NUM_POKEMON + 1

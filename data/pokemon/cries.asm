@@ -292,4 +292,10 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; MASQUERAIN
 	mon_cry CRY_RATTATA,       0,  0   ; SHROOMISH
 	mon_cry CRY_RATTATA,       0,  0   ; BRELOOM
+	mon_cry CRY_RATTATA,       0,  0   ; SLAKOTH
+	mon_cry CRY_RATTATA,       0,  0   ; VIGOROTH
+	mon_cry CRY_RATTATA,       0,  0   ; SLAKING
+	mon_cry CRY_RATTATA,       0,  0   ; NINCADA
+	mon_cry CRY_RATTATA,       0,  0   ; NINJASK
+	mon_cry CRY_RATTATA,       0,  0   ; SHEDINJA
 	assert_table_length NUM_POKEMON

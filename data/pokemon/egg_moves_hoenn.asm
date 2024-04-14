@@ -36,6 +36,12 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw ShroomishEggMoves
 	dw NoEggMoves3
+	dw SlakothEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw NincadaEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -179,7 +185,7 @@ ShroomishEggMoves:
 	; dw WORRY_SEED
 	dw -1 ; end
 
-; SlakothEggMoves:
+SlakothEggMoves:
 	; dw BODY_SLAM
 	; dw CRUSH_CLAW
 	; dw CURSE
@@ -189,9 +195,9 @@ ShroomishEggMoves:
 	; dw SLASH
 	; dw SLEEP_TALK
 	; dw SNORE
-	; dw -1 ; end
+	dw -1 ; end
 
-; NincadaEggMoves:
+NincadaEggMoves:
 	; dw BUG_BITE
 	; dw BUG_BUZZ
 	; dw ENDURE
@@ -199,7 +205,7 @@ ShroomishEggMoves:
 	; dw GUST
 	; dw NIGHT_SLASH
 	; dw SILVER_WIND
-	; dw -1 ; end
+	dw -1 ; end
 
 ; WhismurEggMoves:
 	; dw ENDEAVOR

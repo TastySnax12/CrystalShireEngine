@@ -588,4 +588,16 @@ PokemonPicPointers::
 	dba ShroomishBackpic
 	dba BreloomFrontpic
 	dba BreloomBackpic
+	dba SlakothFrontpic
+	dba SlakothBackpic
+	dba VigorothFrontpic
+	dba VigorothBackpic
+	dba SlakingFrontpic
+	dba SlakingBackpic
+	dba NincadaFrontpic
+	dba NincadaBackpic
+	dba NinjaskFrontpic
+	dba NinjaskBackpic
+	dba ShedinjaFrontpic
+	dba ShedinjaBackpic
 	assert_table_length NUM_POKEMON + 1

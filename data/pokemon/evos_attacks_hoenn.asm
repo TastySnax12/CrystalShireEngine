@@ -36,12 +36,12 @@ EvosAttacksPointers3::
 	dw MasquerainEvosAttacks
 	dw ShroomishEvosAttacks
 	dw BreloomEvosAttacks
-	; dw SlakothEvosAttacks
-	; dw VigorothEvosAttacks
-	; dw SlakingEvosAttacks
-	; dw NincadaEvosAttacks
-	; dw NinjaskEvosAttacks
-	; dw ShedinjaEvosAttacks
+	dw SlakothEvosAttacks
+	dw VigorothEvosAttacks
+	dw SlakingEvosAttacks
+	dw NincadaEvosAttacks
+	dw NinjaskEvosAttacks
+	dw ShedinjaEvosAttacks
 	; dw WhismurEvosAttacks
 	; dw LoudredEvosAttacks
 	; dw ExploudEvosAttacks
@@ -314,108 +314,35 @@ BreloomEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; SlakothEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 18, VIGOROTH
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, YAWN
-	; dbw 7, ENCORE
-	; dbw 13, SLACK_OFF
-	; dbw 19, FAINT_ATTACK
-	; dbw 25, AMNESIA
-	; dbw 31, COVET
-	; dbw 37, COUNTER
-	; dbw 43, FLAIL
-	; db 0 ; no more level-up moves
+SlakothEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; VigorothEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 36, SLAKING
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, FOCUS_ENERGY
-	; dbw 1, ENCORE
-	; dbw 1, UPROAR
-	; dbw 7, ENCORE
-	; dbw 13, UPROAR
-	; dbw 19, FURY_SWIPES
-	; dbw 25, ENDURE
-	; dbw 31, SLASH
-	; dbw 37, COUNTER
-	; dbw 43, FOCUS_PUNCH
-	; dbw 49, REVERSAL
-	; db 0 ; no more level-up moves
+VigorothEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SlakingEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, ENCORE
-	; dbw 1, YAWN
-	; dbw 1, SLACK_OFF
-	; dbw 7, ENCORE
-	; dbw 13, SLACK_OFF
-	; dbw 19, FAINT_ATTACK
-	; dbw 25, AMNESIA
-	; dbw 31, COVET
-	; dbw 36, SWAGGER
-	; dbw 37, COUNTER
-	; dbw 43, FLAIL
-	; dbw 49, FLING
-	; dbw 55, PUNISHMENT
-	; dbw 61, HAMMER_ARM
-	; db 0 ; no more level-up moves
+SlakingEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; NincadaEvosAttacks:
-	; dbbw EVOLVE_LEVEL_ADD_MON, 20, NINJASK
-	; dbbw EVOLVE_LEVEL_EXTRA_MON, 20, SHEDINJA
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, HARDEN
-	; dbw 5, LEECH_LIFE
-	; dbw 9, SAND_ATTACK
-	; dbw 14, FURY_SWIPES
-	; dbw 19, MIND_READER
-	; dbw 25, FALSE_SWIPE
-	; dbw 31, MUD_SLAP
-	; dbw 38, METAL_CLAW
-	; dbw 45, DIG
-	; db 0 ; no more level-up moves
+NincadaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; NinjaskEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, SAND_ATTACK
-	; dbw 1, HARDEN
-	; dbw 1, LEECH_LIFE
-	; dbw 1, BUG_BITE
-	; dbw 5, LEECH_LIFE
-	; dbw 9, SAND_ATTACK
-	; dbw 14, FURY_SWIPES
-	; dbw 19, MIND_READER
-	; dbw 20, SCREECH
-	; dbw 20, DOUBLE_TEAM
-	; dbw 20, FURY_CUTTER
-	; dbw 25, SWORDS_DANCE
-	; dbw 31, SLASH
-	; dbw 38, AGILITY
-	; dbw 45, BATON_PASS
-	; dbw 52, X_SCISSOR
-	; db 0 ; no more level-up moves
+NinjaskEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShedinjaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, HARDEN
-	; dbw 5, LEECH_LIFE
-	; dbw 9, SAND_ATTACK
-	; dbw 14, FURY_SWIPES
-	; dbw 19, MIND_READER
-	; dbw 25, SPITE
-	; dbw 31, CONFUSE_RAY
-	; dbw 38, SHADOW_SNEAK
-	; dbw 45, GRUDGE
-	; dbw 52, HEAL_BLOCK
-	; dbw 59, SHADOW_BALL
-	; db 0 ; no more level-up moves
+ShedinjaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; WhismurEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 20, LOUDRED

@@ -286,4 +286,10 @@ AnimationIdlePointers:
 	dw MasquerainAnimationIdle
 	dw ShroomishAnimationIdle
 	dw BreloomAnimationIdle
+	dw SlakothAnimationIdle
+	dw VigorothAnimationIdle
+	dw SlakingAnimationIdle
+	dw NincadaAnimationIdle
+	dw NinjaskAnimationIdle
+	dw ShedinjaAnimationIdle
 	assert_table_length NUM_POKEMON
