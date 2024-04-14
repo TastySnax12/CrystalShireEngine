@@ -333,9 +333,10 @@ ROMX $80
 	"Tileset Data 12"
 ROMX $81
 	"Pics 21"
-	
 ROMX $82
 	"Pic Animations 4"
+ROMX $83
+	"Pics 22"
 WRAM0
 	"Stack"
 	"Audio RAM"

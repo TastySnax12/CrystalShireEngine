@@ -285,4 +285,11 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; SWELLOW
 	mon_cry CRY_RATTATA,       0,  0   ; WINGULL
 	mon_cry CRY_RATTATA,       0,  0   ; PELIPPER
+	mon_cry CRY_RATTATA,       0,  0   ; RALTS
+	mon_cry CRY_RATTATA,       0,  0   ; KIRLIA
+	mon_cry CRY_RATTATA,       0,  0   ; GARDEVOIR
+	mon_cry CRY_RATTATA,       0,  0   ; SURSKIT
+	mon_cry CRY_RATTATA,       0,  0   ; MASQUERAIN
+	mon_cry CRY_RATTATA,       0,  0   ; SHROOMISH
+	mon_cry CRY_RATTATA,       0,  0   ; BRELOOM
 	assert_table_length NUM_POKEMON

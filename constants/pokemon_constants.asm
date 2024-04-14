@@ -300,6 +300,14 @@ DEF HOENN_POKEMON EQU const_value
 	const SWELLOW    ; 115
 	const WINGULL    ; 116
 	const PELIPPER   ; 117
+	const RALTS      ; 118
+	const KIRLIA     ; 119
+	const GARDEVOIR  ; 11a
+	const SURSKIT    ; 11b
+	const MASQUERAIN ; 11c
+	const SHROOMISH  ; 11d
+	const BRELOOM    ; 11e
+	
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

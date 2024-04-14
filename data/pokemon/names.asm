@@ -283,4 +283,11 @@ PokemonNames::
 	db "SWELLOW@@@"
 	db "WINGULL@@@"
 	db "PELIPPER@@"
+	db "RALTS@@@@@"
+	db "KIRLIA@@@@"
+	db "GARDEVOIR@"
+	db "SURSKIT@@@"
+	db "MASQUERAIN"
+	db "SHROOMISH@"
+	db "BRELOOM@@@"
 	assert_table_length NUM_POKEMON

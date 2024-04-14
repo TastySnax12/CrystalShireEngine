@@ -29,6 +29,13 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw WingullEggMoves
 	dw NoEggMoves3
+	dw RaltsEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw SurskitEggMoves
+	dw NoEggMoves3
+	dw ShroomishEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -140,7 +147,7 @@ WingullEggMoves:
 	; dw WATER_SPORT
 	dw -1 ; end
 
-; RaltsEggMoves:
+RaltsEggMoves:
 	; dw CONFUSE_RAY
 	; dw DESTINY_BOND
 	; dw DISABLE
@@ -149,9 +156,9 @@ WingullEggMoves:
 	; dw MEMENTO
 	; dw SHADOW_SNEAK
 	; dw WILL_O_WISP
-	; dw -1 ; end
+	dw -1 ; end
 
-; SurskitEggMoves:
+SurskitEggMoves:
 	; dw BUG_BITE
 	; dw FORESIGHT
 	; dw HYDRO_PUMP
@@ -159,9 +166,9 @@ WingullEggMoves:
 	; dw MUD_SHOT
 	; dw PSYBEAM
 	; dw SIGNAL_BEAM
-	; dw -1 ; end
+	dw -1 ; end
 
-; ShroomishEggMoves:
+ShroomishEggMoves:
 	; dw CHARM
 	; dw FAKE_TEARS
 	; dw FALSE_SWIPE
@@ -170,7 +177,7 @@ WingullEggMoves:
 	; dw SWAGGER
 	; dw WAKE_UP_SLAP
 	; dw WORRY_SEED
-	; dw -1 ; end
+	dw -1 ; end
 
 ; SlakothEggMoves:
 	; dw BODY_SLAM

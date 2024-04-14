@@ -29,13 +29,13 @@ EvosAttacksPointers3::
 	dw SwellowEvosAttacks
 	dw WingullEvosAttacks
 	dw PelipperEvosAttacks
-	; dw RaltsEvosAttacks
-	; dw KirliaEvosAttacks
-	; dw GardevoirEvosAttacks
-	; dw SurskitEvosAttacks
-	; dw MasquerainEvosAttacks
-	; dw ShroomishEvosAttacks
-	; dw BreloomEvosAttacks
+	dw RaltsEvosAttacks
+	dw KirliaEvosAttacks
+	dw GardevoirEvosAttacks
+	dw SurskitEvosAttacks
+	dw MasquerainEvosAttacks
+	dw ShroomishEvosAttacks
+	dw BreloomEvosAttacks
 	; dw SlakothEvosAttacks
 	; dw VigorothEvosAttacks
 	; dw SlakingEvosAttacks
@@ -279,136 +279,40 @@ PelipperEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; RaltsEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 20, KIRLIA
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 6, CONFUSION
-	; dbw 10, DOUBLE_TEAM
-	; dbw 12, TELEPORT
-	; dbw 17, LUCKY_CHANT
-	; dbw 21, MAGICAL_LEAF
-	; dbw 23, CALM_MIND
-	; dbw 28, PSYCHIC_M
-	; dbw 32, IMPRISON
-	; dbw 34, FUTURE_SIGHT
-	; dbw 39, CHARM
-	; dbw 43, HYPNOSIS
-	; dbw 45, DREAM_EATER
-	; db 0 ; no more level-up moves
+RaltsEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; KirliaEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, GARDEVOIR
-	; dbbw EVOLVE_ITEM_MALE, DAWN_STONE, GALLADE
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, CONFUSION
-	; dbw 1, TELEPORT
-	; dbw 1, DOUBLE_TEAM
-	; dbw 6, CONFUSION
-	; dbw 10, DOUBLE_TEAM
-	; dbw 12, TELEPORT
-	; dbw 17, LUCKY_CHANT
-	; dbw 22, MAGICAL_LEAF
-	; dbw 25, CALM_MIND
-	; dbw 31, PSYCHIC_M
-	; dbw 36, IMPRISON
-	; dbw 39, FUTURE_SIGHT
-	; dbw 45, CHARM
-	; dbw 50, HYPNOSIS
-	; dbw 53, DREAM_EATER
-	; db 0 ; no more level-up moves
+KirliaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GardevoirEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, CONFUSION
-	; dbw 1, TELEPORT
-	; dbw 1, DOUBLE_TEAM
-	; dbw 1, HEALING_WISH
-	; dbw 6, CONFUSION
-	; dbw 10, DOUBLE_TEAM
-	; dbw 12, TELEPORT
-	; dbw 17, WISH
-	; dbw 22, MAGICAL_LEAF
-	; dbw 25, CALM_MIND
-	; dbw 33, PSYCHIC_M
-	; dbw 40, IMPRISON
-	; dbw 45, FUTURE_SIGHT
-	; dbw 53, CAPTIVATE
-	; dbw 60, HYPNOSIS
-	; dbw 65, DREAM_EATER
-	; db 0 ; no more level-up moves
+GardevoirEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SurskitEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 22, MASQUERAIN
-	; db 0 ; no more evolutions
-	; dbw 1, BUBBLE
-	; dbw 7, QUICK_ATTACK
-	; dbw 13, SWEET_SCENT
-	; dbw 19, WATER_SPORT
-	; dbw 25, BUBBLEBEAM
-	; dbw 31, AGILITY
-	; dbw 37, MIST
-	; dbw 37, HAZE
-	; dbw 43, BATON_PASS
-	; db 0 ; no more level-up moves
+SurskitEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MasquerainEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, QUICK_ATTACK
-	; dbw 1, BUBBLE
-	; dbw 1, SWEET_SCENT
-	; dbw 1, WATER_SPORT
-	; dbw 1, OMINOUS_WIND
-	; dbw 7, QUICK_ATTACK
-	; dbw 13, SWEET_SCENT
-	; dbw 19, WATER_SPORT
-	; dbw 22, GUST
-	; dbw 26, SCARY_FACE
-	; dbw 33, STUN_SPORE
-	; dbw 40, SILVER_WIND
-	; dbw 47, AIR_SLASH
-	; dbw 54, WHIRLWIND
-	; dbw 61, BUG_BUZZ
-	; db 0 ; no more level-up moves
+MasquerainEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShroomishEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 23, BRELOOM
-	; db 0 ; no more evolutions
-	; dbw 1, ABSORB
-	; dbw 5, TACKLE
-	; dbw 9, STUN_SPORE
-	; dbw 13, LEECH_SEED
-	; dbw 17, MEGA_DRAIN
-	; dbw 21, HEADBUTT
-	; dbw 25, POISONPOWDER
-	; dbw 29, WORRY_SEED
-	; dbw 33, GROWTH
-	; dbw 37, GIGA_DRAIN
-	; dbw 41, SEED_BOMB
-	; dbw 45, SPORE
-	; db 0 ; no more level-up moves
+ShroomishEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BreloomEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, ABSORB
-	; dbw 1, LEECH_SEED
-	; dbw 1, STUN_SPORE
-	; dbw 5, TACKLE
-	; dbw 9, STUN_SPORE
-	; dbw 13, LEECH_SEED
-	; dbw 17, MEGA_DRAIN
-	; dbw 21, HEADBUTT
-	; dbw 23, MACH_PUNCH
-	; dbw 25, COUNTER
-	; dbw 29, FORCE_PALM
-	; dbw 33, SKY_UPPERCUT
-	; dbw 37, MIND_READER
-	; dbw 41, SEED_BOMB
-	; dbw 45, DYNAMICPUNCH
-	; db 0 ; no more level-up moves
+BreloomEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; SlakothEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 18, VIGOROTH

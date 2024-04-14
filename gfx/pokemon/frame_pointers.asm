@@ -279,4 +279,11 @@ FramesPointers:
 	dba SwellowFrames
 	dba WingullFrames
 	dba PelipperFrames
+	dba RaltsFrames
+	dba KirliaFrames
+	dba GardevoirFrames
+	dba SurskitFrames
+	dba MasquerainFrames
+	dba ShroomishFrames
+	dba BreloomFrames
 	assert_table_length NUM_POKEMON

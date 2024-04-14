@@ -281,4 +281,11 @@ NewPokedexOrder:
 	dw SWELLOW
 	dw WINGULL
 	dw PELIPPER
+	dw RALTS
+	dw KIRLIA
+	dw GARDEVOIR
+	dw SURSKIT
+	dw MASQUERAIN
+	dw SHROOMISH
+	dw BRELOOM
 	assert_table_length NUM_POKEMON

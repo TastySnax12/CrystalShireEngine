@@ -20,6 +20,7 @@ AlphabeticalPokedexOrder:
 	dw BLASTOISE
 	dw BLAZIKEN
 	dw BLISSEY
+	dw BRELOOM
 	dw BULBASAUR
 	dw BUTTERFREE
 	dw CASCOON
@@ -71,6 +72,7 @@ AlphabeticalPokedexOrder:
 	dw FLAREON
 	dw FORRETRESS
 	dw FURRET
+	dw GARDEVOIR
 	dw GASTLY
 	dw GENGAR
 	dw GEODUDE
@@ -112,6 +114,7 @@ AlphabeticalPokedexOrder:
 	dw KANGASKHAN
 	dw KINGDRA
 	dw KINGLER
+	dw KIRLIA
 	dw KOFFING
 	dw KRABBY
 	dw LANTURN
@@ -140,6 +143,7 @@ AlphabeticalPokedexOrder:
 	dw MARILL
 	dw MAROWAK
 	dw MARSHTOMP
+	dw MASQUERAIN
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -197,6 +201,7 @@ AlphabeticalPokedexOrder:
 	dw QWILFISH
 	dw RAICHU
 	dw RAIKOU
+	dw RALTS
 	dw RAPIDASH
 	dw RATICATE
 	dw RATTATA
@@ -215,6 +220,7 @@ AlphabeticalPokedexOrder:
 	dw SENTRET
 	dw SHELLDER
 	dw SHIFTRY
+	dw SHROOMISH
 	dw SHUCKLE
 	dw SILCOON
 	dw SKARMORY
@@ -239,6 +245,7 @@ AlphabeticalPokedexOrder:
 	dw SUICUNE
 	dw SUNFLORA
 	dw SUNKERN
+	dw SURSKIT
 	dw SWAMPERT
 	dw SWELLOW
 	dw SWINUB

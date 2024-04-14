@@ -284,4 +284,11 @@ IconPointers:
 	dba MagikarpIcon ; SWELLOW
 	dba MagikarpIcon ; WINGULL
 	dba MagikarpIcon ; PELIPPER
+	dba MagikarpIcon ; RALTS
+	dba MagikarpIcon ; KIRLIA
+	dba MagikarpIcon ; GARDEVOIR
+	dba MagikarpIcon ; SURSKIT
+	dba MagikarpIcon ; MASQUERAIN
+	dba MagikarpIcon ; SHROOMISH
+	dba MagikarpIcon ; BRELOOM
 	assert_table_length NUM_POKEMON + 1

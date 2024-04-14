@@ -289,4 +289,11 @@ MonMenuIconPals:
 	icon_pals BLUE,   GREEN  ; SWELLOW
 	icon_pals BLUE,   GREEN  ; WINGULL
 	icon_pals BLUE,   GREEN  ; PELIPPER
+	icon_pals GREEN,  BLUE   ; RALTS
+	icon_pals GREEN,  BLUE   ; KIRLIA
+	icon_pals GREEN,  BLUE   ; GARDEVOIR
+	icon_pals TEAL,   BLUE   ; SURSKIT
+	icon_pals TEAL,   GREEN  ; MASQUERAIN
+	icon_pals GREEN,  RED    ; SHROOMISH
+	icon_pals GREEN,  RED    ; BRELOOM
 	assert_table_length NUM_POKEMON

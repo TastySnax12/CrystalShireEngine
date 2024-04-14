@@ -280,4 +280,11 @@ FirstEvoStages::
 	dw TAILLOW
 	dw WINGULL
 	dw WINGULL
+	dw RALTS
+	dw RALTS
+	dw RALTS
+	dw SURSKIT
+	dw SURSKIT
+	dw SHROOMISH
+	dw SHROOMISH
 	assert_table_length NUM_POKEMON

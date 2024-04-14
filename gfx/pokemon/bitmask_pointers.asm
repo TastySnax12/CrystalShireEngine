@@ -279,4 +279,11 @@ BitmasksPointers:
 	dw SwellowBitmasks
 	dw WingullBitmasks
 	dw PelipperBitmasks
+	dw RaltsBitmasks
+	dw KirliaBitmasks
+	dw GardevoirBitmasks
+	dw SurskitBitmasks
+	dw MasquerainBitmasks
+	dw ShroomishBitmasks
+	dw BreloomBitmasks
 	assert_table_length NUM_POKEMON
