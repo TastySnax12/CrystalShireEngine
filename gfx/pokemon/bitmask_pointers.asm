@@ -292,4 +292,11 @@ BitmasksPointers:
 	dw NincadaBitmasks
 	dw NinjaskBitmasks
 	dw ShedinjaBitmasks
+	dw WhismurBitmasks
+	dw LoudredBitmasks
+	dw ExploudBitmasks
+	dw MakuhitaBitmasks
+	dw HariyamaBitmasks
+	dw AzurillBitmasks
+	dw NosepassBitmasks
 	assert_table_length NUM_POKEMON

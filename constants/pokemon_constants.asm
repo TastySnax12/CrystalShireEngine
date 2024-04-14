@@ -313,7 +313,13 @@ DEF HOENN_POKEMON EQU const_value
 	const NINCADA    ; 122
 	const NINJASK    ; 123
 	const SHEDINJA   ; 124
-	
+	const WHISMUR    ; 125
+	const LOUDRED    ; 126
+	const EXPLOUD    ; 127
+	const MAKUHITA   ; 128
+	const HARIYAMA   ; 129
+	const AZURILL    ; 12a
+	const NOSEPASS   ; 12b
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

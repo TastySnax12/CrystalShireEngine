@@ -298,4 +298,11 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; NINCADA
 	mon_cry CRY_RATTATA,       0,  0   ; NINJASK
 	mon_cry CRY_RATTATA,       0,  0   ; SHEDINJA
+	mon_cry CRY_RATTATA,       0,  0   ; WHISMUR
+	mon_cry CRY_RATTATA,       0,  0   ; LOUDRED
+	mon_cry CRY_RATTATA,       0,  0   ; EXPLOUD
+	mon_cry CRY_RATTATA,       0,  0   ; MAKUHITA
+	mon_cry CRY_RATTATA,       0,  0   ; HARIYAMA
+	mon_cry CRY_RATTATA,       0,  0   ; AZURILL
+	mon_cry CRY_RATTATA,       0,  0   ; NOSEPASS
 	assert_table_length NUM_POKEMON

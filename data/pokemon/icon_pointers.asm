@@ -297,4 +297,11 @@ IconPointers:
 	dba MagikarpIcon ; NINCADA
 	dba MagikarpIcon ; NINJASK
 	dba MagikarpIcon ; SHEDINJA
+	dba MagikarpIcon ; WHISMUR
+	dba MagikarpIcon ; LOUDRED
+	dba MagikarpIcon ; EXPLOUD
+	dba MagikarpIcon ; MAKUHITA
+	dba MagikarpIcon ; HARIYAMA
+	dba MagikarpIcon ; AZURILL
+	dba MagikarpIcon ; NOSEPASS
 	assert_table_length NUM_POKEMON + 1

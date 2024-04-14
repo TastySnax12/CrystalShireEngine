@@ -12,6 +12,7 @@ AlphabeticalPokedexOrder:
 	dw ARIADOS
 	dw ARTICUNO
 	dw AZUMARILL
+	dw AZURILL
 	dw BAYLEEF
 	dw BEAUTIFLY
 	dw BEEDRILL
@@ -65,6 +66,7 @@ AlphabeticalPokedexOrder:
 	dw ESPEON
 	dw EXEGGCUTE
 	dw EXEGGUTOR
+	dw EXPLOUD
 	dw FARFETCH_D
 	dw FEAROW
 	dw FERALIGATR
@@ -89,6 +91,7 @@ AlphabeticalPokedexOrder:
 	dw GROVYLE
 	dw GROWLITHE
 	dw GYARADOS
+	dw HARIYAMA
 	dw HAUNTER
 	dw HERACROSS
 	dw HITMONCHAN
@@ -126,6 +129,7 @@ AlphabeticalPokedexOrder:
 	dw LINOONE
 	dw LOMBRE
 	dw LOTAD
+	dw LOUDRED
 	dw LUDICOLO
 	dw LUGIA
 	dw MACHAMP
@@ -137,6 +141,7 @@ AlphabeticalPokedexOrder:
 	dw MAGMAR
 	dw MAGNEMITE
 	dw MAGNETON
+	dw MAKUHITA
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP
@@ -168,6 +173,7 @@ AlphabeticalPokedexOrder:
 	dw NINETALES
 	dw NINJASK
 	dw NOCTOWL
+	dw NOSEPASS
 	dw NUZLEAF
 	dw OCTILLERY
 	dw ODDISH
@@ -284,6 +290,7 @@ AlphabeticalPokedexOrder:
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
+	dw WHISMUR
 	dw WIGGLYTUFF
 	dw WINGULL
 	dw WOBBUFFET

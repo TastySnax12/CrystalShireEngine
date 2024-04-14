@@ -42,13 +42,13 @@ EvosAttacksPointers3::
 	dw NincadaEvosAttacks
 	dw NinjaskEvosAttacks
 	dw ShedinjaEvosAttacks
-	; dw WhismurEvosAttacks
-	; dw LoudredEvosAttacks
-	; dw ExploudEvosAttacks
-	; dw MakuhitaEvosAttacks
-	; dw HariyamaEvosAttacks
-	; dw AzurillEvosAttacks
-	; dw NosepassEvosAttacks
+	dw WhismurEvosAttacks
+	dw LoudredEvosAttacks
+	dw ExploudEvosAttacks
+	dw MakuhitaEvosAttacks
+	dw HariyamaEvosAttacks
+	dw AzurillEvosAttacks
+	dw NosepassEvosAttacks
 	; dw SkittyEvosAttacks
 	; dw DelcattyEvosAttacks
 	; dw SableyeEvosAttacks
@@ -344,139 +344,40 @@ ShedinjaEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; WhismurEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 20, LOUDRED
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 5, UPROAR
-	; dbw 11, ASTONISH
-	; dbw 15, HOWL
-	; dbw 21, SUPERSONIC
-	; dbw 25, STOMP
-	; dbw 31, SCREECH
-	; dbw 35, ROAR
-	; dbw 41, REST
-	; dbw 41, SLEEP_TALK
-	; dbw 45, HYPER_VOICE
-	; db 0 ; no more level-up moves
+WhismurEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LoudredEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 40, EXPLOUD
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, UPROAR
-	; dbw 1, ASTONISH
-	; dbw 1, HOWL
-	; dbw 5, UPROAR
-	; dbw 11, ASTONISH
-	; dbw 15, HOWL
-	; dbw 20, BITE
-	; dbw 23, SUPERSONIC
-	; dbw 29, STOMP
-	; dbw 37, SCREECH
-	; dbw 43, ROAR
-	; dbw 51, REST
-	; dbw 51, SLEEP_TALK
-	; dbw 57, HYPER_VOICE
-	; db 0 ; no more level-up moves
+LoudredEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ExploudEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, UPROAR
-	; dbw 1, ASTONISH
-	; dbw 1, HOWL
-	; dbw 1, THUNDER_FANG
-	; dbw 1, ICE_FANG
-	; dbw 1, FIRE_FANG
-	; dbw 5, UPROAR
-	; dbw 11, ASTONISH
-	; dbw 15, HOWL
-	; dbw 20, BITE
-	; dbw 23, SUPERSONIC
-	; dbw 29, STOMP
-	; dbw 37, SCREECH
-	; dbw 40, CRUNCH
-	; dbw 45, ROAR
-	; dbw 55, REST
-	; dbw 55, SLEEP_TALK
-	; dbw 63, HYPER_VOICE
-	; dbw 71, HYPER_BEAM
-	; db 0 ; no more level-up moves
+ExploudEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MakuhitaEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 24, HARIYAMA
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, FOCUS_ENERGY
-	; dbw 4, SAND_ATTACK
-	; dbw 7, ARM_THRUST
-	; dbw 10, VITAL_THROW
-	; dbw 13, FAKE_OUT
-	; dbw 16, WHIRLWIND
-	; dbw 19, KNOCK_OFF
-	; dbw 22, SMELLINGSALT
-	; dbw 25, BELLY_DRUM
-	; dbw 28, FORCE_PALM
-	; dbw 31, SEISMIC_TOSS
-	; dbw 34, WAKE_UP_SLAP
-	; dbw 37, ENDURE
-	; dbw 40, CLOSE_COMBAT
-	; dbw 43, REVERSAL
-	; db 0 ; no more level-up moves
+MakuhitaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; HariyamaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, TACKLE
-	; dbw 1, FOCUS_ENERGY
-	; dbw 1, ARM_THRUST
-	; dbw 1, BRINE
-	; dbw 4, SAND_ATTACK
-	; dbw 7, ARM_THRUST
-	; dbw 10, VITAL_THROW
-	; dbw 13, FAKE_OUT
-	; dbw 16, WHIRLWIND
-	; dbw 19, KNOCK_OFF
-	; dbw 22, SMELLINGSALT
-	; dbw 27, BELLY_DRUM
-	; dbw 32, FORCE_PALM
-	; dbw 37, SEISMIC_TOSS
-	; dbw 42, WAKE_UP_SLAP
-	; dbw 47, ENDURE
-	; dbw 52, CLOSE_COMBAT
-	; dbw 57, REVERSAL
-	; db 0 ; no more level-up moves
+HariyamaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; AzurillEvosAttacks:
-	; dbbw EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
-	; db 0 ; no more evolutions
-	; dbw 1, SPLASH
-	; dbw 2, CHARM
-	; dbw 7, TAIL_WHIP
-	; dbw 10, BUBBLE
-	; dbw 15, SLAM
-	; dbw 18, WATER_GUN
-	; db 0 ; no more level-up moves
+AzurillEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; NosepassEvosAttacks:
-	; dbbbw EVOLVE_LEVEL_IN_LOCATION, 1, MAGNETIC_FIELD, PROBOPASS
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 7, HARDEN
-	; dbw 13, ROCK_THROW
-	; dbw 19, BLOCK
-	; dbw 25, THUNDER_WAVE
-	; dbw 31, ROCK_SLIDE
-	; dbw 37, SANDSTORM
-	; dbw 43, REST
-	; dbw 49, POWER_GEM
-	; dbw 55, DISCHARGE
-	; dbw 61, STONE_EDGE
-	; dbw 67, ZAP_CANNON
-	; dbw 73, LOCK_ON
-	; dbw 79, EARTH_POWER
-	; db 0 ; no more level-up moves
+NosepassEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; SkittyEvosAttacks:
 	; dbbw EVOLVE_ITEM, MOON_STONE, DELCATTY

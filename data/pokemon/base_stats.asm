@@ -331,5 +331,12 @@ INCLUDE "data/pokemon/base_stats/slaking.asm"
 INCLUDE "data/pokemon/base_stats/nincada.asm"
 INCLUDE "data/pokemon/base_stats/ninjask.asm"
 INCLUDE "data/pokemon/base_stats/shedinja.asm"
+INCLUDE "data/pokemon/base_stats/whismur.asm"
+INCLUDE "data/pokemon/base_stats/loudred.asm"
+INCLUDE "data/pokemon/base_stats/exploud.asm"
+INCLUDE "data/pokemon/base_stats/makuhita.asm"
+INCLUDE "data/pokemon/base_stats/hariyama.asm"
+INCLUDE "data/pokemon/base_stats/azurill.asm"
+INCLUDE "data/pokemon/base_stats/nosepass.asm"
 
 .IndirectEnd::

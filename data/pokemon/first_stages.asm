@@ -293,4 +293,11 @@ FirstEvoStages::
 	dw NINCADA
 	dw NINCADA
 	dw NINCADA
+	dw WHISMUR
+	dw WHISMUR
+	dw WHISMUR
+	dw MAKUHITA
+	dw MAKUHITA
+	dw AZURILL
+	dw NOSEPASS
 	assert_table_length NUM_POKEMON

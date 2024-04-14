@@ -600,4 +600,18 @@ PokemonPicPointers::
 	dba NinjaskBackpic
 	dba ShedinjaFrontpic
 	dba ShedinjaBackpic
+	dba WhismurFrontpic
+	dba WhismurBackpic
+	dba LoudredFrontpic
+	dba LoudredBackpic
+	dba ExploudFrontpic
+	dba ExploudBackpic
+	dba MakuhitaFrontpic
+	dba MakuhitaBackpic
+	dba HariyamaFrontpic
+	dba HariyamaBackpic
+	dba AzurillFrontpic
+	dba AzurillBackpic
+	dba NosepassFrontpic
+	dba NosepassBackpic
 	assert_table_length NUM_POKEMON + 1

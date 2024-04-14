@@ -292,4 +292,11 @@ AnimationPointers:
 	dw NincadaAnimation
 	dw NinjaskAnimation
 	dw ShedinjaAnimation
+	dw WhismurAnimation
+	dw LoudredAnimation
+	dw ExploudAnimation
+	dw MakuhitaAnimation
+	dw HariyamaAnimation
+	dw AzurillAnimation
+	dw NosepassAnimation
 	assert_table_length NUM_POKEMON

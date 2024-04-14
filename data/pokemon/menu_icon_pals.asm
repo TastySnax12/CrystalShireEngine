@@ -302,4 +302,11 @@ MonMenuIconPals:
 	icon_pals BROWN,  GRAY   ; NINCADA
 	icon_pals GRAY,   RED    ; NINJASK
 	icon_pals BROWN,  GRAY   ; SHEDINJA
+	icon_pals PURPLE, GREEN  ; WHISMUR
+	icon_pals PURPLE, PINK   ; LOUDRED
+	icon_pals PURPLE, PINK   ; EXPLOUD
+	icon_pals RED,    RED    ; MAKUHITA
+	icon_pals RED,    PURPLE ; HARIYAMA
+	icon_pals BLUE,   GREEN  ; AZURILL
+	icon_pals GRAY,   RED    ; NOSEPASS
 	assert_table_length NUM_POKEMON

@@ -296,4 +296,11 @@ PokemonNames::
 	db "NINCADA@@@"
 	db "NINJASK@@@"
 	db "SHEDINJA@@"
+	db "WHISMUR@@@"
+	db "LOUDRED@@@"
+	db "EXPLOUD@@@"
+	db "MAKUHITA@@"
+	db "HARIYAMA@@"
+	db "AZURILL@@@"
+	db "NOSEPASS@@"
 	assert_table_length NUM_POKEMON

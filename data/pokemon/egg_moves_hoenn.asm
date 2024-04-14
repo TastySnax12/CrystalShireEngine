@@ -42,6 +42,13 @@ EggMovePointers3::
 	dw NincadaEggMoves
 	dw NoEggMoves3
 	dw NoEggMoves3
+	dw WhismurEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw MakuhitaEggMoves
+	dw NoEggMoves3
+	dw AzurillEggMoves
+	dw NosepassEggMoves
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -207,7 +214,7 @@ NincadaEggMoves:
 	; dw SILVER_WIND
 	dw -1 ; end
 
-; WhismurEggMoves:
+WhismurEggMoves:
 	; dw ENDEAVOR
 	; dw EXTRASENSORY
 	; dw SMELLINGSALT
@@ -215,9 +222,9 @@ NincadaEggMoves:
 	; dw SNORE
 	; dw SWAGGER
 	; dw TAKE_DOWN
-	; dw -1 ; end
+	dw -1 ; end
 
-; MakuhitaEggMoves:
+MakuhitaEggMoves:
 	; dw BULLET_PUNCH
 	; dw COUNTER
 	; dw CROSS_CHOP
@@ -228,24 +235,24 @@ NincadaEggMoves:
 	; dw HELPING_HAND
 	; dw REVENGE
 	; dw WAKE_UP_SLAP
-	; dw -1 ; end
+	dw -1 ; end
 	
-; AzurillEggMoves:
+AzurillEggMoves:
 	; dw ENCORE
 	; dw FAKE_TEARS
 	; dw REFRESH
 	; dw SING
 	; dw SLAM
 	; dw TICKLE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; NosepassEggMoves:
+NosepassEggMoves:
 	; dw BLOCK
 	; dw DOUBLE_EDGE
 	; dw EXPLOSION
 	; dw MAGNITUDE
 	; dw ROLLOUT
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; SkittyEggMoves:
 	; dw BATON_PASS

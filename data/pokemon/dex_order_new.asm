@@ -294,4 +294,11 @@ NewPokedexOrder:
 	dw NINCADA
 	dw NINJASK
 	dw SHEDINJA
+	dw WHISMUR
+	dw LOUDRED
+	dw EXPLOUD
+	dw MAKUHITA
+	dw HARIYAMA
+	dw AZURILL
+	dw NOSEPASS
 	assert_table_length NUM_POKEMON
