@@ -543,7 +543,7 @@ OakSpeech:
 	call FadeToBlack
 	call ClearTilemap
 
-	ld de, MUSIC_ROUTE_201
+	ld de, MUSIC_PROF_ROWAN
 	call PlayMusic
 
 	ld c, 31
