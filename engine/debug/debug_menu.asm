@@ -221,7 +221,7 @@ Debug_SetFlags:
 	ret z
 	ld b, SET_FLAG
 	push hl
-	farcall EventFlagAction
+	call EventFlagAction
 	pop hl
 	jr .loop_event
 
@@ -235,7 +235,7 @@ Debug_SetFlags:
 	; dex
 	dw ENGINE_POKEDEX
 	; badges
-	dw ENGINE_ZEPHYRBADGE
+	dw ENGINE_COALBADGE
 	dw ENGINE_HIVEBADGE
 	dw ENGINE_PLAINBADGE
 	dw ENGINE_FOGBADGE

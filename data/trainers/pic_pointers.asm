@@ -69,6 +69,6 @@ TrainerPicPointers::
 	dba BluePic
 	dba OfficerPic
 	dba GruntfPic
-	dba MysticalmanPic
+	dba SchoolgirlPic
 	dba KrisTrainerPic
 	assert_table_length NUM_TRAINER_CLASSES

@@ -45,12 +45,12 @@
 	const SUPER_REPEL  ; 0025
 	const MAX_REPEL    ; 0026
 	const DIRE_HIT     ; 0027
-	const ITEM_2D      ; 0028
+	const PARCEL       ; 0028
 	const FRESH_WATER  ; 0029
 	const SODA_POP     ; 002A
 	const LEMONADE     ; 002B
 	const X_ATTACK     ; 002C
-	const PARCEL       ; 002D
+	const COUPON       ; 002D
 	const X_DEFEND     ; 002E
 	const X_SPEED      ; 002F
 	const X_SPECIAL    ; 0030
@@ -210,6 +210,16 @@ DEF FIRST_BALL_ITEM EQU const_value
 	const MOON_BALL    ; 0209
 	const LOVE_BALL    ; 020A
 	const PARK_BALL    ; 020B
+	const NET_BALL     ; 020C
+	const DIVE_BALL    ; 020D
+	const NEST_BALL    ; 020E
+	const REPEAT_BALL  ; 020F
+	const TIMER_BALL   ; 0210
+	const LUXURY_BALL  ; 0211
+	const DUSK_BALL    ; 0212
+	const HEAL_BALL    ; 0213
+	const QUICK_BALL   ; 0214
+
 DEF NUM_BALL_ITEM_POCKET EQU const_value - FIRST_BALL_ITEM
 assert NUM_BALL_ITEM_POCKET <= $ff
 DEF NUM_ITEMS EQU const_value - 1

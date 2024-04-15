@@ -230,6 +230,15 @@ ItemEffectsBalls:
 	dw PokeBallEffect ; MOON_BALL
 	dw PokeBallEffect ; LOVE_BALL
 	dw PokeBallEffect ; PARK_BALL
+	dw PokeBallEffect ; NET BALL
+	dw PokeBallEffect ; DIVE BALL
+	dw PokeBallEffect ; NEST BALL
+	dw PokeBallEffect ; REPEAT BALL
+	dw PokeBallEffect ; TIMER BALL
+	dw PokeBallEffect ; LUXURY BALL
+	dw PokeBallEffect ; DUSK BALL
+	dw PokeBallEffect ; HEAL BALL
+	dw PokeBallEffect ; QUICK BALL
 .IndirectEnd:
 
 PokeBallEffect:

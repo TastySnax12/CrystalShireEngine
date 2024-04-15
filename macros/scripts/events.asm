@@ -1140,4 +1140,11 @@ MACRO clearfollowing
 	db clearfollowing_command
 ENDM
 
+	const setmovedata_command ; $b6
+MACRO setmovedata
+	db setmovedata_command
+	db \1 ; object id
+	db \2 ; move data
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value

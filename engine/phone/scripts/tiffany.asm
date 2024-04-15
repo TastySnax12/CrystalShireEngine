@@ -1,5 +1,5 @@
 TiffanyPhoneCalleeScript:
-	gettrainername STRING_BUFFER_3, PICNICKER, TIFFANY3
+;	gettrainername STRING_BUFFER_3, PICNICKER, TIFFANY3
 	checkflag ENGINE_TIFFANY_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	farscall PhoneScript_AnswerPhone_Female
@@ -24,7 +24,7 @@ TiffanyPhoneCalleeScript:
 	farsjump TiffanyHurryScript
 
 TiffanyPhoneCallerScript:
-	gettrainername STRING_BUFFER_3, PICNICKER, TIFFANY3
+;	gettrainername STRING_BUFFER_3, PICNICKER, TIFFANY3
 	farscall PhoneScript_Random4
 	ifequal 0, TiffanysFamilyMembers
 	farscall PhoneScript_GreetPhone_Female

@@ -964,3 +964,13 @@ QueueFollowerFirstStep:
 .same_xy
 	scf
 	ret
+
+SetObjectMoveData::
+	push de
+	ld a, b
+	call GetMapObject
+	pop de
+	ld hl, MAPOBJECT_MOVEMENT
+	add hl, bc
+	ld [hl], d
+	ret
