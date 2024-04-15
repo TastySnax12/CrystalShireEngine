@@ -129,6 +129,13 @@
 	charmap "└",         $be
 	charmap "┘",         $bf
 
+	charmap "<ARROW_U>", $c0
+	charmap "<ARROW_|>", $c1
+	charmap "<ARROW_D>", $c2
+	charmap "<ARROW_L>", $c3
+	charmap "<ARROW_->", $c4
+	charmap "<ARROW_R>", $c5
+
 	charmap "′",         $ce
 	charmap "″",         $cf
 

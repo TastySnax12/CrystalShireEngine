@@ -252,20 +252,13 @@ ENDM
 	dict "<SCROLL>",  _ContTextNoPause
 	dict "<_CONT>",   _ContText
 	dict "<PARA>",    Paragraph
-	dict "<MOM>",     PrintMomsName
 	dict "<PLAYER>",  PrintPlayerName
 	dict "<RIVAL>",   PrintRivalName
-	dict "<ROUTE>",   PlaceJPRoute
-	dict "<WATASHI>", PlaceWatashi
-	dict "<KOKO_WA>", PlaceKokoWa
-	dict "<RED>",     PrintRedsName
-	dict "<GREEN>",   PrintGreensName
 	dict "#",         PlacePOKe
 	dict "<PC>",      PCChar
 	dict "<ROCKET>",  RocketChar
 	dict "<TM>",      TMChar
 	dict "<TRAINER>", TrainerChar
-	dict "<KOUGEKI>", PlaceKougeki
 	dict "<LF>",      LineFeedChar
 	dict "<CONT>",    ContText
 	dict "<……>",      SixDotsChar
@@ -279,11 +272,31 @@ ENDM
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
 	dict "<ENEMY>",   PlaceEnemysName
-	dict "<PLAY_G>",  PlaceGenderedPlayerName
+	dict "<ASST>",    PlaceDawnLucasName
+	dict "<SIGNR>",   PlaceSignRight
+	dict "<SIGNL>",   PlaceSignLeft
+	dict "<SIGNU>",   PlaceSignUp
+	dict "<SIGND>",   PlaceSignDown
+	dict "<SIGN|>",   "<ARROW_|>"
 
 	ld [hli], a
 	call PrintLetterDelay
 	jmp NextChar
+
+PlaceDawnLucasName:
+	push de
+	ld a, [wPlayerGender]
+	bit PLAYERGENDER_FEMALE_F, a
+	ld de, .DawnName
+	jr z, .male
+	ld de, .LucasName
+.male
+	jp PlaceCommandCharacter
+
+.DawnName:
+	db "DAWN@"
+.LucasName:
+	db "LUCAS@"
 
 MACRO print_name
 	push de
@@ -291,24 +304,19 @@ MACRO print_name
 	jp PlaceCommandCharacter
 ENDM
 
-PrintMomsName:   print_name wMomsName
 PrintPlayerName: print_name wPlayerName
 PrintRivalName:  print_name wRivalName
-PrintRedsName:   print_name wRedsName
-PrintGreensName: print_name wGreensName
 
 TrainerChar:  print_name TrainerCharText
 TMChar:       print_name TMCharText
 PCChar:       print_name PCCharText
 RocketChar:   print_name RocketCharText
 PlacePOKe:    print_name PlacePOKeText
-PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
 PlacePOKE:    print_name PlacePOKEText
-PlaceJPRoute: print_name PlaceJPRouteText
-PlaceWatashi: print_name PlaceWatashiText
-PlaceKokoWa:  print_name PlaceKokoWaText
+PlaceSignRight: print_name ArrowRText
+PlaceSignLeft:  print_name ArrowLText
 
 PlaceMoveTargetsName::
 	ldh a, [hBattleTurn]
@@ -368,18 +376,26 @@ PlaceEnemysName::
 	ld de, wOTClassName
 	jr PlaceCommandCharacter
 
-PlaceGenderedPlayerName::
+PlaceSignUp:
 	push de
-	ld de, wPlayerName
-	rst PlaceString
-	ld h, b
-	ld l, c
-	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
-	ld de, KunSuffixText
-	jr z, PlaceCommandCharacter
-	ld de, ChanSuffixText
-; fallthrough
+	ld de, SCREEN_WIDTH-1
+	ld a, "<ARROW_U>"
+	jr PlaceMultiLineArrow
+
+PlaceSignDown:
+	push de
+	ld de, -SCREEN_WIDTH-1
+	ld a, "<ARROW_D>"
+PlaceMultiLineArrow:
+	ld [hli], a
+	push hl
+	add hl, de
+	ld a, "<ARROW_|>"
+	ld [hl], a
+	pop hl
+	pop de
+	call PrintLetterDelay
+	jp NextChar
 
 PlaceCommandCharacter::
 	rst PlaceString
@@ -399,12 +415,8 @@ EnemyText::       db "Enemy @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
-; These strings have been dummied out.
-PlaceJPRouteText::
-PlaceWatashiText::
-PlaceKokoWaText:: db "@"
-KunSuffixText::   db "@"
-ChanSuffixText::  db "@"
+ArrowRText::      db "<ARROW_-><ARROW_-><ARROW_R>@"
+ArrowLText::      db "<ARROW_L><ARROW_-><ARROW_->@"
 
 NextLineChar::
 	pop hl
