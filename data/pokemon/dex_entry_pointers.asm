@@ -300,4 +300,11 @@ PokedexDataPointerTable:
 	dba HariyamaPokedexEntry
 	dba AzurillPokedexEntry
 	dba NosepassPokedexEntry
+	dba SkittyPokedexEntry
+	dba DelcattyPokedexEntry
+	dba SableyePokedexEntry
+	dba MawilePokedexEntry
+	dba AronPokedexEntry
+	dba LaironPokedexEntry
+	dba AggronPokedexEntry
 	assert_table_length NUM_POKEMON

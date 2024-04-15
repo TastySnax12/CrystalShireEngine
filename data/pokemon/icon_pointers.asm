@@ -304,4 +304,11 @@ IconPointers:
 	dba MagikarpIcon ; HARIYAMA
 	dba MagikarpIcon ; AZURILL
 	dba MagikarpIcon ; NOSEPASS
+	dba MagikarpIcon ; SKITTY
+	dba MagikarpIcon ; DELCATTY
+	dba MagikarpIcon ; SABLEYE
+	dba MagikarpIcon ; MAWILE
+	dba MagikarpIcon ; ARON
+	dba MagikarpIcon ; LAIRON
+	dba MagikarpIcon ; AGGRON
 	assert_table_length NUM_POKEMON + 1

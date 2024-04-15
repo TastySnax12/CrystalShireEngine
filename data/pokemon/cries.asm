@@ -305,4 +305,11 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; HARIYAMA
 	mon_cry CRY_RATTATA,       0,  0   ; AZURILL
 	mon_cry CRY_RATTATA,       0,  0   ; NOSEPASS
+	mon_cry CRY_RATTATA,       0,  0   ; SKITTY
+	mon_cry CRY_RATTATA,       0,  0   ; DELCATTY
+	mon_cry CRY_RATTATA,       0,  0   ; SABLEYE
+	mon_cry CRY_RATTATA,       0,  0   ; MAWILE
+	mon_cry CRY_RATTATA,       0,  0   ; ARON
+	mon_cry CRY_RATTATA,       0,  0   ; LAIRON
+	mon_cry CRY_RATTATA,       0,  0   ; AGGRON
 	assert_table_length NUM_POKEMON

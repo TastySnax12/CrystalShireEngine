@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
 	; day
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
 	; nite
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
-	dbw 5, NOSEPASS
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
+	dbw 5, AGGRON
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

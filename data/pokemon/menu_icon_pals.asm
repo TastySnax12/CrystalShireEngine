@@ -309,4 +309,11 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; HARIYAMA
 	icon_pals BLUE,   GREEN  ; AZURILL
 	icon_pals GRAY,   RED    ; NOSEPASS
+	icon_pals PINK,   RED    ; SKITTY
+	icon_pals PURPLE, RED    ; DELCATTY
+	icon_pals PURPLE, RED    ; SABLEYE
+	icon_pals GRAY,   PURPLE ; MAWILE
+	icon_pals GRAY,   TEAL   ; ARON
+	icon_pals GRAY,   TEAL   ; LAIRON
+	icon_pals GRAY,   TEAL   ; AGGRON
 	assert_table_length NUM_POKEMON

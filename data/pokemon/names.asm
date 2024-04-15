@@ -303,4 +303,11 @@ PokemonNames::
 	db "HARIYAMA@@"
 	db "AZURILL@@@"
 	db "NOSEPASS@@"
+	db "SKITTY@@@@"
+	db "DELCATTY@@"
+	db "SABLEYE@@@"
+	db "MAWILE@@@@"
+	db "ARON@@@@@@"
+	db "LAIRON@@@@"
+	db "AGGRON@@@@"
 	assert_table_length NUM_POKEMON

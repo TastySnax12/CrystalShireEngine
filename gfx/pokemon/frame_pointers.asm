@@ -299,4 +299,11 @@ FramesPointers:
 	dba HariyamaFrames
 	dba AzurillFrames
 	dba NosepassFrames
+	dba SkittyFrames
+	dba DelcattyFrames
+	dba SableyeFrames
+	dba MawileFrames
+	dba AronFrames
+	dba LaironFrames
+	dba AggronFrames
 	assert_table_length NUM_POKEMON

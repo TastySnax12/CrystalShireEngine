@@ -299,4 +299,11 @@ AnimationPointers:
 	dw HariyamaAnimation
 	dw AzurillAnimation
 	dw NosepassAnimation
+	dw SkittyAnimation
+	dw DelcattyAnimation
+	dw SableyeAnimation
+	dw MawileAnimation
+	dw AronAnimation
+	dw LaironAnimation
+	dw AggronAnimation
 	assert_table_length NUM_POKEMON

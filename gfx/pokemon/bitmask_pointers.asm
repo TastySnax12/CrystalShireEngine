@@ -299,4 +299,11 @@ BitmasksPointers:
 	dw HariyamaBitmasks
 	dw AzurillBitmasks
 	dw NosepassBitmasks
+	dw SkittyBitmasks
+	dw DelcattyBitmasks
+	dw SableyeBitmasks
+	dw MawileBitmasks
+	dw AronBitmasks
+	dw LaironBitmasks
+	dw AggronBitmasks
 	assert_table_length NUM_POKEMON

@@ -300,4 +300,11 @@ FirstEvoStages::
 	dw MAKUHITA
 	dw AZURILL
 	dw NOSEPASS
+	dw SKITTY
+	dw SKITTY
+	dw SABLEYE
+	dw MAWILE
+	dw ARON
+	dw ARON
+	dw ARON
 	assert_table_length NUM_POKEMON

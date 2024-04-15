@@ -338,5 +338,12 @@ INCLUDE "data/pokemon/base_stats/makuhita.asm"
 INCLUDE "data/pokemon/base_stats/hariyama.asm"
 INCLUDE "data/pokemon/base_stats/azurill.asm"
 INCLUDE "data/pokemon/base_stats/nosepass.asm"
+INCLUDE "data/pokemon/base_stats/skitty.asm"
+INCLUDE "data/pokemon/base_stats/delcatty.asm"
+INCLUDE "data/pokemon/base_stats/sableye.asm"
+INCLUDE "data/pokemon/base_stats/mawile.asm"
+INCLUDE "data/pokemon/base_stats/aron.asm"
+INCLUDE "data/pokemon/base_stats/lairon.asm"
+INCLUDE "data/pokemon/base_stats/aggron.asm"
 
 .IndirectEnd::

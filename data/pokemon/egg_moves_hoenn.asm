@@ -49,6 +49,13 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw AzurillEggMoves
 	dw NosepassEggMoves
+	dw SkittyEggMoves
+	dw NoEggMoves3
+	dw SableyeEggMoves
+	dw MawileEggMoves
+	dw AronEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -254,7 +261,7 @@ NosepassEggMoves:
 	; dw ROLLOUT
 	dw -1 ; end
 	
-; SkittyEggMoves:
+SkittyEggMoves:
 	; dw BATON_PASS
 	; dw FAKE_OUT
 	; dw FAKE_TEARS
@@ -267,17 +274,17 @@ NosepassEggMoves:
 	; dw UPROAR
 	; dw WISH
 	; dw ZEN_HEADBUTT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; SableyeEggMoves:
+SableyeEggMoves:
 	; dw FLATTER
 	; dw MOONLIGHT
 	; dw NASTY_PLOT
 	; dw PSYCH_UP
 	; dw RECOVER
-	; dw -1 ; end
+	dw -1 ; end
 	
-; MawileEggMoves:
+MawileEggMoves:
 	; dw ANCIENTPOWER
 	; dw FALSE_SWIPE
 	; dw FIRE_FANG
@@ -289,9 +296,9 @@ NosepassEggMoves:
 	; dw SWORDS_DANCE
 	; dw THUNDER_FANG
 	; dw TICKLE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; AronEggMoves:
+AronEggMoves:
 	; dw BODY_SLAM
 	; dw CURSE
 	; dw DRAGON_RUSH
@@ -300,7 +307,7 @@ NosepassEggMoves:
 	; dw SCREECH
 	; dw SMELLINGSALT
 	; dw STOMP
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; MedititeEggMoves:
 	; dw BATON_PASS

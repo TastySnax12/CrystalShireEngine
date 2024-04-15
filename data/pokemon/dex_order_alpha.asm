@@ -4,12 +4,14 @@ AlphabeticalPokedexOrder:
 	table_width 2, AlphabeticalPokedexOrder
 	dw ABRA
 	dw AERODACTYL
+	dw AGGRON
 	dw AIPOM
 	dw ALAKAZAM
 	dw AMPHAROS
 	dw ARBOK
 	dw ARCANINE
 	dw ARIADOS
+	dw ARON
 	dw ARTICUNO
 	dw AZUMARILL
 	dw AZURILL
@@ -43,6 +45,7 @@ AlphabeticalPokedexOrder:
 	dw CROCONAW
 	dw CUBONE
 	dw CYNDAQUIL
+	dw DELCATTY
 	dw DELIBIRD
 	dw DEWGONG
 	dw DIGLETT
@@ -120,6 +123,7 @@ AlphabeticalPokedexOrder:
 	dw KIRLIA
 	dw KOFFING
 	dw KRABBY
+	dw LAIRON
 	dw LANTURN
 	dw LAPRAS
 	dw LARVITAR
@@ -149,6 +153,7 @@ AlphabeticalPokedexOrder:
 	dw MAROWAK
 	dw MARSHTOMP
 	dw MASQUERAIN
+	dw MAWILE
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -216,6 +221,7 @@ AlphabeticalPokedexOrder:
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
+	dw SABLEYE
 	dw SANDSHREW
 	dw SANDSLASH
 	dw SCEPTILE
@@ -234,6 +240,7 @@ AlphabeticalPokedexOrder:
 	dw SILCOON
 	dw SKARMORY
 	dw SKIPLOOM
+	dw SKITTY
 	dw SLAKING
 	dw SLAKOTH
 	dw SLOWBRO
