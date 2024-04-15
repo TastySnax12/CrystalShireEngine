@@ -332,4 +332,11 @@ IconPointers:
 	dba MagikarpIcon ; SPOINK
 	dba MagikarpIcon ; GRUMPIG
 	dba MagikarpIcon ; SPINDA
+	dba MagikarpIcon ; TRAPINCH
+	dba MagikarpIcon ; VIBRAVA
+	dba MagikarpIcon ; FLYGON
+	dba MagikarpIcon ; CACNEA
+	dba MagikarpIcon ; CACTURNE
+	dba MagikarpIcon ; SWABLU
+	dba MagikarpIcon ; ALTARIA
 	assert_table_length NUM_POKEMON + 1

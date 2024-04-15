@@ -329,4 +329,11 @@ NewPokedexOrder:
 	dw SPOINK
 	dw GRUMPIG
 	dw SPINDA
+	dw TRAPINCH
+	dw VIBRAVA
+	dw FLYGON
+	dw CACNEA
+	dw CACTURNE
+	dw SWABLU
+	dw ALTARIA
 	assert_table_length NUM_POKEMON

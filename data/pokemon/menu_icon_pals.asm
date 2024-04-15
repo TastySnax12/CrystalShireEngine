@@ -337,4 +337,11 @@ MonMenuIconPals:
 	icon_pals GRAY,   GRAY   ; SPOINK
 	icon_pals PURPLE, GRAY   ; GRUMPIG
 	icon_pals RED,    GREEN  ; SPINDA
+	icon_pals RED,    GREEN  ; TRAPINCH
+	icon_pals GREEN,  RED    ; VIBRAVA
+	icon_pals GREEN,  TEAL   ; FLYGON
+	icon_pals GREEN,  RED    ; CACNEA
+	icon_pals GREEN,  RED    ; CACTURNE
+	icon_pals BLUE,   RED    ; SWABLU
+	icon_pals BLUE,   RED    ; ALTARIA
 	assert_table_length NUM_POKEMON

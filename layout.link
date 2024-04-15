@@ -349,6 +349,8 @@ ROMX $86
 	"Pics 24"
 ROMX $87
 	"Pics 25"
+ROMX $88
+	"Pics 26"
 WRAM0
 	"Stack"
 	"Audio RAM"

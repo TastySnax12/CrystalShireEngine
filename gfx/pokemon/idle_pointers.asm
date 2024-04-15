@@ -327,4 +327,11 @@ AnimationIdlePointers:
 	dw SpoinkAnimationIdle
 	dw GrumpigAnimationIdle
 	dw SpindaAnimationIdle
+	dw TrapinchAnimationIdle
+	dw VibravaAnimationIdle
+	dw FlygonAnimationIdle
+	dw CacneaAnimationIdle
+	dw CacturneAnimationIdle
+	dw SwabluAnimationIdle
+	dw AltariaAnimationIdle
 	assert_table_length NUM_POKEMON

@@ -77,13 +77,13 @@ EvosAttacksPointers3::
 	dw SpoinkEvosAttacks
 	dw GrumpigEvosAttacks
 	dw SpindaEvosAttacks
-	; dw TrapinchEvosAttacks
-	; dw VibravaEvosAttacks
-	; dw FlygonEvosAttacks
-	; dw CacneaEvosAttacks
-	; dw CacturneEvosAttacks
-	; dw SwabluEvosAttacks
-	; dw AltariaEvosAttacks
+	dw TrapinchEvosAttacks
+	dw VibravaEvosAttacks
+	dw FlygonEvosAttacks
+	dw CacneaEvosAttacks
+	dw CacturneEvosAttacks
+	dw SwabluEvosAttacks
+	dw AltariaEvosAttacks
 	; dw ZangooseEvosAttacks
 	; dw SeviperEvosAttacks
 	; dw LunatoneEvosAttacks
@@ -519,140 +519,40 @@ SpindaEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; TrapinchEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 35, VIBRAVA
-	; db 0 ; no more evolutions
-	; dbw 1, BITE
-	; dbw 9, SAND_ATTACK
-	; dbw 17, FAINT_ATTACK
-	; dbw 25, SAND_TOMB
-	; dbw 33, CRUNCH
-	; dbw 41, DIG
-	; dbw 49, SANDSTORM
-	; dbw 57, HYPER_BEAM
-	; dbw 65, EARTH_POWER
-	; dbw 73, EARTHQUAKE
-	; dbw 81, FEINT
-	; dbw 89, FISSURE
-	; db 0 ; no more level-up moves
+TrapinchEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; VibravaEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 45, FLYGON
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, SONICBOOM
-	; dbw 1, FAINT_ATTACK
-	; dbw 1, SAND_TOMB
-	; dbw 9, SAND_ATTACK
-	; dbw 17, FAINT_ATTACK
-	; dbw 25, SAND_TOMB
-	; dbw 33, SUPERSONIC
-	; dbw 35, DRAGONBREATH
-	; dbw 41, SCREECH
-	; dbw 49, SANDSTORM
-	; dbw 57, HYPER_BEAM
-	; db 0 ; no more level-up moves
+VibravaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; FlygonEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, SONICBOOM
-	; dbw 1, FAINT_ATTACK
-	; dbw 1, SAND_TOMB
-	; dbw 9, SAND_ATTACK
-	; dbw 17, FAINT_ATTACK
-	; dbw 25, SAND_TOMB
-	; dbw 33, SUPERSONIC
-	; dbw 35, DRAGONBREATH
-	; dbw 41, SCREECH
-	; dbw 45, DRAGON_CLAW
-	; dbw 49, SANDSTORM
-	; dbw 57, HYPER_BEAM
-	; db 0 ; no more level-up moves
+FlygonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CacneaEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 32, CACTURNE
-	; db 0 ; no more evolutions
-	; dbw 1, POISON_STING
-	; dbw 1, LEER
-	; dbw 5, ABSORB
-	; dbw 9, GROWTH
-	; dbw 13, LEECH_SEED
-	; dbw 17, SAND_ATTACK
-	; dbw 21, PIN_MISSILE
-	; dbw 25, INGRAIN
-	; dbw 29, FAINT_ATTACK
-	; dbw 33, SPIKES
-	; dbw 37, SUCKER_PUNCH
-	; dbw 41, PAYBACK
-	; dbw 45, NEEDLE_ARM
-	; dbw 49, COTTON_SPORE
-	; dbw 53, SANDSTORM
-	; dbw 57, DESTINY_BOND
-	; db 0 ; no more level-up moves
+CacneaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CacturneEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POISON_STING
-	; dbw 1, LEER
-	; dbw 1, ABSORB
-	; dbw 1, GROWTH
-	; dbw 1, REVENGE
-	; dbw 5, ABSORB
-	; dbw 9, GROWTH
-	; dbw 13, LEECH_SEED
-	; dbw 17, SAND_ATTACK
-	; dbw 21, PIN_MISSILE
-	; dbw 25, INGRAIN
-	; dbw 29, FAINT_ATTACK
-	; dbw 35, SPIKES
-	; dbw 41, SUCKER_PUNCH
-	; dbw 47, PAYBACK
-	; dbw 53, NEEDLE_ARM
-	; dbw 59, COTTON_SPORE
-	; dbw 65, SANDSTORM
-	; dbw 71, DESTINY_BOND
-	; db 0 ; no more level-up moves
+CacturneEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SwabluEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 35, ALTARIA
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, PECK
-	; dbw 5, ASTONISH
-	; dbw 9, SING
-	; dbw 13, FURY_ATTACK
-	; dbw 18, SAFEGUARD
-	; dbw 23, MIST
-	; dbw 28, TAKE_DOWN
-	; dbw 32, NATURAL_GIFT
-	; dbw 36, MIRROR_MOVE
-	; dbw 40, REFRESH
-	; dbw 45, DRAGON_PULSE
-	; dbw 50, PERISH_SONG
-	; db 0 ; no more level-up moves
+SwabluEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; AltariaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, SING
-	; dbw 1, PECK
-	; dbw 1, ASTONISH
-	; dbw 1, PLUCK
-	; dbw 5, ASTONISH
-	; dbw 9, SING
-	; dbw 13, FURY_ATTACK
-	; dbw 18, SAFEGUARD
-	; dbw 23, MIST
-	; dbw 28, TAKE_DOWN
-	; dbw 32, NATURAL_GIFT
-	; dbw 35, DRAGONBREATH
-	; dbw 39, DRAGON_DANCE
-	; dbw 46, REFRESH
-	; dbw 54, DRAGON_PULSE
-	; dbw 62, PERISH_SONG
-	; dbw 70, SKY_ATTACK
-	; db 0 ; no more level-up moves
+AltariaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; ZangooseEvosAttacks:
 	; db 0 ; no more evolutions

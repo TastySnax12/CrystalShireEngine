@@ -333,4 +333,11 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; SPOINK
 	mon_cry CRY_RATTATA,       0,  0   ; GRUMPIG
 	mon_cry CRY_RATTATA,       0,  0   ; SPINDA
+	mon_cry CRY_RATTATA,       0,  0   ; TRAPINCH
+	mon_cry CRY_RATTATA,       0,  0   ; VIBRAVA
+	mon_cry CRY_RATTATA,       0,  0   ; FLYGON
+	mon_cry CRY_RATTATA,       0,  0   ; CACNEA
+	mon_cry CRY_RATTATA,       0,  0   ; CACTURNE
+	mon_cry CRY_RATTATA,       0,  0   ; SWABLU
+	mon_cry CRY_RATTATA,       0,  0   ; ALTARIA
 	assert_table_length NUM_POKEMON

@@ -7,6 +7,7 @@ AlphabeticalPokedexOrder:
 	dw AGGRON
 	dw AIPOM
 	dw ALAKAZAM
+	dw ALTARIA
 	dw AMPHAROS
 	dw ARBOK
 	dw ARCANINE
@@ -26,6 +27,8 @@ AlphabeticalPokedexOrder:
 	dw BRELOOM
 	dw BULBASAUR
 	dw BUTTERFREE
+	dw CACNEA
+	dw CACTURNE
 	dw CAMERUPT
 	dw CARVANHA
 	dw CASCOON
@@ -78,6 +81,7 @@ AlphabeticalPokedexOrder:
 	dw FERALIGATR
 	dw FLAAFFY
 	dw FLAREON
+	dw FLYGON
 	dw FORRETRESS
 	dw FURRET
 	dw GARDEVOIR
@@ -280,6 +284,7 @@ AlphabeticalPokedexOrder:
 	dw SUNFLORA
 	dw SUNKERN
 	dw SURSKIT
+	dw SWABLU
 	dw SWALOT
 	dw SWAMPERT
 	dw SWELLOW
@@ -295,6 +300,7 @@ AlphabeticalPokedexOrder:
 	dw TORCHIC
 	dw TORKOAL
 	dw TOTODILE
+	dw TRAPINCH
 	dw TREECKO
 	dw TYPHLOSION
 	dw TYRANITAR
@@ -306,6 +312,7 @@ AlphabeticalPokedexOrder:
 	dw VENOMOTH
 	dw VENONAT
 	dw VENUSAUR
+	dw VIBRAVA
 	dw VICTREEBEL
 	dw VIGOROTH
 	dw VILEPLUME

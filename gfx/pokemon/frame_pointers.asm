@@ -327,4 +327,11 @@ FramesPointers:
 	dba SpoinkFrames
 	dba GrumpigFrames
 	dba SpindaFrames
+	dba TrapinchFrames
+	dba VibravaFrames
+	dba FlygonFrames
+	dba CacneaFrames
+	dba CacturneFrames
+	dba SwabluFrames
+	dba AltariaFrames
 	assert_table_length NUM_POKEMON

@@ -328,4 +328,11 @@ FirstEvoStages::
 	dw SPOINK
 	dw SPOINK
 	dw SPINDA
+	dw TRAPINCH
+	dw TRAPINCH
+	dw TRAPINCH
+	dw CACNEA
+	dw CACNEA
+	dw SWABLU
+	dw SWABLU
 	assert_table_length NUM_POKEMON

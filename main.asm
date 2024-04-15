@@ -416,20 +416,15 @@ SECTION "Pic Animations 1", ROMX
 
 INCLUDE "gfx/pokemon/anim_pointers.asm"
 INCLUDE "gfx/pokemon/anims.asm"
-INCLUDE "gfx/pokemon/idle_pointers.asm"
-INCLUDE "gfx/pokemon/idles.asm"
-INCLUDE "gfx/pokemon/bitmask_pointers.asm"
-INCLUDE "gfx/pokemon/bitmasks.asm"
-
 
 SECTION "Pic Animations 2", ROMX
+
 INCLUDE "engine/gfx/pic_animation.asm"
 INCLUDE "gfx/pokemon/frame_pointers.asm"
-INCLUDE "gfx/pokemon/kanto_frames.asm"
-INCLUDE "gfx/pokemon/johto_frames.asm"
-
 
 SECTION "Pic Animations 3", ROMX
+
+INCLUDE "gfx/pokemon/kanto_frames.asm"
 INCLUDE "gfx/pokemon/unown_anim_pointers.asm"
 INCLUDE "gfx/pokemon/unown_anims.asm"
 INCLUDE "gfx/pokemon/unown_idle_pointers.asm"
@@ -441,12 +436,16 @@ INCLUDE "gfx/pokemon/unown_bitmasks.asm"
 
 SECTION "Pic Animations 4", ROMX
 
+INCLUDE "gfx/pokemon/idle_pointers.asm"
+INCLUDE "gfx/pokemon/idles.asm"
+INCLUDE "gfx/pokemon/bitmask_pointers.asm"
+INCLUDE "gfx/pokemon/bitmasks.asm"
 
-INCLUDE "gfx/pokemon/hoenn_frames.asm"
 
 SECTION "Pic Animations 5", ROMX
 
-
+INCLUDE "gfx/pokemon/johto_frames.asm"
+INCLUDE "gfx/pokemon/hoenn_frames.asm"
 
 
 
@@ -456,6 +455,8 @@ INCLUDE "engine/events/print_unown_2.asm"
 INCLUDE "engine/games/card_flip.asm"
 INCLUDE "engine/games/unown_puzzle.asm"
 INCLUDE "engine/games/memory_game.asm"
+INCLUDE "engine/battle/misc.asm"
+
 
 
 SECTION "bank39", ROMX
@@ -476,7 +477,6 @@ INCLUDE "engine/link/time_capsule_2.asm"
 INCLUDE "engine/pokedex/unown_dex.asm"
 INCLUDE "engine/events/magikarp.asm"
 INCLUDE "engine/battle/hidden_power.asm"
-INCLUDE "engine/battle/misc.asm"
 
 
 SECTION "bank3F", ROMX

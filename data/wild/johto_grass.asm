@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
 	; day
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
 	; nite
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
-	dbw 5, WAILMER
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
+	dbw 5, ALTARIA
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

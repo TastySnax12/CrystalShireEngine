@@ -328,4 +328,11 @@ PokedexDataPointerTable:
 	dba SpoinkPokedexEntry
 	dba GrumpigPokedexEntry
 	dba SpindaPokedexEntry
+	dba TrapinchPokedexEntry
+	dba VibravaPokedexEntry
+	dba FlygonPokedexEntry
+	dba CacneaPokedexEntry
+	dba CacturnePokedexEntry
+	dba SwabluPokedexEntry
+	dba AltariaPokedexEntry
 	assert_table_length NUM_POKEMON

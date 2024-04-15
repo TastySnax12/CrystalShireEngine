@@ -670,4 +670,18 @@ PokemonPicPointers::
 	dba GrumpigBackpic
 	dba SpindaFrontpic
 	dba SpindaBackpic
+	dba TrapinchFrontpic
+	dba TrapinchBackpic
+	dba VibravaFrontpic
+	dba VibravaBackpic
+	dba FlygonFrontpic
+	dba FlygonBackpic
+	dba CacneaFrontpic
+	dba CacneaBackpic
+	dba CacturneFrontpic
+	dba CacturneBackpic
+	dba SwabluFrontpic
+	dba SwabluBackpic
+	dba AltariaFrontpic
+	dba AltariaBackpic
 	assert_table_length NUM_POKEMON + 1

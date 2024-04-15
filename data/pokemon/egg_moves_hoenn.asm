@@ -77,6 +77,13 @@ EggMovePointers3::
 	dw SpoinkEggMoves
 	dw NoEggMoves3
 	dw SpindaEggMoves
+	dw TrapinchEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw CacneaEggMoves
+	dw NoEggMoves3
+	dw SwabluEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -473,15 +480,15 @@ SpindaEggMoves:
 	; dw WISH
 	dw -1 ; end
 
-; TrapinchEggMoves:
+TrapinchEggMoves:
 	; dw FLAIL
 	; dw FOCUS_ENERGY
 	; dw FURY_CUTTER
 	; dw GUST
 	; dw QUICK_ATTACK
-	; dw -1 ; end
+	dw -1 ; end
 
-; CacneaEggMoves:
+CacneaEggMoves:
 	; dw ACID_ARMOR
 	; dw COUNTER
 	; dw DYNAMICPUNCH
@@ -491,16 +498,16 @@ SpindaEggMoves:
 	; dw SEED_BOMB
 	; dw SMELLINGSALT
 	; dw TEETER_DANCE
-	; dw -1 ; end
+	dw -1 ; end
 
-; SwabluEggMoves:
+SwabluEggMoves:
 	; dw AGILITY
 	; dw DRAGON_RUSH
 	; dw FEATHERDANCE
 	; dw HAZE
 	; dw PURSUIT
 	; dw RAGE
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; ZangooseEggMoves:
 	; dw COUNTER

@@ -348,6 +348,13 @@ DEF HOENN_POKEMON EQU const_value
 	const SPOINK     ; 145
 	const GRUMPIG    ; 146
 	const SPINDA     ; 147
+	const TRAPINCH   ; 148
+	const VIBRAVA    ; 149
+	const FLYGON     ; 14a
+	const CACNEA     ; 14b
+	const CACTURNE   ; 14c
+	const SWABLU     ; 14d
+	const ALTARIA    ; 14e
 	
 DEF NUM_POKEMON EQU const_value - 1
 

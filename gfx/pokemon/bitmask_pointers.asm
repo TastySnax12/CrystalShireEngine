@@ -327,4 +327,11 @@ BitmasksPointers:
 	dw SpoinkBitmasks
 	dw GrumpigBitmasks
 	dw SpindaBitmasks
+	dw TrapinchBitmasks
+	dw VibravaBitmasks
+	dw FlygonBitmasks
+	dw CacneaBitmasks
+	dw CacturneBitmasks
+	dw SwabluBitmasks
+	dw AltariaBitmasks
 	assert_table_length NUM_POKEMON

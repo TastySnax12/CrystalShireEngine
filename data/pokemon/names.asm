@@ -331,4 +331,11 @@ PokemonNames::
 	db "SPOINK@@@@"
 	db "GRUMPIG@@@"
 	db "SPINDA@@@@"
+	db "TRAPINCH@@"
+	db "VIBRAVA@@@"
+	db "FLYGON@@@@"
+	db "CACNEA@@@@"
+	db "CACTURNE@@"
+	db "SWABLU@@@@"
+	db "ALTARIA@@@"
 	assert_table_length NUM_POKEMON

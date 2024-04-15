@@ -327,4 +327,11 @@ AnimationPointers:
 	dw SpoinkAnimation
 	dw GrumpigAnimation
 	dw SpindaAnimation
+	dw TrapinchAnimation
+	dw VibravaAnimation
+	dw FlygonAnimation
+	dw CacneaAnimation
+	dw CacturneAnimation
+	dw SwabluAnimation
+	dw AltariaAnimation
 	assert_table_length NUM_POKEMON
