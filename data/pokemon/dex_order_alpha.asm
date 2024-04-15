@@ -12,6 +12,7 @@ AlphabeticalPokedexOrder:
 	dw ARIADOS
 	dw ARTICUNO
 	dw AZUMARILL
+	dw AZURILL
 	dw BAYLEEF
 	dw BEAUTIFLY
 	dw BEEDRILL
@@ -20,6 +21,7 @@ AlphabeticalPokedexOrder:
 	dw BLASTOISE
 	dw BLAZIKEN
 	dw BLISSEY
+	dw BRELOOM
 	dw BULBASAUR
 	dw BUTTERFREE
 	dw CASCOON
@@ -64,6 +66,7 @@ AlphabeticalPokedexOrder:
 	dw ESPEON
 	dw EXEGGCUTE
 	dw EXEGGUTOR
+	dw EXPLOUD
 	dw FARFETCH_D
 	dw FEAROW
 	dw FERALIGATR
@@ -71,6 +74,7 @@ AlphabeticalPokedexOrder:
 	dw FLAREON
 	dw FORRETRESS
 	dw FURRET
+	dw GARDEVOIR
 	dw GASTLY
 	dw GENGAR
 	dw GEODUDE
@@ -87,6 +91,7 @@ AlphabeticalPokedexOrder:
 	dw GROVYLE
 	dw GROWLITHE
 	dw GYARADOS
+	dw HARIYAMA
 	dw HAUNTER
 	dw HERACROSS
 	dw HITMONCHAN
@@ -112,6 +117,7 @@ AlphabeticalPokedexOrder:
 	dw KANGASKHAN
 	dw KINGDRA
 	dw KINGLER
+	dw KIRLIA
 	dw KOFFING
 	dw KRABBY
 	dw LANTURN
@@ -123,6 +129,7 @@ AlphabeticalPokedexOrder:
 	dw LINOONE
 	dw LOMBRE
 	dw LOTAD
+	dw LOUDRED
 	dw LUDICOLO
 	dw LUGIA
 	dw MACHAMP
@@ -134,12 +141,14 @@ AlphabeticalPokedexOrder:
 	dw MAGMAR
 	dw MAGNEMITE
 	dw MAGNETON
+	dw MAKUHITA
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP
 	dw MARILL
 	dw MAROWAK
 	dw MARSHTOMP
+	dw MASQUERAIN
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -160,8 +169,11 @@ AlphabeticalPokedexOrder:
 	dw NIDORAN_M
 	dw NIDORINA
 	dw NIDORINO
+	dw NINCADA
 	dw NINETALES
+	dw NINJASK
 	dw NOCTOWL
+	dw NOSEPASS
 	dw NUZLEAF
 	dw OCTILLERY
 	dw ODDISH
@@ -197,6 +209,7 @@ AlphabeticalPokedexOrder:
 	dw QWILFISH
 	dw RAICHU
 	dw RAIKOU
+	dw RALTS
 	dw RAPIDASH
 	dw RATICATE
 	dw RATTATA
@@ -213,12 +226,16 @@ AlphabeticalPokedexOrder:
 	dw SEEDOT
 	dw SEEL
 	dw SENTRET
+	dw SHEDINJA
 	dw SHELLDER
 	dw SHIFTRY
+	dw SHROOMISH
 	dw SHUCKLE
 	dw SILCOON
 	dw SKARMORY
 	dw SKIPLOOM
+	dw SLAKING
+	dw SLAKOTH
 	dw SLOWBRO
 	dw SLOWKING
 	dw SLOWPOKE
@@ -239,6 +256,7 @@ AlphabeticalPokedexOrder:
 	dw SUICUNE
 	dw SUNFLORA
 	dw SUNKERN
+	dw SURSKIT
 	dw SWAMPERT
 	dw SWELLOW
 	dw SWINUB
@@ -264,6 +282,7 @@ AlphabeticalPokedexOrder:
 	dw VENONAT
 	dw VENUSAUR
 	dw VICTREEBEL
+	dw VIGOROTH
 	dw VILEPLUME
 	dw VOLTORB
 	dw VULPIX
@@ -271,6 +290,7 @@ AlphabeticalPokedexOrder:
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
+	dw WHISMUR
 	dw WIGGLYTUFF
 	dw WINGULL
 	dw WOBBUFFET

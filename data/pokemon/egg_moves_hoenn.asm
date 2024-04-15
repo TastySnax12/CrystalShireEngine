@@ -29,6 +29,26 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw WingullEggMoves
 	dw NoEggMoves3
+	dw RaltsEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw SurskitEggMoves
+	dw NoEggMoves3
+	dw ShroomishEggMoves
+	dw NoEggMoves3
+	dw SlakothEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw NincadaEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw WhismurEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw MakuhitaEggMoves
+	dw NoEggMoves3
+	dw AzurillEggMoves
+	dw NosepassEggMoves
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -140,7 +160,7 @@ WingullEggMoves:
 	; dw WATER_SPORT
 	dw -1 ; end
 
-; RaltsEggMoves:
+RaltsEggMoves:
 	; dw CONFUSE_RAY
 	; dw DESTINY_BOND
 	; dw DISABLE
@@ -149,9 +169,9 @@ WingullEggMoves:
 	; dw MEMENTO
 	; dw SHADOW_SNEAK
 	; dw WILL_O_WISP
-	; dw -1 ; end
+	dw -1 ; end
 
-; SurskitEggMoves:
+SurskitEggMoves:
 	; dw BUG_BITE
 	; dw FORESIGHT
 	; dw HYDRO_PUMP
@@ -159,9 +179,9 @@ WingullEggMoves:
 	; dw MUD_SHOT
 	; dw PSYBEAM
 	; dw SIGNAL_BEAM
-	; dw -1 ; end
+	dw -1 ; end
 
-; ShroomishEggMoves:
+ShroomishEggMoves:
 	; dw CHARM
 	; dw FAKE_TEARS
 	; dw FALSE_SWIPE
@@ -170,9 +190,9 @@ WingullEggMoves:
 	; dw SWAGGER
 	; dw WAKE_UP_SLAP
 	; dw WORRY_SEED
-	; dw -1 ; end
+	dw -1 ; end
 
-; SlakothEggMoves:
+SlakothEggMoves:
 	; dw BODY_SLAM
 	; dw CRUSH_CLAW
 	; dw CURSE
@@ -182,9 +202,9 @@ WingullEggMoves:
 	; dw SLASH
 	; dw SLEEP_TALK
 	; dw SNORE
-	; dw -1 ; end
+	dw -1 ; end
 
-; NincadaEggMoves:
+NincadaEggMoves:
 	; dw BUG_BITE
 	; dw BUG_BUZZ
 	; dw ENDURE
@@ -192,9 +212,9 @@ WingullEggMoves:
 	; dw GUST
 	; dw NIGHT_SLASH
 	; dw SILVER_WIND
-	; dw -1 ; end
+	dw -1 ; end
 
-; WhismurEggMoves:
+WhismurEggMoves:
 	; dw ENDEAVOR
 	; dw EXTRASENSORY
 	; dw SMELLINGSALT
@@ -202,9 +222,9 @@ WingullEggMoves:
 	; dw SNORE
 	; dw SWAGGER
 	; dw TAKE_DOWN
-	; dw -1 ; end
+	dw -1 ; end
 
-; MakuhitaEggMoves:
+MakuhitaEggMoves:
 	; dw BULLET_PUNCH
 	; dw COUNTER
 	; dw CROSS_CHOP
@@ -215,24 +235,24 @@ WingullEggMoves:
 	; dw HELPING_HAND
 	; dw REVENGE
 	; dw WAKE_UP_SLAP
-	; dw -1 ; end
+	dw -1 ; end
 	
-; AzurillEggMoves:
+AzurillEggMoves:
 	; dw ENCORE
 	; dw FAKE_TEARS
 	; dw REFRESH
 	; dw SING
 	; dw SLAM
 	; dw TICKLE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; NosepassEggMoves:
+NosepassEggMoves:
 	; dw BLOCK
 	; dw DOUBLE_EDGE
 	; dw EXPLOSION
 	; dw MAGNITUDE
 	; dw ROLLOUT
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; SkittyEggMoves:
 	; dw BATON_PASS

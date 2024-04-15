@@ -164,9 +164,8 @@ TwinleafTown_RivalsMailboxScript:
 
 TwinleafTown_MeetRivalScript:
 	appear TWINLEAFTOWN_RIVAL
-	follow PLAYER, TWINLEAFTOWN_RIVAL
-	applymovement PLAYER, .RivalBumpMovement
-	stopfollow
+	applymovement TWINLEAFTOWN_RIVAL, .RivalBumpMovement
+	applymovement PLAYER, .PlayerBumpMovement
 	playsound SFX_BUMP
 	opentext
 	writetext .ThudText
@@ -178,14 +177,18 @@ TwinleafTown_MeetRivalScript:
 	waitbutton
 	closetext
 	applymovement TWINLEAFTOWN_RIVAL, .WalkAwayMovement
+	wait 4
 	showemote EMOTE_SHOCK, TWINLEAFTOWN_RIVAL, 15
+	wait 2
 	applymovement TWINLEAFTOWN_RIVAL, .ReturnMovment
 	opentext
 	writetext .ForgotSomethingText
 	waitbutton
 	closetext
 	applymovement TWINLEAFTOWN_RIVAL, .EnterHouseMovement
+	playsound SFX_ENTER_DOOR
 	disappear TWINLEAFTOWN_RIVAL
+	waitsfx
 	setscene SCENE_TWINLEAFTOWN_CANT_LEAVE
 	special RestartMapMusic
 	end
@@ -211,28 +214,32 @@ TwinleafTown_MeetRivalScript:
 	done
 
 .RivalBumpMovement:
+	big_step DOWN
+	step_end
+
+.PlayerBumpMovement:
 	turn_head UP
 	fix_facing
-	step DOWN
+	big_step DOWN
 	remove_fixed_facing
 	step_end
 
 .WalkAwayMovement:
 	remove_fixed_facing
-	step RIGHT
-	step RIGHT
-	step RIGHT
+	big_step RIGHT
+	big_step RIGHT
+	big_step RIGHT
 	step_end
 
 .ReturnMovment:
-	step LEFT
-	step LEFT
-	step LEFT
+	big_step LEFT
+	big_step LEFT
+	big_step LEFT
 	turn_head DOWN
 	step_end
 
 .EnterHouseMovement:
-	step UP
+	big_step UP
 	step_end
 
 TwinleafTown_CantLeaveScriptL:

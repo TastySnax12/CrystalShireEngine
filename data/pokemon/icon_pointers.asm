@@ -284,4 +284,24 @@ IconPointers:
 	dba MagikarpIcon ; SWELLOW
 	dba MagikarpIcon ; WINGULL
 	dba MagikarpIcon ; PELIPPER
+	dba MagikarpIcon ; RALTS
+	dba MagikarpIcon ; KIRLIA
+	dba MagikarpIcon ; GARDEVOIR
+	dba MagikarpIcon ; SURSKIT
+	dba MagikarpIcon ; MASQUERAIN
+	dba MagikarpIcon ; SHROOMISH
+	dba MagikarpIcon ; BRELOOM
+	dba MagikarpIcon ; SLAKOTH
+	dba MagikarpIcon ; VIGOROTH
+	dba MagikarpIcon ; SLAKING
+	dba MagikarpIcon ; NINCADA
+	dba MagikarpIcon ; NINJASK
+	dba MagikarpIcon ; SHEDINJA
+	dba MagikarpIcon ; WHISMUR
+	dba MagikarpIcon ; LOUDRED
+	dba MagikarpIcon ; EXPLOUD
+	dba MagikarpIcon ; MAKUHITA
+	dba MagikarpIcon ; HARIYAMA
+	dba MagikarpIcon ; AZURILL
+	dba MagikarpIcon ; NOSEPASS
 	assert_table_length NUM_POKEMON + 1

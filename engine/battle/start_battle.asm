@@ -121,11 +121,11 @@ PlayBattleMusic:
 	jr nz, .kantotrainer
 
 .johtotrainer
-	ld de, MUSIC_JOHTO_TRAINER_BATTLE
+	ld de, MUSIC_SINNOH_TRAINER_BATTLE
 	jr .done
 
 .kantotrainer
-	ld de, MUSIC_JOHTO_TRAINER_BATTLE
+	ld de, MUSIC_SINNOH_TRAINER_BATTLE
 
 .done
 	call PlayMusic

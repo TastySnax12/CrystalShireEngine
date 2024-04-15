@@ -285,4 +285,24 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; SWELLOW
 	mon_cry CRY_RATTATA,       0,  0   ; WINGULL
 	mon_cry CRY_RATTATA,       0,  0   ; PELIPPER
+	mon_cry CRY_RATTATA,       0,  0   ; RALTS
+	mon_cry CRY_RATTATA,       0,  0   ; KIRLIA
+	mon_cry CRY_RATTATA,       0,  0   ; GARDEVOIR
+	mon_cry CRY_RATTATA,       0,  0   ; SURSKIT
+	mon_cry CRY_RATTATA,       0,  0   ; MASQUERAIN
+	mon_cry CRY_RATTATA,       0,  0   ; SHROOMISH
+	mon_cry CRY_RATTATA,       0,  0   ; BRELOOM
+	mon_cry CRY_RATTATA,       0,  0   ; SLAKOTH
+	mon_cry CRY_RATTATA,       0,  0   ; VIGOROTH
+	mon_cry CRY_RATTATA,       0,  0   ; SLAKING
+	mon_cry CRY_RATTATA,       0,  0   ; NINCADA
+	mon_cry CRY_RATTATA,       0,  0   ; NINJASK
+	mon_cry CRY_RATTATA,       0,  0   ; SHEDINJA
+	mon_cry CRY_RATTATA,       0,  0   ; WHISMUR
+	mon_cry CRY_RATTATA,       0,  0   ; LOUDRED
+	mon_cry CRY_RATTATA,       0,  0   ; EXPLOUD
+	mon_cry CRY_RATTATA,       0,  0   ; MAKUHITA
+	mon_cry CRY_RATTATA,       0,  0   ; HARIYAMA
+	mon_cry CRY_RATTATA,       0,  0   ; AZURILL
+	mon_cry CRY_RATTATA,       0,  0   ; NOSEPASS
 	assert_table_length NUM_POKEMON

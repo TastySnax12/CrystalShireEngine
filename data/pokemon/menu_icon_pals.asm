@@ -289,4 +289,24 @@ MonMenuIconPals:
 	icon_pals BLUE,   GREEN  ; SWELLOW
 	icon_pals BLUE,   GREEN  ; WINGULL
 	icon_pals BLUE,   GREEN  ; PELIPPER
+	icon_pals GREEN,  BLUE   ; RALTS
+	icon_pals GREEN,  BLUE   ; KIRLIA
+	icon_pals GREEN,  BLUE   ; GARDEVOIR
+	icon_pals TEAL,   BLUE   ; SURSKIT
+	icon_pals TEAL,   GREEN  ; MASQUERAIN
+	icon_pals GREEN,  RED    ; SHROOMISH
+	icon_pals GREEN,  RED    ; BRELOOM
+	icon_pals BROWN,  PURPLE ; SLAKOTH
+	icon_pals BROWN,  RED    ; VIGOROTH
+	icon_pals BROWN,  BROWN  ; SLAKING
+	icon_pals BROWN,  GRAY   ; NINCADA
+	icon_pals GRAY,   RED    ; NINJASK
+	icon_pals BROWN,  GRAY   ; SHEDINJA
+	icon_pals PURPLE, GREEN  ; WHISMUR
+	icon_pals PURPLE, PINK   ; LOUDRED
+	icon_pals PURPLE, PINK   ; EXPLOUD
+	icon_pals RED,    RED    ; MAKUHITA
+	icon_pals RED,    PURPLE ; HARIYAMA
+	icon_pals BLUE,   GREEN  ; AZURILL
+	icon_pals GRAY,   RED    ; NOSEPASS
 	assert_table_length NUM_POKEMON

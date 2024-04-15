@@ -39,7 +39,7 @@ Music:
 	dba Music_LookKimonoGirl
 	dba Music_UnionCave
 	dba Music_SinnohWildBattle
-	dba Music_JohtoTrainerBattle
+	dba Music_SinnohTrainerBattle
 	dba Music_Route203
 	dba Music_EcruteakCity
 	dba Music_VioletCity

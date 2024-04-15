@@ -37,7 +37,7 @@
 	const MUSIC_KIMONO_ENCOUNTER             ; 26
 	const MUSIC_UNION_CAVE                   ; 27
 	const MUSIC_SINNOH_WILD_BATTLE           ; 28
-	const MUSIC_JOHTO_TRAINER_BATTLE         ; 29
+	const MUSIC_SINNOH_TRAINER_BATTLE        ; 29
 	const MUSIC_ROUTE_203                    ; 2a
 	const MUSIC_ECRUTEAK_CITY                ; 2b
 	const MUSIC_VIOLET_CITY                  ; 2c

@@ -64,7 +64,7 @@ ClerkSpriteGFX::               INCBIN "gfx/sprites/clerk.2bpp"
 FisherSpriteGFX::              INCBIN "gfx/sprites/fisher.2bpp"
 FishingGuruSpriteGFX::         INCBIN "gfx/sprites/fishing_guru.2bpp"
 ScientistSpriteGFX::           INCBIN "gfx/sprites/scientist.2bpp"
-KimonoGirlSpriteGFX::          INCBIN "gfx/sprites/kimono_girl.2bpp"
+CyrusSpriteGFX::               INCBIN "gfx/sprites/cyrus.2bpp"
 SageSpriteGFX::                INCBIN "gfx/sprites/sage.2bpp"
 UnusedGuySpriteGFX::           INCBIN "gfx/sprites/unused_guy.2bpp"
 GentlemanSpriteGFX::           INCBIN "gfx/sprites/gentleman.2bpp"
@@ -105,4 +105,7 @@ KurtOutsideSpriteGFX::         INCBIN "gfx/sprites/kurt_outside.2bpp"
 SuicuneSpriteGFX::             INCBIN "gfx/sprites/suicune.2bpp"
 EnteiSpriteGFX::               INCBIN "gfx/sprites/entei.2bpp"
 RaikouSpriteGFX::              INCBIN "gfx/sprites/raikou.2bpp"
-StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
+
+SECTION "Sprites 3", ROMX
+
+ScientistFSpriteGFX::          INCBIN "gfx/sprites/scientist_f.2bpp"

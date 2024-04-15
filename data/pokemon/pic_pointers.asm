@@ -574,4 +574,44 @@ PokemonPicPointers::
 	dba WingullBackpic
 	dba PelipperFrontpic
 	dba PelipperBackpic
+	dba RaltsFrontpic
+	dba RaltsBackpic
+	dba KirliaFrontpic
+	dba KirliaBackpic
+	dba GardevoirFrontpic
+	dba GardevoirBackpic
+	dba SurskitFrontpic
+	dba SurskitBackpic
+	dba MasquerainFrontpic
+	dba MasquerainBackpic
+	dba ShroomishFrontpic
+	dba ShroomishBackpic
+	dba BreloomFrontpic
+	dba BreloomBackpic
+	dba SlakothFrontpic
+	dba SlakothBackpic
+	dba VigorothFrontpic
+	dba VigorothBackpic
+	dba SlakingFrontpic
+	dba SlakingBackpic
+	dba NincadaFrontpic
+	dba NincadaBackpic
+	dba NinjaskFrontpic
+	dba NinjaskBackpic
+	dba ShedinjaFrontpic
+	dba ShedinjaBackpic
+	dba WhismurFrontpic
+	dba WhismurBackpic
+	dba LoudredFrontpic
+	dba LoudredBackpic
+	dba ExploudFrontpic
+	dba ExploudBackpic
+	dba MakuhitaFrontpic
+	dba MakuhitaBackpic
+	dba HariyamaFrontpic
+	dba HariyamaBackpic
+	dba AzurillFrontpic
+	dba AzurillBackpic
+	dba NosepassFrontpic
+	dba NosepassBackpic
 	assert_table_length NUM_POKEMON + 1

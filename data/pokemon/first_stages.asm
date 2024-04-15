@@ -280,4 +280,24 @@ FirstEvoStages::
 	dw TAILLOW
 	dw WINGULL
 	dw WINGULL
+	dw RALTS
+	dw RALTS
+	dw RALTS
+	dw SURSKIT
+	dw SURSKIT
+	dw SHROOMISH
+	dw SHROOMISH
+	dw SLAKOTH
+	dw SLAKOTH
+	dw SLAKOTH
+	dw NINCADA
+	dw NINCADA
+	dw NINCADA
+	dw WHISMUR
+	dw WHISMUR
+	dw WHISMUR
+	dw MAKUHITA
+	dw MAKUHITA
+	dw AZURILL
+	dw NOSEPASS
 	assert_table_length NUM_POKEMON

@@ -280,4 +280,24 @@ PokedexDataPointerTable:
 	dba SwellowPokedexEntry
 	dba WingullPokedexEntry
 	dba PelipperPokedexEntry
+	dba RaltsPokedexEntry
+	dba KirliaPokedexEntry
+	dba GardevoirPokedexEntry
+	dba SurskitPokedexEntry
+	dba MasquerainPokedexEntry
+	dba ShroomishPokedexEntry
+	dba BreloomPokedexEntry
+	dba SlakothPokedexEntry
+	dba VigorothPokedexEntry
+	dba SlakingPokedexEntry
+	dba NincadaPokedexEntry
+	dba NinjaskPokedexEntry
+	dba ShedinjaPokedexEntry
+	dba WhismurPokedexEntry
+	dba LoudredPokedexEntry
+	dba ExploudPokedexEntry
+	dba MakuhitaPokedexEntry
+	dba HariyamaPokedexEntry
+	dba AzurillPokedexEntry
+	dba NosepassPokedexEntry
 	assert_table_length NUM_POKEMON

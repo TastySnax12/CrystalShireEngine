@@ -279,4 +279,24 @@ AnimationIdlePointers:
 	dw SwellowAnimationIdle
 	dw WingullAnimationIdle
 	dw PelipperAnimationIdle
+	dw RaltsAnimationIdle
+	dw KirliaAnimationIdle
+	dw GardevoirAnimationIdle
+	dw SurskitAnimationIdle
+	dw MasquerainAnimationIdle
+	dw ShroomishAnimationIdle
+	dw BreloomAnimationIdle
+	dw SlakothAnimationIdle
+	dw VigorothAnimationIdle
+	dw SlakingAnimationIdle
+	dw NincadaAnimationIdle
+	dw NinjaskAnimationIdle
+	dw ShedinjaAnimationIdle
+	dw WhismurAnimationIdle
+	dw LoudredAnimationIdle
+	dw ExploudAnimationIdle
+	dw MakuhitaAnimationIdle
+	dw HariyamaAnimationIdle
+	dw AzurillAnimationIdle
+	dw NosepassAnimationIdle
 	assert_table_length NUM_POKEMON

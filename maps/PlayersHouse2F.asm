@@ -95,7 +95,7 @@ PlayersRoomRivalScript:
 	end
 
 PlayersRoom_RivalMoveDown:
-	step DOWN
+	big_step DOWN
 	turn_head LEFT
 	step_end
 
@@ -105,22 +105,22 @@ PlayersRoom_RivalApproachPlayer:
 	dw .player_down
 
 .player_left
-	step DOWN
-	step LEFT
-	step LEFT
-	step LEFT
+	big_step DOWN
+	big_step LEFT
+	big_step LEFT
+	big_step LEFT
 	step_end
 
 .player_right
-	step DOWN
-	step LEFT
+	big_step DOWN
+	big_step LEFT
 	step_end
 
 .player_down
-	step DOWN
-	step DOWN
-	step LEFT
-	step LEFT
+	big_step DOWN
+	big_step DOWN
+	big_step LEFT
+	big_step LEFT
 	step_end
 
 PlayersRoom_RivalToPC:
@@ -129,26 +129,26 @@ PlayersRoom_RivalToPC:
 	dw .player_down
 
 .player_right
-	step DOWN
-	step LEFT
-	step LEFT
-	step LEFT
-	step LEFT
-	step UP
+	big_step DOWN
+	big_step LEFT
+	big_step LEFT
+	big_step LEFT
+	big_step LEFT
+	big_step UP
 	step_end
 
 .player_left
-	step DOWN
-	step LEFT
-	step LEFT
-	step UP
+	big_step DOWN
+	big_step LEFT
+	big_step LEFT
+	big_step UP
 	step_end
 
 .player_down
-	step UP
-	step LEFT
-	step LEFT
-	step LEFT
+	big_step UP
+	big_step LEFT
+	big_step LEFT
+	big_step LEFT
 	turn_head UP
 	step_end
 
@@ -158,16 +158,14 @@ PlayersRoom_RivalPCToPlayer:
 	dw .player_down
 
 .player_right
-	step RIGHT
-	step RIGHT
-	step_end
-
+	big_step RIGHT
+	big_step RIGHT
 .player_left
 	step_end
 
 .player_down
-	step DOWN
-	step RIGHT
+	big_step DOWN
+	big_step RIGHT
 	step_end
 
 PlayersRoom_RivalExit:
@@ -176,35 +174,35 @@ PlayersRoom_RivalExit:
 	dw .player_down
 
 .player_right
-	step DOWN
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step UP
-	step UP
-	step UP
+	big_step DOWN
+	big_step RIGHT
+	big_step RIGHT
+	big_step RIGHT
+	big_step UP
+	big_step UP
+	big_step UP
 	step_end
 
 .player_left
-	step DOWN
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step UP
-	step UP
-	step UP
+	big_step DOWN
+	big_step RIGHT
+	big_step RIGHT
+	big_step RIGHT
+	big_step RIGHT
+	big_step RIGHT
+	big_step UP
+	big_step UP
+	big_step UP
 	step_end
 
 .player_down
-	step UP
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step UP
-	step UP
+	big_step UP
+	big_step RIGHT
+	big_step RIGHT
+	big_step RIGHT
+	big_step RIGHT
+	big_step UP
+	big_step UP
 	step_end
 
 PlayersRoom_RivalText1:

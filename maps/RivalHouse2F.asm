@@ -29,7 +29,9 @@ RivalHouse2F_FindRival:
 	applymovement RIVALHOUSE2F_RIVAL, .RivalExitMovement
 	applymovement PLAYER, .PlayerOutOfTheWayMovement
 	applymovement RIVALHOUSE2F_RIVAL, .RivalFinishExitMovement
+	playsound SFX_ENTER_DOOR
 	disappear RIVALHOUSE2F_RIVAL
+	waitsfx
 	special RestartMapMusic
 	setevent EVENT_TALKED_TO_RIVAL_IN_ROOM
 	setscene SCENE_FINISHED
@@ -52,20 +54,26 @@ RivalHouse2F_FindRival:
 	done
 
 .StairsMovement:
-.PlayerOutOfTheWayMovement:
 	step DOWN
 	step_end
 
+.PlayerOutOfTheWayMovement:
+	turn_head UP
+	fix_facing
+	big_step DOWN
+	remove_fixed_facing
+	step_end
+
 .RivalExitMovement:
-	step RIGHT
-	step RIGHT
-	step UP
+	big_step RIGHT
+	big_step RIGHT
+	big_step UP
 	turn_head RIGHT
 	step_end
 
 .RivalFinishExitMovement:
-	step RIGHT
-	step UP
+	big_step RIGHT
+	big_step UP
 	step_end
 
 RivalHouse2F_MapEvents:

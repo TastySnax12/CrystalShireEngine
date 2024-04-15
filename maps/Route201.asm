@@ -502,10 +502,10 @@ Route201_GetStarterScript:
 	dw .FollowToGrassMovementRight
 
 .ApproachPlayerMovementRight:
-	step RIGHT
+	big_step RIGHT
 .ApproachPlayerMovementLeft:
-	step DOWN
-	step DOWN
+	big_step DOWN
+	big_step DOWN
 	step_end
 
 .FollowToGrassMovementLeft:
