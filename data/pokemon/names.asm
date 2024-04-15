@@ -316,4 +316,11 @@ PokemonNames::
 	db "MANECTRIC@"
 	db "PLUSLE@@@@"
 	db "MINUN@@@@@"
+	db "VOLBEAT@@@"
+	db "ILLUMISE@@"
+	db "ROSELIA@@@"
+	db "GULPIN@@@@"
+	db "SWALOT@@@@"
+	db "CARVANHA@@"
+	db "SHARPEDO@@"
 	assert_table_length NUM_POKEMON

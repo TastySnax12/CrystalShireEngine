@@ -915,3 +915,22 @@ PlusleFrontpic:      INCBIN "gfx/pokemon/plusle/front.animated.2bpp.lz"
 PlusleBackpic:       INCBIN "gfx/pokemon/plusle/back.2bpp.lz"
 MinunFrontpic:       INCBIN "gfx/pokemon/minun/front.animated.2bpp.lz"
 MinunBackpic:        INCBIN "gfx/pokemon/minun/back.2bpp.lz"
+VolbeatFrontpic:     INCBIN "gfx/pokemon/volbeat/front.animated.2bpp.lz"
+VolbeatBackpic:      INCBIN "gfx/pokemon/volbeat/back.2bpp.lz"
+IllumiseFrontpic:    INCBIN "gfx/pokemon/illumise/front.animated.2bpp.lz"
+IllumiseBackpic:     INCBIN "gfx/pokemon/illumise/back.2bpp.lz"
+RoseliaFrontpic:     INCBIN "gfx/pokemon/roselia/front.animated.2bpp.lz"
+RoseliaBackpic:      INCBIN "gfx/pokemon/roselia/back.2bpp.lz"
+GulpinFrontpic:      INCBIN "gfx/pokemon/gulpin/front.animated.2bpp.lz"
+GulpinBackpic:       INCBIN "gfx/pokemon/gulpin/back.2bpp.lz"
+
+
+
+
+SECTION "Pics 25", ROMX
+SwalotFrontpic:      INCBIN "gfx/pokemon/swalot/front.animated.2bpp.lz"
+SwalotBackpic:       INCBIN "gfx/pokemon/swalot/back.2bpp.lz"
+CarvanhaFrontpic:    INCBIN "gfx/pokemon/carvanha/front.animated.2bpp.lz"
+CarvanhaBackpic:     INCBIN "gfx/pokemon/carvanha/back.2bpp.lz"
+SharpedoFrontpic:    INCBIN "gfx/pokemon/sharpedo/front.animated.2bpp.lz"
+SharpedoBackpic:     INCBIN "gfx/pokemon/sharpedo/back.2bpp.lz"

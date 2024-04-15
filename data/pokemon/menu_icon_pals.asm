@@ -322,4 +322,11 @@ MonMenuIconPals:
 	icon_pals TEAL,   GRAY   ; MANECTRIC
 	icon_pals RED,    RED    ; PLUSLE
 	icon_pals BLUE,   GREEN  ; MINUN
+	icon_pals RED,    BLUE   ; VOLBEAT
+	icon_pals PURPLE, RED    ; ILLUMISE
+	icon_pals GREEN,  GREEN  ; ROSELIA
+	icon_pals GREEN,  BLUE   ; GULPIN
+	icon_pals PURPLE, BLUE   ; SWALOT
+	icon_pals RED,    TEAL   ; CARVANHA
+	icon_pals BLUE,   PURPLE ; SHARPEDO
 	assert_table_length NUM_POKEMON

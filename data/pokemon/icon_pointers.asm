@@ -317,4 +317,11 @@ IconPointers:
 	dba MagikarpIcon ; MANECTRIC
 	dba MagikarpIcon ; PLUSLE
 	dba MagikarpIcon ; MINUN
+	dba MagikarpIcon ; VOLBEAT
+	dba MagikarpIcon ; ILLUMISE
+	dba MagikarpIcon ; ROSELIA
+	dba MagikarpIcon ; GULPIN
+	dba MagikarpIcon ; SWALOT
+	dba MagikarpIcon ; CARVANHA
+	dba MagikarpIcon ; SHARPEDO
 	assert_table_length NUM_POKEMON + 1

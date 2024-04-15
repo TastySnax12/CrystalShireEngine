@@ -62,6 +62,13 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw PlusleEggMoves
 	dw MinunEggMoves
+	dw VolbeatEggMoves
+	dw IllumiseEggMoves
+	dw RoseliaEggMoves
+	dw GulpinEggMoves
+	dw NoEggMoves3
+	dw CarvanhaEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -355,23 +362,23 @@ MinunEggMoves:
 	; dw WISH
 	dw -1 ; end
 
-; VolbeatEggMoves:
+VolbeatEggMoves:
 	; dw BATON_PASS
 	; dw BUG_BUZZ
 	; dw ENCORE
 	; dw SILVER_WIND
 	; dw TRICK
-	; dw -1 ; end
+	dw -1 ; end
 
-; IllumiseEggMoves:
+IllumiseEggMoves:
 	; dw BATON_PASS
 	; dw BUG_BUZZ
 	; dw ENCORE
 	; dw GROWTH
 	; dw SILVER_WIND
-	; dw -1 ; end
+	dw -1 ; end
 
-; RoseliaEggMoves:
+RoseliaEggMoves:
 	; dw COTTON_SPORE
 	; dw EXTRASENSORY
 	; dw LEAF_STORM
@@ -381,23 +388,23 @@ MinunEggMoves:
 	; dw SLEEP_POWDER
 	; dw SPIKES
 	; dw SYNTHESIS
-	; dw -1 ; end
+	dw -1 ; end
 
-; GulpinEggMoves:
+GulpinEggMoves:
 	; dw ACID_ARMOR
 	; dw CURSE
 	; dw DESTINY_BOND
 	; dw DREAM_EATER
 	; dw PAIN_SPLIT
 	; dw SMOG
-	; dw -1 ; end
+	dw -1 ; end
 
-; CarvanhaEggMoves:
+CarvanhaEggMoves:
 	; dw ANCIENTPOWER
 	; dw DOUBLE_EDGE
 	; dw HYDRO_PUMP
 	; dw THRASH
-	; dw -1 ; end
+	dw -1 ; end
 
 ; WailmerEggMoves:
 	; dw BODY_SLAM

@@ -62,13 +62,13 @@ EvosAttacksPointers3::
 	dw ManectricEvosAttacks
 	dw PlusleEvosAttacks
 	dw MinunEvosAttacks
-	; dw VolbeatEvosAttacks
-	; dw IllumiseEvosAttacks
-	; dw RoseliaEvosAttacks
-	; dw GulpinEvosAttacks
-	; dw SwalotEvosAttacks
-	; dw CarvanhaEvosAttacks
-	; dw SharpedoEvosAttacks
+	dw VolbeatEvosAttacks
+	dw IllumiseEvosAttacks
+	dw RoseliaEvosAttacks
+	dw GulpinEvosAttacks
+	dw SwalotEvosAttacks
+	dw CarvanhaEvosAttacks
+	dw SharpedoEvosAttacks
 	; dw WailmerEvosAttacks
 	; dw WailordEvosAttacks
 	; dw NumelEvosAttacks
@@ -444,141 +444,40 @@ MinunEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; VolbeatEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, FLASH
-	; dbw 5, DOUBLE_TEAM
-	; dbw 9, CONFUSE_RAY
-	; dbw 13, MOONLIGHT
-	; dbw 17, QUICK_ATTACK
-	; dbw 21, TAIL_GLOW
-	; dbw 25, SIGNAL_BEAM
-	; dbw 29, PROTECT
-	; dbw 33, HELPING_HAND
-	; dbw 37, ZEN_HEADBUTT
-	; dbw 41, BUG_BUZZ
-	; dbw 45, DOUBLE_EDGE
-	; db 0 ; no more level-up moves
+VolbeatEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; IllumiseEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 5, SWEET_SCENT
-	; dbw 9, CHARM
-	; dbw 13, MOONLIGHT
-	; dbw 17, QUICK_ATTACK
-	; dbw 21, WISH
-	; dbw 25, ENCORE
-	; dbw 29, FLATTER
-	; dbw 33, HELPING_HAND
-	; dbw 37, ZEN_HEADBUTT
-	; dbw 41, BUG_BUZZ
-	; dbw 45, COVET
-	; db 0 ; no more level-up moves
+IllumiseEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RoseliaEvosAttacks:
-	; dbbw EVOLVE_ITEM, SHINY_STONE, ROSERADE
-	; db 0 ; no more evolutions
-	; dbw 1, ABSORB
-	; dbw 4, GROWTH
-	; dbw 7, POISON_STING
-	; dbw 10, STUN_SPORE
-	; dbw 13, MEGA_DRAIN
-	; dbw 16, LEECH_SEED
-	; dbw 19, MAGICAL_LEAF
-	; dbw 22, GRASSWHISTLE
-	; dbw 25, GIGA_DRAIN
-	; dbw 28, TOXIC_SPIKES
-	; dbw 31, SWEET_SCENT
-	; dbw 34, INGRAIN
-	; dbw 37, TOXIC
-	; dbw 40, PETAL_DANCE
-	; dbw 43, AROMATHERAPY
-	; dbw 46, SYNTHESIS
-	; db 0 ; no more level-up moves
+RoseliaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GulpinEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 26, SWALOT
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 6, YAWN
-	; dbw 9, POISON_GAS
-	; dbw 14, SLUDGE
-	; dbw 17, AMNESIA
-	; dbw 23, ENCORE
-	; dbw 28, TOXIC
-	; dbw 34, STOCKPILE
-	; dbw 34, SPIT_UP
-	; dbw 34, SWALLOW
-	; dbw 39, SLUDGE_BOMB
-	; dbw 44, GASTRO_ACID
-	; dbw 49, WRING_OUT
-	; dbw 54, GUNK_SHOT
-	; db 0 ; no more level-up moves
+GulpinEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SwalotEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, SLUDGE
-	; dbw 1, POISON_GAS
-	; dbw 1, YAWN
-	; dbw 6, YAWN
-	; dbw 9, POISON_GAS
-	; dbw 14, SLUDGE
-	; dbw 17, AMNESIA
-	; dbw 23, ENCORE
-	; dbw 26, BODY_SLAM
-	; dbw 30, TOXIC
-	; dbw 38, STOCKPILE
-	; dbw 38, SPIT_UP
-	; dbw 38, SWALLOW
-	; dbw 45, SLUDGE_BOMB
-	; dbw 52, GASTRO_ACID
-	; dbw 59, WRING_OUT
-	; dbw 66, GUNK_SHOT
-	; db 0 ; no more level-up moves
+SwalotEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CarvanhaEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, SHARPEDO
-	; db 0 ; no more evolutions
-	; dbw 1, LEER
-	; dbw 1, BITE
-	; dbw 6, RAGE
-	; dbw 8, FOCUS_ENERGY
-	; dbw 11, SCARY_FACE
-	; dbw 16, ICE_FANG
-	; dbw 18, SCREECH
-	; dbw 21, SWAGGER
-	; dbw 26, ASSURANCE
-	; dbw 28, CRUNCH
-	; dbw 31, AQUA_JET
-	; dbw 36, AGILITY
-	; dbw 38, TAKE_DOWN
-	; db 0 ; no more level-up moves
+CarvanhaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SharpedoEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, LEER
-	; dbw 1, BITE
-	; dbw 1, RAGE
-	; dbw 1, FOCUS_ENERGY
-	; dbw 1, FEINT
-	; dbw 6, RAGE
-	; dbw 8, FOCUS_ENERGY
-	; dbw 11, SCARY_FACE
-	; dbw 16, ICE_FANG
-	; dbw 18, SCREECH
-	; dbw 21, SWAGGER
-	; dbw 26, ASSURANCE
-	; dbw 28, CRUNCH
-	; dbw 30, SLASH
-	; dbw 34, AQUA_JET
-	; dbw 40, TAUNT
-	; dbw 45, AGILITY
-	; dbw 50, SKULL_BASH
-	; dbw 56, NIGHT_SLASH
-	; db 0 ; no more level-up moves
+SharpedoEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; WailmerEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 40, WAILORD

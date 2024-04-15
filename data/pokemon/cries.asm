@@ -318,4 +318,11 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; MANECTRIC
 	mon_cry CRY_RATTATA,       0,  0   ; PLUSLE
 	mon_cry CRY_RATTATA,       0,  0   ; MINUN
+	mon_cry CRY_RATTATA,       0,  0   ; VOLBEAT
+	mon_cry CRY_RATTATA,       0,  0   ; ILLUMISE
+	mon_cry CRY_RATTATA,       0,  0   ; ROSELIA
+	mon_cry CRY_RATTATA,       0,  0   ; GULPIN
+	mon_cry CRY_RATTATA,       0,  0   ; SWALOT
+	mon_cry CRY_RATTATA,       0,  0   ; CARVANHA
+	mon_cry CRY_RATTATA,       0,  0   ; SHARPEDO
 	assert_table_length NUM_POKEMON

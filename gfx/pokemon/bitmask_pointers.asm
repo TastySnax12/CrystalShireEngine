@@ -312,4 +312,11 @@ BitmasksPointers:
 	dw ManectricBitmasks
 	dw PlusleBitmasks
 	dw MinunBitmasks
+	dw VolbeatBitmasks
+	dw IllumiseBitmasks
+	dw RoseliaBitmasks
+	dw GulpinBitmasks
+	dw SwalotBitmasks
+	dw CarvanhaBitmasks
+	dw SharpedoBitmasks
 	assert_table_length NUM_POKEMON

@@ -313,4 +313,11 @@ PokedexDataPointerTable:
 	dba ManectricPokedexEntry
 	dba PluslePokedexEntry
 	dba MinunPokedexEntry
+	dba VolbeatPokedexEntry
+	dba IllumisePokedexEntry
+	dba RoseliaPokedexEntry
+	dba GulpinPokedexEntry
+	dba SwalotPokedexEntry
+	dba CarvanhaPokedexEntry
+	dba SharpedoPokedexEntry
 	assert_table_length NUM_POKEMON

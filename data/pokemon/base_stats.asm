@@ -351,5 +351,11 @@ INCLUDE "data/pokemon/base_stats/electrike.asm"
 INCLUDE "data/pokemon/base_stats/manectric.asm"
 INCLUDE "data/pokemon/base_stats/plusle.asm"
 INCLUDE "data/pokemon/base_stats/minun.asm"
-
+INCLUDE "data/pokemon/base_stats/volbeat.asm"
+INCLUDE "data/pokemon/base_stats/illumise.asm"
+INCLUDE "data/pokemon/base_stats/roselia.asm"
+INCLUDE "data/pokemon/base_stats/gulpin.asm"
+INCLUDE "data/pokemon/base_stats/swalot.asm"
+INCLUDE "data/pokemon/base_stats/carvanha.asm"
+INCLUDE "data/pokemon/base_stats/sharpedo.asm"
 .IndirectEnd::

@@ -347,6 +347,8 @@ ROMX $85
 	"Pic Animations 5"
 ROMX $86
 	"Pics 24"
+ROMX $87
+	"Pics 25"
 WRAM0
 	"Stack"
 	"Audio RAM"

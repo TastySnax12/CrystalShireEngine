@@ -312,4 +312,11 @@ AnimationPointers:
 	dw ManectricAnimation
 	dw PlusleAnimation
 	dw MinunAnimation
+	dw VolbeatAnimation
+	dw IllumiseAnimation
+	dw RoseliaAnimation
+	dw GulpinAnimation
+	dw SwalotAnimation
+	dw CarvanhaAnimation
+	dw SharpedoAnimation
 	assert_table_length NUM_POKEMON

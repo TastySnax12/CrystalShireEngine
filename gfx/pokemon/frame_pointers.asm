@@ -312,4 +312,11 @@ FramesPointers:
 	dba ManectricFrames
 	dba PlusleFrames
 	dba MinunFrames
+	dba VolbeatFrames
+	dba IllumiseFrames
+	dba RoseliaFrames
+	dba GulpinFrames
+	dba SwalotFrames
+	dba CarvanhaFrames
+	dba SharpedoFrames
 	assert_table_length NUM_POKEMON

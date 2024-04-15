@@ -333,6 +333,13 @@ DEF HOENN_POKEMON EQU const_value
 	const MANECTRIC  ; 136
 	const PLUSLE     ; 137
 	const MINUN      ; 138
+	const VOLBEAT    ; 139
+	const ILLUMISE   ; 13a
+	const ROSELIA    ; 13b
+	const GULPIN     ; 13c
+	const SWALOT     ; 13d
+	const CARVANHA   ; 12e
+	const SHARPEDO   ; 13f
 	
 DEF NUM_POKEMON EQU const_value - 1
 

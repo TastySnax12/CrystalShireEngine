@@ -314,4 +314,11 @@ NewPokedexOrder:
 	dw MANECTRIC
 	dw PLUSLE
 	dw MINUN
+	dw VOLBEAT
+	dw ILLUMISE
+	dw ROSELIA
+	dw GULPIN
+	dw SWALOT
+	dw CARVANHA
+	dw SHARPEDO
 	assert_table_length NUM_POKEMON

@@ -313,4 +313,11 @@ FirstEvoStages::
 	dw ELECTRIKE
 	dw PLUSLE
 	dw MINUN
+	dw VOLBEAT
+	dw ILLUMISE
+	dw ROSELIA
+	dw GULPIN
+	dw GULPIN
+	dw CARVANHA
+	dw CARVANHA
 	assert_table_length NUM_POKEMON
