@@ -33,6 +33,9 @@ SplashScreen:
 ; Stop here if not in GBC mode
 	farcall GBCOnlyScreen
 
+; Also stop here when using a bad emulator/flashcart :^)
+	farcall MBC30OnlyScreen
+
 ; Play GameFreak logo animation
 	call GameFreakPresentsInit
 .joy_loop

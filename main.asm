@@ -218,6 +218,7 @@ INCLUDE "engine/movie/init_hof_credits.asm"
 INCLUDE "engine/battle/sliding_intro.asm"
 INCLUDE "engine/battle/check_battle_scene.asm"
 INCLUDE "engine/movie/gbc_only.asm"
+INCLUDE "engine/movie/mbc30_only.asm"
 INCLUDE "engine/events/poke_seer.asm"
 
 
@@ -716,3 +717,7 @@ SECTION "Debug Menu", ROMX
 IF DEF(_DEBUG)
 INCLUDE "engine/debug/debug_menu.asm"
 ENDC
+
+SECTION "MBC30 Sentinel", ROMX
+MBC30_Sentinel::
+	db BANK(@)
