@@ -320,6 +320,27 @@ DEF HOENN_POKEMON EQU const_value
 	const HARIYAMA   ; 129
 	const AZURILL    ; 12a
 	const NOSEPASS   ; 12b
+	const SKITTY     ; 12c
+	const DELCATTY   ; 12d
+	const SABLEYE    ; 12e
+	const MAWILE     ; 12f
+	const ARON       ; 130
+	const LAIRON     ; 131
+	const AGGRON     ; 132
+	const MEDITITE   ; 133
+	const MEDICHAM   ; 134
+	const ELECTRIKE  ; 135
+	const MANECTRIC  ; 136
+	const PLUSLE     ; 137
+	const MINUN      ; 138
+	const VOLBEAT    ; 139
+	const ILLUMISE   ; 13a
+	const ROSELIA    ; 13b
+	const GULPIN     ; 13c
+	const SWALOT     ; 13d
+	const CARVANHA   ; 12e
+	const SHARPEDO   ; 13f
+	
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

@@ -49,6 +49,26 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw AzurillEggMoves
 	dw NosepassEggMoves
+	dw SkittyEggMoves
+	dw NoEggMoves3
+	dw SableyeEggMoves
+	dw MawileEggMoves
+	dw AronEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw MedititeEggMoves
+	dw NoEggMoves3
+	dw ElectrikeEggMoves
+	dw NoEggMoves3
+	dw PlusleEggMoves
+	dw MinunEggMoves
+	dw VolbeatEggMoves
+	dw IllumiseEggMoves
+	dw RoseliaEggMoves
+	dw GulpinEggMoves
+	dw NoEggMoves3
+	dw CarvanhaEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -254,7 +274,7 @@ NosepassEggMoves:
 	; dw ROLLOUT
 	dw -1 ; end
 	
-; SkittyEggMoves:
+SkittyEggMoves:
 	; dw BATON_PASS
 	; dw FAKE_OUT
 	; dw FAKE_TEARS
@@ -267,17 +287,17 @@ NosepassEggMoves:
 	; dw UPROAR
 	; dw WISH
 	; dw ZEN_HEADBUTT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; SableyeEggMoves:
+SableyeEggMoves:
 	; dw FLATTER
 	; dw MOONLIGHT
 	; dw NASTY_PLOT
 	; dw PSYCH_UP
 	; dw RECOVER
-	; dw -1 ; end
+	dw -1 ; end
 	
-; MawileEggMoves:
+MawileEggMoves:
 	; dw ANCIENTPOWER
 	; dw FALSE_SWIPE
 	; dw FIRE_FANG
@@ -289,9 +309,9 @@ NosepassEggMoves:
 	; dw SWORDS_DANCE
 	; dw THUNDER_FANG
 	; dw TICKLE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; AronEggMoves:
+AronEggMoves:
 	; dw BODY_SLAM
 	; dw CURSE
 	; dw DRAGON_RUSH
@@ -300,9 +320,9 @@ NosepassEggMoves:
 	; dw SCREECH
 	; dw SMELLINGSALT
 	; dw STOMP
-	; dw -1 ; end
+	dw -1 ; end
 	
-; MedititeEggMoves:
+MedititeEggMoves:
 	; dw BATON_PASS
 	; dw BULLET_PUNCH
 	; dw DYNAMICPUNCH
@@ -314,9 +334,9 @@ NosepassEggMoves:
 	; dw POWER_SWAP
 	; dw PSYCHO_CUT
 	; dw THUNDERPUNCH
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ElectrikeEggMoves:
+ElectrikeEggMoves:
 	; dw CRUNCH
 	; dw CURSE
 	; dw DISCHARGE
@@ -326,39 +346,39 @@ NosepassEggMoves:
 	; dw SWIFT
 	; dw THUNDER_FANG
 	; dw UPROAR
-	; dw -1 ; end
+	dw -1 ; end
 	
-; PlusleEggMoves:
+PlusleEggMoves:
 	; dw SING
 	; dw SUBSTITUTE
 	; dw SWEET_KISS
 	; dw WISH
-	; dw -1 ; end
+	dw -1 ; end
 
-; MinunEggMoves:
+MinunEggMoves:
 	; dw SING
 	; dw SUBSTITUTE
 	; dw SWEET_KISS
 	; dw WISH
-	; dw -1 ; end
+	dw -1 ; end
 
-; VolbeatEggMoves:
+VolbeatEggMoves:
 	; dw BATON_PASS
 	; dw BUG_BUZZ
 	; dw ENCORE
 	; dw SILVER_WIND
 	; dw TRICK
-	; dw -1 ; end
+	dw -1 ; end
 
-; IllumiseEggMoves:
+IllumiseEggMoves:
 	; dw BATON_PASS
 	; dw BUG_BUZZ
 	; dw ENCORE
 	; dw GROWTH
 	; dw SILVER_WIND
-	; dw -1 ; end
+	dw -1 ; end
 
-; RoseliaEggMoves:
+RoseliaEggMoves:
 	; dw COTTON_SPORE
 	; dw EXTRASENSORY
 	; dw LEAF_STORM
@@ -368,23 +388,23 @@ NosepassEggMoves:
 	; dw SLEEP_POWDER
 	; dw SPIKES
 	; dw SYNTHESIS
-	; dw -1 ; end
+	dw -1 ; end
 
-; GulpinEggMoves:
+GulpinEggMoves:
 	; dw ACID_ARMOR
 	; dw CURSE
 	; dw DESTINY_BOND
 	; dw DREAM_EATER
 	; dw PAIN_SPLIT
 	; dw SMOG
-	; dw -1 ; end
+	dw -1 ; end
 
-; CarvanhaEggMoves:
+CarvanhaEggMoves:
 	; dw ANCIENTPOWER
 	; dw DOUBLE_EDGE
 	; dw HYDRO_PUMP
 	; dw THRASH
-	; dw -1 ; end
+	dw -1 ; end
 
 ; WailmerEggMoves:
 	; dw BODY_SLAM

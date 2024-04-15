@@ -614,4 +614,44 @@ PokemonPicPointers::
 	dba AzurillBackpic
 	dba NosepassFrontpic
 	dba NosepassBackpic
+	dba SkittyFrontpic
+	dba SkittyBackpic
+	dba DelcattyFrontpic
+	dba DelcattyBackpic
+	dba SableyeFrontpic
+	dba SableyeBackpic
+	dba MawileFrontpic
+	dba MawileBackpic
+	dba AronFrontpic
+	dba AronBackpic
+	dba LaironFrontpic
+	dba LaironBackpic
+	dba AggronFrontpic
+	dba AggronBackpic
+	dba MedititeFrontpic
+	dba MedititeBackpic
+	dba MedichamFrontpic
+	dba MedichamBackpic
+	dba ElectrikeFrontpic
+	dba ElectrikeBackpic
+	dba ManectricFrontpic
+	dba ManectricBackpic
+	dba PlusleFrontpic
+	dba PlusleBackpic
+	dba MinunFrontpic
+	dba MinunBackpic
+	dba VolbeatFrontpic
+	dba VolbeatBackpic
+	dba IllumiseFrontpic
+	dba IllumiseBackpic
+	dba RoseliaFrontpic
+	dba RoseliaBackpic
+	dba GulpinFrontpic
+	dba GulpinBackpic
+	dba SwalotFrontpic
+	dba SwalotBackpic
+	dba CarvanhaFrontpic
+	dba CarvanhaBackpic
+	dba SharpedoFrontpic
+	dba SharpedoBackpic
 	assert_table_length NUM_POKEMON + 1

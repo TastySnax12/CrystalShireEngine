@@ -309,4 +309,24 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; HARIYAMA
 	icon_pals BLUE,   GREEN  ; AZURILL
 	icon_pals GRAY,   RED    ; NOSEPASS
+	icon_pals PINK,   RED    ; SKITTY
+	icon_pals PURPLE, RED    ; DELCATTY
+	icon_pals PURPLE, RED    ; SABLEYE
+	icon_pals GRAY,   PURPLE ; MAWILE
+	icon_pals GRAY,   TEAL   ; ARON
+	icon_pals GRAY,   TEAL   ; LAIRON
+	icon_pals GRAY,   TEAL   ; AGGRON
+	icon_pals BLUE,   RED    ; MEDITITE
+	icon_pals RED,    BLUE   ; MEDICHAM
+	icon_pals GREEN,  TEAL   ; ELECTRIKE
+	icon_pals TEAL,   GRAY   ; MANECTRIC
+	icon_pals RED,    RED    ; PLUSLE
+	icon_pals BLUE,   GREEN  ; MINUN
+	icon_pals RED,    BLUE   ; VOLBEAT
+	icon_pals PURPLE, RED    ; ILLUMISE
+	icon_pals GREEN,  GREEN  ; ROSELIA
+	icon_pals GREEN,  BLUE   ; GULPIN
+	icon_pals PURPLE, BLUE   ; SWALOT
+	icon_pals RED,    TEAL   ; CARVANHA
+	icon_pals BLUE,   PURPLE ; SHARPEDO
 	assert_table_length NUM_POKEMON

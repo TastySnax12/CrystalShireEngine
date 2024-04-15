@@ -300,4 +300,24 @@ FirstEvoStages::
 	dw MAKUHITA
 	dw AZURILL
 	dw NOSEPASS
+	dw SKITTY
+	dw SKITTY
+	dw SABLEYE
+	dw MAWILE
+	dw ARON
+	dw ARON
+	dw ARON
+	dw MEDITITE
+	dw MEDITITE
+	dw ELECTRIKE
+	dw ELECTRIKE
+	dw PLUSLE
+	dw MINUN
+	dw VOLBEAT
+	dw ILLUMISE
+	dw ROSELIA
+	dw GULPIN
+	dw GULPIN
+	dw CARVANHA
+	dw CARVANHA
 	assert_table_length NUM_POKEMON

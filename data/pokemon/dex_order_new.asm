@@ -301,4 +301,24 @@ NewPokedexOrder:
 	dw HARIYAMA
 	dw AZURILL
 	dw NOSEPASS
+	dw SKITTY
+	dw DELCATTY
+	dw SABLEYE
+	dw MAWILE
+	dw ARON
+	dw LAIRON
+	dw AGGRON
+	dw MEDITITE
+	dw MEDICHAM
+	dw ELECTRIKE
+	dw MANECTRIC
+	dw PLUSLE
+	dw MINUN
+	dw VOLBEAT
+	dw ILLUMISE
+	dw ROSELIA
+	dw GULPIN
+	dw SWALOT
+	dw CARVANHA
+	dw SHARPEDO
 	assert_table_length NUM_POKEMON

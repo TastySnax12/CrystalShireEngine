@@ -305,4 +305,24 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; HARIYAMA
 	mon_cry CRY_RATTATA,       0,  0   ; AZURILL
 	mon_cry CRY_RATTATA,       0,  0   ; NOSEPASS
+	mon_cry CRY_RATTATA,       0,  0   ; SKITTY
+	mon_cry CRY_RATTATA,       0,  0   ; DELCATTY
+	mon_cry CRY_RATTATA,       0,  0   ; SABLEYE
+	mon_cry CRY_RATTATA,       0,  0   ; MAWILE
+	mon_cry CRY_RATTATA,       0,  0   ; ARON
+	mon_cry CRY_RATTATA,       0,  0   ; LAIRON
+	mon_cry CRY_RATTATA,       0,  0   ; AGGRON
+	mon_cry CRY_RATTATA,       0,  0   ; MEDITITE
+	mon_cry CRY_RATTATA,       0,  0   ; MEDICHAM
+	mon_cry CRY_RATTATA,       0,  0   ; ELECTRIKE
+	mon_cry CRY_RATTATA,       0,  0   ; MANECTRIC
+	mon_cry CRY_RATTATA,       0,  0   ; PLUSLE
+	mon_cry CRY_RATTATA,       0,  0   ; MINUN
+	mon_cry CRY_RATTATA,       0,  0   ; VOLBEAT
+	mon_cry CRY_RATTATA,       0,  0   ; ILLUMISE
+	mon_cry CRY_RATTATA,       0,  0   ; ROSELIA
+	mon_cry CRY_RATTATA,       0,  0   ; GULPIN
+	mon_cry CRY_RATTATA,       0,  0   ; SWALOT
+	mon_cry CRY_RATTATA,       0,  0   ; CARVANHA
+	mon_cry CRY_RATTATA,       0,  0   ; SHARPEDO
 	assert_table_length NUM_POKEMON

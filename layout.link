@@ -332,6 +332,10 @@ ROMX $7f
 ROMX $80
 	"Tileset Data 12"
 ROMX $81
+; Sentinel placed here to avoid conflicts with
+; emus that wrap ROMX $80 to ROM0 instead of
+; ROMX $01
+	"MBC30 Sentinel"
 	"Pics 21"
 ROMX $82
 	"Pic Animations 4"
@@ -341,6 +345,10 @@ ROMX $84
 	"Pics 23"
 ROMX $85
 	"Pic Animations 5"
+ROMX $86
+	"Pics 24"
+ROMX $87
+	"Pics 25"
 WRAM0
 	"Stack"
 	"Audio RAM"

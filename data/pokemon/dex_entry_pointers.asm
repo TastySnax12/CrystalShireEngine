@@ -300,4 +300,24 @@ PokedexDataPointerTable:
 	dba HariyamaPokedexEntry
 	dba AzurillPokedexEntry
 	dba NosepassPokedexEntry
+	dba SkittyPokedexEntry
+	dba DelcattyPokedexEntry
+	dba SableyePokedexEntry
+	dba MawilePokedexEntry
+	dba AronPokedexEntry
+	dba LaironPokedexEntry
+	dba AggronPokedexEntry
+	dba MedititePokedexEntry
+	dba MedichamPokedexEntry
+	dba ElectrikePokedexEntry
+	dba ManectricPokedexEntry
+	dba PluslePokedexEntry
+	dba MinunPokedexEntry
+	dba VolbeatPokedexEntry
+	dba IllumisePokedexEntry
+	dba RoseliaPokedexEntry
+	dba GulpinPokedexEntry
+	dba SwalotPokedexEntry
+	dba CarvanhaPokedexEntry
+	dba SharpedoPokedexEntry
 	assert_table_length NUM_POKEMON

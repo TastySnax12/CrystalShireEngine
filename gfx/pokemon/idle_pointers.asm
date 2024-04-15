@@ -299,4 +299,24 @@ AnimationIdlePointers:
 	dw HariyamaAnimationIdle
 	dw AzurillAnimationIdle
 	dw NosepassAnimationIdle
+	dw SkittyAnimationIdle
+	dw DelcattyAnimationIdle
+	dw SableyeAnimationIdle
+	dw MawileAnimationIdle
+	dw AronAnimationIdle
+	dw LaironAnimationIdle
+	dw AggronAnimationIdle
+	dw MedititeAnimationIdle
+	dw MedichamAnimationIdle
+	dw ElectrikeAnimationIdle
+	dw ManectricAnimationIdle
+	dw PlusleAnimationIdle
+	dw MinunAnimationIdle
+	dw VolbeatAnimationIdle
+	dw IllumiseAnimationIdle
+	dw RoseliaAnimationIdle
+	dw GulpinAnimationIdle
+	dw SwalotAnimationIdle
+	dw CarvanhaAnimationIdle
+	dw SharpedoAnimationIdle
 	assert_table_length NUM_POKEMON

@@ -4,12 +4,14 @@ AlphabeticalPokedexOrder:
 	table_width 2, AlphabeticalPokedexOrder
 	dw ABRA
 	dw AERODACTYL
+	dw AGGRON
 	dw AIPOM
 	dw ALAKAZAM
 	dw AMPHAROS
 	dw ARBOK
 	dw ARCANINE
 	dw ARIADOS
+	dw ARON
 	dw ARTICUNO
 	dw AZUMARILL
 	dw AZURILL
@@ -24,6 +26,7 @@ AlphabeticalPokedexOrder:
 	dw BRELOOM
 	dw BULBASAUR
 	dw BUTTERFREE
+	dw CARVANHA
 	dw CASCOON
 	dw CATERPIE
 	dw CELEBI
@@ -43,6 +46,7 @@ AlphabeticalPokedexOrder:
 	dw CROCONAW
 	dw CUBONE
 	dw CYNDAQUIL
+	dw DELCATTY
 	dw DELIBIRD
 	dw DEWGONG
 	dw DIGLETT
@@ -60,6 +64,7 @@ AlphabeticalPokedexOrder:
 	dw EEVEE
 	dw EKANS
 	dw ELECTABUZZ
+	dw ELECTRIKE
 	dw ELECTRODE
 	dw ELEKID
 	dw ENTEI
@@ -90,6 +95,7 @@ AlphabeticalPokedexOrder:
 	dw GRIMER
 	dw GROVYLE
 	dw GROWLITHE
+	dw GULPIN
 	dw GYARADOS
 	dw HARIYAMA
 	dw HAUNTER
@@ -105,6 +111,7 @@ AlphabeticalPokedexOrder:
 	dw HOUNDOUR
 	dw HYPNO
 	dw IGGLYBUFF
+	dw ILLUMISE
 	dw IVYSAUR
 	dw JIGGLYPUFF
 	dw JOLTEON
@@ -120,6 +127,7 @@ AlphabeticalPokedexOrder:
 	dw KIRLIA
 	dw KOFFING
 	dw KRABBY
+	dw LAIRON
 	dw LANTURN
 	dw LAPRAS
 	dw LARVITAR
@@ -142,6 +150,7 @@ AlphabeticalPokedexOrder:
 	dw MAGNEMITE
 	dw MAGNETON
 	dw MAKUHITA
+	dw MANECTRIC
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP
@@ -149,6 +158,9 @@ AlphabeticalPokedexOrder:
 	dw MAROWAK
 	dw MARSHTOMP
 	dw MASQUERAIN
+	dw MAWILE
+	dw MEDICHAM
+	dw MEDITITE
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -157,6 +169,7 @@ AlphabeticalPokedexOrder:
 	dw MIGHTYENA
 	dw MILTANK
 	dw MISDREAVUS
+	dw MINUN
 	dw MOLTRES
 	dw MR__MIME
 	dw MUDKIP
@@ -193,6 +206,7 @@ AlphabeticalPokedexOrder:
 	dw PILOSWINE
 	dw PINECO
 	dw PINSIR
+	dw PLUSLE
 	dw POLITOED
 	dw POLIWAG
 	dw POLIWHIRL
@@ -216,6 +230,8 @@ AlphabeticalPokedexOrder:
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
+	dw ROSELIA
+	dw SABLEYE
 	dw SANDSHREW
 	dw SANDSLASH
 	dw SCEPTILE
@@ -226,6 +242,7 @@ AlphabeticalPokedexOrder:
 	dw SEEDOT
 	dw SEEL
 	dw SENTRET
+	dw SHARPEDO
 	dw SHEDINJA
 	dw SHELLDER
 	dw SHIFTRY
@@ -234,6 +251,7 @@ AlphabeticalPokedexOrder:
 	dw SILCOON
 	dw SKARMORY
 	dw SKIPLOOM
+	dw SKITTY
 	dw SLAKING
 	dw SLAKOTH
 	dw SLOWBRO
@@ -257,6 +275,7 @@ AlphabeticalPokedexOrder:
 	dw SUNFLORA
 	dw SUNKERN
 	dw SURSKIT
+	dw SWALOT
 	dw SWAMPERT
 	dw SWELLOW
 	dw SWINUB
@@ -284,6 +303,7 @@ AlphabeticalPokedexOrder:
 	dw VICTREEBEL
 	dw VIGOROTH
 	dw VILEPLUME
+	dw VOLBEAT
 	dw VOLTORB
 	dw VULPIX
 	dw WARTORTLE
