@@ -306,4 +306,10 @@ AnimationIdlePointers:
 	dw AronAnimationIdle
 	dw LaironAnimationIdle
 	dw AggronAnimationIdle
+	dw MedititeAnimationIdle
+	dw MedichamAnimationIdle
+	dw ElectrikeAnimationIdle
+	dw ManectricAnimationIdle
+	dw PlusleAnimationIdle
+	dw MinunAnimationIdle
 	assert_table_length NUM_POKEMON

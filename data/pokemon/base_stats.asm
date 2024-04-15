@@ -345,5 +345,11 @@ INCLUDE "data/pokemon/base_stats/mawile.asm"
 INCLUDE "data/pokemon/base_stats/aron.asm"
 INCLUDE "data/pokemon/base_stats/lairon.asm"
 INCLUDE "data/pokemon/base_stats/aggron.asm"
+INCLUDE "data/pokemon/base_stats/meditite.asm"
+INCLUDE "data/pokemon/base_stats/medicham.asm"
+INCLUDE "data/pokemon/base_stats/electrike.asm"
+INCLUDE "data/pokemon/base_stats/manectric.asm"
+INCLUDE "data/pokemon/base_stats/plusle.asm"
+INCLUDE "data/pokemon/base_stats/minun.asm"
 
 .IndirectEnd::

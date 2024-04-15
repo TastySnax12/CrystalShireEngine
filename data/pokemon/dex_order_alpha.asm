@@ -63,6 +63,7 @@ AlphabeticalPokedexOrder:
 	dw EEVEE
 	dw EKANS
 	dw ELECTABUZZ
+	dw ELECTRIKE
 	dw ELECTRODE
 	dw ELEKID
 	dw ENTEI
@@ -146,6 +147,7 @@ AlphabeticalPokedexOrder:
 	dw MAGNEMITE
 	dw MAGNETON
 	dw MAKUHITA
+	dw MANECTRIC
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP
@@ -154,6 +156,8 @@ AlphabeticalPokedexOrder:
 	dw MARSHTOMP
 	dw MASQUERAIN
 	dw MAWILE
+	dw MEDICHAM
+	dw MEDITITE
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -162,6 +166,7 @@ AlphabeticalPokedexOrder:
 	dw MIGHTYENA
 	dw MILTANK
 	dw MISDREAVUS
+	dw MINUN
 	dw MOLTRES
 	dw MR__MIME
 	dw MUDKIP
@@ -198,6 +203,7 @@ AlphabeticalPokedexOrder:
 	dw PILOSWINE
 	dw PINECO
 	dw PINSIR
+	dw PLUSLE
 	dw POLITOED
 	dw POLIWAG
 	dw POLIWHIRL

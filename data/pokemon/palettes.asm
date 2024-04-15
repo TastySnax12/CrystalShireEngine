@@ -645,4 +645,16 @@ INCBIN "gfx/pokemon/lairon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/lairon/shiny.pal"
 INCBIN "gfx/pokemon/aggron/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/aggron/shiny.pal"
+INCBIN "gfx/pokemon/meditite/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/meditite/shiny.pal"
+INCBIN "gfx/pokemon/medicham/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/medicham/shiny.pal"
+INCBIN "gfx/pokemon/electrike/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/electrike/shiny.pal"
+INCBIN "gfx/pokemon/manectric/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/manectric/shiny.pal"
+INCBIN "gfx/pokemon/plusle/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/plusle/shiny.pal"
+INCBIN "gfx/pokemon/minun/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/minun/shiny.pal"
 	assert_table_length NUM_POKEMON + 1

@@ -312,4 +312,10 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; ARON
 	mon_cry CRY_RATTATA,       0,  0   ; LAIRON
 	mon_cry CRY_RATTATA,       0,  0   ; AGGRON
+	mon_cry CRY_RATTATA,       0,  0   ; MEDITITE
+	mon_cry CRY_RATTATA,       0,  0   ; MEDICHAM
+	mon_cry CRY_RATTATA,       0,  0   ; ELECTRIKE
+	mon_cry CRY_RATTATA,       0,  0   ; MANECTRIC
+	mon_cry CRY_RATTATA,       0,  0   ; PLUSLE
+	mon_cry CRY_RATTATA,       0,  0   ; MINUN
 	assert_table_length NUM_POKEMON

@@ -628,4 +628,16 @@ PokemonPicPointers::
 	dba LaironBackpic
 	dba AggronFrontpic
 	dba AggronBackpic
+	dba MedititeFrontpic
+	dba MedititeBackpic
+	dba MedichamFrontpic
+	dba MedichamBackpic
+	dba ElectrikeFrontpic
+	dba ElectrikeBackpic
+	dba ManectricFrontpic
+	dba ManectricBackpic
+	dba PlusleFrontpic
+	dba PlusleBackpic
+	dba MinunFrontpic
+	dba MinunBackpic
 	assert_table_length NUM_POKEMON + 1

@@ -56,6 +56,12 @@ EggMovePointers3::
 	dw AronEggMoves
 	dw NoEggMoves3
 	dw NoEggMoves3
+	dw MedititeEggMoves
+	dw NoEggMoves3
+	dw ElectrikeEggMoves
+	dw NoEggMoves3
+	dw PlusleEggMoves
+	dw MinunEggMoves
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -309,7 +315,7 @@ AronEggMoves:
 	; dw STOMP
 	dw -1 ; end
 	
-; MedititeEggMoves:
+MedititeEggMoves:
 	; dw BATON_PASS
 	; dw BULLET_PUNCH
 	; dw DYNAMICPUNCH
@@ -321,9 +327,9 @@ AronEggMoves:
 	; dw POWER_SWAP
 	; dw PSYCHO_CUT
 	; dw THUNDERPUNCH
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ElectrikeEggMoves:
+ElectrikeEggMoves:
 	; dw CRUNCH
 	; dw CURSE
 	; dw DISCHARGE
@@ -333,21 +339,21 @@ AronEggMoves:
 	; dw SWIFT
 	; dw THUNDER_FANG
 	; dw UPROAR
-	; dw -1 ; end
+	dw -1 ; end
 	
-; PlusleEggMoves:
+PlusleEggMoves:
 	; dw SING
 	; dw SUBSTITUTE
 	; dw SWEET_KISS
 	; dw WISH
-	; dw -1 ; end
+	dw -1 ; end
 
-; MinunEggMoves:
+MinunEggMoves:
 	; dw SING
 	; dw SUBSTITUTE
 	; dw SWEET_KISS
 	; dw WISH
-	; dw -1 ; end
+	dw -1 ; end
 
 ; VolbeatEggMoves:
 	; dw BATON_PASS

@@ -316,4 +316,10 @@ MonMenuIconPals:
 	icon_pals GRAY,   TEAL   ; ARON
 	icon_pals GRAY,   TEAL   ; LAIRON
 	icon_pals GRAY,   TEAL   ; AGGRON
+	icon_pals BLUE,   RED    ; MEDITITE
+	icon_pals RED,    BLUE   ; MEDICHAM
+	icon_pals GREEN,  TEAL   ; ELECTRIKE
+	icon_pals TEAL,   GRAY   ; MANECTRIC
+	icon_pals RED,    RED    ; PLUSLE
+	icon_pals BLUE,   GREEN  ; MINUN
 	assert_table_length NUM_POKEMON

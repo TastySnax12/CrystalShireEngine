@@ -311,4 +311,10 @@ IconPointers:
 	dba MagikarpIcon ; ARON
 	dba MagikarpIcon ; LAIRON
 	dba MagikarpIcon ; AGGRON
+	dba MagikarpIcon ; MEDITITE
+	dba MagikarpIcon ; MEDICHAM
+	dba MagikarpIcon ; ELECTRIKE
+	dba MagikarpIcon ; MANECTRIC
+	dba MagikarpIcon ; PLUSLE
+	dba MagikarpIcon ; MINUN
 	assert_table_length NUM_POKEMON + 1

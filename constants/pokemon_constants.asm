@@ -327,6 +327,12 @@ DEF HOENN_POKEMON EQU const_value
 	const ARON       ; 130
 	const LAIRON     ; 131
 	const AGGRON     ; 132
+	const MEDITITE   ; 133
+	const MEDICHAM   ; 134
+	const ELECTRIKE  ; 135
+	const MANECTRIC  ; 136
+	const PLUSLE     ; 137
+	const MINUN      ; 138
 	
 DEF NUM_POKEMON EQU const_value - 1
 

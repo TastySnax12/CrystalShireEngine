@@ -310,4 +310,10 @@ PokemonNames::
 	db "ARON@@@@@@"
 	db "LAIRON@@@@"
 	db "AGGRON@@@@"
+	db "MEDITITE@@"
+	db "MEDICHAM@@"
+	db "ELECTRIKE@"
+	db "MANECTRIC@"
+	db "PLUSLE@@@@"
+	db "MINUN@@@@@"
 	assert_table_length NUM_POKEMON

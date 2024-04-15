@@ -307,4 +307,10 @@ FirstEvoStages::
 	dw ARON
 	dw ARON
 	dw ARON
+	dw MEDITITE
+	dw MEDITITE
+	dw ELECTRIKE
+	dw ELECTRIKE
+	dw PLUSLE
+	dw MINUN
 	assert_table_length NUM_POKEMON

@@ -308,4 +308,10 @@ NewPokedexOrder:
 	dw ARON
 	dw LAIRON
 	dw AGGRON
+	dw MEDITITE
+	dw MEDICHAM
+	dw ELECTRIKE
+	dw MANECTRIC
+	dw PLUSLE
+	dw MINUN
 	assert_table_length NUM_POKEMON
