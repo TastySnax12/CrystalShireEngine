@@ -320,4 +320,12 @@ FirstEvoStages::
 	dw GULPIN
 	dw CARVANHA
 	dw CARVANHA
+	dw WAILMER
+	dw WAILMER
+	dw NUMEL
+	dw NUMEL
+	dw TORKOAL
+	dw SPOINK
+	dw SPOINK
+	dw SPINDA
 	assert_table_length NUM_POKEMON

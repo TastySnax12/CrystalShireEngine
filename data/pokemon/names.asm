@@ -323,4 +323,12 @@ PokemonNames::
 	db "SWALOT@@@@"
 	db "CARVANHA@@"
 	db "SHARPEDO@@"
+	db "WAILMER@@@"
+	db "WAILORD@@@"
+	db "NUMEL@@@@@"
+	db "CAMERUPT@@"
+	db "TORKOAL@@@"
+	db "SPOINK@@@@"
+	db "GRUMPIG@@@"
+	db "SPINDA@@@@"
 	assert_table_length NUM_POKEMON

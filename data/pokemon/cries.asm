@@ -325,4 +325,12 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; SWALOT
 	mon_cry CRY_RATTATA,       0,  0   ; CARVANHA
 	mon_cry CRY_RATTATA,       0,  0   ; SHARPEDO
+	mon_cry CRY_RATTATA,       0,  0   ; WAILMER
+	mon_cry CRY_RATTATA,       0,  0   ; WAILORD
+	mon_cry CRY_RATTATA,       0,  0   ; NUMEL
+	mon_cry CRY_RATTATA,       0,  0   ; CAMERUPT
+	mon_cry CRY_RATTATA,       0,  0   ; TORKOAL
+	mon_cry CRY_RATTATA,       0,  0   ; SPOINK
+	mon_cry CRY_RATTATA,       0,  0   ; GRUMPIG
+	mon_cry CRY_RATTATA,       0,  0   ; SPINDA
 	assert_table_length NUM_POKEMON

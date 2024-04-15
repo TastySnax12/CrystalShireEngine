@@ -654,4 +654,20 @@ PokemonPicPointers::
 	dba CarvanhaBackpic
 	dba SharpedoFrontpic
 	dba SharpedoBackpic
+	dba WailmerFrontpic
+	dba WailmerBackpic
+	dba WailordFrontpic
+	dba WailordBackpic
+	dba NumelFrontpic
+	dba NumelBackpic
+	dba CameruptFrontpic
+	dba CameruptBackpic
+	dba TorkoalFrontpic
+	dba TorkoalBackpic
+	dba SpoinkFrontpic
+	dba SpoinkBackpic
+	dba GrumpigFrontpic
+	dba GrumpigBackpic
+	dba SpindaFrontpic
+	dba SpindaBackpic
 	assert_table_length NUM_POKEMON + 1

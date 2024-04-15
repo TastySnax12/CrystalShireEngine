@@ -69,6 +69,14 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw CarvanhaEggMoves
 	dw NoEggMoves3
+	dw WailmerEggMoves
+	dw NoEggMoves3
+	dw NumelEggMoves
+	dw NoEggMoves3
+	dw TorkoalEggMoves
+	dw SpoinkEggMoves
+	dw NoEggMoves3
+	dw SpindaEggMoves
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -406,7 +414,7 @@ CarvanhaEggMoves:
 	; dw THRASH
 	dw -1 ; end
 
-; WailmerEggMoves:
+WailmerEggMoves:
 	; dw BODY_SLAM
 	; dw CURSE
 	; dw DEFENSE_CURL
@@ -417,9 +425,9 @@ CarvanhaEggMoves:
 	; dw SWAGGER
 	; dw THRASH
 	; dw TICKLE
-	; dw -1 ; end
+	dw -1 ; end
 
-; NumelEggMoves:
+NumelEggMoves:
 	; dw ANCIENTPOWER
 	; dw BODY_SLAM
 	; dw DEFENSE_CURL
@@ -430,18 +438,18 @@ CarvanhaEggMoves:
 	; dw SCARY_FACE
 	; dw STOMP
 	; dw YAWN
-	; dw -1 ; end
+	dw -1 ; end
 
-; TorkoalEggMoves:
+TorkoalEggMoves:
 	; dw EARTHQUAKE
 	; dw ENDURE
 	; dw ERUPTION
 	; dw FISSURE
 	; dw SLEEP_TALK
 	; dw YAWN
-	; dw -1 ; end
+	dw -1 ; end
 
-; SpoinkEggMoves:
+SpoinkEggMoves:
 	; dw AMNESIA
 	; dw EXTRASENSORY
 	; dw FUTURE_SIGHT
@@ -449,9 +457,9 @@ CarvanhaEggMoves:
 	; dw SUBSTITUTE
 	; dw TRICK
 	; dw ZEN_HEADBUTT
-	; dw -1 ; end
+	dw -1 ; end
 
-; SpindaEggMoves:
+SpindaEggMoves:
 	; dw ASSIST
 	; dw BATON_PASS
 	; dw DISABLE
@@ -463,7 +471,7 @@ CarvanhaEggMoves:
 	; dw SMELLINGSALT
 	; dw TRICK
 	; dw WISH
-	; dw -1 ; end
+	dw -1 ; end
 
 ; TrapinchEggMoves:
 	; dw FLAIL

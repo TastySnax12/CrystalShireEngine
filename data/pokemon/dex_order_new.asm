@@ -321,4 +321,12 @@ NewPokedexOrder:
 	dw SWALOT
 	dw CARVANHA
 	dw SHARPEDO
+	dw WAILMER
+	dw WAILORD
+	dw NUMEL
+	dw CAMERUPT
+	dw TORKOAL
+	dw SPOINK
+	dw GRUMPIG
+	dw SPINDA
 	assert_table_length NUM_POKEMON

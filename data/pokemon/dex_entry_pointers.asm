@@ -320,4 +320,12 @@ PokedexDataPointerTable:
 	dba SwalotPokedexEntry
 	dba CarvanhaPokedexEntry
 	dba SharpedoPokedexEntry
+	dba WailmerPokedexEntry
+	dba WailordPokedexEntry
+	dba NumelPokedexEntry
+	dba CameruptPokedexEntry
+	dba TorkoalPokedexEntry
+	dba SpoinkPokedexEntry
+	dba GrumpigPokedexEntry
+	dba SpindaPokedexEntry
 	assert_table_length NUM_POKEMON

@@ -319,4 +319,12 @@ AnimationIdlePointers:
 	dw SwalotAnimationIdle
 	dw CarvanhaAnimationIdle
 	dw SharpedoAnimationIdle
+	dw WailmerAnimationIdle
+	dw WailordAnimationIdle
+	dw NumelAnimationIdle
+	dw CameruptAnimationIdle
+	dw TorkoalAnimationIdle
+	dw SpoinkAnimationIdle
+	dw GrumpigAnimationIdle
+	dw SpindaAnimationIdle
 	assert_table_length NUM_POKEMON

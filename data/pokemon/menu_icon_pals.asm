@@ -329,4 +329,12 @@ MonMenuIconPals:
 	icon_pals PURPLE, BLUE   ; SWALOT
 	icon_pals RED,    TEAL   ; CARVANHA
 	icon_pals BLUE,   PURPLE ; SHARPEDO
+	icon_pals BLUE,   PURPLE ; WAILMER
+	icon_pals BLUE,   PURPLE ; WAILORD
+	icon_pals GREEN,  BLUE   ; NUMEL
+	icon_pals RED,    GRAY   ; CAMERUPT
+	icon_pals GRAY,   RED    ; TORKOAL
+	icon_pals GRAY,   GRAY   ; SPOINK
+	icon_pals PURPLE, GRAY   ; GRUMPIG
+	icon_pals RED,    GREEN  ; SPINDA
 	assert_table_length NUM_POKEMON

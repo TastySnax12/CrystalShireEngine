@@ -340,6 +340,14 @@ DEF HOENN_POKEMON EQU const_value
 	const SWALOT     ; 13d
 	const CARVANHA   ; 12e
 	const SHARPEDO   ; 13f
+	const WAILMER    ; 140
+	const WAILORD    ; 141
+	const NUMEL      ; 142
+	const CAMERUPT   ; 143
+	const TORKOAL    ; 144
+	const SPOINK     ; 145
+	const GRUMPIG    ; 146
+	const SPINDA     ; 147
 	
 DEF NUM_POKEMON EQU const_value - 1
 

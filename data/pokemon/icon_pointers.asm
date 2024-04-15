@@ -324,4 +324,12 @@ IconPointers:
 	dba MagikarpIcon ; SWALOT
 	dba MagikarpIcon ; CARVANHA
 	dba MagikarpIcon ; SHARPEDO
+	dba MagikarpIcon ; WAILMER
+	dba MagikarpIcon ; WAILORD
+	dba MagikarpIcon ; NUMEL
+	dba MagikarpIcon ; CAMERUPT
+	dba MagikarpIcon ; TORKOAL
+	dba MagikarpIcon ; SPOINK
+	dba MagikarpIcon ; GRUMPIG
+	dba MagikarpIcon ; SPINDA
 	assert_table_length NUM_POKEMON + 1

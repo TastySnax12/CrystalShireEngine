@@ -26,6 +26,7 @@ AlphabeticalPokedexOrder:
 	dw BRELOOM
 	dw BULBASAUR
 	dw BUTTERFREE
+	dw CAMERUPT
 	dw CARVANHA
 	dw CASCOON
 	dw CATERPIE
@@ -95,6 +96,7 @@ AlphabeticalPokedexOrder:
 	dw GRIMER
 	dw GROVYLE
 	dw GROWLITHE
+	dw GRUMPIG
 	dw GULPIN
 	dw GYARADOS
 	dw HARIYAMA
@@ -187,6 +189,7 @@ AlphabeticalPokedexOrder:
 	dw NINJASK
 	dw NOCTOWL
 	dw NOSEPASS
+	dw NUMEL
 	dw NUZLEAF
 	dw OCTILLERY
 	dw ODDISH
@@ -265,6 +268,8 @@ AlphabeticalPokedexOrder:
 	dw SNUBBULL
 	dw SPEAROW
 	dw SPINARAK
+	dw SPINDA
+	dw SPOINK
 	dw SQUIRTLE
 	dw STANTLER
 	dw STARMIE
@@ -288,6 +293,7 @@ AlphabeticalPokedexOrder:
 	dw TOGEPI
 	dw TOGETIC
 	dw TORCHIC
+	dw TORKOAL
 	dw TOTODILE
 	dw TREECKO
 	dw TYPHLOSION
@@ -306,6 +312,8 @@ AlphabeticalPokedexOrder:
 	dw VOLBEAT
 	dw VOLTORB
 	dw VULPIX
+	dw WAILMER
+	dw WAILORD
 	dw WARTORTLE
 	dw WEEDLE
 	dw WEEPINBELL

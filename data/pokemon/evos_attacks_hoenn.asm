@@ -69,14 +69,14 @@ EvosAttacksPointers3::
 	dw SwalotEvosAttacks
 	dw CarvanhaEvosAttacks
 	dw SharpedoEvosAttacks
-	; dw WailmerEvosAttacks
-	; dw WailordEvosAttacks
-	; dw NumelEvosAttacks
-	; dw CameruptEvosAttacks
-	; dw TorkoalEvosAttacks
-	; dw SpoinkEvosAttacks
-	; dw GrumpigEvosAttacks
-	; dw SpindaEvosAttacks
+	dw WailmerEvosAttacks
+	dw WailordEvosAttacks
+	dw NumelEvosAttacks
+	dw CameruptEvosAttacks
+	dw TorkoalEvosAttacks
+	dw SpoinkEvosAttacks
+	dw GrumpigEvosAttacks
+	dw SpindaEvosAttacks
 	; dw TrapinchEvosAttacks
 	; dw VibravaEvosAttacks
 	; dw FlygonEvosAttacks
@@ -479,159 +479,45 @@ SharpedoEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; WailmerEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 40, WAILORD
-	; db 0 ; no more evolutions
-	; dbw 1, SPLASH
-	; dbw 4, GROWL
-	; dbw 7, WATER_GUN
-	; dbw 11, ROLLOUT
-	; dbw 14, WHIRLPOOL
-	; dbw 17, ASTONISH
-	; dbw 21, WATER_PULSE
-	; dbw 24, MIST
-	; dbw 27, REST
-	; dbw 31, BRINE
-	; dbw 34, WATER_SPOUT
-	; dbw 37, AMNESIA
-	; dbw 41, DIVE
-	; dbw 44, BOUNCE
-	; dbw 47, HYDRO_PUMP
-	; db 0 ; no more level-up moves
+WailmerEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; WailordEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 1, SPLASH
-	; dbw 1, ROLLOUT
-	; dbw 4, GROWL
-	; dbw 7, WATER_GUN
-	; dbw 11, ROLLOUT
-	; dbw 14, WHIRLPOOL
-	; dbw 17, ASTONISH
-	; dbw 21, WATER_PULSE
-	; dbw 24, MIST
-	; dbw 27, REST
-	; dbw 31, BRINE
-	; dbw 34, WATER_SPOUT
-	; dbw 37, AMNESIA
-	; dbw 46, DIVE
-	; dbw 54, BOUNCE
-	; dbw 62, HYDRO_PUMP
-	; db 0 ; no more level-up moves
+WailordEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; NumelEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 33, CAMERUPT
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 5, EMBER
-	; dbw 11, MAGNITUDE
-	; dbw 15, FOCUS_ENERGY
-	; dbw 21, TAKE_DOWN
-	; dbw 25, AMNESIA
-	; dbw 31, LAVA_PLUME
-	; dbw 35, EARTH_POWER
-	; dbw 41, EARTHQUAKE
-	; dbw 45, FLAMETHROWER
-	; dbw 51, DOUBLE_EDGE
-	; db 0 ; no more level-up moves
+NumelEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CameruptEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 1, EMBER
-	; dbw 1, MAGNITUDE
-	; dbw 5, EMBER
-	; dbw 11, MAGNITUDE
-	; dbw 15, FOCUS_ENERGY
-	; dbw 21, TAKE_DOWN
-	; dbw 25, AMNESIA
-	; dbw 31, LAVA_PLUME
-	; dbw 33, ROCK_SLIDE
-	; dbw 39, EARTH_POWER
-	; dbw 49, EARTHQUAKE
-	; dbw 57, ERUPTION
-	; dbw 67, FISSURE
-	; db 0 ; no more level-up moves
+CameruptEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; TorkoalEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, EMBER
-	; dbw 4, SMOG
-	; dbw 7, WITHDRAW
-	; dbw 12, CURSE
-	; dbw 17, FIRE_SPIN
-	; dbw 20, SMOKESCREEN
-	; dbw 23, RAPID_SPIN
-	; dbw 28, FLAMETHROWER
-	; dbw 33, BODY_SLAM
-	; dbw 36, PROTECT
-	; dbw 39, LAVA_PLUME
-	; dbw 44, IRON_DEFENSE
-	; dbw 49, AMNESIA
-	; dbw 52, FLAIL
-	; dbw 55, HEAT_WAVE
-	; db 0 ; no more level-up moves
+TorkoalEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SpoinkEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 32, GRUMPIG
-	; db 0 ; no more evolutions
-	; dbw 1, SPLASH
-	; dbw 7, PSYWAVE
-	; dbw 10, ODOR_SLEUTH
-	; dbw 14, PSYBEAM
-	; dbw 15, PSYCH_UP
-	; dbw 18, CONFUSE_RAY
-	; dbw 21, MAGIC_COAT
-	; dbw 26, ZEN_HEADBUTT
-	; dbw 29, REST
-	; dbw 29, SNORE
-	; dbw 34, PAYBACK
-	; dbw 41, PSYCHIC_M
-	; dbw 46, POWER_GEM
-	; dbw 48, BOUNCE
-	; db 0 ; no more level-up moves
+SpoinkEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GrumpigEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, PSYBEAM
-	; dbw 1, PSYWAVE
-	; dbw 1, SPLASH
-	; dbw 1, ODOR_SLEUTH
-	; dbw 7, PSYWAVE
-	; dbw 10, ODOR_SLEUTH
-	; dbw 14, PSYBEAM
-	; dbw 15, PSYCH_UP
-	; dbw 18, CONFUSE_RAY
-	; dbw 21, MAGIC_COAT
-	; dbw 26, ZEN_HEADBUTT
-	; dbw 29, REST
-	; dbw 29, SNORE
-	; dbw 37, PAYBACK
-	; dbw 47, PSYCHIC_M
-	; dbw 55, POWER_GEM
-	; dbw 60, BOUNCE
-	; db 0 ; no more level-up moves
+GrumpigEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SpindaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 5, UPROAR
-	; dbw 10, COPYCAT
-	; dbw 14, FAINT_ATTACK
-	; dbw 19, PSYBEAM
-	; dbw 23, HYPNOSIS
-	; dbw 28, DIZZY_PUNCH
-	; dbw 32, SUCKER_PUNCH
-	; dbw 37, TEETER_DANCE
-	; dbw 41, PSYCH_UP
-	; dbw 46, DOUBLE_EDGE
-	; dbw 50, FLAIL
-	; dbw 55, THRASH
-	; db 0 ; no more level-up moves
+SpindaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; TrapinchEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 35, VIBRAVA

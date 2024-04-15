@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
 	; day
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
 	; nite
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
-	dbw 5, SHARPEDO
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
+	dbw 5, WAILMER
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

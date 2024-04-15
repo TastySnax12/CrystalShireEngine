@@ -319,4 +319,12 @@ AnimationPointers:
 	dw SwalotAnimation
 	dw CarvanhaAnimation
 	dw SharpedoAnimation
+	dw WailmerAnimation
+	dw WailordAnimation
+	dw NumelAnimation
+	dw CameruptAnimation
+	dw TorkoalAnimation
+	dw SpoinkAnimation
+	dw GrumpigAnimation
+	dw SpindaAnimation
 	assert_table_length NUM_POKEMON

@@ -319,4 +319,12 @@ FramesPointers:
 	dba SwalotFrames
 	dba CarvanhaFrames
 	dba SharpedoFrames
+	dba WailmerFrames
+	dba WailordFrames
+	dba NumelFrames
+	dba CameruptFrames
+	dba TorkoalFrames
+	dba SpoinkFrames
+	dba GrumpigFrames
+	dba SpindaFrames
 	assert_table_length NUM_POKEMON
