@@ -78,13 +78,13 @@ VerityLakefront_EnterLakeScript:
 	dw .RivalEnterLakeMovementRight
 
 .RivalEnterLakeMovementLeft:
-	step RIGHT
-	step UP
-	step UP
+	big_step RIGHT
+	big_step UP
+	big_step UP
 	step_end
 
 .RivalEnterLakeMovementRight:
-	step LEFT
+	big_step LEFT
 	step UP
 .PlayerEnterLakeMovement:
 	step UP

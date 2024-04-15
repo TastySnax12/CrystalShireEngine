@@ -631,18 +631,16 @@ ErikaGroup:
 	end_list_items
 
 YoungsterGroup:
-	next_list_item ; YOUNGSTER (1)
-	db "JOEY@", TRAINERTYPE_NORMAL
-	db 4
-	dw RATTATA
+	next_list_item ; TRISTAN (1)
+	db "TRISTAN@", TRAINERTYPE_NORMAL
+	db 5
+	dw PIDGEY ; STARLY
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (2)
-	db "MIKEY@", TRAINERTYPE_NORMAL
-	db 2
-	dw PIDGEY
-	db 4
-	dw RATTATA
+	next_list_item ; LOGAN (2)
+	db "LOGAN@", TRAINERTYPE_NORMAL
+	db 5
+	dw MAREEP ; SHINX
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (3)
@@ -1125,11 +1123,12 @@ BirdKeeperGroup:
 	end_list_items
 
 LassGroup:
-	next_list_item ; LASS (1)
-	db "CARRIE@", TRAINERTYPE_MOVES
-	db 18
-	dw SNUBBULL
-	dw SCARY_FACE, CHARM, BITE, LICK
+	next_list_item ; NATALIE (1)
+	db "NATALIE@", TRAINERTYPE_NORMAL
+	db 3
+	dw SENTRET
+	db 3
+	dw SENTRET
 	db -1 ; end
 
 	next_list_item ; LASS (2)

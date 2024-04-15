@@ -111,8 +111,8 @@ DEF KRIS EQU __trainer_class__
 	const ERIKA1
 
 	trainerclass YOUNGSTER ; 16
-	const JOEY1
-	const MIKEY
+	const TRISTAN1
+	const LOGAN
 	const ALBERT
 	const GORDON
 	const SAMUEL
@@ -174,7 +174,7 @@ DEF KRIS EQU __trainer_class__
 	const VANCE3
 
 	trainerclass LASS ; 19
-	const CARRIE
+	const NATALIE
 	const BRIDGET
 	const ALICE
 	const KRISE

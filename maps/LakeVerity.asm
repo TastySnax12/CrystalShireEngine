@@ -211,9 +211,13 @@ LakeVerityMeetCyrusScript:
 
 .CyrusLeaveMovement:
 	step DOWN
+	step DOWN
+	step DOWN
+	step_end
+
 .RivalExitMovement:
-	step DOWN
-	step DOWN
+	big_step DOWN
+	big_step DOWN
 	step_end
 
 .ReturnToPositionMovement:
