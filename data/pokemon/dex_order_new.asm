@@ -358,4 +358,10 @@ NewPokedexOrder:
 	dw BANETTE
 	dw DUSKULL
 	dw DUSCLOPS
+	dw TROPIUS
+	dw CHIMECHO
+	dw ABSOL
+	dw WYNAUT
+	dw SNORUNT
+	dw GLALIE
 	assert_table_length NUM_POKEMON

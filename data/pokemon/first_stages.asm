@@ -357,4 +357,10 @@ FirstEvoStages::
 	dw SHUPPET
 	dw DUSKULL
 	dw DUSKULL
+	dw TROPIUS
+	dw CHIMECHO
+	dw ABSOL
+	dw WYNAUT
+	dw SNORUNT
+	dw SNORUNT
 	assert_table_length NUM_POKEMON

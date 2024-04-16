@@ -356,4 +356,10 @@ AnimationPointers:
 	dw BanetteAnimation
 	dw DuskullAnimation
 	dw DusclopsAnimation
+	dw TropiusAnimation
+	dw ChimechoAnimation
+	dw AbsolAnimation
+	dw WynautAnimation
+	dw SnoruntAnimation
+	dw GlalieAnimation
 	assert_table_length NUM_POKEMON

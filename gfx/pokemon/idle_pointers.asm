@@ -356,4 +356,10 @@ AnimationIdlePointers:
 	dw BanetteAnimationIdle
 	dw DuskullAnimationIdle
 	dw DusclopsAnimationIdle
+	dw TropiusAnimationIdle
+	dw ChimechoAnimationIdle
+	dw AbsolAnimationIdle
+	dw WynautAnimationIdle
+	dw SnoruntAnimationIdle
+	dw GlalieAnimationIdle
 	assert_table_length NUM_POKEMON

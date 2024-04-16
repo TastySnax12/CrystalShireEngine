@@ -360,4 +360,10 @@ PokemonNames::
 	db "BANETTE@@@"
 	db "DUSKULL@@@"
 	db "DUSCLOPS@@"
+	db "TROPIUS@@@"
+	db "CHIMECHO@@"
+	db "ABSOL@@@@@"
+	db "WYNAUT@@@@"
+	db "SNORUNT@@@"
+	db "GLALIE@@@@"
 	assert_table_length NUM_POKEMON

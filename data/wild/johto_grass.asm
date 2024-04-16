@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
 	; day
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
 	; nite
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
-	dbw 5, DUSCLOPS
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
+	dbw 5, GLALIE
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

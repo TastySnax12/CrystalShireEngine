@@ -357,4 +357,10 @@ PokedexDataPointerTable:
 	dba BanettePokedexEntry
 	dba DuskullPokedexEntry
 	dba DusclopsPokedexEntry
+	dba TropiusPokedexEntry
+	dba ChimechoPokedexEntry
+	dba AbsolPokedexEntry
+	dba WynautPokedexEntry
+	dba SnoruntPokedexEntry
+	dba GlaliePokedexEntry
 	assert_table_length NUM_POKEMON

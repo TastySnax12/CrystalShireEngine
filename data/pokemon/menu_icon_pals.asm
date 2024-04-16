@@ -366,4 +366,10 @@ MonMenuIconPals:
 	icon_pals GRAY,   BLUE   ; BANETTE
 	icon_pals GRAY,   RED    ; DUSKULL
 	icon_pals GRAY,   RED    ; DUSCLOPS
+	icon_pals GREEN,  BROWN  ; TROPIUS
+	icon_pals BLUE,   GREEN  ; CHIMECHO
+	icon_pals GRAY,   PINK   ; ABSOL
+	icon_pals BLUE,   PURPLE ; WYNAUT
+	icon_pals RED,    TEAL   ; SNORUNT
+	icon_pals TEAL,   RED    ; GLALIE
 	assert_table_length NUM_POKEMON

@@ -106,6 +106,12 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw DuskullEggMoves
 	dw NoEggMoves3
+	dw TropiusEggMoves
+	dw ChimechoEggMoves
+	dw AbsolEggMoves
+	dw NoEggMoves3
+	dw SnoruntEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -654,7 +660,7 @@ DuskullEggMoves:
 	; dw PAIN_SPLIT
 	dw -1 ; end
 
-; TropiusEggMoves:
+TropiusEggMoves:
 	; dw CURSE
 	; dw HEADBUTT
 	; dw LEAF_BLADE
@@ -664,9 +670,9 @@ DuskullEggMoves:
 	; dw RAZOR_WIND
 	; dw SLAM
 	; dw SYNTHESIS
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ChimechoEggMoves:
+ChimechoEggMoves:
 	; dw CURSE
 	; dw DISABLE
 	; dw DREAM_EATER
@@ -674,9 +680,9 @@ DuskullEggMoves:
 	; dw HYPNOSIS
 	; dw RECOVER
 	; dw WISH
-	; dw -1 ; end
+	dw -1 ; end
 	
-; AbsolEggMoves:
+AbsolEggMoves:
 	; dw ASSURANCE
 	; dw BATON_PASS
 	; dw CURSE
@@ -689,15 +695,15 @@ DuskullEggMoves:
 	; dw SUBSTITUTE
 	; dw SUCKER_PUNCH
 	; dw ZEN_HEADBUTT
-	; dw -1 ; end
+	dw -1 ; end
 
-; SnoruntEggMoves:
+SnoruntEggMoves:
 	; dw BIDE
 	; dw BLOCK
 	; dw DISABLE
 	; dw ROLLOUT
 	; dw SPIKES
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; SphealEggMoves:
 	; dw CURSE

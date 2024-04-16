@@ -728,4 +728,16 @@ PokemonPicPointers::
 	dba DuskullBackpic
 	dba DusclopsFrontpic
 	dba DusclopsBackpic
+	dba TropiusFrontpic
+	dba TropiusBackpic
+	dba ChimechoFrontpic
+	dba ChimechoBackpic
+	dba AbsolFrontpic
+	dba AbsolBackpic
+	dba WynautFrontpic
+	dba WynautBackpic
+	dba SnoruntFrontpic
+	dba SnoruntBackpic
+	dba GlalieFrontpic
+	dba GlalieBackpic
 	assert_table_length NUM_POKEMON + 1

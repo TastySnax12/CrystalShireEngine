@@ -420,6 +420,10 @@ SECTION "Pic Animations 2", ROMX
 
 INCLUDE "engine/gfx/pic_animation.asm"
 INCLUDE "gfx/pokemon/frame_pointers.asm"
+INCLUDE "gfx/pokemon/idle_pointers.asm"
+INCLUDE "gfx/pokemon/idles.asm"
+INCLUDE "gfx/pokemon/bitmask_pointers.asm"
+INCLUDE "gfx/pokemon/bitmasks.asm"
 
 SECTION "Pic Animations 3", ROMX
 
@@ -434,12 +438,6 @@ INCLUDE "gfx/pokemon/unown_bitmask_pointers.asm"
 INCLUDE "gfx/pokemon/unown_bitmasks.asm"
 
 SECTION "Pic Animations 4", ROMX
-
-INCLUDE "gfx/pokemon/idle_pointers.asm"
-INCLUDE "gfx/pokemon/idles.asm"
-INCLUDE "gfx/pokemon/bitmask_pointers.asm"
-INCLUDE "gfx/pokemon/bitmasks.asm"
-
 
 SECTION "Pic Animations 5", ROMX
 
@@ -472,8 +470,7 @@ INCLUDE "engine/link/time_capsule.asm"
 INCLUDE "engine/events/name_rater.asm"
 INCLUDE "engine/events/play_slow_cry.asm"
 INCLUDE "engine/pokedex/new_pokedex_entry.asm"
-INCLUDE "engine/link/time_capsule_2.asm"
-INCLUDE "engine/pokedex/unown_dex.asm"
+
 
 
 SECTION "bank3F", ROMX
@@ -504,6 +501,8 @@ SECTION "Title", ROMX
 INCLUDE "engine/movie/title.asm"
 INCLUDE "engine/events/magikarp.asm"
 INCLUDE "engine/battle/hidden_power.asm"
+INCLUDE "engine/link/time_capsule_2.asm"
+INCLUDE "engine/pokedex/unown_dex.asm"
 
 
 SECTION "mobile45", ROMX

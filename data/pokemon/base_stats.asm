@@ -395,5 +395,11 @@ INCLUDE "data/pokemon/base_stats/shuppet.asm"
 INCLUDE "data/pokemon/base_stats/banette.asm"
 INCLUDE "data/pokemon/base_stats/duskull.asm"
 INCLUDE "data/pokemon/base_stats/dusclops.asm"
+INCLUDE "data/pokemon/base_stats/tropius.asm"
+INCLUDE "data/pokemon/base_stats/chimecho.asm"
+INCLUDE "data/pokemon/base_stats/absol.asm"
+INCLUDE "data/pokemon/base_stats/wynaut.asm"
+INCLUDE "data/pokemon/base_stats/snorunt.asm"
+INCLUDE "data/pokemon/base_stats/glalie.asm"
 
 .IndirectEnd::

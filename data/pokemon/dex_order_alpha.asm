@@ -3,6 +3,7 @@
 AlphabeticalPokedexOrder:
 	table_width 2, AlphabeticalPokedexOrder
 	dw ABRA
+	dw ABSOL
 	dw AERODACTYL
 	dw AGGRON
 	dw AIPOM
@@ -45,6 +46,7 @@ AlphabeticalPokedexOrder:
 	dw CHARMANDER
 	dw CHARMELEON
 	dw CHIKORITA
+	dw CHIMECHO
 	dw CHINCHOU
 	dw CLAYDOL
 	dw CLEFABLE
@@ -102,6 +104,7 @@ AlphabeticalPokedexOrder:
 	dw GENGAR
 	dw GEODUDE
 	dw GIRAFARIG
+	dw GLALIE
 	dw GLIGAR
 	dw GLOOM
 	dw GOLBAT
@@ -288,6 +291,7 @@ AlphabeticalPokedexOrder:
 	dw SMOOCHUM
 	dw SNEASEL
 	dw SNORLAX
+	dw SNORUNT
 	dw SNUBBULL
 	dw SOLROCK
 	dw SPEAROW
@@ -322,6 +326,7 @@ AlphabeticalPokedexOrder:
 	dw TOTODILE
 	dw TRAPINCH
 	dw TREECKO
+	dw TROPIUS
 	dw TYPHLOSION
 	dw TYRANITAR
 	dw TYROGUE
@@ -352,6 +357,7 @@ AlphabeticalPokedexOrder:
 	dw WOBBUFFET
 	dw WOOPER
 	dw WURMPLE
+	dw WYNAUT
 	dw XATU
 	dw YANMA
 	dw ZANGOOSE

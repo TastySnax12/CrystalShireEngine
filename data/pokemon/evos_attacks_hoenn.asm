@@ -106,12 +106,12 @@ EvosAttacksPointers3::
 	dw BanetteEvosAttacks
 	dw DuskullEvosAttacks
 	dw DusclopsEvosAttacks
-	; dw TropiusEvosAttacks
-	; dw ChimechoEvosAttacks
-	; dw AbsolEvosAttacks
-	; dw WynautEvosAttacks
-	; dw SnoruntEvosAttacks
-	; dw GlalieEvosAttacks
+	dw TropiusEvosAttacks
+	dw ChimechoEvosAttacks
+	dw AbsolEvosAttacks
+	dw WynautEvosAttacks
+	dw SnoruntEvosAttacks
+	dw GlalieEvosAttacks
 	; dw SphealEvosAttacks
 	; dw SealeoEvosAttacks
 	; dw WalreinEvosAttacks
@@ -664,111 +664,35 @@ DusclopsEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; TropiusEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GUST
-	; dbw 1, LEER
-	; dbw 7, GROWTH
-	; dbw 11, RAZOR_LEAF
-	; dbw 17, STOMP
-	; dbw 21, SWEET_SCENT
-	; dbw 27, WHIRLWIND
-	; dbw 31, MAGICAL_LEAF
-	; dbw 37, BODY_SLAM
-	; dbw 41, SYNTHESIS
-	; dbw 47, AIR_SLASH
-	; dbw 51, SOLARBEAM
-	; dbw 57, NATURAL_GIFT
-	; dbw 61, LEAF_STORM
-	; db 0 ; no more level-up moves
+TropiusEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ChimechoEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WRAP
-	; dbw 6, GROWL
-	; dbw 9, ASTONISH
-	; dbw 14, CONFUSION
-	; dbw 17, UPROAR
-	; dbw 22, TAKE_DOWN
-	; dbw 25, YAWN
-	; dbw 30, PSYWAVE
-	; dbw 33, DOUBLE_EDGE
-	; dbw 38, HEAL_BELL
-	; dbw 41, SAFEGUARD
-	; dbw 46, EXTRASENSORY
-	; dbw 49, HEALING_WISH
-	; db 0 ; no more level-up moves
+ChimechoEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; AbsolEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, FEINT
-	; dbw 4, LEER
-	; dbw 9, TAUNT
-	; dbw 12, QUICK_ATTACK
-	; dbw 17, RAZOR_WIND
-	; dbw 20, PURSUIT
-	; dbw 25, SWORDS_DANCE
-	; dbw 28, BITE
-	; dbw 33, DOUBLE_TEAM
-	; dbw 36, SLASH
-	; dbw 41, FUTURE_SIGHT
-	; dbw 44, SUCKER_PUNCH
-	; dbw 49, DETECT
-	; dbw 52, NIGHT_SLASH
-	; dbw 57, ME_FIRST
-	; dbw 60, PSYCHO_CUT
-	; dbw 65, PERISH_SONG
-	; db 0 ; no more level-up moves
+AbsolEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; WynautEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 15, WOBBUFFET
-	; db 0 ; no more evolutions
-	; dbw 1, SPLASH
-	; dbw 1, CHARM
-	; dbw 1, ENCORE
-	; dbw 15, COUNTER
-	; dbw 15, DESTINY_BOND
-	; dbw 15, SAFEGUARD
-	; dbw 15, MIRROR_COAT
-	; db 0 ; no more level-up moves
+WynautEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SnoruntEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 42, GLALIE
-	; dbbw EVOLVE_ITEM_FEMALE, DAWN_STONE, FROSLASS
-	; db 0 ; no more evolutions
-	; dbw 1, LEER
-	; dbw 1, POWDER_SNOW
-	; dbw 4, DOUBLE_TEAM
-	; dbw 10, BITE
-	; dbw 13, ICY_WIND
-	; dbw 19, HEADBUTT
-	; dbw 22, PROTECT
-	; dbw 28, ICE_FANG
-	; dbw 31, CRUNCH
-	; dbw 37, ICE_SHARD
-	; dbw 40, HAIL
-	; dbw 46, BLIZZARD
-	; db 0 ; no more level-up moves
+SnoruntEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GlalieEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, LEER
-	; dbw 1, BITE
-	; dbw 1, DOUBLE_TEAM
-	; dbw 1, POWDER_SNOW
-	; dbw 4, DOUBLE_TEAM
-	; dbw 10, BITE
-	; dbw 13, ICY_WIND
-	; dbw 19, HEADBUTT
-	; dbw 22, PROTECT
-	; dbw 28, ICE_FANG
-	; dbw 31, CRUNCH
-	; dbw 37, ICE_BEAM
-	; dbw 40, HAIL
-	; dbw 51, BLIZZARD
-	; dbw 59, SHEER_COLD
-	; db 0 ; no more level-up moves
+GlalieEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; SphealEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 32, SEALEO

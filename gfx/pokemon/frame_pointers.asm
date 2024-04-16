@@ -356,4 +356,10 @@ FramesPointers:
 	dba BanetteFrames
 	dba DuskullFrames
 	dba DusclopsFrames
+	dba TropiusFrames
+	dba ChimechoFrames
+	dba AbsolFrames
+	dba WynautFrames
+	dba SnoruntFrames
+	dba GlalieFrames
 	assert_table_length NUM_POKEMON

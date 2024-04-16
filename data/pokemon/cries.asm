@@ -362,4 +362,10 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; BANETTE
 	mon_cry CRY_RATTATA,       0,  0   ; DUSKULL
 	mon_cry CRY_RATTATA,       0,  0   ; DUSCLOPS
+	mon_cry CRY_RATTATA,       0,  0   ; TROPIUS
+	mon_cry CRY_RATTATA,       0,  0   ; CHIMECHO
+	mon_cry CRY_RATTATA,       0,  0   ; ABSOL
+	mon_cry CRY_RATTATA,       0,  0   ; WYNAUT
+	mon_cry CRY_RATTATA,       0,  0   ; SNORUNT
+	mon_cry CRY_RATTATA,       0,  0   ; GLALIE
 	assert_table_length NUM_POKEMON

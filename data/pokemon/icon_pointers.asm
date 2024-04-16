@@ -361,4 +361,10 @@ IconPointers:
 	dba MagikarpIcon ; BANETTE
 	dba MagikarpIcon ; DUSKULL
 	dba MagikarpIcon ; DUSCLOPS
+	dba MagikarpIcon ; TROPIUS
+	dba MagikarpIcon ; CHIMECHO
+	dba MagikarpIcon ; ABSOL
+	dba MagikarpIcon ; WYNAUT
+	dba MagikarpIcon ; SNORUNT
+	dba MagikarpIcon ; GLALIE
 	assert_table_length NUM_POKEMON + 1

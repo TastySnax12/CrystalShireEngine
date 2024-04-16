@@ -377,6 +377,12 @@ DEF HOENN_POKEMON EQU const_value
 	const BANETTE    ; 162
 	const DUSKULL    ; 163
 	const DUSCLOPS   ; 164
+	const TROPIUS    ; 165
+	const CHIMECHO   ; 166
+	const ABSOL      ; 167
+	const WYNAUT     ; 168
+	const SNORUNT    ; 169
+	const GLALIE     ; 16a
 	
 DEF NUM_POKEMON EQU const_value - 1
 
