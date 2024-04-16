@@ -154,7 +154,7 @@ ENDM
 	map_const ROUTE_205_SOUTH,                             14, 25 ;  4
 	map_const ROUTE_205_HOUSE,                              4,  4 ;  9
 	map_const VALLEY_WINDWORKS,                            13, 13 ;  5
-	map_const VALLEY_WINDWORKS_INSIDE,                     13, 13 ;  5
+	map_const VALLEY_WINDWORKS_INSIDE,                      9,  5 ;  5
 	map_const FUEGO_IRONWORKS,                             10, 10 ;  6
 	endgroup
 

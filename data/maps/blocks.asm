@@ -1,7 +1,7 @@
 SECTION "Map Blocks 1", ROMX
 
 DebugRoom_Blocks:
-	INCBIN "maps/DebugRoom.blk"
+	INCBIN "maps/DebugRoom.ablk"
 
 PlayersHouse1F_Blocks:
 	INCBIN "maps/PlayersHouse1F.ablk"
@@ -10,17 +10,17 @@ PlayersHouse2F_Blocks:
 	INCBIN "maps/PlayersHouse2F.ablk"
 
 RivalHouse1F_Blocks:
-	INCBIN "maps/RivalHouse1F.blk"
+	INCBIN "maps/RivalHouse1F.ablk"
 	
 RivalHouse2F_Blocks:
-	INCBIN "maps/RivalHouse2F.blk"
+	INCBIN "maps/RivalHouse2F.ablk"
 
 TradeCenter_Blocks:
 TimeCapsule_Blocks:
-	INCBIN "maps/TradeCenter.blk"
+	INCBIN "maps/TradeCenter.ablk"
 
 Colosseum_Blocks:
-	INCBIN "maps/Colosseum.blk"
+	INCBIN "maps/Colosseum.ablk"
 
 TwinleafHouse1_Blocks:
 TwinleafHouse2_Blocks:
@@ -31,32 +31,32 @@ OreburghHouseE_Blocks:
 FloaromaHouseW_Blocks:
 FloaromaHouseE_Blocks:
 FloaromaMeadowHouse_Blocks:
-	INCBIN "maps/HouseInterior1.blk"
+	INCBIN "maps/HouseInterior1.ablk"
 
 SandgemPokecenter1F_Blocks:
 JubilifePokecenter1F_Blocks:
 OreburghPokecenter1F_Blocks:
 FloaromaPokecenter1F_Blocks:
 EternaPokecenter1F_Blocks:
-	INCBIN "maps/Pokecenter1F.blk"
+	INCBIN "maps/Pokecenter1F.ablk"
 
 Pokecenter2F_Blocks:
-	INCBIN "maps/Pokecenter2F.blk"
+	INCBIN "maps/Pokecenter2F.ablk"
 
 SandgemPokeMart_Blocks:
 JubilifePokeMart_Blocks:
 OreburghPokeMart_Blocks:
 FloaromaPokeMart_Blocks:
 EternaPokeMart_Blocks:
-	INCBIN "maps/PokeMart.blk"
+	INCBIN "maps/PokeMart.ablk"
 
 
 Route218JubilifeGate_Blocks:
-	INCBIN "maps/EastWestGate.blk"
+	INCBIN "maps/EastWestGate.ablk"
 
 Route206EternaNorthGate_Blocks:
 Route206EternaSouthGate_Blocks:
-	INCBIN "maps/NorthSouthGate.blk"
+	INCBIN "maps/NorthSouthGate.ablk"
 
 
 JubilifeApartmentSE1F_Blocks:
@@ -66,10 +66,10 @@ OreburghApartmentNW1F_Blocks:
 OreburghApartmentN1F_Blocks:
 OreburghApartmentE1F_Blocks:
 EternaApartment1F_Blocks:
-	INCBIN "maps/Apartment1F.blk"
+	INCBIN "maps/Apartment1F.ablk"
 	
 EternaApartment2F_Blocks:
-	INCBIN "maps/Apartment2F.blk"
+	INCBIN "maps/Apartment2F.ablk"
 	
 JubilifeApartmentSE2F_Blocks:
 JubilifeApartmentNE2F_Blocks:
@@ -78,61 +78,61 @@ OreburghApartmentNW2F_Blocks:
 OreburghApartmentN2F_Blocks:
 OreburghApartmentE2F_Blocks:
 EternaApartment3F_Blocks:
-	INCBIN "maps/Apartment3F.blk"
+	INCBIN "maps/Apartment3F.ablk"
 
 TrainersSchool_Blocks:
-	INCBIN "maps/TrainersSchool.blk"
+	INCBIN "maps/TrainersSchool.ablk"
 	
 PoketchCompany1F_Blocks:
-	INCBIN "maps/PoketchCompany1F.blk"
+	INCBIN "maps/PoketchCompany1F.ablk"
 	
 PoketchCompany2F_Blocks:
-	INCBIN "maps/PoketchCompany2F.blk"
+	INCBIN "maps/PoketchCompany2F.ablk"
 	
 PoketchCompany3F_Blocks:
-	INCBIN "maps/PoketchCompany3F.blk"
+	INCBIN "maps/PoketchCompany3F.ablk"
 	
 TVStation1F_Blocks:
-	INCBIN "maps/TVStation1F.blk"
+	INCBIN "maps/TVStation1F.ablk"
 	
 TVStation2F_Blocks:
-	INCBIN "maps/TVStation2F.blk"
+	INCBIN "maps/TVStation2F.ablk"
 	
 TVStation2F2_Blocks:
-	INCBIN "maps/TVStation2F2.blk"
+	INCBIN "maps/TVStation2F2.ablk"
 	
 TVStation3F_Blocks:
-	INCBIN "maps/TVStation3F.blk"
+	INCBIN "maps/TVStation3F.ablk"
 	
 TVStation3F2_Blocks:
-	INCBIN "maps/TVStation3F2.blk"
+	INCBIN "maps/TVStation3F2.ablk"
 	
 TVStation3F3_Blocks:
-	INCBIN "maps/TVStation3F3.blk"
+	INCBIN "maps/TVStation3F3.ablk"
 	
 TVStation4F_Blocks:
-	INCBIN "maps/TVStation4F.blk"
+	INCBIN "maps/TVStation4F.ablk"
 	
 TVStationElevator_Blocks:
-	INCBIN "maps/TVStationElevator.blk"
+	INCBIN "maps/TVStationElevator.ablk"
 	
 PokemonCommunicationCenter_Blocks:
-	INCBIN "maps/PokemonCommunicationCenter.blk"
+	INCBIN "maps/PokemonCommunicationCenter.ablk"
 
 Route205House_Blocks:
-	INCBIN "maps/Route205House.blk"
+	INCBIN "maps/Route205House.ablk"
 
 ValleyWindworksInside_Blocks:
-	INCBIN "maps/ValleyWindworksInside.blk"
+	INCBIN "maps/ValleyWindworksInside.ablk"
 
 FloaromaTown_Blocks:
 	INCBIN "maps/FloaromaTown.ablk"
 	
 FloaromaFlowerShop_Blocks:
-	INCBIN "maps/FloaromaFlowerShop.blk"
+	INCBIN "maps/FloaromaFlowerShop.ablk"
 
 FuegoIronworksInside_Blocks:
-	INCBIN "maps/FuegoIronworksInside.blk"
+	INCBIN "maps/FuegoIronworksInside.ablk"
 
 SECTION "Map Blocks 2", ROMX
 
@@ -171,7 +171,7 @@ OreburghGate1F_Blocks:
 	INCBIN "maps/OreburghGate1F.ablk"
 
 OreburghGateB1F_Blocks:
-	INCBIN "maps/OreburghGateB1F.blk"
+	INCBIN "maps/OreburghGateB1F.ablk"
 	
 OreburghCity_Blocks:
 	INCBIN "maps/OreburghCity.ablk"
@@ -180,13 +180,13 @@ OreburghGym_Blocks:
 	INCBIN "maps/OreburghGym.ablk"
 	
 OreburghMuseum_Blocks:
-	INCBIN "maps/OreburghMuseum.blk"
+	INCBIN "maps/OreburghMuseum.ablk"
 	
 OreburghMineB1F_Blocks:
-	INCBIN "maps/OreburghMineB1F.blk"
+	INCBIN "maps/OreburghMineB1F.ablk"
 	
 OreburghMineB2F_Blocks:
-	INCBIN "maps/OreburghMineB2F.blk"
+	INCBIN "maps/OreburghMineB2F.ablk"
 
 Route218_Blocks:
 	INCBIN "maps/Route218.ablk"
@@ -216,41 +216,41 @@ EternaForestInside_Blocks:
 	INCBIN "maps/EternaForestInside.ablk"
 
 EternaGym_Blocks:
-	INCBIN "maps/EternaGym.blk"
+	INCBIN "maps/EternaGym.ablk"
 	
 EternaHouseW_Blocks:
 EternaHouseE_Blocks:
-	INCBIN "maps/HouseInterior2.blk"
+	INCBIN "maps/HouseInterior2.ablk"
 	
 EternaBikeShop_Blocks:
-	INCBIN "maps/EternaBikeShop.blk"
+	INCBIN "maps/EternaBikeShop.ablk"
 	
 EternaHerbShop_Blocks:
-	INCBIN "maps/EternaHerbShop.blk"
+	INCBIN "maps/EternaHerbShop.ablk"
 	
 EternaUndergroundHouse_Blocks:
-	INCBIN "maps/EternaUndergroundHouse.blk"
+	INCBIN "maps/EternaUndergroundHouse.ablk"
 	
 EternaGalacticBuilding1F_Blocks:
-	INCBIN "maps/EternaGalacticBuilding1F.blk"
+	INCBIN "maps/EternaGalacticBuilding1F.ablk"
 	
 EternaGalacticBuilding2F_Blocks:
-	INCBIN "maps/EternaGalacticBuilding2F.blk"
+	INCBIN "maps/EternaGalacticBuilding2F.ablk"
 	
 EternaGalacticBuilding3F_Blocks:
-	INCBIN "maps/EternaGalacticBuilding3F.blk"
+	INCBIN "maps/EternaGalacticBuilding3F.ablk"
 	
 EternaGalacticBuilding4F_Blocks:
-	INCBIN "maps/EternaGalacticBuilding4F.blk"
+	INCBIN "maps/EternaGalacticBuilding4F.ablk"
 
 OldChateau_Blocks:
 	INCBIN "maps/OldChateau.ablk"
 
 OldChateauDining_Blocks:
-	INCBIN "maps/OldChateauDining.blk"
+	INCBIN "maps/OldChateauDining.ablk"
 
 OldChateauBedrooms_Blocks:
-	INCBIN "maps/OldChateauBedrooms.blk"
+	INCBIN "maps/OldChateauBedrooms.ablk"
 
 Route205North_Blocks:
 	INCBIN "maps/Route205North.ablk"
@@ -268,25 +268,25 @@ Route211West_Blocks:
 	INCBIN "maps/Route211West.ablk"
 
 RowansLab_Blocks:
-	INCBIN "maps/RowansLab.blk"
+	INCBIN "maps/RowansLab.ablk"
 	
 AssistantHouse1F_Blocks:
-	INCBIN "maps/AssistantHouse1F.blk"
+	INCBIN "maps/AssistantHouse1F.ablk"
 
 AssistantHouse2F_Blocks:
-	INCBIN "maps/AssistantHouse2F.blk"
+	INCBIN "maps/AssistantHouse2F.ablk"
 
 FloaromaMeadow_Blocks:
-	INCBIN "maps/FloaromaMeadow.blk"
+	INCBIN "maps/FloaromaMeadow.ablk"
 
 WaywardCave1F_Blocks:
-	INCBIN "maps/WaywardCave1F.blk"
+	INCBIN "maps/WaywardCave1F.ablk"
 	
 WaywardCave1F2_Blocks:
-	INCBIN "maps/WaywardCave1F2.blk"
+	INCBIN "maps/WaywardCave1F2.ablk"
 	
 WaywardCaveB1F_Blocks:
-	INCBIN "maps/WaywardCaveB1F.blk"
+	INCBIN "maps/WaywardCaveB1F.ablk"
 
 SECTION "Map Blocks 3", ROMX
 
