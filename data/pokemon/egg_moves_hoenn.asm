@@ -92,6 +92,14 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw CorphishEggMoves
 	dw NoEggMoves3
+	dw BaltoyEggMoves
+	dw NoEggMoves3
+	dw LileepEggMoves
+	dw NoEggMoves3
+	dw AnorithEggMoves
+	dw NoEggMoves3
+	dw FeebasEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -559,7 +567,7 @@ CorphishEggMoves:
 	; dw SUPERPOWER
 	dw -1 ; end
 	
-; BaltoyEggMoves:
+BaltoyEggMoves:
 	; dw ANCIENTPOWER
 	; dw EARTH_POWER
 	; dw MUD_SLAP
@@ -567,18 +575,18 @@ CorphishEggMoves:
 	; dw SNORE
 	; dw TRICK
 	; dw ZEN_HEADBUTT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; LileepEggMoves:
+LileepEggMoves:
 	; dw BARRIER
 	; dw MIRROR_COAT
 	; dw RECOVER
 	; dw ROCK_SLIDE
 	; dw TICKLE
 	; dw WRING_OUT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; AnorithEggMoves:
+AnorithEggMoves:
 	; dw CROSS_POISON
 	; dw KNOCK_OFF
 	; dw RAPID_SPIN
@@ -586,9 +594,9 @@ CorphishEggMoves:
 	; dw SAND_ATTACK
 	; dw SCREECH
 	; dw SWORDS_DANCE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; FeebasEggMoves:
+FeebasEggMoves:
 	; dw CONFUSE_RAY
 	; dw DRAGONBREATH
 	; dw HAZE
@@ -598,7 +606,7 @@ CorphishEggMoves:
 	; dw MIST
 	; dw MUD_SPORT
 	; dw TICKLE
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; CastformEggMoves:
 	; dw AMNESIA

@@ -343,4 +343,12 @@ FirstEvoStages::
 	dw BARBOACH
 	dw CORPHISH
 	dw CORPHISH
+	dw BALTOY
+	dw BALTOY
+	dw LILEEP
+	dw LILEEP
+	dw ANORITH
+	dw ANORITH
+	dw FEEBAS
+	dw FEEBAS
 	assert_table_length NUM_POKEMON

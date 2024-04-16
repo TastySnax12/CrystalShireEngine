@@ -474,8 +474,6 @@ INCLUDE "engine/events/play_slow_cry.asm"
 INCLUDE "engine/pokedex/new_pokedex_entry.asm"
 INCLUDE "engine/link/time_capsule_2.asm"
 INCLUDE "engine/pokedex/unown_dex.asm"
-INCLUDE "engine/events/magikarp.asm"
-INCLUDE "engine/battle/hidden_power.asm"
 
 
 SECTION "bank3F", ROMX
@@ -504,6 +502,8 @@ INCLUDE "engine/battle_anims/framesets.asm"
 SECTION "Title", ROMX
 
 INCLUDE "engine/movie/title.asm"
+INCLUDE "engine/events/magikarp.asm"
+INCLUDE "engine/battle/hidden_power.asm"
 
 
 SECTION "mobile45", ROMX

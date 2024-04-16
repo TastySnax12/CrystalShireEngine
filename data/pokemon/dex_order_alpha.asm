@@ -9,13 +9,16 @@ AlphabeticalPokedexOrder:
 	dw ALAKAZAM
 	dw ALTARIA
 	dw AMPHAROS
+	dw ANORITH
 	dw ARBOK
 	dw ARCANINE
 	dw ARIADOS
+	dw ARMALDO
 	dw ARON
 	dw ARTICUNO
 	dw AZUMARILL
 	dw AZURILL
+	dw BALTOY
 	dw BARBOACH
 	dw BAYLEEF
 	dw BEAUTIFLY
@@ -41,6 +44,7 @@ AlphabeticalPokedexOrder:
 	dw CHARMELEON
 	dw CHIKORITA
 	dw CHINCHOU
+	dw CLAYDOL
 	dw CLEFABLE
 	dw CLEFAIRY
 	dw CLEFFA
@@ -48,6 +52,7 @@ AlphabeticalPokedexOrder:
 	dw COMBUSKEN
 	dw CORPHISH
 	dw CORSOLA
+	dw CRADILY
 	dw CRAWDAUNT
 	dw CROBAT
 	dw CROCONAW
@@ -81,6 +86,7 @@ AlphabeticalPokedexOrder:
 	dw EXPLOUD
 	dw FARFETCH_D
 	dw FEAROW
+	dw FEEBAS
 	dw FERALIGATR
 	dw FLAAFFY
 	dw FLAREON
@@ -143,6 +149,7 @@ AlphabeticalPokedexOrder:
 	dw LEDIAN
 	dw LEDYBA
 	dw LICKITUNG
+	dw LILEEP
 	dw LINOONE
 	dw LOMBRE
 	dw LOTAD
@@ -177,6 +184,7 @@ AlphabeticalPokedexOrder:
 	dw MEW
 	dw MEWTWO
 	dw MIGHTYENA
+	dw MILOTIC
 	dw MILTANK
 	dw MISDREAVUS
 	dw MINUN

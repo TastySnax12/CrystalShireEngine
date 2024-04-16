@@ -352,4 +352,12 @@ MonMenuIconPals:
 	icon_pals BLUE,   BLUE   ; WHISCASH
 	icon_pals RED,    PURPLE ; CORPHISH
 	icon_pals RED,    BROWN  ; CRAWDAUNT
+	icon_pals RED,    TEAL   ; BALTOY
+	icon_pals RED,    BROWN  ; CLAYDOL
+	icon_pals PURPLE, GREEN  ; LILEEP
+	icon_pals GREEN,  PINK   ; CRADILY
+	icon_pals GRAY,   BROWN  ; ANORITH
+	icon_pals BLUE,   PINK   ; ARMALDO
+	icon_pals PURPLE, BROWN  ; FEEBAS
+	icon_pals RED,    BLUE   ; MILOTIC
 	assert_table_length NUM_POKEMON

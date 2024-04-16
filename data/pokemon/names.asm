@@ -346,4 +346,12 @@ PokemonNames::
 	db "WHISCASH@@"
 	db "CORPHISH@@"
 	db "CRAWDAUNT@"
+	db "BALTOY@@@@"
+	db "CLAYDOL@@@"
+	db "LILEEP@@@@"
+	db "CRADILY@@@"
+	db "ANORITH@@@"
+	db "ARMALDO@@@"
+	db "FEEBAS@@@@"
+	db "MILOTIC@@@"
 	assert_table_length NUM_POKEMON

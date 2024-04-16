@@ -700,4 +700,20 @@ PokemonPicPointers::
 	dba CorphishBackpic
 	dba CrawdauntFrontpic
 	dba CrawdauntBackpic
+	dba BaltoyFrontpic
+	dba BaltoyBackpic
+	dba ClaydolFrontpic
+	dba ClaydolBackpic
+	dba LileepFrontpic
+	dba LileepBackpic
+	dba CradilyFrontpic
+	dba CradilyBackpic
+	dba AnorithFrontpic
+	dba AnorithBackpic
+	dba ArmaldoFrontpic
+	dba ArmaldoBackpic
+	dba FeebasFrontpic
+	dba FeebasBackpic
+	dba MiloticFrontpic
+	dba MiloticBackpic
 	assert_table_length NUM_POKEMON + 1

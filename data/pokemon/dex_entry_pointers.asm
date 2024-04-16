@@ -343,4 +343,12 @@ PokedexDataPointerTable:
 	dba WhiscashPokedexEntry
 	dba CorphishPokedexEntry
 	dba CrawdauntPokedexEntry
+	dba BaltoyPokedexEntry
+	dba ClaydolPokedexEntry
+	dba LileepPokedexEntry
+	dba CradilyPokedexEntry
+	dba AnorithPokedexEntry
+	dba ArmaldoPokedexEntry
+	dba FeebasPokedexEntry
+	dba MiloticPokedexEntry
 	assert_table_length NUM_POKEMON

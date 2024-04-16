@@ -363,6 +363,14 @@ DEF HOENN_POKEMON EQU const_value
 	const WHISCASH   ; 154
 	const CORPHISH   ; 155
 	const CRAWDAUNT  ; 156
+	const BALTOY     ; 157
+	const CLAYDOL    ; 158
+	const LILEEP     ; 159
+	const CRADILY    ; 15a
+	const ANORITH    ; 15b
+	const ARMALDO    ; 15c
+	const FEEBAS      ; 15d
+	const MILOTIC    ; 15e
 	
 DEF NUM_POKEMON EQU const_value - 1
 

@@ -344,4 +344,12 @@ NewPokedexOrder:
 	dw WHISCASH
 	dw CORPHISH
 	dw CRAWDAUNT
+	dw BALTOY
+	dw CLAYDOL
+	dw LILEEP
+	dw CRADILY
+	dw ANORITH
+	dw ARMALDO
+	dw FEEBAS
+	dw MILOTIC
 	assert_table_length NUM_POKEMON

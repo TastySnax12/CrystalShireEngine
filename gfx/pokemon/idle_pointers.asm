@@ -342,4 +342,12 @@ AnimationIdlePointers:
 	dw WhiscashAnimationIdle
 	dw CorphishAnimationIdle
 	dw CrawdauntAnimationIdle
+	dw BaltoyAnimationIdle
+	dw ClaydolAnimationIdle
+	dw LileepAnimationIdle
+	dw CradilyAnimationIdle
+	dw AnorithAnimationIdle
+	dw ArmaldoAnimationIdle
+	dw FeebasAnimationIdle
+	dw MiloticAnimationIdle
 	assert_table_length NUM_POKEMON

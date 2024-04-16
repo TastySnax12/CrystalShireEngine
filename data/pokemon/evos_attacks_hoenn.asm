@@ -92,14 +92,14 @@ EvosAttacksPointers3::
 	dw WhiscashEvosAttacks
 	dw CorphishEvosAttacks
 	dw CrawdauntEvosAttacks
-	; dw BaltoyEvosAttacks
-	; dw ClaydolEvosAttacks
-	; dw LileepEvosAttacks
-	; dw CradilyEvosAttacks
-	; dw AnorithEvosAttacks
-	; dw ArmaldoEvosAttacks
-	; dw FeebasEvosAttacks
-	; dw MiloticEvosAttacks
+	dw BaltoyEvosAttacks
+	dw ClaydolEvosAttacks
+	dw LileepEvosAttacks
+	dw CradilyEvosAttacks
+	dw AnorithEvosAttacks
+	dw ArmaldoEvosAttacks
+	dw FeebasEvosAttacks
+	dw MiloticEvosAttacks
 	; dw CastformEvosAttacks
 	; dw KecleonEvosAttacks
 	; dw ShuppetEvosAttacks
@@ -594,144 +594,45 @@ CrawdauntEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; BaltoyEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 36, CLAYDOL
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 3, HARDEN
-	; dbw 5, RAPID_SPIN
-	; dbw 7, MUD_SLAP
-	; dbw 11, PSYBEAM
-	; dbw 15, ROCK_TOMB
-	; dbw 19, SELFDESTRUCT
-	; dbw 25, ANCIENTPOWER
-	; dbw 31, POWER_TRICK
-	; dbw 37, SANDSTORM
-	; dbw 45, COSMIC_POWER
-	; dbw 53, EARTH_POWER
-	; dbw 61, HEAL_BLOCK
-	; dbw 71, EXPLOSION
-	; db 0 ; no more level-up moves
+BaltoyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ClaydolEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 1, TELEPORT
-	; dbw 1, HARDEN
-	; dbw 1, RAPID_SPIN
-	; dbw 3, HARDEN
-	; dbw 5, RAPID_SPIN
-	; dbw 7, MUD_SLAP
-	; dbw 11, PSYBEAM
-	; dbw 15, ROCK_TOMB
-	; dbw 19, SELFDESTRUCT
-	; dbw 25, ANCIENTPOWER
-	; dbw 31, POWER_TRICK
-	; dbw 36, HYPER_BEAM
-	; dbw 40, SANDSTORM
-	; dbw 51, COSMIC_POWER
-	; dbw 62, EARTH_POWER
-	; dbw 73, HEAL_BLOCK
-	; dbw 86, EXPLOSION
-	; db 0 ; no more level-up moves
+ClaydolEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LileepEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 40, CRADILY
-	; db 0 ; no more evolutions
-	; dbw 1, CONSTRICT
-	; dbw 1, ASTONISH
-	; dbw 8, ACID
-	; dbw 15, INGRAIN
-	; dbw 22, CONFUSE_RAY
-	; dbw 29, AMNESIA
-	; dbw 36, GASTRO_ACID
-	; dbw 43, ANCIENTPOWER
-	; dbw 50, ENERGY_BALL
-	; dbw 57, STOCKPILE
-	; dbw 57, SPIT_UP
-	; dbw 57, SWALLOW
-	; dbw 64, WRING_OUT
-	; db 0 ; no more level-up moves
+LileepEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CradilyEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, ACID
-	; dbw 1, CONSTRICT
-	; dbw 1, INGRAIN
-	; dbw 1, ASTONISH
-	; dbw 8, ACID
-	; dbw 15, INGRAIN
-	; dbw 22, CONFUSE_RAY
-	; dbw 29, AMNESIA
-	; dbw 36, ANCIENTPOWER
-	; dbw 46, GASTRO_ACID
-	; dbw 56, ENERGY_BALL
-	; dbw 66, STOCKPILE
-	; dbw 66, SPIT_UP
-	; dbw 66, SWALLOW
-	; dbw 76, WRING_OUT
-	; db 0 ; no more level-up moves
+CradilyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; AnorithEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 40, ARMALDO
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, HARDEN
-	; dbw 7, MUD_SPORT
-	; dbw 13, WATER_GUN
-	; dbw 19, METAL_CLAW
-	; dbw 25, PROTECT
-	; dbw 31, ANCIENTPOWER
-	; dbw 37, FURY_CUTTER
-	; dbw 43, SLASH
-	; dbw 49, ROCK_BLAST
-	; dbw 55, CRUSH_CLAW
-	; dbw 61, X_SCISSOR
-	; db 0 ; no more level-up moves
+AnorithEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ArmaldoEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, WATER_GUN
-	; dbw 1, HARDEN
-	; dbw 1, MUD_SPORT
-	; dbw 7, MUD_SPORT
-	; dbw 13, WATER_GUN
-	; dbw 19, METAL_CLAW
-	; dbw 25, PROTECT
-	; dbw 31, ANCIENTPOWER
-	; dbw 37, FURY_CUTTER
-	; dbw 46, SLASH
-	; dbw 55, ROCK_BLAST
-	; dbw 67, CRUSH_CLAW
-	; dbw 73, X_SCISSOR
-	; db 0 ; no more level-up moves
+ArmaldoEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; FeebasEvosAttacks:
-	; dbbw EVOLVE_TRADE, PRISM_SCALE, MILOTIC
-	; db 0 ; no more evolutions
-	; dbw 1, SPLASH
-	; dbw 15, TACKLE
-	; dbw 30, FLAIL
-	; db 0 ; no more level-up moves
+FeebasEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MiloticEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WRAP
-	; dbw 1, WATER_GUN
-	; dbw 5, WATER_SPORT
-	; dbw 9, REFRESH
-	; dbw 13, WATER_PULSE
-	; dbw 17, TWISTER
-	; dbw 21, RECOVER
-	; dbw 25, CAPTIVATE
-	; dbw 29, AQUA_TAIL
-	; dbw 33, RAIN_DANCE
-	; dbw 37, HYDRO_PUMP
-	; dbw 41, ATTRACT
-	; dbw 45, SAFEGUARD
-	; dbw 49, AQUA_RING
-	; db 0 ; no more level-up moves
+MiloticEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; CastformEvosAttacks:
 	; db 0 ; no more evolutions

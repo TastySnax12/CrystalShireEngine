@@ -342,4 +342,12 @@ FramesPointers:
 	dba WhiscashFrames
 	dba CorphishFrames
 	dba CrawdauntFrames
+	dba BaltoyFrames
+	dba ClaydolFrames
+	dba LileepFrames
+	dba CradilyFrames
+	dba AnorithFrames
+	dba ArmaldoFrames
+	dba FeebasFrames
+	dba MiloticFrames
 	assert_table_length NUM_POKEMON

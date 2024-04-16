@@ -381,5 +381,13 @@ INCLUDE "data/pokemon/base_stats/barboach.asm"
 INCLUDE "data/pokemon/base_stats/whiscash.asm"
 INCLUDE "data/pokemon/base_stats/corphish.asm"
 INCLUDE "data/pokemon/base_stats/crawdaunt.asm"
+INCLUDE "data/pokemon/base_stats/baltoy.asm"
+INCLUDE "data/pokemon/base_stats/claydol.asm"
+INCLUDE "data/pokemon/base_stats/lileep.asm"
+INCLUDE "data/pokemon/base_stats/cradily.asm"
+INCLUDE "data/pokemon/base_stats/anorith.asm"
+INCLUDE "data/pokemon/base_stats/armaldo.asm"
+INCLUDE "data/pokemon/base_stats/feebas.asm"
+INCLUDE "data/pokemon/base_stats/milotic.asm"
 
 .IndirectEnd::

@@ -357,3 +357,11 @@ CorphishPokedexEntry::   INCLUDE "data/pokemon/dex_entries/corphish.asm"
 SECTION "Pokedex Entries 342-???", ROMX
 
 CrawdauntPokedexEntry::  INCLUDE "data/pokemon/dex_entries/crawdaunt.asm"
+BaltoyPokedexEntry::     INCLUDE "data/pokemon/dex_entries/baltoy.asm"
+ClaydolPokedexEntry::    INCLUDE "data/pokemon/dex_entries/claydol.asm"
+LileepPokedexEntry::     INCLUDE "data/pokemon/dex_entries/lileep.asm"
+CradilyPokedexEntry::    INCLUDE "data/pokemon/dex_entries/cradily.asm"
+AnorithPokedexEntry::    INCLUDE "data/pokemon/dex_entries/anorith.asm"
+ArmaldoPokedexEntry::    INCLUDE "data/pokemon/dex_entries/armaldo.asm"
+FeebasPokedexEntry::     INCLUDE "data/pokemon/dex_entries/feebas.asm"
+MiloticPokedexEntry::    INCLUDE "data/pokemon/dex_entries/milotic.asm"

@@ -717,4 +717,20 @@ INCBIN "gfx/pokemon/corphish/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/corphish/shiny.pal"
 INCBIN "gfx/pokemon/crawdaunt/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/crawdaunt/shiny.pal"
+INCBIN "gfx/pokemon/baltoy/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/baltoy/shiny.pal"
+INCBIN "gfx/pokemon/claydol/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/claydol/shiny.pal"
+INCBIN "gfx/pokemon/lileep/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/lileep/shiny.pal"
+INCBIN "gfx/pokemon/cradily/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/cradily/shiny.pal"
+INCBIN "gfx/pokemon/anorith/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/anorith/shiny.pal"
+INCBIN "gfx/pokemon/armaldo/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/armaldo/shiny.pal"
+INCBIN "gfx/pokemon/feebas/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/feebas/shiny.pal"
+INCBIN "gfx/pokemon/milotic/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/milotic/shiny.pal"
 	assert_table_length NUM_POKEMON + 1

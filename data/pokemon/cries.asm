@@ -348,4 +348,12 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; WHISCASH
 	mon_cry CRY_RATTATA,       0,  0   ; CORPHISH
 	mon_cry CRY_RATTATA,       0,  0   ; CRAWDAUNT
+	mon_cry CRY_RATTATA,       0,  0   ; BALTOY
+	mon_cry CRY_RATTATA,       0,  0   ; CLAYDOL
+	mon_cry CRY_RATTATA,       0,  0   ; LILEEP
+	mon_cry CRY_RATTATA,       0,  0   ; CRADILY
+	mon_cry CRY_RATTATA,       0,  0   ; ANORITH
+	mon_cry CRY_RATTATA,       0,  0   ; ARMALDO
+	mon_cry CRY_RATTATA,       0,  0   ; FEEBAS
+	mon_cry CRY_RATTATA,       0,  0   ; MILOTIC
 	assert_table_length NUM_POKEMON

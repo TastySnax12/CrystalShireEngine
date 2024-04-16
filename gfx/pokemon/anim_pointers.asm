@@ -342,4 +342,12 @@ AnimationPointers:
 	dw WhiscashAnimation
 	dw CorphishAnimation
 	dw CrawdauntAnimation
+	dw BaltoyAnimation
+	dw ClaydolAnimation
+	dw LileepAnimation
+	dw CradilyAnimation
+	dw AnorithAnimation
+	dw ArmaldoAnimation
+	dw FeebasAnimation
+	dw MiloticAnimation
 	assert_table_length NUM_POKEMON

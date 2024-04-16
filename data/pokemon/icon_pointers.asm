@@ -347,4 +347,12 @@ IconPointers:
 	dba MagikarpIcon ; WHISCASH
 	dba MagikarpIcon ; CORPHISH
 	dba MagikarpIcon ; CRAWDAUNT
+	dba MagikarpIcon ; BALTOY
+	dba MagikarpIcon ; CLAYDOL
+	dba MagikarpIcon ; LILEEP
+	dba MagikarpIcon ; CRADILY
+	dba MagikarpIcon ; ANORITH
+	dba MagikarpIcon ; ARMALDO
+	dba MagikarpIcon ; FEEBAS
+	dba MagikarpIcon ; MILOTIC
 	assert_table_length NUM_POKEMON + 1

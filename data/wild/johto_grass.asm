@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
 	; day
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
 	; nite
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
-	dbw 5, CRAWDAUNT
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
+	dbw 5, MILOTIC
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY
