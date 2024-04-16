@@ -43,9 +43,9 @@ PlayBattleMusic:
 	ld a, [wBattleType]
 	cp BATTLETYPE_SUICUNE
 	ld de, MUSIC_SUICUNE_BATTLE
-	jmp z, .done
+	jr z, .done
 	cp BATTLETYPE_ROAMING
-	jmp z, .done
+	jr z, .done
 
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]
@@ -101,14 +101,7 @@ PlayBattleMusic:
 	ld a, [wOtherTrainerClass]
 	cp RIVAL1
 	jr z, .done
-	cp RIVAL2
-	jr nz, .othertrainer
-
-	ld a, [wOtherTrainerID]
-	cp RIVAL2_2_CHIKORITA ; Rival in Indigo Plateau
-	jr c, .done
-	ld de, MUSIC_CHAMPION_BATTLE
-	jr .done
+	jr .othertrainer
 
 .othertrainer
 	ld a, [wLinkMode]

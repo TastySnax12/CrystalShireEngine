@@ -305,4 +305,47 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; HARIYAMA
 	mon_cry CRY_RATTATA,       0,  0   ; AZURILL
 	mon_cry CRY_RATTATA,       0,  0   ; NOSEPASS
+	mon_cry CRY_RATTATA,       0,  0   ; SKITTY
+	mon_cry CRY_RATTATA,       0,  0   ; DELCATTY
+	mon_cry CRY_RATTATA,       0,  0   ; SABLEYE
+	mon_cry CRY_RATTATA,       0,  0   ; MAWILE
+	mon_cry CRY_RATTATA,       0,  0   ; ARON
+	mon_cry CRY_RATTATA,       0,  0   ; LAIRON
+	mon_cry CRY_RATTATA,       0,  0   ; AGGRON
+	mon_cry CRY_RATTATA,       0,  0   ; MEDITITE
+	mon_cry CRY_RATTATA,       0,  0   ; MEDICHAM
+	mon_cry CRY_RATTATA,       0,  0   ; ELECTRIKE
+	mon_cry CRY_RATTATA,       0,  0   ; MANECTRIC
+	mon_cry CRY_RATTATA,       0,  0   ; PLUSLE
+	mon_cry CRY_RATTATA,       0,  0   ; MINUN
+	mon_cry CRY_RATTATA,       0,  0   ; VOLBEAT
+	mon_cry CRY_RATTATA,       0,  0   ; ILLUMISE
+	mon_cry CRY_RATTATA,       0,  0   ; ROSELIA
+	mon_cry CRY_RATTATA,       0,  0   ; GULPIN
+	mon_cry CRY_RATTATA,       0,  0   ; SWALOT
+	mon_cry CRY_RATTATA,       0,  0   ; CARVANHA
+	mon_cry CRY_RATTATA,       0,  0   ; SHARPEDO
+	mon_cry CRY_RATTATA,       0,  0   ; WAILMER
+	mon_cry CRY_RATTATA,       0,  0   ; WAILORD
+	mon_cry CRY_RATTATA,       0,  0   ; NUMEL
+	mon_cry CRY_RATTATA,       0,  0   ; CAMERUPT
+	mon_cry CRY_RATTATA,       0,  0   ; TORKOAL
+	mon_cry CRY_RATTATA,       0,  0   ; SPOINK
+	mon_cry CRY_RATTATA,       0,  0   ; GRUMPIG
+	mon_cry CRY_RATTATA,       0,  0   ; SPINDA
+	mon_cry CRY_RATTATA,       0,  0   ; TRAPINCH
+	mon_cry CRY_RATTATA,       0,  0   ; VIBRAVA
+	mon_cry CRY_RATTATA,       0,  0   ; FLYGON
+	mon_cry CRY_RATTATA,       0,  0   ; CACNEA
+	mon_cry CRY_RATTATA,       0,  0   ; CACTURNE
+	mon_cry CRY_RATTATA,       0,  0   ; SWABLU
+	mon_cry CRY_RATTATA,       0,  0   ; ALTARIA
+	mon_cry CRY_RATTATA,       0,  0   ; ZANGOOSE
+	mon_cry CRY_RATTATA,       0,  0   ; SEVIPER
+	mon_cry CRY_RATTATA,       0,  0   ; LUNATONE
+	mon_cry CRY_RATTATA,       0,  0   ; SOLROCK
+	mon_cry CRY_RATTATA,       0,  0   ; BARBOACH
+	mon_cry CRY_RATTATA,       0,  0   ; WHISCASH
+	mon_cry CRY_RATTATA,       0,  0   ; CORPHISH
+	mon_cry CRY_RATTATA,       0,  0   ; CRAWDAUNT
 	assert_table_length NUM_POKEMON

@@ -242,6 +242,7 @@ ScriptCommandTable:
 	dw Script_writetextgender            ; b3
 	dw Script_setfollowing               ; b4
 	dw Script_clearfollowing             ; b5
+	dw Script_setmovedata                ; b6
 	assert_table_length NUM_EVENT_COMMANDS
 
 StartScript:
@@ -2558,3 +2559,15 @@ Script_clearfollowing:
 	xor a
 	ld [wFollowerStatus], a
 	farjp StopFollow
+
+Script_setmovedata:
+; script command 0xb6
+; parameters: object id, move data
+
+	call GetScriptByte
+	call GetScriptObject
+	ld b, a
+	call GetScriptByte
+	ld d, a
+	farcall SetObjectMoveData
+	ret

@@ -4,7 +4,7 @@
 	evs  0,   2,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, PSYCHIC	; type
+	db ROCK, PSYCHIC_TYPE	; type
 	db 45 ; catch rate
 	db 150 ; base exp
 	dw NO_ITEM, SUN_STONE ; items

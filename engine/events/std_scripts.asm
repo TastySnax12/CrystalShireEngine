@@ -58,6 +58,7 @@ StdScripts::
 	add_stdscript TableIndexFromFacingScript
 	add_stdscript DawnLucasMusicScript
 	add_stdscript TableIndexFromStarterScript
+	add_stdscript PokeMartClerk
 
 PokecenterNurseScript:
 ; EVENT_WELCOMED_TO_POKECOM_CENTER is never set
@@ -1833,4 +1834,41 @@ TableIndexFromStarterScript:
 
 .Chimchar:
 	settableindex 1
+	end
+
+PokeMartClerk:
+	opentext
+	readvar VAR_BADGES
+	ifless 1, .Badge0
+	ifless 3, .Badge1
+	ifless 5, .Badge3
+	ifless 7, .Badge5
+	ifless 8, .Badge7
+	pokemart MARTTYPE_STANDARD, MART_8_BADGE
+	closetext
+	end
+
+.Badge0:
+	pokemart MARTTYPE_STANDARD, MART_0_BADGE
+	closetext
+	end
+
+.Badge1:
+	pokemart MARTTYPE_STANDARD, MART_1_BADGE
+	closetext
+	end
+
+.Badge3:
+	pokemart MARTTYPE_STANDARD, MART_3_BADGE
+	closetext
+	end
+
+.Badge5:
+	pokemart MARTTYPE_STANDARD, MART_5_BADGE
+	closetext
+	end
+
+.Badge7:
+	pokemart MARTTYPE_STANDARD, MART_7_BADGE
+	closetext
 	end

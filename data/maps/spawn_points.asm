@@ -14,6 +14,8 @@ SpawnPoints:
 
 	spawn SANDGEM_TOWN,               13,  6
 
+	spawn JUBILIFE_CITY,              31, 26
+
 	spawn N_A,                        -1, -1
 
 	assert_table_length NUM_SPAWNS + 1

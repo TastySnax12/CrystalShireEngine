@@ -210,6 +210,15 @@ ItemDescriptionsBalls:
 	dw MoonBallDesc   ; 0209
 	dw LoveBallDesc   ; 020A
 	dw ParkBallDesc   ; 020B
+	dw NetBallDesc    ; 020C
+	dw DiveBallDesc   ; 020D
+	dw NestBallDesc   ; 020E
+	dw RepeatBallDesc ; 020F
+	dw TimerBallDesc  ; 0210
+	dw LuxuryBallDesc ; 0211
+	dw DuskBallDesc   ; 0212
+	dw HealBallDesc   ; 0213
+	dw QuickBallDesc  ; 0214
 .IndirectEnd:
 
 MasterBallDesc:
@@ -872,6 +881,42 @@ MusicMailDesc:
 MirageMailDesc:
 	db   "MEW-print MAIL."
 	next "(HOLD)@"
+
+NetBallDesc:
+	db   "A BALL for WATER"
+	next "and BUG #MON.@"
+
+DiveBallDesc:
+	db   "A BALL for aquatic"
+	next "#MON.@"
+
+NestBallDesc:
+	db   "A BALL for weak,"
+	next "low-level #MON.@"
+
+RepeatBallDesc:
+	db   "A BALL for already"
+	next "caught #MON.@"
+
+TimerBallDesc:
+	db   "A BALL that works"
+	next "better over time.@"
+
+LuxuryBallDesc:
+	db   "A BALL that helps"
+	next "foster friendship.@"
+
+DuskBallDesc:
+	db   "A BALL that works"
+	next "best in the dark.@"
+
+HealBallDesc:
+	db   "A BALL that heals"
+	next "caught #MON.@"
+
+QuickBallDesc:
+	db   "A BALL that works"
+	next "best on turn one.@"
 
 OddKeystoneDesc:
 	db   "Keeps a tower from"

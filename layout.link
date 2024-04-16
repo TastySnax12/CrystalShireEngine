@@ -307,7 +307,7 @@ ROMX $72
 ROMX $73
 	"Pokedex Entries 129-192"
 ROMX $74
-	"Pokedex Entries 193-251"
+	"Pokedex Entries 193-341"
 ROMX $75
 	"16-bit ID stuff"
 ROMX $77
@@ -345,6 +345,14 @@ ROMX $84
 	"Pics 23"
 ROMX $85
 	"Pic Animations 5"
+ROMX $86
+	"Pics 24"
+ROMX $87
+	"Pics 25"
+ROMX $88
+	"Pics 26"
+ROMX $89
+	"Pokedex Entries 342-???"
 WRAM0
 	"Stack"
 	"Audio RAM"

@@ -299,4 +299,47 @@ FramesPointers:
 	dba HariyamaFrames
 	dba AzurillFrames
 	dba NosepassFrames
+	dba SkittyFrames
+	dba DelcattyFrames
+	dba SableyeFrames
+	dba MawileFrames
+	dba AronFrames
+	dba LaironFrames
+	dba AggronFrames
+	dba MedititeFrames
+	dba MedichamFrames
+	dba ElectrikeFrames
+	dba ManectricFrames
+	dba PlusleFrames
+	dba MinunFrames
+	dba VolbeatFrames
+	dba IllumiseFrames
+	dba RoseliaFrames
+	dba GulpinFrames
+	dba SwalotFrames
+	dba CarvanhaFrames
+	dba SharpedoFrames
+	dba WailmerFrames
+	dba WailordFrames
+	dba NumelFrames
+	dba CameruptFrames
+	dba TorkoalFrames
+	dba SpoinkFrames
+	dba GrumpigFrames
+	dba SpindaFrames
+	dba TrapinchFrames
+	dba VibravaFrames
+	dba FlygonFrames
+	dba CacneaFrames
+	dba CacturneFrames
+	dba SwabluFrames
+	dba AltariaFrames
+	dba ZangooseFrames
+	dba SeviperFrames
+	dba LunatoneFrames
+	dba SolrockFrames
+	dba BarboachFrames
+	dba WhiscashFrames
+	dba CorphishFrames
+	dba CrawdauntFrames
 	assert_table_length NUM_POKEMON

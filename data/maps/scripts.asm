@@ -41,32 +41,6 @@ SECTION "Map Scripts 4", ROMX
 INCLUDE "maps/JubilifeCity.asm"
 INCLUDE "maps/JubilifePokecenter1F.asm"
 INCLUDE "maps/JubilifePokeMart.asm"
-INCLUDE "maps/PokemonCommunicationCenter.asm"
-INCLUDE "maps/JubilifeApartmentSE1F.asm"
-INCLUDE "maps/JubilifeApartmentSE2F.asm"
-INCLUDE "maps/JubilifeApartmentNE1F.asm"
-INCLUDE "maps/JubilifeApartmentNE2F.asm"
-INCLUDE "maps/JubilifeApartmentSW1F.asm"
-INCLUDE "maps/JubilifeApartmentSW2F.asm"
-INCLUDE "maps/TrainersSchool.asm"
-INCLUDE "maps/PoketchCompany1F.asm"
-INCLUDE "maps/PoketchCompany2F.asm"
-INCLUDE "maps/PoketchCompany3F.asm"
-INCLUDE "maps/TVStation1F.asm"
-INCLUDE "maps/TVStation2F.asm"
-INCLUDE "maps/TVStation2F2.asm"
-INCLUDE "maps/TVStation3F.asm"
-INCLUDE "maps/TVStation3F2.asm"
-INCLUDE "maps/TVStation3F3.asm"
-INCLUDE "maps/TVStation4F.asm"
-INCLUDE "maps/TVStationElevator.asm"
-INCLUDE "maps/Route203.asm"
-INCLUDE "maps/OreburghGate1F.asm"
-INCLUDE "maps/OreburghGateB1F.asm"
-INCLUDE "maps/Route204South.asm"
-INCLUDE "maps/Route218.asm"
-INCLUDE "maps/Route218JubilifeGate.asm"
-
 
 SECTION "Map Scripts 5", ROMX
 
@@ -142,7 +116,35 @@ INCLUDE "maps/EternaGalacticBuilding4F.asm"
 INCLUDE "maps/Route211West.asm"
 
 SECTION "Map Scripts 8", ROMX
+
+INCLUDE "maps/JubilifeApartmentSE1F.asm"
+INCLUDE "maps/JubilifeApartmentSE2F.asm"
+INCLUDE "maps/JubilifeApartmentNE1F.asm"
+INCLUDE "maps/JubilifeApartmentNE2F.asm"
+INCLUDE "maps/JubilifeApartmentSW1F.asm"
+INCLUDE "maps/JubilifeApartmentSW2F.asm"
+INCLUDE "maps/TVStation1F.asm"
+INCLUDE "maps/TVStation2F.asm"
+INCLUDE "maps/TVStation2F2.asm"
+INCLUDE "maps/TVStation3F.asm"
+INCLUDE "maps/TVStation3F2.asm"
+INCLUDE "maps/TVStation3F3.asm"
+INCLUDE "maps/TVStation4F.asm"
+INCLUDE "maps/TVStationElevator.asm"
+
 SECTION "Map Scripts 9", ROMX
+INCLUDE "maps/PokemonCommunicationCenter.asm"
+INCLUDE "maps/TrainersSchool.asm"
+INCLUDE "maps/PoketchCompany1F.asm"
+INCLUDE "maps/PoketchCompany2F.asm"
+INCLUDE "maps/PoketchCompany3F.asm"
+INCLUDE "maps/Route203.asm"
+INCLUDE "maps/OreburghGate1F.asm"
+INCLUDE "maps/OreburghGateB1F.asm"
+INCLUDE "maps/Route204South.asm"
+INCLUDE "maps/Route218.asm"
+INCLUDE "maps/Route218JubilifeGate.asm"
+
 SECTION "Map Scripts 10", ROMX
 SECTION "Map Scripts 11", ROMX
 SECTION "Map Scripts 12", ROMX

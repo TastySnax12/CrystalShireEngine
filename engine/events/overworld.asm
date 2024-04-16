@@ -279,7 +279,7 @@ FlashFunction:
 	ret
 
 .CheckUseFlash:
-	ld de, ENGINE_ZEPHYRBADGE
+	ld de, ENGINE_COALBADGE
 	call CheckBadge
 	jr c, .nozephyrbadge
 	push hl

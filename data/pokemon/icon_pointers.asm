@@ -304,4 +304,47 @@ IconPointers:
 	dba MagikarpIcon ; HARIYAMA
 	dba MagikarpIcon ; AZURILL
 	dba MagikarpIcon ; NOSEPASS
+	dba MagikarpIcon ; SKITTY
+	dba MagikarpIcon ; DELCATTY
+	dba MagikarpIcon ; SABLEYE
+	dba MagikarpIcon ; MAWILE
+	dba MagikarpIcon ; ARON
+	dba MagikarpIcon ; LAIRON
+	dba MagikarpIcon ; AGGRON
+	dba MagikarpIcon ; MEDITITE
+	dba MagikarpIcon ; MEDICHAM
+	dba MagikarpIcon ; ELECTRIKE
+	dba MagikarpIcon ; MANECTRIC
+	dba MagikarpIcon ; PLUSLE
+	dba MagikarpIcon ; MINUN
+	dba MagikarpIcon ; VOLBEAT
+	dba MagikarpIcon ; ILLUMISE
+	dba MagikarpIcon ; ROSELIA
+	dba MagikarpIcon ; GULPIN
+	dba MagikarpIcon ; SWALOT
+	dba MagikarpIcon ; CARVANHA
+	dba MagikarpIcon ; SHARPEDO
+	dba MagikarpIcon ; WAILMER
+	dba MagikarpIcon ; WAILORD
+	dba MagikarpIcon ; NUMEL
+	dba MagikarpIcon ; CAMERUPT
+	dba MagikarpIcon ; TORKOAL
+	dba MagikarpIcon ; SPOINK
+	dba MagikarpIcon ; GRUMPIG
+	dba MagikarpIcon ; SPINDA
+	dba MagikarpIcon ; TRAPINCH
+	dba MagikarpIcon ; VIBRAVA
+	dba MagikarpIcon ; FLYGON
+	dba MagikarpIcon ; CACNEA
+	dba MagikarpIcon ; CACTURNE
+	dba MagikarpIcon ; SWABLU
+	dba MagikarpIcon ; ALTARIA
+	dba MagikarpIcon ; ZANGOOSE
+	dba MagikarpIcon ; SEVIPER
+	dba MagikarpIcon ; LUNATONE
+	dba MagikarpIcon ; SOLROCK
+	dba MagikarpIcon ; BARBOACH
+	dba MagikarpIcon ; WHISCASH
+	dba MagikarpIcon ; CORPHISH
+	dba MagikarpIcon ; CRAWDAUNT
 	assert_table_length NUM_POKEMON + 1

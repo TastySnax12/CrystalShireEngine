@@ -69,6 +69,6 @@ TrainerGroups:
 	dba BlueGroup
 	dba OfficerGroup
 	dba GruntFGroup
-	dba MysticalmanGroup
+	dba SchoolgirlGroup
 	dba KrisGroup
 	assert_table_length NUM_TRAINER_CLASSES
