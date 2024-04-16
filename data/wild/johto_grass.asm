@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_201
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
 	; day
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
 	; nite
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
-	dbw 5, RELICANTH
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
+	dbw 5, DEOXYS
 	end_grass_wildmons
 
 	def_grass_wildmons LAKE_VERITY

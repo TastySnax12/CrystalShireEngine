@@ -752,7 +752,6 @@ PokemonPicPointers::
 	dba HuntailBackpic
 	dba GorebyssFrontpic
 	dba GorebyssBackpic
-
 	dba RelicanthFrontpic
 	dba RelicanthBackpic
 	dba LuvdiscFrontpic
@@ -769,4 +768,24 @@ PokemonPicPointers::
 	dba MetangBackpic
 	dba MetagrossFrontpic
 	dba MetagrossBackpic
+	dba RegirockFrontpic
+	dba RegirockBackpic
+	dba RegiceFrontpic
+	dba RegiceBackpic
+	dba RegisteelFrontpic
+	dba RegisteelBackpic
+	dba LatiasFrontpic
+	dba LatiasBackpic
+	dba LatiosFrontpic
+	dba LatiosBackpic
+	dba KyogreFrontpic
+	dba KyogreBackpic
+	dba GroudonFrontpic
+	dba GroudonBackpic
+	dba RayquazaFrontpic
+	dba RayquazaBackpic
+	dba JirachiFrontpic
+	dba JirachiBackpic
+	dba DeoxysFrontpic
+	dba DeoxysBackpic
 	assert_table_length NUM_POKEMON + 1

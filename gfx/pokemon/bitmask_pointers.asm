@@ -376,4 +376,14 @@ BitmasksPointers:
 	dw BeldumBitmasks
 	dw MetangBitmasks
 	dw MetagrossBitmasks
+	dw RegirockBitmasks
+	dw RegiceBitmasks
+	dw RegisteelBitmasks
+	dw LatiasBitmasks
+	dw LatiosBitmasks
+	dw KyogreBitmasks
+	dw GroudonBitmasks
+	dw RayquazaBitmasks
+	dw JirachiBitmasks
+	dw DeoxysBitmasks
 	assert_table_length NUM_POKEMON

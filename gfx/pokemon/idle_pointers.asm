@@ -376,4 +376,14 @@ AnimationIdlePointers:
 	dw BeldumAnimationIdle
 	dw MetangAnimationIdle
 	dw MetagrossAnimationIdle
+	dw RegirockAnimationIdle
+	dw RegiceAnimationIdle
+	dw RegisteelAnimationIdle
+	dw LatiasAnimationIdle
+	dw LatiosAnimationIdle
+	dw KyogreAnimationIdle
+	dw GroudonAnimationIdle
+	dw RayquazaAnimationIdle
+	dw JirachiAnimationIdle
+	dw DeoxysAnimationIdle
 	assert_table_length NUM_POKEMON

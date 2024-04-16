@@ -386,4 +386,14 @@ MonMenuIconPals:
 	icon_pals TEAL,   GRAY   ; BELDUM
 	icon_pals TEAL,   GRAY   ; METANG
 	icon_pals TEAL,   GRAY   ; METAGROSS
+	icon_pals RED,    BROWN  ; REGIROCK
+	icon_pals BLUE,   TEAL   ; REGICE
+	icon_pals GRAY,   GREEN  ; REGISTEEL
+	icon_pals RED,    BROWN  ; LATIAS
+	icon_pals BLUE,   TEAL   ; LATIOS
+	icon_pals BLUE,   PURPLE ; KYOGRE
+	icon_pals RED,    BROWN  ; GROUDON
+	icon_pals GREEN,  GRAY   ; RAYQUAZA
+	icon_pals TEAL,   RED    ; JIRACHI
+	icon_pals RED,    BROWN  ; DEOXYS
 	assert_table_length NUM_POKEMON

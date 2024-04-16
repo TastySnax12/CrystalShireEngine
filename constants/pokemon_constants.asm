@@ -397,6 +397,16 @@ DEF HOENN_POKEMON EQU const_value
 	const BELDUM     ; 176
 	const METANG     ; 177
 	const METAGROSS  ; 178
+	const REGIROCK   ; 179
+	const REGICE     ; 17a
+	const REGISTEEL  ; 17b
+	const LATIAS     ; 17c
+	const LATIOS     ; 17d
+	const KYOGRE     ; 17e
+	const GROUDON    ; 17f
+	const RAYQUAZA   ; 180
+	const JIRACHI    ; 181
+	const DEOXYS     ; 182
 	
 DEF NUM_POKEMON EQU const_value - 1
 

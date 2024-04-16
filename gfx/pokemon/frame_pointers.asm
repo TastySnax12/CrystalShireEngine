@@ -376,4 +376,14 @@ FramesPointers:
 	dba BeldumFrames
 	dba MetangFrames
 	dba MetagrossFrames
+	dba RegirockFrames
+	dba RegiceFrames
+	dba RegisteelFrames
+	dba LatiasFrames
+	dba LatiosFrames
+	dba KyogreFrames
+	dba GroudonFrames
+	dba RayquazaFrames
+	dba JirachiFrames
+	dba DeoxysFrames
 	assert_table_length NUM_POKEMON

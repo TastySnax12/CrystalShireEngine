@@ -467,10 +467,7 @@ SECTION "bank3E", ROMX
 
 INCLUDE "engine/gfx/load_font.asm"
 INCLUDE "engine/link/time_capsule.asm"
-INCLUDE "engine/events/name_rater.asm"
 INCLUDE "engine/events/play_slow_cry.asm"
-INCLUDE "engine/pokedex/new_pokedex_entry.asm"
-
 
 
 SECTION "bank3F", ROMX
@@ -514,6 +511,7 @@ INCLUDE "mobile/mobile_45_stadium.asm"
 SECTION "mobile46", ROMX
 
 INCLUDE "mobile/mobile_46.asm"
+INCLUDE "engine/events/name_rater.asm"
 
 
 SECTION "Battle Tower", ROMX
@@ -642,6 +640,9 @@ INCLUDE "data/pokemon/names.asm"
 
 SECTION "bank8b", ROMX
 INCLUDE "data/pokemon/base_stats.asm"
+
+SECTION "bank8d", ROMX
+INCLUDE "engine/pokedex/new_pokedex_entry.asm"
 
 SECTION "European Mail", ROMX
 

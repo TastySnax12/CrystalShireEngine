@@ -67,6 +67,7 @@ AlphabeticalPokedexOrder:
 	dw CYNDAQUIL
 	dw DELCATTY
 	dw DELIBIRD
+	dw DEOXYS
 	dw DEWGONG
 	dw DIGLETT
 	dw DITTO
@@ -118,6 +119,7 @@ AlphabeticalPokedexOrder:
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
+	dw GROUDON
 	dw GROVYLE
 	dw GROWLITHE
 	dw GRUMPIG
@@ -141,6 +143,7 @@ AlphabeticalPokedexOrder:
 	dw ILLUMISE
 	dw IVYSAUR
 	dw JIGGLYPUFF
+	dw JIRACHI
 	dw JOLTEON
 	dw JUMPLUFF
 	dw JYNX
@@ -155,10 +158,13 @@ AlphabeticalPokedexOrder:
 	dw KIRLIA
 	dw KOFFING
 	dw KRABBY
+	dw KYOGRE
 	dw LAIRON
 	dw LANTURN
 	dw LAPRAS
 	dw LARVITAR
+	dw LATIAS
+	dw LATIOS
 	dw LEDIAN
 	dw LEDYBA
 	dw LICKITUNG
@@ -262,6 +268,10 @@ AlphabeticalPokedexOrder:
 	dw RAPIDASH
 	dw RATICATE
 	dw RATTATA
+	dw RAYQUAZA
+	dw REGICE
+	dw REGIROCK
+	dw REGISTEEL
 	dw RELICANTH
 	dw REMORAID
 	dw RHYDON

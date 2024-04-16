@@ -381,4 +381,14 @@ IconPointers:
 	dba MagikarpIcon ; BELDUM
 	dba MagikarpIcon ; METANG
 	dba MagikarpIcon ; METAGROSS
+	dba MagikarpIcon ; REGIROCK
+	dba MagikarpIcon ; REGICE
+	dba MagikarpIcon ; REGISTEEL
+	dba MagikarpIcon ; LATIAS
+	dba MagikarpIcon ; LATIOS
+	dba MagikarpIcon ; KYOGRE
+	dba MagikarpIcon ; GROUDON
+	dba MagikarpIcon ; RAYQUAZA
+	dba MagikarpIcon ; JIRACHI
+	dba MagikarpIcon ; DEOXYS
 	assert_table_length NUM_POKEMON + 1

@@ -382,4 +382,14 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; BELDUM
 	mon_cry CRY_RATTATA,       0,  0   ; METANG
 	mon_cry CRY_RATTATA,       0,  0   ; METAGROSS
+	mon_cry CRY_RATTATA,       0,  0   ; REGIROCK
+	mon_cry CRY_RATTATA,       0,  0   ; REGICE
+	mon_cry CRY_RATTATA,       0,  0   ; REGISTEEL
+	mon_cry CRY_RATTATA,       0,  0   ; LATIAS
+	mon_cry CRY_RATTATA,       0,  0   ; LATIOS
+	mon_cry CRY_RATTATA,       0,  0   ; KYOGRE
+	mon_cry CRY_RATTATA,       0,  0   ; GROUDON
+	mon_cry CRY_RATTATA,       0,  0   ; RAYQUAZA
+	mon_cry CRY_RATTATA,       0,  0   ; JIRACHI
+	mon_cry CRY_RATTATA,       0,  0   ; DEOXYS
 	assert_table_length NUM_POKEMON

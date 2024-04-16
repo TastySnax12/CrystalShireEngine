@@ -126,16 +126,16 @@ EvosAttacksPointers3::
 	dw BeldumEvosAttacks
 	dw MetangEvosAttacks
 	dw MetagrossEvosAttacks
-	; dw RegirockEvosAttacks
-	; dw RegiceEvosAttacks
-	; dw RegisteelEvosAttacks
-	; dw LatiasEvosAttacks
-	; dw LatiosEvosAttacks
-	; dw KyogreEvosAttacks
-	; dw GroudonEvosAttacks
-	; dw RayquazaEvosAttacks
-	; dw JirachiEvosAttacks
-	; dw DeoxysEvosAttacks
+	dw RegirockEvosAttacks
+	dw RegiceEvosAttacks
+	dw RegisteelEvosAttacks
+	dw LatiasEvosAttacks
+	dw LatiosEvosAttacks
+	dw KyogreEvosAttacks
+	dw GroudonEvosAttacks
+	dw RayquazaEvosAttacks
+	dw JirachiEvosAttacks
+	dw DeoxysEvosAttacks
 .IndirectEnd::
 
 TreeckoEvosAttacks:
@@ -764,181 +764,53 @@ MetagrossEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; RegirockEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, STOMP
-	; dbw 1, EXPLOSION
-	; dbw 9, ROCK_THROW
-	; dbw 17, CURSE
-	; dbw 25, SUPERPOWER
-	; dbw 33, ANCIENTPOWER
-	; dbw 41, IRON_DEFENSE
-	; dbw 49, CHARGE_BEAM
-	; dbw 57, LOCK_ON
-	; dbw 65, ZAP_CANNON
-	; dbw 73, STONE_EDGE
-	; dbw 81, HAMMER_ARM
-	; dbw 89, HYPER_BEAM
-	; db 0 ; no more level-up moves
+RegirockEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RegiceEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, STOMP
-	; dbw 1, EXPLOSION
-	; dbw 9, ICY_WIND
-	; dbw 17, CURSE
-	; dbw 25, SUPERPOWER
-	; dbw 33, ANCIENTPOWER
-	; dbw 41, AMNESIA
-	; dbw 49, CHARGE_BEAM
-	; dbw 57, LOCK_ON
-	; dbw 65, ZAP_CANNON
-	; dbw 73, ICE_BEAM
-	; dbw 81, HAMMER_ARM
-	; dbw 89, HYPER_BEAM
-	; db 0 ; no more level-up moves
+RegiceEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RegisteelEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, STOMP
-	; dbw 1, EXPLOSION
-	; dbw 9, METAL_CLAW
-	; dbw 17, CURSE
-	; dbw 25, SUPERPOWER
-	; dbw 33, ANCIENTPOWER
-	; dbw 41, AMNESIA
-	; dbw 41, IRON_DEFENSE
-	; dbw 49, CHARGE_BEAM
-	; dbw 57, LOCK_ON
-	; dbw 65, ZAP_CANNON
-	; dbw 73, FLASH_CANNON
-	; dbw 73, IRON_HEAD
-	; dbw 81, HAMMER_ARM
-	; dbw 89, HYPER_BEAM
-	; db 0 ; no more level-up moves
+RegisteelEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
+LatiasEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LatiasEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, PSYWAVE
-	; dbw 5, WISH
-	; dbw 10, HELPING_HAND
-	; dbw 15, SAFEGUARD
-	; dbw 20, DRAGONBREATH
-	; dbw 25, WATER_SPORT
-	; dbw 30, REFRESH
-	; dbw 35, MIST_BALL
-	; dbw 40, ZEN_HEADBUTT
-	; dbw 45, RECOVER
-	; dbw 50, PSYCHO_SHIFT
-	; dbw 55, CHARM
-	; dbw 60, HEALING_WISH
-	; dbw 65, PSYCHIC_M
-	; dbw 70, DRAGON_PULSE
-	; db 0 ; no more level-up moves
+LatiosEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LatiosEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, PSYWAVE
-	; dbw 5, HEAL_BLOCK
-	; dbw 10, HELPING_HAND
-	; dbw 15, SAFEGUARD
-	; dbw 20, DRAGONBREATH
-	; dbw 25, PROTECT
-	; dbw 30, REFRESH
-	; dbw 35, LUSTER_PURGE
-	; dbw 40, ZEN_HEADBUTT
-	; dbw 45, RECOVER
-	; dbw 50, PSYCHO_SHIFT
-	; dbw 55, DRAGON_DANCE
-	; dbw 60, MEMENTO
-	; dbw 65, PSYCHIC_M
-	; dbw 70, DRAGON_PULSE
-	; db 0 ; no more level-up moves
+KyogreEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; KyogreEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WATER_PULSE
-	; dbw 5, SCARY_FACE
-	; dbw 15, ANCIENTPOWER
-	; dbw 20, BODY_SLAM
-	; dbw 30, CALM_MIND
-	; dbw 35, ICE_BEAM
-	; dbw 45, HYDRO_PUMP
-	; dbw 50, REST
-	; dbw 60, SHEER_COLD
-	; dbw 65, DOUBLE_EDGE
-	; dbw 75, AQUA_TAIL
-	; dbw 80, WATER_SPOUT
-	; db 0 ; no more level-up moves
+GroudonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GroudonEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, MUD_SHOT
-	; dbw 5, SCARY_FACE
-	; dbw 15, ANCIENTPOWER
-	; dbw 20, SLASH
-	; dbw 30, BULK_UP
-	; dbw 35, EARTHQUAKE
-	; dbw 45, FIRE_BLAST
-	; dbw 50, REST
-	; dbw 60, FISSURE
-	; dbw 65, SOLARBEAM
-	; dbw 75, EARTH_POWER
-	; dbw 80, ERUPTION
-	; db 0 ; no more level-up moves
+RayquazaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RayquazaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TWISTER
-	; dbw 5, SCARY_FACE
-	; dbw 15, ANCIENTPOWER
-	; dbw 20, DRAGON_CLAW
-	; dbw 30, DRAGON_DANCE
-	; dbw 35, CRUNCH
-	; dbw 45, FLY
-	; dbw 50, REST
-	; dbw 60, EXTREMESPEED
-	; dbw 65, HYPER_BEAM
-	; dbw 75, DRAGON_PULSE
-	; dbw 80, OUTRAGE
-	; db 0 ; no more level-up moves
+JirachiEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; JirachiEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 1, WISH
-	; dbw 5, REST
-	; dbw 10, SWIFT
-	; dbw 15, HELPING_HAND
-	; dbw 20, PSYCHIC_M
-	; dbw 25, REFRESH
-	; dbw 30, REST
-	; dbw 35, ZEN_HEADBUTT
-	; dbw 40, DOUBLE_EDGE
-	; dbw 45, GRAVITY
-	; dbw 50, HEALING_WISH
-	; dbw 55, FUTURE_SIGHT
-	; dbw 60, COSMIC_POWER
-	; dbw 65, LAST_RESORT
-	; dbw 70, DOOM_DESIRE
-	; db 0 ; no more level-up moves
-
-; DeoxysEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WRAP
-	; dbw 1, LEER
-	; dbw 9, NIGHT_SHADE
-	; dbw 17, TELEPORT
-	; dbw 25, KNOCK_OFF
-	; dbw 33, PURSUIT
-	; dbw 41, PSYCHIC_M
-	; dbw 49, SNATCH
-	; dbw 57, PSYCHO_SHIFT
-	; dbw 65, ZEN_HEADBUTT
-	; dbw 73, COSMIC_POWER
-	; dbw 81, RECOVER
-	; dbw 89, PSYCHO_BOOST
-	; dbw 97, HYPER_BEAM
-	; db 0 ; no more level-up moves
+DeoxysEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ENDSECTION

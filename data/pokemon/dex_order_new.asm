@@ -378,4 +378,14 @@ NewPokedexOrder:
 	dw BELDUM
 	dw METANG
 	dw METAGROSS
+	dw REGIROCK
+	dw REGICE
+	dw REGISTEEL
+	dw LATIAS
+	dw LATIOS
+	dw KYOGRE
+	dw GROUDON
+	dw RAYQUAZA
+	dw JIRACHI
+	dw DEOXYS
 	assert_table_length NUM_POKEMON

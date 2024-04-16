@@ -377,4 +377,14 @@ PokedexDataPointerTable:
 	dba BeldumPokedexEntry
 	dba MetangPokedexEntry
 	dba MetagrossPokedexEntry
+	dba RegirockPokedexEntry
+	dba RegicePokedexEntry
+	dba RegisteelPokedexEntry
+	dba LatiasPokedexEntry
+	dba LatiosPokedexEntry
+	dba KyogrePokedexEntry
+	dba GroudonPokedexEntry
+	dba RayquazaPokedexEntry
+	dba JirachiPokedexEntry
+	dba DeoxysPokedexEntry
 	assert_table_length NUM_POKEMON

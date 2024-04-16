@@ -376,4 +376,14 @@ AnimationPointers:
 	dw BeldumAnimation
 	dw MetangAnimation
 	dw MetagrossAnimation
+	dw RegirockAnimation
+	dw RegiceAnimation
+	dw RegisteelAnimation
+	dw LatiasAnimation
+	dw LatiosAnimation
+	dw KyogreAnimation
+	dw GroudonAnimation
+	dw RayquazaAnimation
+	dw JirachiAnimation
+	dw DeoxysAnimation
 	assert_table_length NUM_POKEMON
