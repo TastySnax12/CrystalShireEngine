@@ -57,6 +57,7 @@ SGBLayoutJumptable:
 	dw .SGB_Unused1E
 	dw .SGB_Unused1E ; SCGB_PLAIN (not used)
 	dw .SGB_MiningGame
+	dw .SGB_Unused1E ; SCGB_INTRO_BOTH_PLAYER_PALS
 	dw .SGB_IntroSandgem
 	dw .SGB_ChooseStarter
 	dw .SGB_ChooseStarterPokePic

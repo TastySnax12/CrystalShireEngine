@@ -1,29 +1,79 @@
-_OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+_RowanText6::
+	text "Now, why don't you"
+	line "tell me a little"
+	cont "bit about your-"
+	cont "self?"
 	prompt
 
-_OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+_Rowan_AreYouABoyOrAGirl::
+	text "Are you a boy?"
+	line "Or are you a girl?"
+	done
 
-if !DEF(_DEBUG)
-	para "Your very own"
-	line "#MON story is"
+_RowanText7::
+	text "Tell me, what is"
+	line "your name?"
+	prompt
+
+_RowanText8::
+	text "Now, this boy"
+	line "here…"
+
+	para "I believe he's your"
+	line "friend."
+	prompt
+
+_RowanText9::
+	text "What might his"
+	line "name be?"
+	prompt
+
+_RowanText10::
+	text "All right,"
+	line "<PLAYER>, the time"
+	cont "has come."
+
+	para "Your very own tale"
+	line "of adventure is"
 	cont "about to unfold."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "On your journey,"
+	line "you will meet"
+	cont "countless #MON"
+	cont "and people."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "I'm, sure that"
+	line "along the way you"
+	cont "will discover many"
+	cont "things, perhaps"
+	cont "even something"
+	cont "about yourself."
 
-	para "with #MON"
-	line "awaits! Let's go!"
-endc
-	para "I'll be seeing you"
-	line "later!"
+	para "Now, go on, leap"
+	line "into the world of"
+	cont "#MON!"
+	done
+
+_Rowan_YouAreABoy::
+	text "So, you're a boy?"
+	done
+
+_Rowan_YouAreAGirl::
+	text "So, you're a girl?"
+	done
+
+_Rowan_ConfirmName::
+	text "Ok…"
+
+	para "So, you're"
+	line "<PLAYER>?"
+	done
+
+_Rowan_ConfirmRival::
+	text "<RIVAL>, is it?"
+
+	para "That's your friend's"
+	line "name?"
 	done
 
 _IntroSandgem::

@@ -1356,53 +1356,54 @@ _MayRegisterItemText::
 	line "on SELECT Button."
 	done
 
-_OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+_RowanText1::
+	text "Hello there!"
+	line "It's so very nice"
+	cont "to meet you!"
 
-if !DEF(_DEBUG)
 	para "Welcome to the"
 	line "world of #MON!"
 
-	para "My name is OAK."
+	para "My name is ROWAN."
 
-	para "People call me the"
-	line "#MON PROF."
-endc
+	para "However, everyone"
+	line "just calls me the"
+	cont "#MON PROF."
 	prompt
 
-_OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+_RowanText2::
+	text "This world is"
+	line "widely inhabited"
+	cont "by creatures known"
+	cont "as #MON.@"
 	text_end
 
-_OakText3::
+_RowanText3::
 	text_promptbutton
 	text_end
 
-_OakText4::
-	text "People and #MON"
-	line "live together by"
+_RowanText4::
+	text "We humans live"
+	line "alongside #MON"
+	cont "as friends."
 
-	para "supporting each"
-	line "other."
+	para "At times we play"
+	line "together, and at"
+	cont "other times we"
+	cont "work together."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Some people use"
+	line "their #MON to"
+	cont "battle and develop"
+	cont "closer bonds with"
+	cont "them."
 	prompt
 
-_OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+_RowanText5::
+	text "What do I do?"
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
-
-	para "That's why I study"
-	line "#MON every day."
+	para "I conduct research"
+	line "so that we may"
+	cont "learn more about"
+	cont "#MON."
 	prompt

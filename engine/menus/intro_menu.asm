@@ -57,7 +57,6 @@ NewGame:
 	call ResetWRAM
 	farcall ClearSavedObjPals
 	call NewGame_ClearTilemapEtc
-	call PlayerProfileSetup
 	call OakSpeech
 	call InitializeWorld
 	call IntroSandgemScene
@@ -71,9 +70,6 @@ NewGame:
 	ld a, MAPSETUP_WARP
 	ldh [hMapEntryMethod], a
 	jmp FinishContinueFunction
-
-PlayerProfileSetup:
-	farjp InitGender
 
 ResetWRAM:
 	xor a
@@ -559,14 +555,13 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText1
+	ld hl, RowanText1
 	call PrintText
-if !DEF(_DEBUG)
 	ld c, 15
 	call FadeToWhite
 	call ClearTilemap
 
-	ld hl, GASTLY
+	ld hl, BULBASAUR
 	call GetPokemonIDFromIndex
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
@@ -584,9 +579,9 @@ if !DEF(_DEBUG)
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText2
+	ld hl, RowanText2
 	call PrintText
-	ld hl, OakText4
+	ld hl, RowanText4
 	call PrintText
 	ld c, 15
 	call FadeToWhite
@@ -602,9 +597,16 @@ if !DEF(_DEBUG)
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText5
+	ld hl, RowanText5
 	call PrintText
-;	call RotateThreePalettesRight ; TODO check this
+	ld c, 15
+	call FadeToWhite
+	call ClearTilemap
+
+	call IntroMenuChooseGender
+
+	ld c, 15
+	call FadeToWhite
 	call ClearTilemap
 
 	xor a
@@ -614,45 +616,123 @@ if !DEF(_DEBUG)
 	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
-endc
-	ld hl, OakText6
+
+.player_name_loop
+	ld hl, RowanText7
 	call PrintText
 	call NamePlayer
-	ld hl, OakText7
-	jmp PrintText
 
-OakText1:
-	text_far _OakText1
+	ld hl, RowanTextConfirmName
+	call PrintText
+	call YesNoBox
+	jr c, .player_name_loop
+
+	ld c, 15
+	call FadeToWhite
+	call ClearTilemap
+
+	xor a
+	ld [wCurPartySpecies], a
+	ld a, RIVAL1
+	ld [wTrainerClass], a
+	call Intro_PrepTrainerPic
+
+	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
+	call GetSGBLayout
+	call Intro_RotatePalettesLeftFrontpic
+
+	ld hl, RowanText8
+	call PrintText
+
+.rival_loop
+	ld hl, RowanText9
+	call PrintText
+	call IntroNameRival
+
+	ld hl, RowanTextConfirmRival
+	call PrintText
+	call YesNoBox
+	jr c, .rival_loop
+
+	ld c, 31
+	call FadeToWhite
+	call ClearTilemap
+
+	xor a
+	ld [wCurPartySpecies], a
+	farcall DrawIntroPlayerPic
+
+	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
+	call GetSGBLayout
+	call Intro_RotatePalettesLeftFrontpic
+
+	ld hl, RowanText10
+	jp PrintText
+
+RowanText1:
+	text_far _RowanText1
 	text_end
 
-OakText2:
-	text_far _OakText2
+RowanText2:
+	text_far _RowanText2
 	text_asm
-	ld hl, WOOPER
+	ld hl, BULBASAUR
 	call GetPokemonIDFromIndex
 	call PlayMonCry
 	call WaitSFX
-	ld hl, OakText3
+	ld hl, RowanText3
 	ret
 
-OakText3:
-	text_far _OakText3
+RowanText3:
+	text_far _RowanText3
 	text_end
 
-OakText4:
-	text_far _OakText4
+RowanText4:
+	text_far _RowanText4
 	text_end
 
-OakText5:
-	text_far _OakText5
+RowanText5:
+	text_far _RowanText5
 	text_end
 
-OakText6:
-	text_far _OakText6
+RowanText6:
+	text_far _RowanText6
 	text_end
 
-OakText7:
-	text_far _OakText7
+RowanText7:
+	text_far _RowanText7
+	text_end
+
+RowanText8:
+	text_far _RowanText8
+	text_end
+
+RowanText9:
+	text_far _RowanText9
+	text_end
+
+RowanText10:
+	text_far _RowanText10
+	text_end
+
+RowanTextBoy:
+	text_far _Rowan_YouAreABoy
+	text_end
+
+RowanTextGirl:
+	text_far _Rowan_YouAreAGirl
+	text_end
+
+RowanTextBoyOrGirl:
+	text_far _Rowan_AreYouABoyOrAGirl
+	text_end
+
+RowanTextConfirmName:
+	text_far _Rowan_ConfirmName
+	text_end
+
+RowanTextConfirmRival:
+	text_far _Rowan_ConfirmRival
 	text_end
 
 IntroSandgemText:
@@ -699,16 +779,63 @@ NamePlayer:
 	jmp InitName
 
 .Chris:
-	db "CHRIS@@@@@@"
+	db "LUCAS@@@@@@"
 .Kris:
-	db "KRIS@@@@@@@"
+	db "DAWN@@@@@@@"
+
+IntroNameRival:
+	farcall MovePlayerPicRight
+	farcall ShowRivalNamingChoices
+	ld a, [wMenuCursorY]
+	dec a
+	jr z, .NewName
+	call StoreRivalName
+	farcall ApplyMonOrTrainerPals
+	farcall MovePlayerPicLeft
+	ret
+
+.NewName:
+	ld b, NAME_RIVAL
+	ld de, wRivalName
+	farcall NamingScreen
+
+	ld c, 15
+	call FadeToWhite
+	call ClearTilemap
+
+	call LoadFontsExtra
+	call WaitBGMap
+
+	xor a
+	ld [wCurPartySpecies], a
+	ld a, RIVAL1
+	ld [wTrainerClass], a
+	call Intro_PrepTrainerPic
+
+	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
+	call GetSGBLayout
+	call Intro_RotatePalettesLeftFrontpic
+
+	ld hl, wRivalName
+	ld de, .DefaultName
+	call InitName
+	ret
+
+.DefaultName:
+	db "BARRY@@@@@@"
 
 StorePlayerName:
+	ld hl, wPlayerName
+	jr StoreName
+
+StoreRivalName:
+	ld hl, wRivalName
+StoreName:
+	push hl
 	ld a, "@"
 	ld bc, NAME_LENGTH
-	ld hl, wPlayerName
 	rst ByteFill
-	ld hl, wPlayerName
+	pop hl
 	ld de, wStringBuffer2
 	jmp CopyName2
 
@@ -860,6 +987,80 @@ Intro_PlacePlayerSprite:
 	db 10 * TILE_WIDTH + 4,  9 * TILE_WIDTH, 2
 	db 10 * TILE_WIDTH + 4, 10 * TILE_WIDTH, 3
 
+IntroMenuChooseGender:
+	xor a
+	ld [wCurPartySpecies], a
+	farcall DrawBothIntroFrontPics
+
+	ld b, SCGB_INTRO_BOTH_PLAYER_PALS
+	call GetSGBLayout
+	call Intro_RotatePalettesLeftFrontpic
+
+	ld hl, RowanText6
+	call PrintText
+
+.gender_loop
+	ld hl, RowanTextBoyOrGirl
+	call PrintText
+; place cursor
+	ld a, "▼"
+	hlcoord 5, 2
+	ld [hl], a
+	ld a, " "
+	hlcoord 13, 2
+	ld [hl], a
+
+	xor a
+	ld [wMenuCursorX], a
+	call DelayFrame
+	call .get_input
+
+	ld a, [wMenuCursorX]
+	and a
+	ld [wPlayerGender], a
+	jr z, .ask_boy
+
+	ld hl, RowanTextGirl
+	jr .ask_gender
+
+.ask_boy
+	ld hl, RowanTextBoy
+.ask_gender
+	call PrintText
+	call YesNoBox
+	jr c, .gender_loop
+	ret
+
+.get_input:
+	call JoyTextDelay
+	ldh a, [hJoypadPressed]
+	bit A_BUTTON_F, a
+	ret nz
+	and D_LEFT | D_RIGHT
+	call nz, .swap_cursor
+	call DelayFrame
+	jr .get_input
+
+.swap_cursor
+	ld a, " "
+	hlcoord 5, 2
+	ld [hl], a
+	hlcoord 13, 2
+	ld [hl], a
+	ld a, [wMenuCursorX]
+	xor 1
+	ld [wMenuCursorX], a
+	jr z, .cursor_male
+
+	hlcoord 13, 2
+	jr .set_cursor
+
+.cursor_male
+	hlcoord 5, 2
+.set_cursor
+	ld a, "▼"
+	ld [hl], a
+	ret
 
 	const_def
 	const TITLESCREENOPTION_MAIN_MENU

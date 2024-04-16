@@ -60,7 +60,7 @@ CGBLayoutJumptable:
 	dw _CGB_Unused1E
 	dw _CGB_Plain
 	dw _CGB_MiningGame
-;	dw _CGB_IntroBothPlayerPals
+	dw _CGB_IntroBothPlayerPals
 	dw _CGB_IntroSandgem
 	dw _CGB_ChooseStarter
 	dw _CGB_ChooseStarterPokePic
@@ -1281,3 +1281,27 @@ _CGB_MiningGame:
 
 MiningGameBGPals: INCLUDE "gfx/underground/minigame_bg.pal"
 MiningGameOBPals: INCLUDE "gfx/underground/minigame_ob.pal"
+
+_CGB_IntroBothPlayerPals:
+	ld de, wBGPals1
+	ld a, CHRIS
+	ld [wTrainerClass], a
+	xor a
+	call GetFrontpicPalettePointer
+	call LoadPalette_Mon
+	ld de, wBGPals1 palette 1
+	ld a, KRIS
+	ld [wTrainerClass], a
+	xor a
+	call GetFrontpicPalettePointer
+	call LoadPalette_Mon
+
+	call WipeAttrmap
+
+	hlcoord 10, 4, wAttrmap
+	lb bc, 7, 7
+	ld a, 1
+	call FillBoxCGB
+
+	call ApplyAttrmap
+	jp ApplyPals
