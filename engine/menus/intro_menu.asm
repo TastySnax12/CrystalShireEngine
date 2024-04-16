@@ -71,6 +71,137 @@ NewGame:
 	ldh [hMapEntryMethod], a
 	jmp FinishContinueFunction
 
+IF DEF(_DEBUG)
+Debug_NewGame:
+	xor a
+	ld [wDebugFlags], a
+	call ResetWRAM
+	farcall ClearSavedObjPals
+	farcall _InitializeStartDay
+	farcall InitializeEvents
+
+	call Random
+	and %1
+	ld [wPlayerGender], a
+	ld hl, .default_name_male
+	jr z, .got_name
+	ld hl, .default_name_female
+.got_name
+	ld de, wPlayerName
+	ld bc, NAME_LENGTH
+	call CopyBytes
+
+	ld hl, .default_rival_name
+	ld de, wRivalName
+	ld bc, NAME_LENGTH
+	call CopyBytes
+
+.random_loop
+	call Random
+	and %11
+	jr z, .random_loop
+
+	dec a
+	ld hl, BULBASAUR
+	ld de, EVENT_GOT_TURTWIG
+	jr z, .got_starter
+	dec a
+	ld hl, CHARMANDER
+	ld de, EVENT_GOT_CHIMCHAR
+	jr z, .got_starter
+	ld hl, SQUIRTLE
+	ld de, EVENT_GOT_PIPLUP
+.got_starter
+	push de
+	ld a, 7
+	ld [wCurPartyLevel], a
+	xor a
+	ld [wCurItem], a
+	call GetPokemonIDFromIndex
+	ld [wCurPartySpecies], a
+	xor a
+	ld [wMonType], a
+	farcall TryAddMonToParty
+	pop de
+	ld b, SET_FLAG
+	call EventFlagAction
+
+	call DebugIntro_EventFlags
+	call DebugIntro_SceneScripts
+
+	ld a, $C1
+	ld [wOptions], a
+
+	ld a, LANDMARK_TWINLEAF_TOWN
+	ld [wPrevLandmark], a
+
+	ld a, SPAWN_TWINLEAF
+	ld [wDefaultSpawnpoint], a
+
+	ld a, MAPSETUP_WARP
+	ldh [hMapEntryMethod], a
+	jmp FinishContinueFunction
+
+.default_name_male
+	db "LUCAS@"
+.default_name_female
+	db "DAWN@"
+.default_rival_name
+	db "BARRY@"
+
+DebugIntro_EventFlags:
+	ld hl, .events
+.loop
+	ld a, [hli]
+	cp -1
+	ret z
+	ld b, a
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+	push hl
+	call EventFlagAction
+	pop hl
+	jr .loop
+
+.events
+	dbw SET_FLAG, EVENT_TALKED_TO_RIVAL_IN_ROOM
+	dbw SET_FLAG, EVENT_GOT_STARTER
+	db -1
+
+DebugIntro_SceneScripts:
+	ld hl, .scenes
+.loop
+	ld a, [hli]
+	cp -1
+	ret z
+	push af
+	ld a, [hli]
+	ld b, a
+	ld a, [hli]
+	ld c, a
+	push hl
+	call GetMapSceneID
+	pop hl
+	pop af
+	ld b, a
+	ld a, d
+	or e
+	jr z, .loop
+	ld a, b
+	ld [de], a
+	jr .loop
+
+.scenes
+	db SCENE_TWINLEAFTOWN_NOTHING, GROUP_TWINLEAF_TOWN, MAP_TWINLEAF_TOWN
+	db SCENE_PLAYERSHOUSE1F_NOTHING, GROUP_PLAYERS_HOUSE_1F, MAP_PLAYERS_HOUSE_1F
+	db SCENE_PLAYERSHOUSE2F_DONE, GROUP_PLAYERS_HOUSE_2F, MAP_PLAYERS_HOUSE_2F
+	db SCENE_RIVAL_HOUSE_2F_NOOP_SCENE, GROUP_RIVAL_HOUSE_2F, MAP_RIVAL_HOUSE_2F
+	db SCENE_ROUTE201_FIND_RIVAL_2, GROUP_ROUTE_201, MAP_ROUTE_201
+	db -1
+ENDC
+
 ResetWRAM:
 	xor a
 	ldh [hBGMapMode], a

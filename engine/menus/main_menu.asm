@@ -256,6 +256,14 @@ ClearTilemapEtc:
 	jmp ClearWindowData
 
 MainMenu_NewGame:
+IF DEF(_DEBUG)
+	ldh a, [hJoypadDown]
+	bit SELECT_F, a
+	jr z, .regular
+	farjp Debug_NewGame
+
+.regular
+ENDC
 	farjp NewGame
 
 MainMenu_Option:

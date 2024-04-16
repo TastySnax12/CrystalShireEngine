@@ -138,7 +138,9 @@ Debug_GiveParty:
 	call GetPokemonIDFromIndex
 	ld [wCurPartySpecies], a
 	ld b, 0
-	farcall GivePoke
+	xor a
+	ld [wMonType], a
+	farcall TryAddMonToParty
 	ld a, [wPartyCount]
 	dec a
 	ld hl, wPartyMon1Moves
