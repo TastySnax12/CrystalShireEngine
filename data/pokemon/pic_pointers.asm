@@ -752,4 +752,21 @@ PokemonPicPointers::
 	dba HuntailBackpic
 	dba GorebyssFrontpic
 	dba GorebyssBackpic
+
+	dba RelicanthFrontpic
+	dba RelicanthBackpic
+	dba LuvdiscFrontpic
+	dba LuvdiscBackpic
+	dba BagonFrontpic
+	dba BagonBackpic
+	dba ShelgonFrontpic
+	dba ShelgonBackpic
+	dba SalamenceFrontpic
+	dba SalamenceBackpic
+	dba BeldumFrontpic
+	dba BeldumBackpic
+	dba MetangFrontpic
+	dba MetangBackpic
+	dba MetagrossFrontpic
+	dba MetagrossBackpic
 	assert_table_length NUM_POKEMON + 1

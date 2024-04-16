@@ -407,5 +407,12 @@ INCLUDE "data/pokemon/base_stats/walrein.asm"
 INCLUDE "data/pokemon/base_stats/clamperl.asm"
 INCLUDE "data/pokemon/base_stats/huntail.asm"
 INCLUDE "data/pokemon/base_stats/gorebyss.asm"
-
+INCLUDE "data/pokemon/base_stats/relicanth.asm"
+INCLUDE "data/pokemon/base_stats/luvdisc.asm"
+INCLUDE "data/pokemon/base_stats/bagon.asm"
+INCLUDE "data/pokemon/base_stats/shelgon.asm"
+INCLUDE "data/pokemon/base_stats/salamence.asm"
+INCLUDE "data/pokemon/base_stats/beldum.asm"
+INCLUDE "data/pokemon/base_stats/metang.asm"
+INCLUDE "data/pokemon/base_stats/metagross.asm"
 .IndirectEnd::

@@ -389,6 +389,14 @@ DEF HOENN_POKEMON EQU const_value
 	const CLAMPERL   ; 16e
 	const HUNTAIL    ; 16f
 	const GOREBYSS   ; 170
+	const RELICANTH  ; 171
+	const LUVDISC    ; 172
+	const BAGON      ; 173
+	const SHELGON    ; 174
+	const SALAMENCE  ; 175
+	const BELDUM     ; 176
+	const METANG     ; 177
+	const METAGROSS  ; 178
 	
 DEF NUM_POKEMON EQU const_value - 1
 

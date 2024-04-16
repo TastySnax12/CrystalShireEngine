@@ -378,4 +378,12 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; CLAMPERL
 	icon_pals BLUE,   GREEN  ; HUNTAIL
 	icon_pals PINK,   RED    ; GOREBYSS
+	icon_pals BROWN,  TEAL   ; RELICANTH
+	icon_pals PINK,   BROWN  ; LUVDISC
+	icon_pals BLUE,   GREEN  ; BAGON
+	icon_pals GRAY,   GREEN  ; SHELGON
+	icon_pals BLUE,   GREEN  ; SALAMENCE
+	icon_pals TEAL,   GRAY   ; BELDUM
+	icon_pals TEAL,   GRAY   ; METANG
+	icon_pals TEAL,   GRAY   ; METAGROSS
 	assert_table_length NUM_POKEMON

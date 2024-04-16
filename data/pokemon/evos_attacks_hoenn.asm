@@ -118,14 +118,14 @@ EvosAttacksPointers3::
 	dw ClamperlEvosAttacks
 	dw HuntailEvosAttacks
 	dw GorebyssEvosAttacks
-	; dw RelicanthEvosAttacks
-	; dw LuvdiscEvosAttacks
-	; dw BagonEvosAttacks
-	; dw ShelgonEvosAttacks
-	; dw SalamenceEvosAttacks
-	; dw BeldumEvosAttacks
-	; dw MetangEvosAttacks
-	; dw MetagrossEvosAttacks
+	dw RelicanthEvosAttacks
+	dw LuvdiscEvosAttacks
+	dw BagonEvosAttacks
+	dw ShelgonEvosAttacks
+	dw SalamenceEvosAttacks
+	dw BeldumEvosAttacks
+	dw MetangEvosAttacks
+	dw MetagrossEvosAttacks
 	; dw RegirockEvosAttacks
 	; dw RegiceEvosAttacks
 	; dw RegisteelEvosAttacks
@@ -724,146 +724,45 @@ GorebyssEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; RelicanthEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, HARDEN
-	; dbw 8, WATER_GUN
-	; dbw 15, ROCK_TOMB
-	; dbw 22, YAWN
-	; dbw 29, TAKE_DOWN
-	; dbw 36, MUD_SPORT
-	; dbw 43, ANCIENTPOWER
-	; dbw 50, DOUBLE_EDGE
-	; dbw 57, DIVE
-	; dbw 64, REST
-	; dbw 71, HYDRO_PUMP
-	; dbw 78, HEAD_SMASH
-	; db 0 ; no more level-up moves
+RelicanthEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LuvdiscEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 4, CHARM
-	; dbw 7, WATER_GUN
-	; dbw 9, AGILITY
-	; dbw 14, TAKE_DOWN
-	; dbw 17, LUCKY_CHANT
-	; dbw 22, ATTRACT
-	; dbw 27, SWEET_KISS
-	; dbw 31, WATER_PULSE
-	; dbw 37, AQUA_RING
-	; dbw 40, CAPTIVATE
-	; dbw 46, FLAIL
-	; dbw 51, SAFEGUARD
-	; db 0 ; no more level-up moves
+LuvdiscEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BagonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, SHELGON
-	; db 0 ; no more evolutions
-	; dbw 1, RAGE
-	; dbw 5, BITE
-	; dbw 10, LEER
-	; dbw 16, HEADBUTT
-	; dbw 20, FOCUS_ENERGY
-	; dbw 25, EMBER
-	; dbw 31, DRAGONBREATH
-	; dbw 35, ZEN_HEADBUTT
-	; dbw 40, SCARY_FACE
-	; dbw 46, CRUNCH
-	; dbw 50, DRAGON_CLAW
-	; dbw 55, DOUBLE_EDGE
-	; db 0 ; no more level-up moves
+BagonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShelgonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 50, SALAMENCE
-	; db 0 ; no more evolutions
-	; dbw 1, HEADBUTT
-	; dbw 1, LEER
-	; dbw 1, BITE
-	; dbw 1, RAGE
-	; dbw 5, BITE
-	; dbw 10, LEER
-	; dbw 16, HEADBUTT
-	; dbw 20, FOCUS_ENERGY
-	; dbw 25, EMBER
-	; dbw 30, PROTECT
-	; dbw 32, DRAGONBREATH
-	; dbw 37, ZEN_HEADBUTT
-	; dbw 43, SCARY_FACE
-	; dbw 50, CRUNCH
-	; dbw 55, DRAGON_CLAW
-	; dbw 61, DOUBLE_EDGE
-	; db 0 ; no more level-up moves
+ShelgonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SalamenceEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, HEADBUTT
-	; dbw 1, LEER
-	; dbw 1, BITE
-	; dbw 1, RAGE
-	; dbw 1, THUNDER_FANG
-	; dbw 1, FIRE_FANG
-	; dbw 5, BITE
-	; dbw 10, LEER
-	; dbw 16, HEADBUTT
-	; dbw 20, FOCUS_ENERGY
-	; dbw 25, EMBER
-	; dbw 30, PROTECT
-	; dbw 32, DRAGONBREATH
-	; dbw 37, ZEN_HEADBUTT
-	; dbw 43, SCARY_FACE
-	; dbw 50, FLY
-	; dbw 53, CRUNCH
-	; dbw 61, DRAGON_CLAW
-	; dbw 70, DOUBLE_EDGE
-	; db 0 ; no more level-up moves
+SalamenceEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BeldumEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 20, METANG
-	; db 0 ; no more evolutions
-	; dbw 1, TAKE_DOWN
-	; db 0 ; no more level-up moves
+BeldumEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MetangEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 45, METAGROSS
-	; db 0 ; no more evolutions
-	; dbw 1, TAKE_DOWN
-	; dbw 1, CONFUSION
-	; dbw 1, METAL_CLAW
-	; dbw 1, MAGNET_RISE
-	; dbw 20, CONFUSION
-	; dbw 20, METAL_CLAW
-	; dbw 24, SCARY_FACE
-	; dbw 28, PURSUIT
-	; dbw 32, BULLET_PUNCH
-	; dbw 36, PSYCHIC_M
-	; dbw 40, IRON_DEFENSE
-	; dbw 44, AGILITY
-	; dbw 48, METEOR_MASH
-	; dbw 52, ZEN_HEADBUTT
-	; dbw 56, HYPER_BEAM
-	; db 0 ; no more level-up moves
+MetangEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MetagrossEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TAKE_DOWN
-	; dbw 1, CONFUSION
-	; dbw 1, METAL_CLAW
-	; dbw 1, MAGNET_RISE
-	; dbw 20, CONFUSION
-	; dbw 20, METAL_CLAW
-	; dbw 24, SCARY_FACE
-	; dbw 28, PURSUIT
-	; dbw 32, BULLET_PUNCH
-	; dbw 36, PSYCHIC_M
-	; dbw 40, IRON_DEFENSE
-	; dbw 44, AGILITY
-	; dbw 45, HAMMER_ARM
-	; dbw 53, METEOR_MASH
-	; dbw 62, ZEN_HEADBUTT
-	; dbw 71, HYPER_BEAM
-	; db 0 ; no more level-up moves
+MetagrossEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; RegirockEvosAttacks:
 	; db 0 ; no more evolutions

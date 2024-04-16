@@ -19,12 +19,14 @@ AlphabeticalPokedexOrder:
 	dw ARTICUNO
 	dw AZUMARILL
 	dw AZURILL
+	dw BAGON
 	dw BALTOY
 	dw BANETTE
 	dw BARBOACH
 	dw BAYLEEF
 	dw BEAUTIFLY
 	dw BEEDRILL
+	dw BELDUM
 	dw BELLOSSOM
 	dw BELLSPROUT
 	dw BLASTOISE
@@ -168,6 +170,7 @@ AlphabeticalPokedexOrder:
 	dw LUDICOLO
 	dw LUGIA
 	dw LUNATONE
+	dw LUVDISC
 	dw MACHAMP
 	dw MACHOKE
 	dw MACHOP
@@ -191,6 +194,8 @@ AlphabeticalPokedexOrder:
 	dw MEDITITE
 	dw MEGANIUM
 	dw MEOWTH
+	dw METAGROSS
+	dw METANG
 	dw METAPOD
 	dw MEW
 	dw MEWTWO
@@ -257,11 +262,13 @@ AlphabeticalPokedexOrder:
 	dw RAPIDASH
 	dw RATICATE
 	dw RATTATA
+	dw RELICANTH
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
 	dw ROSELIA
 	dw SABLEYE
+	dw SALAMENCE
 	dw SANDSHREW
 	dw SANDSLASH
 	dw SCEPTILE
@@ -276,6 +283,7 @@ AlphabeticalPokedexOrder:
 	dw SEVIPER
 	dw SHARPEDO
 	dw SHEDINJA
+	dw SHELGON
 	dw SHELLDER
 	dw SHIFTRY
 	dw SHROOMISH

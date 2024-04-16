@@ -372,4 +372,12 @@ PokemonNames::
 	db "CLAMPERL@@"
 	db "HUNTAIL@@@"
 	db "GOREBYSS@@"
+	db "RELICANTH@"
+	db "LUVDISC@@@"
+	db "BAGON@@@@@"
+	db "SHELGON@@@"
+	db "SALAMENCE@"
+	db "BELDUM@@@@"
+	db "METANG@@@@"
+	db "METAGROSS@"
 	assert_table_length NUM_POKEMON

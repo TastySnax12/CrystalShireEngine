@@ -118,6 +118,14 @@ EggMovePointers3::
 	dw ClamperlEggMoves
 	dw NoEggMoves3
 	dw NoEggMoves3
+	dw RelicanthEggMoves
+	dw LuvdiscEggMoves
+	dw BagonEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -722,7 +730,7 @@ SphealEggMoves:
 	; dw SPIT_UP
 	; dw WATER_SPORT
 	; dw YAWN
-	; dw -1 ; end
+	dw -1 ; end
 	
 ClamperlEggMoves:
 	; dw AQUA_RING
@@ -732,9 +740,9 @@ ClamperlEggMoves:
 	; dw MUD_SPORT
 	; dw REFRESH
 	; dw SUPERSONIC
-	; dw -1 ; end
+	dw -1 ; end
 
-; RelicanthEggMoves:
+RelicanthEggMoves:
 	; dw AMNESIA
 	; dw AQUA_TAIL
 	; dw MAGNITUDE
@@ -744,18 +752,18 @@ ClamperlEggMoves:
 	; dw SLEEP_TALK
 	; dw SNORE
 	; dw WATER_SPORT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; LuvdiscEggMoves:
+LuvdiscEggMoves:
 	; dw AQUA_RING
 	; dw CAPTIVATE
 	; dw MUD_SPORT
 	; dw SPLASH
 	; dw SUPERSONIC
 	; dw WATER_SPORT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; BagonEggMoves:
+BagonEggMoves:
 	; dw DRAGON_DANCE
 	; dw DRAGON_RAGE
 	; dw DRAGON_RUSH
@@ -764,7 +772,7 @@ ClamperlEggMoves:
 	; dw SHADOW_CLAW
 	; dw THRASH
 	; dw TWISTER
-	; dw -1 ; end
+	dw -1 ; end
 
 NoEggMoves3:
 	dw -1 ; end

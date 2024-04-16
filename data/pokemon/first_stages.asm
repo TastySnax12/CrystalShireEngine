@@ -369,4 +369,12 @@ FirstEvoStages::
 	dw CLAMPERL
 	dw CLAMPERL
 	dw CLAMPERL
+	dw RELICANTH
+	dw LUVDISC
+	dw BAGON
+	dw BAGON
+	dw BAGON
+	dw BELDUM
+	dw BELDUM
+	dw BELDUM
 	assert_table_length NUM_POKEMON

@@ -7,7 +7,7 @@
 	db WATER, ROCK ; type
 	db 25 ; catch rate
 	db 198 ; base exp
-	dw NO_ITEM, DEEPSEASCALE ; items
+	dw NO_ITEM, NO_ITEM ; items (SHOULD BE dw NO_ITEM, DEEPSEASCALE ; items)
 	db GENDER_F12_5 ; gender ratio
 	db 40 ; step cycles to hatch
 	INCBIN "gfx/pokemon/relicanth/front.dimensions"

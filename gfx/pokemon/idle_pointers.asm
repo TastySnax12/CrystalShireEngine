@@ -368,4 +368,12 @@ AnimationIdlePointers:
 	dw ClamperlAnimationIdle
 	dw HuntailAnimationIdle
 	dw GorebyssAnimationIdle
+	dw RelicanthAnimationIdle
+	dw LuvdiscAnimationIdle
+	dw BagonAnimationIdle
+	dw ShelgonAnimationIdle
+	dw SalamenceAnimationIdle
+	dw BeldumAnimationIdle
+	dw MetangAnimationIdle
+	dw MetagrossAnimationIdle
 	assert_table_length NUM_POKEMON

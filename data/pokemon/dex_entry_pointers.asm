@@ -369,4 +369,12 @@ PokedexDataPointerTable:
 	dba ClamperlPokedexEntry
 	dba HuntailPokedexEntry
 	dba GorebyssPokedexEntry
+	dba RelicanthPokedexEntry
+	dba LuvdiscPokedexEntry
+	dba BagonPokedexEntry
+	dba ShelgonPokedexEntry
+	dba SalamencePokedexEntry
+	dba BeldumPokedexEntry
+	dba MetangPokedexEntry
+	dba MetagrossPokedexEntry
 	assert_table_length NUM_POKEMON

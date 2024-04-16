@@ -368,4 +368,12 @@ AnimationPointers:
 	dw ClamperlAnimation
 	dw HuntailAnimation
 	dw GorebyssAnimation
+	dw RelicanthAnimation
+	dw LuvdiscAnimation
+	dw BagonAnimation
+	dw ShelgonAnimation
+	dw SalamenceAnimation
+	dw BeldumAnimation
+	dw MetangAnimation
+	dw MetagrossAnimation
 	assert_table_length NUM_POKEMON

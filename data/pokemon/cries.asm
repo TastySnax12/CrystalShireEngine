@@ -374,4 +374,12 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; CLAMPERL
 	mon_cry CRY_RATTATA,       0,  0   ; HUNTAIL
 	mon_cry CRY_RATTATA,       0,  0   ; GOREBYSS
+	mon_cry CRY_RATTATA,       0,  0   ; RELICANTH
+	mon_cry CRY_RATTATA,       0,  0   ; LUVDISC
+	mon_cry CRY_RATTATA,       0,  0   ; BAGON
+	mon_cry CRY_RATTATA,       0,  0   ; SHELGON
+	mon_cry CRY_RATTATA,       0,  0   ; SALAMENCE
+	mon_cry CRY_RATTATA,       0,  0   ; BELDUM
+	mon_cry CRY_RATTATA,       0,  0   ; METANG
+	mon_cry CRY_RATTATA,       0,  0   ; METAGROSS
 	assert_table_length NUM_POKEMON

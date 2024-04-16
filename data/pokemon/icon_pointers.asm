@@ -373,4 +373,12 @@ IconPointers:
 	dba MagikarpIcon ; CLAMPERL
 	dba MagikarpIcon ; HUNTAIL
 	dba MagikarpIcon ; GOREBYSS
+	dba MagikarpIcon ; RELICANTH
+	dba MagikarpIcon ; LUVDISC
+	dba MagikarpIcon ; BAGON
+	dba MagikarpIcon ; SHELGON
+	dba MagikarpIcon ; SALAMENCE
+	dba MagikarpIcon ; BELDUM
+	dba MagikarpIcon ; METANG
+	dba MagikarpIcon ; METAGROSS
 	assert_table_length NUM_POKEMON + 1

@@ -638,10 +638,10 @@ INCLUDE "engine/pokegear/townmap_convertlinebreakcharacters.asm"
 INCLUDE "engine/events/choose_starter.asm"
 
 SECTION "bank78", ROMX
-
 INCLUDE "data/pokemon/names.asm"
-INCLUDE "data/pokemon/base_stats.asm"
 
+SECTION "bank8b", ROMX
+INCLUDE "data/pokemon/base_stats.asm"
 
 SECTION "European Mail", ROMX
 

@@ -368,4 +368,12 @@ BitmasksPointers:
 	dw ClamperlBitmasks
 	dw HuntailBitmasks
 	dw GorebyssBitmasks
+	dw RelicanthBitmasks
+	dw LuvdiscBitmasks
+	dw BagonBitmasks
+	dw ShelgonBitmasks
+	dw SalamenceBitmasks
+	dw BeldumBitmasks
+	dw MetangBitmasks
+	dw MetagrossBitmasks
 	assert_table_length NUM_POKEMON

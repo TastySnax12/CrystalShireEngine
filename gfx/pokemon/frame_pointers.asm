@@ -368,4 +368,12 @@ FramesPointers:
 	dba ClamperlFrames
 	dba HuntailFrames
 	dba GorebyssFrames
+	dba RelicanthFrames
+	dba LuvdiscFrames
+	dba BagonFrames
+	dba ShelgonFrames
+	dba SalamenceFrames
+	dba BeldumFrames
+	dba MetangFrames
+	dba MetagrossFrames
 	assert_table_length NUM_POKEMON
