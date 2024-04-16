@@ -334,4 +334,12 @@ AnimationIdlePointers:
 	dw CacturneAnimationIdle
 	dw SwabluAnimationIdle
 	dw AltariaAnimationIdle
+	dw ZangooseAnimationIdle
+	dw SeviperAnimationIdle
+	dw LunatoneAnimationIdle
+	dw SolrockAnimationIdle
+	dw BarboachAnimationIdle
+	dw WhiscashAnimationIdle
+	dw CorphishAnimationIdle
+	dw CrawdauntAnimationIdle
 	assert_table_length NUM_POKEMON

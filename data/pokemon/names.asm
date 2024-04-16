@@ -338,4 +338,12 @@ PokemonNames::
 	db "CACTURNE@@"
 	db "SWABLU@@@@"
 	db "ALTARIA@@@"
+	db "ZANGOOSE@@"
+	db "SEVIPER@@@"
+	db "LUNATONE@@"
+	db "SOLROCK@@@"
+	db "BARBOACH@@"
+	db "WHISCASH@@"
+	db "CORPHISH@@"
+	db "CRAWDAUNT@"
 	assert_table_length NUM_POKEMON

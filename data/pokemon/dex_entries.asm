@@ -202,7 +202,7 @@ SunkernPokedexEntry::    INCLUDE "data/pokemon/dex_entries/sunkern.asm"
 SunfloraPokedexEntry::   INCLUDE "data/pokemon/dex_entries/sunflora.asm"
 
 
-SECTION "Pokedex Entries 193-251", ROMX
+SECTION "Pokedex Entries 193-341", ROMX
 
 YanmaPokedexEntry::      INCLUDE "data/pokemon/dex_entries/yanma.asm"
 WooperPokedexEntry::     INCLUDE "data/pokemon/dex_entries/wooper.asm"
@@ -346,3 +346,14 @@ CacneaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/cacnea.asm"
 CacturnePokedexEntry::   INCLUDE "data/pokemon/dex_entries/cacturne.asm"
 SwabluPokedexEntry::     INCLUDE "data/pokemon/dex_entries/swablu.asm"
 AltariaPokedexEntry::    INCLUDE "data/pokemon/dex_entries/altaria.asm"
+ZangoosePokedexEntry::   INCLUDE "data/pokemon/dex_entries/zangoose.asm"
+SeviperPokedexEntry::    INCLUDE "data/pokemon/dex_entries/seviper.asm"
+LunatonePokedexEntry::   INCLUDE "data/pokemon/dex_entries/lunatone.asm"
+SolrockPokedexEntry::    INCLUDE "data/pokemon/dex_entries/solrock.asm"
+BarboachPokedexEntry::   INCLUDE "data/pokemon/dex_entries/barboach.asm"
+WhiscashPokedexEntry::   INCLUDE "data/pokemon/dex_entries/whiscash.asm"
+CorphishPokedexEntry::   INCLUDE "data/pokemon/dex_entries/corphish.asm"
+
+SECTION "Pokedex Entries 342-???", ROMX
+
+CrawdauntPokedexEntry::  INCLUDE "data/pokemon/dex_entries/crawdaunt.asm"

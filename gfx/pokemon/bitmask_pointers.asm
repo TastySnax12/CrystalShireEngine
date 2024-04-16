@@ -334,4 +334,12 @@ BitmasksPointers:
 	dw CacturneBitmasks
 	dw SwabluBitmasks
 	dw AltariaBitmasks
+	dw ZangooseBitmasks
+	dw SeviperBitmasks
+	dw LunatoneBitmasks
+	dw SolrockBitmasks
+	dw BarboachBitmasks
+	dw WhiscashBitmasks
+	dw CorphishBitmasks
+	dw CrawdauntBitmasks
 	assert_table_length NUM_POKEMON

@@ -334,4 +334,12 @@ AnimationPointers:
 	dw CacturneAnimation
 	dw SwabluAnimation
 	dw AltariaAnimation
+	dw ZangooseAnimation
+	dw SeviperAnimation
+	dw LunatoneAnimation
+	dw SolrockAnimation
+	dw BarboachAnimation
+	dw WhiscashAnimation
+	dw CorphishAnimation
+	dw CrawdauntAnimation
 	assert_table_length NUM_POKEMON

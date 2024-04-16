@@ -340,4 +340,12 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; CACTURNE
 	mon_cry CRY_RATTATA,       0,  0   ; SWABLU
 	mon_cry CRY_RATTATA,       0,  0   ; ALTARIA
+	mon_cry CRY_RATTATA,       0,  0   ; ZANGOOSE
+	mon_cry CRY_RATTATA,       0,  0   ; SEVIPER
+	mon_cry CRY_RATTATA,       0,  0   ; LUNATONE
+	mon_cry CRY_RATTATA,       0,  0   ; SOLROCK
+	mon_cry CRY_RATTATA,       0,  0   ; BARBOACH
+	mon_cry CRY_RATTATA,       0,  0   ; WHISCASH
+	mon_cry CRY_RATTATA,       0,  0   ; CORPHISH
+	mon_cry CRY_RATTATA,       0,  0   ; CRAWDAUNT
 	assert_table_length NUM_POKEMON

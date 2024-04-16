@@ -84,14 +84,14 @@ EvosAttacksPointers3::
 	dw CacturneEvosAttacks
 	dw SwabluEvosAttacks
 	dw AltariaEvosAttacks
-	; dw ZangooseEvosAttacks
-	; dw SeviperEvosAttacks
-	; dw LunatoneEvosAttacks
-	; dw SolrockEvosAttacks
-	; dw BarboachEvosAttacks
-	; dw WhiscashEvosAttacks
-	; dw CorphishEvosAttacks
-	; dw CrawdauntEvosAttacks
+	dw ZangooseEvosAttacks
+	dw SeviperEvosAttacks
+	dw LunatoneEvosAttacks
+	dw SolrockEvosAttacks
+	dw BarboachEvosAttacks
+	dw WhiscashEvosAttacks
+	dw CorphishEvosAttacks
+	dw CrawdauntEvosAttacks
 	; dw BaltoyEvosAttacks
 	; dw ClaydolEvosAttacks
 	; dw LileepEvosAttacks
@@ -554,154 +554,45 @@ AltariaEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; ZangooseEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, LEER
-	; dbw 5, QUICK_ATTACK
-	; dbw 9, SWORDS_DANCE
-	; dbw 14, FURY_CUTTER
-	; dbw 18, SLASH
-	; dbw 22, PURSUIT
-	; dbw 27, EMBARGO
-	; dbw 31, CRUSH_CLAW
-	; dbw 35, TAUNT
-	; dbw 40, DETECT
-	; dbw 44, FALSE_SWIPE
-	; dbw 48, X_SCISSOR
-	; dbw 53, CLOSE_COMBAT
-	; db 0 ; no more level-up moves
+ZangooseEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SeviperEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WRAP
-	; dbw 7, LICK
-	; dbw 10, BITE
-	; dbw 16, POISON_TAIL
-	; dbw 19, SCREECH
-	; dbw 25, GLARE
-	; dbw 28, CRUNCH
-	; dbw 34, POISON_FANG
-	; dbw 37, SWAGGER
-	; dbw 43, HAZE
-	; dbw 46, NIGHT_SLASH
-	; dbw 52, POISON_JAB
-	; dbw 55, WRING_OUT
-	; db 0 ; no more level-up moves
+SeviperEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LunatoneEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, CONFUSION
-	; dbw 1, HARDEN
-	; dbw 9, ROCK_THROW
-	; dbw 12, HYPNOSIS
-	; dbw 20, ROCK_POLISH
-	; dbw 23, PSYWAVE
-	; dbw 31, EMBARGO
-	; dbw 34, COSMIC_POWER
-	; dbw 42, HEAL_BLOCK
-	; dbw 45, PSYCHIC_M
-	; dbw 53, FUTURE_SIGHT
-	; dbw 56, EXPLOSION
-	; db 0 ; no more level-up moves
+LunatoneEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SolrockEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, CONFUSION
-	; dbw 1, HARDEN
-	; dbw 9, ROCK_THROW
-	; dbw 12, FIRE_SPIN
-	; dbw 20, ROCK_POLISH
-	; dbw 23, PSYWAVE
-	; dbw 31, EMBARGO
-	; dbw 34, COSMIC_POWER
-	; dbw 42, HEAL_BLOCK
-	; dbw 45, ROCK_SLIDE
-	; dbw 53, SOLARBEAM
-	; dbw 56, EXPLOSION
-	; db 0 ; no more level-up moves
+SolrockEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BarboachEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, WHISCASH
-	; db 0 ; no more evolutions
-	; dbw 1, MUD_SLAP
-	; dbw 6, MUD_SPORT
-	; dbw 6, WATER_SPORT
-	; dbw 10, WATER_GUN
-	; dbw 14, MUD_BOMB
-	; dbw 18, AMNESIA
-	; dbw 22, WATER_PULSE
-	; dbw 26, MAGNITUDE
-	; dbw 31, REST
-	; dbw 31, SNORE
-	; dbw 35, AQUA_TAIL
-	; dbw 39, EARTHQUAKE
-	; dbw 43, FUTURE_SIGHT
-	; dbw 47, FISSURE
-	; db 0 ; no more level-up moves
+BarboachEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; WhiscashEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, MUD_SLAP
-	; dbw 1, MUD_SPORT
-	; dbw 1, TICKLE
-	; dbw 1, WATER_SPORT
-	; dbw 1, ZEN_HEADBUTT
-	; dbw 6, MUD_SPORT
-	; dbw 6, WATER_SPORT
-	; dbw 10, WATER_GUN
-	; dbw 14, MUD_BOMB
-	; dbw 18, AMNESIA
-	; dbw 22, WATER_PULSE
-	; dbw 26, MAGNITUDE
-	; dbw 33, REST
-	; dbw 33, SNORE
-	; dbw 39, AQUA_TAIL
-	; dbw 45, EARTHQUAKE
-	; dbw 51, FUTURE_SIGHT
-	; dbw 57, FISSURE
-	; db 0 ; no more level-up moves
+WhiscashEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CorphishEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, CRAWDAUNT
-	; db 0 ; no more evolutions
-	; dbw 1, BUBBLE
-	; dbw 7, HARDEN
-	; dbw 10, VICEGRIP
-	; dbw 13, LEER
-	; dbw 20, BUBBLEBEAM
-	; dbw 23, PROTECT
-	; dbw 26, KNOCK_OFF
-	; dbw 32, TAUNT
-	; dbw 35, NIGHT_SLASH
-	; dbw 38, CRABHAMMER
-	; dbw 44, SWORDS_DANCE
-	; dbw 47, CRUNCH
-	; dbw 53, GUILLOTINE
-	; db 0 ; no more level-up moves
+CorphishEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CrawdauntEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, VICEGRIP
-	; dbw 1, LEER
-	; dbw 1, HARDEN
-	; dbw 1, BUBBLE
-	; dbw 7, HARDEN
-	; dbw 10, VICEGRIP
-	; dbw 13, LEER
-	; dbw 20, BUBBLEBEAM
-	; dbw 23, PROTECT
-	; dbw 26, KNOCK_OFF
-	; dbw 30, SWIFT
-	; dbw 34, TAUNT
-	; dbw 39, NIGHT_SLASH
-	; dbw 44, CRABHAMMER
-	; dbw 52, SWORDS_DANCE
-	; dbw 57, CRUNCH
-	; dbw 65, GUILLOTINE
-	; db 0 ; no more level-up moves
+CrawdauntEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; BaltoyEvosAttacks:
 	; dbbw EVOLVE_LEVEL, 36, CLAYDOL

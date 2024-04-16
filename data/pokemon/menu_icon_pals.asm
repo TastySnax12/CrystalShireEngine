@@ -278,7 +278,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   RED    ; SILCOON
 	icon_pals PINK,   RED    ; BEAUTIFLY
 	icon_pals PINK,   GREEN  ; CASCOON
-	icon_pals PURPLE, RED    ; DUSTOX
+	icon_pals PURPLE, BROWN  ; DUSTOX
 	icon_pals GREEN,  TEAL   ; LOTAD
 	icon_pals GREEN,  TEAL   ; LOMBRE
 	icon_pals GREEN,  TEAL   ; LUDICOLO
@@ -301,17 +301,17 @@ MonMenuIconPals:
 	icon_pals BROWN,  BROWN  ; SLAKING
 	icon_pals BROWN,  GRAY   ; NINCADA
 	icon_pals GRAY,   RED    ; NINJASK
-	icon_pals BROWN,  GRAY   ; SHEDINJA
+	icon_pals GRAY,   BROWN  ; SHEDINJA
 	icon_pals PURPLE, GREEN  ; WHISMUR
 	icon_pals PURPLE, PINK   ; LOUDRED
 	icon_pals PURPLE, PINK   ; EXPLOUD
-	icon_pals RED,    RED    ; MAKUHITA
+	icon_pals BROWN,  RED    ; MAKUHITA
 	icon_pals RED,    PURPLE ; HARIYAMA
 	icon_pals BLUE,   GREEN  ; AZURILL
-	icon_pals GRAY,   RED    ; NOSEPASS
+	icon_pals GRAY,   BROWN  ; NOSEPASS
 	icon_pals PINK,   RED    ; SKITTY
 	icon_pals PURPLE, RED    ; DELCATTY
-	icon_pals PURPLE, RED    ; SABLEYE
+	icon_pals PURPLE, BROWN  ; SABLEYE
 	icon_pals GRAY,   PURPLE ; MAWILE
 	icon_pals GRAY,   TEAL   ; ARON
 	icon_pals GRAY,   TEAL   ; LAIRON
@@ -334,14 +334,22 @@ MonMenuIconPals:
 	icon_pals GREEN,  BLUE   ; NUMEL
 	icon_pals RED,    GRAY   ; CAMERUPT
 	icon_pals GRAY,   RED    ; TORKOAL
-	icon_pals GRAY,   GRAY   ; SPOINK
-	icon_pals PURPLE, GRAY   ; GRUMPIG
+	icon_pals PURPLE, GRAY   ; SPOINK
+	icon_pals PURPLE, BROWN  ; GRUMPIG
 	icon_pals RED,    GREEN  ; SPINDA
 	icon_pals RED,    GREEN  ; TRAPINCH
 	icon_pals GREEN,  RED    ; VIBRAVA
 	icon_pals GREEN,  TEAL   ; FLYGON
-	icon_pals GREEN,  RED    ; CACNEA
-	icon_pals GREEN,  RED    ; CACTURNE
-	icon_pals BLUE,   RED    ; SWABLU
-	icon_pals BLUE,   RED    ; ALTARIA
+	icon_pals GREEN,  BROWN  ; CACNEA
+	icon_pals GREEN,  BROWN  ; CACTURNE
+	icon_pals BLUE,   BROWN  ; SWABLU
+	icon_pals BLUE,   BROWN  ; ALTARIA
+	icon_pals RED,    BLUE   ; ZANGOOSE
+	icon_pals PURPLE, GREEN  ; SEVIPER
+	icon_pals RED,    BLUE   ; LUNATONE
+	icon_pals RED,    RED    ; SOLROCK
+	icon_pals BLUE,   BROWN  ; BARBOACH
+	icon_pals BLUE,   BLUE   ; WHISCASH
+	icon_pals RED,    PURPLE ; CORPHISH
+	icon_pals RED,    BROWN  ; CRAWDAUNT
 	assert_table_length NUM_POKEMON

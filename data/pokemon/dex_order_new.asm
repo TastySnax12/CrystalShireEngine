@@ -336,4 +336,12 @@ NewPokedexOrder:
 	dw CACTURNE
 	dw SWABLU
 	dw ALTARIA
+	dw ZANGOOSE
+	dw SEVIPER
+	dw LUNATONE
+	dw SOLROCK
+	dw BARBOACH
+	dw WHISCASH
+	dw CORPHISH
+	dw CRAWDAUNT
 	assert_table_length NUM_POKEMON

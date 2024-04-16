@@ -684,4 +684,20 @@ PokemonPicPointers::
 	dba SwabluBackpic
 	dba AltariaFrontpic
 	dba AltariaBackpic
+	dba ZangooseFrontpic
+	dba ZangooseBackpic
+	dba SeviperFrontpic
+	dba SeviperBackpic
+	dba LunatoneFrontpic
+	dba LunatoneBackpic
+	dba SolrockFrontpic
+	dba SolrockBackpic
+	dba BarboachFrontpic
+	dba BarboachBackpic
+	dba WhiscashFrontpic
+	dba WhiscashBackpic
+	dba CorphishFrontpic
+	dba CorphishBackpic
+	dba CrawdauntFrontpic
+	dba CrawdauntBackpic
 	assert_table_length NUM_POKEMON + 1

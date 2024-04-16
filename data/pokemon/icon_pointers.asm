@@ -339,4 +339,12 @@ IconPointers:
 	dba MagikarpIcon ; CACTURNE
 	dba MagikarpIcon ; SWABLU
 	dba MagikarpIcon ; ALTARIA
+	dba MagikarpIcon ; ZANGOOSE
+	dba MagikarpIcon ; SEVIPER
+	dba MagikarpIcon ; LUNATONE
+	dba MagikarpIcon ; SOLROCK
+	dba MagikarpIcon ; BARBOACH
+	dba MagikarpIcon ; WHISCASH
+	dba MagikarpIcon ; CORPHISH
+	dba MagikarpIcon ; CRAWDAUNT
 	assert_table_length NUM_POKEMON + 1

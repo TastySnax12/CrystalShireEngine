@@ -84,6 +84,14 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw SwabluEggMoves
 	dw NoEggMoves3
+	dw ZangooseEggMoves
+	dw SeviperEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw BarboachEggMoves
+	dw NoEggMoves3
+	dw CorphishEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -509,7 +517,7 @@ SwabluEggMoves:
 	; dw RAGE
 	dw -1 ; end
 	
-; ZangooseEggMoves:
+ZangooseEggMoves:
 	; dw COUNTER
 	; dw CURSE
 	; dw DOUBLE_HIT
@@ -520,9 +528,9 @@ SwabluEggMoves:
 	; dw NIGHT_SLASH
 	; dw RAZOR_WIND
 	; dw ROAR
-	; dw -1 ; end
+	dw -1 ; end
 	
-; SeviperEggMoves:
+SeviperEggMoves:
 	; dw ASSURANCE
 	; dw BODY_SLAM
 	; dw NIGHT_SLASH
@@ -530,18 +538,18 @@ SwabluEggMoves:
 	; dw SPIT_UP
 	; dw STOCKPILE
 	; dw SWALLOW
-	; dw -1 ; end
+	dw -1 ; end
 	
-; BarboachEggMoves:
+BarboachEggMoves:
 	; dw FLAIL
 	; dw HYDRO_PUMP
 	; dw SPARK
 	; dw TAKE_DOWN
 	; dw THRASH
 	; dw WHIRLPOOL
-	; dw -1 ; end
+	dw -1 ; end
 	
-; CorphishEggMoves:
+CorphishEggMoves:
 	; dw ANCIENTPOWER
 	; dw BODY_SLAM
 	; dw ENDEAVOR
@@ -549,7 +557,7 @@ SwabluEggMoves:
 	; dw METAL_CLAW
 	; dw MUD_SPORT
 	; dw SUPERPOWER
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; BaltoyEggMoves:
 	; dw ANCIENTPOWER

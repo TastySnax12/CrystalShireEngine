@@ -335,4 +335,12 @@ FirstEvoStages::
 	dw CACNEA
 	dw SWABLU
 	dw SWABLU
+	dw ZANGOOSE
+	dw SEVIPER
+	dw LUNATONE
+	dw SOLROCK
+	dw BARBOACH
+	dw BARBOACH
+	dw CORPHISH
+	dw CORPHISH
 	assert_table_length NUM_POKEMON

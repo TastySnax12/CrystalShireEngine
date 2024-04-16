@@ -335,4 +335,12 @@ PokedexDataPointerTable:
 	dba CacturnePokedexEntry
 	dba SwabluPokedexEntry
 	dba AltariaPokedexEntry
+	dba ZangoosePokedexEntry
+	dba SeviperPokedexEntry
+	dba LunatonePokedexEntry
+	dba SolrockPokedexEntry
+	dba BarboachPokedexEntry
+	dba WhiscashPokedexEntry
+	dba CorphishPokedexEntry
+	dba CrawdauntPokedexEntry
 	assert_table_length NUM_POKEMON

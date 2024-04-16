@@ -373,4 +373,13 @@ INCLUDE "data/pokemon/base_stats/cacnea.asm"
 INCLUDE "data/pokemon/base_stats/cacturne.asm"
 INCLUDE "data/pokemon/base_stats/swablu.asm"
 INCLUDE "data/pokemon/base_stats/altaria.asm"
+INCLUDE "data/pokemon/base_stats/zangoose.asm"
+INCLUDE "data/pokemon/base_stats/seviper.asm"
+INCLUDE "data/pokemon/base_stats/lunatone.asm"
+INCLUDE "data/pokemon/base_stats/solrock.asm"
+INCLUDE "data/pokemon/base_stats/barboach.asm"
+INCLUDE "data/pokemon/base_stats/whiscash.asm"
+INCLUDE "data/pokemon/base_stats/corphish.asm"
+INCLUDE "data/pokemon/base_stats/crawdaunt.asm"
+
 .IndirectEnd::

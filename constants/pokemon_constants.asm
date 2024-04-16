@@ -355,6 +355,14 @@ DEF HOENN_POKEMON EQU const_value
 	const CACTURNE   ; 14c
 	const SWABLU     ; 14d
 	const ALTARIA    ; 14e
+	const ZANGOOSE   ; 14f
+	const SEVIPER    ; 150
+	const LUNATONE   ; 151
+	const SOLROCK    ; 152
+	const BARBOACH   ; 153
+	const WHISCASH   ; 154
+	const CORPHISH   ; 155
+	const CRAWDAUNT  ; 156
 	
 DEF NUM_POKEMON EQU const_value - 1
 

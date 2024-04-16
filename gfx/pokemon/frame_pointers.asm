@@ -334,4 +334,12 @@ FramesPointers:
 	dba CacturneFrames
 	dba SwabluFrames
 	dba AltariaFrames
+	dba ZangooseFrames
+	dba SeviperFrames
+	dba LunatoneFrames
+	dba SolrockFrames
+	dba BarboachFrames
+	dba WhiscashFrames
+	dba CorphishFrames
+	dba CrawdauntFrames
 	assert_table_length NUM_POKEMON

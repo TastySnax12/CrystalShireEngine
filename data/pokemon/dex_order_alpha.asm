@@ -16,6 +16,7 @@ AlphabeticalPokedexOrder:
 	dw ARTICUNO
 	dw AZUMARILL
 	dw AZURILL
+	dw BARBOACH
 	dw BAYLEEF
 	dw BEAUTIFLY
 	dw BEEDRILL
@@ -45,7 +46,9 @@ AlphabeticalPokedexOrder:
 	dw CLEFFA
 	dw CLOYSTER
 	dw COMBUSKEN
+	dw CORPHISH
 	dw CORSOLA
+	dw CRAWDAUNT
 	dw CROBAT
 	dw CROCONAW
 	dw CUBONE
@@ -146,6 +149,7 @@ AlphabeticalPokedexOrder:
 	dw LOUDRED
 	dw LUDICOLO
 	dw LUGIA
+	dw LUNATONE
 	dw MACHAMP
 	dw MACHOKE
 	dw MACHOP
@@ -249,6 +253,7 @@ AlphabeticalPokedexOrder:
 	dw SEEDOT
 	dw SEEL
 	dw SENTRET
+	dw SEVIPER
 	dw SHARPEDO
 	dw SHEDINJA
 	dw SHELLDER
@@ -270,6 +275,7 @@ AlphabeticalPokedexOrder:
 	dw SNEASEL
 	dw SNORLAX
 	dw SNUBBULL
+	dw SOLROCK
 	dw SPEAROW
 	dw SPINARAK
 	dw SPINDA
@@ -325,6 +331,7 @@ AlphabeticalPokedexOrder:
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
+	dw WHISCASH
 	dw WHISMUR
 	dw WIGGLYTUFF
 	dw WINGULL
@@ -333,6 +340,7 @@ AlphabeticalPokedexOrder:
 	dw WURMPLE
 	dw XATU
 	dw YANMA
+	dw ZANGOOSE
 	dw ZAPDOS
 	dw ZIGZAGOON
 	dw ZUBAT

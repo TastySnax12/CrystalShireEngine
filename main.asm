@@ -238,7 +238,6 @@ INCLUDE "engine/link/init_list.asm"
 INCLUDE "engine/pokemon/experience.asm"
 INCLUDE "engine/pokemon/switchpartymons.asm"
 INCLUDE "engine/gfx/load_pics.asm"
-INCLUDE "data/pokemon/base_stats.asm"
 
 
 SECTION "Crystal Phone Text", ROMX
@@ -642,6 +641,7 @@ INCLUDE "engine/events/choose_starter.asm"
 SECTION "bank78", ROMX
 
 INCLUDE "data/pokemon/names.asm"
+INCLUDE "data/pokemon/base_stats.asm"
 
 
 SECTION "European Mail", ROMX
