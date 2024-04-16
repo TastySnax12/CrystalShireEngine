@@ -383,6 +383,12 @@ DEF HOENN_POKEMON EQU const_value
 	const WYNAUT     ; 168
 	const SNORUNT    ; 169
 	const GLALIE     ; 16a
+	const SPHEAL     ; 16b
+	const SEALEO     ; 16c
+	const WALREIN    ; 16d
+	const CLAMPERL   ; 16e
+	const HUNTAIL    ; 16f
+	const GOREBYSS   ; 170
 	
 DEF NUM_POKEMON EQU const_value - 1
 

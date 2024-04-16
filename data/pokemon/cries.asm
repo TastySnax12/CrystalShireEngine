@@ -368,4 +368,10 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; WYNAUT
 	mon_cry CRY_RATTATA,       0,  0   ; SNORUNT
 	mon_cry CRY_RATTATA,       0,  0   ; GLALIE
+	mon_cry CRY_RATTATA,       0,  0   ; SPHEAL
+	mon_cry CRY_RATTATA,       0,  0   ; SEALEO
+	mon_cry CRY_RATTATA,       0,  0   ; WALREIN
+	mon_cry CRY_RATTATA,       0,  0   ; CLAMPERL
+	mon_cry CRY_RATTATA,       0,  0   ; HUNTAIL
+	mon_cry CRY_RATTATA,       0,  0   ; GOREBYSS
 	assert_table_length NUM_POKEMON

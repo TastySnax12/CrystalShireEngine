@@ -112,12 +112,12 @@ EvosAttacksPointers3::
 	dw WynautEvosAttacks
 	dw SnoruntEvosAttacks
 	dw GlalieEvosAttacks
-	; dw SphealEvosAttacks
-	; dw SealeoEvosAttacks
-	; dw WalreinEvosAttacks
-	; dw ClamperlEvosAttacks
-	; dw HuntailEvosAttacks
-	; dw GorebyssEvosAttacks
+	dw SphealEvosAttacks
+	dw SealeoEvosAttacks
+	dw WalreinEvosAttacks
+	dw ClamperlEvosAttacks
+	dw HuntailEvosAttacks
+	dw GorebyssEvosAttacks
 	; dw RelicanthEvosAttacks
 	; dw LuvdiscEvosAttacks
 	; dw BagonEvosAttacks
@@ -694,104 +694,35 @@ GlalieEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; SphealEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 32, SEALEO
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 1, DEFENSE_CURL
-	; dbw 1, POWDER_SNOW
-	; dbw 7, ENCORE
-	; dbw 13, ICE_BALL
-	; dbw 19, BODY_SLAM
-	; dbw 25, AURORA_BEAM
-	; dbw 31, HAIL
-	; dbw 37, REST
-	; dbw 37, SNORE
-	; dbw 43, BLIZZARD
-	; dbw 49, SHEER_COLD
-	; db 0 ; no more level-up moves
+SphealEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SealeoEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 44, WALREIN
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 1, POWDER_SNOW
-	; dbw 1, ENCORE
-	; dbw 7, ENCORE
-	; dbw 13, ICE_BALL
-	; dbw 19, BODY_SLAM
-	; dbw 25, AURORA_BEAM
-	; dbw 31, HAIL
-	; dbw 32, SWAGGER
-	; dbw 39, REST
-	; dbw 39, SNORE
-	; dbw 47, BLIZZARD
-	; dbw 55, SHEER_COLD
-	; db 0 ; no more level-up moves
+SealeoEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; WalreinEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, WATER_GUN
-	; dbw 1, POWDER_SNOW
-	; dbw 1, ENCORE
-	; dbw 1, CRUNCH
-	; dbw 7, ENCORE
-	; dbw 13, ICE_BALL
-	; dbw 19, BODY_SLAM
-	; dbw 25, AURORA_BEAM
-	; dbw 31, HAIL
-	; dbw 32, SWAGGER
-	; dbw 39, REST
-	; dbw 39, SNORE
-	; dbw 44, ICE_FANG
-	; dbw 52, BLIZZARD
-	; dbw 65, SHEER_COLD
-	; db 0 ; no more level-up moves
+WalreinEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ClamperlEvosAttacks:
-	; dbbw EVOLVE_TRADE, DEEPSEATOOTH, HUNTAIL
-	; dbbw EVOLVE_TRADE, DEEPSEASCALE, GOREBYSS
-	; db 0 ; no more evolutions
-	; dbw 1, WATER_GUN
-	; dbw 1, CLAMP
-	; dbw 1, WHIRLPOOL
-	; dbw 1, IRON_DEFENSE
-	; db 0 ; no more level-up moves
+ClamperlEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; HuntailEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WHIRLPOOL
-	; dbw 6, BITE
-	; dbw 10, SCREECH
-	; dbw 15, WATER_PULSE
-	; dbw 19, SCARY_FACE
-	; dbw 24, ICE_FANG
-	; dbw 28, BRINE
-	; dbw 33, BATON_PASS
-	; dbw 37, DIVE
-	; dbw 42, CRUNCH
-	; dbw 46, AQUA_TAIL
-	; dbw 51, HYDRO_PUMP
-	; db 0 ; no more level-up moves
+HuntailEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GorebyssEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WHIRLPOOL
-	; dbw 6, CONFUSION
-	; dbw 10, AGILITY
-	; dbw 15, WATER_PULSE
-	; dbw 19, AMNESIA
-	; dbw 24, AQUA_RING
-	; dbw 28, CAPTIVATE
-	; dbw 33, BATON_PASS
-	; dbw 37, DIVE
-	; dbw 42, PSYCHIC_M
-	; dbw 46, AQUA_TAIL
-	; dbw 51, HYDRO_PUMP
-	; db 0 ; no more level-up moves
+GorebyssEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; RelicanthEvosAttacks:
 	; db 0 ; no more evolutions

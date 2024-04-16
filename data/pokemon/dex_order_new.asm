@@ -364,4 +364,10 @@ NewPokedexOrder:
 	dw WYNAUT
 	dw SNORUNT
 	dw GLALIE
+	dw SPHEAL
+	dw SEALEO
+	dw WALREIN
+	dw CLAMPERL
+	dw HUNTAIL
+	dw GOREBYSS
 	assert_table_length NUM_POKEMON

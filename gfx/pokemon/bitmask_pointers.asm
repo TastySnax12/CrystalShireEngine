@@ -362,4 +362,10 @@ BitmasksPointers:
 	dw WynautBitmasks
 	dw SnoruntBitmasks
 	dw GlalieBitmasks
+	dw SphealBitmasks
+	dw SealeoBitmasks
+	dw WalreinBitmasks
+	dw ClamperlBitmasks
+	dw HuntailBitmasks
+	dw GorebyssBitmasks
 	assert_table_length NUM_POKEMON

@@ -362,4 +362,10 @@ AnimationIdlePointers:
 	dw WynautAnimationIdle
 	dw SnoruntAnimationIdle
 	dw GlalieAnimationIdle
+	dw SphealAnimationIdle
+	dw SealeoAnimationIdle
+	dw WalreinAnimationIdle
+	dw ClamperlAnimationIdle
+	dw HuntailAnimationIdle
+	dw GorebyssAnimationIdle
 	assert_table_length NUM_POKEMON

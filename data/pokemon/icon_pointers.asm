@@ -367,4 +367,10 @@ IconPointers:
 	dba MagikarpIcon ; WYNAUT
 	dba MagikarpIcon ; SNORUNT
 	dba MagikarpIcon ; GLALIE
+	dba MagikarpIcon ; SPHEAL
+	dba MagikarpIcon ; SEALEO
+	dba MagikarpIcon ; WALREIN
+	dba MagikarpIcon ; CLAMPERL
+	dba MagikarpIcon ; HUNTAIL
+	dba MagikarpIcon ; GOREBYSS
 	assert_table_length NUM_POKEMON + 1

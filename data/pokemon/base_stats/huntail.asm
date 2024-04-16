@@ -7,7 +7,7 @@
 	db WATER, WATER ; type
 	db 60 ; catch rate
 	db 178 ; base exp
-	dw NO_ITEM, DEEPSEATOOTH ; items
+	dw NO_ITEM, NO_ITEM ; items (SHOULD BE dw NO_ITEM, DEEPSEATOOTH ; items )
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/huntail/front.dimensions"

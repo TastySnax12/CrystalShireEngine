@@ -112,6 +112,12 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw SnoruntEggMoves
 	dw NoEggMoves3
+	dw SphealEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
+	dw ClamperlEggMoves
+	dw NoEggMoves3
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -705,7 +711,7 @@ SnoruntEggMoves:
 	; dw SPIKES
 	dw -1 ; end
 	
-; SphealEggMoves:
+SphealEggMoves:
 	; dw CURSE
 	; dw FISSURE
 	; dw ROCK_SLIDE
@@ -718,7 +724,7 @@ SnoruntEggMoves:
 	; dw YAWN
 	; dw -1 ; end
 	
-; ClamperlEggMoves:
+ClamperlEggMoves:
 	; dw AQUA_RING
 	; dw BARRIER
 	; dw BODY_SLAM

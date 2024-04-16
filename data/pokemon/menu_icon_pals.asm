@@ -372,4 +372,10 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; WYNAUT
 	icon_pals RED,    TEAL   ; SNORUNT
 	icon_pals TEAL,   RED    ; GLALIE
+	icon_pals BLUE,   PURPLE ; SPHEAL
+	icon_pals BLUE,   PURPLE ; SEALEO
+	icon_pals BLUE,   PURPLE ; WALREIN
+	icon_pals BLUE,   PURPLE ; CLAMPERL
+	icon_pals BLUE,   GREEN  ; HUNTAIL
+	icon_pals PINK,   RED    ; GOREBYSS
 	assert_table_length NUM_POKEMON

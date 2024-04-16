@@ -362,4 +362,10 @@ FramesPointers:
 	dba WynautFrames
 	dba SnoruntFrames
 	dba GlalieFrames
+	dba SphealFrames
+	dba SealeoFrames
+	dba WalreinFrames
+	dba ClamperlFrames
+	dba HuntailFrames
+	dba GorebyssFrames
 	assert_table_length NUM_POKEMON

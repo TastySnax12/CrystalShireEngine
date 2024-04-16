@@ -362,4 +362,10 @@ AnimationPointers:
 	dw WynautAnimation
 	dw SnoruntAnimation
 	dw GlalieAnimation
+	dw SphealAnimation
+	dw SealeoAnimation
+	dw WalreinAnimation
+	dw ClamperlAnimation
+	dw HuntailAnimation
+	dw GorebyssAnimation
 	assert_table_length NUM_POKEMON

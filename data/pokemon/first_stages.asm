@@ -363,4 +363,10 @@ FirstEvoStages::
 	dw WYNAUT
 	dw SNORUNT
 	dw SNORUNT
+	dw SPHEAL
+	dw SPHEAL
+	dw SPHEAL
+	dw CLAMPERL
+	dw CLAMPERL
+	dw CLAMPERL
 	assert_table_length NUM_POKEMON

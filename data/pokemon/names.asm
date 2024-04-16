@@ -366,4 +366,10 @@ PokemonNames::
 	db "WYNAUT@@@@"
 	db "SNORUNT@@@"
 	db "GLALIE@@@@"
+	db "SPHEAL@@@@"
+	db "SEALEO@@@@"
+	db "WALREIN@@@"
+	db "CLAMPERL@@"
+	db "HUNTAIL@@@"
+	db "GOREBYSS@@"
 	assert_table_length NUM_POKEMON

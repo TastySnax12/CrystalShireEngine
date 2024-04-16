@@ -401,5 +401,11 @@ INCLUDE "data/pokemon/base_stats/absol.asm"
 INCLUDE "data/pokemon/base_stats/wynaut.asm"
 INCLUDE "data/pokemon/base_stats/snorunt.asm"
 INCLUDE "data/pokemon/base_stats/glalie.asm"
+INCLUDE "data/pokemon/base_stats/spheal.asm"
+INCLUDE "data/pokemon/base_stats/sealeo.asm"
+INCLUDE "data/pokemon/base_stats/walrein.asm"
+INCLUDE "data/pokemon/base_stats/clamperl.asm"
+INCLUDE "data/pokemon/base_stats/huntail.asm"
+INCLUDE "data/pokemon/base_stats/gorebyss.asm"
 
 .IndirectEnd::

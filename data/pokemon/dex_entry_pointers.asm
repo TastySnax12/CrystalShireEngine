@@ -363,4 +363,10 @@ PokedexDataPointerTable:
 	dba WynautPokedexEntry
 	dba SnoruntPokedexEntry
 	dba GlaliePokedexEntry
+	dba SphealPokedexEntry
+	dba SealeoPokedexEntry
+	dba WalreinPokedexEntry
+	dba ClamperlPokedexEntry
+	dba HuntailPokedexEntry
+	dba GorebyssPokedexEntry
 	assert_table_length NUM_POKEMON

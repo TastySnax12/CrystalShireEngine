@@ -740,4 +740,16 @@ PokemonPicPointers::
 	dba SnoruntBackpic
 	dba GlalieFrontpic
 	dba GlalieBackpic
+	dba SphealFrontpic
+	dba SphealBackpic
+	dba SealeoFrontpic
+	dba SealeoBackpic
+	dba WalreinFrontpic
+	dba WalreinBackpic
+	dba ClamperlFrontpic
+	dba ClamperlBackpic
+	dba HuntailFrontpic
+	dba HuntailBackpic
+	dba GorebyssFrontpic
+	dba GorebyssBackpic
 	assert_table_length NUM_POKEMON + 1

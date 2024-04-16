@@ -48,6 +48,7 @@ AlphabeticalPokedexOrder:
 	dw CHIKORITA
 	dw CHIMECHO
 	dw CHINCHOU
+	dw CLAMPERL
 	dw CLAYDOL
 	dw CLEFABLE
 	dw CLEFAIRY
@@ -111,6 +112,7 @@ AlphabeticalPokedexOrder:
 	dw GOLDEEN
 	dw GOLDUCK
 	dw GOLEM
+	dw GOREBYSS
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
@@ -131,6 +133,7 @@ AlphabeticalPokedexOrder:
 	dw HORSEA
 	dw HOUNDOOM
 	dw HOUNDOUR
+	dw HUNTAIL
 	dw HYPNO
 	dw IGGLYBUFF
 	dw ILLUMISE
@@ -266,6 +269,7 @@ AlphabeticalPokedexOrder:
 	dw SCYTHER
 	dw SEADRA
 	dw SEAKING
+	dw SEALEO
 	dw SEEDOT
 	dw SEEL
 	dw SENTRET
@@ -295,6 +299,7 @@ AlphabeticalPokedexOrder:
 	dw SNUBBULL
 	dw SOLROCK
 	dw SPEAROW
+	dw SPHEAL
 	dw SPINARAK
 	dw SPINDA
 	dw SPOINK
@@ -346,6 +351,7 @@ AlphabeticalPokedexOrder:
 	dw VULPIX
 	dw WAILMER
 	dw WAILORD
+	dw WALREIN
 	dw WARTORTLE
 	dw WEEDLE
 	dw WEEPINBELL
