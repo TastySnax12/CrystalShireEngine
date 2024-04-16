@@ -350,4 +350,10 @@ AnimationPointers:
 	dw ArmaldoAnimation
 	dw FeebasAnimation
 	dw MiloticAnimation
+	dw CastformAnimation
+	dw KecleonAnimation
+	dw ShuppetAnimation
+	dw BanetteAnimation
+	dw DuskullAnimation
+	dw DusclopsAnimation
 	assert_table_length NUM_POKEMON

@@ -351,4 +351,10 @@ PokedexDataPointerTable:
 	dba ArmaldoPokedexEntry
 	dba FeebasPokedexEntry
 	dba MiloticPokedexEntry
+	dba CastformPokedexEntry
+	dba KecleonPokedexEntry
+	dba ShuppetPokedexEntry
+	dba BanettePokedexEntry
+	dba DuskullPokedexEntry
+	dba DusclopsPokedexEntry
 	assert_table_length NUM_POKEMON

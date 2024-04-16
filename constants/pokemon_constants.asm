@@ -369,8 +369,14 @@ DEF HOENN_POKEMON EQU const_value
 	const CRADILY    ; 15a
 	const ANORITH    ; 15b
 	const ARMALDO    ; 15c
-	const FEEBAS      ; 15d
+	const FEEBAS     ; 15d
 	const MILOTIC    ; 15e
+	const CASTFORM   ; 15f
+	const KECLEON    ; 160
+	const SHUPPET    ; 161
+	const BANETTE    ; 162
+	const DUSKULL    ; 163
+	const DUSCLOPS   ; 164
 	
 DEF NUM_POKEMON EQU const_value - 1
 

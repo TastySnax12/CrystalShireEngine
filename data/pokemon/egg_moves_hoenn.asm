@@ -100,6 +100,12 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw FeebasEggMoves
 	dw NoEggMoves3
+	dw CastformEggMoves
+	dw KecleonEggMoves
+	dw ShuppetEggMoves
+	dw NoEggMoves3
+	dw DuskullEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 	
 TreeckoEggMoves:
@@ -608,25 +614,25 @@ FeebasEggMoves:
 	; dw TICKLE
 	dw -1 ; end
 	
-; CastformEggMoves:
+CastformEggMoves:
 	; dw AMNESIA
 	; dw DISABLE
 	; dw FUTURE_SIGHT
 	; dw LUCKY_CHANT
 	; dw OMINOUS_WIND
 	; dw PSYCH_UP
-	; dw -1 ; end
+	dw -1 ; end
 	
-; KecleonEggMoves:
+KecleonEggMoves:
 	; dw DISABLE
 	; dw DIZZY_PUNCH
 	; dw FAKE_OUT
 	; dw MAGIC_COAT
 	; dw NASTY_PLOT
 	; dw TRICK
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ShuppetEggMoves:
+ShuppetEggMoves:
 	; dw ASTONISH
 	; dw CONFUSE_RAY
 	; dw DESTINY_BOND
@@ -636,9 +642,9 @@ FeebasEggMoves:
 	; dw PAYBACK
 	; dw PURSUIT
 	; dw SHADOW_SNEAK
-	; dw -1 ; end
+	dw -1 ; end
 
-; DuskullEggMoves:
+DuskullEggMoves:
 	; dw DESTINY_BOND
 	; dw FAINT_ATTACK
 	; dw GRUDGE
@@ -646,7 +652,7 @@ FeebasEggMoves:
 	; dw MEMENTO
 	; dw OMINOUS_WIND
 	; dw PAIN_SPLIT
-	; dw -1 ; end
+	dw -1 ; end
 
 ; TropiusEggMoves:
 	; dw CURSE

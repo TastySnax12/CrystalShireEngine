@@ -356,4 +356,10 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; ARMALDO
 	mon_cry CRY_RATTATA,       0,  0   ; FEEBAS
 	mon_cry CRY_RATTATA,       0,  0   ; MILOTIC
+	mon_cry CRY_RATTATA,       0,  0   ; CASTFORM
+	mon_cry CRY_RATTATA,       0,  0   ; KECLEON
+	mon_cry CRY_RATTATA,       0,  0   ; SHUPPET
+	mon_cry CRY_RATTATA,       0,  0   ; BANETTE
+	mon_cry CRY_RATTATA,       0,  0   ; DUSKULL
+	mon_cry CRY_RATTATA,       0,  0   ; DUSCLOPS
 	assert_table_length NUM_POKEMON

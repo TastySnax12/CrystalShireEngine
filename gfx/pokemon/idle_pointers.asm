@@ -350,4 +350,10 @@ AnimationIdlePointers:
 	dw ArmaldoAnimationIdle
 	dw FeebasAnimationIdle
 	dw MiloticAnimationIdle
+	dw CastformAnimationIdle
+	dw KecleonAnimationIdle
+	dw ShuppetAnimationIdle
+	dw BanetteAnimationIdle
+	dw DuskullAnimationIdle
+	dw DusclopsAnimationIdle
 	assert_table_length NUM_POKEMON

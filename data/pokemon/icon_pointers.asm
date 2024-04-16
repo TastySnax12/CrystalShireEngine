@@ -355,4 +355,10 @@ IconPointers:
 	dba MagikarpIcon ; ARMALDO
 	dba MagikarpIcon ; FEEBAS
 	dba MagikarpIcon ; MILOTIC
+	dba MagikarpIcon ; CASTFORM
+	dba MagikarpIcon ; KECLEON
+	dba MagikarpIcon ; SHUPPET
+	dba MagikarpIcon ; BANETTE
+	dba MagikarpIcon ; DUSKULL
+	dba MagikarpIcon ; DUSCLOPS
 	assert_table_length NUM_POKEMON + 1

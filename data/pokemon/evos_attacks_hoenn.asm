@@ -100,12 +100,12 @@ EvosAttacksPointers3::
 	dw ArmaldoEvosAttacks
 	dw FeebasEvosAttacks
 	dw MiloticEvosAttacks
-	; dw CastformEvosAttacks
-	; dw KecleonEvosAttacks
-	; dw ShuppetEvosAttacks
-	; dw BanetteEvosAttacks
-	; dw DuskullEvosAttacks
-	; dw DusclopsEvosAttacks
+	dw CastformEvosAttacks
+	dw KecleonEvosAttacks
+	dw ShuppetEvosAttacks
+	dw BanetteEvosAttacks
+	dw DuskullEvosAttacks
+	dw DusclopsEvosAttacks
 	; dw TropiusEvosAttacks
 	; dw ChimechoEvosAttacks
 	; dw AbsolEvosAttacks
@@ -634,121 +634,35 @@ MiloticEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; CastformEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 10, EMBER
-	; dbw 10, WATER_GUN
-	; dbw 10, POWDER_SNOW
-	; dbw 20, RAIN_DANCE
-	; dbw 20, SUNNY_DAY
-	; dbw 20, HAIL
-	; dbw 30, WEATHER_BALL
-	; db 0 ; no more level-up moves
+CastformEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; KecleonEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, TAIL_WHIP
-	; dbw 1, LICK
-	; dbw 1, THIEF
-	; dbw 1, ASTONISH
-	; dbw 4, BIND
-	; dbw 7, FAINT_ATTACK
-	; dbw 10, FURY_SWIPES
-	; dbw 14, FEINT
-	; dbw 18, PSYBEAM
-	; dbw 22, SHADOW_SNEAK
-	; dbw 27, SLASH
-	; dbw 32, SCREECH
-	; dbw 37, SUBSTITUTE
-	; dbw 43, SUCKER_PUNCH
-	; dbw 49, SHADOW_CLAW
-	; dbw 55, ANCIENTPOWER
-	; db 0 ; no more level-up moves
+KecleonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShuppetEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 37, BANETTE
-	; db 0 ; no more evolutions
-	; dbw 1, KNOCK_OFF
-	; dbw 5, SCREECH
-	; dbw 8, NIGHT_SHADE
-	; dbw 13, CURSE
-	; dbw 16, SPITE
-	; dbw 20, SHADOW_SNEAK
-	; dbw 23, WILL_O_WISP
-	; dbw 28, FAINT_ATTACK
-	; dbw 31, SHADOW_BALL
-	; dbw 35, SUCKER_PUNCH
-	; dbw 38, EMBARGO
-	; dbw 43, SNATCH
-	; dbw 46, GRUDGE
-	; dbw 50, TRICK
-	; db 0 ; no more level-up moves
+ShuppetEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BanetteEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, NIGHT_SHADE
-	; dbw 1, SCREECH
-	; dbw 1, CURSE
-	; dbw 1, KNOCK_OFF
-	; dbw 5, NIGHT_SHADE
-	; dbw 8, SCREECH
-	; dbw 13, CURSE
-	; dbw 16, SPITE
-	; dbw 20, SHADOW_SNEAK
-	; dbw 23, WILL_O_WISP
-	; dbw 28, FAINT_ATTACK
-	; dbw 31, SHADOW_BALL
-	; dbw 35, SUCKER_PUNCH
-	; dbw 42, EMBARGO
-	; dbw 51, SNATCH
-	; dbw 58, GRUDGE
-	; dbw 66, TRICK
-	; db 0 ; no more level-up moves
+BanetteEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; DuskullEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 37, DUSCLOPS
-	; db 0 ; no more evolutions
-	; dbw 1, LEER
-	; dbw 1, NIGHT_SHADE
-	; dbw 6, DISABLE
-	; dbw 9, FORESIGHT
-	; dbw 14, ASTONISH
-	; dbw 17, CONFUSE_RAY
-	; dbw 22, SHADOW_SNEAK
-	; dbw 25, PURSUIT
-	; dbw 30, CURSE
-	; dbw 33, WILL_O_WISP
-	; dbw 38, MEAN_LOOK
-	; dbw 41, PAYBACK
-	; dbw 46, FUTURE_SIGHT
-	; db 0 ; no more level-up moves
+DuskullEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; DusclopsEvosAttacks:
-	; dbbw EVOLVE_TRADE, REAPER_CLOTH, DUSKNOIR
-	; db 0 ; no more evolutions
-	; dbw 1, FIRE_PUNCH
-	; dbw 1, ICE_PUNCH
-	; dbw 1, THUNDERPUNCH
-	; dbw 1, BIND
-	; dbw 1, LEER
-	; dbw 1, DISABLE
-	; dbw 1, NIGHT_SHADE
-	; dbw 1, GRAVITY
-	; dbw 6, DISABLE
-	; dbw 9, FORESIGHT
-	; dbw 14, ASTONISH
-	; dbw 17, CONFUSE_RAY
-	; dbw 22, SHADOW_SNEAK
-	; dbw 25, PURSUIT
-	; dbw 30, CURSE
-	; dbw 33, WILL_O_WISP
-	; dbw 37, SHADOW_PUNCH
-	; dbw 43, MEAN_LOOK
-	; dbw 51, PAYBACK
-	; dbw 61, FUTURE_SIGHT
-	; db 0 ; no more level-up moves
+DusclopsEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; TropiusEvosAttacks:
 	; db 0 ; no more evolutions

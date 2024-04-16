@@ -360,4 +360,10 @@ MonMenuIconPals:
 	icon_pals BLUE,   PINK   ; ARMALDO
 	icon_pals PURPLE, BROWN  ; FEEBAS
 	icon_pals RED,    BLUE   ; MILOTIC
+	icon_pals GRAY,   PURPLE ; CASTFORM
+	icon_pals GREEN,  TEAL   ; KECLEON
+	icon_pals GRAY,   TEAL   ; SHUPPET
+	icon_pals GRAY,   BLUE   ; BANETTE
+	icon_pals GRAY,   RED    ; DUSKULL
+	icon_pals GRAY,   RED    ; DUSCLOPS
 	assert_table_length NUM_POKEMON

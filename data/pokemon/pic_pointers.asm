@@ -716,4 +716,16 @@ PokemonPicPointers::
 	dba FeebasBackpic
 	dba MiloticFrontpic
 	dba MiloticBackpic
+	dba CastformFrontpic
+	dba CastformBackpic
+	dba KecleonFrontpic
+	dba KecleonBackpic
+	dba ShuppetFrontpic
+	dba ShuppetBackpic
+	dba BanetteFrontpic
+	dba BanetteBackpic
+	dba DuskullFrontpic
+	dba DuskullBackpic
+	dba DusclopsFrontpic
+	dba DusclopsBackpic
 	assert_table_length NUM_POKEMON + 1

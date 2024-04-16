@@ -351,4 +351,10 @@ FirstEvoStages::
 	dw ANORITH
 	dw FEEBAS
 	dw FEEBAS
+	dw CASTFORM
+	dw KECLEON
+	dw SHUPPET
+	dw SHUPPET
+	dw DUSKULL
+	dw DUSKULL
 	assert_table_length NUM_POKEMON

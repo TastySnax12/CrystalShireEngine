@@ -19,6 +19,7 @@ AlphabeticalPokedexOrder:
 	dw AZUMARILL
 	dw AZURILL
 	dw BALTOY
+	dw BANETTE
 	dw BARBOACH
 	dw BAYLEEF
 	dw BEAUTIFLY
@@ -36,6 +37,7 @@ AlphabeticalPokedexOrder:
 	dw CAMERUPT
 	dw CARVANHA
 	dw CASCOON
+	dw CASTFORM
 	dw CATERPIE
 	dw CELEBI
 	dw CHANSEY
@@ -72,6 +74,8 @@ AlphabeticalPokedexOrder:
 	dw DROWZEE
 	dw DUGTRIO
 	dw DUNSPARCE
+	dw DUSCLOPS
+	dw DUSKULL
 	dw DUSTOX
 	dw EEVEE
 	dw EKANS
@@ -137,6 +141,7 @@ AlphabeticalPokedexOrder:
 	dw KADABRA
 	dw KAKUNA
 	dw KANGASKHAN
+	dw KECLEON
 	dw KINGDRA
 	dw KINGLER
 	dw KIRLIA
@@ -268,6 +273,7 @@ AlphabeticalPokedexOrder:
 	dw SHIFTRY
 	dw SHROOMISH
 	dw SHUCKLE
+	dw SHUPPET
 	dw SILCOON
 	dw SKARMORY
 	dw SKIPLOOM

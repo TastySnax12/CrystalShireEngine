@@ -354,4 +354,10 @@ PokemonNames::
 	db "ARMALDO@@@"
 	db "FEEBAS@@@@"
 	db "MILOTIC@@@"
+	db "CASTFORM@@"
+	db "KECLEON@@@"
+	db "SHUPPET@@@"
+	db "BANETTE@@@"
+	db "DUSKULL@@@"
+	db "DUSCLOPS@@"
 	assert_table_length NUM_POKEMON
