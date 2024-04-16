@@ -26,6 +26,8 @@ LoadSpecialMapPalette:
 	jr z, .gym_1
 	cp TILESET_MUSEUM
 	jr z, .museum
+	cp TILESET_FACILITY
+	jr z, .facility
 	jr .lookup_specifics
 
 .darkness
@@ -79,6 +81,11 @@ LoadSpecialMapPalette:
 	
 .museum
 	call LoadMuseumPalette
+	scf
+	ret
+	
+.facility
+	call LoadFacilityPalette
 	scf
 	ret
 
@@ -258,4 +265,15 @@ LoadMuseumPalette:
 MuseumPalette:
 INCLUDE "gfx/tilesets/museum.pal"
 
+LoadFacilityPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, FacilityPalette
+	ld bc, 8 palettes
+	jp FarCopyWRAM
+	
+FacilityPalette:
+INCLUDE "gfx/tilesets/facility.pal"
+
 INCLUDE "gfx/tilesets/bg_tiles_special_pals.pal"
+
