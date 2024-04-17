@@ -108,6 +108,7 @@ EvosAttacksPointers4::
 	; dw DarkraiEvosAttacks
 	; dw ShayminEvosAttacks
 	; dw ArceusEvosAttacks
+.IndirectEnd::
 
 TurtwigEvosAttacks:
 	db 0 ; no more evolutions
@@ -1835,3 +1836,5 @@ EmpoleonEvosAttacks:
 	; dbw 90, PERISH_SONG
 	; dbw 100, JUDGMENT
 	; db 0 ; no more level-up moves
+
+ENDSECTION

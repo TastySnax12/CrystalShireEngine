@@ -786,3 +786,5 @@ BagonEggMoves:
 
 NoEggMoves3:
 	dw -1 ; end
+
+ENDSECTION

@@ -107,6 +107,7 @@ EggMovePointers4::
 	; dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw NoEggMoves4
+.IndirectEnd::
 
 TurtwigEggMoves:
 	; dw AMNESIA
@@ -516,3 +517,5 @@ PiplupEggMoves:
 	
 NoEggMoves4:
 	dw -1 ; end
+
+ENDSECTION

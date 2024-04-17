@@ -443,8 +443,7 @@ SECTION "Pic Animations 5", ROMX
 
 INCLUDE "gfx/pokemon/johto_frames.asm"
 INCLUDE "gfx/pokemon/hoenn_frames.asm"
-
-
+INCLUDE "gfx/pokemon/sinnoh_frames.asm"
 
 SECTION "bank38", ROMX
 
