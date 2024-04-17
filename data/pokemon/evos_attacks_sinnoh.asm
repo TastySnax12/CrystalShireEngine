@@ -20,15 +20,15 @@ EvosAttacksPointers4::
 	dw ShinxEvosAttacks
 	dw LuxioEvosAttacks
 	dw LuxrayEvosAttacks
-	; dw BudewEvosAttacks
-	; dw RoseradeEvosAttacks
-	; dw CranidosEvosAttacks
-	; dw RampardosEvosAttacks
-	; dw ShieldonEvosAttacks
-	; dw BastiodonEvosAttacks
-	; dw BurmyEvosAttacks
-	; dw WormadamEvosAttacks
-	; dw MothimEvosAttacks
+	dw BudewEvosAttacks
+	dw RoseradeEvosAttacks
+	dw CranidosEvosAttacks
+	dw RampardosEvosAttacks
+	dw ShieldonEvosAttacks
+	dw BastiodonEvosAttacks
+	dw BurmyEvosAttacks
+	dw WormadamEvosAttacks
+	dw MothimEvosAttacks
 	; dw CombeeEvosAttacks
 	; dw VespiquenEvosAttacks
 	; dw PachirisuEvosAttacks
@@ -204,135 +204,49 @@ LuxrayEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; BudewEvosAttacks:
-	; dbbw EVOLVE_HAPPINESS, TR_MORNDAY, ROSELIA
-	; db 0 ; no more evolutions
-	; dbw 1, ABSORB
-	; dbw 4, GROWTH
-	; dbw 7, WATER_SPORT
-	; dbw 10, STUN_SPORE
-	; dbw 13, MEGA_DRAIN
-	; dbw 16, WORRY_SEED
-	; db 0 ; no more level-up moves
+BudewEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RoseradeEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POISON_STING
-	; dbw 1, MEGA_DRAIN
-	; dbw 1, SWEET_SCENT
-	; dbw 1, WEATHER_BALL
-	; dbw 1, MAGICAL_LEAF
-	; db 0 ; no more level-up moves
+RoseradeEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CranidosEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, RAMPARDOS
-	; db 0 ; no more evolutions
-	; dbw 1, HEADBUTT
-	; dbw 1, LEER
-	; dbw 6, FOCUS_ENERGY
-	; dbw 10, PURSUIT
-	; dbw 15, TAKE_DOWN
-	; dbw 19, SCARY_FACE
-	; dbw 24, ASSURANCE
-	; dbw 28, ANCIENTPOWER
-	; dbw 33, ZEN_HEADBUTT
-	; dbw 37, SCREECH
-	; dbw 43, HEAD_SMASH
-	; db 0 ; no more level-up moves
+CranidosEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RampardosEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, HEADBUTT
-	; dbw 1, LEER
-	; dbw 6, FOCUS_ENERGY
-	; dbw 10, PURSUIT
-	; dbw 15, TAKE_DOWN
-	; dbw 19, SCARY_FACE
-	; dbw 24, ASSURANCE
-	; dbw 28, ANCIENTPOWER
-	; dbw 30, ENDEAVOR
-	; dbw 36, ZEN_HEADBUTT
-	; dbw 43, SCREECH
-	; dbw 52, HEAD_SMASH
-	; db 0 ; no more level-up moves
+RampardosEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShieldonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, BASTIODON
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, PROTECT
-	; dbw 6, TAUNT
-	; dbw 10, METAL_SOUND
-	; dbw 15, TAKE_DOWN
-	; dbw 19, IRON_DEFENSE
-	; dbw 24, SWAGGER
-	; dbw 28, ANCIENTPOWER
-	; dbw 33, ENDURE
-	; dbw 37, METAL_BURST
-	; dbw 43, IRON_HEAD
-	; db 0 ; no more level-up moves
+ShieldonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BastiodonEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, PROTECT
-	; dbw 1, TAUNT
-	; dbw 1, METAL_SOUND
-	; dbw 6, TAUNT
-	; dbw 10, METAL_SOUND
-	; dbw 15, TAKE_DOWN
-	; dbw 19, IRON_DEFENSE
-	; dbw 24, SWAGGER
-	; dbw 28, ANCIENTPOWER
-	; dbw 30, BLOCK
-	; dbw 36, ENDURE
-	; dbw 43, METAL_BURST
-	; dbw 52, IRON_HEAD
-	; db 0 ; no more level-up moves
+BastiodonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BurmyEvosAttacks:
-	; dbbw EVOLVE_LEVEL_AND_FEMALE, 20, WORMADAM
-	; dbbw EVOLVE_LEVEL_AND_MALE, 20, MOTHIM
-	; db 0 ; no more evolutions
-	; dbw 1, PROTECT
-	; dbw 10, TACKLE
-	; dbw 15, BUG_BITE
-	; dbw 20, HIDDEN_POWER
-	; db 0 ; no more level-up moves
+BurmyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
+WormadamEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; WormadamEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 10, PROTECT
-	; dbw 15, BUG_BITE
-	; dbw 20, HIDDEN_POWER
-	; dbw 23, CONFUSION
-	; dbw 26, RAZOR_LEAF
-	; dbw 29, GROWTH
-	; dbw 32, PSYBEAM
-	; dbw 35, CAPTIVATE
-	; dbw 38, FLAIL
-	; dbw 41, ATTRACT
-	; dbw 44, PSYCHIC_M
-	; dbw 47, LEAF_STORM
-	; db 0 ; no more level-up moves
-
-; MothimEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 10, PROTECT
-	; dbw 15, BUG_BITE
-	; dbw 20, HIDDEN_POWER
-	; dbw 23, CONFUSION
-	; dbw 26, GUST
-	; dbw 29, POISONPOWDER
-	; dbw 32, PSYBEAM
-	; dbw 35, CAMOUFLAGE
-	; dbw 38, SILVER_WIND
-	; dbw 41, AIR_SLASH
-	; dbw 44, PSYCHIC_M
-	; dbw 47, BUG_BUZZ
-	; db 0 ; no more level-up moves
+MothimEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; CombeeEvosAttacks:
 	; dbbw EVOLVE_LEVEL_AND_FEMALE, 21, VESPIQUEN

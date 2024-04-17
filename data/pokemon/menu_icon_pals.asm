@@ -415,4 +415,13 @@ MonMenuIconPals:
 	icon_pals BLUE,   BROWN  ; SHINX
 	icon_pals BLUE,   BROWN  ; LUXIO
 	icon_pals BLUE,   BROWN  ; LUXRAY
+	icon_pals GREEN,  PURPLE ; BUDEW
+	icon_pals GREEN,  PURPLE ; ROSERADE
+	icon_pals BLUE,   RED    ; CRANIDOS
+	icon_pals BLUE,   RED    ; RAMPARDOS
+	icon_pals GRAY,   BLUE   ; SHIELDON
+	icon_pals GRAY,   BLUE   ; BASTIODON
+	icon_pals GREEN,  GREEN  ; BURMY
+	icon_pals GREEN,  GREEN  ; WORMADAM
+	icon_pals RED,    BLUE   ; MOTHIM
 	assert_table_length NUM_POKEMON

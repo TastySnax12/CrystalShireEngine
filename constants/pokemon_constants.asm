@@ -427,6 +427,15 @@ DEF SINNOH_POKEMON EQU const_value
 	const SHINX      ; 193
 	const LUXIO      ; 194
 	const LUXRAY     ; 195
+	const BUDEW      ; 196
+	const ROSERADE   ; 197
+	const CRAINDOSE  ; 198
+	const RAMPARDOS  ; 199
+	const SHIELDON   ; 19a
+	const BASTIODON  ; 19b
+	const BURMY      ; 19c
+	const WORMADAM   ; 19d
+	const MOTHIM     ; 19e
 	
 DEF NUM_POKEMON EQU const_value - 1
 

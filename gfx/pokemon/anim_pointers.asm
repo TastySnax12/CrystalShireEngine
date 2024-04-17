@@ -405,4 +405,13 @@ AnimationPointers:
 	dw ShinxAnimation
 	dw LuxioAnimation
 	dw LuxrayAnimation
+	dw BudewAnimation
+	dw RoseradeAnimation
+	dw CranidosAnimation
+	dw RampardosAnimation
+	dw ShieldonAnimation
+	dw BastiodonAnimation
+	dw BurmyAnimation
+	dw WormadamAnimation
+	dw MothimAnimation
 	assert_table_length NUM_POKEMON

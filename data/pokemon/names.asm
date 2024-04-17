@@ -409,4 +409,13 @@ PokemonNames::
 	db "SHINX@@@@@"
 	db "LUXIO@@@@@"
 	db "LUXRAY@@@@"
+	db "BUDEW@@@@@"
+	db "ROSERADE@@"
+	db "CRANIDOS@@"
+	db "RAMPARDOS@"
+	db "SHIELDON@@"
+	db "BASTIODON@"
+	db "BURMY@@@@@"
+	db "WORMADAM@@"
+	db "MOTHIM@@@@"
 	assert_table_length NUM_POKEMON

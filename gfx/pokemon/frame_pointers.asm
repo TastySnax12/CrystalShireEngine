@@ -405,4 +405,13 @@ FramesPointers:
 	dba ShinxFrames
 	dba LuxioFrames
 	dba LuxrayFrames
+	dba BudewFrames
+	dba RoseradeFrames
+	dba CranidosFrames
+	dba RampardosFrames
+	dba ShieldonFrames
+	dba BastiodonFrames
+	dba BurmyFrames
+	dba WormadamFrames
+	dba MothimFrames
 	assert_table_length NUM_POKEMON

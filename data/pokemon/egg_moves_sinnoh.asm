@@ -20,15 +20,15 @@ EggMovePointers4::
 	dw ShinxEggMoves
 	dw NoEggMoves4
 	dw NoEggMoves4
-	; dw BudewEggMoves
-	; dw NoEggMoves4
-	; dw CranidosEggMoves
-	; dw NoEggMoves4
-	; dw ShieldonEggMoves
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
+	dw BudewEggMoves
+	dw NoEggMoves4
+	dw CranidosEggMoves
+	dw NoEggMoves4
+	dw ShieldonEggMoves
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw PachirisuEggMoves
@@ -184,7 +184,7 @@ ShinxEggMoves:
 	; dw THUNDER_FANG
 	dw -1 ; end
 
-; BudewEggMoves:
+BudewEggMoves:
 	; dw COTTON_SPORE
 	; dw EXTRASENSORY
 	; dw LEAF_STORM
@@ -194,9 +194,9 @@ ShinxEggMoves:
 	; dw SLEEP_POWDER
 	; dw SPIKES
 	; dw SYNTHESIS
-	; dw -1 ; end
+	dw -1 ; end
 	
-; CranidosEggMoves:
+CranidosEggMoves:
 	; dw CRUNCH
 	; dw CURSE
 	; dw DOUBLE_EDGE
@@ -206,9 +206,9 @@ ShinxEggMoves:
 	; dw STOMP
 	; dw THRASH
 	; dw WHIRLWIND
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ShieldonEggMoves:
+ShieldonEggMoves:
 	; dw BODY_SLAM
 	; dw COUNTER
 	; dw CURSE
@@ -219,7 +219,7 @@ ShinxEggMoves:
 	; dw ROCK_BLAST
 	; dw SCARY_FACE
 	; dw SCREECH
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; PachirisuEggMoves:
 	; dw BITE

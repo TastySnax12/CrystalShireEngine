@@ -407,4 +407,13 @@ NewPokedexOrder:
 	dw SHINX
 	dw LUXIO
 	dw LUXRAY
+	dw BUDEW
+	dw ROSERADE
+	dw CRANIDOS
+	dw RAMPARDOS
+	dw SHIELDON
+	dw BASTIODON
+	dw BURMY
+	dw WORMADAM
+	dw MOTHIM
 	assert_table_length NUM_POKEMON

@@ -406,4 +406,13 @@ PokedexDataPointerTable:
 	dba ShinxPokedexEntry
 	dba LuxioPokedexEntry
 	dba LuxrayPokedexEntry
+	dba BudewPokedexEntry
+	dba RoseradePokedexEntry
+	dba CranidosPokedexEntry
+	dba RampardosPokedexEntry
+	dba ShieldonPokedexEntry
+	dba BastiodonPokedexEntry
+	dba BurmyPokedexEntry
+	dba WormadamPokedexEntry
+	dba MothimPokedexEntry
 	assert_table_length NUM_POKEMON

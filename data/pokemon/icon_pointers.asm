@@ -410,4 +410,13 @@ IconPointers:
 	dba MagikarpIcon ; SHINX
 	dba MagikarpIcon ; LUXIO
 	dba MagikarpIcon ; LUXRAY
+	dba MagikarpIcon ; BUDEW
+	dba MagikarpIcon ; ROSERADE
+	dba MagikarpIcon ; CRANIDOS
+	dba MagikarpIcon ; RAMPARDOS
+	dba MagikarpIcon ; SHIELDON
+	dba MagikarpIcon ; BASTIODON
+	dba MagikarpIcon ; BURMY
+	dba MagikarpIcon ; WORMADAM
+	dba MagikarpIcon ; MOTHIM
 	assert_table_length NUM_POKEMON + 1

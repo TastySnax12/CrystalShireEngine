@@ -406,4 +406,13 @@ FirstEvoStages::
 	dw SHINX
 	dw SHINX
 	dw SHINX
+	dw BUDEW
+	dw ROSELIA
+	dw CRANIDOS
+	dw CRANIDOS
+	dw SHIELDON
+	dw SHIELDON
+	dw BURMY
+	dw BURMY
+	dw BURMY
 	assert_table_length NUM_POKEMON

@@ -23,6 +23,7 @@ AlphabeticalPokedexOrder:
 	dw BALTOY
 	dw BANETTE
 	dw BARBOACH
+	dw BASTIODON
 	dw BAYLEEF
 	dw BEAUTIFLY
 	dw BEEDRILL
@@ -35,7 +36,9 @@ AlphabeticalPokedexOrder:
 	dw BLAZIKEN
 	dw BLISSEY
 	dw BRELOOM
+	dw BUDEW
 	dw BULBASAUR
+	dw BURMY
 	dw BUTTERFREE
 	dw CACNEA
 	dw CACTURNE
@@ -63,6 +66,7 @@ AlphabeticalPokedexOrder:
 	dw CORPHISH
 	dw CORSOLA
 	dw CRADILY
+	dw CRANIDOS
 	dw CRAWDAUNT
 	dw CROBAT
 	dw CROCONAW
@@ -222,6 +226,7 @@ AlphabeticalPokedexOrder:
 	dw MINUN
 	dw MOLTRES
 	dw MONFERNO
+	dw MOTHIM
 	dw MR__MIME
 	dw MUDKIP
 	dw MUK
@@ -278,6 +283,7 @@ AlphabeticalPokedexOrder:
 	dw RAICHU
 	dw RAIKOU
 	dw RALTS
+	dw RAMPARDOS
 	dw RAPIDASH
 	dw RATICATE
 	dw RATTATA
@@ -290,6 +296,7 @@ AlphabeticalPokedexOrder:
 	dw RHYDON
 	dw RHYHORN
 	dw ROSELIA
+	dw ROSERADE
 	dw SABLEYE
 	dw SALAMENCE
 	dw SANDSHREW
@@ -308,6 +315,7 @@ AlphabeticalPokedexOrder:
 	dw SHEDINJA
 	dw SHELGON
 	dw SHELLDER
+	dw SHIELDON
 	dw SHIFTRY
 	dw SHINX
 	dw SHROOMISH
@@ -399,6 +407,7 @@ AlphabeticalPokedexOrder:
 	dw WINGULL
 	dw WOBBUFFET
 	dw WOOPER
+	dw WORMADAM
 	dw WURMPLE
 	dw WYNAUT
 	dw XATU

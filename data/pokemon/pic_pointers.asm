@@ -826,4 +826,22 @@ PokemonPicPointers::
 	dba LuxioBackpic
 	dba LuxrayFrontpic
 	dba LuxrayBackpic
+	dba BudewFrontpic
+	dba BudewBackpic
+	dba RoseradeFrontpic
+	dba RoseradeBackpic
+	dba CranidosFrontpic
+	dba CranidosBackpic
+	dba RampardosFrontpic
+	dba RampardosBackpic
+	dba ShieldonFrontpic
+	dba ShieldonBackpic
+	dba BastiodonFrontpic
+	dba BastiodonBackpic
+	dba BurmyFrontpic
+	dba BurmyBackpic
+	dba WormadamFrontpic
+	dba WormadamBackpic
+	dba MothimFrontpic
+	dba MothimBackpic
 	assert_table_length NUM_POKEMON + 1

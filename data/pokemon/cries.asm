@@ -411,4 +411,13 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; SHINX
 	mon_cry CRY_RATTATA,       0,  0   ; LUXIO
 	mon_cry CRY_RATTATA,       0,  0   ; LUXRAY
+	mon_cry CRY_RATTATA,       0,  0   ; BUDEW
+	mon_cry CRY_RATTATA,       0,  0   ; ROSERADE
+	mon_cry CRY_RATTATA,       0,  0   ; CRANIDOS
+	mon_cry CRY_RATTATA,       0,  0   ; RAMPARDOS
+	mon_cry CRY_RATTATA,       0,  0   ; SHIELDON
+	mon_cry CRY_RATTATA,       0,  0   ; BASTIODON
+	mon_cry CRY_RATTATA,       0,  0   ; BURMY
+	mon_cry CRY_RATTATA,       0,  0   ; WORMADAM
+	mon_cry CRY_RATTATA,       0,  0   ; MOTHIM
 	assert_table_length NUM_POKEMON
