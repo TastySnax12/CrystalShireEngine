@@ -48,6 +48,7 @@ AlphabeticalPokedexOrder:
 	dw CHARMANDER
 	dw CHARMELEON
 	dw CHIKORITA
+	dw CHIMCHAR
 	dw CHIMECHO
 	dw CHINCHOU
 	dw CLAMPERL
@@ -89,6 +90,7 @@ AlphabeticalPokedexOrder:
 	dw ELECTRIKE
 	dw ELECTRODE
 	dw ELEKID
+	dw EMPOLEON
 	dw ENTEI
 	dw ESPEON
 	dw EXEGGCUTE
@@ -119,6 +121,7 @@ AlphabeticalPokedexOrder:
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
+	dw GROTLE
 	dw GROUDON
 	dw GROVYLE
 	dw GROWLITHE
@@ -141,6 +144,7 @@ AlphabeticalPokedexOrder:
 	dw HYPNO
 	dw IGGLYBUFF
 	dw ILLUMISE
+	dw INFERNAPE
 	dw IVYSAUR
 	dw JIGGLYPUFF
 	dw JIRACHI
@@ -211,6 +215,7 @@ AlphabeticalPokedexOrder:
 	dw MISDREAVUS
 	dw MINUN
 	dw MOLTRES
+	dw MONFERNO
 	dw MR__MIME
 	dw MUDKIP
 	dw MUK
@@ -247,6 +252,7 @@ AlphabeticalPokedexOrder:
 	dw PILOSWINE
 	dw PINECO
 	dw PINSIR
+	dw PIPLUP
 	dw PLUSLE
 	dw POLITOED
 	dw POLIWAG
@@ -257,6 +263,7 @@ AlphabeticalPokedexOrder:
 	dw PORYGON
 	dw PORYGON2
 	dw PRIMEAPE
+	dw PRINPLUP
 	dw PSYDUCK
 	dw PUPITAR
 	dw QUAGSIRE
@@ -346,10 +353,12 @@ AlphabeticalPokedexOrder:
 	dw TOGETIC
 	dw TORCHIC
 	dw TORKOAL
+	dw TORTERRA
 	dw TOTODILE
 	dw TRAPINCH
 	dw TREECKO
 	dw TROPIUS
+	dw TURTWIG
 	dw TYPHLOSION
 	dw TYRANITAR
 	dw TYROGUE

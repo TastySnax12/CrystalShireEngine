@@ -387,4 +387,13 @@ FirstEvoStages::
 	dw RAYQUAZA
 	dw JIRACHI
 	dw DEOXYS
+	dw TURTWIG
+	dw TURTWIG
+	dw TURTWIG
+	dw CHIMCHAR
+	dw CHIMCHAR
+	dw CHIMCHAR
+	dw PIPLUP
+	dw PIPLUP
+	dw PIPLUP
 	assert_table_length NUM_POKEMON

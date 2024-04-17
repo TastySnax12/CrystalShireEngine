@@ -18,9 +18,11 @@ EvosAttacksPointers::
 	indirect_table 2, 1
 	indirect_entries MEW, EvosAttacksPointers1
 	indirect_entries CELEBI, EvosAttacksPointers2
-	indirect_entries NUM_POKEMON, EvosAttacksPointers3
+	indirect_entries DEOXYS, EvosAttacksPointers3
+	indirect_entries NUM_POKEMON, EvosAttacksPointers4
 	indirect_table_end
 
 INCLUDE "data/pokemon/evos_attacks_kanto.asm"
 INCLUDE "data/pokemon/evos_attacks_johto.asm"
 INCLUDE "data/pokemon/evos_attacks_hoenn.asm"
+INCLUDE "data/pokemon/evos_attacks_sinnoh.asm"

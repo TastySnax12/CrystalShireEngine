@@ -396,4 +396,13 @@ MonMenuIconPals:
 	icon_pals GREEN,  GRAY   ; RAYQUAZA
 	icon_pals TEAL,   RED    ; JIRACHI
 	icon_pals RED,    BROWN  ; DEOXYS
+	icon_pals GREEN,  TEAL   ; TURTWIG
+	icon_pals GREEN,  TEAL   ; GROTLE
+	icon_pals GREEN,  TEAL   ; TORTERRA
+	icon_pals RED,    PINK   ; CHIMCHAR
+	icon_pals RED,    PINK   ; MONFERNO
+	icon_pals RED,    PINK   ; INFERNAPE
+	icon_pals BLUE,   TEAL   ; PIPLUP
+	icon_pals BLUE,   TEAL   ; PRINPLUP
+	icon_pals BLUE,   TEAL   ; EMPOLEON
 	assert_table_length NUM_POKEMON

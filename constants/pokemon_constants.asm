@@ -407,6 +407,16 @@ DEF HOENN_POKEMON EQU const_value
 	const RAYQUAZA   ; 180
 	const JIRACHI    ; 181
 	const DEOXYS     ; 182
+DEF SINNOH_POKEMON EQU const_value
+	const TURTWIG    ; 183
+	const GROTLE     ; 184
+	const TORTERRA   ; 185
+	const CHIMCHAR   ; 186
+	const MONFERNO   ; 187
+	const INFERNAPE  ; 188
+	const PIPLUP     ; 189
+	const PRINPLUP   ; 18a
+	const EMPOLEON   ; 18b
 	
 DEF NUM_POKEMON EQU const_value - 1
 

@@ -387,4 +387,13 @@ PokedexDataPointerTable:
 	dba RayquazaPokedexEntry
 	dba JirachiPokedexEntry
 	dba DeoxysPokedexEntry
+	dba TurtwigPokedexEntry
+	dba GrotlePokedexEntry
+	dba TorterraPokedexEntry
+	dba ChimcharPokedexEntry
+	dba MonfernoPokedexEntry
+	dba InfernapePokedexEntry
+	dba PiplupPokedexEntry
+	dba PrinplupPokedexEntry
+	dba EmpoleonPokedexEntry
 	assert_table_length NUM_POKEMON

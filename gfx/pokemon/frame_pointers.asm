@@ -386,4 +386,13 @@ FramesPointers:
 	dba RayquazaFrames
 	dba JirachiFrames
 	dba DeoxysFrames
+	dba TurtwigFrames
+	dba GrotleFrames
+	dba TorterraFrames
+	dba ChimcharFrames
+	dba MonfernoFrames
+	dba InfernapeFrames
+	dba PiplupFrames
+	dba PrinplupFrames
+	dba EmpoleonFrames
 	assert_table_length NUM_POKEMON

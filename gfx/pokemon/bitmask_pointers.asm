@@ -386,4 +386,13 @@ BitmasksPointers:
 	dw RayquazaBitmasks
 	dw JirachiBitmasks
 	dw DeoxysBitmasks
+	dw TurtwigBitmasks
+	dw GrotleBitmasks
+	dw TorterraBitmasks
+	dw ChimcharBitmasks
+	dw MonfernoBitmasks
+	dw InfernapeBitmasks
+	dw PiplupBitmasks
+	dw PrinplupBitmasks
+	dw EmpoleonBitmasks
 	assert_table_length NUM_POKEMON

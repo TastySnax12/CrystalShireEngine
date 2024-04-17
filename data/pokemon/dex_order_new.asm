@@ -388,4 +388,13 @@ NewPokedexOrder:
 	dw RAYQUAZA
 	dw JIRACHI
 	dw DEOXYS
+	dw TURTWIG
+	dw GROTLE
+	dw TORTERRA
+	dw CHIMCHAR
+	dw MONFERNO
+	dw INFERNAPE
+	dw PIPLUP
+	dw PRINPLUP
+	dw EMPOLEON
 	assert_table_length NUM_POKEMON

@@ -466,7 +466,6 @@ INCLUDE "engine/movie/intro.asm"
 SECTION "bank3E", ROMX
 
 INCLUDE "engine/gfx/load_font.asm"
-INCLUDE "engine/link/time_capsule.asm"
 INCLUDE "engine/events/play_slow_cry.asm"
 
 
@@ -643,6 +642,7 @@ INCLUDE "data/pokemon/base_stats.asm"
 
 SECTION "bank8d", ROMX
 INCLUDE "engine/pokedex/new_pokedex_entry.asm"
+INCLUDE "engine/link/time_capsule.asm"
 
 SECTION "European Mail", ROMX
 

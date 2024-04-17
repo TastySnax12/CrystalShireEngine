@@ -392,4 +392,13 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; RAYQUAZA
 	mon_cry CRY_RATTATA,       0,  0   ; JIRACHI
 	mon_cry CRY_RATTATA,       0,  0   ; DEOXYS
+	mon_cry CRY_RATTATA,       0,  0   ; TURTWIG
+	mon_cry CRY_RATTATA,       0,  0   ; GROTLE
+	mon_cry CRY_RATTATA,       0,  0   ; TORTERRA
+	mon_cry CRY_RATTATA,       0,  0   ; CHIMCHAR
+	mon_cry CRY_RATTATA,       0,  0   ; MONFERNO
+	mon_cry CRY_RATTATA,       0,  0   ; INFERNAPE
+	mon_cry CRY_RATTATA,       0,  0   ; PIPLUP
+	mon_cry CRY_RATTATA,       0,  0   ; PRINPLUP
+	mon_cry CRY_RATTATA,       0,  0   ; EMPOLEON
 	assert_table_length NUM_POKEMON

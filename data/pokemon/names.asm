@@ -390,4 +390,13 @@ PokemonNames::
 	db "RAYQUAZA@@"
 	db "JIRACHI@@@"
 	db "DEOXYS@@@@"
+	db "TURTWIG@@@"
+	db "GROTLE@@@@"
+	db "TORTERRA@@"
+	db "CHIMCHAR@@"
+	db "MONFERNO@@"
+	db "INFERNAPE@"
+	db "PIPLUP@@@@"
+	db "PRINPLUP@@"
+	db "EMPOLEON@@"
 	assert_table_length NUM_POKEMON

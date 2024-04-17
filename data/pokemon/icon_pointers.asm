@@ -391,4 +391,13 @@ IconPointers:
 	dba MagikarpIcon ; RAYQUAZA
 	dba MagikarpIcon ; JIRACHI
 	dba MagikarpIcon ; DEOXYS
+	dba MagikarpIcon ; TURTWIG
+	dba MagikarpIcon ; GROTLE
+	dba MagikarpIcon ; TORTERRA
+	dba MagikarpIcon ; CHIMCHAR
+	dba MagikarpIcon ; MONFERNO
+	dba MagikarpIcon ; INFERNAPE
+	dba MagikarpIcon ; PIPLUP
+	dba MagikarpIcon ; PRINPLUP
+	dba MagikarpIcon ; EMPOLEON
 	assert_table_length NUM_POKEMON + 1

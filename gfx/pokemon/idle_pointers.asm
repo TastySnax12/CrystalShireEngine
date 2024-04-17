@@ -386,4 +386,13 @@ AnimationIdlePointers:
 	dw RayquazaAnimationIdle
 	dw JirachiAnimationIdle
 	dw DeoxysAnimationIdle
+	dw TurtwigAnimationIdle
+	dw GrotleAnimationIdle
+	dw TorterraAnimationIdle
+	dw ChimcharAnimationIdle
+	dw MonfernoAnimationIdle
+	dw InfernapeAnimationIdle
+	dw PiplupAnimationIdle
+	dw PrinplupAnimationIdle
+	dw EmpoleonAnimationIdle
 	assert_table_length NUM_POKEMON

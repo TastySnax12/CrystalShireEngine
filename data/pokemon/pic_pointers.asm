@@ -788,4 +788,22 @@ PokemonPicPointers::
 	dba JirachiBackpic
 	dba DeoxysFrontpic
 	dba DeoxysBackpic
+	dba TurtwigFrontpic
+	dba TurtwigBackpic
+	dba GrotleFrontpic
+	dba GrotleBackpic
+	dba TorterraFrontpic
+	dba TorterraBackpic
+	dba ChimcharFrontpic
+	dba ChimcharBackpic
+	dba MonfernoFrontpic
+	dba MonfernoBackpic
+	dba InfernapeFrontpic
+	dba InfernapeBackpic
+	dba PiplupFrontpic
+	dba PiplupBackpic
+	dba PrinplupFrontpic
+	dba PrinplupBackpic
+	dba EmpoleonFrontpic
+	dba EmpoleonBackpic
 	assert_table_length NUM_POKEMON + 1

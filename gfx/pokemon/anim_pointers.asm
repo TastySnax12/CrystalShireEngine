@@ -386,4 +386,13 @@ AnimationPointers:
 	dw RayquazaAnimation
 	dw JirachiAnimation
 	dw DeoxysAnimation
+	dw TurtwigAnimation
+	dw GrotleAnimation
+	dw TorterraAnimation
+	dw ChimcharAnimation
+	dw MonfernoAnimation
+	dw InfernapeAnimation
+	dw PiplupAnimation
+	dw PrinplupAnimation
+	dw EmpoleonAnimation
 	assert_table_length NUM_POKEMON
