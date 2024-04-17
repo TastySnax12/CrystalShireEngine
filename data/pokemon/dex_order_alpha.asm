@@ -29,6 +29,8 @@ AlphabeticalPokedexOrder:
 	dw BELDUM
 	dw BELLOSSOM
 	dw BELLSPROUT
+	dw BIBAREL
+	dw BIDOOF
 	dw BLASTOISE
 	dw BLAZIKEN
 	dw BLISSEY
@@ -162,6 +164,8 @@ AlphabeticalPokedexOrder:
 	dw KIRLIA
 	dw KOFFING
 	dw KRABBY
+	dw KRICKETOT
+	dw KRICKETUNE
 	dw KYOGRE
 	dw LAIRON
 	dw LANTURN
@@ -181,6 +185,8 @@ AlphabeticalPokedexOrder:
 	dw LUGIA
 	dw LUNATONE
 	dw LUVDISC
+	dw LUXIO
+	dw LUXRAY
 	dw MACHAMP
 	dw MACHOKE
 	dw MACHOP
@@ -303,6 +309,7 @@ AlphabeticalPokedexOrder:
 	dw SHELGON
 	dw SHELLDER
 	dw SHIFTRY
+	dw SHINX
 	dw SHROOMISH
 	dw SHUCKLE
 	dw SHUPPET
@@ -330,6 +337,9 @@ AlphabeticalPokedexOrder:
 	dw SPOINK
 	dw SQUIRTLE
 	dw STANTLER
+	dw STARAPTOR
+	dw STARAVIA
+	dw STARLY
 	dw STARMIE
 	dw STARYU
 	dw STEELIX

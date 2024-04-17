@@ -10,16 +10,16 @@ EggMovePointers4::
 	dw PiplupEggMoves
 	dw NoEggMoves4
 	dw NoEggMoves4
-	; dw StarlyEggMoves
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw BidoofEggMoves
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw ShinxEggMoves
-	; dw NoEggMoves4
-	; dw NoEggMoves4
+	dw StarlyEggMoves
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw BidoofEggMoves
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw ShinxEggMoves
+	dw NoEggMoves4
+	dw NoEggMoves4
 	; dw BudewEggMoves
 	; dw NoEggMoves4
 	; dw CranidosEggMoves
@@ -153,7 +153,7 @@ PiplupEggMoves:
 	; dw YAWN
 	dw -1 ; end
 	
-; StarlyEggMoves:
+StarlyEggMoves:
 	; dw ASTONISH
 	; dw DOUBLE_EDGE
 	; dw FEATHERDANCE
@@ -161,9 +161,9 @@ PiplupEggMoves:
 	; dw FURY_ATTACK
 	; dw PURSUIT
 	; dw SAND_ATTACK
-	; dw -1 ; end
+	dw -1 ; end
 	
-; BidoofEggMoves:
+BidoofEggMoves:
 	; dw AQUA_TAIL
 	; dw DEFENSE_CURL
 	; dw DOUBLE_EDGE
@@ -172,9 +172,9 @@ PiplupEggMoves:
 	; dw QUICK_ATTACK
 	; dw ROLLOUT
 	; dw WATER_SPORT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ShinxEggMoves:
+ShinxEggMoves:
 	; dw FIRE_FANG
 	; dw HOWL
 	; dw ICE_FANG
@@ -182,7 +182,7 @@ PiplupEggMoves:
 	; dw QUICK_ATTACK
 	; dw TAKE_DOWN
 	; dw THUNDER_FANG
-	; dw -1 ; end
+	dw -1 ; end
 
 ; BudewEggMoves:
 	; dw COTTON_SPORE

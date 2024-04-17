@@ -401,4 +401,14 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; PIPLUP
 	mon_cry CRY_RATTATA,       0,  0   ; PRINPLUP
 	mon_cry CRY_RATTATA,       0,  0   ; EMPOLEON
+	mon_cry CRY_RATTATA,       0,  0   ; STARLY
+	mon_cry CRY_RATTATA,       0,  0   ; STARAVIA
+	mon_cry CRY_RATTATA,       0,  0   ; STARAPTOR
+	mon_cry CRY_RATTATA,       0,  0   ; BIDOOF
+	mon_cry CRY_RATTATA,       0,  0   ; BIBAREL
+	mon_cry CRY_RATTATA,       0,  0   ; KRICKETOT
+	mon_cry CRY_RATTATA,       0,  0   ; KRICKETUNE
+	mon_cry CRY_RATTATA,       0,  0   ; SHINX
+	mon_cry CRY_RATTATA,       0,  0   ; LUXIO
+	mon_cry CRY_RATTATA,       0,  0   ; LUXRAY
 	assert_table_length NUM_POKEMON

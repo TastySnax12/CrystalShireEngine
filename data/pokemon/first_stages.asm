@@ -396,4 +396,14 @@ FirstEvoStages::
 	dw PIPLUP
 	dw PIPLUP
 	dw PIPLUP
+	dw STARLY
+	dw STARLY
+	dw STARLY
+	dw BIDOOF
+	dw BIDOOF
+	dw KRICKETOT
+	dw KRICKETOT
+	dw SHINX
+	dw SHINX
+	dw SHINX
 	assert_table_length NUM_POKEMON

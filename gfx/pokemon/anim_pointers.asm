@@ -395,4 +395,14 @@ AnimationPointers:
 	dw PiplupAnimation
 	dw PrinplupAnimation
 	dw EmpoleonAnimation
+	dw StarlyAnimation
+	dw StaraviaAnimation
+	dw StaraptorAnimation
+	dw BidoofAnimation
+	dw BibarelAnimation
+	dw KricketotAnimation
+	dw KricketuneAnimation
+	dw ShinxAnimation
+	dw LuxioAnimation
+	dw LuxrayAnimation
 	assert_table_length NUM_POKEMON

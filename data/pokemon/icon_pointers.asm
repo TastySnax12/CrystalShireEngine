@@ -400,4 +400,14 @@ IconPointers:
 	dba MagikarpIcon ; PIPLUP
 	dba MagikarpIcon ; PRINPLUP
 	dba MagikarpIcon ; EMPOLEON
+	dba MagikarpIcon ; STARLY
+	dba MagikarpIcon ; STARAVIA
+	dba MagikarpIcon ; STARAPTOR
+	dba MagikarpIcon ; BIDOOF
+	dba MagikarpIcon ; BIBAREL
+	dba MagikarpIcon ; KRICKETOT
+	dba MagikarpIcon ; KRICKETUNE
+	dba MagikarpIcon ; SHINX
+	dba MagikarpIcon ; LUXIO
+	dba MagikarpIcon ; LUXRAY
 	assert_table_length NUM_POKEMON + 1

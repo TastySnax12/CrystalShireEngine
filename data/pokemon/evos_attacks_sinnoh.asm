@@ -10,16 +10,16 @@ EvosAttacksPointers4::
 	dw PiplupEvosAttacks
 	dw PrinplupEvosAttacks
 	dw EmpoleonEvosAttacks
-	; dw StarlyEvosAttacks
-	; dw StaraviaEvosAttacks
-	; dw StaraptorEvosAttacks
-	; dw BidoofEvosAttacks
-	; dw BibarelEvosAttacks
-	; dw KricketotEvosAttacks
-	; dw KricketuneEvosAttacks
-	; dw ShinxEvosAttacks
-	; dw LuxioEvosAttacks
-	; dw LuxrayEvosAttacks
+	dw StarlyEvosAttacks
+	dw StaraviaEvosAttacks
+	dw StaraptorEvosAttacks
+	dw BidoofEvosAttacks
+	dw BibarelEvosAttacks
+	dw KricketotEvosAttacks
+	dw KricketuneEvosAttacks
+	dw ShinxEvosAttacks
+	dw LuxioEvosAttacks
+	dw LuxrayEvosAttacks
 	; dw BudewEvosAttacks
 	; dw RoseradeEvosAttacks
 	; dw CranidosEvosAttacks
@@ -154,166 +154,55 @@ EmpoleonEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; StarlyEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 34, STARAVIA
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 5, QUICK_ATTACK
-	; dbw 9, WING_ATTACK
-	; dbw 13, DOUBLE_TEAM
-	; dbw 17, ENDEAVOR
-	; dbw 21, WHIRLWIND
-	; dbw 25, AERIAL_ACE
-	; dbw 29, TAKE_DOWN
-	; dbw 33, AGILITY
-	; dbw 37, BRAVE_BIRD
-	; db 0 ; no more level-up moves
+StarlyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; StaraviaEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 34, STARAPTOR
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 1, QUICK_ATTACK
-	; dbw 5, QUICK_ATTACK
-	; dbw 9, WING_ATTACK
-	; dbw 13, DOUBLE_TEAM
-	; dbw 18, ENDEAVOR
-	; dbw 23, WHIRLWIND
-	; dbw 28, AERIAL_ACE
-	; dbw 33, TAKE_DOWN
-	; dbw 38, AGILITY
-	; dbw 43, BRAVE_BIRD
-	; db 0 ; no more level-up moves
+StaraviaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; StaraptorEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WING_ATTACK
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 1, QUICK_ATTACK
-	; dbw 5, QUICK_ATTACK
-	; dbw 9, WING_ATTACK
-	; dbw 13, DOUBLE_TEAM
-	; dbw 18, ENDEAVOR
-	; dbw 23, WHIRLWIND
-	; dbw 28, AERIAL_ACE
-	; dbw 33, TAKE_DOWN
-	; dbw 34, CLOSE_COMBAT
-	; dbw 41, AGILITY
-	; dbw 49, BRAVE_BIRD
-	; db 0 ; no more level-up moves
+StaraptorEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BidoofEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 15, BIBAREL
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 5, GROWL
-	; dbw 9, DEFENSE_CURL
-	; dbw 13, ROLLOUT
-	; dbw 17, HEADBUTT
-	; dbw 21, HYPER_FANG
-	; dbw 25, YAWN
-	; dbw 29, AMNESIA
-	; dbw 33, TAKE_DOWN
-	; dbw 37, SUPER_FANG
-	; dbw 41, SUPERPOWER
-	; dbw 45, CURSE
-	; db 0 ; no more level-up moves
+BidoofEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BibarelEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWL
-	; dbw 5, GROWL
-	; dbw 9, DEFENSE_CURL
-	; dbw 13, ROLLOUT
-	; dbw 15, WATER_GUN
-	; dbw 18, HEADBUTT
-	; dbw 23, HYPER_FANG
-	; dbw 28, YAWN
-	; dbw 33, AMNESIA
-	; dbw 38, TAKE_DOWN
-	; dbw 43, SUPER_FANG
-	; dbw 48, SUPERPOWER
-	; dbw 53, CURSE
-	; db 0 ; no more level-up moves
+BibarelEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; KricketotEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 10, KRICKETUNE
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, BIDE
-	; dbw 16, BUG_BITE
-	; db 0 ; no more level-up moves
+KricketotEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; KricketuneEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, BIDE
-	; dbw 10, FURY_CUTTER
-	; dbw 14, LEECH_LIFE
-	; dbw 18, SING
-	; dbw 22, FOCUS_ENERGY
-	; dbw 26, SLASH
-	; dbw 30, X_SCISSOR
-	; dbw 34, SCREECH
-	; dbw 38, TAUNT
-	; dbw 42, NIGHT_SLASH
-	; dbw 46, BUG_BUZZ
-	; dbw 50, PERISH_SONG
-	; db 0 ; no more level-up moves
+KricketuneEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShinxEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 15, LUXIO
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 5, LEER
-	; dbw 9, CHARGE
-	; dbw 13, SPARK
-	; dbw 17, BITE
-	; dbw 21, ROAR
-	; dbw 25, SWAGGER
-	; dbw 29, THUNDER_FANG
-	; dbw 33, CRUNCH
-	; dbw 37, SCARY_FACE
-	; dbw 41, DISCHARGE
-	; db 0 ; no more level-up moves
+ShinxEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LuxioEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, LUXRAY
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, LEER
-	; dbw 5, LEER
-	; dbw 9, CHARGE
-	; dbw 13, SPARK
-	; dbw 18, BITE
-	; dbw 23, ROAR
-	; dbw 28, SWAGGER
-	; dbw 33, THUNDER_FANG
-	; dbw 38, CRUNCH
-	; dbw 43, SCARY_FACE
-	; dbw 48, DISCHARGE
-	; db 0 ; no more level-up moves
+LuxioEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LuxrayEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, LEER
-	; dbw 1, CHARGE
-	; dbw 5, LEER
-	; dbw 9, CHARGE
-	; dbw 13, SPARK
-	; dbw 18, BITE
-	; dbw 23, ROAR
-	; dbw 28, SWAGGER
-	; dbw 35, THUNDER_FANG
-	; dbw 42, CRUNCH
-	; dbw 49, SCARY_FACE
-	; dbw 56, DISCHARGE
-	; db 0 ; no more level-up moves
+LuxrayEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; BudewEvosAttacks:
 	; dbbw EVOLVE_HAPPINESS, TR_MORNDAY, ROSELIA

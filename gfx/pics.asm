@@ -1051,8 +1051,8 @@ SalamenceBackpic:    INCBIN "gfx/pokemon/salamence/back.2bpp.lz"
 BeldumFrontpic:      INCBIN "gfx/pokemon/beldum/front.animated.2bpp.lz"
 BeldumBackpic:       INCBIN "gfx/pokemon/beldum/back.2bpp.lz"
 
-
 SECTION "Pics 28", ROMX
+
 MetangFrontpic:      INCBIN "gfx/pokemon/metang/front.animated.2bpp.lz"
 MetangBackpic:       INCBIN "gfx/pokemon/metang/back.2bpp.lz"
 MetagrossFrontpic:   INCBIN "gfx/pokemon/metagross/front.animated.2bpp.lz"
@@ -1095,3 +1095,26 @@ PrinplupFrontpic:    INCBIN "gfx/pokemon/prinplup/front.animated.2bpp.lz"
 PrinplupBackpic:     INCBIN "gfx/pokemon/prinplup/back.2bpp.lz"
 EmpoleonFrontpic:    INCBIN "gfx/pokemon/empoleon/front.animated.2bpp.lz"
 EmpoleonBackpic:     INCBIN "gfx/pokemon/empoleon/back.2bpp.lz"
+StarlyFrontpic:      INCBIN "gfx/pokemon/starly/front.animated.2bpp.lz"
+StarlyBackpic:       INCBIN "gfx/pokemon/starly/back.2bpp.lz"
+
+SECTION "Pics 29", ROMX
+
+StaraviaFrontpic:    INCBIN "gfx/pokemon/staravia/front.animated.2bpp.lz"
+StaraviaBackpic:     INCBIN "gfx/pokemon/staravia/back.2bpp.lz"
+StaraptorFrontpic:   INCBIN "gfx/pokemon/staraptor/front.animated.2bpp.lz"
+StaraptorBackpic:    INCBIN "gfx/pokemon/staraptor/back.2bpp.lz"
+BidoofFrontpic:      INCBIN "gfx/pokemon/bidoof/front.animated.2bpp.lz"
+BidoofBackpic:       INCBIN "gfx/pokemon/bidoof/back.2bpp.lz"
+BibarelFrontpic:     INCBIN "gfx/pokemon/bibarel/front.animated.2bpp.lz"
+BibarelBackpic:      INCBIN "gfx/pokemon/bibarel/back.2bpp.lz"
+KricketotFrontpic:   INCBIN "gfx/pokemon/kricketot/front.animated.2bpp.lz"
+KricketotBackpic:    INCBIN "gfx/pokemon/kricketot/back.2bpp.lz"
+KricketuneFrontpic:  INCBIN "gfx/pokemon/kricketune/front.animated.2bpp.lz"
+KricketuneBackpic:   INCBIN "gfx/pokemon/kricketune/back.2bpp.lz"
+ShinxFrontpic:       INCBIN "gfx/pokemon/shinx/front.animated.2bpp.lz"
+ShinxBackpic:        INCBIN "gfx/pokemon/shinx/back.2bpp.lz"
+LuxioFrontpic:       INCBIN "gfx/pokemon/luxio/front.animated.2bpp.lz"
+LuxioBackpic:        INCBIN "gfx/pokemon/luxio/back.2bpp.lz"
+LuxrayFrontpic:      INCBIN "gfx/pokemon/luxray/front.animated.2bpp.lz"
+LuxrayBackpic:       INCBIN "gfx/pokemon/luxray/back.2bpp.lz"

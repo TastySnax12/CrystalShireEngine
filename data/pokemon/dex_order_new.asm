@@ -397,4 +397,14 @@ NewPokedexOrder:
 	dw PIPLUP
 	dw PRINPLUP
 	dw EMPOLEON
+	dw STARLY
+	dw STARAVIA
+	dw STARAPTOR
+	dw BIDOOF
+	dw BIBAREL
+	dw KRICKETOT
+	dw KRICKETUNE
+	dw SHINX
+	dw LUXIO
+	dw LUXRAY
 	assert_table_length NUM_POKEMON

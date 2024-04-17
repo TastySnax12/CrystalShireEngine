@@ -405,4 +405,14 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; PIPLUP
 	icon_pals BLUE,   TEAL   ; PRINPLUP
 	icon_pals BLUE,   TEAL   ; EMPOLEON
+	icon_pals GRAY,   BROWN  ; STARLY
+	icon_pals GRAY,   BROWN  ; STARAVIA
+	icon_pals GRAY,   BROWN  ; STARAPTOR
+	icon_pals BROWN,  BROWN  ; BIDOOF
+	icon_pals BROWN,  BROWN  ; BIBARAL
+	icon_pals RED,    BROWN  ; KRICKETOT
+	icon_pals RED,    BROWN  ; KRICKETUNE
+	icon_pals BLUE,   BROWN  ; SHINX
+	icon_pals BLUE,   BROWN  ; LUXIO
+	icon_pals BLUE,   BROWN  ; LUXRAY
 	assert_table_length NUM_POKEMON

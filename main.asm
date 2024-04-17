@@ -452,7 +452,7 @@ INCLUDE "engine/games/card_flip.asm"
 INCLUDE "engine/games/unown_puzzle.asm"
 INCLUDE "engine/games/memory_game.asm"
 INCLUDE "engine/battle/misc.asm"
-
+INCLUDE "engine/events/play_slow_cry.asm"
 
 
 SECTION "bank39", ROMX
@@ -465,8 +465,6 @@ INCLUDE "engine/movie/intro.asm"
 SECTION "bank3E", ROMX
 
 INCLUDE "engine/gfx/load_font.asm"
-INCLUDE "engine/events/play_slow_cry.asm"
-
 
 SECTION "bank3F", ROMX
 

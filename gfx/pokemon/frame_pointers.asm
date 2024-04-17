@@ -395,4 +395,14 @@ FramesPointers:
 	dba PiplupFrames
 	dba PrinplupFrames
 	dba EmpoleonFrames
+	dba StarlyFrames
+	dba StaraviaFrames
+	dba StaraptorFrames
+	dba BidoofFrames
+	dba BibarelFrames
+	dba KricketotFrames
+	dba KricketuneFrames
+	dba ShinxFrames
+	dba LuxioFrames
+	dba LuxrayFrames
 	assert_table_length NUM_POKEMON

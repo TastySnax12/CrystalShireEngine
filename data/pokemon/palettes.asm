@@ -823,4 +823,24 @@ INCBIN "gfx/pokemon/prinplup/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/prinplup/shiny.pal"
 INCBIN "gfx/pokemon/empoleon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/empoleon/shiny.pal"
+INCBIN "gfx/pokemon/starly/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/starly/shiny.pal"
+INCBIN "gfx/pokemon/staravia/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/staravia/shiny.pal"
+INCBIN "gfx/pokemon/staraptor/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/staraptor/shiny.pal"
+INCBIN "gfx/pokemon/bidoof/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/bidoof/shiny.pal"
+INCBIN "gfx/pokemon/bibarel/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/bibarel/shiny.pal"
+INCBIN "gfx/pokemon/kricketot/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/kricketot/shiny.pal"
+INCBIN "gfx/pokemon/kricketune/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/kricketune/shiny.pal"
+INCBIN "gfx/pokemon/shinx/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/shinx/shiny.pal"
+INCBIN "gfx/pokemon/luxio/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/luxio/shiny.pal"
+INCBIN "gfx/pokemon/luxray/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/luxray/shiny.pal"
 	assert_table_length NUM_POKEMON + 1

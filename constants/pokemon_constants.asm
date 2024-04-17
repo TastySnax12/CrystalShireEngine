@@ -417,6 +417,16 @@ DEF SINNOH_POKEMON EQU const_value
 	const PIPLUP     ; 189
 	const PRINPLUP   ; 18a
 	const EMPOLEON   ; 18b
+	const STARLY     ; 18c
+	const STARAVIA   ; 18d
+	const STARAPTOR  ; 18e
+	const BIDOOF     ; 18f
+	const BIBAREL    ; 190
+	const KRICKETOT  ; 191
+	const KRICKETUNE ; 192
+	const SHINX      ; 193
+	const LUXIO      ; 194
+	const LUXRAY     ; 195
 	
 DEF NUM_POKEMON EQU const_value - 1
 

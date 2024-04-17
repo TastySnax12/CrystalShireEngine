@@ -806,4 +806,24 @@ PokemonPicPointers::
 	dba PrinplupBackpic
 	dba EmpoleonFrontpic
 	dba EmpoleonBackpic
+	dba StarlyFrontpic
+	dba StarlyBackpic
+	dba StaraviaFrontpic
+	dba StaraviaBackpic
+	dba StaraptorFrontpic
+	dba StaraptorBackpic
+	dba BidoofFrontpic
+	dba BidoofBackpic
+	dba BibarelFrontpic
+	dba BibarelBackpic
+	dba KricketotFrontpic
+	dba KricketotBackpic
+	dba KricketuneFrontpic
+	dba KricketuneBackpic
+	dba ShinxFrontpic
+	dba ShinxBackpic
+	dba LuxioFrontpic
+	dba LuxioBackpic
+	dba LuxrayFrontpic
+	dba LuxrayBackpic
 	assert_table_length NUM_POKEMON + 1

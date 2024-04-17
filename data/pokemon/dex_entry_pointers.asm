@@ -396,4 +396,14 @@ PokedexDataPointerTable:
 	dba PiplupPokedexEntry
 	dba PrinplupPokedexEntry
 	dba EmpoleonPokedexEntry
+	dba StarlyPokedexEntry
+	dba StaraviaPokedexEntry
+	dba StaraptorPokedexEntry
+	dba BidoofPokedexEntry
+	dba BibarelPokedexEntry
+	dba KricketotPokedexEntry
+	dba KricketunePokedexEntry
+	dba ShinxPokedexEntry
+	dba LuxioPokedexEntry
+	dba LuxrayPokedexEntry
 	assert_table_length NUM_POKEMON

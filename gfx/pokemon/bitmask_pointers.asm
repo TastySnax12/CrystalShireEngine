@@ -395,4 +395,14 @@ BitmasksPointers:
 	dw PiplupBitmasks
 	dw PrinplupBitmasks
 	dw EmpoleonBitmasks
+	dw StarlyBitmasks
+	dw StaraviaBitmasks
+	dw StaraptorBitmasks
+	dw BidoofBitmasks
+	dw BibarelBitmasks
+	dw KricketotBitmasks
+	dw KricketuneBitmasks
+	dw ShinxBitmasks
+	dw LuxioBitmasks
+	dw LuxrayBitmasks
 	assert_table_length NUM_POKEMON
