@@ -367,6 +367,8 @@ ROMX $91
 	"Mon Icons 3"
 ROMX $92
 	"Pics 30"
+ROMX $93
+	"Mon Icons 4"
 WRAM0
 	"Stack"
 	"Audio RAM"

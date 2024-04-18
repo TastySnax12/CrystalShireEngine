@@ -274,9 +274,9 @@ IconPointers:
 	dba BeautiflyIcon
 	dba CascoonIcon
 	dba DustoxIcon
-	dba MagikarpIcon ; LOTAD
-	dba MagikarpIcon ; LOMBRE
-	dba MagikarpIcon ; LUDICOLO
+	dba LotadIcon
+	dba LombreIcon
+	dba LudicoloIcon
 	dba SeedotIcon
 	dba NuzleafIcon
 	dba ShiftryIcon
@@ -306,7 +306,7 @@ IconPointers:
 	dba NosepassIcon
 	dba SkittyIcon
 	dba DelcattyIcon
-	dba MagikarpIcon ; SABLEYE
+	dba SableyeIcon
 	dba MawileIcon
 	dba AronIcon
 	dba LaironIcon
@@ -341,7 +341,7 @@ IconPointers:
 	dba AltariaIcon
 	dba ZangooseIcon
 	dba MagikarpIcon ; SEVIPER
-	dba MagikarpIcon ; LUNATONE
+	dba LunatoneIcon
 	dba SolrockIcon
 	dba BarboachIcon
 	dba WhiscashIcon
@@ -386,7 +386,7 @@ IconPointers:
 	dba RegisteelIcon
 	dba MagikarpIcon ; LATIAS
 	dba LatiosIcon
-	dba MagikarpIcon ; KYOGRE
+	dba KyogreIcon
 	dba GroudonIcon
 	dba RayquazaIcon
 	dba JirachiIcon
@@ -407,15 +407,15 @@ IconPointers:
 	dba MagikarpIcon ; BIBAREL
 	dba MagikarpIcon ; KRICKETOT
 	dba MagikarpIcon ; KRICKETUNE
-	dba MagikarpIcon ; SHINX
-	dba MagikarpIcon ; LUXIO
-	dba MagikarpIcon ; LUXRAY
-	dba MagikarpIcon ; BUDEW
-	dba MagikarpIcon ; ROSERADE
-	dba MagikarpIcon ; CRANIDOS
-	dba MagikarpIcon ; RAMPARDOS
-	dba MagikarpIcon ; SHIELDON
-	dba MagikarpIcon ; BASTIODON
+	dba ShinxIcon
+	dba LuxioIcon
+	dba LuxrayIcon
+	dba BudewIcon
+	dba RoseradeIcon
+	dba CranidosIcon
+	dba RampardosIcon
+	dba ShieldonIcon
+	dba BastiodonIcon
 	dba MagikarpIcon ; BURMY
 	dba MagikarpIcon ; WORMADAM
 	dba MagikarpIcon ; MOTHIM
@@ -429,17 +429,17 @@ IconPointers:
 	dba MagikarpIcon ; SHELLOS
 	dba MagikarpIcon ; GASTRODON
 	dba MagikarpIcon ; AMBIPOM
-	dba MagikarpIcon ; DRIFLOON
-	dba MagikarpIcon ; DRIFBLIM
-	dba MagikarpIcon ; BUNEARY
-	dba MagikarpIcon ; LOPUNNY
-	dba MagikarpIcon ; MISMAGIUS
+	dba DrifloonIcon
+	dba DrifblimIcon
+	dba BunearyIcon
+	dba LopunnyIcon
+	dba MismagiusIcon
 	dba MagikarpIcon ; HONCHKROW
 	dba MagikarpIcon ; GLAMEOW
 	dba MagikarpIcon ; PURUGLY
-	dba MagikarpIcon ; CHINGLING
+	dba ChinglingIcon
 	dba MagikarpIcon ; STUNKY
 	dba MagikarpIcon ; SKUNTANK
-	dba MagikarpIcon ; BRONZOR
-	dba MagikarpIcon ; BRONZONG
+	dba BronzorIcon
+	dba BronzongIcon
 	assert_table_length NUM_POKEMON + 1
