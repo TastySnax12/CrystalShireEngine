@@ -256,141 +256,141 @@ IconPointers:
 	dba LugiaIcon
 	dba HoOhIcon
 	dba CelebiIcon
-	dba MagikarpIcon ; TREECKO
-	dba MagikarpIcon ; GROVYLE
-	dba MagikarpIcon ; SCEPTILE
-	dba MagikarpIcon ; TORCHIC
-	dba MagikarpIcon ; COMBUSKEN
-	dba MagikarpIcon ; BLAZIKEN
-	dba MagikarpIcon ; MUDKIP
-	dba MagikarpIcon ; MARSHTOMP
-	dba MagikarpIcon ; SWAMPERT
-	dba MagikarpIcon ; POOCHYENA
-	dba MagikarpIcon ; MIGHTYENA
-	dba MagikarpIcon ; ZIGZAGOON
-	dba MagikarpIcon ; LINOONE
-	dba MagikarpIcon ; WURMPLE
-	dba MagikarpIcon ; SILCOON
-	dba MagikarpIcon ; BEAUTIFLY
-	dba MagikarpIcon ; CASCOON
-	dba MagikarpIcon ; DUSTOX
+	dba TreeckoIcon
+	dba GrovyleIcon
+	dba SceptileIcon
+	dba TorchicIcon
+	dba CombuskenIcon
+	dba BlazikenIcon
+	dba MudkipIcon
+	dba MarshtompIcon
+	dba SwampertIcon
+	dba PoochyenaIcon
+	dba MightyenaIcon
+	dba ZigzagoonIcon
+	dba LinooneIcon
+	dba WurmpleIcon
+	dba SilcoonIcon
+	dba BeautiflyIcon
+	dba CascoonIcon
+	dba DustoxIcon
 	dba MagikarpIcon ; LOTAD
 	dba MagikarpIcon ; LOMBRE
 	dba MagikarpIcon ; LUDICOLO
-	dba MagikarpIcon ; SEEDOT
-	dba MagikarpIcon ; NUZLEAF
-	dba MagikarpIcon ; SHIFTRY
-	dba MagikarpIcon ; TAILLOW
-	dba MagikarpIcon ; SWELLOW
-	dba MagikarpIcon ; WINGULL
-	dba MagikarpIcon ; PELIPPER
-	dba MagikarpIcon ; RALTS
-	dba MagikarpIcon ; KIRLIA
-	dba MagikarpIcon ; GARDEVOIR
-	dba MagikarpIcon ; SURSKIT
-	dba MagikarpIcon ; MASQUERAIN
-	dba MagikarpIcon ; SHROOMISH
-	dba MagikarpIcon ; BRELOOM
-	dba MagikarpIcon ; SLAKOTH
-	dba MagikarpIcon ; VIGOROTH
-	dba MagikarpIcon ; SLAKING
-	dba MagikarpIcon ; NINCADA
-	dba MagikarpIcon ; NINJASK
-	dba MagikarpIcon ; SHEDINJA
-	dba MagikarpIcon ; WHISMUR
-	dba MagikarpIcon ; LOUDRED
-	dba MagikarpIcon ; EXPLOUD
-	dba MagikarpIcon ; MAKUHITA
-	dba MagikarpIcon ; HARIYAMA
-	dba MagikarpIcon ; AZURILL
-	dba MagikarpIcon ; NOSEPASS
-	dba MagikarpIcon ; SKITTY
-	dba MagikarpIcon ; DELCATTY
+	dba SeedotIcon
+	dba NuzleafIcon
+	dba ShiftryIcon
+	dba TaillowIcon
+	dba SwellowIcon
+	dba WingullIcon
+	dba PelipperIcon
+	dba RaltsIcon
+	dba KirliaIcon
+	dba GardevoirIcon
+	dba SurskitIcon
+	dba MasquerainIcon
+	dba ShroomishIcon
+	dba BreloomIcon
+	dba SlakothIcon
+	dba VigorothIcon
+	dba SlakingIcon
+	dba NincadaIcon
+	dba NinjaskIcon
+	dba ShedinjaIcon
+	dba WhismurIcon
+	dba LoudredIcon
+	dba ExploudIcon
+	dba MakuhitaIcon
+	dba HariyamaIcon
+	dba AzurillIcon
+	dba NosepassIcon
+	dba SkittyIcon
+	dba DelcattyIcon
 	dba MagikarpIcon ; SABLEYE
-	dba MagikarpIcon ; MAWILE
-	dba MagikarpIcon ; ARON
-	dba MagikarpIcon ; LAIRON
-	dba MagikarpIcon ; AGGRON
-	dba MagikarpIcon ; MEDITITE
-	dba MagikarpIcon ; MEDICHAM
-	dba MagikarpIcon ; ELECTRIKE
-	dba MagikarpIcon ; MANECTRIC
-	dba MagikarpIcon ; PLUSLE
-	dba MagikarpIcon ; MINUN
-	dba MagikarpIcon ; VOLBEAT
-	dba MagikarpIcon ; ILLUMISE
-	dba MagikarpIcon ; ROSELIA
-	dba MagikarpIcon ; GULPIN
-	dba MagikarpIcon ; SWALOT
-	dba MagikarpIcon ; CARVANHA
-	dba MagikarpIcon ; SHARPEDO
-	dba MagikarpIcon ; WAILMER
-	dba MagikarpIcon ; WAILORD
-	dba MagikarpIcon ; NUMEL
-	dba MagikarpIcon ; CAMERUPT
-	dba MagikarpIcon ; TORKOAL
-	dba MagikarpIcon ; SPOINK
-	dba MagikarpIcon ; GRUMPIG
-	dba MagikarpIcon ; SPINDA
-	dba MagikarpIcon ; TRAPINCH
-	dba MagikarpIcon ; VIBRAVA
-	dba MagikarpIcon ; FLYGON
-	dba MagikarpIcon ; CACNEA
-	dba MagikarpIcon ; CACTURNE
-	dba MagikarpIcon ; SWABLU
-	dba MagikarpIcon ; ALTARIA
-	dba MagikarpIcon ; ZANGOOSE
+	dba MawileIcon
+	dba AronIcon
+	dba LaironIcon
+	dba AggronIcon
+	dba MedititeIcon
+	dba MedichamIcon
+	dba ElectrikeIcon
+	dba ManectricIcon
+	dba PlusleIcon
+	dba MinunIcon
+	dba VolbeatIcon
+	dba IllumiseIcon
+	dba RoseliaIcon
+	dba GulpinIcon
+	dba SwalotIcon
+	dba CarvanhaIcon
+	dba SharpedoIcon
+	dba WailmerIcon
+	dba WailordIcon
+	dba NumelIcon
+	dba CameruptIcon
+	dba TorkoalIcon
+	dba SpoinkIcon
+	dba GrumpigIcon
+	dba SpindaIcon
+	dba TrapinchIcon
+	dba VibravaIcon
+	dba FlygonIcon
+	dba CacneaIcon
+	dba CacturneIcon
+	dba SwabluIcon
+	dba AltariaIcon
+	dba ZangooseIcon
 	dba MagikarpIcon ; SEVIPER
 	dba MagikarpIcon ; LUNATONE
-	dba MagikarpIcon ; SOLROCK
-	dba MagikarpIcon ; BARBOACH
-	dba MagikarpIcon ; WHISCASH
-	dba MagikarpIcon ; CORPHISH
-	dba MagikarpIcon ; CRAWDAUNT
-	dba MagikarpIcon ; BALTOY
-	dba MagikarpIcon ; CLAYDOL
-	dba MagikarpIcon ; LILEEP
-	dba MagikarpIcon ; CRADILY
-	dba MagikarpIcon ; ANORITH
-	dba MagikarpIcon ; ARMALDO
-	dba MagikarpIcon ; FEEBAS
-	dba MagikarpIcon ; MILOTIC
-	dba MagikarpIcon ; CASTFORM
-	dba MagikarpIcon ; KECLEON
-	dba MagikarpIcon ; SHUPPET
-	dba MagikarpIcon ; BANETTE
-	dba MagikarpIcon ; DUSKULL
-	dba MagikarpIcon ; DUSCLOPS
-	dba MagikarpIcon ; TROPIUS
-	dba MagikarpIcon ; CHIMECHO
-	dba MagikarpIcon ; ABSOL
-	dba MagikarpIcon ; WYNAUT
-	dba MagikarpIcon ; SNORUNT
-	dba MagikarpIcon ; GLALIE
-	dba MagikarpIcon ; SPHEAL
-	dba MagikarpIcon ; SEALEO
-	dba MagikarpIcon ; WALREIN
-	dba MagikarpIcon ; CLAMPERL
-	dba MagikarpIcon ; HUNTAIL
-	dba MagikarpIcon ; GOREBYSS
-	dba MagikarpIcon ; RELICANTH
-	dba MagikarpIcon ; LUVDISC
-	dba MagikarpIcon ; BAGON
-	dba MagikarpIcon ; SHELGON
-	dba MagikarpIcon ; SALAMENCE
-	dba MagikarpIcon ; BELDUM
-	dba MagikarpIcon ; METANG
-	dba MagikarpIcon ; METAGROSS
-	dba MagikarpIcon ; REGIROCK
-	dba MagikarpIcon ; REGICE
-	dba MagikarpIcon ; REGISTEEL
+	dba SolrockIcon
+	dba BarboachIcon
+	dba WhiscashIcon
+	dba CorphishIcon
+	dba CrawdauntIcon
+	dba BaltoyIcon
+	dba ClaydolIcon
+	dba LileepIcon
+	dba CradilyIcon
+	dba AnorithIcon
+	dba ArmaldoIcon
+	dba FeebasIcon
+	dba MiloticIcon
+	dba CastformIcon
+	dba KecleonIcon
+	dba ShuppetIcon
+	dba BanetteIcon
+	dba DuskullIcon
+	dba DusclopsIcon
+	dba TropiusIcon
+	dba ChimechoIcon
+	dba AbsolIcon
+	dba WynautIcon
+	dba SnoruntIcon
+	dba GlalieIcon
+	dba SphealIcon
+	dba SealeoIcon
+	dba WalreinIcon
+	dba ClamperlIcon
+	dba HuntailIcon
+	dba GorebyssIcon
+	dba RelicanthIcon
+	dba LuvdiscIcon
+	dba BagonIcon
+	dba ShelgonIcon
+	dba SalamenceIcon
+	dba BeldumIcon
+	dba MetangIcon
+	dba MetagrossIcon
+	dba RegirockIcon
+	dba RegiceIcon
+	dba RegisteelIcon
 	dba MagikarpIcon ; LATIAS
-	dba MagikarpIcon ; LATIOS
+	dba LatiosIcon
 	dba MagikarpIcon ; KYOGRE
-	dba MagikarpIcon ; GROUDON
-	dba MagikarpIcon ; RAYQUAZA
-	dba MagikarpIcon ; JIRACHI
-	dba MagikarpIcon ; DEOXYS
+	dba GroudonIcon
+	dba RayquazaIcon
+	dba JirachiIcon
+	dba DeoxysIcon
 	dba MagikarpIcon ; TURTWIG
 	dba MagikarpIcon ; GROTLE
 	dba MagikarpIcon ; TORTERRA

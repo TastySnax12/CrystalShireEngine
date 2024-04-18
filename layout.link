@@ -363,6 +363,8 @@ ROMX $8f
 	"Evolutions and Attacks 4"
 ROMX $90
 	"Pics 29"
+ROMX $91
+	"Mon Icons 3"
 WRAM0
 	"Stack"
 	"Audio RAM"
