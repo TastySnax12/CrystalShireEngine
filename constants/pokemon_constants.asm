@@ -436,6 +436,15 @@ DEF SINNOH_POKEMON EQU const_value
 	const BURMY      ; 19c
 	const WORMADAM   ; 19d
 	const MOTHIM     ; 19e
+	const COMBEE     ; 19f
+	const VESPIQUEN  ; 200
+	const PACHIRISU  ; 201
+	const BUIZEL     ; 202
+	const FLOATZEL   ; 203
+	const CHERUBI    ; 204
+	const CHERRIM    ; 205
+	const SHELLOS    ; 206
+	const GASTRODON  ; 207
 	
 DEF NUM_POKEMON EQU const_value - 1
 

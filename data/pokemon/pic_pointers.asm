@@ -844,4 +844,22 @@ PokemonPicPointers::
 	dba WormadamBackpic
 	dba MothimFrontpic
 	dba MothimBackpic
+	dba CombeeFrontpic
+	dba CombeeBackpic
+	dba VespiquenFrontpic
+	dba VespiquenBackpic
+	dba PachirisuFrontpic
+	dba PachirisuBackpic
+	dba BuizelFrontpic
+	dba BuizelBackpic
+	dba FloatzelFrontpic
+	dba FloatzelBackpic
+	dba CherubiFrontpic
+	dba CherubiBackpic
+	dba CherrimFrontpic
+	dba CherrimBackpic
+	dba ShellosFrontpic
+	dba ShellosBackpic
+	dba GastrodonFrontpic
+	dba GastrodonBackpic
 	assert_table_length NUM_POKEMON + 1

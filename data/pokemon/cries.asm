@@ -420,4 +420,13 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; BURMY
 	mon_cry CRY_RATTATA,       0,  0   ; WORMADAM
 	mon_cry CRY_RATTATA,       0,  0   ; MOTHIM
+	mon_cry CRY_RATTATA,       0,  0   ; COMBEE
+	mon_cry CRY_RATTATA,       0,  0   ; VESPIQUEN
+	mon_cry CRY_RATTATA,       0,  0   ; PACHIRISU
+	mon_cry CRY_RATTATA,       0,  0   ; BUIZEL
+	mon_cry CRY_RATTATA,       0,  0   ; FLOATZEL
+	mon_cry CRY_RATTATA,       0,  0   ; CHERUBI
+	mon_cry CRY_RATTATA,       0,  0   ; CHERRIM
+	mon_cry CRY_RATTATA,       0,  0   ; SHELLOS
+	mon_cry CRY_RATTATA,       0,  0   ; GASTRODON
 	assert_table_length NUM_POKEMON

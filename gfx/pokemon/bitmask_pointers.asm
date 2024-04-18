@@ -414,4 +414,13 @@ BitmasksPointers:
 	dw BurmyBitmasks
 	dw WormadamBitmasks
 	dw MothimBitmasks
+	dw CombeeBitmasks
+	dw VespiquenBitmasks
+	dw PachirisuBitmasks
+	dw BuizelBitmasks
+	dw FloatzelBitmasks
+	dw CherubiBitmasks
+	dw CherrimBitmasks
+	dw ShellosBitmasks
+	dw GastrodonBitmasks
 	assert_table_length NUM_POKEMON

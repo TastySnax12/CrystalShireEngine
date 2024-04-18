@@ -414,4 +414,13 @@ AnimationPointers:
 	dw BurmyAnimation
 	dw WormadamAnimation
 	dw MothimAnimation
+	dw CombeeAnimation
+	dw VespiquenAnimation
+	dw PachirisuAnimation
+	dw BuizelAnimation
+	dw FloatzelAnimation
+	dw CherubiAnimation
+	dw CherrimAnimation
+	dw ShellosAnimation
+	dw GastrodonAnimation
 	assert_table_length NUM_POKEMON

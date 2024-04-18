@@ -29,15 +29,15 @@ EvosAttacksPointers4::
 	dw BurmyEvosAttacks
 	dw WormadamEvosAttacks
 	dw MothimEvosAttacks
-	; dw CombeeEvosAttacks
-	; dw VespiquenEvosAttacks
-	; dw PachirisuEvosAttacks
-	; dw BuizelEvosAttacks
-	; dw FloatzelEvosAttacks
-	; dw CherubiEvosAttacks
-	; dw CherrimEvosAttacks
-	; dw ShellosEvosAttacks
-	; dw GastrodonEvosAttacks
+	dw CombeeEvosAttacks
+	dw VespiquenEvosAttacks
+	dw PachirisuEvosAttacks
+	dw BuizelEvosAttacks
+	dw FloatzelEvosAttacks
+	dw CherubiEvosAttacks
+	dw CherrimEvosAttacks
+	dw ShellosEvosAttacks
+	dw GastrodonEvosAttacks
 	; dw AmbipomEvosAttacks
 	; dw DrifloonEvosAttacks
 	; dw DrifblimEvosAttacks
@@ -248,145 +248,50 @@ MothimEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; CombeeEvosAttacks:
-	; dbbw EVOLVE_LEVEL_AND_FEMALE, 21, VESPIQUEN
-	; db 0 ; no more evolutions
-	; dbw 1, GUST
-	; dbw 1, SWEET_SCENT
-	; dbw 13, BUG_BITE
-	; db 0 ; no more level-up moves
+CombeeEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; VespiquenEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GUST
-	; dbw 1, SWEET_SCENT
-	; dbw 3, POISON_STING
-	; dbw 7, CONFUSE_RAY
-	; dbw 9, FURY_CUTTER
-	; dbw 13, DEFEND_ORDER
-	; dbw 15, PURSUIT
-	; dbw 19, FURY_SWIPES
-	; dbw 21, POWER_GEM
-	; dbw 25, HEAL_ORDER
-	; dbw 27, TOXIC
-	; dbw 31, SLASH
-	; dbw 33, CAPTIVATE
-	; dbw 37, ATTACK_ORDER
-	; dbw 39, SWAGGER
-	; dbw 43, DESTINY_BOND
-	; db 0 ; no more level-up moves
+VespiquenEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; PachirisuEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, BIDE
-	; dbw 5, QUICK_ATTACK
-	; dbw 9, CHARM
-	; dbw 13, SPARK
-	; dbw 17, ENDURE
-	; dbw 21, SWIFT
-	; dbw 25, SWEET_KISS
-	; dbw 29, DISCHARGE
-	; dbw 33, SUPER_FANG
-	; dbw 37, LAST_RESORT
-	; db 0 ; no more level-up moves
+PachirisuEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BuizelEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 26, FLOATZEL
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, SONICBOOM
-	; dbw 1, WATER_SPORT
-	; dbw 3, QUICK_ATTACK
-	; dbw 6, WATER_GUN
-	; dbw 10, PURSUIT
-	; dbw 15, SWIFT
-	; dbw 21, AQUA_JET
-	; dbw 28, AGILITY
-	; dbw 36, WHIRLPOOL
-	; dbw 45, RAZOR_WIND
-	; db 0 ; no more level-up moves
+BuizelEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; FloatzelEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, SONICBOOM
-	; dbw 1, QUICK_ATTACK
-	; dbw 1, WATER_SPORT
-	; dbw 1, ICE_FANG
-	; dbw 3, QUICK_ATTACK
-	; dbw 6, WATER_GUN
-	; dbw 10, PURSUIT
-	; dbw 15, SWIFT
-	; dbw 21, AQUA_JET
-	; dbw 26, CRUNCH
-	; dbw 29, AGILITY
-	; dbw 39, WHIRLPOOL
-	; dbw 50, RAZOR_WIND
-	; db 0 ; no more level-up moves
+FloatzelEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CherubiEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 25, CHERUBI
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 7, GROWTH
-	; dbw 10, LEECH_SEED
-	; dbw 13, HELPING_HAND
-	; dbw 19, MAGICAL_LEAF
-	; dbw 22, SUNNY_DAY
-	; dbw 28, WORRY_SEED
-	; dbw 31, TAKE_DOWN
-	; dbw 37, SOLARBEAM
-	; dbw 40, LUCKY_CHANT
-	; db 0 ; no more level-up moves
+CherubiEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CherrimEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, GROWTH
-	; dbw 7, GROWTH
-	; dbw 10, LEECH_SEED
-	; dbw 13, HELPING_HAND
-	; dbw 19, MAGICAL_LEAF
-	; dbw 22, SUNNY_DAY
-	; dbw 25, PETAL_DANCE
-	; dbw 30, WORRY_SEED
-	; dbw 35, TAKE_DOWN
-	; dbw 43, SOLARBEAM
-	; dbw 48, LUCKY_CHANT
-	; db 0 ; no more level-up moves
+CherrimEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShellosEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 30, GASTRODON
-	; db 0 ; no more evolutions
-	; dbw 1, MUD_SLAP
-	; dbw 2, MUD_SPORT
-	; dbw 4, HARDEN
-	; dbw 7, WATER_PULSE
-	; dbw 11, MUD_BOMB
-	; dbw 16, HIDDEN_POWER
-	; dbw 22, RAIN_DANCE
-	; dbw 29, BODY_SLAM
-	; dbw 37, MUDDY_WATER
-	; dbw 46, RECOVER
-	; db 0 ; no more level-up moves
+ShellosEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GastrodonEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, HARDEN
-	; dbw 1, MUD_SLAP
-	; dbw 1, MUD_SPORT
-	; dbw 1, WATER_PULSE
-	; dbw 2, MUD_SPORT
-	; dbw 4, HARDEN
-	; dbw 7, WATER_PULSE
-	; dbw 11, MUD_BOMB
-	; dbw 16, HIDDEN_POWER
-	; dbw 22, RAIN_DANCE
-	; dbw 29, BODY_SLAM
-	; dbw 41, MUDDY_WATER
-	; dbw 54, RECOVER
-	; db 0 ; no more level-up moves
+GastrodonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; AmbipomEvosAttacks:
 	; db 0 ; no more evolutions

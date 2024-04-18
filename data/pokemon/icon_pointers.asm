@@ -419,4 +419,13 @@ IconPointers:
 	dba MagikarpIcon ; BURMY
 	dba MagikarpIcon ; WORMADAM
 	dba MagikarpIcon ; MOTHIM
+	dba MagikarpIcon ; COMBEE
+	dba MagikarpIcon ; VESPIQUEN
+	dba MagikarpIcon ; PACHIRISU
+	dba MagikarpIcon ; BUIZEL
+	dba MagikarpIcon ; FLOATZEL
+	dba MagikarpIcon ; CHERUBI
+	dba MagikarpIcon ; CHERRIM
+	dba MagikarpIcon ; SHELLOS
+	dba MagikarpIcon ; GASTRODON
 	assert_table_length NUM_POKEMON + 1

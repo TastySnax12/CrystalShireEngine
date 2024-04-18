@@ -37,6 +37,7 @@ AlphabeticalPokedexOrder:
 	dw BLISSEY
 	dw BRELOOM
 	dw BUDEW
+	dw BUIZEL
 	dw BULBASAUR
 	dw BURMY
 	dw BUTTERFREE
@@ -52,6 +53,8 @@ AlphabeticalPokedexOrder:
 	dw CHARIZARD
 	dw CHARMANDER
 	dw CHARMELEON
+	dw CHERRIM
+	dw CHERUBI
 	dw CHIKORITA
 	dw CHIMCHAR
 	dw CHIMECHO
@@ -62,6 +65,7 @@ AlphabeticalPokedexOrder:
 	dw CLEFAIRY
 	dw CLEFFA
 	dw CLOYSTER
+	dw COMBEE
 	dw COMBUSKEN
 	dw CORPHISH
 	dw CORSOLA
@@ -108,11 +112,13 @@ AlphabeticalPokedexOrder:
 	dw FERALIGATR
 	dw FLAAFFY
 	dw FLAREON
+	dw FLOATZEL
 	dw FLYGON
 	dw FORRETRESS
 	dw FURRET
 	dw GARDEVOIR
 	dw GASTLY
+	dw GASTRODON
 	dw GENGAR
 	dw GEODUDE
 	dw GIRAFARIG
@@ -250,6 +256,7 @@ AlphabeticalPokedexOrder:
 	dw OMANYTE
 	dw OMASTAR
 	dw ONIX
+	dw PACHIRISU
 	dw PARAS
 	dw PARASECT
 	dw PELIPPER
@@ -315,6 +322,7 @@ AlphabeticalPokedexOrder:
 	dw SHEDINJA
 	dw SHELGON
 	dw SHELLDER
+	dw SHELLOS
 	dw SHIELDON
 	dw SHIFTRY
 	dw SHINX
@@ -387,6 +395,7 @@ AlphabeticalPokedexOrder:
 	dw VENOMOTH
 	dw VENONAT
 	dw VENUSAUR
+	dw VESPIQUEN
 	dw VIBRAVA
 	dw VICTREEBEL
 	dw VIGOROTH

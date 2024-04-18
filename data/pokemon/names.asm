@@ -418,4 +418,13 @@ PokemonNames::
 	db "BURMY@@@@@"
 	db "WORMADAM@@"
 	db "MOTHIM@@@@"
+	db "COMBEE@@@@"
+	db "VESPIQUEN@"
+	db "PACHIRISU@"
+	db "BUIZEL@@@@"
+	db "FLOATZEL@@"
+	db "CHERUBI@@@"
+	db "CHERRIM@@@"
+	db "SHELLOS@@@"
+	db "GASTRODON@"
 	assert_table_length NUM_POKEMON

@@ -414,4 +414,13 @@ FramesPointers:
 	dba BurmyFrames
 	dba WormadamFrames
 	dba MothimFrames
+	dba CombeeFrames
+	dba VespiquenFrames
+	dba PachirisuFrames
+	dba BuizelFrames
+	dba FloatzelFrames
+	dba CherubiFrames
+	dba CherrimFrames
+	dba ShellosFrames
+	dba GastrodonFrames
 	assert_table_length NUM_POKEMON

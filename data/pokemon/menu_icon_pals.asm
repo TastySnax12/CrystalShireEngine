@@ -424,4 +424,13 @@ MonMenuIconPals:
 	icon_pals GREEN,  GREEN  ; BURMY
 	icon_pals GREEN,  GREEN  ; WORMADAM
 	icon_pals RED,    BLUE   ; MOTHIM
+	icon_pals BROWN,  RED    ; COMBEE
+	icon_pals BROWN,  RED    ; VESPIQUEN
+	icon_pals TEAL,   PINK   ; PACHIRISU
+	icon_pals RED,    BROWN  ; BUIZEL
+	icon_pals RED,    BROWN  ; FLOATZEL
+	icon_pals RED,    PINK   ; CHERUBI
+	icon_pals PURPLE, TEAL   ; CHERRIM
+	icon_pals PURPLE, PINK   ; SHELLOS
+	icon_pals PURPLE, PINK   ; GASTRODON
 	assert_table_length NUM_POKEMON

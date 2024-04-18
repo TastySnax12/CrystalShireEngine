@@ -415,4 +415,13 @@ PokedexDataPointerTable:
 	dba BurmyPokedexEntry
 	dba WormadamPokedexEntry
 	dba MothimPokedexEntry
+	dba CombeePokedexEntry
+	dba VespiquenPokedexEntry
+	dba PachirisuPokedexEntry
+	dba BuizelPokedexEntry
+	dba FloatzelPokedexEntry
+	dba CherubiPokedexEntry
+	dba CherrimPokedexEntry
+	dba ShellosPokedexEntry
+	dba GastrodonPokedexEntry
 	assert_table_length NUM_POKEMON

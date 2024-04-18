@@ -416,4 +416,13 @@ NewPokedexOrder:
 	dw BURMY
 	dw WORMADAM
 	dw MOTHIM
+	dw COMBEE
+	dw VESPIQUEN
+	dw PACHIRISU
+	dw BUIZEL
+	dw FLOATZEL
+	dw CHERUBI
+	dw CHERRIM
+	dw SHELLOS
+	dw GASTRODON
 	assert_table_length NUM_POKEMON

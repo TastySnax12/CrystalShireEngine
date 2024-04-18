@@ -414,4 +414,13 @@ AnimationIdlePointers:
 	dw BurmyAnimationIdle
 	dw WormadamAnimationIdle
 	dw MothimAnimationIdle
+	dw CombeeAnimationIdle
+	dw VespiquenAnimationIdle
+	dw PachirisuAnimationIdle
+	dw BuizelAnimationIdle
+	dw FloatzelAnimationIdle
+	dw CherubiAnimationIdle
+	dw CherrimAnimationIdle
+	dw ShellosAnimationIdle
+	dw GastrodonAnimationIdle
 	assert_table_length NUM_POKEMON

@@ -29,15 +29,15 @@ EggMovePointers4::
 	dw NoEggMoves4
 	dw NoEggMoves4
 	dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw PachirisuEggMoves
-	; dw BuizelEggMoves
-	; dw NoEggMoves4
-	; dw CherubiEggMoves
-	; dw NoEggMoves4
-	; dw ShellosEggMoves
-	; dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw PachirisuEggMoves
+	dw BuizelEggMoves
+	dw NoEggMoves4
+	dw CherubiEggMoves
+	dw NoEggMoves4
+	dw ShellosEggMoves
+	dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw DrifloonEggMoves
 	; dw NoEggMoves4
@@ -221,7 +221,7 @@ ShieldonEggMoves:
 	; dw SCREECH
 	dw -1 ; end
 	
-; PachirisuEggMoves:
+PachirisuEggMoves:
 	; dw BITE
 	; dw COVET
 	; dw DEFENSE_CURL
@@ -229,9 +229,9 @@ ShieldonEggMoves:
 	; dw FLAIL
 	; dw FLATTER
 	; dw ROLLOUT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; BuizelEggMoves:
+BuizelEggMoves:
 	; dw BATON_PASS
 	; dw DOUBLESLAP
 	; dw FURY_CUTTER
@@ -240,9 +240,9 @@ ShieldonEggMoves:
 	; dw MUD_SLAP
 	; dw ODOR_SLEUTH
 	; dw SLASH
-	; dw -1 ; end
+	dw -1 ; end
 
-; CherubiEggMoves:
+CherubiEggMoves:
 	; dw AROMATHERAPY
 	; dw GRASSWHISTLE
 	; dw NATURE_POWER
@@ -250,9 +250,9 @@ ShieldonEggMoves:
 	; dw SWEET_SCENT
 	; dw TICKLE
 	; dw WEATHER_BALL
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ShellosEggMoves:
+ShellosEggMoves:
 	; dw AMNESIA
 	; dw COUNTER
 	; dw CURSE
@@ -265,7 +265,7 @@ ShieldonEggMoves:
 	; dw SWALLOW
 	; dw TRUMP_CARD
 	; dw YAWN
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; DrifloonEggMoves:
 	; dw BODY_SLAM

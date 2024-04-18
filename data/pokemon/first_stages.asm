@@ -415,4 +415,13 @@ FirstEvoStages::
 	dw BURMY
 	dw BURMY
 	dw BURMY
+	dw COMBEE
+	dw COMBEE
+	dw PACHIRISU
+	dw BUIZEL
+	dw BUIZEL
+	dw CHERUBI
+	dw CHERUBI
+	dw SHELLOS
+	dw SHELLOS
 	assert_table_length NUM_POKEMON
