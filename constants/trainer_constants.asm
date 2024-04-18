@@ -48,6 +48,9 @@ DEF KRIS EQU __trainer_class__
 	const RIVAL1_1_TURTWIG
 	const RIVAL1_1_CHIMCHAR
 	const RIVAL1_1_PIPLUP
+	const RIVAL1_2_TURTWIG
+	const RIVAL1_2_CHIMCHAR
+	const RIVAL1_2_PIPLUP
 
 	trainerclass POKEMON_PROF ; a
 
@@ -76,6 +79,9 @@ DEF KRIS EQU __trainer_class__
 	trainerclass YOUNGSTER ; 16
 	const TRISTAN1
 	const LOGAN
+	const MICHAEL
+	const DALLAS1
+	const BASTIAN
 
 	trainerclass SCHOOLBOY ; 17
 	const HARRISON
@@ -84,6 +90,8 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass LASS ; 19
 	const NATALIE
+	const KAITLIN
+	const MADELINE1
 
 	trainerclass JANINE ; 1a
 

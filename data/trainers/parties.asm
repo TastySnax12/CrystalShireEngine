@@ -44,6 +44,30 @@ Rival1Group:
 	dw PIPLUP
 	db -1 ; end
 
+	next_list_item ; RIVAL1 (4)
+	db "?@", TRAINERTYPE_NORMAL
+	db 7
+	dw STARLY
+	db 9
+	dw TURTWIG
+	db -1 ; end
+
+	next_list_item ; RIVAL1 (5)
+	db "?@", TRAINERTYPE_NORMAL
+	db 7
+	dw STARLY
+	db 9
+	dw CHIMCHAR
+	db -1 ; end
+
+	next_list_item ; RIVAL1 (6)
+	db "?@", TRAINERTYPE_NORMAL
+	db 7
+	dw STARLY
+	db 9
+	dw PIPLUP
+	db -1 ; end
+
 	end_list_items
 
 PokemonProfGroup:
@@ -71,16 +95,36 @@ ScientistGroup:
 ErikaGroup:
 
 YoungsterGroup:
-	next_list_item ; TRISTAN (1)
+	next_list_item ; YOUNGSTER (1)
 	db "TRISTAN@", TRAINERTYPE_NORMAL
 	db 5
 	dw STARLY
 	db -1 ; end
 
-	next_list_item ; LOGAN (2)
+	next_list_item ; YOUNGSTER (2)
 	db "LOGAN@", TRAINERTYPE_NORMAL
 	db 5
 	dw SHINX
+	db -1 ; end
+
+	next_list_item ; YOUNGSTER (3)
+	db "MICHAEL@", TRAINERTYPE_NORMAL
+	db 7
+	dw KRICKETOT
+	db 6
+	dw ZUBAT
+	db -1 ; end
+
+	next_list_item ; YOUNGSTER (4)
+	db "DALLAS@", TRAINERTYPE_NORMAL
+	db 8
+	dw SHINX
+	db -1 ; end
+
+	next_list_item ; YOUNGSTER (5)
+	db "BASTIAN@", TRAINERTYPE_NORMAL
+	db 8
+	dw MACHOP
 	db -1 ; end
 
 	end_list_items
@@ -99,7 +143,7 @@ SchoolboyGroup:
 BirdKeeperGroup:
 
 LassGroup:
-	next_list_item ; NATALIE (1)
+	next_list_item ; LASS (1)
 	db "NATALIE@", TRAINERTYPE_NORMAL
 	db 3
 	dw BIDOOF
@@ -107,6 +151,23 @@ LassGroup:
 	dw BIDOOF
 	db -1 ; end
 
+	next_list_item ; LASS (1)
+	db "KAITLIN@", TRAINERTYPE_NORMAL
+	db 4
+	dw BIDOOF
+	db 4
+	dw BUDEW
+	db 4
+	dw STARLY
+	db 4
+	dw ABRA
+	db -1 ; end
+
+	next_list_item ; LASS (1)
+	db "MADELINE@", TRAINERTYPE_NORMAL
+	db 8
+	dw PSYDUCK
+	db -1 ; end
 	end_list_items
 
 JanineGroup:
@@ -123,9 +184,9 @@ GruntMGroup:
 	next_list_item ; GRUNTM (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 11
-	dw GRIMER ; STUNKY
+	dw STUNKY
 	db 11
-	dw MEOWTH ; GLAMEOW
+	dw GLAMEOW
 	db -1 ; end
 
 	end_list_items

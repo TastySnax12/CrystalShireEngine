@@ -521,44 +521,44 @@ JohtoGrassWildMons:
 	def_grass_wildmons VALLEY_WINDWORKS
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw  9, RATTATA ;SHELLOS
+	dbw  9, SHELLOS
 	dbw 10, SHINX
-	dbw  9, RATTATA ;BUIZEL
-	dbw 10, RATTATA ;SHELLOS
-	dbw 10, RATTATA ;BUIZEL
-	dbw 11, RATTATA ;SHELLOS
-	dbw  9, RATTATA ;PACHIRISU
-	dbw 11, RATTATA ;PACHIRISU
-	dbw 11, RATTATA ;BUIZEL
-	dbw 12, RATTATA ;SHELLOS
-	dbw 11, RATTATA ;BUIZEL
-	dbw 12, RATTATA ;SHELLOS
+	dbw  9, BUIZEL
+	dbw 10, SHELLOS
+	dbw 10, BUIZEL
+	dbw 11, SHELLOS
+	dbw  9, PACHIRISU
+	dbw 11, PACHIRISU
+	dbw 11, BUIZEL
+	dbw 12, SHELLOS
+	dbw 11, BUIZEL
+	dbw 12, SHELLOS
 	;day
-	dbw  9, RATTATA ;SHELLOS
+	dbw  9, SHELLOS
 	dbw 10, SHINX
-	dbw  9, RATTATA ;BUIZEL
-	dbw 10, RATTATA ;SHELLOS
-	dbw 10, RATTATA ;BUIZEL
-	dbw 11, RATTATA ;SHELLOS
-	dbw  9, RATTATA ;PACHIRISU
-	dbw 11, RATTATA ;PACHIRISU
-	dbw 11, RATTATA ;BUIZEL
-	dbw 12, RATTATA ;SHELLOS
-	dbw 11, RATTATA ;BUIZEL
-	dbw 12, RATTATA ;SHELLOS
+	dbw  9, BUIZEL
+	dbw 10, SHELLOS
+	dbw 10, BUIZEL
+	dbw 11, SHELLOS
+	dbw  9, PACHIRISU
+	dbw 11, PACHIRISU
+	dbw 11, BUIZEL
+	dbw 12, SHELLOS
+	dbw 11, BUIZEL
+	dbw 12, SHELLOS
 	;nite
-	dbw  9, RATTATA ;SHELLOS
+	dbw  9, SHELLOS
 	dbw 10, SHINX
-	dbw  9, RATTATA ;BUIZEL
-	dbw 10, RATTATA ;SHELLOS
-	dbw 10, RATTATA ;BUIZEL
-	dbw 11, RATTATA ;SHELLOS
-	dbw  9, RATTATA ;PACHIRISU
-	dbw 11, RATTATA ;PACHIRISU
-	dbw 11, RATTATA ;BUIZEL
-	dbw 12, RATTATA ;SHELLOS
-	dbw 11, RATTATA ;BUIZEL
-	dbw 12, RATTATA ;SHELLOS
+	dbw  9, BUIZEL
+	dbw 10, SHELLOS
+	dbw 10, BUIZEL
+	dbw 11, SHELLOS
+	dbw  9, PACHIRISU
+	dbw 11, PACHIRISU
+	dbw 11, BUIZEL
+	dbw 12, SHELLOS
+	dbw 11, BUIZEL
+	dbw 12, SHELLOS
 	end_grass_wildmons
 
 	def_grass_wildmons FUEGO_IRONWORKS
@@ -567,47 +567,47 @@ JohtoGrassWildMons:
 	dbw 28, MAGMAR
 	dbw 29, MAGNEMITE
 	dbw 29, MAGMAR
-	dbw 29, RATTATA ;FLOATZEL
-	dbw 30, RATTATA ;FLOATZEL
-	dbw 30, RATTATA ;GASTRODON
+	dbw 29, FLOATZEL
+	dbw 30, FLOATZEL
+	dbw 30, GASTRODON
 	dbw 28, MAGNEMITE
 	dbw 30, MAGNEMITE
-	dbw 31, RATTATA ;FLOATZEL
-	dbw 31, RATTATA ;GASTRODON
-	dbw 31, RATTATA ;FLOATZEL
-	dbw 31, RATTATA ;GASTRODON
+	dbw 31, FLOATZEL
+	dbw 31, GASTRODON
+	dbw 31, FLOATZEL
+	dbw 31, GASTRODON
 	;day
 	dbw 28, MAGMAR
 	dbw 29, MAGNEMITE
 	dbw 29, MAGMAR
-	dbw 29, RATTATA ;FLOATZEL
-	dbw 30, RATTATA ;FLOATZEL
-	dbw 30, RATTATA ;GASTRODON
+	dbw 29, FLOATZEL
+	dbw 30, FLOATZEL
+	dbw 30, GASTRODON
 	dbw 28, MAGNEMITE
 	dbw 30, MAGNEMITE
-	dbw 31, RATTATA ;FLOATZEL
-	dbw 31, RATTATA ;GASTRODON
-	dbw 31, RATTATA ;FLOATZEL
-	dbw 31, RATTATA ;GASTRODON
+	dbw 31, FLOATZEL
+	dbw 31, GASTRODON
+	dbw 31, FLOATZEL
+	dbw 31, GASTRODON
 	;nite
 	dbw 28, MAGMAR
 	dbw 29, MAGNEMITE
-	dbw 29, RATTATA ;GASTRODON
-	dbw 29, RATTATA ;FLOATZEL
-	dbw 30, RATTATA ;FLOATZEL
-	dbw 30, RATTATA ;GASTRODON
+	dbw 29, GASTRODON
+	dbw 29, FLOATZEL
+	dbw 30, FLOATZEL
+	dbw 30, GASTRODON
 	dbw 28, MAGNEMITE
 	dbw 30, MAGNEMITE
-	dbw 31, RATTATA ;FLOATZEL
-	dbw 31, RATTATA ;GASTRODON
-	dbw 31, RATTATA ;FLOATZEL
-	dbw 31, RATTATA ;GASTRODON
+	dbw 31, FLOATZEL
+	dbw 31, GASTRODON
+	dbw 31, FLOATZEL
+	dbw 31, GASTRODON
 	end_grass_wildmons
 
 	def_grass_wildmons ETERNA_FOREST_INSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 11, RATTATA ;BUNEARY
+	dbw 11, BUNEARY
 	dbw 10, BUDEW
 	dbw 10, WURMPLE
 	dbw 12, KRICKETOT
@@ -615,12 +615,12 @@ JohtoGrassWildMons:
 	dbw 12, BIDOOF
 	dbw 12, SILCOON
 	dbw 12, CASCOON
-	dbw 13, RATTATA ;BUNEARY
+	dbw 13, BUNEARY
 	dbw 13, GASTLY
 	dbw 14, BEAUTIFLY
 	dbw 14, DUSTOX
 	;day
-	dbw 11, RATTATA ;BUNEARY
+	dbw 11, BUNEARY
 	dbw 10, BUDEW
 	dbw 10, WURMPLE
 	dbw 12, BUDEW
@@ -628,12 +628,12 @@ JohtoGrassWildMons:
 	dbw 12, BIDOOF
 	dbw 12, SILCOON
 	dbw 12, CASCOON
-	dbw 13, RATTATA ;BUNEARY
+	dbw 13, BUNEARY
 	dbw 13, GASTLY
 	dbw 14, BEAUTIFLY
 	dbw 14, DUSTOX
 	;nite
-	dbw 11, RATTATA ;BUNEARY
+	dbw 11, BUNEARY
 	dbw 10, BUDEW
 	dbw 10, KRICKETOT
 	dbw 12, HOOTHOOT
@@ -641,7 +641,7 @@ JohtoGrassWildMons:
 	dbw 12, BIDOOF
 	dbw 12, SILCOON
 	dbw 12, CASCOON
-	dbw 13, RATTATA ;BUNEARY
+	dbw 13, BUNEARY
 	dbw 13, GASTLY
 	dbw 14, BEAUTIFLY
 	dbw 14, DUSTOX
@@ -693,44 +693,44 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_211_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	; day
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	; nite
-	dbw 3, GASTLY
-	dbw 4, GASTLY
-	dbw 5, GASTLY
-	dbw 3, RATTATA
-	dbw 6, GASTLY
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
-	dbw 3, GASTLY
-	dbw 6, GASTLY
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 13, MEDITITE
+	dbw 14, BIDOOF
+	dbw 14, MEDITITE
+	dbw 15, MEDITITE
+	dbw 14, CHINGLING
+	dbw 14, MACHOP
+	dbw 16, CHINGLING
+	dbw 14, BRONZOR
+	dbw 15, MACHOP
+	dbw 16, BRONZOR
+	dbw 15, MACHOP
+	dbw 16, BRONZOR
+	;day
+	dbw 13, MEDITITE
+	dbw 14, BIDOOF
+	dbw 14, MEDITITE
+	dbw 15, MEDITITE
+	dbw 14, CHINGLING
+	dbw 14, MACHOP
+	dbw 16, CHINGLING
+	dbw 14, BRONZOR
+	dbw 15, MACHOP
+	dbw 16, BRONZOR
+	dbw 15, MACHOP
+	dbw 16, BRONZOR
+	;nite
+	dbw 13, MEDITITE
+	dbw 14, BIDOOF
+	dbw 14, ZUBAT
+	dbw 15, HOOTHOOT
+	dbw 14, CHINGLING
+	dbw 14, MACHOP
+	dbw 16, CHINGLING
+	dbw 14, BRONZOR
+	dbw 15, MACHOP
+	dbw 16, BRONZOR
+	dbw 15, MACHOP
+	dbw 16, BRONZOR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_206
