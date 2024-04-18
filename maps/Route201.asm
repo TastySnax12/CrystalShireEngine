@@ -880,21 +880,21 @@ Route201_StarterMenu:
 	end
 
 .Turtwig:
-	givepoke BULBASAUR, 5     ;givepoke TURTWIG, 5
+	givepoke TURTWIG, 5
 	setevent EVENT_GOT_TURTWIG
-	getmonname STRING_BUFFER_3, CHARMANDER ;getmonname STRING_BUFFER_3, CHIMCHAR
+	getmonname STRING_BUFFER_3, CHIMCHAR
 	end
 
 .Chimchar:
-	givepoke CHARMANDER, 5 ;givepoke CHIMCHAR, 5
+	givepoke CHIMCHAR, 5
 	setevent EVENT_GOT_CHIMCHAR
-	getmonname STRING_BUFFER_3, SQUIRTLE ;getmonname STRING_BUFFER_3, PIPLUP
+	getmonname STRING_BUFFER_3, PIPLUP
 	end
 
 .Piplup:
-	givepoke SQUIRTLE, 5 ;givepoke PIPLUP, 5
+	givepoke PIPLUP, 5
 	setevent EVENT_GOT_PIPLUP
-	getmonname STRING_BUFFER_3, BULBASAUR ;getmonname STRING_BUFFER_3, TURTWIG
+	getmonname STRING_BUFFER_3, TURTWIG
 	end
 
 Route201_RivalFollowScriptL:

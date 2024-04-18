@@ -452,7 +452,6 @@ INCLUDE "engine/games/card_flip.asm"
 INCLUDE "engine/games/unown_puzzle.asm"
 INCLUDE "engine/games/memory_game.asm"
 INCLUDE "engine/battle/misc.asm"
-INCLUDE "engine/events/play_slow_cry.asm"
 
 
 SECTION "bank39", ROMX
@@ -465,6 +464,14 @@ INCLUDE "engine/movie/intro.asm"
 SECTION "bank3E", ROMX
 
 INCLUDE "engine/gfx/load_font.asm"
+INCLUDE "engine/link/time_capsule.asm"
+INCLUDE "engine/events/play_slow_cry.asm"
+INCLUDE "engine/pokedex/new_pokedex_entry.asm"
+INCLUDE "engine/events/name_rater.asm"
+INCLUDE "engine/link/time_capsule_2.asm"
+INCLUDE "engine/pokedex/unown_dex.asm"
+INCLUDE "engine/events/magikarp.asm"
+INCLUDE "engine/battle/hidden_power.asm"
 
 SECTION "bank3F", ROMX
 
@@ -483,6 +490,9 @@ INCLUDE "engine/battle/used_move_text.asm"
 INCLUDE "mobile/mobile_41.asm"
 INCLUDE "engine/gfx/load_overworld_font.asm"
 
+SECTION "Footprints", ROMX
+
+INCLUDE "gfx/footprints.asm"
 
 SECTION "Move Animation Framesets", ROMX
 
@@ -492,10 +502,6 @@ INCLUDE "engine/battle_anims/framesets.asm"
 SECTION "Title", ROMX
 
 INCLUDE "engine/movie/title.asm"
-INCLUDE "engine/events/magikarp.asm"
-INCLUDE "engine/battle/hidden_power.asm"
-INCLUDE "engine/link/time_capsule_2.asm"
-INCLUDE "engine/pokedex/unown_dex.asm"
 
 
 SECTION "mobile45", ROMX
@@ -507,7 +513,6 @@ INCLUDE "mobile/mobile_45_stadium.asm"
 SECTION "mobile46", ROMX
 
 INCLUDE "mobile/mobile_46.asm"
-INCLUDE "engine/events/name_rater.asm"
 
 
 SECTION "Battle Tower", ROMX
@@ -637,9 +642,6 @@ INCLUDE "data/pokemon/names.asm"
 SECTION "bank8b", ROMX
 INCLUDE "data/pokemon/base_stats.asm"
 
-SECTION "bank8d", ROMX
-INCLUDE "engine/pokedex/new_pokedex_entry.asm"
-INCLUDE "engine/link/time_capsule.asm"
 
 SECTION "European Mail", ROMX
 

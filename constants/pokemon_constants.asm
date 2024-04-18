@@ -429,7 +429,7 @@ DEF SINNOH_POKEMON EQU const_value
 	const LUXRAY     ; 195
 	const BUDEW      ; 196
 	const ROSERADE   ; 197
-	const CRAINDOSE  ; 198
+	const CRANIDOS   ; 198
 	const RAMPARDOS  ; 199
 	const SHIELDON   ; 19a
 	const BASTIODON  ; 19b

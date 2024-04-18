@@ -387,18 +387,18 @@ RowansLabFirstVisitScript:
 	iftrue .Turtwig
 	checkevent EVENT_GOT_CHIMCHAR
 	iftrue .Chimchar
-	getmonname STRING_BUFFER_3, SQUIRTLE ;PIPLUP
-	getmonname STRING_BUFFER_4, CHARMANDER ;CHIMCHAR
+	getmonname STRING_BUFFER_3, PIPLUP
+	getmonname STRING_BUFFER_4, CHIMCHAR
 	end
 
 .Turtwig:
-	getmonname STRING_BUFFER_3, BULBASAUR ;TURTWIG
-	getmonname STRING_BUFFER_4, SQUIRTLE ;PIPLUP
+	getmonname STRING_BUFFER_3, TURTWIG
+	getmonname STRING_BUFFER_4, PIPLUP
 	end
 
 .Chimchar:
-	getmonname STRING_BUFFER_3, CHARMANDER ;CHIMCHAR
-	getmonname STRING_BUFFER_4, BULBASAUR ;TURTWIG
+	getmonname STRING_BUFFER_3, CHIMCHAR
+	getmonname STRING_BUFFER_4, TURTWIG
 	end
 
 RowansLab_RowanScript:

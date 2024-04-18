@@ -29,19 +29,19 @@ Rival1Group:
 	next_list_item ; RIVAL1 (1)
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
-	dw CHIKORITA
+	dw TURTWIG
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (2)
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
-	dw CYNDAQUIL
+	dw CHIMCHAR
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (3)
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
-	dw TOTODILE
+	dw PIPLUP
 	db -1 ; end
 
 	end_list_items
@@ -74,13 +74,13 @@ YoungsterGroup:
 	next_list_item ; TRISTAN (1)
 	db "TRISTAN@", TRAINERTYPE_NORMAL
 	db 5
-	dw PIDGEY ; STARLY
+	dw STARLY
 	db -1 ; end
 
 	next_list_item ; LOGAN (2)
 	db "LOGAN@", TRAINERTYPE_NORMAL
 	db 5
-	dw MAREEP ; SHINX
+	dw SHINX
 	db -1 ; end
 
 	end_list_items
@@ -91,7 +91,7 @@ SchoolboyGroup:
 	next_list_item ; SCHOOLBOY (1)
 	db "HARRISON@", TRAINERTYPE_NORMAL
 	db 6
-	dw PIDGEY ; STARLY
+	dw STARLY
 	db -1 ; end
 
 	end_list_items
@@ -102,9 +102,9 @@ LassGroup:
 	next_list_item ; NATALIE (1)
 	db "NATALIE@", TRAINERTYPE_NORMAL
 	db 3
-	dw SENTRET ; BIDOOF
+	dw BIDOOF
 	db 3
-	dw SENTRET ; BIDOOF
+	dw BIDOOF
 	db -1 ; end
 
 	end_list_items
@@ -204,7 +204,7 @@ SchoolgirlGroup:
 	next_list_item ; SCHOOLGIRL (1)
 	db "KRISTIN@", TRAINERTYPE_NORMAL
 	db 6
-	dw SENTRET ; BIDOOF
+	dw BIDOOF
 	db -1 ; end
 
 	end_list_items

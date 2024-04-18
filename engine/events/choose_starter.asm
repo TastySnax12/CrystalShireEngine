@@ -271,9 +271,9 @@ BriefcaseMenu_AskMon:
 	ret
 
 .Starters:
-	dw BULBASAUR ;TURTWIG
-	dw CHARMANDER ;CHIMCHAR
-	dw SQUIRTLE ;PIPLUP
+	dw TURTWIG
+	dw CHIMCHAR
+	dw PIPLUP
 
 .AskMonTexts:
 	dw .AskTurtwigText
