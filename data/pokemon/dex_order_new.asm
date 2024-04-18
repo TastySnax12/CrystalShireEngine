@@ -425,4 +425,18 @@ NewPokedexOrder:
 	dw CHERRIM
 	dw SHELLOS
 	dw GASTRODON
+	dw AMBIPOM
+	dw DRIFLOON
+	dw DRIFBLIM
+	dw BUNEARY
+	dw LOPUNNY
+	dw MISMAGIUS
+	dw HONCHKROW
+	dw GLAMEOW
+	dw PURUGLY
+	dw CHINGLING
+	dw STUNKY
+	dw SKUNTANK
+	dw BRONZOR
+	dw BRONZONG
 	assert_table_length NUM_POKEMON

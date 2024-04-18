@@ -38,20 +38,20 @@ EvosAttacksPointers4::
 	dw CherrimEvosAttacks
 	dw ShellosEvosAttacks
 	dw GastrodonEvosAttacks
-	; dw AmbipomEvosAttacks
-	; dw DrifloonEvosAttacks
-	; dw DrifblimEvosAttacks
-	; dw BunearyEvosAttacks
-	; dw LopunnyEvosAttacks
-	; dw MismagiusEvosAttacks
-	; dw HonchkrowEvosAttacks
-	; dw GlameowEvosAttacks
-	; dw PuruglyEvosAttacks
-	; dw ChinglingEvosAttacks
-	; dw StunkyEvosAttacks
-	; dw SkuntankEvosAttacks
-	; dw BronzorEvosAttacks
-	; dw BronzongEvosAttacks
+	dw AmbipomEvosAttacks
+	dw DrifloonEvosAttacks
+	dw DrifblimEvosAttacks
+	dw BunearyEvosAttacks
+	dw LopunnyEvosAttacks
+	dw MismagiusEvosAttacks
+	dw HonchkrowEvosAttacks
+	dw GlameowEvosAttacks
+	dw PuruglyEvosAttacks
+	dw ChinglingEvosAttacks
+	dw StunkyEvosAttacks
+	dw SkuntankEvosAttacks
+	dw BronzorEvosAttacks
+	dw BronzongEvosAttacks
 	; dw BonslyEvosAttacks
 	; dw MimeJrEvosAttacks
 	; dw HappinyEvosAttacks
@@ -293,245 +293,75 @@ GastrodonEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; AmbipomEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, SAND_ATTACK
-	; dbw 1, TAIL_WHIP
-	; dbw 1, ASTONISH
-	; dbw 4, SAND_ATTACK
-	; dbw 8, ASTONISH
-	; dbw 11, BATON_PASS
-	; dbw 15, TICKLE
-	; dbw 18, FURY_SWIPES
-	; dbw 22, SWIFT
-	; dbw 25, SCREECH
-	; dbw 29, AGILITY
-	; dbw 32, DOUBLE_HIT
-	; dbw 36, FLING
-	; dbw 39, NASTY_PLOT
-	; dbw 43, LAST_RESORT
-	; db 0 ; no more level-up moves
+AmbipomEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; DrifloonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 28, DRIFBLIM
-	; db 0 ; no more evolutions
-	; dbw 1, MINIMIZE
-	; dbw 1, CONSTRICT
-	; dbw 6, ASTONISH
-	; dbw 11, GUST
-	; dbw 14, FOCUS_ENERGY
-	; dbw 17, PAYBACK
-	; dbw 22, STOCKPILE
-	; dbw 27, SPIT_UP
-	; dbw 27, SWALLOW
-	; dbw 30, OMINOUS_WIND
-	; dbw 33, BATON_PASS
-	; dbw 38, SHADOW_BALL
-	; dbw 43, EXPLOSION
-	; db 0 ; no more level-up moves
+DrifloonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; DrifblimEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GUST
-	; dbw 1, MINIMIZE
-	; dbw 1, CONSTRICT
-	; dbw 1, ASTONISH
-	; dbw 6, ASTONISH
-	; dbw 11, GUST
-	; dbw 14, FOCUS_ENERGY
-	; dbw 17, PAYBACK
-	; dbw 22, STOCKPILE
-	; dbw 27, SPIT_UP
-	; dbw 27, SWALLOW
-	; dbw 32, OMINOUS_WIND
-	; dbw 37, BATON_PASS
-	; dbw 44, SHADOW_BALL
-	; dbw 51, EXPLOSION
-	; db 0 ; no more level-up moves
+DrifblimEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BunearyEvosAttacks:
-	; dbbw EVOLVE_HAPPINESS, TR_ANYTIME, LOPUNNY
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, DEFENSE_CURL
-	; dbw 1, SPLASH
-	; dbw 1, FORESIGHT
-	; dbw 6, ENDURE
-	; dbw 13, FRUSTRATION
-	; dbw 16, QUICK_ATTACK
-	; dbw 23, JUMP_KICK
-	; dbw 26, BATON_PASS
-	; dbw 33, AGILITY
-	; dbw 36, DIZZY_PUNCH
-	; dbw 43, CHARM
-	; dbw 46, BOUNCE
-	; dbw 53, HEALING_WISH
-	; db 0 ; no more level-up moves
+BunearyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
+	
+LopunnyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LopunnyEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, DEFENSE_CURL
-	; dbw 1, SPLASH
-	; dbw 1, FORESIGHT
-	; dbw 1, MIRROR_COAT
-	; dbw 1, MAGIC_COAT
-	; dbw 6, ENDURE
-	; dbw 13, RETURN
-	; dbw 16, QUICK_ATTACK
-	; dbw 23, JUMP_KICK
-	; dbw 26, BATON_PASS
-	; dbw 33, AGILITY
-	; dbw 36, DIZZY_PUNCH
-	; dbw 43, CHARM
-	; dbw 46, BOUNCE
-	; dbw 53, HEALING_WISH
-	; db 0 ; no more level-up moves
+MismagiusEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MismagiusEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWL
-	; dbw 1, PSYWAVE
-	; dbw 1, SPITE
-	; dbw 1, ASTONISH
-	; dbw 1, MAGICAL_LEAF
-	; dbw 1, LUCKY_CHANT
-	; db 0 ; no more level-up moves
+HonchkrowEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; HonchkrowEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, WING_ATTACK
-	; dbw 1, HAZE
-	; dbw 1, PURSUIT
-	; dbw 1, ASTONISH
-	; dbw 25, SWAGGER
-	; dbw 35, NASTY_PLOT
-	; dbw 45, NIGHT_SLASH
-	; dbw 55, DARK_PULSE
-	; db 0 ; no more level-up moves
+GlameowEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GlameowEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 38, PURUGLY
-	; db 0 ; no more evolutions
-	; dbw 1, FAKE_OUT
-	; dbw 5, SCRATCH
-	; dbw 8, GROWL
-	; dbw 13, HYPNOSIS
-	; dbw 17, FAINT_ATTACK
-	; dbw 20, FURY_SWIPES
-	; dbw 25, CHARM
-	; dbw 29, ASSIST
-	; dbw 32, CAPTIVATE
-	; dbw 37, SLASH
-	; dbw 41, SUCKER_PUNCH
-	; dbw 45, ATTRACT
-	; db 0 ; no more level-up moves
+PuruglyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; PuruglyEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, GROWL
-	; dbw 1, FAKE_OUT
-	; dbw 5, SCRATCH
-	; dbw 8, GROWL
-	; dbw 13, HYPNOSIS
-	; dbw 17, FAINT_ATTACK
-	; dbw 20, FURY_SWIPES
-	; dbw 25, CHARM
-	; dbw 29, ASSIST
-	; dbw 32, CAPTIVATE
-	; dbw 37, SLASH
-	; dbw 38, SWAGGER
-	; dbw 45, BODY_SLAM
-	; dbw 53, ATTRACT
-	; db 0 ; no more level-up moves
+ChinglingEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ChinglingEvosAttacks:
-	; dbbw EVOLVE_HAPPINESS, TR_NITE, CHIMECHO
-	; db 0 ; no more evolutions
-	; dbw 1, WRAP
-	; dbw 6, GROWL
-	; dbw 9, ASTONISH
-	; dbw 14, CONFUSION
-	; dbw 17, UPROAR
-	; dbw 22, LAST_RESORT
-	; db 0 ; no more level-up moves
+StunkyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; StunkyEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 34, SKUNTANK
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, FOCUS_ENERGY
-	; dbw 4, POISON_GAS
-	; dbw 7, SCREECH
-	; dbw 10, FURY_SWIPES
-	; dbw 14, SMOKESCREEN
-	; dbw 18, FEINT
-	; dbw 22, SLASH
-	; dbw 27, TOXIC
-	; dbw 32, NIGHT_SLASH
-	; dbw 38, MEMENTO
-	; dbw 44, EXPLOSION
-	; db 0 ; no more level-up moves
+SkuntankEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SkuntankEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCRATCH
-	; dbw 1, FOCUS_ENERGY
-	; dbw 1, POISON_GAS
-	; dbw 4, POISON_GAS
-	; dbw 7, SCREECH
-	; dbw 10, FURY_SWIPES
-	; dbw 14, SMOKESCREEN
-	; dbw 18, FEINT
-	; dbw 22, SLASH
-	; dbw 27, TOXIC
-	; dbw 32, NIGHT_SLASH
-	; dbw 34, FLAMETHROWER
-	; dbw 42, MEMENTO
-	; dbw 52, EXPLOSION
-	; db 0 ; no more level-up moves
+BronzorEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; BronzorEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 33, BRONZONG
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, CONFUSION
-	; dbw 7, HYPNOSIS
-	; dbw 12, IMPRISON
-	; dbw 14, CONFUSE_RAY
-	; dbw 19, EXTRASENSORY
-	; dbw 26, IRON_DEFENSE
-	; dbw 30, SAFEGUARD
-	; dbw 35, GYRO_BALL
-	; dbw 37, FUTURE_SIGHT
-	; dbw 41, FAINT_ATTACK
-	; dbw 49, PAYBACK
-	; dbw 52, HEAL_BLOCK
-	; db 0 ; no more level-up moves
-
-; BronzongEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, CONFUSION
-	; dbw 1, HYPNOSIS
-	; dbw 1, RAIN_DANCE
-	; dbw 1, SUNNY_DAY
-	; dbw 1, IMPRISON
-	; dbw 7, HYPNOSIS
-	; dbw 12, IMPRISON
-	; dbw 14, CONFUSE_RAY
-	; dbw 19, EXTRASENSORY
-	; dbw 26, IRON_DEFENSE
-	; dbw 30, SAFEGUARD
-	; dbw 33, BLOCK
-	; dbw 38, GYRO_BALL
-	; dbw 43, FUTURE_SIGHT
-	; dbw 50, FAINT_ATTACK
-	; dbw 61, PAYBACK
-	; dbw 67, HEAL_BLOCK
-	; db 0 ; no more level-up moves
+BronzongEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; BonslyEvosAttacks:
 	; dbbww EVOLVE_LEVEL_WITH_MOVE, 1, MIMIC, SUDOWOODO

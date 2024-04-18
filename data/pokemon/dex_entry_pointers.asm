@@ -424,4 +424,18 @@ PokedexDataPointerTable:
 	dba CherrimPokedexEntry
 	dba ShellosPokedexEntry
 	dba GastrodonPokedexEntry
+	dba AmbipomPokedexEntry
+	dba DrifloonPokedexEntry
+	dba DrifblimPokedexEntry
+	dba BunearyPokedexEntry
+	dba LopunnyPokedexEntry
+	dba MismagiusPokedexEntry
+	dba HonchkrowPokedexEntry
+	dba GlameowPokedexEntry
+	dba PuruglyPokedexEntry
+	dba ChinglingPokedexEntry
+	dba StunkyPokedexEntry
+	dba SkuntankPokedexEntry
+	dba BronzorPokedexEntry
+	dba BronzongPokedexEntry
 	assert_table_length NUM_POKEMON

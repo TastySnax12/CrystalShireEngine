@@ -433,4 +433,18 @@ MonMenuIconPals:
 	icon_pals PURPLE, TEAL   ; CHERRIM
 	icon_pals PURPLE, PINK   ; SHELLOS
 	icon_pals PURPLE, PINK   ; GASTRODON
+	icon_pals PURPLE, PINK   ; AMBIPOM
+	icon_pals PURPLE, BROWN  ; DRIFLOON
+	icon_pals PURPLE, BROWN  ; DRIFBLIM
+	icon_pals BROWN,  PINK   ; BUNEARY
+	icon_pals BROWN,  PINK   ; LOPUNNY
+	icon_pals PURPLE, BROWN  ; MISMAGIUS
+	icon_pals BLUE,   PURPLE ; HONCHKROW
+	icon_pals GRAY,   PURPLE ; GLAMEOW
+	icon_pals GRAY,   PURPLE ; PURUGLY
+	icon_pals RED,    BROWN  ; CHINGLING
+	icon_pals PURPLE, PINK   ; STUNKY
+	icon_pals PURPLE, PINK   ; SKUNTANK
+	icon_pals BLUE,   GREEN  ; BRONZOR
+	icon_pals BLUE,   GREEN  ; BRONZONG
 	assert_table_length NUM_POKEMON

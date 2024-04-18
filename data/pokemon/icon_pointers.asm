@@ -428,4 +428,18 @@ IconPointers:
 	dba MagikarpIcon ; CHERRIM
 	dba MagikarpIcon ; SHELLOS
 	dba MagikarpIcon ; GASTRODON
+	dba MagikarpIcon ; AMBIPOM
+	dba MagikarpIcon ; DRIFLOON
+	dba MagikarpIcon ; DRIFBLIM
+	dba MagikarpIcon ; BUNEARY
+	dba MagikarpIcon ; LOPUNNY
+	dba MagikarpIcon ; MISMAGIUS
+	dba MagikarpIcon ; HONCHKROW
+	dba MagikarpIcon ; GLAMEOW
+	dba MagikarpIcon ; PURUGLY
+	dba MagikarpIcon ; CHINGLING
+	dba MagikarpIcon ; STUNKY
+	dba MagikarpIcon ; SKUNTANK
+	dba MagikarpIcon ; BRONZOR
+	dba MagikarpIcon ; BRONZONG
 	assert_table_length NUM_POKEMON + 1

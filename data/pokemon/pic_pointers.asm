@@ -862,4 +862,32 @@ PokemonPicPointers::
 	dba ShellosBackpic
 	dba GastrodonFrontpic
 	dba GastrodonBackpic
+	dba AmbipomFrontpic
+	dba AmbipomBackpic
+	dba DrifloonFrontpic
+	dba DrifloonBackpic
+	dba DrifblimFrontpic
+	dba DrifblimBackpic
+	dba BunearyFrontpic
+	dba BunearyBackpic
+	dba LopunnyFrontpic
+	dba LopunnyBackpic
+	dba MismagiusFrontpic
+	dba MismagiusBackpic
+	dba HonchkrowFrontpic
+	dba HonchkrowBackpic
+	dba GlameowFrontpic
+	dba GlameowBackpic
+	dba PuruglyFrontpic
+	dba PuruglyBackpic
+	dba ChinglingFrontpic
+	dba ChinglingBackpic
+	dba StunkyFrontpic
+	dba StunkyBackpic
+	dba SkuntankFrontpic
+	dba SkuntankBackpic
+	dba BronzorFrontpic
+	dba BronzorBackpic
+	dba BronzongFrontpic
+	dba BronzongBackpic
 	assert_table_length NUM_POKEMON + 1

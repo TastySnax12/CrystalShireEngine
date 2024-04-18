@@ -38,20 +38,20 @@ EggMovePointers4::
 	dw NoEggMoves4
 	dw ShellosEggMoves
 	dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw DrifloonEggMoves
-	; dw NoEggMoves4
-	; dw BunearyEggMoves
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw GlameowEggMoves
-	; dw NoEggMoves4
-	; dw ChinglingEggMoves
-	; dw StunkyEggMoves
-	; dw NoEggMoves4
-	; dw BronzorEggMoves
-	; dw NoEggMoves4
+	dw NoEggMoves4
+	dw DrifloonEggMoves
+	dw NoEggMoves4
+	dw BunearyEggMoves
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw GlameowEggMoves
+	dw NoEggMoves4
+	dw ChinglingEggMoves
+	dw StunkyEggMoves
+	dw NoEggMoves4
+	dw BronzorEggMoves
+	dw NoEggMoves4
 	; dw BonslyEggMoves
 	; dw MimeJrEggMoves
 	; dw HappinyEggMoves
@@ -267,7 +267,7 @@ ShellosEggMoves:
 	; dw YAWN
 	dw -1 ; end
 	
-; DrifloonEggMoves:
+DrifloonEggMoves:
 	; dw BODY_SLAM
 	; dw DESTINY_BOND
 	; dw DISABLE
@@ -275,9 +275,9 @@ ShellosEggMoves:
 	; dw HYPNOSIS
 	; dw MEMENTO
 	; dw WEATHER_BALL
-	; dw -1 ; end
+	dw -1 ; end
 	
-; BunearyEggMoves:
+BunearyEggMoves:
 	; dw ATTRACT
 	; dw DOUBLE_HIT
 	; dw ENCORE
@@ -291,9 +291,9 @@ ShellosEggMoves:
 	; dw SWEET_KISS
 	; dw SWITCHEROO
 	; dw THUNDERPUNCH
-	; dw -1 ; end
+	dw -1 ; end
 	
-; GlameowEggMoves:
+GlameowEggMoves:
 	; dw ASSURANCE
 	; dw BITE
 	; dw FAKE_TEARS
@@ -301,9 +301,9 @@ ShellosEggMoves:
 	; dw QUICK_ATTACK
 	; dw SAND_ATTACK
 	; dw TAIL_WHIP
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ChinglingEggMoves:
+ChinglingEggMoves:
 	; dw CURSE
 	; dw DISABLE
 	; dw DREAM_EATER
@@ -311,9 +311,9 @@ ShellosEggMoves:
 	; dw HYPNOSIS
 	; dw RECOVER
 	; dw WISH
-	; dw -1 ; end
+	dw -1 ; end
 	
-; StunkyEggMoves:
+StunkyEggMoves:
 	; dw ASTONISH
 	; dw CRUNCH
 	; dw DOUBLE_EDGE
@@ -323,16 +323,16 @@ ShellosEggMoves:
 	; dw PURSUIT
 	; dw SCARY_FACE
 	; dw SMOG
-	; dw -1 ; end
+	dw -1 ; end
 	
-; BronzorEggMoves:
+BronzorEggMoves:
 	; dw ANCIENTPOWER
 	; dw GRAVITY
 	; dw ROLLOUT
 	; dw SIGNAL_BEAM
 	; dw SNORE
 	; dw TRICK
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; BonslyEggMoves:
 	; dw DEFENSE_CURL

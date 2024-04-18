@@ -4,7 +4,7 @@
 	evs  0,   0,   1,   0,   0,   1
 	;   hp  atk  def  spd  sat  sdf
 
-	db STEEL, PSYCHIC ; type
+	db STEEL, PSYCHIC_TYPE ; type
 	db 90 ; catch rate
 	db 175 ; base exp
 	dw NO_ITEM, METAL_COAT ; items

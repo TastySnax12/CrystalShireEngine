@@ -9,6 +9,7 @@ AlphabeticalPokedexOrder:
 	dw AIPOM
 	dw ALAKAZAM
 	dw ALTARIA
+	dw AMBIPOM
 	dw AMPHAROS
 	dw ANORITH
 	dw ARBOK
@@ -36,9 +37,12 @@ AlphabeticalPokedexOrder:
 	dw BLAZIKEN
 	dw BLISSEY
 	dw BRELOOM
+	dw BRONZONG
+	dw BRONZOR
 	dw BUDEW
 	dw BUIZEL
 	dw BULBASAUR
+	dw BUNEARY
 	dw BURMY
 	dw BUTTERFREE
 	dw CACNEA
@@ -59,6 +63,7 @@ AlphabeticalPokedexOrder:
 	dw CHIMCHAR
 	dw CHIMECHO
 	dw CHINCHOU
+	dw CHINGLING
 	dw CLAMPERL
 	dw CLAYDOL
 	dw CLEFABLE
@@ -88,6 +93,8 @@ AlphabeticalPokedexOrder:
 	dw DRAGONAIR
 	dw DRAGONITE
 	dw DRATINI
+	dw DRIFBLIM
+	dw DRIFLOON
 	dw DROWZEE
 	dw DUGTRIO
 	dw DUNSPARCE
@@ -123,6 +130,7 @@ AlphabeticalPokedexOrder:
 	dw GEODUDE
 	dw GIRAFARIG
 	dw GLALIE
+	dw GLAMEOW
 	dw GLIGAR
 	dw GLOOM
 	dw GOLBAT
@@ -147,6 +155,7 @@ AlphabeticalPokedexOrder:
 	dw HITMONLEE
 	dw HITMONTOP
 	dw HO_OH
+	dw HONCHKROW
 	dw HOOTHOOT
 	dw HOPPIP
 	dw HORSEA
@@ -189,6 +198,7 @@ AlphabeticalPokedexOrder:
 	dw LILEEP
 	dw LINOONE
 	dw LOMBRE
+	dw LOPUNNY
 	dw LOTAD
 	dw LOUDRED
 	dw LUDICOLO
@@ -229,6 +239,7 @@ AlphabeticalPokedexOrder:
 	dw MILOTIC
 	dw MILTANK
 	dw MISDREAVUS
+	dw MISMAGIUS
 	dw MINUN
 	dw MOLTRES
 	dw MONFERNO
@@ -284,6 +295,7 @@ AlphabeticalPokedexOrder:
 	dw PRINPLUP
 	dw PSYDUCK
 	dw PUPITAR
+	dw PURUGLY
 	dw QUAGSIRE
 	dw QUILAVA
 	dw QWILFISH
@@ -333,6 +345,7 @@ AlphabeticalPokedexOrder:
 	dw SKARMORY
 	dw SKIPLOOM
 	dw SKITTY
+	dw SKUNTANK
 	dw SLAKING
 	dw SLAKOTH
 	dw SLOWBRO
@@ -359,6 +372,7 @@ AlphabeticalPokedexOrder:
 	dw STARMIE
 	dw STARYU
 	dw STEELIX
+	dw STUNKY
 	dw SUDOWOODO
 	dw SUICUNE
 	dw SUNFLORA

@@ -445,6 +445,20 @@ DEF SINNOH_POKEMON EQU const_value
 	const CHERRIM    ; 205
 	const SHELLOS    ; 206
 	const GASTRODON  ; 207
+	const AMBIPOM    ; 208
+	const DRIFLOON   ; 209
+	const DRIFBLIM   ; 20a
+	const BUNEARY    ; 20b
+	const LOPUNNY    ; 20c
+	const MISMAGIUS  ; 20d
+	const HONCHKROW  ; 20e
+	const GLAMEOW    ; 20f
+	const PURUGLY    ; 210
+	const CHINGLING  ; 211
+	const STUNKY     ; 212
+	const SKUNTANK   ; 213
+	const BRONZOR    ; 214
+	const BRONZONG   ; 215
 	
 DEF NUM_POKEMON EQU const_value - 1
 

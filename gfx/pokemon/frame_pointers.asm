@@ -423,4 +423,18 @@ FramesPointers:
 	dba CherrimFrames
 	dba ShellosFrames
 	dba GastrodonFrames
+	dba AmbipomFrames
+	dba DrifloonFrames
+	dba DrifblimFrames
+	dba BunearyFrames
+	dba LopunnyFrames
+	dba MismagiusFrames
+	dba HonchkrowFrames
+	dba GlameowFrames
+	dba PuruglyFrames
+	dba ChinglingFrames
+	dba StunkyFrames
+	dba SkuntankFrames
+	dba BronzorFrames
+	dba BronzongFrames
 	assert_table_length NUM_POKEMON

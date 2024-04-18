@@ -429,4 +429,18 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; CHERRIM
 	mon_cry CRY_RATTATA,       0,  0   ; SHELLOS
 	mon_cry CRY_RATTATA,       0,  0   ; GASTRODON
+	mon_cry CRY_RATTATA,       0,  0   ; AMBIPOM
+	mon_cry CRY_RATTATA,       0,  0   ; DRIFLOON
+	mon_cry CRY_RATTATA,       0,  0   ; DRIFBLIM
+	mon_cry CRY_RATTATA,       0,  0   ; BUNEARY
+	mon_cry CRY_RATTATA,       0,  0   ; LOPUNNY
+	mon_cry CRY_RATTATA,       0,  0   ; MISMAGIUS
+	mon_cry CRY_RATTATA,       0,  0   ; HONCHKROW
+	mon_cry CRY_RATTATA,       0,  0   ; GLAMEOW
+	mon_cry CRY_RATTATA,       0,  0   ; PURUGLY
+	mon_cry CRY_RATTATA,       0,  0   ; CHINGLING
+	mon_cry CRY_RATTATA,       0,  0   ; STUNKY
+	mon_cry CRY_RATTATA,       0,  0   ; SKUNTANK
+	mon_cry CRY_RATTATA,       0,  0   ; BRONZOR
+	mon_cry CRY_RATTATA,       0,  0   ; BRONZONG
 	assert_table_length NUM_POKEMON

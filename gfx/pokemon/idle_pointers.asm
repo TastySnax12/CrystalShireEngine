@@ -423,4 +423,18 @@ AnimationIdlePointers:
 	dw CherrimAnimationIdle
 	dw ShellosAnimationIdle
 	dw GastrodonAnimationIdle
+	dw AmbipomAnimationIdle
+	dw DrifloonAnimationIdle
+	dw DrifblimAnimationIdle
+	dw BunearyAnimationIdle
+	dw LopunnyAnimationIdle
+	dw MismagiusAnimationIdle
+	dw HonchkrowAnimationIdle
+	dw GlameowAnimationIdle
+	dw PuruglyAnimationIdle
+	dw ChinglingAnimationIdle
+	dw StunkyAnimationIdle
+	dw SkuntankAnimationIdle
+	dw BronzorAnimationIdle
+	dw BronzongAnimationIdle
 	assert_table_length NUM_POKEMON

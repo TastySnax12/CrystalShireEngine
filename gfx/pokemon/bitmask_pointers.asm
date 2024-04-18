@@ -423,4 +423,18 @@ BitmasksPointers:
 	dw CherrimBitmasks
 	dw ShellosBitmasks
 	dw GastrodonBitmasks
+	dw AmbipomBitmasks
+	dw DrifloonBitmasks
+	dw DrifblimBitmasks
+	dw BunearyBitmasks
+	dw LopunnyBitmasks
+	dw MismagiusBitmasks
+	dw HonchkrowBitmasks
+	dw GlameowBitmasks
+	dw PuruglyBitmasks
+	dw ChinglingBitmasks
+	dw StunkyBitmasks
+	dw SkuntankBitmasks
+	dw BronzorBitmasks
+	dw BronzongBitmasks
 	assert_table_length NUM_POKEMON

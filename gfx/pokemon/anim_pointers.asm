@@ -423,4 +423,18 @@ AnimationPointers:
 	dw CherrimAnimation
 	dw ShellosAnimation
 	dw GastrodonAnimation
+	dw AmbipomAnimation
+	dw DrifloonAnimation
+	dw DrifblimAnimation
+	dw BunearyAnimation
+	dw LopunnyAnimation
+	dw MismagiusAnimation
+	dw HonchkrowAnimation
+	dw GlameowAnimation
+	dw PuruglyAnimation
+	dw ChinglingAnimation
+	dw StunkyAnimation
+	dw SkuntankAnimation
+	dw BronzorAnimation
+	dw BronzongAnimation
 	assert_table_length NUM_POKEMON

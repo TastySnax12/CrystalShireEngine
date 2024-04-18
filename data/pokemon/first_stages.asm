@@ -424,4 +424,18 @@ FirstEvoStages::
 	dw CHERUBI
 	dw SHELLOS
 	dw SHELLOS
+	dw AIPOM
+	dw DRIFLOON
+	dw DRIFLOON
+	dw BUNEARY
+	dw BUNEARY
+	dw MISDREAVUS
+	dw MURKROW
+	dw GLAMEOW
+	dw GLAMEOW
+	dw CHINGLING
+	dw STUNKY
+	dw STUNKY
+	dw BRONZOR
+	dw BRONZOR
 	assert_table_length NUM_POKEMON
