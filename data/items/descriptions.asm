@@ -195,6 +195,9 @@ ItemDescriptionsKeyItems:
 	dw PassDesc         ; 0113
 	dw SquirtBottleDesc ; 0114
 	dw RainbowWingDesc  ; 0115
+	dw QuestionMarkDesc ; 0116
+	dw QuestionMarkDesc ; 0117
+	dw QuestionMarkDesc ; 0118
 .IndirectEnd:
 
 ItemDescriptionsBalls:

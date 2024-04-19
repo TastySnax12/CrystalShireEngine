@@ -33,7 +33,6 @@ ROM0
 	"Home"
 ROMX $01
 	"bank1"
-	"Tileset Data 10"
 ROMX $02
 	"bank2"
 ROMX $03
