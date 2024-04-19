@@ -1185,3 +1185,24 @@ BronzorFrontpic:     INCBIN "gfx/pokemon/bronzor/front.animated.2bpp.lz"
 BronzorBackpic:      INCBIN "gfx/pokemon/bronzor/back.2bpp.lz"
 BronzongFrontpic:    INCBIN "gfx/pokemon/bronzong/front.animated.2bpp.lz"
 BronzongBackpic:     INCBIN "gfx/pokemon/bronzong/back.2bpp.lz"
+BonslyFrontpic:      INCBIN "gfx/pokemon/bonsly/front.animated.2bpp.lz"
+BonslyBackpic:       INCBIN "gfx/pokemon/bonsly/back.2bpp.lz"
+MimeJrFrontpic:      INCBIN "gfx/pokemon/mime_jr/front.animated.2bpp.lz"
+MimeJrBackpic:       INCBIN "gfx/pokemon/mime_jr/back.2bpp.lz"
+HappinyFrontpic:     INCBIN "gfx/pokemon/happiny/front.animated.2bpp.lz"
+HappinyBackpic:      INCBIN "gfx/pokemon/happiny/back.2bpp.lz"
+
+
+
+SECTION "Pics 31", ROMX
+
+ChatotFrontpic:      INCBIN "gfx/pokemon/chatot/front.animated.2bpp.lz"
+ChatotBackpic:       INCBIN "gfx/pokemon/chatot/back.2bpp.lz"
+SpiritombFrontpic:   INCBIN "gfx/pokemon/spiritomb/front.animated.2bpp.lz"
+SpiritombBackpic:    INCBIN "gfx/pokemon/spiritomb/back.2bpp.lz"
+GibleFrontpic:       INCBIN "gfx/pokemon/gible/front.animated.2bpp.lz"
+GibleBackpic:        INCBIN "gfx/pokemon/gible/back.2bpp.lz"
+GabiteFrontpic:      INCBIN "gfx/pokemon/gabite/front.animated.2bpp.lz"
+GabiteBackpic:       INCBIN "gfx/pokemon/gabite/back.2bpp.lz"
+GarchompFrontpic:    INCBIN "gfx/pokemon/garchomp/front.animated.2bpp.lz"
+GarchompBackpic:     INCBIN "gfx/pokemon/garchomp/back.2bpp.lz"

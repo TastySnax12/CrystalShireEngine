@@ -447,4 +447,12 @@ MonMenuIconPals:
 	icon_pals PURPLE, PINK   ; SKUNTANK
 	icon_pals BLUE,   GREEN  ; BRONZOR
 	icon_pals BLUE,   GREEN  ; BRONZONG
+	icon_pals GREEN,  PINK   ; BONSLY
+	icon_pals BLUE,   GREEN  ; MIME JR.
+	icon_pals RED,    PINK   ; HAPPINY
+	icon_pals BLUE,   RED    ; CHATOT
+	icon_pals PURPLE, TEAL   ; SPIRITOMB
+	icon_pals BLUE,   TEAL   ; GIBLE
+	icon_pals BLUE,   BLUE   ; GABITE
+	icon_pals BLUE,   BLUE   ; GARCHOMP
 	assert_table_length NUM_POKEMON

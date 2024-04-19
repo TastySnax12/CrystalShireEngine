@@ -442,4 +442,12 @@ IconPointers:
 	dba MagikarpIcon ; SKUNTANK
 	dba BronzorIcon
 	dba BronzongIcon
+	dba MagikarpIcon ; BONSLY
+	dba MagikarpIcon ; MIME JR.
+	dba MagikarpIcon ; HAPPINY
+	dba MagikarpIcon ; CHATOT
+	dba SpiritombIcon
+	dba GibleIcon
+	dba GabiteIcon
+	dba GarchompIcon
 	assert_table_length NUM_POKEMON + 1

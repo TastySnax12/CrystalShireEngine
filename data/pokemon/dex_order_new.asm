@@ -439,4 +439,12 @@ NewPokedexOrder:
 	dw SKUNTANK
 	dw BRONZOR
 	dw BRONZONG
+	dw BONSLY
+	dw MIME_JR
+	dw HAPPINY
+	dw CHATOT
+	dw SPIRITOMB
+	dw GIBLE
+	dw GABITE
+	dw GARCHOMP
 	assert_table_length NUM_POKEMON

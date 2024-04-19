@@ -52,14 +52,14 @@ EvosAttacksPointers4::
 	dw SkuntankEvosAttacks
 	dw BronzorEvosAttacks
 	dw BronzongEvosAttacks
-	; dw BonslyEvosAttacks
-	; dw MimeJrEvosAttacks
-	; dw HappinyEvosAttacks
-	; dw ChatotEvosAttacks
-	; dw SpiritombEvosAttacks
-	; dw GibleEvosAttacks
-	; dw GabiteEvosAttacks
-	; dw GarchompEvosAttacks
+	dw BonslyEvosAttacks
+	dw MimeJrEvosAttacks
+	dw HappinyEvosAttacks
+	dw ChatotEvosAttacks
+	dw SpiritombEvosAttacks
+	dw GibleEvosAttacks
+	dw GabiteEvosAttacks
+	dw GarchompEvosAttacks
 	; dw MunchlaxEvosAttacks
 	; dw RioluEvosAttacks
 	; dw LucarioEvosAttacks
@@ -363,139 +363,45 @@ BronzongEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; BonslyEvosAttacks:
-	; dbbww EVOLVE_LEVEL_WITH_MOVE, 1, MIMIC, SUDOWOODO
-	; db 0 ; no more evolutions
-	; dbw 1, FAKE_TEARS
-	; dbw 1, COPYCAT
-	; dbw 6, FLAIL
-	; dbw 9, LOW_KICK
-	; dbw 14, ROCK_THROW
-	; dbw 17, MIMIC
-	; dbw 22, BLOCK
-	; dbw 25, FAINT_ATTACK
-	; dbw 30, ROCK_TOMB
-	; dbw 33, ROCK_SLIDE
-	; dbw 38, SLAM
-	; dbw 41, SUCKER_PUNCH
-	; dbw 46, DOUBLE_EDGE
-	; db 0 ; no more level-up moves
+BonslyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MimeJrEvosAttacks:
-	; dbbww EVOLVE_LEVEL_WITH_MOVE, 1, MIMIC, MR__MIME
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 1, BARRIER
-	; dbw 1, TICKLE
-	; dbw 4, COPYCAT
-	; dbw 8, MEDITATE
-	; dbw 11, ENCORE
-	; dbw 15, DOUBLESLAP
-	; dbw 18, MIMIC
-	; dbw 22, LIGHT_SCREEN
-	; dbw 22, REFLECT
-	; dbw 25, PSYBEAM
-	; dbw 29, SUBSTITUTE
-	; dbw 32, RECYCLE
-	; dbw 36, TRICK
-	; dbw 39, PSYCHIC_M
-	; dbw 43, ROLE_PLAY
-	; dbw 46, BATON_PASS
-	; dbw 50, SAFEGUARD
-	; db 0 ; no more level-up moves
+MimeJrEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; HappinyEvosAttacks:
-	; dbbbw EVOLVE_LEVEL_WITH_ITEM_DAY, 1, OVAL_STONE, CHANSEY
-	; db 0 ; no more evolutions
-	; dbw 1, POUND
-	; dbw 1, CHARM
-	; dbw 5, COPYCAT
-	; dbw 9, REFRESH
-	; dbw 12, SWEET_KISS
-	; db 0 ; no more level-up moves
+HappinyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ChatotEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, PECK
-	; dbw 5, GROWL
-	; dbw 9, MIRROR_MOVE
-	; dbw 13, SING
-	; dbw 17, FURY_ATTACK
-	; dbw 21, CHATTER
-	; dbw 25, TAUNT
-	; dbw 29, MIMIC
-	; dbw 33, ROOST
-	; dbw 37, UPROAR
-	; dbw 41, FEATHERDANCE
-	; dbw 45, HYPER_VOICE
-	; db 0 ; no more level-up moves
+ChatotEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SpiritombEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSE_RAY
-	; dbw 1, CURSE
-	; dbw 1, SPITE
-	; dbw 1, PURSUIT
-	; dbw 1, SHADOW_SNEAK
-	; dbw 7, FAINT_ATTACK
-	; dbw 13, HYPNOSIS
-	; dbw 19, DREAM_EATER
-	; dbw 25, OMINOUS_WIND
-	; dbw 31, SUCKER_PUNCH
-	; dbw 37, NASTY_PLOT
-	; dbw 43, MEMENTO
-	; dbw 49, DARK_PULSE
-	; db 0 ; no more level-up moves
+SpiritombEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GibleEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 24, GABITE
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 3, SAND_ATTACK
-	; dbw 7, DRAGON_RAGE
-	; dbw 13, SANDSTORM
-	; dbw 15, TAKE_DOWN
-	; dbw 19, SAND_TOMB
-	; dbw 25, SLASH
-	; dbw 27, DRAGON_CLAW
-	; dbw 31, DIG
-	; dbw 37, DRAGON_RUSH
-	; db 0 ; no more level-up moves
+GibleEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GabiteEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 48, GARCHOMP
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, TACKLE
-	; dbw 3, SAND_ATTACK
-	; dbw 7, DRAGON_RAGE
-	; dbw 13, SANDSTORM
-	; dbw 15, TAKE_DOWN
-	; dbw 19, SAND_TOMB
-	; dbw 28, SLASH
-	; dbw 33, DRAGON_CLAW
-	; dbw 40, DIG
-	; dbw 49, DRAGON_RUSH
-	; db 0 ; no more level-up moves
+GabiteEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GarchompEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, TACKLE
-	; dbw 1, DRAGON_RAGE
-	; dbw 1, SANDSTORM
-	; dbw 1, FIRE_FANG
-	; dbw 3, SAND_ATTACK
-	; dbw 7, DRAGON_RAGE
-	; dbw 13, SANDSTORM
-	; dbw 15, TAKE_DOWN
-	; dbw 19, SAND_TOMB
-	; dbw 28, SLASH
-	; dbw 33, DRAGON_CLAW
-	; dbw 40, DIG
-	; dbw 48, CRUNCH
-	; dbw 55, DRAGON_RUSH
-	; db 0 ; no more level-up moves
+GarchompEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; MunchlaxEvosAttacks:
 	; dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX

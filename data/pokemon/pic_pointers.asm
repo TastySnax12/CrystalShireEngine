@@ -890,4 +890,20 @@ PokemonPicPointers::
 	dba BronzorBackpic
 	dba BronzongFrontpic
 	dba BronzongBackpic
+	dba BonslyFrontpic
+	dba BonslyBackpic
+	dba MimeJrFrontpic
+	dba MimeJrBackpic
+	dba HappinyFrontpic
+	dba HappinyBackpic
+	dba ChatotFrontpic
+	dba ChatotBackpic
+	dba SpiritombFrontpic
+	dba SpiritombBackpic
+	dba GibleFrontpic
+	dba GibleBackpic
+	dba GabiteFrontpic
+	dba GabiteBackpic
+	dba GarchompFrontpic
+	dba GarchompBackpic
 	assert_table_length NUM_POKEMON + 1

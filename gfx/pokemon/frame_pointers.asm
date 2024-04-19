@@ -437,4 +437,12 @@ FramesPointers:
 	dba SkuntankFrames
 	dba BronzorFrames
 	dba BronzongFrames
+	dba BonslyFrames
+	dba MimeJrFrames
+	dba HappinyFrames
+	dba ChatotFrames
+	dba SpiritombFrames
+	dba GibleFrames
+	dba GabiteFrames
+	dba GarchompFrames
 	assert_table_length NUM_POKEMON

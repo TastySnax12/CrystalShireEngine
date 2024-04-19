@@ -459,7 +459,14 @@ DEF SINNOH_POKEMON EQU const_value
 	const SKUNTANK   ; 213
 	const BRONZOR    ; 214
 	const BRONZONG   ; 215
-	
+	const BONSLY     ; 216
+	const MIME_JR    ; 217
+	const HAPPINY    ; 218
+	const CHATOT     ; 219
+	const SPIRITOMB  ; 21a
+	const GIBLE      ; 21b
+	const GABITE     ; 21c
+	const GARCHOMP   ; 21d
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

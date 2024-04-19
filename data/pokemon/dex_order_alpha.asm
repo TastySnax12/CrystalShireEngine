@@ -36,6 +36,7 @@ AlphabeticalPokedexOrder:
 	dw BLASTOISE
 	dw BLAZIKEN
 	dw BLISSEY
+	dw BONSLY
 	dw BRELOOM
 	dw BRONZONG
 	dw BRONZOR
@@ -57,6 +58,7 @@ AlphabeticalPokedexOrder:
 	dw CHARIZARD
 	dw CHARMANDER
 	dw CHARMELEON
+	dw CHATOT
 	dw CHERRIM
 	dw CHERUBI
 	dw CHIKORITA
@@ -123,11 +125,14 @@ AlphabeticalPokedexOrder:
 	dw FLYGON
 	dw FORRETRESS
 	dw FURRET
+	dw GABITE
+	dw GARCHOMP
 	dw GARDEVOIR
 	dw GASTLY
 	dw GASTRODON
 	dw GENGAR
 	dw GEODUDE
+	dw GIBLE
 	dw GIRAFARIG
 	dw GLALIE
 	dw GLAMEOW
@@ -148,6 +153,7 @@ AlphabeticalPokedexOrder:
 	dw GRUMPIG
 	dw GULPIN
 	dw GYARADOS
+	dw HAPPINY
 	dw HARIYAMA
 	dw HAUNTER
 	dw HERACROSS
@@ -238,6 +244,7 @@ AlphabeticalPokedexOrder:
 	dw MIGHTYENA
 	dw MILOTIC
 	dw MILTANK
+	dw MIME_JR
 	dw MISDREAVUS
 	dw MISMAGIUS
 	dw MINUN
@@ -363,6 +370,7 @@ AlphabeticalPokedexOrder:
 	dw SPHEAL
 	dw SPINARAK
 	dw SPINDA
+	dw SPIRITOMB
 	dw SPOINK
 	dw SQUIRTLE
 	dw STANTLER

@@ -443,4 +443,12 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; SKUNTANK
 	mon_cry CRY_RATTATA,       0,  0   ; BRONZOR
 	mon_cry CRY_RATTATA,       0,  0   ; BRONZONG
+	mon_cry CRY_RATTATA,       0,  0   ; BONSLY
+	mon_cry CRY_RATTATA,       0,  0   ; MIME JR.
+	mon_cry CRY_RATTATA,       0,  0   ; HAPPINY
+	mon_cry CRY_RATTATA,       0,  0   ; CHATOT
+	mon_cry CRY_RATTATA,       0,  0   ; SPIRITOMB
+	mon_cry CRY_RATTATA,       0,  0   ; GIBLE
+	mon_cry CRY_RATTATA,       0,  0   ; GABITE
+	mon_cry CRY_RATTATA,       0,  0   ; GARCHOMP
 	assert_table_length NUM_POKEMON

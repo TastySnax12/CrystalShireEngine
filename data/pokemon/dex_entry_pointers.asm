@@ -438,4 +438,12 @@ PokedexDataPointerTable:
 	dba SkuntankPokedexEntry
 	dba BronzorPokedexEntry
 	dba BronzongPokedexEntry
+	dba BonslyPokedexEntry
+	dba MimeJrPokedexEntry
+	dba HappinyPokedexEntry
+	dba ChatotPokedexEntry
+	dba SpiritombPokedexEntry
+	dba GiblePokedexEntry
+	dba GabitePokedexEntry
+	dba GarchompPokedexEntry
 	assert_table_length NUM_POKEMON

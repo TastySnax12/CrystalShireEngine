@@ -437,4 +437,12 @@ AnimationIdlePointers:
 	dw SkuntankAnimationIdle
 	dw BronzorAnimationIdle
 	dw BronzongAnimationIdle
+	dw BonslyAnimationIdle
+	dw MimeJrAnimationIdle
+	dw HappinyAnimationIdle
+	dw ChatotAnimationIdle
+	dw SpiritombAnimationIdle
+	dw GibleAnimationIdle
+	dw GabiteAnimationIdle
+	dw GarchompAnimationIdle
 	assert_table_length NUM_POKEMON

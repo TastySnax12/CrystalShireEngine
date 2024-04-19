@@ -437,4 +437,12 @@ AnimationPointers:
 	dw SkuntankAnimation
 	dw BronzorAnimation
 	dw BronzongAnimation
+	dw BonslyAnimation
+	dw MimeJrAnimation
+	dw HappinyAnimation
+	dw ChatotAnimation
+	dw SpiritombAnimation
+	dw GibleAnimation
+	dw GabiteAnimation
+	dw GarchompAnimation
 	assert_table_length NUM_POKEMON

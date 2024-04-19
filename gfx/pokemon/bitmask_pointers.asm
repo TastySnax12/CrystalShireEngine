@@ -437,4 +437,12 @@ BitmasksPointers:
 	dw SkuntankBitmasks
 	dw BronzorBitmasks
 	dw BronzongBitmasks
+	dw BonslyBitmasks
+	dw MimeJrBitmasks
+	dw HappinyBitmasks
+	dw ChatotBitmasks
+	dw SpiritombBitmasks
+	dw GibleBitmasks
+	dw GabiteBitmasks
+	dw GarchompBitmasks
 	assert_table_length NUM_POKEMON

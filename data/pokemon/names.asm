@@ -441,4 +441,12 @@ PokemonNames::
 	db "SKUNTANK@@"
 	db "BRONZOR@@@"
 	db "BRONZONG@@"
+	db "BONSLY@@@@"
+	db "MIME JR.@@"
+	db "HAPPINY@@@"
+	db "CHATOT@@@@"
+	db "SPIRITOMB@"
+	db "GIBLE@@@@@"
+	db "GABITE@@@@"
+	db "GARCHOMP@@"
 	assert_table_length NUM_POKEMON

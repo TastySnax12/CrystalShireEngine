@@ -52,14 +52,14 @@ EggMovePointers4::
 	dw NoEggMoves4
 	dw BronzorEggMoves
 	dw NoEggMoves4
-	; dw BonslyEggMoves
-	; dw MimeJrEggMoves
-	; dw HappinyEggMoves
-	; dw ChatotEggMoves
-	; dw SpiritombEggMoves
-	; dw GibleEggMoves
-	; dw NoEggMoves4
-	; dw NoEggMoves4
+	dw BonslyEggMoves
+	dw MimeJrEggMoves
+	dw HappinyEggMoves
+	dw ChatotEggMoves
+	dw SpiritombEggMoves
+	dw GibleEggMoves
+	dw NoEggMoves4
+	dw NoEggMoves4
 	; dw MunchlaxEggMoves
 	; dw RioluEggMoves
 	; dw HippopotasEggMoves
@@ -334,16 +334,16 @@ BronzorEggMoves:
 	; dw TRICK
 	dw -1 ; end
 	
-; BonslyEggMoves:
+BonslyEggMoves:
 	; dw DEFENSE_CURL
 	; dw HARDEN
 	; dw HEADBUTT
 	; dw ROLLOUT
 	; dw SAND_TOMB
 	; dw SELFDESTRUCT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; MimeJrEggMoves:
+MimeJrEggMoves:
 	; dw CHARM
 	; dw CONFUSE_RAY
 	; dw FAKE_OUT
@@ -356,9 +356,9 @@ BronzorEggMoves:
 	; dw TEETER_DANCE
 	; dw TRICK
 	; dw WAKE_UP_SLAP
-	; dw -1 ; end
+	dw -1 ; end
 	
-; HappinyEggMoves:
+HappinyEggMoves:
 	; dw AROMATHERAPY
 	; dw COUNTER
 	; dw GRAVITY
@@ -369,26 +369,26 @@ BronzorEggMoves:
 	; dw MUD_BOMB
 	; dw PRESENT
 	; dw SUBSTITUTE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; ChatotEggMoves:
+ChatotEggMoves:
 	; dw AGILITY
 	; dw ENCORE
 	; dw NASTY_PLOT
 	; dw NIGHT_SHADE
 	; dw SUPERSONIC
-	; dw -1 ; end
+	dw -1 ; end
 	
-; SpiritombEggMoves:
+SpiritombEggMoves:
 	; dw DESTINY_BOND
 	; dw GRUDGE
 	; dw IMPRISON
 	; dw PAIN_SPLIT
 	; dw SHADOW_SNEAK
 	; dw SMOKESCREEN
-	; dw -1 ; end
+	dw -1 ; end
 	
-; GibleEggMoves:
+GibleEggMoves:
 	; dw BODY_SLAM
 	; dw DOUBLE_EDGE
 	; dw DRAGONBREATH
@@ -400,9 +400,9 @@ BronzorEggMoves:
 	; dw SCARY_FACE
 	; dw THRASH
 	; dw TWISTER
-	; dw -1 ; end
+	dw -1 ; end
 	
-; MunchlaxEggMoves:
+MunchlaxEggMoves:
 	; dw CHARM
 	; dw COUNTER
 	; dw CURSE
@@ -412,7 +412,7 @@ BronzorEggMoves:
 	; dw SUBSTITUTE
 	; dw WHIRLWIND
 	; dw ZEN_HEADBUTT
-	; dw -1 ; end
+	dw -1 ; end
 
 ; RioluEggMoves:
 	; dw AGILITY
