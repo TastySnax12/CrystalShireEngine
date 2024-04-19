@@ -454,4 +454,22 @@ AnimationPointers:
 	dw DrapionAnimation
 	dw CroagunkAnimation
 	dw ToxicroakAnimation
+	dw CarnivineAnimation
+	dw FinneonAnimation
+	dw LumineonAnimation
+	dw MantykeAnimation
+	dw SnoverAnimation
+	dw AbomasnowAnimation
+	dw WeavileAnimation
+	dw MagnezoneAnimation
+	dw LickilickyAnimation
+	dw RhyperiorAnimation
+	dw TangrowthAnimation
+	dw ElectivireAnimation
+	dw MagmortarAnimation
+	dw TogekissAnimation
+	dw YanmegaAnimation
+	dw LeafeonAnimation
+	dw GlaceonAnimation
+	dw GliscorAnimation
 	assert_table_length NUM_POKEMON

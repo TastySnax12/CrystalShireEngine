@@ -2,6 +2,7 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2, AlphabeticalPokedexOrder
+	dw ABOMASNOW
 	dw ABRA
 	dw ABSOL
 	dw AERODACTYL
@@ -49,6 +50,7 @@ AlphabeticalPokedexOrder:
 	dw CACNEA
 	dw CACTURNE
 	dw CAMERUPT
+	dw CARNIVINE
 	dw CARVANHA
 	dw CASCOON
 	dw CASTFORM
@@ -108,6 +110,7 @@ AlphabeticalPokedexOrder:
 	dw EEVEE
 	dw EKANS
 	dw ELECTABUZZ
+	dw ELECTIVIRE
 	dw ELECTRIKE
 	dw ELECTRODE
 	dw ELEKID
@@ -121,6 +124,7 @@ AlphabeticalPokedexOrder:
 	dw FEAROW
 	dw FEEBAS
 	dw FERALIGATR
+	dw FINNEON
 	dw FLAAFFY
 	dw FLAREON
 	dw FLOATZEL
@@ -136,9 +140,11 @@ AlphabeticalPokedexOrder:
 	dw GEODUDE
 	dw GIBLE
 	dw GIRAFARIG
+	dw GLACEON
 	dw GLALIE
 	dw GLAMEOW
 	dw GLIGAR
+	dw GLISCOR
 	dw GLOOM
 	dw GOLBAT
 	dw GOLDEEN
@@ -202,8 +208,10 @@ AlphabeticalPokedexOrder:
 	dw LARVITAR
 	dw LATIAS
 	dw LATIOS
+	dw LEAFEON
 	dw LEDIAN
 	dw LEDYBA
+	dw LICKILICKY
 	dw LICKITUNG
 	dw LILEEP
 	dw LINOONE
@@ -214,6 +222,7 @@ AlphabeticalPokedexOrder:
 	dw LUCARIO
 	dw LUDICOLO
 	dw LUGIA
+	dw LUMINEON
 	dw LUNATONE
 	dw LUVDISC
 	dw LUXIO
@@ -225,12 +234,15 @@ AlphabeticalPokedexOrder:
 	dw MAGCARGO
 	dw MAGIKARP
 	dw MAGMAR
+	dw MAGMORTAR
 	dw MAGNEMITE
 	dw MAGNETON
+	dw MAGNEZONE
 	dw MAKUHITA
 	dw MANECTRIC
 	dw MANKEY
 	dw MANTINE
+	dw MANTYKE
 	dw MAREEP
 	dw MARILL
 	dw MAROWAK
@@ -327,6 +339,7 @@ AlphabeticalPokedexOrder:
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
+	dw RHYPERIOR
 	dw RIOLU
 	dw ROSELIA
 	dw ROSERADE
@@ -372,6 +385,7 @@ AlphabeticalPokedexOrder:
 	dw SNEASEL
 	dw SNORLAX
 	dw SNORUNT
+	dw SNOVER
 	dw SNUBBULL
 	dw SOLROCK
 	dw SPEAROW
@@ -401,10 +415,12 @@ AlphabeticalPokedexOrder:
 	dw SWINUB
 	dw TAILLOW
 	dw TANGELA
+	dw TANGROWTH
 	dw TAUROS
 	dw TEDDIURSA
 	dw TENTACOOL
 	dw TENTACRUEL
+	dw TOGEKISS
 	dw TOGEPI
 	dw TOGETIC
 	dw TORCHIC
@@ -438,6 +454,7 @@ AlphabeticalPokedexOrder:
 	dw WAILORD
 	dw WALREIN
 	dw WARTORTLE
+	dw WEAVILE
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
@@ -452,6 +469,7 @@ AlphabeticalPokedexOrder:
 	dw WYNAUT
 	dw XATU
 	dw YANMA
+	dw YANMEGA
 	dw ZANGOOSE
 	dw ZAPDOS
 	dw ZIGZAGOON

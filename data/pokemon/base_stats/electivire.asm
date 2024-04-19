@@ -7,7 +7,7 @@
 	db ELECTRIC, ELECTRIC ; type
 	db 30 ; catch rate
 	db 243 ; base exp
-	dw ELECTRIZER, NO_ITEM ; items
+	dw NO_ITEM, NO_ITEM ; items (SHOULD BE dw ELECTRIZER, NO_ITEM ; items)
 	db GENDER_F75 ; gender ratio
 	db 25 ; step cycles to hatch
 	INCBIN "gfx/pokemon/electivire/front.dimensions"

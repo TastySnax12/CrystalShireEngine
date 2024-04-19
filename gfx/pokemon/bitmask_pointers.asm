@@ -454,4 +454,22 @@ BitmasksPointers:
 	dw DrapionBitmasks
 	dw CroagunkBitmasks
 	dw ToxicroakBitmasks
+	dw CarnivineBitmasks
+	dw FinneonBitmasks
+	dw LumineonBitmasks
+	dw MantykeBitmasks
+	dw SnoverBitmasks
+	dw AbomasnowBitmasks
+	dw WeavileBitmasks
+	dw MagnezoneBitmasks
+	dw LickilickyBitmasks
+	dw RhyperiorBitmasks
+	dw TangrowthBitmasks
+	dw ElectivireBitmasks
+	dw MagmortarBitmasks
+	dw TogekissBitmasks
+	dw YanmegaBitmasks
+	dw LeafeonBitmasks
+	dw GlaceonBitmasks
+	dw GliscorBitmasks
 	assert_table_length NUM_POKEMON

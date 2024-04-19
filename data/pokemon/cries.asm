@@ -460,4 +460,22 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; DRAPION
 	mon_cry CRY_RATTATA,       0,  0   ; CROAGUNK
 	mon_cry CRY_RATTATA,       0,  0   ; TOXICROAK
+	mon_cry CRY_RATTATA,       0,  0   ; CARNIVINE
+	mon_cry CRY_RATTATA,       0,  0   ; FINNEON
+	mon_cry CRY_RATTATA,       0,  0   ; LUMINEON
+	mon_cry CRY_RATTATA,       0,  0   ; MANTYKE
+	mon_cry CRY_RATTATA,       0,  0   ; SNOVER
+	mon_cry CRY_RATTATA,       0,  0   ; ABOMASNOW
+	mon_cry CRY_RATTATA,       0,  0   ; WEAVILE
+	mon_cry CRY_RATTATA,       0,  0   ; MAGNEZONE
+	mon_cry CRY_RATTATA,       0,  0   ; LICKILICKY
+	mon_cry CRY_RATTATA,       0,  0   ; RHYPERIOR
+	mon_cry CRY_RATTATA,       0,  0   ; TANGROWTH
+	mon_cry CRY_RATTATA,       0,  0   ; ELECTIVIRE
+	mon_cry CRY_RATTATA,       0,  0   ; MAGMORTAR
+	mon_cry CRY_RATTATA,       0,  0   ; TOGEKISS
+	mon_cry CRY_RATTATA,       0,  0   ; YANMEGA
+	mon_cry CRY_RATTATA,       0,  0   ; LEAFEON
+	mon_cry CRY_RATTATA,       0,  0   ; GLACEON
+	mon_cry CRY_RATTATA,       0,  0   ; GLISCOR
 	assert_table_length NUM_POKEMON

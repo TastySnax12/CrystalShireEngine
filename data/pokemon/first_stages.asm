@@ -455,4 +455,22 @@ FirstEvoStages::
 	dw SKORUPI
 	dw CROAGUNK
 	dw CROAGUNK
+	dw CARNIVINE
+	dw FINNEON
+	dw FINNEON
+	dw MANTYKE
+	dw SNOVER
+	dw SNOVER
+	dw SNEASEL
+	dw MAGNEMITE
+	dw LICKITUNG
+	dw RHYDON
+	dw TANGELA
+	dw ELEKID
+	dw MAGBY
+	dw TOGEPI
+	dw YANMA
+	dw EEVEE
+	dw EEVEE
+	dw GLIGAR
 	assert_table_length NUM_POKEMON

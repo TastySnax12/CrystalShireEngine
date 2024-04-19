@@ -459,4 +459,22 @@ IconPointers:
 	dba DrapionIcon
 	dba MagikarpIcon ; CROAGUNK
 	dba MagikarpIcon ; TOXICROAK
+	dba MagikarpIcon ; CARNIVINE
+	dba MagikarpIcon ; FINNEON
+	dba MagikarpIcon ; LUMINEON
+	dba MagikarpIcon ; MANTYKE
+	dba MagikarpIcon ; SNOVER
+	dba MagikarpIcon ; ABOMASNOW
+	dba WeavileIcon
+	dba MagnezoneIcon
+	dba MagikarpIcon ; LICKILICKY
+	dba RhyperiorIcon
+	dba TangrowthIcon
+	dba ElectivireIcon
+	dba MagmortarIcon
+	dba TogekissIcon
+	dba YanmegaIcon
+	dba LeafeonIcon
+	dba GlaceonIcon
+	dba GliscorIcon
 	assert_table_length NUM_POKEMON + 1

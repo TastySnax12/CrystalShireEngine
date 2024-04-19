@@ -476,6 +476,24 @@ DEF SINNOH_POKEMON EQU const_value
 	const DRAPION    ; 224
 	const CROAGUNK   ; 225
 	const TOXICROAK  ; 226
+	const CARNIVINE  ; 227
+	const FINNEON    ; 228
+	const LUMINEON   ; 229
+	const MANTYKE    ; 22a
+	const SNOVER     ; 22b
+	const ABOMASNOW  ; 22c
+	const WEAVILE    ; 22d
+	const MAGNEZONE  ; 22e
+	const LICKILICKY ; 22f
+	const RHYPERIOR  ; 230
+	const TANGROWTH  ; 231
+	const ELECTIVIRE ; 232
+	const MAGMORTAR  ; 233
+	const TOGEKISS   ; 234
+	const YANMEGA    ; 235
+	const LEAFEON    ; 236
+	const GLACEON    ; 237
+	const GLISCOR    ; 238
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

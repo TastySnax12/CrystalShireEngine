@@ -455,4 +455,22 @@ PokedexDataPointerTable:
 	dba DrapionPokedexEntry
 	dba CroagunkPokedexEntry
 	dba ToxicroakPokedexEntry
+	dba CarnivinePokedexEntry
+	dba FinneonPokedexEntry
+	dba LumineonPokedexEntry
+	dba MantykePokedexEntry
+	dba SnoverPokedexEntry
+	dba AbomasnowPokedexEntry
+	dba WeavilePokedexEntry
+	dba MagnezonePokedexEntry
+	dba LickilickyPokedexEntry
+	dba RhyperiorPokedexEntry
+	dba TangrowthPokedexEntry
+	dba ElectivirePokedexEntry
+	dba MagmortarPokedexEntry
+	dba TogekissPokedexEntry
+	dba YanmegaPokedexEntry
+	dba LeafeonPokedexEntry
+	dba GlaceonPokedexEntry
+	dba GliscorPokedexEntry
 	assert_table_length NUM_POKEMON

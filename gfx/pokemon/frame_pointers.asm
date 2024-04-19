@@ -454,4 +454,22 @@ FramesPointers:
 	dba DrapionFrames
 	dba CroagunkFrames
 	dba ToxicroakFrames
+	dba CarnivineFrames
+	dba FinneonFrames
+	dba LumineonFrames
+	dba MantykeFrames
+	dba SnoverFrames
+	dba AbomasnowFrames
+	dba WeavileFrames
+	dba MagnezoneFrames
+	dba LickilickyFrames
+	dba RhyperiorFrames
+	dba TangrowthFrames
+	dba ElectivireFrames
+	dba MagmortarFrames
+	dba TogekissFrames
+	dba YanmegaFrames
+	dba LeafeonFrames
+	dba GlaceonFrames
+	dba GliscorFrames
 	assert_table_length NUM_POKEMON

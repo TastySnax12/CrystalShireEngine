@@ -454,4 +454,22 @@ AnimationIdlePointers:
 	dw DrapionAnimationIdle
 	dw CroagunkAnimationIdle
 	dw ToxicroakAnimationIdle
+	dw CarnivineAnimationIdle
+	dw FinneonAnimationIdle
+	dw LumineonAnimationIdle
+	dw MantykeAnimationIdle
+	dw SnoverAnimationIdle
+	dw AbomasnowAnimationIdle
+	dw WeavileAnimationIdle
+	dw MagnezoneAnimationIdle
+	dw LickilickyAnimationIdle
+	dw RhyperiorAnimationIdle
+	dw TangrowthAnimationIdle
+	dw ElectivireAnimationIdle
+	dw MagmortarAnimationIdle
+	dw TogekissAnimationIdle
+	dw YanmegaAnimationIdle
+	dw LeafeonAnimationIdle
+	dw GlaceonAnimationIdle
+	dw GliscorAnimationIdle
 	assert_table_length NUM_POKEMON

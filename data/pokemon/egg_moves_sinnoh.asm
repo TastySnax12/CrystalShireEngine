@@ -69,24 +69,24 @@ EggMovePointers4::
 	dw NoEggMoves4
 	dw CroagunkEggMoves
 	dw NoEggMoves4
-	; dw CarnivineEggMoves
-	; dw FinneonEggMoves
-	; dw NoEggMoves4
-	; dw MantykeEggMoves
-	; dw SnoverEggMoves
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
+	dw CarnivineEggMoves
+	dw FinneonEggMoves
+	dw NoEggMoves4
+	dw MantykeEggMoves
+	dw SnoverEggMoves
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw NoEggMoves4
@@ -470,7 +470,7 @@ CroagunkEggMoves:
 	; dw WAKE_UP_SLAP
 	dw -1 ; end
 	
-; CarnivineEggMoves:
+CarnivineEggMoves:
 	; dw LEECH_SEED
 	; dw MAGICAL_LEAF
 	; dw RAZOR_LEAF
@@ -479,9 +479,9 @@ CroagunkEggMoves:
 	; dw STUN_SPORE
 	; dw SYNTHESIS
 	; dw WORRY_SEED
-	; dw -1 ; end
+	dw -1 ; end
 	
-; FinneonEggMoves:
+FinneonEggMoves:
 	; dw AGILITY
 	; dw AQUA_TAIL
 	; dw CHARM
@@ -490,9 +490,9 @@ CroagunkEggMoves:
 	; dw SPLASH
 	; dw SWEET_KISS
 	; dw TICKLE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; MantykeEggMoves:
+MantykeEggMoves:
 	; dw HAZE
 	; dw HYDRO_PUMP
 	; dw MIRROR_COAT
@@ -503,9 +503,9 @@ CroagunkEggMoves:
 	; dw SPLASH
 	; dw TWISTER
 	; dw WATER_SPORT
-	; dw -1 ; end
+	dw -1 ; end
 	
-; SnoverEggMoves:
+SnoverEggMoves:
 	; dw DOUBLE_EDGE
 	; dw GROWTH
 	; dw LEECH_SEED
@@ -514,7 +514,7 @@ CroagunkEggMoves:
 	; dw SEED_BOMB
 	; dw SKULL_BASH
 	; dw STOMP
-	; dw -1 ; end
+	dw -1 ; end
 	
 NoEggMoves4:
 	dw -1 ; end

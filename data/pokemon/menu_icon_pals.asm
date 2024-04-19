@@ -464,4 +464,22 @@ MonMenuIconPals:
 	icon_pals PURPLE, PURPLE ; DRAPION
 	icon_pals BLUE,   TEAL   ; CROAGUNK
 	icon_pals BLUE,   TEAL   ; TOXICROAK
+	icon_pals GREEN,  BROWN  ; CARNIVINE
+	icon_pals BLUE,   BROWN  ; FINNEON
+	icon_pals BLUE,   BROWN  ; LUMINEON
+	icon_pals TEAL,   TEAL   ; MANTYKE
+	icon_pals GREEN,  BLUE   ; SNOVER
+	icon_pals GREEN,  BLUE   ; ABOMASNOW
+	icon_pals RED,    PINK   ; WEAVILE
+	icon_pals GRAY,   GRAY   ; MAGNEZONE
+	icon_pals PINK,   BROWN  ; LICKILICKY
+	icon_pals RED,    BROWN  ; RHYPERIOR
+	icon_pals BLUE,   GREEN  ; TANGROWTH
+	icon_pals BROWN,  BROWN  ; ELECTIVIRE
+	icon_pals RED,    PINK   ; MAGMORTAR
+	icon_pals RED,    BLUE   ; TOGEKISS
+	icon_pals GREEN,  BLUE   ; YANMEGA
+	icon_pals GREEN,  GREEN  ; LEAFEON
+	icon_pals BLUE,   TEAL   ; GLACEON
+	icon_pals PURPLE, TEAL   ; GLISCOR
 	assert_table_length NUM_POKEMON
