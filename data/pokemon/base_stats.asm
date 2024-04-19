@@ -32,8 +32,7 @@ ENDM
 BaseData::
 	indirect_table BASE_DATA_SIZE, 1
 	indirect_entries CELEBI, BaseData1
-	indirect_entries MESPRIT, BaseData2
-	indirect_entries NUM_POKEMON, BaseData3
+	indirect_entries NUM_POKEMON, BaseData2
 	indirect_table_end
 
 BaseData1:
@@ -290,6 +289,9 @@ INCLUDE "data/pokemon/base_stats/ho_oh.asm"
 INCLUDE "data/pokemon/base_stats/celebi.asm"
 .IndirectEnd::
 
+
+SECTION "Base Stats 2", ROMX
+
 BaseData2:
 INCLUDE "data/pokemon/base_stats/treecko.asm"
 INCLUDE "data/pokemon/base_stats/grovyle.asm"
@@ -521,8 +523,6 @@ INCLUDE "data/pokemon/base_stats/froslass.asm"
 INCLUDE "data/pokemon/base_stats/rotom.asm"
 INCLUDE "data/pokemon/base_stats/uxie.asm"
 INCLUDE "data/pokemon/base_stats/mesprit.asm"
-.IndirectEnd::
-
-BaseData3:
 INCLUDE "data/pokemon/base_stats/azelf.asm"
+.IndirectEnd::
 

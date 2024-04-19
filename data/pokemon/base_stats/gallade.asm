@@ -4,7 +4,7 @@
 	evs  0,   3,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC, FIGHTING ; type
+	db PSYCHIC_TYPE, FIGHTING ; type
 	db 45 ; catch rate
 	db 233 ; base exp
 	dw NO_ITEM, NO_ITEM ; items

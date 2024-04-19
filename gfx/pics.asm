@@ -1269,6 +1269,10 @@ MamoswineFrontpic:   INCBIN "gfx/pokemon/mamoswine/front.animated.2bpp.lz"
 MamoswineBackpic:    INCBIN "gfx/pokemon/mamoswine/back.2bpp.lz"
 PorygonZFrontpic:    INCBIN "gfx/pokemon/porygon_z/front.animated.2bpp.lz"
 PorygonZBackpic:     INCBIN "gfx/pokemon/porygon_z/back.2bpp.lz"
+
+
+SECTION "Pics 33", ROMX
+
 GalladeFrontpic:     INCBIN "gfx/pokemon/gallade/front.animated.2bpp.lz"
 GalladeBackpic:      INCBIN "gfx/pokemon/gallade/back.2bpp.lz"
 ProbopassFrontpic:   INCBIN "gfx/pokemon/probopass/front.animated.2bpp.lz"
