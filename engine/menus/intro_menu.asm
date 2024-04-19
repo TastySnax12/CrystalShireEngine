@@ -102,14 +102,14 @@ Debug_NewGame:
 	jr z, .random_loop
 
 	dec a
-	ld hl, BULBASAUR
+	ld hl, TURTWIG
 	ld de, EVENT_GOT_TURTWIG
 	jr z, .got_starter
 	dec a
-	ld hl, CHARMANDER
+	ld hl, CHIMCHAR
 	ld de, EVENT_GOT_CHIMCHAR
 	jr z, .got_starter
-	ld hl, SQUIRTLE
+	ld hl, PIPLUP
 	ld de, EVENT_GOT_PIPLUP
 .got_starter
 	push de
@@ -692,7 +692,7 @@ OakSpeech:
 	call FadeToWhite
 	call ClearTilemap
 
-	ld hl, BULBASAUR
+	ld hl, BUNEARY
 	call GetPokemonIDFromIndex
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
@@ -807,7 +807,7 @@ RowanText1:
 RowanText2:
 	text_far _RowanText2
 	text_asm
-	ld hl, BULBASAUR
+	ld hl, BUNEARY
 	call GetPokemonIDFromIndex
 	call PlayMonCry
 	call WaitSFX

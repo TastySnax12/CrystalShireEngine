@@ -63,7 +63,7 @@ LakeVerityMeetCyrusScript:
 	writetext .LegendaryMonText
 	waitbutton
 	writetext .MespritText
-	cry BULBASAUR ; temp
+	cry MESPRIT
 	waitsfx
 	closetext
 	showemote EMOTE_SHOCK, LAKEVERITY_RIVAL, 15
