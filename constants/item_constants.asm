@@ -7,7 +7,7 @@
 	const_def
 	const NO_ITEM      ; 0000
 	const BRIGHTPOWDER ; 0001
-	const TOWN_MAP     ; 0002
+	const TOWN_MAP     ; 0002 ; dummied out
 	const MOON_STONE   ; 0003
 	const ANTIDOTE     ; 0004
 	const BURN_HEAL    ; 0005
@@ -25,7 +25,7 @@
 	const FIRE_STONE   ; 0011
 	const THUNDERSTONE ; 0012
 	const WATER_STONE  ; 0013
-	const JOURNAL      ; 0014
+	const ITEM_14      ; 0014
 	const HP_UP        ; 0015
 	const PROTEIN      ; 0016
 	const IRON         ; 0017
@@ -45,16 +45,16 @@
 	const SUPER_REPEL  ; 0025
 	const MAX_REPEL    ; 0026
 	const DIRE_HIT     ; 0027
-	const PARCEL       ; 0028
+	const ITEM_28      ; 0028
 	const FRESH_WATER  ; 0029
 	const SODA_POP     ; 002A
 	const LEMONADE     ; 002B
 	const X_ATTACK     ; 002C
-	const COUPON       ; 002D
+	const ITEM_2D      ; 002D
 	const X_DEFEND     ; 002E
 	const X_SPEED      ; 002F
 	const X_SPECIAL    ; 0030
-	const POKE_FLUTE   ; 0031
+	const POKE_FLUTE   ; 0031 ; dummied out
 	const EXP_SHARE    ; 0032
 	const SILVER_LEAF  ; 0033
 	const PP_UP        ; 0034
@@ -193,6 +193,9 @@ DEF FIRST_KEY_ITEM EQU const_value
 	const PASS         ; 0113
 	const SQUIRTBOTTLE ; 0114
 	const RAINBOW_WING ; 0115
+	const JOURNAL      ; 0116
+	const PARCEL       ; 0117
+	const COUPON       ; 0118
 DEF NUM_KEY_ITEM_POCKET EQU const_value - FIRST_KEY_ITEM
 assert NUM_KEY_ITEM_POCKET <= $ff
 

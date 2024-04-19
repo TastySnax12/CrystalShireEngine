@@ -215,6 +215,9 @@ ItemEffectsKeyItems:
 	dw NoEffect           ; PASS
 	dw SquirtbottleEffect ; SQUIRTBOTTLE
 	dw NoEffect           ; RAINBOW_WING
+	dw NoEffect           ; JOURNAL
+	dw NoEffect           ; PARCEL
+	dw NoEffect           ; COUPON
 .IndirectEnd:
 
 ItemEffectsBalls:

@@ -19,7 +19,7 @@ ItemNames::
 	li "FIRE STONE"   ; 0011
 	li "THUNDERSTONE" ; 0012
 	li "WATER STONE"  ; 0013
-	li "JOURNAL"      ; 0014
+	li "TERU-SAMA"    ; 0014
 	li "HP UP"        ; 0015
 	li "PROTEIN"      ; 0016
 	li "IRON"         ; 0017
@@ -39,12 +39,12 @@ ItemNames::
 	li "SUPER REPEL"  ; 0025
 	li "MAX REPEL"    ; 0026
 	li "DIRE HIT"     ; 0027
-	li "PARCEL"       ; 0028
+	li "TERU-SAMA"    ; 0028
 	li "FRESH WATER"  ; 0029
 	li "SODA POP"     ; 002A
 	li "LEMONADE"     ; 002B
 	li "X ATTACK"     ; 002C
-	li "COUPON"       ; 002D
+	li "TERU-SAMA"    ; 002D
 	li "X DEFEND"     ; 002E
 	li "X SPEED"      ; 002F
 	li "X SPECIAL"    ; 0030
@@ -187,6 +187,9 @@ KeyItemNames::
 	li "PASS"         ; 0113
 	li "SQUIRTBOTTLE" ; 0114
 	li "RAINBOW WING" ; 0115
+	li "JOURNAL"      ; 0116
+	li "PARCEL"       ; 0117
+	li "COUPON"       ; 0118
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::
