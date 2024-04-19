@@ -586,6 +586,14 @@ Debug_FillDex:
 	ld de, ENGINE_POKEDEX
 	ld b, SET_FLAG
 	farcall EngineFlagAction
+; if first unown isn't set, set it to avoid issues
+	ld hl, wFirstUnownSeen
+	ld a, [hl]
+	and a
+	jr z, .unown_ok
+	ld a, 1
+	ld [hl], a
+.unown_ok
 ; set flags
 	ld hl, 0
 .loop
