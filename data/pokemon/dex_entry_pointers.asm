@@ -438,4 +438,49 @@ PokedexDataPointerTable:
 	dba SkuntankPokedexEntry
 	dba BronzorPokedexEntry
 	dba BronzongPokedexEntry
+	dba BonslyPokedexEntry
+	dba MimeJrPokedexEntry
+	dba HappinyPokedexEntry
+	dba ChatotPokedexEntry
+	dba SpiritombPokedexEntry
+	dba GiblePokedexEntry
+	dba GabitePokedexEntry
+	dba GarchompPokedexEntry
+	dba MunchlaxPokedexEntry
+	dba RioluPokedexEntry
+	dba LucarioPokedexEntry
+	dba HippopotasPokedexEntry
+	dba HippowdonPokedexEntry
+	dba SkorupiPokedexEntry
+	dba DrapionPokedexEntry
+	dba CroagunkPokedexEntry
+	dba ToxicroakPokedexEntry
+	dba CarnivinePokedexEntry
+	dba FinneonPokedexEntry
+	dba LumineonPokedexEntry
+	dba MantykePokedexEntry
+	dba SnoverPokedexEntry
+	dba AbomasnowPokedexEntry
+	dba WeavilePokedexEntry
+	dba MagnezonePokedexEntry
+	dba LickilickyPokedexEntry
+	dba RhyperiorPokedexEntry
+	dba TangrowthPokedexEntry
+	dba ElectivirePokedexEntry
+	dba MagmortarPokedexEntry
+	dba TogekissPokedexEntry
+	dba YanmegaPokedexEntry
+	dba LeafeonPokedexEntry
+	dba GlaceonPokedexEntry
+	dba GliscorPokedexEntry
+	dba MamoswinePokedexEntry
+	dba PorygonZPokedexEntry
+	dba GalladePokedexEntry
+	dba ProbopassPokedexEntry
+	dba DusknoirPokedexEntry
+	dba FroslassPokedexEntry
+	dba RotomPokedexEntry
+	dba UxiePokedexEntry
+	dba MespritPokedexEntry
+	dba AzelfPokedexEntry
 	assert_table_length NUM_POKEMON

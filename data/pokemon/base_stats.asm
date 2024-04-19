@@ -32,7 +32,8 @@ ENDM
 BaseData::
 	indirect_table BASE_DATA_SIZE, 1
 	indirect_entries CELEBI, BaseData1
-	indirect_entries NUM_POKEMON, BaseData2
+	indirect_entries MESPRIT, BaseData2
+	indirect_entries NUM_POKEMON, BaseData3
 	indirect_table_end
 
 BaseData1:
@@ -476,4 +477,52 @@ INCLUDE "data/pokemon/base_stats/stunky.asm"
 INCLUDE "data/pokemon/base_stats/skuntank.asm"
 INCLUDE "data/pokemon/base_stats/bronzor.asm"
 INCLUDE "data/pokemon/base_stats/bronzong.asm"
+INCLUDE "data/pokemon/base_stats/bonsly.asm"
+INCLUDE "data/pokemon/base_stats/mime_jr.asm"
+INCLUDE "data/pokemon/base_stats/happiny.asm"
+INCLUDE "data/pokemon/base_stats/chatot.asm"
+INCLUDE "data/pokemon/base_stats/spiritomb.asm"
+INCLUDE "data/pokemon/base_stats/gible.asm"
+INCLUDE "data/pokemon/base_stats/gabite.asm"
+INCLUDE "data/pokemon/base_stats/garchomp.asm"
+INCLUDE "data/pokemon/base_stats/munchlax.asm"
+INCLUDE "data/pokemon/base_stats/riolu.asm"
+INCLUDE "data/pokemon/base_stats/lucario.asm"
+INCLUDE "data/pokemon/base_stats/hippopotas.asm"
+INCLUDE "data/pokemon/base_stats/hippowdon.asm"
+INCLUDE "data/pokemon/base_stats/skorupi.asm"
+INCLUDE "data/pokemon/base_stats/drapion.asm"
+INCLUDE "data/pokemon/base_stats/croagunk.asm"
+INCLUDE "data/pokemon/base_stats/toxicroak.asm"
+INCLUDE "data/pokemon/base_stats/carnivine.asm"
+INCLUDE "data/pokemon/base_stats/finneon.asm"
+INCLUDE "data/pokemon/base_stats/lumineon.asm"
+INCLUDE "data/pokemon/base_stats/mantyke.asm"
+INCLUDE "data/pokemon/base_stats/snover.asm"
+INCLUDE "data/pokemon/base_stats/abomasnow.asm"
+INCLUDE "data/pokemon/base_stats/weavile.asm"
+INCLUDE "data/pokemon/base_stats/magnezone.asm"
+INCLUDE "data/pokemon/base_stats/lickilicky.asm"
+INCLUDE "data/pokemon/base_stats/rhyperior.asm"
+INCLUDE "data/pokemon/base_stats/tangrowth.asm"
+INCLUDE "data/pokemon/base_stats/electivire.asm"
+INCLUDE "data/pokemon/base_stats/magmortar.asm"
+INCLUDE "data/pokemon/base_stats/togekiss.asm"
+INCLUDE "data/pokemon/base_stats/yanmega.asm"
+INCLUDE "data/pokemon/base_stats/leafeon.asm"
+INCLUDE "data/pokemon/base_stats/glaceon.asm"
+INCLUDE "data/pokemon/base_stats/gliscor.asm"
+INCLUDE "data/pokemon/base_stats/mamoswine.asm"
+INCLUDE "data/pokemon/base_stats/porygon_z.asm"
+INCLUDE "data/pokemon/base_stats/gallade.asm"
+INCLUDE "data/pokemon/base_stats/probopass.asm"
+INCLUDE "data/pokemon/base_stats/dusknoir.asm"
+INCLUDE "data/pokemon/base_stats/froslass.asm"
+INCLUDE "data/pokemon/base_stats/rotom.asm"
+INCLUDE "data/pokemon/base_stats/uxie.asm"
+INCLUDE "data/pokemon/base_stats/mesprit.asm"
 .IndirectEnd::
+
+BaseData3:
+INCLUDE "data/pokemon/base_stats/azelf.asm"
+

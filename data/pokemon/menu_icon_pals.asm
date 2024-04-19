@@ -447,4 +447,49 @@ MonMenuIconPals:
 	icon_pals PURPLE, PINK   ; SKUNTANK
 	icon_pals BLUE,   GREEN  ; BRONZOR
 	icon_pals BLUE,   GREEN  ; BRONZONG
+	icon_pals GREEN,  PINK   ; BONSLY
+	icon_pals BLUE,   GREEN  ; MIME JR.
+	icon_pals RED,    PINK   ; HAPPINY
+	icon_pals BLUE,   RED    ; CHATOT
+	icon_pals PURPLE, TEAL   ; SPIRITOMB
+	icon_pals BLUE,   TEAL   ; GIBLE
+	icon_pals BLUE,   BLUE   ; GABITE
+	icon_pals BLUE,   BLUE   ; GARCHOMP
+	icon_pals BLUE,   BLUE   ; MUNCHLAX
+	icon_pals BLUE,   BROWN  ; RIOLU
+	icon_pals BLUE,   BROWN  ; LUCARIO
+	icon_pals BROWN,  BROWN  ; HIPPOPOTAS
+	icon_pals BROWN,  BROWN  ; HIPPOWDON
+	icon_pals PURPLE, RED    ; SKORUPI
+	icon_pals PURPLE, PURPLE ; DRAPION
+	icon_pals BLUE,   TEAL   ; CROAGUNK
+	icon_pals BLUE,   TEAL   ; TOXICROAK
+	icon_pals GREEN,  BROWN  ; CARNIVINE
+	icon_pals BLUE,   BROWN  ; FINNEON
+	icon_pals BLUE,   BROWN  ; LUMINEON
+	icon_pals TEAL,   TEAL   ; MANTYKE
+	icon_pals GREEN,  BLUE   ; SNOVER
+	icon_pals GREEN,  BLUE   ; ABOMASNOW
+	icon_pals RED,    PINK   ; WEAVILE
+	icon_pals GRAY,   GRAY   ; MAGNEZONE
+	icon_pals PINK,   BROWN  ; LICKILICKY
+	icon_pals RED,    BROWN  ; RHYPERIOR
+	icon_pals BLUE,   GREEN  ; TANGROWTH
+	icon_pals BROWN,  BROWN  ; ELECTIVIRE
+	icon_pals RED,    PINK   ; MAGMORTAR
+	icon_pals RED,    BLUE   ; TOGEKISS
+	icon_pals GREEN,  BLUE   ; YANMEGA
+	icon_pals GREEN,  GREEN  ; LEAFEON
+	icon_pals BLUE,   TEAL   ; GLACEON
+	icon_pals PURPLE, TEAL   ; GLISCOR
+	icon_pals BROWN,  GREEN  ; MAMOSWINE
+	icon_pals RED,    BLUE   ; PORYGON-Z
+	icon_pals GREEN,  BLUE   ; GALLADE
+	icon_pals RED,    BROWN  ; PROBOPASS
+	icon_pals GRAY,   BLUE   ; DUSKNOIR
+	icon_pals TEAL,   GRAY   ; FROSLASS
+	icon_pals RED,    PINK   ; ROTOM
+	icon_pals BROWN,  BROWN  ; UXIE
+	icon_pals PINK,   BROWN  ; MESPRIT
+	icon_pals BLUE,   BROWN  ; AZELF
 	assert_table_length NUM_POKEMON

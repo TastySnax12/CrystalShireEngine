@@ -443,4 +443,49 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; SKUNTANK
 	mon_cry CRY_RATTATA,       0,  0   ; BRONZOR
 	mon_cry CRY_RATTATA,       0,  0   ; BRONZONG
+	mon_cry CRY_RATTATA,       0,  0   ; BONSLY
+	mon_cry CRY_RATTATA,       0,  0   ; MIME JR.
+	mon_cry CRY_RATTATA,       0,  0   ; HAPPINY
+	mon_cry CRY_RATTATA,       0,  0   ; CHATOT
+	mon_cry CRY_RATTATA,       0,  0   ; SPIRITOMB
+	mon_cry CRY_RATTATA,       0,  0   ; GIBLE
+	mon_cry CRY_RATTATA,       0,  0   ; GABITE
+	mon_cry CRY_RATTATA,       0,  0   ; GARCHOMP
+	mon_cry CRY_RATTATA,       0,  0   ; MUNCHLAX
+	mon_cry CRY_RATTATA,       0,  0   ; RIOLU
+	mon_cry CRY_RATTATA,       0,  0   ; LUCARIO
+	mon_cry CRY_RATTATA,       0,  0   ; HIPPOPOTAS
+	mon_cry CRY_RATTATA,       0,  0   ; HIPPOWDON
+	mon_cry CRY_RATTATA,       0,  0   ; SKORUPI
+	mon_cry CRY_RATTATA,       0,  0   ; DRAPION
+	mon_cry CRY_RATTATA,       0,  0   ; CROAGUNK
+	mon_cry CRY_RATTATA,       0,  0   ; TOXICROAK
+	mon_cry CRY_RATTATA,       0,  0   ; CARNIVINE
+	mon_cry CRY_RATTATA,       0,  0   ; FINNEON
+	mon_cry CRY_RATTATA,       0,  0   ; LUMINEON
+	mon_cry CRY_RATTATA,       0,  0   ; MANTYKE
+	mon_cry CRY_RATTATA,       0,  0   ; SNOVER
+	mon_cry CRY_RATTATA,       0,  0   ; ABOMASNOW
+	mon_cry CRY_RATTATA,       0,  0   ; WEAVILE
+	mon_cry CRY_RATTATA,       0,  0   ; MAGNEZONE
+	mon_cry CRY_RATTATA,       0,  0   ; LICKILICKY
+	mon_cry CRY_RATTATA,       0,  0   ; RHYPERIOR
+	mon_cry CRY_RATTATA,       0,  0   ; TANGROWTH
+	mon_cry CRY_RATTATA,       0,  0   ; ELECTIVIRE
+	mon_cry CRY_RATTATA,       0,  0   ; MAGMORTAR
+	mon_cry CRY_RATTATA,       0,  0   ; TOGEKISS
+	mon_cry CRY_RATTATA,       0,  0   ; YANMEGA
+	mon_cry CRY_RATTATA,       0,  0   ; LEAFEON
+	mon_cry CRY_RATTATA,       0,  0   ; GLACEON
+	mon_cry CRY_RATTATA,       0,  0   ; GLISCOR
+	mon_cry CRY_RATTATA,       0,  0   ; MAMOSWINE
+	mon_cry CRY_RATTATA,       0,  0   ; PORYGON-Z
+	mon_cry CRY_RATTATA,       0,  0   ; GALLADE
+	mon_cry CRY_RATTATA,       0,  0   ; PROBOPASS
+	mon_cry CRY_RATTATA,       0,  0   ; DUSKNOIR
+	mon_cry CRY_RATTATA,       0,  0   ; FROSLASS
+	mon_cry CRY_RATTATA,       0,  0   ; ROTOM
+	mon_cry CRY_RATTATA,       0,  0   ; UXIE
+	mon_cry CRY_RATTATA,       0,  0   ; MESPRIT
+	mon_cry CRY_RATTATA,       0,  0   ; AZELF
 	assert_table_length NUM_POKEMON

@@ -437,4 +437,49 @@ AnimationIdlePointers:
 	dw SkuntankAnimationIdle
 	dw BronzorAnimationIdle
 	dw BronzongAnimationIdle
+	dw BonslyAnimationIdle
+	dw MimeJrAnimationIdle
+	dw HappinyAnimationIdle
+	dw ChatotAnimationIdle
+	dw SpiritombAnimationIdle
+	dw GibleAnimationIdle
+	dw GabiteAnimationIdle
+	dw GarchompAnimationIdle
+	dw MunchlaxAnimationIdle
+	dw RioluAnimationIdle
+	dw LucarioAnimationIdle
+	dw HippopotasAnimationIdle
+	dw HippowdonAnimationIdle
+	dw SkorupiAnimationIdle
+	dw DrapionAnimationIdle
+	dw CroagunkAnimationIdle
+	dw ToxicroakAnimationIdle
+	dw CarnivineAnimationIdle
+	dw FinneonAnimationIdle
+	dw LumineonAnimationIdle
+	dw MantykeAnimationIdle
+	dw SnoverAnimationIdle
+	dw AbomasnowAnimationIdle
+	dw WeavileAnimationIdle
+	dw MagnezoneAnimationIdle
+	dw LickilickyAnimationIdle
+	dw RhyperiorAnimationIdle
+	dw TangrowthAnimationIdle
+	dw ElectivireAnimationIdle
+	dw MagmortarAnimationIdle
+	dw TogekissAnimationIdle
+	dw YanmegaAnimationIdle
+	dw LeafeonAnimationIdle
+	dw GlaceonAnimationIdle
+	dw GliscorAnimationIdle
+	dw MamoswineAnimationIdle
+	dw PorygonZAnimationIdle
+	dw GalladeAnimationIdle
+	dw ProbopassAnimationIdle
+	dw DusknoirAnimationIdle
+	dw FroslassAnimationIdle
+	dw RotomAnimationIdle
+	dw UxieAnimationIdle
+	dw MespritAnimationIdle
+	dw AzelfAnimationIdle
 	assert_table_length NUM_POKEMON

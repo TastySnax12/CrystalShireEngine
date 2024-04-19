@@ -717,6 +717,11 @@ IF DEF(_DEBUG)
 INCLUDE "engine/debug/debug_menu.asm"
 ENDC
 
+SECTION "Pokemon and Trainer Palettes", ROMX
+
+INCLUDE "data/pokemon/palettes.asm"
+INCLUDE "data/trainers/palettes.asm"
+
 SECTION "MBC30 Sentinel", ROMX
 MBC30_Sentinel::
 	db BANK(@)

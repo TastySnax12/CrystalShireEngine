@@ -328,12 +328,17 @@ SetBlackObjectPals::
 	ldh [hCGBPalUpdate], a
 	jmp DelayFrame
 
-LoadPalette_Mon::
+LoadPalette_Mon:
 	ldh a, [hROMBank]
 	push af
 	ld a, BANK(PokemonPalettes) ; also BANK(TrainerPalettes)
 	rst Bankswitch
+	call LoadPalette_White_Col1_Col2_Black
+	pop af
+	rst Bankswitch
+	ret
 
+LoadPalette_White_Col1_Col2_Black:
 	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wBGPals1)
@@ -362,6 +367,4 @@ LoadPalette_Mon::
 
 	pop af
 	ldh [rSVBK], a
-	pop af
-	rst Bankswitch
 	ret

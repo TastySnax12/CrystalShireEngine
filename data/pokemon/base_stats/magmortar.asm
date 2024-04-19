@@ -7,7 +7,7 @@
 	db FIRE, FIRE ; type
 	db 30 ; catch rate
 	db 243 ; base exp
-	dw MAGMARIZER, NO_ITEM ; items
+	dw NO_ITEM, NO_ITEM ; items (SHOULD BE dw MAGMARIZER, NO_ITEM ; items)
 	db GENDER_F25 ; gender ratio
 	db 25 ; step cycles to hatch
 	INCBIN "gfx/pokemon/magmortar/front.dimensions"

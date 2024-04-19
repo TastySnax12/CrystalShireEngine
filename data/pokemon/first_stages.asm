@@ -438,4 +438,49 @@ FirstEvoStages::
 	dw STUNKY
 	dw BRONZOR
 	dw BRONZOR
+	dw BONSLY
+	dw MIME_JR
+	dw HAPPINY
+	dw CHATOT
+	dw SPIRITOMB
+	dw GIBLE
+	dw GIBLE
+	dw GIBLE
+	dw MUNCHLAX
+	dw RIOLU
+	dw RIOLU
+	dw HIPPOPOTAS
+	dw HIPPOPOTAS
+	dw SKORUPI
+	dw SKORUPI
+	dw CROAGUNK
+	dw CROAGUNK
+	dw CARNIVINE
+	dw FINNEON
+	dw FINNEON
+	dw MANTYKE
+	dw SNOVER
+	dw SNOVER
+	dw SNEASEL
+	dw MAGNEMITE
+	dw LICKITUNG
+	dw RHYDON
+	dw TANGELA
+	dw ELEKID
+	dw MAGBY
+	dw TOGEPI
+	dw YANMA
+	dw EEVEE
+	dw EEVEE
+	dw GLIGAR
+	dw SWINUB
+	dw PORYGON
+	dw RALTS
+	dw NOSEPASS
+	dw DUSKULL
+	dw SNORUNT
+	dw ROTOM
+	dw UXIE
+	dw MESPRIT
+	dw AZELF
 	assert_table_length NUM_POKEMON

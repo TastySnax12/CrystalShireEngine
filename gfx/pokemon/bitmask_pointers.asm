@@ -437,4 +437,49 @@ BitmasksPointers:
 	dw SkuntankBitmasks
 	dw BronzorBitmasks
 	dw BronzongBitmasks
+	dw BonslyBitmasks
+	dw MimeJrBitmasks
+	dw HappinyBitmasks
+	dw ChatotBitmasks
+	dw SpiritombBitmasks
+	dw GibleBitmasks
+	dw GabiteBitmasks
+	dw GarchompBitmasks
+	dw MunchlaxBitmasks
+	dw RioluBitmasks
+	dw LucarioBitmasks
+	dw HippopotasBitmasks
+	dw HippowdonBitmasks
+	dw SkorupiBitmasks
+	dw DrapionBitmasks
+	dw CroagunkBitmasks
+	dw ToxicroakBitmasks
+	dw CarnivineBitmasks
+	dw FinneonBitmasks
+	dw LumineonBitmasks
+	dw MantykeBitmasks
+	dw SnoverBitmasks
+	dw AbomasnowBitmasks
+	dw WeavileBitmasks
+	dw MagnezoneBitmasks
+	dw LickilickyBitmasks
+	dw RhyperiorBitmasks
+	dw TangrowthBitmasks
+	dw ElectivireBitmasks
+	dw MagmortarBitmasks
+	dw TogekissBitmasks
+	dw YanmegaBitmasks
+	dw LeafeonBitmasks
+	dw GlaceonBitmasks
+	dw GliscorBitmasks
+	dw MamoswineBitmasks
+	dw PorygonZBitmasks
+	dw GalladeBitmasks
+	dw ProbopassBitmasks
+	dw DusknoirBitmasks
+	dw FroslassBitmasks
+	dw RotomBitmasks
+	dw UxieBitmasks
+	dw MespritBitmasks
+	dw AzelfBitmasks
 	assert_table_length NUM_POKEMON

@@ -142,7 +142,7 @@ LoadNthMiddleBGPal:
 	ld e, l
 	ld d, h
 	pop hl
-	jmp LoadPalette_White_Col1_Col2_Black
+	jmp LoadPalette_Mon
 
 ApplyMonOrTrainerPals:
 	call CheckCGB
@@ -160,7 +160,7 @@ ApplyMonOrTrainerPals:
 
 .load_palettes
 	ld de, wBGPals1
-	call LoadPalette_White_Col1_Col2_Black
+	call LoadPalette_Mon
 	call WipeAttrmap
 	call ApplyAttrmap
 	jmp ApplyPals
@@ -324,37 +324,6 @@ LoadHLBytesIntoDE:
 	inc de
 	dec c
 	jr nz, .loop
-	pop af
-	ldh [rSVBK], a
-	ret
-
-LoadPalette_White_Col1_Col2_Black:
-	ldh a, [rSVBK]
-	push af
-	ld a, BANK(wBGPals1)
-	ldh [rSVBK], a
-
-	ld a, LOW(PALRGB_WHITE)
-	ld [de], a
-	inc de
-	ld a, HIGH(PALRGB_WHITE)
-	ld [de], a
-	inc de
-
-	ld c, 2 * PAL_COLOR_SIZE
-.loop
-	ld a, [hli]
-	ld [de], a
-	inc de
-	dec c
-	jr nz, .loop
-
-	xor a
-	ld [de], a
-	inc de
-	ld [de], a
-	inc de
-
 	pop af
 	ldh [rSVBK], a
 	ret
@@ -976,10 +945,6 @@ INCLUDE "gfx/battle/hp_bar.pal"
 
 ExpBarPalette:
 INCLUDE "gfx/battle/exp_bar.pal"
-
-INCLUDE "data/pokemon/palettes.asm"
-
-INCLUDE "data/trainers/palettes.asm"
 
 LoadMapPals:
 	farcall LoadSpecialMapPalette

@@ -442,4 +442,49 @@ IconPointers:
 	dba MagikarpIcon ; SKUNTANK
 	dba BronzorIcon
 	dba BronzongIcon
+	dba MagikarpIcon ; BONSLY
+	dba MagikarpIcon ; MIME JR.
+	dba MagikarpIcon ; HAPPINY
+	dba MagikarpIcon ; CHATOT
+	dba SpiritombIcon
+	dba GibleIcon
+	dba GabiteIcon
+	dba GarchompIcon
+	dba MagikarpIcon ; MUNCHLAX
+	dba RioluIcon
+	dba LucarioIcon
+	dba MagikarpIcon ; HIPPOPOTAS
+	dba MagikarpIcon ; HIPPOWDON
+	dba SkorupiIcon
+	dba DrapionIcon
+	dba MagikarpIcon ; CROAGUNK
+	dba MagikarpIcon ; TOXICROAK
+	dba MagikarpIcon ; CARNIVINE
+	dba MagikarpIcon ; FINNEON
+	dba MagikarpIcon ; LUMINEON
+	dba MagikarpIcon ; MANTYKE
+	dba MagikarpIcon ; SNOVER
+	dba MagikarpIcon ; ABOMASNOW
+	dba WeavileIcon
+	dba MagnezoneIcon
+	dba MagikarpIcon ; LICKILICKY
+	dba RhyperiorIcon
+	dba TangrowthIcon
+	dba ElectivireIcon
+	dba MagmortarIcon
+	dba TogekissIcon
+	dba YanmegaIcon
+	dba LeafeonIcon
+	dba GlaceonIcon
+	dba GliscorIcon
+	dba MamoswineIcon
+	dba PorygonZIcon
+	dba GalladeIcon
+	dba MagikarpIcon ; PROBOPASS
+	dba DusknoirIcon
+	dba FroslassIcon
+	dba MagikarpIcon ; ROTOM
+	dba MagikarpIcon ; UXIE
+	dba MagikarpIcon ; MESPRIT
+	dba MagikarpIcon ; AZELF
 	assert_table_length NUM_POKEMON + 1

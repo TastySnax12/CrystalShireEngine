@@ -437,4 +437,49 @@ AnimationPointers:
 	dw SkuntankAnimation
 	dw BronzorAnimation
 	dw BronzongAnimation
+	dw BonslyAnimation
+	dw MimeJrAnimation
+	dw HappinyAnimation
+	dw ChatotAnimation
+	dw SpiritombAnimation
+	dw GibleAnimation
+	dw GabiteAnimation
+	dw GarchompAnimation
+	dw MunchlaxAnimation
+	dw RioluAnimation
+	dw LucarioAnimation
+	dw HippopotasAnimation
+	dw HippowdonAnimation
+	dw SkorupiAnimation
+	dw DrapionAnimation
+	dw CroagunkAnimation
+	dw ToxicroakAnimation
+	dw CarnivineAnimation
+	dw FinneonAnimation
+	dw LumineonAnimation
+	dw MantykeAnimation
+	dw SnoverAnimation
+	dw AbomasnowAnimation
+	dw WeavileAnimation
+	dw MagnezoneAnimation
+	dw LickilickyAnimation
+	dw RhyperiorAnimation
+	dw TangrowthAnimation
+	dw ElectivireAnimation
+	dw MagmortarAnimation
+	dw TogekissAnimation
+	dw YanmegaAnimation
+	dw LeafeonAnimation
+	dw GlaceonAnimation
+	dw GliscorAnimation
+	dw MamoswineAnimation
+	dw PorygonZAnimation
+	dw GalladeAnimation
+	dw ProbopassAnimation
+	dw DusknoirAnimation
+	dw FroslassAnimation
+	dw RotomAnimation
+	dw UxieAnimation
+	dw MespritAnimation
+	dw AzelfAnimation
 	assert_table_length NUM_POKEMON

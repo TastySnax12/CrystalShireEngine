@@ -7,7 +7,7 @@
 	db NORMAL, NORMAL ; type
 	db 130 ; catch rate
 	db 110 ; base exp
-	dw OVAL_STONE, LUCKY_PUNCH ; items
+	dw NO_ITEM, LUCKY_PUNCH ; items (SHOULD BE dw OVAL_STONE, LUCKY_PUNCH ; items)
 	db GENDER_F100 ; gender ratio
 	db 40 ; step cycles to hatch
 	INCBIN "gfx/pokemon/happiny/front.dimensions"
