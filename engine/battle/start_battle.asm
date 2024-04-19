@@ -87,13 +87,13 @@ PlayBattleMusic:
 	cp SCIENTIST
 	jr z, .done
 
-	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
+	ld de, MUSIC_SINNOH_GYM_LEADER_BATTLE
 	farcall IsKantoGymLeader
 	jr c, .done
 
 	; IsGymLeader also counts CHAMPION, RED, and the Kanto gym leaders
 	; but they have been taken care of before this
-	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
+	ld de, MUSIC_SINNOH_GYM_LEADER_BATTLE
 	farcall IsGymLeader
 	jr c, .done
 

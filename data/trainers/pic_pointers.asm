@@ -3,7 +3,7 @@
 TrainerPicPointers::
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	table_width 3, TrainerPicPointers
-	dba FalknerPic
+	dba RoarkPic
 	dba WhitneyPic
 	dba BugsyPic
 	dba MortyPic
@@ -19,7 +19,7 @@ TrainerPicPointers::
 	dba KarenPic
 	dba KogaPic
 	dba ChampionPic
-	dba BrockPic
+	dba WorkerPic
 	dba MistyPic
 	dba LtSurgePic
 	dba ScientistPic

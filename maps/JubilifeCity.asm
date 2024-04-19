@@ -1560,14 +1560,21 @@ JubilifeCity_GalacticScript:
 	opentext
 	writetext .RowanHelloText
 	waitbutton
+	closetext
+	opentext
 	writetext .DifficultText
 	waitbutton
+	closetext
 	turnobject JUBILIFECITY_CLOWN_ROWAN, LEFT
+	opentext
 	writetext .NuisanceText
 	waitbutton
 	turnobject JUBILIFECITY_CLOWN_ROWAN, DOWN
 	writetext .AdultsText
 	waitbutton
+	closetext
+	showemote EMOTE_SHOCK, JUBILIFECITY_OBJECT14, 15
+	opentext
 	writetext .PersonalText
 	waitbutton
 	writetext .CivilityText
@@ -1578,6 +1585,7 @@ JubilifeCity_GalacticScript:
 	closetext
 	applymovement JUBILIFECITY_DAWNLUCAS_PRES, .DawnLucasToGruntMovement
 	applymovement PLAYER, .PlayerToGruntMovement
+	turnobject JUBILIFECITY_OBJECT14, DOWN
 	winlosstext .WinText, 0
 	loadtrainer GRUNTM, GRUNTM_1
 	startbattle

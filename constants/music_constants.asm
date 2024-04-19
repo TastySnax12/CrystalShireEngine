@@ -41,7 +41,7 @@
 	const MUSIC_ROUTE_203                    ; 2a
 	const MUSIC_ECRUTEAK_CITY                ; 2b
 	const MUSIC_VIOLET_CITY                  ; 2c
-	const MUSIC_JOHTO_GYM_LEADER_BATTLE      ; 2d
+	const MUSIC_SINNOH_GYM_LEADER_BATTLE     ; 2d
 	const MUSIC_CHAMPION_BATTLE              ; 2e
 	const MUSIC_RIVAL_BATTLE                 ; 2f
 	const MUSIC_ROCKET_BATTLE                ; 30

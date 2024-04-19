@@ -43,7 +43,7 @@ Music:
 	dba Music_Route203
 	dba Music_EcruteakCity
 	dba Music_VioletCity
-	dba Music_JohtoGymBattle
+	dba Music_SinnohGymBattle
 	dba Music_ChampionBattle
 	dba Music_RivalBattle
 	dba Music_RocketBattle

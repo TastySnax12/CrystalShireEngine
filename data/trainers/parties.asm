@@ -9,7 +9,21 @@
 
 SECTION "Enemy Trainer Parties 1", ROMX
 
-FalknerGroup:
+RoarkGroup:
+	next_list_item ; ROARK (1)
+	db "ROARK@", TRAINERTYPE_MOVES
+	db 12
+	dw GEODUDE
+	dw ROCK_THROW, NO_MOVE, NO_MOVE, NO_MOVE ;dw ROCK_THROW, STEALTH_ROCK, NO_MOVE, NO_MOVE
+	db 12
+	dw ONIX
+	dw ROCK_THROW, SCREECH, NO_MOVE, NO_MOVE ;dw ROCK_THROW, SCREECH, STEALTH_ROCK, NO_MOVE
+	db 14
+	dw CRANIDOS
+	dw HEADBUTT, PURSUIT, LEER, NO_MOVE
+	db -1 ; end
+
+	end_list_items
 
 WhitneyGroup:
 
@@ -84,7 +98,22 @@ KogaGroup:
 
 ChampionGroup:
 
-BrockGroup:
+WorkerGroup:
+	next_list_item ; WORKER (1)
+	db "MASON@", TRAINERTYPE_NORMAL
+	db 9
+	dw GEODUDE
+	db -1 ; end
+
+	next_list_item ; WORKER (1)
+	db "COLIN@", TRAINERTYPE_NORMAL
+	db 6
+	dw GEODUDE
+	db 8
+	dw MACHOP
+	db -1 ; end
+
+	end_list_items
 
 MistyGroup:
 
@@ -125,6 +154,20 @@ YoungsterGroup:
 	db "BASTIAN@", TRAINERTYPE_NORMAL
 	db 8
 	dw MACHOP
+	db -1 ; end
+
+	next_list_item ; YOUNGSTER (6)
+	db "JONATHON@", TRAINERTYPE_NORMAL
+	db 11
+	dw GEODUDE
+	db -1 ; end
+
+	next_list_item ; YOUNGSTER (7)
+	db "DARIUS@", TRAINERTYPE_NORMAL
+	db 9
+	dw GEODUDE
+	db 9
+	dw ONIX
 	db -1 ; end
 
 	end_list_items
@@ -234,8 +277,24 @@ ExecutiveMGroup:
 PsychicGroup:
 
 PicnickerGroup:
+	next_list_item ; PICKNICKER (1)
+	db "DIANA@", TRAINERTYPE_NORMAL
+	db 9
+	dw BIDOOF
+	db -1 ; end
+
+	end_list_items
 
 CamperGroup:
+	next_list_item ; CAMPER (1)
+	db "CURTIS@", TRAINERTYPE_NORMAL
+	db 7
+	dw STARLY
+	db 7
+	dw SHINX
+	db -1 ; end
+
+	end_list_items
 
 ExecutiveFGroup:
 

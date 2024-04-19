@@ -2,7 +2,7 @@ TrainerClassDVs:
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	table_width 2, TrainerClassDVs
 	;  atk,def,spd,spc
-	dn  9, 10,  7,  7 ; FALKNER
+	dn  9, 10,  7,  7 ; ROARK
 	dn  8,  8,  8,  8 ; WHITNEY
 	dn  9,  8,  8,  8 ; BUGSY
 	dn  9,  8,  8,  8 ; MORTY
@@ -18,7 +18,7 @@ TrainerClassDVs:
 	dn  7, 15, 13, 15 ; KAREN
 	dn 13, 12, 13, 13 ; KOGA
 	dn 13, 12, 13, 13 ; CHAMPION
-	dn  9,  8,  8,  8 ; BROCK
+	dn  9,  8,  8,  8 ; WORKER
 	dn  7,  8,  8,  8 ; MISTY
 	dn  9,  8,  8,  8 ; LT_SURGE
 	dn  9,  8,  8,  8 ; SCIENTIST

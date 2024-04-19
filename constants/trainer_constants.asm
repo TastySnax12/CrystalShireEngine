@@ -28,7 +28,8 @@ DEF CHRIS EQU __trainer_class__
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 DEF KRIS EQU __trainer_class__
-	trainerclass FALKNER ; 1
+	trainerclass ROARK ; 1
+	const ROARK1
 
 	trainerclass WHITNEY ; 2
 
@@ -66,7 +67,9 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass CHAMPION ; 10
 
-	trainerclass BROCK ; 11
+	trainerclass WORKER ; 11
+	const MASON
+	const COLIN
 
 	trainerclass MISTY ; 12
 
@@ -82,6 +85,8 @@ DEF KRIS EQU __trainer_class__
 	const MICHAEL
 	const DALLAS1
 	const BASTIAN
+	const JONATHON
+	const DARIUS
 
 	trainerclass SCHOOLBOY ; 17
 	const HARRISON
@@ -149,8 +154,10 @@ DEF KRIS EQU __trainer_class__
 	trainerclass PSYCHIC_T ; 34
 
 	trainerclass PICNICKER ; 35
+	const DIANA
 
 	trainerclass CAMPER ; 36
+	const CURTIS
 
 	trainerclass EXECUTIVEF ; 37
 

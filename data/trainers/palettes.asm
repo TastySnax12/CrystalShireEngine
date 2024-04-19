@@ -8,7 +8,7 @@ TrainerPalettes:
 
 PlayerPalette:
 INCLUDE "gfx/player/chris.pal"
-INCBIN "gfx/trainers/falkner.gbcpal", middle_colors
+INCBIN "gfx/trainers/roark.gbcpal", middle_colors
 INCBIN "gfx/trainers/whitney.gbcpal", middle_colors
 INCBIN "gfx/trainers/bugsy.gbcpal", middle_colors
 INCBIN "gfx/trainers/morty.gbcpal", middle_colors
@@ -24,7 +24,7 @@ INCBIN "gfx/trainers/bruno.gbcpal", middle_colors
 INCBIN "gfx/trainers/karen.gbcpal", middle_colors
 INCBIN "gfx/trainers/koga.gbcpal", middle_colors
 INCBIN "gfx/trainers/champion.gbcpal", middle_colors
-INCBIN "gfx/trainers/brock.gbcpal", middle_colors
+INCBIN "gfx/trainers/worker.gbcpal", middle_colors
 INCBIN "gfx/trainers/misty.gbcpal", middle_colors
 INCBIN "gfx/trainers/lt_surge.gbcpal", middle_colors
 INCBIN "gfx/trainers/scientist.gbcpal", middle_colors
@@ -75,7 +75,7 @@ INCBIN "gfx/trainers/blue.gbcpal", middle_colors
 INCBIN "gfx/trainers/officer.gbcpal", middle_colors
 INCBIN "gfx/trainers/grunt_f.gbcpal", middle_colors
 INCBIN "gfx/trainers/schoolgirl.gbcpal", middle_colors
-INCBIN "gfx/trainers/falkner.gbcpal", middle_colors
+INCBIN "gfx/trainers/roark.gbcpal", middle_colors
 
 KrisPalette:
 INCLUDE "gfx/player/kris.pal"

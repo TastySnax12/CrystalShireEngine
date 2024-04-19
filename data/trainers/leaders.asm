@@ -5,7 +5,7 @@
 ; accounted for prior to the list check.
 
 GymLeaders:
-	db FALKNER
+	db ROARK
 	db WHITNEY
 	db BUGSY
 	db MORTY
@@ -21,7 +21,6 @@ GymLeaders:
 	db RED
 ; fallthrough
 KantoGymLeaders:
-	db BROCK
 	db MISTY
 	db LT_SURGE
 	db ERIKA

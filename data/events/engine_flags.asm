@@ -90,7 +90,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_TWINLEAF
 	engine_flag wVisitedSpawns, SPAWN_SANDGEM
 	engine_flag wVisitedSpawns, SPAWN_JUBILIFE
-; 	engine_flag wVisitedSpawns, SPAWN_AZALEA
+	engine_flag wVisitedSpawns, SPAWN_OREBURGH
 ; 	engine_flag wVisitedSpawns, SPAWN_CIANWOOD
 ; 	engine_flag wVisitedSpawns, SPAWN_GOLDENROD
 ; 	engine_flag wVisitedSpawns, SPAWN_OLIVINE

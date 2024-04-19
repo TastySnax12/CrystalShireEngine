@@ -14,13 +14,7 @@ DEF NPCTRADE_STRUCT_LENGTH EQU _RS
 
 ; NPCTrades indexes (see data/events/npc_trades.asm)
 	const_def
-	const NPC_TRADE_MIKE   ; 0
-	const NPC_TRADE_KYLE   ; 1
-	const NPC_TRADE_TIM    ; 2
-	const NPC_TRADE_EMY    ; 3
-	const NPC_TRADE_CHRIS  ; 4
-	const NPC_TRADE_KIM    ; 5
-	const NPC_TRADE_FOREST ; 6
+	const NPC_TRADE_HILARY    ; 0
 DEF NUM_NPC_TRADES EQU const_value
 
 ; trade gender limits
@@ -41,7 +35,7 @@ DEF NUM_NPC_TRADES EQU const_value
 
 ; trade dialog sets
 	const_def
-	const TRADE_DIALOGSET_COLLECTOR
+	const TRADE_DIALOGSET_HILARY
 	const TRADE_DIALOGSET_HAPPY
 	const TRADE_DIALOGSET_NEWBIE
 	const TRADE_DIALOGSET_GIRL

@@ -3,7 +3,7 @@
 BTTrainerClassGenders:
 ; entries correspond to trainer classes
 	table_width 1, BTTrainerClassGenders
-	db MALE   ; FALKNER
+	db MALE   ; ROARK
 	db FEMALE ; WHITNEY
 	db FEMALE ; BUGSY
 	db MALE   ; MORTY
@@ -19,7 +19,7 @@ BTTrainerClassGenders:
 	db FEMALE ; KAREN
 	db MALE   ; KOGA
 	db MALE   ; CHAMPION
-	db MALE   ; BROCK
+	db MALE   ; WORKER
 	db FEMALE ; MISTY
 	db MALE   ; LT_SURGE
 	db MALE   ; SCIENTIST

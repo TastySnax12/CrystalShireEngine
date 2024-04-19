@@ -16,6 +16,8 @@ SpawnPoints:
 
 	spawn JUBILIFE_CITY,              31, 26
 
+	spawn OREBURGH_CITY,              37, 12
+
 	spawn N_A,                        -1, -1
 
 	assert_table_length NUM_SPAWNS + 1
