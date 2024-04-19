@@ -446,4 +446,13 @@ PokedexDataPointerTable:
 	dba GiblePokedexEntry
 	dba GabitePokedexEntry
 	dba GarchompPokedexEntry
+	dba MunchlaxPokedexEntry
+	dba RioluPokedexEntry
+	dba LucarioPokedexEntry
+	dba HippopotasPokedexEntry
+	dba HippowdonPokedexEntry
+	dba SkorupiPokedexEntry
+	dba DrapionPokedexEntry
+	dba CroagunkPokedexEntry
+	dba ToxicroakPokedexEntry
 	assert_table_length NUM_POKEMON

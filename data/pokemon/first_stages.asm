@@ -446,4 +446,13 @@ FirstEvoStages::
 	dw GIBLE
 	dw GIBLE
 	dw GIBLE
+	dw MUNCHLAX
+	dw RIOLU
+	dw RIOLU
+	dw HIPPOPOTAS
+	dw HIPPOPOTAS
+	dw SKORUPI
+	dw SKORUPI
+	dw CROAGUNK
+	dw CROAGUNK
 	assert_table_length NUM_POKEMON

@@ -60,14 +60,15 @@ EggMovePointers4::
 	dw GibleEggMoves
 	dw NoEggMoves4
 	dw NoEggMoves4
-	; dw MunchlaxEggMoves
-	; dw RioluEggMoves
-	; dw HippopotasEggMoves
-	; dw NoEggMoves4
-	; dw SkorupiEggMoves
-	; dw NoEggMoves4
-	; dw CroagunkEggMoves
-	; dw NoEggMoves4
+	dw MunchlaxEggMoves
+	dw RioluEggMoves
+	dw NoEggMoves4
+	dw HippopotasEggMoves
+	dw NoEggMoves4
+	dw SkorupiEggMoves
+	dw NoEggMoves4
+	dw CroagunkEggMoves
+	dw NoEggMoves4
 	; dw CarnivineEggMoves
 	; dw FinneonEggMoves
 	; dw NoEggMoves4
@@ -414,7 +415,7 @@ MunchlaxEggMoves:
 	; dw ZEN_HEADBUTT
 	dw -1 ; end
 
-; RioluEggMoves:
+RioluEggMoves:
 	; dw AGILITY
 	; dw BITE
 	; dw BLAZE_KICK
@@ -429,9 +430,9 @@ MunchlaxEggMoves:
 	; dw MIND_READER
 	; dw SKY_UPPERCUT
 	; dw VACUUM_WAVE
-	; dw -1 ; end
+	dw -1 ; end
 	
-; HippopotasEggMoves:
+HippopotasEggMoves:
 	; dw BODY_SLAM
 	; dw CURSE
 	; dw REVENGE
@@ -440,9 +441,9 @@ MunchlaxEggMoves:
 	; dw SPIT_UP
 	; dw STOCKPILE
 	; dw SWALLOW
-	; dw -1 ; end
+	dw -1 ; end
 
-; SkorupiEggMoves:
+SkorupiEggMoves:
 	; dw AGILITY
 	; dw CONFUSE_RAY
 	; dw FAINT_ATTACK
@@ -452,9 +453,9 @@ MunchlaxEggMoves:
 	; dw SCREECH
 	; dw SLASH
 	; dw WHIRLWIND
-	; dw -1 ; end
+	dw -1 ; end
 	
-; CroagunkEggMoves:
+CroagunkEggMoves:
 	; dw BULLET_PUNCH
 	; dw COUNTER
 	; dw CROSS_CHOP
@@ -467,7 +468,7 @@ MunchlaxEggMoves:
 	; dw SMELLINGSALT
 	; dw VACUUM_WAVE
 	; dw WAKE_UP_SLAP
-	; dw -1 ; end
+	dw -1 ; end
 	
 ; CarnivineEggMoves:
 	; dw LEECH_SEED

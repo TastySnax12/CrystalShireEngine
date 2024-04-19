@@ -447,4 +447,13 @@ NewPokedexOrder:
 	dw GIBLE
 	dw GABITE
 	dw GARCHOMP
+	dw MUNCHLAX
+	dw RIOLU
+	dw LUCARIO
+	dw HIPPOPOTAS
+	dw HIPPOWDON
+	dw SKORUPI
+	dw DRAPION
+	dw CROAGUNK
+	dw TOXICROAK
 	assert_table_length NUM_POKEMON

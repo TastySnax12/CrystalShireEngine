@@ -906,4 +906,22 @@ PokemonPicPointers::
 	dba GabiteBackpic
 	dba GarchompFrontpic
 	dba GarchompBackpic
+	dba MunchlaxFrontpic
+	dba MunchlaxBackpic
+	dba RioluFrontpic
+	dba RioluBackpic
+	dba LucarioFrontpic
+	dba LucarioBackpic
+	dba HippopotasFrontpic
+	dba HippopotasBackpic
+	dba HippowdonFrontpic
+	dba HippowdonBackpic
+	dba SkorupiFrontpic
+	dba SkorupiBackpic
+	dba DrapionFrontpic
+	dba DrapionBackpic
+	dba CroagunkFrontpic
+	dba CroagunkBackpic
+	dba ToxicroakFrontpic
+	dba ToxicroakBackpic
 	assert_table_length NUM_POKEMON + 1

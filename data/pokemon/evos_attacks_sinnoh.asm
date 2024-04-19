@@ -60,15 +60,15 @@ EvosAttacksPointers4::
 	dw GibleEvosAttacks
 	dw GabiteEvosAttacks
 	dw GarchompEvosAttacks
-	; dw MunchlaxEvosAttacks
-	; dw RioluEvosAttacks
-	; dw LucarioEvosAttacks
-	; dw HippopotasEvosAttacks
-	; dw HippowdonEvosAttacks
-	; dw SkorupiEvosAttacks
-	; dw DrapionEvosAttacks
-	; dw CroagunkEvosAttacks
-	; dw ToxicroakEvosAttacks
+	dw MunchlaxEvosAttacks
+	dw RioluEvosAttacks
+	dw LucarioEvosAttacks
+	dw HippopotasEvosAttacks
+	dw HippowdonEvosAttacks
+	dw SkorupiEvosAttacks
+	dw DrapionEvosAttacks
+	dw CroagunkEvosAttacks
+	dw ToxicroakEvosAttacks
 	; dw CarnivineEvosAttacks
 	; dw FinneonEvosAttacks
 	; dw LumineonEvosAttacks
@@ -403,169 +403,50 @@ GarchompEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; MunchlaxEvosAttacks:
-	; dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, METRONOME
-	; dbw 1, ODOR_SLEUTH
-	; dbw 4, DEFENSE_CURL
-	; dbw 9, AMNESIA
-	; dbw 12, LICK
-	; dbw 17, RECYCLE
-	; dbw 20, SCREECH
-	; dbw 25, STOCKPILE
-	; dbw 28, SWALLOW
-	; dbw 33, BODY_SLAM
-	; dbw 36, FLING
-	; dbw 41, ROLLOUT
-	; dbw 44, NATURAL_GIFT
-	; dbw 49, LAST_RESORT
-	; db 0 ; no more level-up moves
+MunchlaxEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RioluEvosAttacks:
-	; dbbw EVOLVE_HAPPINESS, TR_MORNDAY, LUCARIO
-	; db 0 ; no more evolutions
-	; dbw 1, QUICK_ATTACK
-	; dbw 1, FORESIGHT
-	; dbw 1, ENDURE
-	; dbw 6, COUNTER
-	; dbw 11, FORCE_PALM
-	; dbw 15, FEINT
-	; dbw 19, REVERSAL
-	; dbw 24, SCREECH
-	; dbw 29, COPYCAT
-	; db 0 ; no more level-up moves
+RioluEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; LucarioEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, QUICK_ATTACK
-	; dbw 1, FORESIGHT
-	; dbw 1, DETECT
-	; dbw 1, METAL_CLAW
-	; dbw 1, DARK_PULSE
-	; dbw 6, COUNTER
-	; dbw 11, FORCE_PALM
-	; dbw 15, FEINT
-	; dbw 19, BONE_RUSH
-	; dbw 24, METAL_SOUND
-	; dbw 29, ME_FIRST
-	; dbw 33, SWORDS_DANCE
-	; dbw 37, AURA_SPHERE
-	; dbw 42, CLOSE_COMBAT
-	; dbw 47, DRAGON_PULSE
-	; dbw 51, EXTREMESPEED
-	; db 0 ; no more level-up moves
+LucarioEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; HippopotasEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 34, HIPPOWDON
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, TACKLE
-	; dbw 7, BITE
-	; dbw 13, YAWN
-	; dbw 19, TAKE_DOWN
-	; dbw 25, SAND_TOMB
-	; dbw 31, CRUNCH
-	; dbw 37, EARTHQUAKE
-	; dbw 44, DOUBLE_EDGE
-	; dbw 50, FISSURE
-	; db 0 ; no more level-up moves
+HippopotasEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; HippowdonEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SAND_ATTACK
-	; dbw 1, TACKLE
-	; dbw 1, BITE
-	; dbw 1, YAWN
-	; dbw 1, THUNDER_FANG
-	; dbw 1, ICE_FANG
-	; dbw 1, FIRE_FANG
-	; dbw 7, BITE
-	; dbw 13, YAWN
-	; dbw 19, TAKE_DOWN
-	; dbw 25, SAND_TOMB
-	; dbw 31, CRUNCH
-	; dbw 40, EARTHQUAKE
-	; dbw 50, DOUBLE_EDGE
-	; dbw 60, FISSURE
-	; db 0 ; no more level-up moves
+HippowdonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; SkorupiEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 40, DRAPION
-	; db 0 ; no more evolutions
-	; dbw 1, POISON_STING
-	; dbw 1, LEER
-	; dbw 1, BITE
-	; dbw 6, KNOCK_OFF
-	; dbw 12, PIN_MISSILE
-	; dbw 17, ACUPRESSURE
-	; dbw 23, SCARY_FACE
-	; dbw 28, TOXIC_SPIKES
-	; dbw 34, BUG_BITE
-	; dbw 39, POISON_FANG
-	; dbw 45, CRUNCH
-	; dbw 50, CROSS_POISON
-	; db 0 ; no more level-up moves
+SkorupiEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; DrapionEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POISON_STING
-	; dbw 1, LEER
-	; dbw 1, BITE
-	; dbw 1, KNOCK_OFF
-	; dbw 1, THUNDER_FANG
-	; dbw 1, ICE_FANG
-	; dbw 1, FIRE_FANG
-	; dbw 6, KNOCK_OFF
-	; dbw 12, PIN_MISSILE
-	; dbw 17, ACUPRESSURE
-	; dbw 23, SCARY_FACE
-	; dbw 28, TOXIC_SPIKES
-	; dbw 34, BUG_BITE
-	; dbw 39, POISON_FANG
-	; dbw 49, CRUNCH
-	; dbw 58, CROSS_POISON
-	; db 0 ; no more level-up moves
+DrapionEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CroagunkEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 37, TOXICROAK
-	; db 0 ; no more evolutions
-	; dbw 1, ASTONISH
-	; dbw 3, MUD_SLAP
-	; dbw 8, POISON_STING
-	; dbw 10, TAUNT
-	; dbw 15, PURSUIT
-	; dbw 17, FAINT_ATTACK
-	; dbw 22, REVENGE
-	; dbw 24, SWAGGER
-	; dbw 29, MUD_BOMB
-	; dbw 31, SUCKER_PUNCH
-	; dbw 36, NASTY_PLOT
-	; dbw 38, POISON_JAB
-	; dbw 43, SLUDGE_BOMB
-	; dbw 45, FLATTER
-	; db 0 ; no more level-up moves
+CroagunkEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ToxicroakEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, POISON_STING
-	; dbw 1, MUD_SLAP
-	; dbw 1, ASTONISH
-	; dbw 3, MUD_SLAP
-	; dbw 8, POISON_STING
-	; dbw 10, TAUNT
-	; dbw 15, PURSUIT
-	; dbw 17, FAINT_ATTACK
-	; dbw 22, REVENGE
-	; dbw 24, SWAGGER
-	; dbw 29, MUD_BOMB
-	; dbw 31, SUCKER_PUNCH
-	; dbw 36, NASTY_PLOT
-	; dbw 41, POISON_JAB
-	; dbw 49, SLUDGE_BOMB
-	; dbw 54, FLATTER
-	; db 0 ; no more level-up moves
+ToxicroakEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; CarnivineEvosAttacks:
 	; db 0 ; no more evolutions

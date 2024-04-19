@@ -445,4 +445,13 @@ AnimationIdlePointers:
 	dw GibleAnimationIdle
 	dw GabiteAnimationIdle
 	dw GarchompAnimationIdle
+	dw MunchlaxAnimationIdle
+	dw RioluAnimationIdle
+	dw LucarioAnimationIdle
+	dw HippopotasAnimationIdle
+	dw HippowdonAnimationIdle
+	dw SkorupiAnimationIdle
+	dw DrapionAnimationIdle
+	dw CroagunkAnimationIdle
+	dw ToxicroakAnimationIdle
 	assert_table_length NUM_POKEMON

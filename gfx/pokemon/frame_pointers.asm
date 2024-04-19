@@ -445,4 +445,13 @@ FramesPointers:
 	dba GibleFrames
 	dba GabiteFrames
 	dba GarchompFrames
+	dba MunchlaxFrames
+	dba RioluFrames
+	dba LucarioFrames
+	dba HippopotasFrames
+	dba HippowdonFrames
+	dba SkorupiFrames
+	dba DrapionFrames
+	dba CroagunkFrames
+	dba ToxicroakFrames
 	assert_table_length NUM_POKEMON

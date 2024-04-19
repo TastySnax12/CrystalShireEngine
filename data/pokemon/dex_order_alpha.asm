@@ -79,6 +79,7 @@ AlphabeticalPokedexOrder:
 	dw CRADILY
 	dw CRANIDOS
 	dw CRAWDAUNT
+	dw CROAGUNK
 	dw CROBAT
 	dw CROCONAW
 	dw CUBONE
@@ -94,6 +95,7 @@ AlphabeticalPokedexOrder:
 	dw DONPHAN
 	dw DRAGONAIR
 	dw DRAGONITE
+	dw DRAPION
 	dw DRATINI
 	dw DRIFBLIM
 	dw DRIFLOON
@@ -157,6 +159,8 @@ AlphabeticalPokedexOrder:
 	dw HARIYAMA
 	dw HAUNTER
 	dw HERACROSS
+	dw HIPPOPOTAS
+	dw HIPPOWDON
 	dw HITMONCHAN
 	dw HITMONLEE
 	dw HITMONTOP
@@ -207,6 +211,7 @@ AlphabeticalPokedexOrder:
 	dw LOPUNNY
 	dw LOTAD
 	dw LOUDRED
+	dw LUCARIO
 	dw LUDICOLO
 	dw LUGIA
 	dw LUNATONE
@@ -254,6 +259,7 @@ AlphabeticalPokedexOrder:
 	dw MR__MIME
 	dw MUDKIP
 	dw MUK
+	dw MUNCHLAX
 	dw MURKROW
 	dw NATU
 	dw NIDOKING
@@ -321,6 +327,7 @@ AlphabeticalPokedexOrder:
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
+	dw RIOLU
 	dw ROSELIA
 	dw ROSERADE
 	dw SABLEYE
@@ -352,6 +359,7 @@ AlphabeticalPokedexOrder:
 	dw SKARMORY
 	dw SKIPLOOM
 	dw SKITTY
+	dw SKORUPI
 	dw SKUNTANK
 	dw SLAKING
 	dw SLAKOTH
@@ -403,6 +411,7 @@ AlphabeticalPokedexOrder:
 	dw TORKOAL
 	dw TORTERRA
 	dw TOTODILE
+	dw TOXICROAK
 	dw TRAPINCH
 	dw TREECKO
 	dw TROPIUS

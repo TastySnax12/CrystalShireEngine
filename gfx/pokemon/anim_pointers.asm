@@ -445,4 +445,13 @@ AnimationPointers:
 	dw GibleAnimation
 	dw GabiteAnimation
 	dw GarchompAnimation
+	dw MunchlaxAnimation
+	dw RioluAnimation
+	dw LucarioAnimation
+	dw HippopotasAnimation
+	dw HippowdonAnimation
+	dw SkorupiAnimation
+	dw DrapionAnimation
+	dw CroagunkAnimation
+	dw ToxicroakAnimation
 	assert_table_length NUM_POKEMON

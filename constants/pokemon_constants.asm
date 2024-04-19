@@ -467,6 +467,15 @@ DEF SINNOH_POKEMON EQU const_value
 	const GIBLE      ; 21b
 	const GABITE     ; 21c
 	const GARCHOMP   ; 21d
+	const MUNCHLAX   ; 21e
+	const RIOLU      ; 21f
+	const LUCARIO    ; 220
+	const HIPPOPOTAS ; 221
+	const HIPPOWDON  ; 222
+	const SKORUPI    ; 223
+	const DRAPION    ; 224
+	const CROAGUNK   ; 225
+	const TOXICROAK  ; 226
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

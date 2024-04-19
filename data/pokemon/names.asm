@@ -449,4 +449,13 @@ PokemonNames::
 	db "GIBLE@@@@@"
 	db "GABITE@@@@"
 	db "GARCHOMP@@"
+	db "MUNCHLAX@@"
+	db "RIOLU@@@@@"
+	db "LUCARIO@@@"
+	db "HIPPOPOTAS"
+	db "HIPPOWDON@"
+	db "SKORUPI@@@"
+	db "DRAPION@@@"
+	db "CROAGUNK@@"
+	db "TOXICROAK@"
 	assert_table_length NUM_POKEMON

@@ -445,4 +445,13 @@ BitmasksPointers:
 	dw GibleBitmasks
 	dw GabiteBitmasks
 	dw GarchompBitmasks
+	dw MunchlaxBitmasks
+	dw RioluBitmasks
+	dw LucarioBitmasks
+	dw HippopotasBitmasks
+	dw HippowdonBitmasks
+	dw SkorupiBitmasks
+	dw DrapionBitmasks
+	dw CroagunkBitmasks
+	dw ToxicroakBitmasks
 	assert_table_length NUM_POKEMON

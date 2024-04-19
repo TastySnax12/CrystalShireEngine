@@ -450,4 +450,13 @@ IconPointers:
 	dba GibleIcon
 	dba GabiteIcon
 	dba GarchompIcon
+	dba MagikarpIcon ; MUNCHLAX
+	dba RioluIcon
+	dba LucarioIcon
+	dba MagikarpIcon ; HIPPOPOTAS
+	dba MagikarpIcon ; HIPPOWDON
+	dba SkorupiIcon
+	dba DrapionIcon
+	dba MagikarpIcon ; CROAGUNK
+	dba MagikarpIcon ; TOXICROAK
 	assert_table_length NUM_POKEMON + 1

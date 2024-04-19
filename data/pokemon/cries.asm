@@ -451,4 +451,13 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; GIBLE
 	mon_cry CRY_RATTATA,       0,  0   ; GABITE
 	mon_cry CRY_RATTATA,       0,  0   ; GARCHOMP
+	mon_cry CRY_RATTATA,       0,  0   ; MUNCHLAX
+	mon_cry CRY_RATTATA,       0,  0   ; RIOLU
+	mon_cry CRY_RATTATA,       0,  0   ; LUCARIO
+	mon_cry CRY_RATTATA,       0,  0   ; HIPPOPOTAS
+	mon_cry CRY_RATTATA,       0,  0   ; HIPPOWDON
+	mon_cry CRY_RATTATA,       0,  0   ; SKORUPI
+	mon_cry CRY_RATTATA,       0,  0   ; DRAPION
+	mon_cry CRY_RATTATA,       0,  0   ; CROAGUNK
+	mon_cry CRY_RATTATA,       0,  0   ; TOXICROAK
 	assert_table_length NUM_POKEMON

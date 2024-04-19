@@ -455,4 +455,13 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; GIBLE
 	icon_pals BLUE,   BLUE   ; GABITE
 	icon_pals BLUE,   BLUE   ; GARCHOMP
+	icon_pals BLUE,   BLUE   ; MUNCHLAX
+	icon_pals BLUE,   BROWN  ; RIOLU
+	icon_pals BLUE,   BROWN  ; LUCARIO
+	icon_pals BROWN,  BROWN  ; HIPPOPOTAS
+	icon_pals BROWN,  BROWN  ; HIPPOWDON
+	icon_pals PURPLE, RED    ; SKORUPI
+	icon_pals PURPLE, PURPLE ; DRAPION
+	icon_pals BLUE,   TEAL   ; CROAGUNK
+	icon_pals BLUE,   TEAL   ; TOXICROAK
 	assert_table_length NUM_POKEMON
