@@ -590,7 +590,7 @@ Debug_FillDex:
 	ld hl, wFirstUnownSeen
 	ld a, [hl]
 	and a
-	jr z, .unown_ok
+	jr nz, .unown_ok
 	ld a, 1
 	ld [hl], a
 .unown_ok
