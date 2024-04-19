@@ -474,4 +474,14 @@ NewPokedexOrder:
 	dw LEAFEON
 	dw GLACEON
 	dw GLISCOR
+	dw MAMOSWINE
+	dw PORYGON_Z
+	dw GALLADE
+	dw PROBOPASS
+	dw DUSKNOIR
+	dw FROSLASS
+	dw ROTOM
+	dw UXIE
+	dw MESPRIT
+	dw AZELF
 	assert_table_length NUM_POKEMON

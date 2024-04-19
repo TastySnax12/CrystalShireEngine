@@ -472,4 +472,14 @@ FramesPointers:
 	dba LeafeonFrames
 	dba GlaceonFrames
 	dba GliscorFrames
+	dba MamoswineFrames
+	dba PorygonZFrames
+	dba GalladeFrames
+	dba ProbopassFrames
+	dba DusknoirFrames
+	dba FroslassFrames
+	dba RotomFrames
+	dba UxieFrames
+	dba MespritFrames
+	dba AzelfFrames
 	assert_table_length NUM_POKEMON

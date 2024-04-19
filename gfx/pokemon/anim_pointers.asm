@@ -472,4 +472,14 @@ AnimationPointers:
 	dw LeafeonAnimation
 	dw GlaceonAnimation
 	dw GliscorAnimation
+	dw MamoswineAnimation
+	dw PorygonZAnimation
+	dw GalladeAnimation
+	dw ProbopassAnimation
+	dw DusknoirAnimation
+	dw FroslassAnimation
+	dw RotomAnimation
+	dw UxieAnimation
+	dw MespritAnimation
+	dw AzelfAnimation
 	assert_table_length NUM_POKEMON

@@ -477,4 +477,14 @@ IconPointers:
 	dba LeafeonIcon
 	dba GlaceonIcon
 	dba GliscorIcon
+	dba MamoswineIcon
+	dba PorygonZIcon
+	dba GalladeIcon
+	dba MagikarpIcon ; PROBOPASS
+	dba DusknoirIcon
+	dba FroslassIcon
+	dba MagikarpIcon ; ROTOM
+	dba MagikarpIcon ; UXIE
+	dba MagikarpIcon ; MESPRIT
+	dba MagikarpIcon ; AZELF
 	assert_table_length NUM_POKEMON + 1

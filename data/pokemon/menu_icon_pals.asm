@@ -482,4 +482,14 @@ MonMenuIconPals:
 	icon_pals GREEN,  GREEN  ; LEAFEON
 	icon_pals BLUE,   TEAL   ; GLACEON
 	icon_pals PURPLE, TEAL   ; GLISCOR
+	icon_pals BROWN,  GREEN  ; MAMOSWINE
+	icon_pals RED,    BLUE   ; PORYGON-Z
+	icon_pals GREEN,  BLUE   ; GALLADE
+	icon_pals RED,    BROWN  ; PROBOPASS
+	icon_pals GRAY,   BLUE   ; DUSKNOIR
+	icon_pals TEAL,   GRAY   ; FROSLASS
+	icon_pals RED,    PINK   ; ROTOM
+	icon_pals BROWN,  BROWN  ; UXIE
+	icon_pals PINK,   BROWN  ; MESPRIT
+	icon_pals BLUE,   BROWN  ; AZELF
 	assert_table_length NUM_POKEMON

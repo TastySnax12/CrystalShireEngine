@@ -473,4 +473,14 @@ FirstEvoStages::
 	dw EEVEE
 	dw EEVEE
 	dw GLIGAR
+	dw SWINUB
+	dw PORYGON
+	dw RALTS
+	dw NOSEPASS
+	dw DUSKULL
+	dw SNORUNT
+	dw ROTOM
+	dw UXIE
+	dw MESPRIT
+	dw AZELF
 	assert_table_length NUM_POKEMON

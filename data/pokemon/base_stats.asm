@@ -32,7 +32,8 @@ ENDM
 BaseData::
 	indirect_table BASE_DATA_SIZE, 1
 	indirect_entries CELEBI, BaseData1
-	indirect_entries NUM_POKEMON, BaseData2
+	indirect_entries MESPRIT, BaseData2
+	indirect_entries NUM_POKEMON, BaseData3
 	indirect_table_end
 
 BaseData1:
@@ -511,4 +512,17 @@ INCLUDE "data/pokemon/base_stats/yanmega.asm"
 INCLUDE "data/pokemon/base_stats/leafeon.asm"
 INCLUDE "data/pokemon/base_stats/glaceon.asm"
 INCLUDE "data/pokemon/base_stats/gliscor.asm"
+INCLUDE "data/pokemon/base_stats/mamoswine.asm"
+INCLUDE "data/pokemon/base_stats/porygon_z.asm"
+INCLUDE "data/pokemon/base_stats/gallade.asm"
+INCLUDE "data/pokemon/base_stats/probopass.asm"
+INCLUDE "data/pokemon/base_stats/dusknoir.asm"
+INCLUDE "data/pokemon/base_stats/froslass.asm"
+INCLUDE "data/pokemon/base_stats/rotom.asm"
+INCLUDE "data/pokemon/base_stats/uxie.asm"
+INCLUDE "data/pokemon/base_stats/mesprit.asm"
 .IndirectEnd::
+
+BaseData3:
+INCLUDE "data/pokemon/base_stats/azelf.asm"
+

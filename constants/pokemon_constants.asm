@@ -494,6 +494,16 @@ DEF SINNOH_POKEMON EQU const_value
 	const LEAFEON    ; 236
 	const GLACEON    ; 237
 	const GLISCOR    ; 238
+	const MAMOSWINE  ; 239
+	const PORYGON_Z  ; 23a
+	const GALLADE    ; 23b
+	const PROBOPASS  ; 23c
+	const DUSKNOIR   ; 23d
+	const FROSLASS   ; 23e
+	const ROTOM      ; 23f
+	const UXIE       ; 240
+	const MESPRIT    ; 241
+	const AZELF      ; 242
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

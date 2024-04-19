@@ -87,16 +87,16 @@ EggMovePointers4::
 	dw NoEggMoves4
 	dw NoEggMoves4
 	dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
-	; dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
+	dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw NoEggMoves4
 	; dw NoEggMoves4

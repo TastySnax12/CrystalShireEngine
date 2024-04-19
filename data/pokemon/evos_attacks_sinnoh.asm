@@ -87,16 +87,16 @@ EvosAttacksPointers4::
 	dw LeafeonEvosAttacks
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
-	; dw MamoswineEvosAttacks
-	; dw PorygonZEvosAttacks
-	; dw GalladeEvosAttacks
-	; dw ProbopassEvosAttacks
-	; dw DusknoirEvosAttacks
-	; dw FroslassEvosAttacks
-	; dw RotomEvosAttacks
-	; dw UxieEvosAttacks
-	; dw MespritEvosAttacks
-	; dw AzelfEvosAttacks
+	dw MamoswineEvosAttacks
+	dw PorygonZEvosAttacks
+	dw GalladeEvosAttacks
+	dw ProbopassEvosAttacks
+	dw DusknoirEvosAttacks
+	dw FroslassEvosAttacks
+	dw RotomEvosAttacks
+	dw UxieEvosAttacks
+	dw MespritEvosAttacks
+	dw AzelfEvosAttacks
 	; dw DialgaEvosAttacks
 	; dw PalkiaEvosAttacks
 	; dw HeatranEvosAttacks
@@ -538,200 +538,55 @@ GliscorEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; MamoswineEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, PECK
-	; dbw 1, POWDER_SNOW
-	; dbw 1, ANCIENTPOWER
-	; dbw 1, MUD_SPORT
-	; dbw 1, ODOR_SLEUTH
-	; dbw 4, MUD_SPORT
-	; dbw 8, POWDER_SNOW
-	; dbw 13, MUD_SLAP
-	; dbw 16, ENDURE
-	; dbw 20, MUD_BOMB
-	; dbw 25, HAIL
-	; dbw 28, ICE_FANG
-	; dbw 32, TAKE_DOWN
-	; dbw 33, DOUBLE_HIT
-	; dbw 40, EARTHQUAKE
-	; dbw 48, MIST
-	; dbw 56, BLIZZARD
-	; dbw 65, SCARY_FACE
-	; db 0 ; no more level-up moves
+MamoswineEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; PorygonZEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, CONVERSION
-	; dbw 1, CONVERSION2
-	; dbw 1, NASTY_PLOT
-	; dbw 1, TRICK_ROOM
-	; dbw 7, PSYBEAM
-	; dbw 12, AGILITY
-	; dbw 18, RECOVER
-	; dbw 23, MAGNET_RISE
-	; dbw 29, SIGNAL_BEAM
-	; dbw 34, EMBARGO
-	; dbw 40, DISCHARGE
-	; dbw 45, LOCK_ON
-	; dbw 51, TRI_ATTACK
-	; dbw 56, MAGIC_COAT
-	; dbw 62, ZAP_CANNON
-	; dbw 67, HYPER_BEAM
-	; db 0 ; no more level-up moves
+PorygonZEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GalladeEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, LEER
-	; dbw 1, CONFUSION
-	; dbw 1, TELEPORT
-	; dbw 1, DOUBLE_TEAM
-	; dbw 1, LEAF_BLADE
-	; dbw 1, NIGHT_SLASH
-	; dbw 6, CONFUSION
-	; dbw 10, DOUBLE_TEAM
-	; dbw 12, TELEPORT
-	; dbw 17, FURY_CUTTER
-	; dbw 22, SLASH
-	; dbw 25, SWORDS_DANCE
-	; dbw 31, PSYCHO_CUT
-	; dbw 36, HELPING_HAND
-	; dbw 39, FEINT
-	; dbw 45, FALSE_SWIPE
-	; dbw 50, PROTECT
-	; dbw 53, CLOSE_COMBAT
-	; db 0 ; no more level-up moves
+GalladeEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ProbopassEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, TACKLE
-	; dbw 1, IRON_DEFENSE
-	; dbw 1, BLOCK
-	; dbw 1, GRAVITY
-	; dbw 1, MAGNET_RISE
-	; dbw 1, MAGNET_BOMB
-	; dbw 7, IRON_DEFENSE
-	; dbw 13, MAGNET_BOMB
-	; dbw 19, BLOCK
-	; dbw 25, THUNDER_WAVE
-	; dbw 31, ROCK_SLIDE
-	; dbw 37, SANDSTORM
-	; dbw 43, REST
-	; dbw 49, POWER_GEM
-	; dbw 55, DISCHARGE
-	; dbw 61, STONE_EDGE
-	; dbw 67, ZAP_CANNON
-	; dbw 73, LOCK_ON
-	; dbw 79, EARTH_POWER
-	; db 0 ; no more level-up moves
+ProbopassEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; DusknoirEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, FIRE_PUNCH
-	; dbw 1, ICE_PUNCH
-	; dbw 1, THUNDERPUNCH
-	; dbw 1, BIND
-	; dbw 1, LEER
-	; dbw 1, DISABLE
-	; dbw 1, NIGHT_SHADE
-	; dbw 1, GRAVITY
-	; dbw 6, DISABLE
-	; dbw 9, FORESIGHT
-	; dbw 14, ASTONISH
-	; dbw 17, CONFUSE_RAY
-	; dbw 22, SHADOW_SNEAK
-	; dbw 25, PURSUIT
-	; dbw 30, CURSE
-	; dbw 33, WILL_O_WISP
-	; dbw 37, SHADOW_PUNCH
-	; dbw 43, MEAN_LOOK
-	; dbw 51, PAYBACK
-	; dbw 61, FUTURE_SIGHT
-	; db 0 ; no more level-up moves
+DusknoirEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; FroslassEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, LEER
-	; dbw 1, DOUBLE_TEAM
-	; dbw 1, POWDER_SNOW
-	; dbw 1, ASTONISH
-	; dbw 4, DOUBLE_TEAM
-	; dbw 10, ASTONISH
-	; dbw 13, ICY_WIND
-	; dbw 19, CONFUSE_RAY
-	; dbw 22, OMINOUS_WIND
-	; dbw 28, WAKE_UP_SLAP
-	; dbw 31, CAPTIVATE
-	; dbw 37, ICE_SHARD
-	; dbw 40, HAIL
-	; dbw 51, BLIZZARD
-	; dbw 59, DESTINY_BOND
-	; db 0 ; no more level-up moves
+FroslassEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RotomEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, THUNDERSHOCK
-	; dbw 1, THUNDER_WAVE
-	; dbw 1, CONFUSE_RAY
-	; dbw 1, TRICK
-	; dbw 1, ASTONISH
-	; dbw 8, UPROAR
-	; dbw 15, DOUBLE_TEAM
-	; dbw 22, SHOCK_WAVE
-	; dbw 29, OMINOUS_WIND
-	; dbw 36, SUBSTITUTE
-	; dbw 43, CHARGE
-	; dbw 50, DISCHARGE
-	; db 0 ; no more level-up moves
+RotomEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; UxieEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 1, REST
-	; dbw 6, IMPRISON
-	; dbw 16, ENDURE
-	; dbw 21, SWIFT
-	; dbw 31, YAWN
-	; dbw 36, FUTURE_SIGHT
-	; dbw 46, AMNESIA
-	; dbw 51, EXTRASENSORY
-	; dbw 61, FLAIL
-	; dbw 66, NATURAL_GIFT
-	; dbw 76, MEMENTO
-	; db 0 ; no more level-up moves
+UxieEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; MespritEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 1, REST
-	; dbw 6, IMPRISON
-	; dbw 16, PROTECT
-	; dbw 21, SWIFT
-	; dbw 31, LUCKY_CHANT
-	; dbw 36, FUTURE_SIGHT
-	; dbw 46, CHARM
-	; dbw 51, EXTRASENSORY
-	; dbw 61, COPYCAT
-	; dbw 66, NATURAL_GIFT
-	; dbw 76, HEALING_WISH
-	; db 0 ; no more level-up moves
+MespritEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; AzelfEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 1, REST
-	; dbw 6, IMPRISON
-	; dbw 16, DETECT
-	; dbw 21, SWIFT
-	; dbw 31, UPROAR
-	; dbw 36, FUTURE_SIGHT
-	; dbw 46, NASTY_PLOT
-	; dbw 51, EXTRASENSORY
-	; dbw 61, LAST_RESORT
-	; dbw 66, NATURAL_GIFT
-	; dbw 76, EXPLOSION
-	; db 0 ; no more level-up moves
+AzelfEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ; DialgaEvosAttacks:
 	; db 0 ; no more evolutions

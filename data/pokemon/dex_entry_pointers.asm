@@ -473,4 +473,14 @@ PokedexDataPointerTable:
 	dba LeafeonPokedexEntry
 	dba GlaceonPokedexEntry
 	dba GliscorPokedexEntry
+	dba MamoswinePokedexEntry
+	dba PorygonZPokedexEntry
+	dba GalladePokedexEntry
+	dba ProbopassPokedexEntry
+	dba DusknoirPokedexEntry
+	dba FroslassPokedexEntry
+	dba RotomPokedexEntry
+	dba UxiePokedexEntry
+	dba MespritPokedexEntry
+	dba AzelfPokedexEntry
 	assert_table_length NUM_POKEMON

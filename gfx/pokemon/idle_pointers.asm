@@ -472,4 +472,14 @@ AnimationIdlePointers:
 	dw LeafeonAnimationIdle
 	dw GlaceonAnimationIdle
 	dw GliscorAnimationIdle
+	dw MamoswineAnimationIdle
+	dw PorygonZAnimationIdle
+	dw GalladeAnimationIdle
+	dw ProbopassAnimationIdle
+	dw DusknoirAnimationIdle
+	dw FroslassAnimationIdle
+	dw RotomAnimationIdle
+	dw UxieAnimationIdle
+	dw MespritAnimationIdle
+	dw AzelfAnimationIdle
 	assert_table_length NUM_POKEMON

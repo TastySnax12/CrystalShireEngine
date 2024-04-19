@@ -960,4 +960,24 @@ PokemonPicPointers::
 	dba GlaceonBackpic
 	dba GliscorFrontpic
 	dba GliscorBackpic
+	dba MamoswineFrontpic
+	dba MamoswineBackpic
+	dba PorygonZFrontpic
+	dba PorygonZBackpic
+	dba GalladeFrontpic
+	dba GalladeBackpic
+	dba ProbopassFrontpic
+	dba ProbopassBackpic
+	dba DusknoirFrontpic
+	dba DusknoirBackpic
+	dba FroslassFrontpic
+	dba FroslassBackpic
+	dba RotomFrontpic
+	dba RotomBackpic
+	dba UxieFrontpic
+	dba UxieBackpic
+	dba MespritFrontpic
+	dba MespritBackpic
+	dba AzelfFrontpic
+	dba AzelfBackpic
 	assert_table_length NUM_POKEMON + 1

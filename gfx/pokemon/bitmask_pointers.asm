@@ -472,4 +472,14 @@ BitmasksPointers:
 	dw LeafeonBitmasks
 	dw GlaceonBitmasks
 	dw GliscorBitmasks
+	dw MamoswineBitmasks
+	dw PorygonZBitmasks
+	dw GalladeBitmasks
+	dw ProbopassBitmasks
+	dw DusknoirBitmasks
+	dw FroslassBitmasks
+	dw RotomBitmasks
+	dw UxieBitmasks
+	dw MespritBitmasks
+	dw AzelfBitmasks
 	assert_table_length NUM_POKEMON

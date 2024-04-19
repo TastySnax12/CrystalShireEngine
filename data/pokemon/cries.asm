@@ -478,4 +478,14 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; LEAFEON
 	mon_cry CRY_RATTATA,       0,  0   ; GLACEON
 	mon_cry CRY_RATTATA,       0,  0   ; GLISCOR
+	mon_cry CRY_RATTATA,       0,  0   ; MAMOSWINE
+	mon_cry CRY_RATTATA,       0,  0   ; PORYGON-Z
+	mon_cry CRY_RATTATA,       0,  0   ; GALLADE
+	mon_cry CRY_RATTATA,       0,  0   ; PROBOPASS
+	mon_cry CRY_RATTATA,       0,  0   ; DUSKNOIR
+	mon_cry CRY_RATTATA,       0,  0   ; FROSLASS
+	mon_cry CRY_RATTATA,       0,  0   ; ROTOM
+	mon_cry CRY_RATTATA,       0,  0   ; UXIE
+	mon_cry CRY_RATTATA,       0,  0   ; MESPRIT
+	mon_cry CRY_RATTATA,       0,  0   ; AZELF
 	assert_table_length NUM_POKEMON

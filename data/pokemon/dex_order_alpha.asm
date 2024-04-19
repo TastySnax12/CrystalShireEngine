@@ -19,6 +19,7 @@ AlphabeticalPokedexOrder:
 	dw ARMALDO
 	dw ARON
 	dw ARTICUNO
+	dw AZELF
 	dw AZUMARILL
 	dw AZURILL
 	dw BAGON
@@ -105,6 +106,7 @@ AlphabeticalPokedexOrder:
 	dw DUGTRIO
 	dw DUNSPARCE
 	dw DUSCLOPS
+	dw DUSKNOIR
 	dw DUSKULL
 	dw DUSTOX
 	dw EEVEE
@@ -130,8 +132,10 @@ AlphabeticalPokedexOrder:
 	dw FLOATZEL
 	dw FLYGON
 	dw FORRETRESS
+	dw FROSLASS
 	dw FURRET
 	dw GABITE
+	dw GALLADE
 	dw GARCHOMP
 	dw GARDEVOIR
 	dw GASTLY
@@ -239,6 +243,7 @@ AlphabeticalPokedexOrder:
 	dw MAGNETON
 	dw MAGNEZONE
 	dw MAKUHITA
+	dw MAMOSWINE
 	dw MANECTRIC
 	dw MANKEY
 	dw MANTINE
@@ -253,6 +258,7 @@ AlphabeticalPokedexOrder:
 	dw MEDITITE
 	dw MEGANIUM
 	dw MEOWTH
+	dw MESPRIT
 	dw METAGROSS
 	dw METANG
 	dw METAPOD
@@ -315,9 +321,11 @@ AlphabeticalPokedexOrder:
 	dw PONYTA
 	dw POOCHYENA
 	dw PORYGON
+	dw PORYGON_Z
 	dw PORYGON2
 	dw PRIMEAPE
 	dw PRINPLUP
+	dw PROBOPASS
 	dw PSYDUCK
 	dw PUPITAR
 	dw PURUGLY
@@ -343,6 +351,7 @@ AlphabeticalPokedexOrder:
 	dw RIOLU
 	dw ROSELIA
 	dw ROSERADE
+	dw ROTOM
 	dw SABLEYE
 	dw SALAMENCE
 	dw SANDSHREW
@@ -438,6 +447,7 @@ AlphabeticalPokedexOrder:
 	dw UMBREON
 	dw UNOWN
 	dw URSARING
+	dw UXIE
 	dw VAPOREON
 	dw VENOMOTH
 	dw VENONAT
