@@ -482,4 +482,15 @@ BitmasksPointers:
 	dw UxieBitmasks
 	dw MespritBitmasks
 	dw AzelfBitmasks
+	dw DialgaBitmasks
+	dw PalkiaBitmasks
+	dw HeatranBitmasks
+	dw RegigigasBitmasks
+	dw GiratinaBitmasks
+	dw CresseliaBitmasks
+	dw PhioneBitmasks
+	dw ManaphyBitmasks
+	dw DarkraiBitmasks
+	dw ShayminBitmasks
+	dw ArceusBitmasks
 	assert_table_length NUM_POKEMON

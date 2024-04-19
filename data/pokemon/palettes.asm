@@ -997,4 +997,26 @@ INCBIN "gfx/pokemon/mesprit/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/mesprit/shiny.pal"
 INCBIN "gfx/pokemon/azelf/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/azelf/shiny.pal"
+INCBIN "gfx/pokemon/dialga/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/dialga/shiny.pal"
+INCBIN "gfx/pokemon/palkia/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/palkia/shiny.pal"
+INCBIN "gfx/pokemon/heatran/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/heatran/shiny.pal"
+INCBIN "gfx/pokemon/regigigas/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/regigigas/shiny.pal"
+INCBIN "gfx/pokemon/giratina/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/giratina/shiny.pal"
+INCBIN "gfx/pokemon/cresselia/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/cresselia/shiny.pal"
+INCBIN "gfx/pokemon/phione/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/phione/shiny.pal"
+INCBIN "gfx/pokemon/manaphy/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/manaphy/shiny.pal"
+INCBIN "gfx/pokemon/darkrai/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/darkrai/shiny.pal"
+INCBIN "gfx/pokemon/shaymin/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/shaymin/shiny.pal"
+INCBIN "gfx/pokemon/arceus/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/arceus/shiny.pal"
 	assert_table_length NUM_POKEMON + 1

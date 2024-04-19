@@ -483,4 +483,15 @@ FirstEvoStages::
 	dw UXIE
 	dw MESPRIT
 	dw AZELF
+	dw DIALGA
+	dw PALKIA
+	dw HEATRAN
+	dw REGIGIGAS
+	dw GIRATINA
+	dw CRESSELIA
+	dw PHIONE
+	dw MANAPHY
+	dw DARKRAI
+	dw SHAYMIN
+	dw ARCEUS
 	assert_table_length NUM_POKEMON

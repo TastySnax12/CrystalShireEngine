@@ -483,4 +483,15 @@ PokedexDataPointerTable:
 	dba UxiePokedexEntry
 	dba MespritPokedexEntry
 	dba AzelfPokedexEntry
+	dba DialgaPokedexEntry
+	dba PalkiaPokedexEntry
+	dba HeatranPokedexEntry
+	dba RegigigasPokedexEntry
+	dba GiratinaPokedexEntry
+	dba CresseliaPokedexEntry
+	dba PhionePokedexEntry
+	dba ManaphyPokedexEntry
+	dba DarkraiPokedexEntry
+	dba ShayminPokedexEntry
+	dba ArceusPokedexEntry
 	assert_table_length NUM_POKEMON

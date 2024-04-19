@@ -482,4 +482,15 @@ AnimationIdlePointers:
 	dw UxieAnimationIdle
 	dw MespritAnimationIdle
 	dw AzelfAnimationIdle
+	dw DialgaAnimationIdle
+	dw PalkiaAnimationIdle
+	dw HeatranAnimationIdle
+	dw RegigigasAnimationIdle
+	dw GiratinaAnimationIdle
+	dw CresseliaAnimationIdle
+	dw PhioneAnimationIdle
+	dw ManaphyAnimationIdle
+	dw DarkraiAnimationIdle
+	dw ShayminAnimationIdle
+	dw ArceusAnimationIdle
 	assert_table_length NUM_POKEMON

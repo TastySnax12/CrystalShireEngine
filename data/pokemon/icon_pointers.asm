@@ -487,4 +487,15 @@ IconPointers:
 	dba MagikarpIcon ; UXIE
 	dba MagikarpIcon ; MESPRIT
 	dba MagikarpIcon ; AZELF
+	dba MagikarpIcon ; DIALGA
+	dba MagikarpIcon ; PALKIA
+	dba MagikarpIcon ; HEATRAN
+	dba MagikarpIcon ; REGIGIGAS
+	dba MagikarpIcon ; GIRATINA
+	dba MagikarpIcon ; CRESSELIA
+	dba MagikarpIcon ; PHIONE
+	dba MagikarpIcon ; MANAPHY
+	dba MagikarpIcon ; DARKRAI
+	dba MagikarpIcon ; SHAYMIN
+	dba MagikarpIcon ; ARCEUS
 	assert_table_length NUM_POKEMON + 1

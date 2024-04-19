@@ -482,4 +482,15 @@ AnimationPointers:
 	dw UxieAnimation
 	dw MespritAnimation
 	dw AzelfAnimation
+	dw DialgaAnimation
+	dw PalkiaAnimation
+	dw HeatranAnimation
+	dw RegigigasAnimation
+	dw GiratinaAnimation
+	dw CresseliaAnimation
+	dw PhioneAnimation
+	dw ManaphyAnimation
+	dw DarkraiAnimation
+	dw ShayminAnimation
+	dw ArceusAnimation
 	assert_table_length NUM_POKEMON

@@ -97,17 +97,17 @@ EvosAttacksPointers4::
 	dw UxieEvosAttacks
 	dw MespritEvosAttacks
 	dw AzelfEvosAttacks
-	; dw DialgaEvosAttacks
-	; dw PalkiaEvosAttacks
-	; dw HeatranEvosAttacks
-	; dw RegigigasEvosAttacks
-	; dw GiratinaEvosAttacks
-	; dw CresseliaEvosAttacks
-	; dw PhioneEvosAttacks
-	; dw ManaphyEvosAttacks
-	; dw DarkraiEvosAttacks
-	; dw ShayminEvosAttacks
-	; dw ArceusEvosAttacks
+	dw DialgaEvosAttacks
+	dw PalkiaEvosAttacks
+	dw HeatranEvosAttacks
+	dw RegigigasEvosAttacks
+	dw GiratinaEvosAttacks
+	dw CresseliaEvosAttacks
+	dw PhioneEvosAttacks
+	dw ManaphyEvosAttacks
+	dw DarkraiEvosAttacks
+	dw ShayminEvosAttacks
+	dw ArceusEvosAttacks
 .IndirectEnd::
 
 TurtwigEvosAttacks:
@@ -588,179 +588,59 @@ AzelfEvosAttacks:
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
-; DialgaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCARY_FACE
-	; dbw 1, DRAGONBREATH
-	; dbw 10, METAL_CLAW
-	; dbw 20, ANCIENTPOWER
-	; dbw 30, DRAGON_CLAW
-	; dbw 40, ROAR_OF_TIME
-	; dbw 50, HEAL_BLOCK
-	; dbw 60, EARTH_POWER
-	; dbw 70, SLASH
-	; dbw 80, FLASH_CANNON
-	; dbw 90, AURA_SPHERE
-	; db 0 ; no more level-up moves
+DialgaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; PalkiaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCARY_FACE
-	; dbw 1, DRAGONBREATH
-	; dbw 10, WATER_PULSE
-	; dbw 20, ANCIENTPOWER
-	; dbw 30, DRAGON_CLAW
-	; dbw 40, SPACIAL_REND
-	; dbw 50, HEAL_BLOCK
-	; dbw 60, EARTH_POWER
-	; dbw 70, SLASH
-	; dbw 80, AQUA_TAIL
-	; dbw 90, AURA_SPHERE
-	; db 0 ; no more level-up moves
+PalkiaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
+	
+HeatranEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; HeatranEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, ANCIENTPOWER
-	; dbw 9, LEER
-	; dbw 17, FIRE_FANG
-	; dbw 25, METAL_SOUND
-	; dbw 33, CRUNCH
-	; dbw 41, SCARY_FACE
-	; dbw 49, LAVA_PLUME
-	; dbw 57, FIRE_SPIN
-	; dbw 65, IRON_HEAD
-	; dbw 73, EARTH_POWER
-	; dbw 81, HEAT_WAVE
-	; dbw 88, STONE_EDGE
-	; dbw 96, MAGMA_STORM
-	; db 0 ; no more level-up moves
+RegigigasEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; RegigigasEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, FIRE_PUNCH
-	; dbw 1, ICE_PUNCH
-	; dbw 1, THUNDERPUNCH
-	; dbw 1, CONFUSE_RAY
-	; dbw 1, DIZZY_PUNCH
-	; dbw 1, FORESIGHT
-	; dbw 1, KNOCK_OFF
-	; dbw 25, REVENGE
-	; dbw 50, ZEN_HEADBUTT
-	; dbw 75, CRUSH_GRIP
-	; dbw 100, GIGA_IMPACT
-	; db 0 ; no more level-up moves
+GiratinaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; GiratinaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SCARY_FACE
-	; dbw 1, DRAGONBREATH
-	; dbw 10, OMINOUS_WIND
-	; dbw 20, ANCIENTPOWER
-	; dbw 30, DRAGON_CLAW
-	; dbw 40, SHADOW_FORCE
-	; dbw 50, HEAL_BLOCK
-	; dbw 60, EARTH_POWER
-	; dbw 70, SLASH
-	; dbw 80, SHADOW_CLAW
-	; dbw 90, AURA_SPHERE
-	; db 0 ; no more level-up moves
+CresseliaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; CresseliaEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, CONFUSION
-	; dbw 1, DOUBLE_TEAM
-	; dbw 11, SAFEGUARD
-	; dbw 20, MIST
-	; dbw 29, AURORA_BEAM
-	; dbw 38, FUTURE_SIGHT
-	; dbw 47, SLASH
-	; dbw 57, MOONLIGHT
-	; dbw 66, PSYCHO_CUT
-	; dbw 75, PSYCHO_SHIFT
-	; dbw 84, LUNAR_DANCE
-	; dbw 93, PSYCHIC_M
-	; db 0 ; no more level-up moves
+PhioneEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; PhioneEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, BUBBLE
-	; dbw 1, WATER_SPORT
-	; dbw 9, CHARM
-	; dbw 16, SUPERSONIC
-	; dbw 24, BUBBLEBEAM
-	; dbw 31, ACID_ARMOR
-	; dbw 39, WHIRLPOOL
-	; dbw 46, WATER_PULSE
-	; dbw 54, AQUA_RING
-	; dbw 61, DIVE
-	; dbw 69, RAIN_DANCE
-	; db 0 ; no more level-up moves
+ManaphyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ManaphyEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, BUBBLE
-	; dbw 1, TAIL_GLOW
-	; dbw 1, WATER_SPORT
-	; dbw 9, CHARM
-	; dbw 16, SUPERSONIC
-	; dbw 24, BUBBLEBEAM
-	; dbw 31, ACID_ARMOR
-	; dbw 39, WHIRLPOOL
-	; dbw 46, WATER_PULSE
-	; dbw 54, AQUA_RING
-	; dbw 61, DIVE
-	; dbw 69, RAIN_DANCE
-	; dbw 76, HEART_SWAP
-	; db 0 ; no more level-up moves
+DarkraiEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; DarkraiEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, DISABLE
-	; dbw 1, OMINOUS_WIND
-	; dbw 11, QUICK_ATTACK
-	; dbw 20, HYPNOSIS
-	; dbw 29, FAINT_ATTACK
-	; dbw 38, NIGHTMARE
-	; dbw 47, DOUBLE_TEAM
-	; dbw 57, HAZE
-	; dbw 66, DARK_VOID
-	; dbw 75, NASTY_PLOT
-	; dbw 84, DREAM_EATER
-	; dbw 93, DARK_PULSE
-	; db 0 ; no more level-up moves
+ShayminEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
-; ShayminEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, GROWTH
-	; dbw 10, MAGICAL_LEAF
-	; dbw 19, LEECH_SEED
-	; dbw 28, SYNTHESIS
-	; dbw 37, SWEET_SCENT
-	; dbw 46, NATURAL_GIFT
-	; dbw 55, WORRY_SEED
-	; dbw 64, AROMATHERAPY
-	; dbw 73, ENERGY_BALL
-	; dbw 82, SWEET_KISS
-	; dbw 91, HEALING_WISH
-	; dbw 100, SEED_FLARE
-	; db 0 ; no more level-up moves
-
-; ArceusEvosAttacks:
-	; db 0 ; no more evolutions
-	; dbw 1, SEISMIC_TOSS
-	; dbw 1, COSMIC_POWER
-	; dbw 1, NATURAL_GIFT
-	; dbw 1, PUNISHMENT
-	; dbw 10, GRAVITY
-	; dbw 20, EARTH_POWER
-	; dbw 30, HYPER_VOICE
-	; dbw 40, EXTREMESPEED
-	; dbw 50, REFRESH
-	; dbw 60, FUTURE_SIGHT
-	; dbw 70, RECOVER
-	; dbw 80, HYPER_BEAM
-	; dbw 90, PERISH_SONG
-	; dbw 100, JUDGMENT
-	; db 0 ; no more level-up moves
+ArceusEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	db 0 ; no more level-up moves
 
 ENDSECTION

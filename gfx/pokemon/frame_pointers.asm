@@ -482,4 +482,15 @@ FramesPointers:
 	dba UxieFrames
 	dba MespritFrames
 	dba AzelfFrames
+	dba DialgaFrames
+	dba PalkiaFrames
+	dba HeatranFrames
+	dba RegigigasFrames
+	dba GiratinaFrames
+	dba CresseliaFrames
+	dba PhioneFrames
+	dba ManaphyFrames
+	dba DarkraiFrames
+	dba ShayminFrames
+	dba ArceusFrames
 	assert_table_length NUM_POKEMON

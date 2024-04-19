@@ -351,7 +351,7 @@ ROMX $87
 ROMX $88
 	"Pics 26"
 ROMX $89
-	"Pokedex Entries 342-???"
+	"Pokedex Entries 342-489"
 ROMX $8a
 	"Pics 27"
 ROMX $8c
@@ -373,6 +373,8 @@ ROMX $94
 	"Pics 31"
 ROMX $95
 	"Pics 32"
+ROMX $96
+	"Pokedex Entries 490-???"
 WRAM0
 	"Stack"
 	"Audio RAM"

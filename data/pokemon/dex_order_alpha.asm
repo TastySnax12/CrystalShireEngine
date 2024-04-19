@@ -15,6 +15,7 @@ AlphabeticalPokedexOrder:
 	dw ANORITH
 	dw ARBOK
 	dw ARCANINE
+	dw ARCEUS
 	dw ARIADOS
 	dw ARMALDO
 	dw ARON
@@ -82,15 +83,18 @@ AlphabeticalPokedexOrder:
 	dw CRADILY
 	dw CRANIDOS
 	dw CRAWDAUNT
+	dw CRESSELIA
 	dw CROAGUNK
 	dw CROBAT
 	dw CROCONAW
 	dw CUBONE
 	dw CYNDAQUIL
+	dw DARKRAI
 	dw DELCATTY
 	dw DELIBIRD
 	dw DEOXYS
 	dw DEWGONG
+	dw DIALGA
 	dw DIGLETT
 	dw DITTO
 	dw DODRIO
@@ -144,6 +148,7 @@ AlphabeticalPokedexOrder:
 	dw GEODUDE
 	dw GIBLE
 	dw GIRAFARIG
+	dw GIRATINA
 	dw GLACEON
 	dw GLALIE
 	dw GLAMEOW
@@ -168,6 +173,7 @@ AlphabeticalPokedexOrder:
 	dw HAPPINY
 	dw HARIYAMA
 	dw HAUNTER
+	dw HEATRAN
 	dw HERACROSS
 	dw HIPPOPOTAS
 	dw HIPPOWDON
@@ -244,6 +250,7 @@ AlphabeticalPokedexOrder:
 	dw MAGNEZONE
 	dw MAKUHITA
 	dw MAMOSWINE
+	dw MANAPHY
 	dw MANECTRIC
 	dw MANKEY
 	dw MANTINE
@@ -299,11 +306,13 @@ AlphabeticalPokedexOrder:
 	dw OMASTAR
 	dw ONIX
 	dw PACHIRISU
+	dw PALKIA
 	dw PARAS
 	dw PARASECT
 	dw PELIPPER
 	dw PERSIAN
 	dw PHANPY
+	dw PHIONE
 	dw PICHU
 	dw PIDGEOT
 	dw PIDGEOTTO
@@ -341,6 +350,7 @@ AlphabeticalPokedexOrder:
 	dw RATTATA
 	dw RAYQUAZA
 	dw REGICE
+	dw REGIGIGAS
 	dw REGIROCK
 	dw REGISTEEL
 	dw RELICANTH
@@ -367,6 +377,7 @@ AlphabeticalPokedexOrder:
 	dw SENTRET
 	dw SEVIPER
 	dw SHARPEDO
+	dw SHAYMIN
 	dw SHEDINJA
 	dw SHELGON
 	dw SHELLDER

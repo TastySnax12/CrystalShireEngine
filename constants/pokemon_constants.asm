@@ -504,6 +504,17 @@ DEF SINNOH_POKEMON EQU const_value
 	const UXIE       ; 240
 	const MESPRIT    ; 241
 	const AZELF      ; 242
+	const DIALGA     ; 243
+	const PALKIA     ; 244
+	const HEATRAN    ; 245
+	const REGIGIGAS  ; 246
+	const GIRATINA   ; 247
+	const CRESSELIA  ; 248
+	const PHIONE     ; 249
+	const MANAPHY    ; 24a
+	const DARKRAI    ; 24b
+	const SHAYMIN    ; 24c
+	const ARCEUS     ; 24d
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

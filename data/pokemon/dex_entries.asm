@@ -354,7 +354,7 @@ BarboachPokedexEntry::   INCLUDE "data/pokemon/dex_entries/barboach.asm"
 WhiscashPokedexEntry::   INCLUDE "data/pokemon/dex_entries/whiscash.asm"
 CorphishPokedexEntry::   INCLUDE "data/pokemon/dex_entries/corphish.asm"
 
-SECTION "Pokedex Entries 342-???", ROMX
+SECTION "Pokedex Entries 342-489", ROMX
 
 CrawdauntPokedexEntry::  INCLUDE "data/pokemon/dex_entries/crawdaunt.asm"
 BaltoyPokedexEntry::     INCLUDE "data/pokemon/dex_entries/baltoy.asm"
@@ -497,3 +497,19 @@ RotomPokedexEntry::      INCLUDE "data/pokemon/dex_entries/rotom.asm"
 UxiePokedexEntry::       INCLUDE "data/pokemon/dex_entries/uxie.asm"
 MespritPokedexEntry::    INCLUDE "data/pokemon/dex_entries/mesprit.asm"
 AzelfPokedexEntry::      INCLUDE "data/pokemon/dex_entries/azelf.asm"
+DialgaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/dialga.asm"
+PalkiaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/palkia.asm"
+HeatranPokedexEntry::    INCLUDE "data/pokemon/dex_entries/heatran.asm"
+RegigigasPokedexEntry::  INCLUDE "data/pokemon/dex_entries/regigigas.asm"
+GiratinaPokedexEntry::   INCLUDE "data/pokemon/dex_entries/giratina.asm"
+CresseliaPokedexEntry::  INCLUDE "data/pokemon/dex_entries/cresselia.asm"
+PhionePokedexEntry::     INCLUDE "data/pokemon/dex_entries/phione.asm"
+
+
+
+SECTION "Pokedex Entries 490-???", ROMX
+
+ManaphyPokedexEntry::    INCLUDE "data/pokemon/dex_entries/manaphy.asm"
+DarkraiPokedexEntry::    INCLUDE "data/pokemon/dex_entries/darkrai.asm"
+ShayminPokedexEntry::    INCLUDE "data/pokemon/dex_entries/shaymin.asm"
+ArceusPokedexEntry::     INCLUDE "data/pokemon/dex_entries/arceus.asm"

@@ -492,4 +492,15 @@ MonMenuIconPals:
 	icon_pals BROWN,  BROWN  ; UXIE
 	icon_pals PINK,   BROWN  ; MESPRIT
 	icon_pals BLUE,   BROWN  ; AZELF
+	icon_pals BLUE,   GREEN  ; DIALGA
+	icon_pals PINK,   PINK   ; PALKIA
+	icon_pals BROWN,  RED    ; HEATRAN
+	icon_pals GREEN,  BLUE   ; REGIGIGAS
+	icon_pals RED,    BLUE   ; GIRATINA
+	icon_pals PINK,   PURPLE ; CRESSELIA
+	icon_pals BLUE,   TEAL   ; PHIONE
+	icon_pals BLUE,   TEAL   ; MANAPHY
+	icon_pals GRAY,   PURPLE ; DARKRAI
+	icon_pals GREEN,  TEAL   ; SHAYMIN
+	icon_pals GRAY,   BROWN  ; ARCEUS
 	assert_table_length NUM_POKEMON

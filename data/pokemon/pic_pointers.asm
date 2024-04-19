@@ -980,4 +980,26 @@ PokemonPicPointers::
 	dba MespritBackpic
 	dba AzelfFrontpic
 	dba AzelfBackpic
+	dba DialgaFrontpic
+	dba DialgaBackpic
+	dba PalkiaFrontpic
+	dba PalkiaBackpic
+	dba HeatranFrontpic
+	dba HeatranBackpic
+	dba RegigigasFrontpic
+	dba RegigigasBackpic
+	dba GiratinaFrontpic
+	dba GiratinaBackpic
+	dba CresseliaFrontpic
+	dba CresseliaBackpic
+	dba PhioneFrontpic
+	dba PhioneBackpic
+	dba ManaphyFrontpic
+	dba ManaphyBackpic
+	dba DarkraiFrontpic
+	dba DarkraiBackpic
+	dba ShayminFrontpic
+	dba ShayminBackpic
+	dba ArceusFrontpic
+	dba ArceusBackpic
 	assert_table_length NUM_POKEMON + 1

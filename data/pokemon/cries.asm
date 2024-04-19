@@ -488,4 +488,15 @@ PokemonCries::
 	mon_cry CRY_RATTATA,       0,  0   ; UXIE
 	mon_cry CRY_RATTATA,       0,  0   ; MESPRIT
 	mon_cry CRY_RATTATA,       0,  0   ; AZELF
+	mon_cry CRY_RATTATA,       0,  0   ; DIALGA
+	mon_cry CRY_RATTATA,       0,  0   ; PALKIA
+	mon_cry CRY_RATTATA,       0,  0   ; HEATRAN
+	mon_cry CRY_RATTATA,       0,  0   ; REGIGIGAS
+	mon_cry CRY_RATTATA,       0,  0   ; GIRATINA
+	mon_cry CRY_RATTATA,       0,  0   ; CRESSELIA
+	mon_cry CRY_RATTATA,       0,  0   ; PHIONE
+	mon_cry CRY_RATTATA,       0,  0   ; MANAPHY
+	mon_cry CRY_RATTATA,       0,  0   ; DARKRAI
+	mon_cry CRY_RATTATA,       0,  0   ; SHAYMIN
+	mon_cry CRY_RATTATA,       0,  0   ; ARCEUS
 	assert_table_length NUM_POKEMON
