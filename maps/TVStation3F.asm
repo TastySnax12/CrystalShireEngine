@@ -8,16 +8,6 @@ TVStation3F_MapScripts:
 TVStation3F_RecordGirlScript:
 	jumptextfaceplayer .Text
 .Text:
-IF DEF(_DEMO1)
-	text "Sorry, but the"
-	line "GLOBAL RANKING"
-	cont "ROOM is undergoing"
-	cont "maintainence."
-
-	para "Please return in a"
-	line "later version."
-	done
-ELSE
 	text "The room closes to"
 	line "the stairs is the"
 	cont "GROUP RANKING"
@@ -28,21 +18,10 @@ ELSE
 	cont "the GLOBAL RANKING"
 	cont "ROOM."
 	done
-ENDC
 
 TVStation3F_RecordGuyScript:
 	jumptextfaceplayer .Text
 .Text:
-IF DEF(_DEMO1)
-	text "Sorry, but the"
-	line "GROUP RANKING"
-	cont "ROOM is undergoing"
-	cont "maintainence."
-
-	para "Please return in a"
-	line "later version."
-	done
-ELSE
 	text "Records are fine"
 	line "things. They tell"
 	cont "you the history of"
@@ -53,7 +32,6 @@ ELSE
 	cont "stories behind all"
 	cont "those numbers!"
 	done
-ENDC
 
 TVStation3F_TradeGirlScript:
 	jumptextfaceplayer .Text
@@ -95,12 +73,6 @@ TVStation3F_MapEvents:
 	def_bg_events
 
 	def_object_events
-IF DEF(_DEMO1)
-	object_event  1,  1, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TVStation3F_RecordGirlScript, -1
-	object_event  3,  1, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TVStation3F_RecordGuyScript, -1
-ELSE
 	object_event  2,  1, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TVStation3F_RecordGirlScript, -1
 	object_event  9,  2, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TVStation3F_RecordGuyScript, -1
-ENDC
-;	object_event  6,  8, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TVStation3F_InterviewGuyScript, -1
 	object_event  7,  8, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TVStation3F_TradeGirlScript, -1

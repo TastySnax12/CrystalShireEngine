@@ -586,10 +586,7 @@ OreburghCity_MapEvents:
 	def_object_events
 	object_event 22, 12, SPRITE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_RivalScript, EVENT_OREBURGH_CITY_RIVAL
 	object_event 10,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_GymKidScript, -1
-;	object_event 13, 14, SPRITE_WORKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_VentWorkerScript, -1
-;	object_event 22,  6, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_VentGuyScript, -1
 	object_event 28,  9, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_GymLeaderWomanScript, -1
-;	object_event 32, 10, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_RunningShoesGirlScript, -1
 	object_event 30, 13, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_TMHMGirlScript, -1
 	object_event 40, 11, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_FossilGirlScript, -1
 	object_event 37, 16, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_MtCoronetGuyScript, -1
@@ -598,6 +595,4 @@ OreburghCity_MapEvents:
 	object_event 32, 29, SPRITE_WORKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_SlagHeapGuyScript, -1
 	object_event 44, 30, SPRITE_WORKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghCity_SuperPotionGuyScript, -1
 	object_event 32, 26, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, OreburghCity_DireHitScript, EVENT_OREBURGH_CITY_DIRE_HIT
-;	object_event 33, 30, SPRITE_LUCAS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
-;	object_event 42, 27, SPRITE_LUCAS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 45, 32, SPRITE_MACHOP, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OreburghCity_MachopScript, -1

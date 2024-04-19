@@ -201,53 +201,6 @@ OreburghMineB2F_Machop3Script:
 	text "MACHOP: Maaacho!"
 	done
 
-OreburghMineB2F_DemoMiningGameScript:
-	faceplayer
-	checkflag ENGINE_COALBADGE
-	iffalse .ComeBack
-	opentext
-	writetext .WannaMineText
-	yesorno
-	iffalse .SaidNo
-	special MiningGame
-	closetext
-	end
-
-.SaidNo:
-	writetext .NoText
-	waitbutton
-	closetext
-	end
-
-.ComeBack:
-	jumptext .ComeBackText
-
-.WannaMineText:
-	text "Hi! We're a bit"
-	line "short-handed right"
-	cont "now."
-
-	para "Would you like to"
-	line "help out?"
-	done
-
-.NoText:
-	text "That's all right."
-
-	para "Come back if you"
-	line "change your mind."
-	done
-
-.ComeBackText:
-	text "Hi! We don't need"
-	line "any help mining"
-	cont "right now."
-
-	para "Maybe you can come"
-	line "back after you've"
-	cont "got a GYM BADGE."
-	done
-
 OreburghMineB2F_MapEvents:
 	db 0, 0 ; filler
 
@@ -271,4 +224,3 @@ OreburghMineB2F_MapEvents:
 	object_event 14, 22, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghMineB2F_RockScript, -1
 	object_event  2, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, OreburghMineB2F_EscapeRopeScript, EVENT_OREBURGH_MINE_B2F_ESCAPE_ROPE
 	object_event 22, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, OreburghMineB2F_PotionScript, EVENT_OREBURGH_MINE_B2F_POTION
-	object_event  5, 17, SPRITE_WORKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OreburghMineB2F_DemoMiningGameScript, -1
