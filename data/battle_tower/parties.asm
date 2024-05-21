@@ -906,7 +906,7 @@ BattleTowerMons:
 	db "PUKURIN@@@@"
 
 	dw WIGGLYTUFF
-	dw PINK_BOW
+	dw SILK_SCARF
 	dw PSYCHIC_M, SWAGGER, PSYCH_UP, HEADBUTT
 
 	dw 0 ; OT ID
@@ -2735,7 +2735,7 @@ BattleTowerMons:
 	db "HAPINASU@@@"
 
 	dw SNORLAX
-	dw PINK_BOW
+	dw SILK_SCARF
 	dw ROCK_SLIDE, SURF, BODY_SLAM, EARTHQUAKE
 
 	dw 0 ; OT ID
@@ -4331,7 +4331,7 @@ BattleTowerMons:
 	db "MIRUTANKU@@"
 
 	dw TAUROS
-	dw PINK_BOW
+	dw SILK_SCARF
 	dw THUNDERBOLT, HYPER_BEAM, ATTRACT, EARTHQUAKE
 
 	dw 0 ; OT ID

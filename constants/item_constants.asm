@@ -93,7 +93,7 @@
 	const PNK_APRICORN ; 0055
 	const BLACKGLASSES ; 0056
 	const SLOWPOKETAIL ; 0057
-	const PINK_BOW     ; 0058
+	const SILK_SCARF   ; 0058
 	const STICK        ; 0059
 	const SMOKE_BALL   ; 005A
 	const NEVERMELTICE ; 005B
