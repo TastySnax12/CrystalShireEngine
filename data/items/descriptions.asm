@@ -168,8 +168,122 @@ ItemDescriptions1:
 	dw QuestionMarkDesc ; 009D
 	dw QuestionMarkDesc ; 009E
 	dw QuestionMarkDesc ; 009F
-
-	dw OddKeystoneDesc ; 00DA
+	; 
+	; dw LavaCookieDesc   ; 00A0
+	; dw OldGateauDesc    ; 00A1
+	; dw PPMaxDesc        ; 00A2
+	; dw XSPDefDesc       ; 00A3
+	; dw FluffyTailDesc   ; 00A4
+	; dw BlueFluteDesc    ; 00A5
+	; dw YellowFluteDesc  ; 00A6
+	; dw RedFluteDesc     ; 00A7
+	; dw BlackFluteDesc   ; 00A8
+	; dw WhiteFluteDesc   ; 00A9
+	; dw ShoalSaltDesc    ; 00AA
+	; dw ShoalShellDesc   ; 00AB
+	; dw RedShardDesc     ; 00AC
+	; dw BlueShardDesc    ; 00AD
+	; dw YellowShardDesc  ; 00AE
+	; dw GreenShardDesc   ; 00AF
+	; dw HeartScaleDesc   ; 00B0
+	; dw HoneyDesc        ; 00B1
+	; dw RootFossilDesc   ; 00B2
+	; dw ClawFossilDesc   ; 00B3
+	; dw HelixFossilDesc  ; 00B4
+	; dw DomeFossilDesc   ; 00B5
+	; dw OldAmberDesc     ; 00B6
+	; dw SkullFossilDesc  ; 00B7
+	; dw ArmorFossilDesc  ; 00B8
+	; dw RareBoneDesc     ; 00B9
+	; dw ShinyStoneDesc   ; 00BA
+	; dw DuskStoneDesc    ; 00BB
+	; dw DawnStoneDesc    ; 00BC
+	; dw OvalStoneDesc    ; 00BD
+	dw OddKeystoneDesc  ; 00BE
+	; dw GriseousOrbDesc  ; 00BF
+	; dw AdamantOrbDesc   ; 00C0
+	; dw LustrousOrbDesc  ; 00C1
+	; dw WhiteHerbDesc    ; 00C2
+	; dw MachoBraceDesc   ; 00C3
+	; dw SootheBellDesc   ; 00C4
+	; dw MentalHerbDesc   ; 00C5
+	; dw ChoiceBandDesc   ; 00C6
+	; dw SoulDewDesc      ; 00C7
+	; dw DeepSeaToothDesc ; 00C8
+	; dw DeepSeaScaleDesc ; 00C9
+	; dw ShellBellDesc    ; 00CA
+	; dw SeaIncenseDesc   ; 00CB
+	; dw LaxIncenseDesc   ; 00CC
+	; dw RedScarfDesc     ; 00CD
+	; dw BlueScarfDesc    ; 00CE
+	; dw PinkScarfDesc    ; 00CF
+	; dw GreenScarfDesc   ; 00D0
+	; dw YellowScarfDesc  ; 00D1
+	; dw WideLensDesc     ; 00D2
+	; dw MuscleBandDesc   ; 00D3
+	; dw WiseGlassesDesc  ; 00D4
+	; dw ExpertBeltDesc   ; 00D5
+	; dw LightClayDesc    ; 00D6
+	; dw LifeOrbDesc      ; 00D7
+	; dw PowerHerbDesc    ; 00D8
+	; dw ToxicOrbDesc     ; 00D9
+	; dw FlameOrbDesc     ; 00DA
+	; dw QuickPowderDesc  ; 00DB
+	; dw FocusSashDesc    ; 00DC
+	; dw ZoomLensDesc     ; 00DD
+	; dw MetronomeDesc    ; 00DE
+	; dw IronBallDesc     ; 00DF
+	; dw LaggingTailDesc  ; 00E0
+	; dw DestinyKnowDesc  ; 00E1
+	; dw BlackSludgeDesc  ; 00E2
+	; dw IcyRockDesc      ; 00E3
+	; dw SmoothRockDesc   ; 00E4
+	; dw HeatRockDesc     ; 00E5
+	; dw DampRockDesc     ; 00E6
+	; dw GripClawDec      ; 00E7
+	; dw ChoiceScarfDesc  ; 00E8
+	; dw StickyBarbDesc   ; 00E9
+	; dw PowerBracerDesc  ; 00EA
+	; dw PowerBeltDesc    ; 00EB
+	; dw PowerLensDesc    ; 00EC
+	; dw PowerBandDesc    ; 00ED
+	; dw PowerAnkletDesc  ; 00EE
+	; dw PowerWeightDesc  ; 00EF
+	; dw ShedShellDesc    ; 00F0
+	; dw BigRootDesc      ; 00F1
+	; dw ChoiceSpecsDesc  ; 00F2
+	; dw FlamePlateDesc   ; 00F3
+	; dw SplashPlateDesc  ; 00F4
+	; dw ZapPlateDesc     ; 00F5
+	; dw MeadowPlateDesc  ; 00F6
+	; dw IciclePlateDesc  ; 00F7
+	; dw FistPlateDesc    ; 00F8
+	; dw ToxicPlateDesc   ; 00F9
+	; dw EarthPlateDesc   ; 00FA
+	; dw SkyPlateDesc     ; 00FB
+	; dw MindPlateDesc    ; 00FC
+	; dw InsectPlateDesc  ; 00FD
+	; dw StonePlateDesc   ; 00FE
+	; dw SpookyPlateDesc  ; 00FF
+	; dw DracoPlateDesc   ; 0000
+	; dw DreadPlateDesc   ; 0000
+	; dw IronPlateDesc    ; 0000
+	; dw OddIncenseDesc   ; 0000
+	; dw RockIncenseDesc  ; 0000
+	; dw FullIncenseDesc  ; 0000
+	; dw WaveIncenseDesc  ; 0000
+	; dw RoseIncenseDesc  ; 0000
+	; dw LuckIncenseDesc  ; 0000
+	; dw PureIncenseDesc  ; 0000
+	; dw ProtectorDesc    ; 0000
+	; dw ElectirizerDesc  ; 0000
+	; dw MagmarizerDesc   ; 0000
+	; dw DubiousDiscDesc  ; 0000
+	; dw ReaperClothDesc  ; 0000
+	; dw RazorClawDesc    ; 0000
+	; dw RazorFangDesc    ; 0000
+	; dw PrismScaleDesc   ; 0000
+	
 .IndirectEnd:
 
 ItemDescriptionsKeyItems:
@@ -179,25 +293,27 @@ ItemDescriptionsKeyItems:
 	dw OldRodDesc       ; 0103
 	dw GoodRodDesc      ; 0104
 	dw SuperRodDesc     ; 0105
-	dw RedScaleDesc     ; 0106
-	dw SecretPotionDesc ; 0107
-	dw SSTicketDesc     ; 0108
-	dw MysteryEggDesc   ; 0109
-	dw ClearBellDesc    ; 010A
-	dw SilverWingDesc   ; 010B
-	dw GSBallDesc       ; 010C
-	dw BlueCardDesc     ; 010D
-	dw CardKeyDesc      ; 010E
-	dw MachinePartDesc  ; 010F
-	dw EggTicketDesc    ; 0110
-	dw LostItemDesc     ; 0111
-	dw BasementKeyDesc  ; 0112
-	dw PassDesc         ; 0113
-	dw SquirtBottleDesc ; 0114
-	dw RainbowWingDesc  ; 0115
-	dw QuestionMarkDesc ; 0116
-	dw QuestionMarkDesc ; 0117
-	dw QuestionMarkDesc ; 0118
+	dw RedScaleDesc     ; 0106 (dw OldCharmDesc     ; 0106)
+	dw SecretPotionDesc ; 0107 
+	dw SSTicketDesc     ; 0108 (dw MemberCardDesc   ; 0108)
+	dw MysteryEggDesc   ; 0109 (dw OaksLetterDesc   ; 0109)
+	dw ClearBellDesc    ; 010A (dw LunarWingDesc    ; 010A)
+	dw SilverWingDesc   ; 010B (dw GracideaDesc     ; 010B)
+	dw GSBallDesc       ; 010C (dw AzureFluteDesc   ; 010C)
+	dw BlueCardDesc     ; 010D (dw PointCardDesc    ; 010D)
+	dw CardKeyDesc      ; 010E (dw WorksKeyDesc     ; 010E)
+	dw MachinePartDesc  ; 010F (dw SuiteKeyDesc     ; 010F)
+	dw EggTicketDesc    ; 0110 (dw StorageKeyDesc   ; 0110)
+	dw LostItemDesc     ; 0111 (dw SecretKeyDesc    ; 0111)
+	dw BasementKeyDesc  ; 0112 (dw GalacticKeyDesc  ; 0112)
+	dw PassDesc         ; 0113 (dw ExplorerKitDesc  ; 0113)
+	dw SquirtBottleDesc ; 0114 (dw SprayduckDesc    ; 0114)
+	dw RainbowWingDesc  ; 0115 (dw MagmaStoneDesc   ; 0115)
+	dw QuestionMarkDesc ; 0116 (dw JournalDesc      ; 0116)
+	dw QuestionMarkDesc ; 0117 (dw ParcelDesc       ; 0117)
+	dw QuestionMarkDesc ; 0118 (dw CouponDesc       ; 0118)
+	; dw PokeRadarDesc    ; 0119
+	; dw VSSeekerDesc     ; 011A
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -222,6 +338,8 @@ ItemDescriptionsBalls:
 	dw DuskBallDesc   ; 0212
 	dw HealBallDesc   ; 0213
 	dw QuickBallDesc  ; 0214
+	; const PREMIER_BALL ; 0215
+	; const SAFARI_BALL  ; 0216
 .IndirectEnd:
 
 MasterBallDesc:
@@ -924,3 +1042,456 @@ QuickBallDesc:
 OddKeystoneDesc:
 	db   "Keeps a tower from"
 	next "from collapsing.@"
+
+; LavaCookieDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; OldGateauDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PPMaxDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; XSPDefDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; FluffyTailDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; BlueFluteDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; YellowFluteDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RedFluteDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; BlackFluteDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; WhiteFluteDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ShoalSaltDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ShoalShellDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RedShardDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; BlueShardDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; YellowShardDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; GreenShardDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; HeartScaleDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; HoneyDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RootFossilDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ClawFossilDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; HelixFossilDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DomeFossilDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; OldAmberDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SkullFossilDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ArmorFossilDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RareBoneDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ShinyStoneDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DuskStoneDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DawnStoneDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; OvalStoneDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; GriseousOrbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; AdamantOrbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; LustrousOrbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; WhiteHerbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; MachoBraceDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SootheBellDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; MentalHerbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ChoiceBandDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SoulDewDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DeepSeaToothDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DeepSeaScaleDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ShellBellDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SeaIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; LaxIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RedScarfDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; BlueScarfDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PinkScarfDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; GreenScarfDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; YellowScarfDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; WideLensDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; MuscleBandDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; WiseGlassesDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ExpertBeltDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; LightClayDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; LifeOrbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PowerHerbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ToxicOrbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; FlameOrbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; QuickPowderDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; FocusSashDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ZoomLensDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; MetronomeDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; IronBallDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; LaggingTailDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DestinyKnowDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; BlackSludgeDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; IcyRockDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SmoothRockDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; HeatRockDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DampRockDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; GripClawDec:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ChoiceScarfDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; StickyBarbDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PowerBracerDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PowerBeltDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PowerLensDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PowerBandDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PowerAnkletDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PowerWeightDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ShedShellDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; BigRootDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ChoiceSpecsDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; FlamePlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SplashPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ZapPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; MeadowPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; IciclePlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; FistPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ToxicPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; EarthPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SkyPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; MindPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; InsectPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; StonePlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; SpookyPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DracoPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DreadPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; IronPlateDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; OddIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RockIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; FullIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; WaveIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RoseIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; LuckIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PureIncenseDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ProtectorDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ElectirizerDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; MagmarizerDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; DubiousDiscDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; ReaperClothDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RazorClawDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; RazorFangDesc:
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
+; PrismScaleDesc::
+	; db   "@@@@@@@@@@@@@@@@@@"
+	; next "@@@@@@@@@@@@@@@@@@"
+	
